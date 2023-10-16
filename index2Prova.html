@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library Catalog</title>
+    <style>
+        .catalog-entry {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Library Catalog</h1>
+    <!-- Add this section below the "Pagination controls" div -->
+<div id="search-form">
+    <form id="search-form">
+        <label for="search-authors">Search by Author:</label>
+        <input type="text" id="search-authors" name="search-authors" placeholder="Author">
+        <br>
+        <label for="search-titles">Search by Title:</label>
+        <input type="text" id="search-titles" name="search-titles" placeholder="Title">
+        <br>
+        <button type="submit">Search</button>
+    </form>
+</div>
+
+    <div id="catalog">
+    </div>
+ <!-- Pagination controls -->
+ <div id="pagination">
+    <div id="result-info">Results 1-100 of 2,278 total</div>
+
+    <button id="prev-page">Previous Page</button>
+    <span id="page-info">Page 1</span>
+    <button id="next-page">Next Page</button>
+</div>
+
+
+   
+
+    <script>
+   // Add event listener to a common ancestor element of your form(s)
+document.querySelector("#search-form").addEventListener("submit", handleSearchSubmit);
+
+function handleSearchSubmit(e) {
+  e.preventDefault();
+
+  const authorInput = document.querySelector("#search-authors");
+  const titleInput = document.querySelector("#search-titles");
+
+  if (authorInput && titleInput) {
+    const authorQuery = authorInput.value;
+    const titleQuery = titleInput.value;
+
+    const searchResults = filterData(authorQuery, titleQuery);
+
+    updateItemsPerPage(1);
+    displayCatalog(searchResults);
+  } else {
+    console.error("One or both input elements not found in the DOM.");
+  }
+}
+
+function filterData(authorQuery, titleQuery) {
+  if (authorQuery === null || titleQuery === null) {
+    console.error("AuthorQuery or TitleQuery is null.");
+    return [];
+  }
+
+  return jsonData.filter(item => {
+    return (
+      (item.Authors || '').toLowerCase().includes(authorQuery.toLowerCase()) &&
+      (item.Title || '').toLowerCase().includes(titleQuery.toLowerCase())
+    );
+  });
+}
+
+
+
+
+
+
+
+
+
+        // Sample JSON data
+        var jsonData = 
+        [
+   
+        {
+      "Unnamed: 0":0.0,
+      "Authors":"Abba, Giuseppe Cesare",
+      "Title":"Ricordi garibaldini",
+      "Cities":"Torino",
+      "Publisher":"Sten",
+      "Years":1913,
+      "Fund":"BTB Segn. 1493",
+      "Segni":null,
+      "Category":"IL"
+   },
+   {
+      "Unnamed: 0":0.0,
+      "Authors":"Abba, Giuseppe Cesare",
+      "Title":"Ricordi garibaldini",
+      "Cities":"Torino",
+      "Publisher":"Sten",
+      "Years":1913,
+      "Fund":"BTB Segn. 1493",
+      "Segni":null,
+      "Category":"IL"
+   },
+   {
+      "Unnamed: 0":0.0,
+      "Authors":"Abba, Giuseppe Cesare",
+      "Title":"Ricordi garibaldini",
+      "Cities":"Torino",
+      "Publisher":"Sten",
+      "Years":1913,
+      "Fund":"BTB Segn. 1493",
+      "Segni":null,
+      "Category":"IL"
+   },
+   {
+      "Unnamed: 0":0.0,
+      "Authors":"Abba, Giuseppe Cesare",
+      "Title":"Ricordi garibaldini",
+      "Cities":"Torino",
+      "Publisher":"Sten",
+      "Years":1913,
+      "Fund":"BTB Segn. 1493",
+      "Segni":null,
+      "Category":"IL"
+   },
+   {
+      "Unnamed: 0":0.0,
+      "Authors":"Abba, Giuseppe Cesare",
+      "Title":"Ricordi garibaldini",
+      "Cities":"Torino",
+      "Publisher":"Sten",
+      "Years":1913,
+      "Fund":"BTB Segn. 1493",
+      "Segni":null,
+      "Category":"IL"
+   },{
+      "Unnamed: 0":0.0,
+      "Authors":"Abba, Giuseppe Cesare",
+      "Title":"Ricordi garibaldini",
+      "Cities":"Torino",
+      "Publisher":"Sten",
+      "Years":1913,
+      "Fund":"BTB Segn. 1493",
+      "Segni":null,
+      "Category":"IL"
+   },{
+      "Unnamed: 0":0.0,
+      "Authors":"Abba, Giuseppe Cesare",
+      "Title":"Ricordi garibaldini",
+      "Cities":"Torino",
+      "Publisher":"Sten",
+      "Years":1913,
+      "Fund":"BTB Segn. 1493",
+      "Segni":null,
+      "Category":"IL"
+   },{
+      "Unnamed: 0":0.0,
+      "Authors":"Abba, Giuseppe Cesare",
+      "Title":"Ricordi garibaldini",
+      "Cities":"Torino",
+      "Publisher":"Sten",
+      "Years":1913,
+      "Fund":"BTB Segn. 1493",
+      "Segni":null,
+      "Category":"IL"
+   },{
+      "Unnamed: 0":0.0,
+      "Authors":"Abba, Giuseppe Cesare",
+      "Title":"Ricordi garibaldini",
+      "Cities":"Torino",
+      "Publisher":"Sten",
+      "Years":1913,
+      "Fund":"BTB Segn. 1493",
+      "Segni":null,
+      "Category":"IL"
+   },{
+      "Unnamed: 0":1.0,
+      "Authors":"Abernethy, Silvia M.",
+      "Title":"Something to read. Qualcosa da leggere in inglese. Letture per gli studenti di inglese",
+      "Cities":"Firenze  ",
+      "Publisher":"La Nuova Italia",
+      "Years":1946,
+      "Fund":"BTB Segn. 2404",
+      "Segni":null,
+      "Category":"L"
+   },{
+      "Unnamed: 0":2.0,
+      "Authors":"Abetti, Giorgio",
+      "Title":"Amici e nemici di Galileo",
+      "Cities":"Milano",
+      "Publisher":"Bompiani",
+      "Years":1945,
+      "Fund":"BTB Segn. 743",
+      "Segni":null,
+      "Category":"IL"
+   },{
+      "Unnamed: 0":3.0,
+      "Authors":"Abraham, Pierre",
+      "Title":"Cr\u00e9atures chez Balzac. Recherches sur la r\u00e9alisation intellectuelle. Avec un texte in\u00e9dit de Balzac",
+      "Cities":"Paris",
+      "Publisher":"NRF-Gallimard",
+      "Years":1931,
+      "Fund":"BTB Segn. 1116.",
+      "Segni":"Nota di possesso autografa in data 10.1931. Pieghe, sottolineature, postille.",
+      "Category":"FL"
+   },{
+      "Unnamed: 0":4.0,
+      "Authors":"Accademia Nazionale dei Lincei",
+      "Title":"Adunanza straordinaria pubblica Roma 14 novembre 1967",
+      "Cities":"Roma",
+      "Publisher":"Accademia Nazionale dei Lincei",
+      "Years":1967,
+      "Fund":"BTB Segn. Op.22",
+      "Segni":null,
+      "Category":"v"
+   },{
+      "Unnamed: 0":5.0,
+      "Authors":"Not found",
+      "Title":"L\u2019acquedotto del Flora in Maremma. Una grande opera voluta dal Duce",
+      "Cities":"Grosseto",
+      "Publisher":"Bollettino di Statistica",
+      "Years":1938,
+      "Fund":"BTB Segn. Op.110",
+      "Segni":null,
+      "Category":"T"
+   },{
+      "Unnamed: 0":6.0,
+      "Authors":"Acri, Francesco",
+      "Title":"Le cose migliori",
+      "Cities":"Lanciano",
+      "Publisher":"Carabba",
+      "Years":1919,
+      "Fund":"BTB Segn. 1803",
+      "Segni":"Sottolineature. Ritaglio di giornale inserito.",
+      "Category":"IL"
+   }]
+
+        const itemsPerPage = 5; // Change this to 100 for your case
+
+        // Initial page number
+        let currentPage = 1;
+
+        // Function to update the displayed items based on the current page
+        function updateItemsPerPage(page) {
+            const startIndex = (page - 1) * itemsPerPage;
+            const endIndex = page * itemsPerPage;
+            const itemsToDisplay = jsonData.slice(startIndex, endIndex);
+            displayCatalog(itemsToDisplay);
+
+            // Update result count information
+            const totalResults = jsonData.length;
+            const startResult = startIndex + 1;
+            const endResult = Math.min(endIndex, totalResults);
+            document.getElementById("result-info").textContent = `Results ${startResult}-${endResult} of ${totalResults} total`;
+            
+            document.getElementById("page-info").textContent = `Page ${page}`;
+        }
+
+        // Function to display the catalog items
+        function displayCatalog(items) {
+            const catalog = document.getElementById("catalog");
+            catalog.innerHTML = '';
+
+            items.forEach(item => {
+                var entry = document.createElement("div");
+                entry.classList.add("catalog-entry");
+                entry.innerHTML = `
+                    <strong>${item.Authors}</strong><br>
+                    ${item.Title}<br>
+                    ${item.Cities} : ${item.Publisher}, ${item.Years}<br>
+                    ${item.Fund}<br>
+                    ${item.Segni || "[No additional information]"}<br>
+                    ${item.Category}
+                `;
+                catalog.appendChild(entry);
+            });
+        }
+
+       // Handle pagination controls
+document.getElementById("prev-page").addEventListener("click", () => {
+    if (currentPage > 1) {
+        currentPage--;
+        updateItemsPerPage(currentPage);
+        updatePaginationControls();
+    }
+});
+
+document.getElementById("next-page").addEventListener("click", () => {
+    const totalPages = Math.ceil(jsonData.length / itemsPerPage);
+    if (currentPage < totalPages) {
+        currentPage++;
+        updateItemsPerPage(currentPage);
+        updatePaginationControls();
+    }
+});
+
+// Function to update pagination controls based on the current page
+function updatePaginationControls() {
+    const totalPages = Math.ceil(jsonData.length / itemsPerPage);
+    document.getElementById("page-info").textContent = `Page ${currentPage} of ${totalPages}`;
+    
+    document.getElementById("prev-page").disabled = currentPage === 1;
+    document.getElementById("next-page").disabled = currentPage === totalPages;
+}
+
+// Initial display
+updateItemsPerPage(currentPage);
+updatePaginationControls();
+    </script>
+</body>
+</html>
