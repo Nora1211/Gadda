@@ -1,57 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- Your HTML head content here -->
+    <title>Library Catalog</title>
 </head>
 <body>
-    <form id="search-form">
-        <input type="text" id="search-authors" placeholder="Search by author">
-        <input type text="text" id="search-titles" placeholder="Search by title">
-        <input type="submit" value="Search">
-    </form>
-
-    <div id="search-results"></div>
-
+    <h1>Library Catalog</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Authors</th>
+                <th>Title</th>
+                <th>Cities</th>
+                <th>Publisher</th>
+                <th>Years</th>
+                <th>Fund</th>
+                <th>Segni</th>
+                <th>Category</th>
+            </tr>
+        </thead>
+        <tbody id="catalog">
+        </tbody>
+    </table>
     <script>
-        document.getElementById("search-form").addEventListener("submit", function (e) {
-            e.preventDefault();
-
-            const authorQuery = document.getElementById("search-authors").value.toLowerCase();
-            const titleQuery = document.getElementById("search-titles").value.toLowerCase();
-
-            // Load data from data.json using the Fetch API
-            fetch('data.json')
-                .then(response => response.json())
-                .then(jsonData => {
-                    const searchResults = jsonData.filter(item => {
-                        return (
-                            item.Authors.toLowerCase().includes(authorQuery) &&
-                            item.Title.toLowerCase().includes(titleQuery)
-                        );
-                    });
-
-                    displaySearchResults(searchResults);
-                })
-                .catch(error => {
-                    console.error('Error loading JSON:', error);
-                });
-        });
-
-        function displaySearchResults(results) {
-            const searchResultsContainer = document.getElementById("search-results");
-
-            searchResultsContainer.innerHTML = "";
-
-            if (results.length === 0) {
-                searchResultsContainer.textContent = "No matching results found.";
-            } else {
-                results.forEach(result => {
-                    const resultItem = document.createElement("div");
-                    resultItem.textContent = `Author: ${result.Authors}, Title: ${result.Title}`;
-                    searchResultsContainer.appendChild(resultItem);
-                });
-            }
+        // Function to fetch JSON data from a file
+        function fetchJSON(callback) {
+            var xhr = new XMLHttpRequest();
+            xhr.overrideMimeType("application/json");
+            xhr.open("GET", "data.json", true);
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    callback(JSON.parse(xhr.responseText));
+                }
+            };
+            xhr.send(null);
         }
+
+        // Function to populate the table
+        function populateCatalog(data) {
+            var catalogTable = document.getElementById("catalog");
+
+            data.forEach(function (item) {
+                var row = catalogTable.insertRow();
+                row.insertCell(0).textContent = item.Authors;
+                row.insertCell(1).textContent = item.Title;
+                row.insertCell(2).textContent = item.Cities;
+                row.insertCell(3).textContent = item.Publisher;
+                row.insertCell(4).textContent = item.Years;
+                row.insertCell(5).textContent = item.Fund;
+                row.insertCell(6).textContent = item.Segni || "N/A";
+                row.insertCell(7).textContent = item.Category;
+            });
+        }
+
+        // Fetch and populate the catalog
+        fetchJSON(populateCatalog);
     </script>
 </body>
 </html>
