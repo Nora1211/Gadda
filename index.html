@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Your HTML head content here -->
+</head>
+<body>
+    <form id="search-form">
+        <input type="text" id="search-authors" placeholder="Search by author">
+        <input type text="text" id="search-titles" placeholder="Search by title">
+        <input type="submit" value="Search">
+    </form>
+
+    <div id="search-results"></div>
+
+    <script>
+        document.getElementById("search-form").addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            const authorQuery = document.getElementById("search-authors").value.toLowerCase();
+            const titleQuery = document.getElementById("search-titles").value.toLowerCase();
+
+            // Load data from data.json using the Fetch API
+            fetch('data.json')
+                .then(response => response.json())
+                .then(jsonData => {
+                    const searchResults = jsonData.filter(item => {
+                        return (
+                            item.Authors.toLowerCase().includes(authorQuery) &&
+                            item.Title.toLowerCase().includes(titleQuery)
+                        );
+                    });
+
+                    displaySearchResults(searchResults);
+                })
+                .catch(error => {
+                    console.error('Error loading JSON:', error);
+                });
+        });
+
+        function displaySearchResults(results) {
+            const searchResultsContainer = document.getElementById("search-results");
+
+            searchResultsContainer.innerHTML = "";
+
+            if (results.length === 0) {
+                searchResultsContainer.textContent = "No matching results found.";
+            } else {
+                results.forEach(result => {
+                    const resultItem = document.createElement("div");
+                    resultItem.textContent = `Author: ${result.Authors}, Title: ${result.Title}`;
+                    searchResultsContainer.appendChild(resultItem);
+                });
+            }
+        }
+    </script>
+</body>
+</html>

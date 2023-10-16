@@ -1,0 +1,24 @@
+{
+  "name": "gaddaprova",
+  "version": "1.0.0",
+  "description": "prova cazzo",
+  "main": "java.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nora1211/Gadda.git"
+  },
+  "keywords": [],
+  "author": "io stellina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nora1211/Gadda/issues"
+  },
+  "homepage": "https://github.com/Nora1211/Gadda#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
