@@ -1,49 +1,3 @@
-// Add event listener to a common ancestor element of your form(s)
-document.querySelector("#search-form").addEventListener("submit", handleSearchSubmit);
-
-function handleSearchSubmit(e) {
-  e.preventDefault();
-
-  const authorInput = document.querySelector("#search-authors");
-  const titleInput = document.querySelector("#search-titles");
-
-  if (authorInput && titleInput) {
-    const authorQuery = authorInput.value;
-    const titleQuery = titleInput.value;
-
-    const searchResults = filterData(authorQuery, titleQuery);
-
-    updateItemsPerPage(1);
-    displayCatalog(searchResults);
-  } else {
-    console.error("One or both input elements not found in the DOM.");
-  }
-}
-
-function filterData(authorQuery, titleQuery) {
-  if (authorQuery === null || titleQuery === null) {
-    console.error("AuthorQuery or TitleQuery is null.");
-    return [];
-  }
-
-  return jsonData.filter(item => {
-    return (
-      (item.Authors || '').toLowerCase().includes(authorQuery.toLowerCase()) &&
-      (item.Title || '').toLowerCase().includes(titleQuery.toLowerCase())
-    );
-  });
-}
-
-
-
-// Function to update the displayed items based on the current page
-// ... (keep the previous code for pagination)
-
-// Function to display the catalog items
-// ... (keep the previous code for displaying catalog items)
-
-
-
 // Sample JSON data
 var jsonData = [
 {
@@ -29998,6 +29952,195 @@ var jsonData = [
 "Category":"EL"
 }
 ];
+
+
+
+// Function to display the catalog items
+function displayCatalog(items) {
+  const catalog = document.getElementById("catalog");
+  catalog.innerHTML = '';
+
+  items.forEach(item => {
+      var entry = document.createElement("div");
+      entry.classList.add("catalog-entry");
+      entry.innerHTML = `
+          <strong>${item.Authors}</strong><br>
+          ${item.Title}<br>
+          ${item.Cities} : ${item.Publisher}, ${item.Years}<br>
+          ${item.Fund}<br>
+          ${item.Segni || "[No additional information]"}<br>
+          ${item.Category}
+      `;
+      catalog.appendChild(entry);
+  });
+}
+// End Function to display the catalog items
+
+
+
+
+
+
+
+
+   //Function to clear the research and go back to the entire catalog
+   document.getElementById("clear-research").addEventListener("click", function() {
+    // Clear the search results by setting the content of the "catalog" div to an empty string
+    document.getElementById("catalog").innerHTML = "";
+  
+    // Clear the selected fund links
+    const fundLinks = ["btb-li", "bal-li", "bac-li", "btm-li"];
+    fundLinks.forEach(linkId => {
+      const listItem = document.getElementById(linkId);
+      listItem.classList.remove("chosen-link");
+    });
+  
+    // Optionally, you can set the selectedFund to null to display the entire catalog
+    selectedFund = null;
+  
+    // Call the function to display the entire catalog
+    displayCatalog(jsonData); // Pass the entire catalog data to displayCatalog
+  });
+     // End Function to clear the research and go back to the entire catalog
+  
+  
+
+
+
+
+
+
+//Function for the selection of the funds
+// Function to handle the click event for " BTB"
+document.getElementById("btb-li").addEventListener("click", function(e) {
+  e.preventDefault();
+
+  // Remove the "chosen-link" class from all list items
+  document.getElementById("btb-li").classList.add("chosen-link");
+  document.getElementById("bal-li").classList.remove("chosen-link");
+  document.getElementById("bac-li").classList.remove("chosen-link");
+  document.getElementById("btm-li").classList.remove("chosen-link");
+
+  // Remove the "chosen-link" class from all link elements
+  document.getElementById("btb-link").classList.add("chosen-link");
+  document.getElementById("bal-link").classList.remove("chosen-link");
+  document.getElementById("bac-link").classList.remove("chosen-link");
+  document.getElementById("btm-link").classList.remove("chosen-link");
+
+  const btbItems = jsonData.filter(item => (item.Fund || '').includes("BTB"));
+  displayCatalog(btbItems);
+});
+
+// Function to handle the click event for "BAL"
+document.getElementById("bal-li").addEventListener("click", function(e) {
+  e.preventDefault();
+
+  // Remove the "chosen-link" class from all list items
+  document.getElementById("bal-li").classList.add("chosen-link");
+  document.getElementById("btb-li").classList.remove("chosen-link");
+  document.getElementById("bac-li").classList.remove("chosen-link");
+  document.getElementById("btm-li").classList.remove("chosen-link");
+
+  // Remove the "chosen-link" class from all link elements
+  document.getElementById("bal-link").classList.add("chosen-link");
+  document.getElementById("btb-link").classList.remove("chosen-link");
+  document.getElementById("bac-link").classList.remove("chosen-link");
+  document.getElementById("btm-link").classList.remove("chosen-link");
+
+  const balItems = jsonData.filter(item => (item.Fund || '').includes("BAL"));
+  displayCatalog(balItems);
+});
+
+// Function to handle the click event for "BAC"
+document.getElementById("bac-li").addEventListener("click", function(e) {
+  e.preventDefault();
+
+  // Remove the "chosen-link" class from all list items
+  document.getElementById("bac-li").classList.add("chosen-link");
+  document.getElementById("btb-li").classList.remove("chosen-link");
+  document.getElementById("bal-li").classList.remove("chosen-link");
+  document.getElementById("btm-li").classList.remove("chosen-link");
+
+  // Remove the "chosen-link" class from all link elements
+  document.getElementById("bac-link").classList.add("chosen-link");
+  document.getElementById("btb-link").classList.remove("chosen-link");
+  document.getElementById("bal-link").classList.remove("chosen-link");
+  document.getElementById("btm-link").classList.remove("chosen-link");
+
+  const bacItems = jsonData.filter(item => (item.Fund || '').includes("BAC"));
+  displayCatalog(bacItems);
+});
+
+// Function to handle the click event for "BTM"
+document.getElementById("btm-li").addEventListener("click", function(e) {
+  e.preventDefault();
+
+  // Remove the "chosen-link" class from all list items
+  document.getElementById("btm-li").classList.add("chosen-link");
+  document.getElementById("btb-li").classList.remove("chosen-link");
+  document.getElementById("bal-li").classList.remove("chosen-link");
+  document.getElementById("bac-li").classList.remove("chosen-link");
+
+  // Remove the "chosen-link" class from all link elements
+  document.getElementById("btm-link").classList.add("chosen-link");
+  document.getElementById("btb-link").classList.remove("chosen-link");
+  document.getElementById("bal-link").classList.remove("chosen-link");
+  document.getElementById("bac-link").classList.remove("chosen-link");
+
+  const btmItems = jsonData.filter(item => (item.Fund || '').includes("BTM"));
+  displayCatalog(btmItems);
+});
+//End Function for the selection of the funds
+
+
+
+
+
+
+
+
+// Function for the search bar
+// Add event listener to a common ancestor element of your form(s)
+document.querySelector("#search-form").addEventListener("submit", handleSearchSubmit);
+
+function handleSearchSubmit(e) {
+  e.preventDefault();
+
+  const authorInput = document.querySelector("#search-authors");
+  const titleInput = document.querySelector("#search-titles");
+
+  if (authorInput && titleInput) {
+    const authorQuery = authorInput.value;
+    const titleQuery = titleInput.value;
+
+    const searchResults = filterData(authorQuery, titleQuery);
+
+    updateItemsPerPage(1);
+    displayCatalog(searchResults);
+  } else {
+    console.error("One or both input elements not found in the DOM.");
+  }
+}
+
+function filterData(authorQuery, titleQuery) {
+  if (authorQuery === null || titleQuery === null) {
+    console.error("AuthorQuery or TitleQuery is null.");
+    return [];
+  }
+
+  return jsonData.filter(item => {
+    const title = (item.Title || '').toString(); // Ensure title is a string
+    return (
+      (item.Authors || '').toLowerCase().includes(authorQuery.toLowerCase()) &&
+      title.toLowerCase().includes(titleQuery.toLowerCase())
+    );
+  });
+}
+// End Function for the search bar
+
+
+
+//Function for the pagination 
 // Number of items to display per page
 const itemsPerPage = 50; // Change this to 100 for your case
 
@@ -30020,25 +30163,6 @@ function updateItemsPerPage(page) {
     document.getElementById("page-info").textContent = `Page ${page}`;
 }
 
-// Function to display the catalog items
-function displayCatalog(items) {
-    const catalog = document.getElementById("catalog");
-    catalog.innerHTML = '';
-
-    items.forEach(item => {
-        var entry = document.createElement("div");
-        entry.classList.add("catalog-entry");
-        entry.innerHTML = `
-            <strong>${item.Authors}</strong><br>
-            ${item.Title}<br>
-            ${item.Cities} : ${item.Publisher}, ${item.Years}<br>
-            ${item.Fund}<br>
-            ${item.Segni || "[No additional information]"}<br>
-            ${item.Category}
-        `;
-        catalog.appendChild(entry);
-    });
-}
 
 // Handle pagination controls
 document.getElementById("prev-page").addEventListener("click", () => {
@@ -30058,3 +30182,4 @@ document.getElementById("next-page").addEventListener("click", () => {
 
 // Initial display
 updateItemsPerPage(currentPage);
+//End Function for the pagination 
