@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSON Data Viewer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
+   
+    <style>
+    
+
+    </style>
+</head>
+<body>
+    <h1>Library Catalog</h1>
+
+    <div id="catalog">
+
+        <input class="search" placeholder="Search" />
+        <button class="sort" data-sort="Years">
+          Sort
+        </button>
+      
+        <ul class="list"></ul>
+      
+      </div>
+
+    <script>
+        // Define the JSON data for file1 and file2
+        const jsonData = [
+   
+   {
+ "Id":0.0,
+ "Authors":"Abba1, Giuseppe Cesare",
+ "Title":"Ricordi garibaldini",
+ "Cities":"Torino",
+ "Publisher":"Sten",
+ "Years":1913,
+ "Fund":"BTB Segn. 1493",
+ "Segni":null,
+ "Category":"IL"
+},
+{
+ "Id":0.0,
+ "Authors":"Abba2, Giuseppe Cesare",
+ "Title":"Ricordi garibaldini",
+ "Cities":"Torino",
+ "Publisher":"Sten",
+ "Years":1913,
+ "Fund":"BAL Segn. 1493",
+ "Segni":null,
+ "Category":"IL"
+},
+{
+ "Id":0.0,
+ "Authors":"Abba3, Giuseppe Cesare",
+ "Title":"Ricordi garibaldini",
+ "Cities":"Torino",
+ "Publisher":"Sten",
+ "Years":1913,
+ "Fund":"BTB Segn. 1493",
+ "Segni":null,
+ "Category":"IL"
+},
+{
+ "Id":0.0,
+ "Authors":"Abba4, Giuseppe Cesare",
+ "Title":"Ricordi garibaldini",
+ "Cities":"Torino",
+ "Publisher":"Sten",
+ "Years":1913,
+ "Fund":"BTB Segn. 1493",
+ "Segni":null,
+ "Category":"IL"
+},
+{
+ "Id":0.0,
+ "Authors":"Abba5, Giuseppe Cesare",
+ "Title":"Ricordi garibaldini",
+ "Cities":"Torino",
+ "Publisher":"Sten",
+ "Years":1913,
+ "Fund":"BTB Segn. 1493",
+ "Segni":null,
+ "Category":"IL"
+},{
+ "Id":0.0,
+ "Authors":"Abba6, Giuseppe Cesare",
+ "Title":"Ricordi garibaldini",
+ "Cities":"Torino",
+ "Publisher":"Sten",
+ "Years":1913,
+ "Fund":"BTB Segn. 1493",
+ "Segni":null,
+ "Category":"IL"
+},{
+ "Id":0.0,
+ "Authors":"Abba7, Giuseppe Cesare",
+ "Title":"Ricordi garibaldini",
+ "Cities":"Torino",
+ "Publisher":"Sten",
+ "Years":1913,
+ "Fund":"BTB Segn. 1493",
+ "Segni":null,
+ "Category":"IL"
+},{
+ "Id":0.0,
+ "Authors":"Abba8, Giuseppe Cesare",
+ "Title":"Ricordi garibaldini",
+ "Cities":"Torino",
+ "Publisher":"Sten",
+ "Years":1913,
+ "Fund":"BTB Segn. 1493",
+ "Segni":null,
+ "Category":"IL"
+},{
+ "Id":0.0,
+ "Authors":"Abba9, Giuseppe Cesare",
+ "Title":"Ricordi garibaldini",
+ "Cities":"Torino",
+ "Publisher":"Sten",
+ "Years":1913,
+ "Fund":"BTB Segn. 1493",
+ "Segni":null,
+ "Category":"IL"
+},{
+ "Id":1.0,
+ "Authors":"Abernethy, Silvia M.",
+ "Title":"Something to read. Qualcosa da leggere in inglese. Letture per gli studenti di inglese",
+ "Cities":"Firenze  ",
+ "Publisher":"La Nuova Italia",
+ "Years":1946,
+ "Fund":"BTB Segn. 2404",
+ "Segni":null,
+ "Category":"L"
+},{
+ "Id":2.0,
+ "Authors":"Abetti, Giorgio",
+ "Title":"Amici e nemici di Galileo",
+ "Cities":"Milano",
+ "Publisher":"Bompiani",
+ "Years":1945,
+ "Fund":"BAL Segn. 743",
+ "Segni":null,
+ "Category":"IL"
+},{
+ "Id":3.0,
+ "Authors":"Abraham, Pierre",
+ "Title":"Cr\u00e9atures chez Balzac. Recherches sur la r\u00e9alisation intellectuelle. Avec un texte in\u00e9dit de Balzac",
+ "Cities":"Paris",
+ "Publisher":"NRF-Gallimard",
+ "Years":1931,
+ "Fund":"BTB Segn. 1116.",
+ "Segni":"Nota di possesso autografa in data 10.1931. Pieghe, sottolineature, postille.",
+ "Category":"FL"
+},{
+ "Id":4.0,
+ "Authors":"Accademia Nazionale dei Lincei",
+ "Title":"Adunanza straordinaria pubblica Roma 14 novembre 1967",
+ "Cities":"Roma",
+ "Publisher":"Accademia Nazionale dei Lincei",
+ "Years":1967,
+ "Fund":"BTB Segn. Op.22",
+ "Segni":null,
+ "Category":"v"
+},{
+ "Id":5.0,
+ "Authors":"Not found",
+ "Title":"L\u2019acquedotto del Flora in Maremma. Una grande opera voluta dal Duce",
+ "Cities":"Grosseto",
+ "Publisher":"Bollettino di Statistica",
+ "Years":1938,
+ "Fund":"BTB Segn. Op.110",
+ "Segni":null,
+ "Category":"T"
+},{
+ "Id":6.0,
+ "Authors":"Acri, Francesco",
+ "Title":"Le cose migliori",
+ "Cities":"Lanciano",
+ "Publisher":"Carabba",
+ "Years":1919,
+ "Fund":"BTB Segn. 1803",
+ "Segni":"Sottolineature. Ritaglio di giornale inserito.",
+ "Category":"IL"
+}];
+    
+        const file2Data =[{
+    "Id":3.0,
+    "Nota di possesso":"\u00abCarlo Emilio Gadda \u2013 ottobre 1931-\u00bb",
+    "Dedica":null,
+    "Collocazione":"[p. 61 rr. 1-9 \u00abMais nous commen\u00e7ons \u00e0 conna\u00eetre la d\u00e9marche de ses anxi\u00e9t\u00e9s nocturnes: a nous commen\u00e7ons \u00e0 savoir le point \u00e0 partir duquel Balzac se s\u00e9pare de son exp\u00e9rience v\u00e9cue pour forger l'\u00eatre fictif auquel il va communiquer toute la force tragique de ses propres imaginations. Si la mort de l'enfant, si la mort de la jeune fille s\u00e9duite, si ce fait-divers bouleversant n'a jamais exist\u00e9 pour lui, est-on en droit de dire que rien n'aurait pu le causer?\u00bb].",
+    "Postilla parlata":"dopo la promesse { \u201cmeschinit\u00e0 --> dalle immagini alla biografia",
+    "Postilla muta":"Sottolineature"
+},{
+    "Id":3.0,
+    "Nota di possesso":null,
+    "Dedica":null,
+    "Collocazione":"[p. 62 rr. 7-20 \u00abEn fait, la ressemblance entre le Benassis de cinquante ans et l'\u00e9crivain de trente-trois acquiert toute la valeur d'une conjuration lointaine. Comme Balzac a conjur\u00e9 ses spectres de nagu\u00e8re, il s'efforce ici de conjurer le spectre de son \u00e2ge m\u00fbr. La trag\u00e9die est la m\u00eame, qu'il s'agisse de briser avec le pass\u00e9 ou de se lib\u00e9rer du futur. Fant\u00f4mes d'hier ou fant\u00f4mes de demain, les \u00eatres model\u00e9s \u00e0 la ressemblance de leur cr\u00e9ateur assument, au long de la \u201cCom\u00e9die Humaine\u201d, cette t\u00e2che affreuse de lui conqu\u00e9rir et de lui maintenir la route libre. A cette t\u00e2che ils succombent l'un apr\u00e8s l'autre. Mais leur sacrifice n'est pas vain: la route demeure ouverte, et l'\u00e9crivain peut s'y donner carri\u00e8re\u00bb]",
+    "Postilla parlata":"Conclusione sintetica",
+    "Postilla muta":null
+},{
+    "Id":3.0,
+    "Nota di possesso":null,
+    "Dedica":null,
+    "Collocazione":"[pp. 62- 63 rr 32-33; 1-13 \u00abTrop engrav\u00e9s en lui pour r\u00e9agir dans la pl\u00e9nitude de leur force. D\u00e9j\u00e0 trop exterieurs \u00e0 lui pour b\u00e9b\u00e9ficier de toute son \u00e9nergie interne. \u00catres mi-partie, ils apparaissent sous un signe funeste et sont d\u00e8s leur naissance vou\u00e9s au pire destin. Ce qu\u2019ils nous enseignent est pr\u00e9cieux: entre l\u2019auteur et la foule des personnages libres qu\u2019il entend cr\u00e9er s\u2019interposent, comme autant d\u2019\u00e9tapes \u00e0 franchir, les images de lui-m\u00eame qui lui font obstacle. Pour atteindre \u00e0 la\nfoule, ce sont, p\u00e9riodiquement, ces images qu\u2019il doit immoler. Balzac ne deviant romancier, dans toute la force du terme,\nqu\u2019une fois purg\u00e9 de tout \u00e9gocentrisme, \u00e0 coup de suicides imaginaires, \u00e0 coup de suppressions r\u00e9p\u00e9t\u00e9es des images qui\nl\u2019encombrent, - bref, \u00e0 coup de lui-m\u00eame\u00bb]",
+    "Postilla parlata":"Interessante anche per me. Acuto",
+    "Postilla muta":null
+},{
+    "Id":3.0,
+    "Nota di possesso":null,
+    "Dedica":null,
+    "Collocazione":"[p. 63 rr. 18-21 \u00abEt l\u2019on ne saurait trop m\u00e9diter cette le\u00e7on si l\u2019on observe que c\u2019est pr\u00e9cis\u00e9ment parce qu\u2019ils demeurent encombr\u00e9s du souci d\u2019eux-m\u00eames que tant d\u2019excellents narrateurs ne parviennent jamais \u00e0 l\u2019\u00e9tat de comanciers\u00bb]",
+    "Postilla parlata":"Insegnamento Conclusione normativa",
+    "Postilla muta":null
+}];
+
+var options = {
+  valueNames: ['Authors', 'Title', 'Cities', 'Publisher', 'Years', 'Fund', 'Category'],
+  item: '<li><strong class="Authors"></strong><br>' +
+    '<span class="Title"></span><br>' +
+    '<span class="Cities"></span><span class="Publisher">,</span><span class="Years"></span><br>' +
+    '<span class="Fund"></span><br>' +
+    '<span class="Segni"></span><br>' +
+    '<span class="Category"></span><br>' +
+    '<a href="Postille.html?id"></a></li>'
+};
+
+
+var userList = new List('catalog', options, jsonData);
+
+
+
+
+// Function to navigate to the file2.html page with the selected ID
+function navigateToFile2(id) {
+    window.location.href = `Postille.html?id=${id}`;
+}
+
+
+    // Function to display matching data from file2
+    function displayMatchingData(id) {
+        // Use the embedded JSON data (file2Data)
+        const data2 = file2Data;
+
+        // Find matching items from file2
+        const matchingItems = data2.filter(item => item.Id === id);
+
+        // Clear any previous data
+        document.getElementById('file2-data').innerHTML = '';
+
+        // Display matching data from file2
+        matchingItems.forEach(item => {
+            const itemElement = document.createElement('div');
+            itemElement.textContent = JSON.stringify(item);
+            document.getElementById('file2-data').appendChild(itemElement);
+        });
+    }
+
+;
+</script>
+
+</body>
+</html>
