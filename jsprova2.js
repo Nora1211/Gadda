@@ -48760,18 +48760,10 @@ const jsonData = [
     // Attach a click event handler to the "Show All Funds" button
 $('#show-all').on('click', function() {
     // Remove the 'selected' class from all filter list items
-    $('.filter-li').removeClass('selected');
+    $('.filter-button').removeClass('selected');
     
     // Clear the filter to show all "Fund" values
     userList.filter();
   });
   
-    
-    
-    $('.filter-none').click(function() {
-      userList.filter();
-       $('.filter-BAL').removeClass('selected');
-      $('.filter-BTB').removeClass('selected');
-      return false;
-    });
-    
+  

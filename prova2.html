@@ -7,16 +7,59 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/list.pagination.js/0.1.1/list.pagination.js" integrity="sha512-DgwxWpg8sBTL8c/Q3AB2agigdCpBRVWb3WRNlgaxHWqCNxzv/80XVYXCHSftOrigEF/h8wv+lPjngSAq3fHlGw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>   
      <style>
    
+  
+  .filter-by {
+    list-style: none;
+    margin-bottom: 10px;
+    display: flex; /* Make the list items flex containers to keep buttons horizontal */
+width: 100%;
+  float: left;
+  clear: both;
+  padding: 0;
+  }
+
+
+  
+.filter-by li {
+  margin-right: 10px; /* Add horizontal spacing between buttons */
+}
+
+
+.hover-text {
+    display: none; /* Initially hide the hover text */
+    margin-left: 10px;
+}
+
+/* Show the hover text when the button is hovered */
+button:hover + .hover-text {
+    display: inline;
+}
+    
+
+  
+   .btn {
+  color: #ccc;
+  margin-right: 5px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: solid 1px #666;
+  display: flex;
+  float: left;
+  background-color: black;
+  cursor: pointer;
+  cursor: hand;
+}
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #47474e;
+}
+
         .pagination li {
   display:inline-block;
   padding:5px;
 }
 
-.filter-li {
-    color: inherit;
-    cursor: pointer;
-    text-decoration: underline;
-}
+
 /* Add a CSS class for the selected items to change the text color to red */
 .selected {
   color: red;
@@ -39,42 +82,46 @@
   border-radius: 5px;
   margin: 10px;
 }
-
-
-    </style>
+</style>
 </head>
 <body>
     <h1>Library Catalog</h1>
 
-    <p>Explore the four conservation fund that collect Gadda's library:</p>
-
-    <ul id="filter-list">
-        <li class="filter-li" data-filter="BTB">Biblioteca Teatrale del Burcardo, BTB (1.578 opere)</li>
-        <li class="filter-li" data-filter="BAL">Biblioteca dell’archivio liberati, BAL (1.578 opere)</li>
-        <li class="filter-li" data-filter="BAC">Biblioteca dell’archivio contemporaneo “alessandro Bonsanti” del Gabinetto G.P. Vieusseux di Firenze, BAC (515 opere)
-    </li>
-        <li class="filter-li" data-filter="BTM">Biblioteca Trivulziana Milano, BTM (515 opere)</li>
-      </ul>
-
-
-      <!-- Add buttons for each filter -->
-      <!-- Add a button to show all "Fund" values -->
-<button id="show-all">Show All </button>
-
-<button class="filter-button" data-filter="BTB">BTB</button>
-<button class="filter-button" data-filter="BAL">BAL</button>
-<button class="filter-button" data-filter="BAC">BAC</button>
-<button class="filter-button" data-filter="BTM">BTM</button>
-
-
     <div id="catalog">
+    
+      <p>Explore the four conservation fund that collect Gadda's library:</p>
+    
+      <ul class="filter-by">
+      <button class="btn" id="show-all">Show All </button>
+
+<li><button class="btn filter-button" data-filter="BTB">BTB</button>
+<span class="hover-text">Biblioteca Teatrale del Burcardo (1.578 opere)</span>
+</li>
+<li>
+  <button class="btn filter-button" data-filter="BAL">BAL</button>
+  <span class="hover-text">Biblioteca dell’archivio liberati</span>
+
+</li>
+<li>
+  <button class="btn filter-button" data-filter="BAC">BAC</button>
+  <span class="hover-text">Biblioteca dell’archivio contemporaneo “alessandro Bonsanti” del Gabinetto G.P. Vieusseux di Firenze</span>
+</li>
+
+<li>
+  <button class="btn filter-button" data-filter="BTM">BTM</button>
+  <span class="hover-text">Biblioteca Trivulziana Milano</span>
+
+</li>
+</ul>
+
+   
 
         <input class="search" placeholder="Search" />
         <button class="btn btn-danger" onclick="resetList();">Clear</button>
 
-        <button class="sort" data-sort="Title">Sort by title</button>
-        <button class="sort" data-sort="Authors">Sort by author</button>
-        <button class="sort" data-sort="Years">Sort by year</button>
+        <button class="btn sort" data-sort="Title">Sort by title</button>
+        <button class="btn sort" data-sort="Authors">Sort by author</button>
+        <button class="btn sort" data-sort="Years">Sort by year</button>
 
        
         <!-- Add buttons for each filter -->
