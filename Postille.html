@@ -5,16 +5,16 @@
 
     <title>Annotations</title>
      <!-- Include jQuery -->
-     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
+     <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+     <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
      <!-- Include DataTables CSS -->
-     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+     <link href="https://cdn.datatables.net/v/dt/dt-1.13.6/datatables.min.css" rel="stylesheet">
  
 </head>
 <body>
     <h1>Annotations</h1>
         <!-- Display data from file2 here in a tabular format -->
-        <table id="file2-table">
+        <table id="file2-table" class="display" style="width:100%">
             <thead>
                 <tr>
                     <th>Id</th>
@@ -18788,29 +18788,23 @@
 
         const table = document.getElementById('file2-table'); // Note the ID
         
-        matchingItems.forEach(item => {
-            const row = table.insertRow();
-            row.insertCell(0).textContent = item.Id;
-            row.insertCell(1).textContent = item["Nota di possesso"];
-            row.insertCell(2).textContent = item["Dedica"];
-            row.insertCell(3).textContent = item["Collocazione"];
-            row.insertCell(4).textContent = item["Postilla parlata"];
-            row.insertCell(5).textContent = item["Postilla muta"];
-
-
-
-            // Add other cells for additional properties
-        });
+        
 
 
         // Initialize DataTables on the table
         $(document).ready(function() {
             $('#file2-table').DataTable({
-                // DataTables options go here
-            });
+            data: matchingItems,
+        columns :[
+        { data: 'Id' },
+        { data: 'Nota di possesso' },
+      { data: 'Dedica' },
+      { data: 'Collocazione' },
+      { data: 'Postilla parlata' },
+      { data: 'Postilla muta' },
+
+        ]            });
         });
 
     </script>
-     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
-</body>
 </html>
