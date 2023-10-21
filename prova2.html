@@ -25,17 +25,27 @@ width: 100%;
 }
 
 
-.hover-text {
-    display: none; /* Initially hide the hover text */
-    margin-left: 10px;
+.sort-by {
+  list-style: none;
+    margin-bottom: 10px;
+    display: flex; /* Make the list items flex containers to keep buttons horizontal */
+width: 100%;
+  float: left;
+  clear: both;
+  padding: 0;
+margin-top: 0;}
+
+
+.sort-by li {
+  margin-right: 10px; /* Add horizontal spacing between buttons */
+
 }
 
-/* Show the hover text when the button is hovered */
-button:hover + .hover-text {
-    display: inline;
-}
-    
 
+.btn, .search {
+  display: block;
+  margin-top: 5px; /* Add margin to separate the elements vertically */
+}
   
    .btn {
   color: #ccc;
@@ -54,11 +64,7 @@ button:hover + .hover-text {
   color: #47474e;
 }
 
-        .pagination li {
-  display:inline-block;
-  padding:5px;
-}
-
+    
 
 /* Add a CSS class for the selected items to change the text color to red */
 .selected {
@@ -82,6 +88,41 @@ button:hover + .hover-text {
   border-radius: 5px;
   margin: 10px;
 }
+
+.pagination li {
+  display: inline-block;
+  padding: 5px;
+  margin-right: 5px; /* Add margin-right to create spacing between pagination items */
+}
+
+
+.pagination li a {
+  border-radius: 10px; /* Add border-radius for rounded corners */
+  border: solid 1px #666;
+  display: flex; /* Use flex for centering content */
+  float: left; /* Add float for left alignment */
+  background-color: black;
+  cursor: pointer;
+  cursor: hand;
+  color: #ccc;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+.pagination li a:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #47474e;
+}
+
+.pagination li.active {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #47474e;
+}
+
+.pagination li.active a {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #47474e;}
+
 </style>
 </head>
 <body>
@@ -112,14 +153,18 @@ button:hover + .hover-text {
 
    
 
-        <input class="search" placeholder="Search" />
+
+        <ul class="sort-by">
         <button class="btn btn-danger" onclick="resetList();">Clear</button>
 
         <button class="btn sort" data-sort="Title">Sort by title</button>
         <button class="btn sort" data-sort="Authors">Sort by author</button>
         <button class="btn sort" data-sort="Years">Sort by year</button>
-
+      </ul>
        
+
+      <input class="search" placeholder="Search" />
+
         <!-- Add buttons for each filter -->
 <!-- Update your HTML to make the list items clickable -->
 

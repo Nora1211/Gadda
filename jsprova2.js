@@ -48695,7 +48695,7 @@ const jsonData = [
     }];
     const options = {
         valueNames: ['Authors', 'Title', 'Cities', 'Publisher', 'Years', 'Fund', 'Category'],
-        page: 50,
+        page: 5,
         pagination: true,
         item: function (item, options) {
             // Create an array of links for the matching items in file2Data
