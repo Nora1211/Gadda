@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSON Data Viewer</title>
+    <title>Library Catalog</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>  
     <script src="https://cdnjs.cloudflare.com/ajax/libs/list.pagination.js/0.1.1/list.pagination.js" integrity="sha512-DgwxWpg8sBTL8c/Q3AB2agigdCpBRVWb3WRNlgaxHWqCNxzv/80XVYXCHSftOrigEF/h8wv+lPjngSAq3fHlGw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>   
@@ -42,10 +42,18 @@ margin-top: 0;}
 }
 
 
+.searchFil {
+  margin: 10px;
+  margin-left: 0;
+}
+
+
 .btn, .search {
   display: block;
   margin-top: 5px; /* Add margin to separate the elements vertically */
 }
+
+
   
    .btn {
   color: #ccc;
@@ -64,12 +72,16 @@ margin-top: 0;}
   color: #47474e;
 }
 
-    
+.selected {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #47474e;
+}
 
-/* Add a CSS class for the selected items to change the text color to red */
+.
+/* Add a CSS class for the selected items to change the text color to red 
 .selected {
   color: red;
-}
+}*/
 
 .catalog
 {
@@ -163,9 +175,10 @@ margin-top: 0;}
       </ul>
        
 
-      <input class="search" placeholder="Search" />
-
-        <!-- Add buttons for each filter -->
+      <input class="search" placeholder="Search " />
+      <input class="searchFil" type="text" id="search-author" placeholder="Search by Author">  
+      <input class="searchFil" type="text" id="search-title" placeholder="Search by Title">        <!-- Add buttons for each filter -->
+      <!-- Add buttons for each filter -->
 <!-- Update your HTML to make the list items clickable -->
 
     
@@ -173,7 +186,7 @@ margin-top: 0;}
         <ul class="pagination"></ul>
 
       </div>
-      <script type="text/javascript" src="jsprova2.js"></script>
+      <script type="text/javascript" src="js.js"></script>
 
 
 </body>
