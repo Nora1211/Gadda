@@ -1,0 +1,18 @@
+L Literature generic
+IL Italian literature
+FL French literature
+SL Spanish literature
+RL Russian literature
+EL English literature
+GL German literature
+FL Frdnch literature
+F Philosophy
+T Technology and science
+V Varia
+D Vocabularies and dictionaries
+S History
+M Military
+G Geography
+SA History of art
+GR Foreign languages grammars
+
