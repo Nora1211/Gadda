@@ -48799,3 +48799,37 @@ $('#show-all').on('click', function() {
   });
   
   
+  // show only items that contain annotations
+$('#show-annotations').on('click', function() {
+    // Remove the 'selected' class from all filter list items
+    $('.filter-button').removeClass('selected');
+
+    // Filter the list to show only items that have a non-null and non-empty value in the "Segni" column
+    userList.filter(function (item) {
+        const segniValue = item.values().Segni;
+        return segniValue !== null && segniValue.trim() !== '';
+    });
+});
+
+// Reverse the previous function
+$('#revert-show-annotations').on('click', function() {
+    // Remove the 'selected' class from all filter list items
+    $('.filter-button').removeClass('selected');
+    
+    // Clear the filter to show all items in the list
+    userList.filter();
+});
+
+
+
+document.getElementById('category-filter').addEventListener('change', function () {
+    var selectedCategory = this.value;
+
+    if (selectedCategory === 'all') {
+        userList.filter(); // Show all items
+    } else {
+        userList.filter(function (item) {
+            return item.values().Category === selectedCategory;
+        });
+    }
+});

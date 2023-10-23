@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library Catalog</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/list.pagination.js/0.1.1/list.pagination.js" integrity="sha512-DgwxWpg8sBTL8c/Q3AB2agigdCpBRVWb3WRNlgaxHWqCNxzv/80XVYXCHSftOrigEF/h8wv+lPjngSAq3fHlGw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>   
+    <link rel="stylesheet" type="text/css" href="css2.css">
+</head>
+<body>
+    <h1>Library Catalog</h1>
+
+    <div id="catalog">
+    
+      <p>Explore the four conservation fund that collect Gadda's library:</p>
+    
+      <ul class="filter-by">
+      <button class="btn" id="show-all">Show All </button>
+
+<li><button class="btn filter-button" data-filter="BTB" title="Biblioteca Teatrale del Burcardo">BTB</button>
+</li>
+<li>
+  <button class="btn filter-button" data-filter="BAL" title="Biblioteca dell’archivio liberati">BAL</button>
+
+</li>
+<li>
+  <button class="btn filter-button" data-filter="BAC" title="Biblioteca dell’archivio contemporaneo “alessandro Bonsanti” del Gabinetto G.P. Vieusseux di Firenze">BAC</button>
+</li>
+
+<li>
+  <button class="btn filter-button" data-filter="BTM" title="Biblioteca Trivulziana Milano">BTM</button>
+
+</li>
+</ul>
+
+   
+
+<p>Visualize only the Text annotated by Gadda:</p>
+
+<ul class="filter-annotation">
+<button class="btn" id="show-annotations">Show annotated texts</button>
+<button class="btn" id="revert-show-annotations">Show All Items</button>
+</ul>
+
+<label for="category-filter">Filter by Category:</label>
+<select id="category-filter">
+    <option value="all">All Categories</option>
+    <option value="L">Literature generic</option>
+    <option value="IL">Italian literature</option>
+    <option value="FL">French literature</option>
+    <option value="SL">Spanish literature</option>
+    <option value="RL">Russian literature</option>
+    <option value="EL">English literature</option>
+    <option value="GL">German literature</option>
+    <option value="FL">French literature</option>
+    <option value="F">Philosophy</option>
+    <option value="T">Technology and science</option>
+    <option value="V">Varia</option>
+    <option value="D">Vocabularies and dictionaries</option>
+    <option value="S">History</option>
+    <option value="M">Military</option>
+    <option value="G">Geography</option>
+    <option value="SA">History of art</option>
+    <option value="GR">Foreign languages grammars</option>
+
+</select>
+
+
+
+
+        <ul class="sort-by">
+        <button class="btn btn-danger" onclick="resetList();">Clear</button>
+
+        <button class="btn sort" data-sort="Title">Sort by title</button>
+        <button class="btn sort" data-sort="Authors">Sort by author</button>
+        <button class="btn sort" data-sort="Years">Sort by year</button>
+      </ul>
+       
+
+      <input class="search" placeholder="Search " />
+      <input class="searchFil" type="text" id="search-author" placeholder="Search by Author">  
+      <input class="searchFil" type="text" id="search-title" placeholder="Search by Title">        <!-- Add buttons for each filter -->
+      <!-- Add buttons for each filter -->
+<!-- Update your HTML to make the list items clickable -->
+
+    
+        <ul class="list"></ul>
+        <ul class="pagination"></ul>
+
+      </div>
+      <script type="text/javascript" src="jsprova.js"></script>
+
+
+</body>
+</html>
