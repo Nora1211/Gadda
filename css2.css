@@ -69,6 +69,25 @@ margin-top: 0;}
 }
 
 
+
+
+.search-heading {
+    color: #868D95;
+    font-size: 16px;
+    margin-bottom: 0; /* Remove the margin-bottom to keep elements on the same line */
+    display: inline-block;
+}
+
+.search {
+    padding: 8px;
+    width: 33%; /* Make the input occupy one-third of the space */
+    margin-right: 10px; /* Add spacing between the heading and the input */
+}
+
+
+
+
+
 /* Add a CSS class for the selected items to change the text color to red 
 .selected {
   color: red;

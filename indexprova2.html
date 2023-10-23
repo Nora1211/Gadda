@@ -12,6 +12,7 @@
 
     <div id="catalog">
     
+
       <p>Explore the four conservation fund that collect Gadda's library:</p>
     
       <ul class="filter-by">
@@ -42,28 +43,6 @@
 <button class="btn" id="revert-show-annotations">Show All Items</button>
 </ul>
 
-<label for="category-filter">Filter by Category:</label>
-<select id="category-filter">
-    <option value="all">All Categories</option>
-    <option value="L">Literature generic</option>
-    <option value="IL">Italian literature</option>
-    <option value="FL">French literature</option>
-    <option value="SL">Spanish literature</option>
-    <option value="RL">Russian literature</option>
-    <option value="EL">English literature</option>
-    <option value="GL">German literature</option>
-    <option value="FL">French literature</option>
-    <option value="F">Philosophy</option>
-    <option value="T">Technology and science</option>
-    <option value="V">Varia</option>
-    <option value="D">Vocabularies and dictionaries</option>
-    <option value="S">History</option>
-    <option value="M">Military</option>
-    <option value="G">Geography</option>
-    <option value="SA">History of art</option>
-    <option value="GR">Foreign languages grammars</option>
-
-</select>
 
 
 
@@ -77,7 +56,44 @@
       </ul>
        
 
-      <input class="search" placeholder="Search " />
+
+      
+      
+    <div>
+        <h4 class="search-heading">Keyword search</h4>
+        <input class="search" id="search" placeholder="Search" />
+        <label for="category-filter">Filter by book genre:</label>
+        <select id="category-filter">
+            <option value="all">All Categories</option>
+            <option value="L">Literature (generic)</option>
+            <option value="IL">Italian literature</option>
+            <option value="FL">French literature</option>
+            <option value="SL">Spanish literature</option>
+            <option value="RL">Russian literature</option>
+            <option value="EL">English literature</option>
+            <option value="GL">German literature</option>
+            <option value="FL">French literature</option>
+            <option value="F">Philosophy</option>
+            <option value="T">Technology and science</option>
+            <option value="V">Varia</option>
+            <option value="D">Vocabularies and dictionaries</option>
+            <option value="S">History</option>
+            <option value="M">Military</option>
+            <option value="G">Geography</option>
+            <option value="SA">History of art</option>
+            <option value="GR">Foreign languages grammars</option>
+         
+        </select>
+        
+          
+    </div>
+    
+
+
+
+    
+
+    
       <input class="searchFil" type="text" id="search-author" placeholder="Search by Author">  
       <input class="searchFil" type="text" id="search-title" placeholder="Search by Title">        <!-- Add buttons for each filter -->
       <!-- Add buttons for each filter -->
@@ -87,7 +103,10 @@
         <ul class="list"></ul>
         <ul class="pagination"></ul>
 
+ 
+ 
       </div>
+
       <script type="text/javascript" src="jsprova.js"></script>
 
 
