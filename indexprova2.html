@@ -40,7 +40,7 @@
 
 <ul class="filter-annotation">
 <button class="btn" id="show-annotations">Show annotated texts</button>
-<button class="btn" id="revert-show-annotations">Show All Items</button>
+<button class="btn" id="revert-show-annotations">Show All</button>
 </ul>
 
 
@@ -56,15 +56,15 @@
       </ul>
        
 
-
-      
-      
-    <div>
-        <h4 class="search-heading">Keyword search</h4>
-        <input class="search" id="search" placeholder="Search" />
-        <label for="category-filter">Filter by book genre:</label>
-        <select id="category-filter">
-            <option value="all">All Categories</option>
+      <div class="search-container">
+        <div>
+          <h4 class="search-heading">Keyword search</h4>
+          <input class="search" placeholder="Search" />
+        </div>
+        <div>
+          <h4 class="search-heading">Filter by book genre:</h4>
+          <select id="category-filter">
+            <option value="all">All Genres</option>
             <option value="L">Literature (generic)</option>
             <option value="IL">Italian literature</option>
             <option value="FL">French literature</option>
@@ -82,22 +82,24 @@
             <option value="G">Geography</option>
             <option value="SA">History of art</option>
             <option value="GR">Foreign languages grammars</option>
-         
-        </select>
+          </select>
+        </div>
+      </div>
+
+      
+    
         
-          
-    </div>
-    
+      
+          <div class="searchFil">
+              <input type="text" id="search-author" placeholder="Search by Author">
+              <input class="searchFil" type="text" id="search-title" placeholder="Search by Title">
 
+          </div>
+       
 
+        <a id="AutList" href="ListAuthors.html" target="_blank">Click here to have an overview list of all the authors</a>
+  
 
-    
-
-    
-      <input class="searchFil" type="text" id="search-author" placeholder="Search by Author">  
-      <input class="searchFil" type="text" id="search-title" placeholder="Search by Title">        <!-- Add buttons for each filter -->
-      <!-- Add buttons for each filter -->
-<!-- Update your HTML to make the list items clickable -->
 
     
         <ul class="list"></ul>

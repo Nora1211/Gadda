@@ -1,7 +1,8 @@
 
 .filter-by, .sort-by, .filter-annotation{
     list-style: none;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 2px;
     display: flex; /* Make the list items flex containers to keep buttons horizontal */
     width: 100%;
     float: left;
@@ -15,6 +16,12 @@
   margin-right: 10px; /* Add horizontal spacing between buttons */
 }
 
+
+.search-heading {
+  color: #868D95;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
 
 /*.sort-by {
   list-style: none;
@@ -33,13 +40,43 @@ margin-top: 0;}
 }
 */
 
-.searchFil {
-  margin: 10px;
-  margin-left: 0;
+
+
+.search-heading {
+  color: #868D95;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.search {
+  padding: 8px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.search-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+}
+
+#search-author, #search-title{
+  padding: 8px;
+  width: 20%;
+}
+
+#category-filter {
+  padding: 8px;
+  width: 60%;
+}
+
+#AutList{
+  display: block;
+  margin: 5px;
 }
 
 
-.btn, .search {
+.btn {
   display: block;
   margin-top: 5px; /* Add margin to separate the elements vertically */
 }
@@ -69,21 +106,9 @@ margin-top: 0;}
 }
 
 
-
-
-.search-heading {
-    color: #868D95;
-    font-size: 16px;
-    margin-bottom: 0; /* Remove the margin-bottom to keep elements on the same line */
-    display: inline-block;
+p {
+  margin-bottom: 0px;
 }
-
-.search {
-    padding: 8px;
-    width: 33%; /* Make the input occupy one-third of the space */
-    margin-right: 10px; /* Add spacing between the heading and the input */
-}
-
 
 
 
@@ -92,9 +117,12 @@ margin-top: 0;}
 .selected {
   color: red;
 }*/
-.catalog
-{
+.catalog{
   padding: 5px;
+}
+
+#catalog{
+  display: grid;
 }
 .list {
   font-family:sans-serif;
