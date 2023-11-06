@@ -5,7 +5,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>  
     <script src="https://cdnjs.cloudflare.com/ajax/libs/list.pagination.js/0.1.1/list.pagination.js" integrity="sha512-DgwxWpg8sBTL8c/Q3AB2agigdCpBRVWb3WRNlgaxHWqCNxzv/80XVYXCHSftOrigEF/h8wv+lPjngSAq3fHlGw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>   
+    
     <link rel="stylesheet" type="text/css" href="css2.css">
+
 </head>
 <body>
     <h1>Library Catalog</h1>
@@ -65,24 +67,36 @@
           <h4 class="search-heading">Filter by book genre:</h4>
           <select id="category-filter">
             <option value="all">All Genres</option>
-            <option value="L">Literature (generic)</option>
-            <option value="IL">Italian literature</option>
             <option value="FL">French literature</option>
-            <option value="SL">Spanish literature</option>
-            <option value="RL">Russian literature</option>
-            <option value="EL">English literature</option>
-            <option value="GL">German literature</option>
-            <option value="FL">French literature</option>
-            <option value="F">Philosophy</option>
-            <option value="T">Technology and science</option>
-            <option value="V">Varia</option>
-            <option value="D">Vocabularies and dictionaries</option>
-            <option value="S">History</option>
-            <option value="M">Military</option>
-            <option value="G">Geography</option>
-            <option value="SA">History of art</option>
-            <option value="GR">Foreign languages grammars</option>
+<option value="G">Geography</option>
+<option value="GL">German literature</option>
+<option value="GR">Foreign languages grammars</option>
+<option value="S">History</option>
+<option value="SA">History of art</option>
+<option value="IL">Italian literature</option>
+<option value="L">Literature (generic)</option>
+<option value="M">Military</option>
+<option value="F">Philosophy</option>
+<option value="RL">Russian literature</option>
+<option value="SL">Spanish literature</option>
+<option value="T">Technology and science</option>
+<option value="V">Varia</option>
+<option value="D">Vocabularies and dictionaries</option>
           </select>
+         
+         
+          <a href="javascript:void(0);" class="info-link">
+            <span class="search-info">
+              <b>Search tips</b>
+              <br><br> * search for "
+              <b>Location</b>" in Bibliography to find all books in archives and private collections<br>* search for "
+            </span>
+            <span class="custom-icon">
+              <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/info--v1.png" alt="info--v1"/>            </span>
+          </a>
+
+
+
         </div>
       </div>
 
