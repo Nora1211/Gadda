@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataTables Example</title>
+    
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Include DataTables CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+
+    <!-- Include DataTables JS -->
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+
+    <!-- Include jQuery UI for DataTables CSS (optional, for additional styling) -->
+    <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+</head>
+<body>
+    <table id="jsonTable" class="display">
+        <thead>
+            <tr>
+                <th>N</th>
+                <th>unitàId</th>
+                <th>archivio</th>
+                <th>fondo</th>
+                <th>unità</th>
+                <th>serie</th>
+                <th>sottoserie</th>
+                <th>faldone</th>
+                <th>opera</th>
+                <th>schede tematiche</th>
+                <th>anno inizio</th>
+                <th>anno fine</th>
+                <th>mese</th>
+                <th>giorno</th>
+                <th>luogo</th>
+                <th>genere</th>
+                <th>forma</th>
+                <th>tipo</th>
+                <th>contenitore</th>
+                <th>sigla</th>
+                <th>descrizione</th>
+                <th>segnatura</th>
+                <th>provenienza</th>
+                <th>lingua</th>
+                <th>sommario</th>
+                <th>Stato di conservazione</th>
+                <th>collana</th>
+                <th>generelib</th>
+                
+            </tr>
+        </thead>
+    </table>
+
+    <input id="searchInput" type="text" placeholder="Search...">
+    <label for="filterSwitch">Filter by Age:</label>
+    <input type="checkbox" id="filterSwitch">
+    <div id="filterButtons"></div>
+    <div id="filterButtons2"></div>
+
+    <script>
+        // Your existing JSON data
+        const jsonDataArch = 
+        [{
+    "N":0,
+    "unit\u00e0Id":"unit\u00e0bonsanti-0",
+    "archivio":"Archivio Bonsanti",
+    "fondo":null,
+    "unit\u00e0":"\u00abPiccola antologia 1904\u00bb",
+    "serie":"II",
+    "sottoserie":"1 Quaderni 1",
+    "faldone":null,
+    "opera":"Appunti giovanili, scolastici e universitari (politecnico)",
+    "schede tematiche":"AppLetTed",
+    "anno inizio":1904.0,
+    "anno fine":null,
+    "mese":null,
+    "giorno":null,
+    "luogo":null,
+    "genere":"Appunti",
+    "forma":"Quaderni",
+    "tipo":"Documento",
+    "contenitore":"1 scatola",
+    "sigla":null,
+    "descrizione":null,
+    "segnatura":null,
+    "provenienza":null,
+    "lingua":null,
+    "sommario":null,
+    "Stato di conservazione":null,
+    "collana":null,
+    "generelib": "IL"
+},{
+    "N":1,
+    "unit\u00e0Id":"unit\u00e0bonsanti-1",
+    "archivio":"Archivio Bonsanti",
+    "fondo":null,
+    "unit\u00e0":"\u00ab1913. \u2013 Gaddus\u00bb [appunti di analisi matematica]",
+    "serie":"II",
+    "sottoserie":"1 Quaderni 1",
+    "faldone":null,
+    "opera":"Appunti giovanili, scolastici e universitari (politecnico)",
+    "schede tematiche":"AppLetIt",
+    "anno inizio":1913.0,
+    "anno fine":null,
+    "mese":null,
+    "giorno":null,
+    "luogo":null,
+    "genere":"Appunti",
+    "forma":"Quaderni",
+    "tipo":"Documento",
+    "contenitore":"1 scatola",
+    "sigla":null,
+    "descrizione":null,
+    "segnatura":null,
+    "provenienza":null,
+    "lingua":null,
+    "sommario":null,
+    "Stato di conservazione":null,
+    "collana":null,
+    "generelib": "IL"
+}];
+
+        // Function to generate the table from JSON data
+        function generateTable(data) {
+            const table = $('#jsonTable').DataTable({
+                data: data,
+                columns: [
+                { data: "N"},
+                { data: "unitàId" },
+                { data: "archivio" },
+                { data: "fondo" },
+                { data: "unità" },
+                { data: "serie" },
+                { data: "sottoserie" },
+                { data: "faldone" },
+                { data: "opera" },
+                { data: "schede tematiche" },
+                { data: "anno inizio" },
+                { data: "anno fine" },
+                { data: "mese" },
+                { data: "giorno" },
+                { data: "luogo" },
+                { data: "genere" },
+                { data: "forma" },
+                { data: "tipo" },
+                { data: "contenitore" },
+                { data: "sigla" },
+                { data: "descrizione" },
+                { data: "segnatura" },
+                { data: "provenienza" },
+                { data: "lingua" },
+                { data: "sommario" },
+                { data: "Stato di conservazione" },
+                { data: "collana" },
+                { data: "generelib" }
+                ],
+                columnDefs: [
+                    { targets: [2], orderable: false } // Disable sorting for the checkbox column
+                ]
+            });
+
+ // Create buttons for unique Archivio values
+ const uniqueArchivioValues = [...new Set(data.map(item => item.archivio))];
+            const filterButtonsContainer = document.getElementById("filterButtons");
+            uniqueArchivioValues.forEach(archivioValue => {
+                const button = document.createElement("button");
+                button.textContent = `Archivio ${archivioValue}`;
+                button.addEventListener("click", function () {
+                    filterTable(archivioValue, table);
+                });
+                filterButtonsContainer.appendChild(button);
+            });
+
+            // Function to filter the table by Archivio
+            function filterTable(archivio, table) {
+                table.search(archivio).draw();
+            }
+            const uniqueLuogoValues = [...new Set(data.map(item => item.luogo))];
+const filterButtons2Container = document.getElementById("filterButtons2"); // Change the variable name here
+uniqueLuogoValues.forEach(luogoValue => {
+    const button = document.createElement("button");
+    button.textContent = `Luogo ${luogoValue}`;
+    button.addEventListener("click", function () {
+        clearFilters(table); // Clear existing filters
+        filterTableByLuogo(luogoValue, table);
+    });
+    filterButtons2Container.appendChild(button);
+});
+
+// Function to filter the table by Luogo
+function filterTableByLuogo(luogo, table) {
+    table.column(14).search(luogo).draw(); // Use column index 15 for "Luogo" in your DataTable
+}
+
+// Function to clear filters
+function clearFilters(table) {
+    table.search('').columns().search('').draw();
+}
+
+            // Add an event listener to the search bar
+            const searchInput = document.getElementById("searchInput");
+            searchInput.addEventListener("input", function () {
+                table.search(searchInput.value).draw();
+            });
+        }
+
+        // Call the function with the JSON data
+        generateTable(jsonDataArch);
+
+
+       // Function to filter the table by schede tematiche
+    function filterTableBySchedeTematiche(schedeTematiche) {
+      table.column(10).search(schedeTematiche).draw();
+    }
+
+    // Event handler for archivelink clicks
+    $('.archive-link').on('click', function () {
+      const schedeTematiche = $(this).data('schede-tematiche');
+      console.log('Clicked on archivelink with schede tematiche:', schedeTematiche);
+
+      // Filter the DataTable based on schede tematiche
+      filterTableBySchedeTematiche(schedeTematiche);
+    });
+  
+    </script>
+    </script>
+</body>
+</html>

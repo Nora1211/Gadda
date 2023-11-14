@@ -1,7 +1,6 @@
 // Sample JSON data
-const jsonData = [
-    {
-    "Id":0.0,
+const jsonData = [{
+    "Id":0,
     "Authors":"Abba, Giuseppe Cesare",
     "Title":"Ricordi garibaldini",
     "Cities":"Torino",
@@ -10,8 +9,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1493",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1.0,
+},{
+    "Id":1,
     "Authors":"Abernethy, Silvia M.",
     "Title":"Something to read. Qualcosa da leggere in inglese. Letture per gli studenti di inglese",
     "Cities":"Firenze  ",
@@ -19,9 +18,9 @@ const jsonData = [
     "Years":1946,
     "Fund":"BTB Segn. 2404",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2.0,
+    "Category":"GR"
+},{
+    "Id":2,
     "Authors":"Abetti, Giorgio",
     "Title":"Amici e nemici di Galileo",
     "Cities":"Milano",
@@ -30,8 +29,8 @@ const jsonData = [
     "Fund":"BTB Segn. 743",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":3.0,
+},{
+    "Id":3,
     "Authors":"Abraham, Pierre",
     "Title":"Cr\u00e9atures chez Balzac. Recherches sur la r\u00e9alisation intellectuelle. Avec un texte in\u00e9dit de Balzac",
     "Cities":"Paris",
@@ -40,8 +39,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1116.",
     "Segni":"Nota di possesso autografa in data 10.1931. Pieghe, sottolineature, postille.",
     "Category":"FL"
-    },{
-    "Id":4.0,
+},{
+    "Id":4,
     "Authors":"Accademia Nazionale dei Lincei",
     "Title":"Adunanza straordinaria pubblica Roma 14 novembre 1967",
     "Cities":"Roma",
@@ -49,10 +48,10 @@ const jsonData = [
     "Years":1967,
     "Fund":"BTB Segn. Op.22",
     "Segni":null,
-    "Category":"v"
-    },{
-    "Id":5.0,
-    "Authors":null,
+    "Category":"V"
+},{
+    "Id":5,
+    "Authors":"Not found",
     "Title":"L\u2019acquedotto del Flora in Maremma. Una grande opera voluta dal Duce",
     "Cities":"Grosseto",
     "Publisher":"Bollettino di Statistica",
@@ -60,8 +59,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op.110",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":6.0,
+},{
+    "Id":6,
     "Authors":"Acri, Francesco",
     "Title":"Le cose migliori",
     "Cities":"Lanciano",
@@ -70,8 +69,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1803",
     "Segni":"Sottolineature. Ritaglio di giornale inserito.",
     "Category":"IL"
-    },{
-    "Id":7.0,
+},{
+    "Id":7,
     "Authors":"Acton, Harold",
     "Title":"Gli ultimi Medici",
     "Cities":"Torino",
@@ -80,8 +79,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1494",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":8.0,
+},{
+    "Id":8,
     "Authors":"Adam, Antoine",
     "Title":"Proust",
     "Cities":"Paris",
@@ -90,9 +89,9 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":9.0,
-    "Authors":null,
+},{
+    "Id":9,
+    "Authors":"Not found",
     "Title":"Addestramento della fanteria",
     "Cities":"Roma",
     "Publisher":"Regio esercito italiano",
@@ -100,8 +99,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Nota di possesso di Enrico Gadda, Valpini B. Valchiese 25 campo.",
     "Category":"M"
-    },{
-    "Id":10.0,
+},{
+    "Id":10,
     "Authors":"Addison, Joseph",
     "Title":"Il tappezziere politico",
     "Cities":"Roma",
@@ -109,10 +108,10 @@ const jsonData = [
     "Years":1945,
     "Fund":"BTB Segn. 1235",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":11.0,
-    "Authors":null,
+    "Category":"AL"
+},{
+    "Id":11,
+    "Authors":"Not found",
     "Title":"The Advanced Learner\u2019s Dictionary of Current English",
     "Cities":"London",
     "Publisher":"Oxford University Press",
@@ -120,8 +119,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2482",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":12.0,
+},{
+    "Id":12,
     "Authors":"Aegerter, Emmanuel",
     "Title":"Le grandi religioni",
     "Cities":"Milano",
@@ -129,9 +128,9 @@ const jsonData = [
     "Years":1960,
     "Fund":"BTB Segn. 1775",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":13.0,
+    "Category":"P"
+},{
+    "Id":13,
     "Authors":"Afanas\u2019ev, Aleksandr Nikolaevi\u010d",
     "Title":"Antiche fiabe russe",
     "Cities":"Torino",
@@ -139,19 +138,19 @@ const jsonData = [
     "Years":1953,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":14.0,
-    "Authors":null,
+    "Category":"RL"
+},{
+    "Id":14,
+    "Authors":"Not found",
     "Title":"Agenti segreti veneziani nel \u2019700",
     "Cities":"Milano",
     "Publisher":"Bompiani",
     "Years":1942,
     "Fund":"BTB Segn. 1495",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":15.0,
+    "Category":"H"
+},{
+    "Id":15,
     "Authors":"Agnetti, Vincenzo",
     "Title":"Obsoleto",
     "Cities":"Milano",
@@ -159,9 +158,9 @@ const jsonData = [
     "Years":1968,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":16.0,
+    "Category":"IL"
+},{
+    "Id":16,
     "Authors":"Agostino, Aurelio",
     "Title":"La citt\u00e0 di Dio",
     "Cities":"Torino",
@@ -169,9 +168,9 @@ const jsonData = [
     "Years":1939,
     "Fund":"BTB Segn. 1776-1777",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":17.0,
+    "Category":"P"
+},{
+    "Id":17,
     "Authors":"Agostino, Aurelio",
     "Title":"Le confessioni",
     "Cities":"Torino",
@@ -179,9 +178,9 @@ const jsonData = [
     "Years":1966,
     "Fund":"BTB Segn. 1778",
     "Segni":"Biglietto inserito con invio autografodi Giulio Einaudi.",
-    "Category":"F"
-    },{
-    "Id":18.0,
+    "Category":"P"
+},{
+    "Id":18,
     "Authors":"Agostino, Aurelio",
     "Title":"Confessions. Libri IVIII, IXXIII",
     "Cities":"Paris",
@@ -189,10 +188,10 @@ const jsonData = [
     "Years":1947,
     "Fund":"BTB Segn. 1779-1780",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":19.0,
-    "Authors":null,
+    "Category":"P"
+},{
+    "Id":19,
+    "Authors":"Not found",
     "Title":"Ai vittoriosi di Castelfidardo XVIII settembre MDCCCLXXVIII settembre MDCCCCXII",
     "Cities":"Roma",
     "Publisher":"s.n.",
@@ -200,9 +199,9 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 92",
     "Segni":"Nota di possesso autografa in data01.1920.",
     "Category":"M"
-    },{
-    "Id":20.0,
-    "Authors":null,
+},{
+    "Id":20,
+    "Authors":"Not found",
     "Title":"Albert Paris G\u00fctersloh zum 75.Geburtstag",
     "Cities":"M\u00fcnchen",
     "Publisher":"Piper",
@@ -210,8 +209,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1227",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":21.0,
+},{
+    "Id":21,
     "Authors":"Albert-Sorel, Jean",
     "Title":"Le d\u00e9clin de la monarchie  (1715- 1789)",
     "Cities":"Paris",
@@ -219,19 +218,19 @@ const jsonData = [
     "Years":1948,
     "Fund":"BTB Segn. 1591",
     "Segni":"Postille.",
-    "Category":"S"
-    },{
-    "Id":22.0,
-    "Authors":null,
+    "Category":"H"
+},{
+    "Id":22,
+    "Authors":"Not found",
     "Title":"Gli albori della vita italiana.",
     "Cities":"Milano",
     "Publisher":"Garzanti",
     "Years":1941,
     "Fund":"BTB Segn. 1578",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":23.0,
+    "Category":"H"
+},{
+    "Id":23,
     "Authors":"Aleardi, Aleardo",
     "Title":"Le prime storie",
     "Cities":"s.l.",
@@ -240,8 +239,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Nota di possesso Giuseppe Prosperini editore",
     "Category":"IL"
-    },{
-    "Id":24.0,
+},{
+    "Id":24,
     "Authors":"Alem\u00e1n, Mateo",
     "Title":"La vita del furfante (1599-1604)",
     "Cities":"Milano",
@@ -249,9 +248,9 @@ const jsonData = [
     "Years":1942,
     "Fund":"BTB Segn. 907",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":25.0,
+    "Category":"H"
+},{
+    "Id":25,
     "Authors":"Alessandrini, Garibaldo",
     "Title":"Sabbie fiorite",
     "Cities":"Asti",
@@ -260,8 +259,8 @@ const jsonData = [
     "Fund":"BTB Segn. 130",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":26.0,
+},{
+    "Id":26,
     "Authors":"Alfano, Giovanni Battista",
     "Title":"Riassunto di geografia fisica egeologia per gli alunni delle scuole medie superiori",
     "Cities":"Napoli",
@@ -270,8 +269,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":27.0,
+},{
+    "Id":27,
     "Authors":"Alfassio Grimaldi, Ugoberto",
     "Title":"Il re buono",
     "Cities":"Milano",
@@ -279,9 +278,9 @@ const jsonData = [
     "Years":1970,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":28.0,
+    "Category":"H"
+},{
+    "Id":28,
     "Authors":"Alfero, Giovanni Angelo \u2013 Haas, Eugen",
     "Title":"Corso completo di lingua tedesca. Grammatica, esercizi, letture, lessico",
     "Cities":"Milano",
@@ -290,8 +289,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2406-2408",
     "Segni":null,
     "Category":"GR"
-    },{
-    "Id":29.0,
+},{
+    "Id":29,
     "Authors":"Alfieri, Vittorio",
     "Title":"Giornali e lettere scelte",
     "Cities":"Torino",
@@ -300,8 +299,8 @@ const jsonData = [
     "Fund":"BTB Segn. 132",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":30.0,
+},{
+    "Id":30,
     "Authors":"Alfieri, Vittorio",
     "Title":"Tragedie. Con una notizia di C.Milanesi intorno agli autografi",
     "Cities":"Firenze",
@@ -310,8 +309,8 @@ const jsonData = [
     "Fund":"BTB Segn. 133-134",
     "Segni":"Postille.",
     "Category":"IL"
-    },{
-    "Id":31.0,
+},{
+    "Id":31,
     "Authors":"Alfieri, Vittorio",
     "Title":"Vita scritta da esso",
     "Cities":"Milano",
@@ -320,8 +319,8 @@ const jsonData = [
     "Fund":"BTB Segn. 131",
     "Segni":"Sottolineature.",
     "Category":"IL"
-    },{
-    "Id":32.0,
+},{
+    "Id":32,
     "Authors":"Alfieri, Vittorio Enzo",
     "Title":"Lucrezio",
     "Cities":"Firenze",
@@ -330,8 +329,8 @@ const jsonData = [
     "Fund":"BTB Segn. 115",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":33.0,
+},{
+    "Id":33,
     "Authors":"Algarotti, Francesco",
     "Title":"Viaggio in Russia",
     "Cities":"Torino",
@@ -340,8 +339,8 @@ const jsonData = [
     "Fund":"BTB Segn. 135",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":34.0,
+},{
+    "Id":34,
     "Authors":"Alge, Sines \u2013 Hamburger, Sophie \u2013 Rippmann, Walter",
     "Title":"Leitfaden f\u00fcr den ersten Unterricht im Deutschen (II).",
     "Cities":"St. GallenNeuch\u00e2tel",
@@ -350,8 +349,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2409",
     "Segni":null,
     "Category":"GR"
-    },{
-    "Id":35.0,
+},{
+    "Id":35,
     "Authors":"Alighieri, Dante",
     "Title":"Il Convivio",
     "Cities":"Firenze",
@@ -360,8 +359,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":36.0,
+},{
+    "Id":36,
     "Authors":"Alighieri, Dante",
     "Title":"Dante. Tutte le opere",
     "Cities":"Milano",
@@ -370,8 +369,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":37.0,
+},{
+    "Id":37,
     "Authors":"Alighieri, Dante",
     "Title":"Della Volgare Eloquenza. ",
     "Cities":"Roma",
@@ -380,8 +379,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Nota di possesso di Enrico Gadda,",
     "Category":"IL"
-    },{
-    "Id":38.0,
+},{
+    "Id":38,
     "Authors":"Alighieri, Dante",
     "Title":"La Divina Commedia giusta la lezione del codice bartoliniano. Vol.1",
     "Cities":"Udine",
@@ -390,8 +389,8 @@ const jsonData = [
     "Fund":"BTB Segn. 136",
     "Segni":"Nota di possesso di Adele Gadda Lehr.",
     "Category":"IL"
-    },{
-    "Id":39.0,
+},{
+    "Id":39,
     "Authors":"Alighieri, Dante",
     "Title":"La divina commedia giusta la lezione del codice bartoliniano. Voll.2-3",
     "Cities":"Udine",
@@ -400,8 +399,8 @@ const jsonData = [
     "Fund":null,
     "Segni":"Nota di possesso di Adele Gadda Lehr.",
     "Category":"IL"
-    },{
-    "Id":40.0,
+},{
+    "Id":40,
     "Authors":"Alighieri, Dante",
     "Title":"La Divina Commedia esposta inprosa a comune intelligenza",
     "Cities":"Milano",
@@ -410,8 +409,8 @@ const jsonData = [
     "Fund":"BTB Segn. 140",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":41.0,
+},{
+    "Id":41,
     "Authors":"Alighieri, Dante",
     "Title":"La Divina Commedia. ",
     "Cities":"Milano",
@@ -420,8 +419,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica anonima",
     "Category":"IL"
-    },{
-    "Id":42.0,
+},{
+    "Id":42,
     "Authors":"Alighieri, Dante",
     "Title":"La Divina Comm\u00e8dia",
     "Cities":"Milano",
@@ -430,8 +429,8 @@ const jsonData = [
     "Fund":"BTB Segn. 137",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":43.0,
+},{
+    "Id":43,
     "Authors":"Alighieri, Dante",
     "Title":"La Divina Commedia",
     "Cities":"Roma-Milano",
@@ -440,8 +439,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":44.0,
+},{
+    "Id":44,
     "Authors":"Alighieri, Dante",
     "Title":"La Divina Commedia",
     "Cities":"Firenze",
@@ -450,8 +449,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":45.0,
+},{
+    "Id":45,
     "Authors":"Alighieri, Dante",
     "Title":"La Divina Commedia",
     "Cities":"Milano",
@@ -460,8 +459,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":46.0,
+},{
+    "Id":46,
     "Authors":"Alighieri, Dante",
     "Title":"La Divina Commedia, le Rime, iversi della Vita Nuova e le canzoni del Convivio",
     "Cities":"Torino",
@@ -470,8 +469,8 @@ const jsonData = [
     "Fund":"BTB Segn. 138",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":47.0,
+},{
+    "Id":47,
     "Authors":"Alighieri, Dante",
     "Title":"La Divina Commedia. Il Paradiso",
     "Cities":"Milano",
@@ -480,8 +479,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":48.0,
+},{
+    "Id":48,
     "Authors":"Alighieri, Dante",
     "Title":"Le opere. Testo critico della Societ\u00e0 dantesca italiana",
     "Cities":"Firenze",
@@ -490,8 +489,8 @@ const jsonData = [
     "Fund":"BTB Segn. 139",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":49.0,
+},{
+    "Id":49,
     "Authors":"Alighieri, Dante",
     "Title":"Rime",
     "Cities":"Torino",
@@ -500,8 +499,8 @@ const jsonData = [
     "Fund":"BTB Segn. 142",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":50.0,
+},{
+    "Id":50,
     "Authors":"Alighieri, Dante",
     "Title":"La Vita Nuova",
     "Cities":"Firenze",
@@ -510,8 +509,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":51.0,
+},{
+    "Id":51,
     "Authors":"Alighieri, Dante",
     "Title":"La Vita Nuova",
     "Cities":"Milano",
@@ -520,8 +519,8 @@ const jsonData = [
     "Fund":"BTB Segn. 144",
     "Segni":"Nota di possesso autografa di Clara Gadda.",
     "Category":"IL"
-    },{
-    "Id":52.0,
+},{
+    "Id":52,
     "Authors":"Alighieri, Dante",
     "Title":"Vita nuova",
     "Cities":"Firenze",
@@ -530,8 +529,8 @@ const jsonData = [
     "Fund":"BTB Segn. 143",
     "Segni":"Parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":53.0,
+},{
+    "Id":53,
     "Authors":"Alighieri, Dante",
     "Title":"La Vita Nuova e il Convivio con la vita di Dante scritta da Boccaccio",
     "Cities":"Milano",
@@ -540,28 +539,28 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Nota di possesso illeggibile e data 03.1917.",
     "Category":"IL"
-    },{
-    "Id":54.0,
-    "Authors":null,
+},{
+    "Id":54,
+    "Authors":"Not found",
     "Title":"Alla santa memoria del Cav. Emilio Gadda",
     "Cities":null,
     "Publisher":"s.e.",
     "Years":1921,
     "Fund":"BAC",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":55.0,
-    "Authors":null,
+    "Category":"V"
+},{
+    "Id":55,
+    "Authors":"Not found",
     "Title":"Alla santa memoria di Carlotta  Gadda Belloni",
     "Cities":null,
     "Publisher":"s.e.",
     "Years":1921,
     "Fund":"BAC",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":56.0,
+    "Category":"V"
+},{
+    "Id":56,
     "Authors":"Allem, Maurice",
     "Title":" La vie quotidienne sous le SecondEmpire",
     "Cities":"Paris",
@@ -569,9 +568,9 @@ const jsonData = [
     "Years":1948,
     "Fund":null,
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":57.0,
+    "Category":"H"
+},{
+    "Id":57,
     "Authors":"Alvisi, Giacomo Giuseppe",
     "Title":"Intenti politici dei diversi statid\u2019Europa nelle questioni orientali",
     "Cities":"Napoli",
@@ -579,9 +578,9 @@ const jsonData = [
     "Years":1883,
     "Fund":null,
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":58.0,
+    "Category":"H"
+},{
+    "Id":58,
     "Authors":"Amari, Michele",
     "Title":"I Musulmani in Sicilia",
     "Cities":"Milano",
@@ -589,9 +588,9 @@ const jsonData = [
     "Years":1942,
     "Fund":"BTB Segn. 145",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":59.0,
+    "Category":"H"
+},{
+    "Id":59,
     "Authors":"Amati, Amato",
     "Title":"Onoranze centenarie a M. Gaetana Agnesi",
     "Cities":"Milano",
@@ -599,9 +598,9 @@ const jsonData = [
     "Years":1899,
     "Fund":"BTB Segn. Op. 28",
     "Segni":"Nota di possesso autografa di Adele Gadda   Lehr.",
-    "Category":"S"
-    },{
-    "Id":60.0,
+    "Category":"H"
+},{
+    "Id":60,
     "Authors":"Ambrosini, Igino",
     "Title":"Alpinia intimo",
     "Cities":"AnnoniStresa",
@@ -610,8 +609,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2059",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":61.0,
+},{
+    "Id":61,
     "Authors":"Amedeo, Giovanni",
     "Title":"Il nipote",
     "Cities":"Firenze",
@@ -620,28 +619,28 @@ const jsonData = [
     "Fund":"BTB Segn. 146",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":62.0,
-    "Authors":null,
+},{
+    "Id":62,
+    "Authors":"Not found",
     "Title":"America d\u2019altri tempi. Mostra di 138 incisioni americane dal 1722 al 1875",
     "Cities":"s.l.",
     "Publisher":"American Federation of Arts",
     "Years":1954,
     "Fund":"BTB Segn. 2214",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":63.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":63,
+    "Authors":"Not found",
     "Title":"Americana. Raccolta di narratori dalle origini ai nostri giorni",
     "Cities":"Milano",
     "Publisher":"Bompiani",
     "Years":1942,
     "Fund":"BTB Segn. 1236",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":64.0,
+    "Category":"AL"
+},{
+    "Id":64,
     "Authors":"Amicucci, Ermanno",
     "Title":"Nizza e l\u2019Italia. Con documenti autografi, stampe e fotografie",
     "Cities":"Milano",
@@ -649,9 +648,9 @@ const jsonData = [
     "Years":1939,
     "Fund":"BTB Segn. 1496",
     "Segni":"Pieghe e sottolineature.",
-    "Category":"S"
-    },{
-    "Id":65.0,
+    "Category":"H"
+},{
+    "Id":65,
     "Authors":"Anceschi, Luciano",
     "Title":"Civilt\u00e0 delle lettere",
     "Cities":"Milano",
@@ -660,8 +659,8 @@ const jsonData = [
     "Fund":"BTB Segn. 745",
     "Segni":"Dedica dell\u2019autore. Parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":66.0,
+},{
+    "Id":66,
     "Authors":"Andolfi, Otello",
     "Title":"Don Giovanni di Volfango Mozart",
     "Cities":"Roma",
@@ -670,8 +669,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1444",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":67.0,
+},{
+    "Id":67,
     "Authors":"Andr\u00e9, Albert",
     "Title":"Edouard Manet",
     "Cities":"Paris",
@@ -679,9 +678,9 @@ const jsonData = [
     "Years":"s.d",
     "Fund":"BTB Segn. 2204",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":68.0,
+    "Category":"HA"
+},{
+    "Id":68,
     "Authors":"Andr\u00e9, Louis",
     "Title":"Louis XIV et l\u2019Europe",
     "Cities":"Paris",
@@ -689,9 +688,9 @@ const jsonData = [
     "Years":1950,
     "Fund":"BTB Segn. 1593",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":69.0,
+    "Category":"H"
+},{
+    "Id":69,
     "Authors":"Andreini Galli, Nori",
     "Title":"Un cerchio d\u2019ansia",
     "Cities":"Parma",
@@ -700,8 +699,8 @@ const jsonData = [
     "Fund":"BTB Segn. 147",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":70.0,
+},{
+    "Id":70,
     "Authors":"Anelli, Angelo",
     "Title":"L\u2019italiana in Algeri",
     "Cities":"Sesto San Giovanni",
@@ -710,8 +709,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1445",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":71.0,
+},{
+    "Id":71,
     "Authors":"Angeli, Diego",
     "Title":"La vita di Guglielmo Shakespeare",
     "Cities":"Milano",
@@ -720,8 +719,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1339",
     "Segni":null,
     "Category":"L"
-    },{
-    "Id":72.0,
+},{
+    "Id":72,
     "Authors":"Angeli, Siro",
     "Title":"L\u2019ultima libert\u00e0",
     "Cities":"Milano",
@@ -730,8 +729,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"T"
-    },{
-    "Id":73.0,
+},{
+    "Id":73,
     "Authors":"Angelini, Alceste",
     "Title":"Prime poesie e traduzioni dal greco",
     "Cities":"Firenze",
@@ -740,8 +739,8 @@ const jsonData = [
     "Fund":"BTB Segn. 148",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":74.0,
+},{
+    "Id":74,
     "Authors":"Angelini, Arnaldo Maria",
     "Title":"La ricostruzione degli impiantiidroelettrici sul Velino e sul Neradella Soc. \u00abTerni\u00bb",
     "Cities":"Milano",
@@ -750,8 +749,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 109",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":75.0,
+},{
+    "Id":75,
     "Authors":"Angelini, Cesare",
     "Title":"Manzoni",
     "Cities":"Torino",
@@ -760,8 +759,8 @@ const jsonData = [
     "Fund":"BTB Segn. 746",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":76.0,
+},{
+    "Id":76,
     "Authors":"Angelini, Cesare",
     "Title":"Notizie di poeti",
     "Cities":"Firenze",
@@ -770,8 +769,8 @@ const jsonData = [
     "Fund":"BTB Segn. 747",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":77.0,
+},{
+    "Id":77,
     "Authors":"Angioletti, Giovanni Battista",
     "Title":"Amici di strada",
     "Cities":"Lanciano",
@@ -780,8 +779,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Biglietto omaggio dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":78.0,
+},{
+    "Id":78,
     "Authors":"Angioletti, Giovanni Battista",
     "Title":"Donata",
     "Cities":"Firenze",
@@ -790,8 +789,8 @@ const jsonData = [
     "Fund":"BTB Segn. 149",
     "Segni":"Indicazione autografa del contenuto sul dorso.",
     "Category":"IL"
-    },{
-    "Id":79.0,
+},{
+    "Id":79,
     "Authors":"Angioletti, Giovanni Battista",
     "Title":"Un europeo d\u2019Italia. Inchiesta in occidente",
     "Cities":"Torino",
@@ -800,8 +799,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1497",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":80.0,
+},{
+    "Id":80,
     "Authors":"Angioletti, Giovanni Battista",
     "Title":"Giobbe uomo solo",
     "Cities":"Milano",
@@ -810,8 +809,8 @@ const jsonData = [
     "Fund":"BTB Segn. 150",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":81.0,
+},{
+    "Id":81,
     "Authors":"Angioletti, Giovanni Battista",
     "Title":"Il giorno del giudizio. Donata",
     "Cities":"Firenze",
@@ -820,8 +819,8 @@ const jsonData = [
     "Fund":"BTB Segn. 151",
     "Segni":"Dedica dell\u2019autore in data 28.4.1952.",
     "Category":"IL"
-    },{
-    "Id":82.0,
+},{
+    "Id":82,
     "Authors":"Angioletti, Giovanni Battista",
     "Title":"Inchiesta segreta",
     "Cities":"Roma",
@@ -830,8 +829,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":83.0,
+},{
+    "Id":83,
     "Authors":"Angioletti, Giovanni Battista",
     "Title":"Gli italiani sono onesti",
     "Cities":"Milano",
@@ -840,8 +839,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":84.0,
+},{
+    "Id":84,
     "Authors":"Angioletti, Giovanni Battista",
     "Title":"Lavori \u00abin corso\u00bb",
     "Cities":"Venezia",
@@ -850,8 +849,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 114",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":85.0,
+},{
+    "Id":85,
     "Authors":"Angrisani, Gaetano",
     "Title":"Storia d\u2019Italia dal IV al XIX secolo scritta per le classi liceali",
     "Cities":"Napoli",
@@ -859,10 +858,10 @@ const jsonData = [
     "Years":1876,
     "Fund":null,
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":86.0,
-    "Authors":null,
+    "Category":"H"
+},{
+    "Id":86,
+    "Authors":"Not found",
     "Title":"Anno bisestile 1932",
     "Cities":"Milano",
     "Publisher":"Hoepli",
@@ -870,48 +869,48 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 47",
     "Segni":"Nota di possesso autografa in data 2.09.1931 Milano.",
     "Category":"V"
-    },{
-    "Id":87.0,
-    "Authors":null,
+},{
+    "Id":87,
+    "Authors":"Not found",
     "Title":"Annuario del teatro italiano",
     "Cities":"Roma",
     "Publisher":"SIAE",
     "Years":1971,
     "Fund":"BTB Segn. 2401",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":88.0,
-    "Authors":null,
+    "Category":"TH"
+},{
+    "Id":88,
+    "Authors":"Not found",
     "Title":"Annuario del teatro italiano",
     "Cities":"Roma",
     "Publisher":"SIAE",
     "Years":1971,
     "Fund":"BTB Segn. 2402",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":89.0,
-    "Authors":null,
+    "Category":"TH"
+},{
+    "Id":89,
+    "Authors":"Not found",
     "Title":"Annuario del teatro italiano",
     "Cities":"Roma",
     "Publisher":"SIAE",
     "Years":1972,
     "Fund":"BTB Segn. 2403",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":90.0,
-    "Authors":null,
+    "Category":"TH"
+},{
+    "Id":90,
+    "Authors":"Not found",
     "Title":"Annuario generale 1925-26",
     "Cities":"Milano",
     "Publisher":"Touring club italiano",
     "Years":1925,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":91.0,
+    "Category":"G"
+},{
+    "Id":91,
     "Authors":"Anonimo (ma C.E. Gadda)",
     "Title":" Gli impianti elettrici della Citt\u00e0 del Vaticano",
     "Cities":"s.l.",
@@ -920,8 +919,8 @@ const jsonData = [
     "Fund":"BTM, BAL",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":92.0,
+},{
+    "Id":92,
     "Authors":"Anonimo romano",
     "Title":"Vita di Cola di Rienzo",
     "Cities":"Firenze",
@@ -930,8 +929,8 @@ const jsonData = [
     "Fund":"BTB Segn. 152",
     "Segni":"Segnalibro.",
     "Category":"IL"
-    },{
-    "Id":93.0,
+},{
+    "Id":93,
     "Authors":"Anselmo d\u2019Aosta",
     "Title":"Monologio",
     "Cities":"Lanciano",
@@ -939,9 +938,9 @@ const jsonData = [
     "Years":1912,
     "Fund":"BTB Segn. 1781",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":94.0,
+    "Category":"P"
+},{
+    "Id":94,
     "Authors":"Anti, Carlo",
     "Title":"Policleto",
     "Cities":"Roma",
@@ -950,9 +949,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2175",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":95.0,
-    "Authors":null,
+},{
+    "Id":95,
+    "Authors":"Not found",
     "Title":"Antiche rime italiane tratte",
     "Cities":"Modena",
     "Publisher":"Societ\u00e0 Tipografica Modenese",
@@ -960,8 +959,8 @@ const jsonData = [
     "Fund":"BTB Segn. 768",
     "Segni":"Parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":96.0,
+},{
+    "Id":96,
     "Authors":"Antongini, Tom",
     "Title":"Vita segreta di Gabriele\nD\u2019Annunzio",
     "Cities":"Milano",
@@ -970,9 +969,9 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":97.0,
-    "Authors":null,
+},{
+    "Id":97,
+    "Authors":"Not found",
     "Title":"Antologia della poesia italiana contemporanea",
     "Cities":"Firenze",
     "Publisher":" Vallecchi",
@@ -980,8 +979,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":98.0,
+},{
+    "Id":98,
     "Authors":"Antologia della prosa italiana",
     "Title":"Antologia della prosa italiana",
     "Cities":"Firenze",
@@ -990,9 +989,9 @@ const jsonData = [
     "Fund":"BTB Segn. 885-887",
     "Segni":"volume 1 in doppia copia: una copiaintonsa ed una parzialmente intonsa;volume 2 intonso.",
     "Category":"IL"
-    },{
-    "Id":99.0,
-    "Authors":null,
+},{
+    "Id":99,
+    "Authors":"Not found",
     "Title":"Antologia della prosa scientifica italiana del \u2019600",
     "Cities":"Firenze",
     "Publisher":" Vallecchi",
@@ -1000,9 +999,9 @@ const jsonData = [
     "Fund":"BTB Segn. 801-802",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":100.0,
-    "Authors":null,
+},{
+    "Id":100,
+    "Authors":"Not found",
     "Title":"Antologia di scrittori lombardi\ncontemporanei",
     "Cities":"Alpignano",
     "Publisher":"Tallone",
@@ -1010,8 +1009,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":101.0,
+},{
+    "Id":101,
     "Authors":"Apollinaire, Guillaume",
     "Title":"Alcools: po\u00e8mes",
     "Cities":"Paris",
@@ -1020,8 +1019,8 @@ const jsonData = [
     "Fund":"BTB Segn. 944",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":102.0,
+},{
+    "Id":102,
     "Authors":"Apollinaire, Guillaume",
     "Title":"Calligrammes",
     "Cities":"Paris",
@@ -1030,9 +1029,9 @@ const jsonData = [
     "Fund":"BTB Segn. 945",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":103.0,
-    "Authors":null,
+},{
+    "Id":103,
+    "Authors":"Not found",
     "Title":"Approbation du livre de piet\u00e8\nde lajeune fille",
     "Cities":"s.l.",
     "Publisher":"s.e.",
@@ -1040,8 +1039,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":104.0,
+},{
+    "Id":104,
     "Authors":"Arbasino, Alberto",
     "Title":"L\u2019anonimo lombardo",
     "Cities":"Milano",
@@ -1050,8 +1049,8 @@ const jsonData = [
     "Fund":"BTB Segn. 153-154",
     "Segni":"Segnalibro.",
     "Category":"IL"
-    },{
-    "Id":105.0,
+},{
+    "Id":105,
     "Authors":"Arbasino, Alberto",
     "Title":"Certi romanzi",
     "Cities":"Milano",
@@ -1060,8 +1059,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":106.0,
+},{
+    "Id":106,
     "Authors":"Arbasino, Alberto",
     "Title":"Fratelli d\u2019Italia",
     "Cities":"Milano",
@@ -1070,8 +1069,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":107.0,
+},{
+    "Id":107,
     "Authors":"Arbasino, Alberto",
     "Title":"Le piccole vacanze",
     "Cities":"Torino",
@@ -1080,8 +1079,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":108.0,
+},{
+    "Id":108,
     "Authors":"Arbasino, Alberto",
     "Title":"Il principe costante",
     "Cities":"Torino",
@@ -1090,8 +1089,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":109.0,
+},{
+    "Id":109,
     "Authors":"Aretino, Pietro",
     "Title":"Lettere",
     "Cities":"Milano",
@@ -1100,8 +1099,8 @@ const jsonData = [
     "Fund":"BTB Segn. 155",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":110.0,
+},{
+    "Id":110,
     "Authors":"Aretino, Pietro",
     "Title":"Lettere",
     "Cities":"Torino",
@@ -1110,8 +1109,8 @@ const jsonData = [
     "Fund":"BTB Segn. 156",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":111.0,
+},{
+    "Id":111,
     "Authors":"Aretino, Pietro",
     "Title":"Piacevoli e capricciosi ragionamenti",
     "Cities":"Milano",
@@ -1120,8 +1119,8 @@ const jsonData = [
     "Fund":"BTB Segn. 157",
     "Segni":"Nota di possesso autografa in data 1945 Roma.",
     "Category":"IL"
-    },{
-    "Id":112.0,
+},{
+    "Id":112,
     "Authors":"Aretino, Pietro",
     "Title":"L\u2019umanit\u00e0 di Cristo",
     "Cities":"Roma  Colombo",
@@ -1130,8 +1129,8 @@ const jsonData = [
     "Fund":"BTB Segn. 158",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":113.0,
+},{
+    "Id":113,
     "Authors":"Argan, Giulio Carlo",
     "Title":"Tosi",
     "Cities":"Firenze",
@@ -1139,9 +1138,9 @@ const jsonData = [
     "Years":1942,
     "Fund":"BTB Segn. 2216",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":114.0,
+    "Category":"IL"
+},{
+    "Id":114,
     "Authors":"Ariosto, Ludovico",
     "Title":"Opere minori",
     "Cities":"Firenze",
@@ -1150,8 +1149,8 @@ const jsonData = [
     "Fund":"BTB Segn. 159",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":115.0,
+},{
+    "Id":115,
     "Authors":"Ariosto, Ludovico",
     "Title":"Orlando furioso. Vol. II",
     "Cities":"Firenze",
@@ -1160,8 +1159,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":116.0,
+},{
+    "Id":116,
     "Authors":"Ariosto, Ludovico",
     "Title":"Orlando furioso. Vol. III. Firenze,Barbera",
     "Cities":"Firenze",
@@ -1170,8 +1169,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":117.0,
+},{
+    "Id":117,
     "Authors":"Ariosto, Ludovico",
     "Title":"Orlando furioso",
     "Cities":"Bari",
@@ -1180,8 +1179,8 @@ const jsonData = [
     "Fund":"BTB Segn. 160-162",
     "Segni":"Postille nel secondo e terzo volume.",
     "Category":"IL"
-    },{
-    "Id":118.0,
+},{
+    "Id":118,
     "Authors":"Ariosto, Ludovico",
     "Title":"Orlando furioso",
     "Cities":"Firenze",
@@ -1190,8 +1189,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":119.0,
+},{
+    "Id":119,
     "Authors":"Ariosto, Ludovico",
     "Title":"Orlando furioso",
     "Cities":"Torino",
@@ -1200,8 +1199,8 @@ const jsonData = [
     "Fund":"BTB Segn. 163",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":120.0,
+},{
+    "Id":120,
     "Authors":"Aristotele",
     "Title":"De arte poetica liber",
     "Cities":"Leipzig",
@@ -1209,9 +1208,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BAL",
     "Segni":"Nota di possesso autografa di Clara Gaddae sottolineature",
-    "Category":"F"
-    },{
-    "Id":121.0,
+    "Category":"P"
+},{
+    "Id":121,
     "Authors":"Aristotele",
     "Title":"Etica nicomachea",
     "Cities":"Bari",
@@ -1219,9 +1218,9 @@ const jsonData = [
     "Years":1913,
     "Fund":"BTB Segn. 1804",
     "Segni":"Sottolineature e postille.",
-    "Category":"F"
-    },{
-    "Id":122.0,
+    "Category":"P"
+},{
+    "Id":122,
     "Authors":"Aristotele",
     "Title":"Introduzione alla filosofia: dalla Metafisica, libri IIV; IX,10; XI,18",
     "Cities":"Bari",
@@ -1229,9 +1228,9 @@ const jsonData = [
     "Years":1920,
     "Fund":"BTB Segn. 1805",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":123.0,
+    "Category":"P"
+},{
+    "Id":123,
     "Authors":"Aristotele",
     "Title":"Kategorien",
     "Cities":"Leipzig",
@@ -1239,9 +1238,9 @@ const jsonData = [
     "Years":1920,
     "Fund":"BTB Segn. 1807",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":124.0,
+    "Category":"P"
+},{
+    "Id":124,
     "Authors":"Aristotele",
     "Title":"Metaphysik",
     "Cities":"Leipzig",
@@ -1249,9 +1248,9 @@ const jsonData = [
     "Years":1920,
     "Fund":"BTB Segn. 1809-1810",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":125.0,
+    "Category":"P"
+},{
+    "Id":125,
     "Authors":"Aristotele",
     "Title":"Il primo libro della metafisica",
     "Cities":"Lanciano",
@@ -1259,9 +1258,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BTB Segn. 1808",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":126.0,
+    "Category":"P"
+},{
+    "Id":126,
     "Authors":"Aristotele",
     "Title":" I principi primi: dalla Metafisica, libri 89, 12",
     "Cities":"Bari",
@@ -1269,9 +1268,9 @@ const jsonData = [
     "Years":1924,
     "Fund":"BTB Segn. 1806",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":127.0,
+    "Category":"P"
+},{
+    "Id":127,
     "Authors":"Aristotele",
     "Title":"Topik",
     "Cities":"Leipzig",
@@ -1279,9 +1278,9 @@ const jsonData = [
     "Years":1919,
     "Fund":"BTB Segn. 1811",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":128.0,
+    "Category":"P"
+},{
+    "Id":128,
     "Authors":"Arland, Marcel",
     "Title":"Essais critiques",
     "Cities":"Paris",
@@ -1290,8 +1289,8 @@ const jsonData = [
     "Fund":"BTB Segn. 946",
     "Segni":"Nota di possesso autografa in data15.10.1931 Milano. Pieghe.",
     "Category":"FL"
-    },{
-    "Id":129.0,
+},{
+    "Id":129,
     "Authors":"Arnim, Ludwig Achim von \u2013 Eichendorff, Joseph Freiherrn von",
     "Title":"Dramen",
     "Cities":"Leipzig",
@@ -1299,9 +1298,9 @@ const jsonData = [
     "Years":1939,
     "Fund":"BTB Segn. 1155",
     "Segni":"Etichetta della Biblioteca NazionaleBraidense. Sottolineature e postille aDie Appelm\u00e4nner.",
-    "Category":"L"
-    },{
-    "Id":130.0,
+    "Category":"GL"
+},{
+    "Id":130,
     "Authors":"Arnim, Ludwig Achim von \u2013 Eichendorff, Joseph Freiherrn von",
     "Title":"Il manichino tragico",
     "Cities":"Roma",
@@ -1309,9 +1308,9 @@ const jsonData = [
     "Years":1942,
     "Fund":"BTB Segn. 1155bis",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":131.0,
+    "Category":"GL"
+},{
+    "Id":131,
     "Authors":"Arpesani, Camillo",
     "Title":"Lavorazione dei metalli",
     "Cities":"Milano",
@@ -1320,9 +1319,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2029",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":132.0,
-    "Authors":null,
+},{
+    "Id":132,
+    "Authors":"Not found",
     "Title":"Arsa \u2013 societ\u00e0 anonima carbonifera",
     "Cities":"Trieste",
     "Publisher":"Trieste Editoriale libraria",
@@ -1330,18 +1329,18 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":133.0,
-    "Authors":null,
+},{
+    "Id":133,
+    "Authors":"Not found",
     "Title":"L\u2019arte in Italia dai secoli pi\u00f9\nremoti ai tempi nostri. Sguardo d\u2019insieme al Piemonte, alla\nLombardia e al Canton Ticino;\nTorino, Milano",
     "Cities":"Milano",
     "Publisher":"TCI",
     "Years":1914,
     "Fund":"BTB Segn. 2321",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":134.0,
+    "Category":"HA"
+},{
+    "Id":134,
     "Authors":"Artini, Ettore",
     "Title":"I minerali",
     "Cities":"Milano",
@@ -1350,8 +1349,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2030",
     "Segni":"Sottolineature e postille.",
     "Category":"T"
-    },{
-    "Id":135.0,
+},{
+    "Id":135,
     "Authors":"Asciamprener, Spartaco",
     "Title":"Canti",
     "Cities":"Milano",
@@ -1359,9 +1358,9 @@ const jsonData = [
     "Years":1956,
     "Fund":"BTB Segn. 164",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":136.0,
+    "Category":"IL"
+},{
+    "Id":136,
     "Authors":"Ascoli, Graziadio Isaia",
     "Title":"Scritti sulla questione della lingua",
     "Cities":"Torino",
@@ -1369,9 +1368,9 @@ const jsonData = [
     "Years":1968,
     "Fund":"BTB Segn. 2410",
     "Segni":"Parzialmente intonso.",
-    "Category":"L"
-    },{
-    "Id":137.0,
+    "Category":"IL"
+},{
+    "Id":137,
     "Authors":"Ascoli, Guido",
     "Title":"Lezioni elementari di analisi matematica",
     "Cities":"Torino",
@@ -1380,8 +1379,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2111",
     "Segni":"Nota di possesso autografa in data1.06.1925 Milano. Postille.",
     "Category":"T"
-    },{
-    "Id":138.0,
+},{
+    "Id":138,
     "Authors":null,
     "Title":"L\u2019assassinio di Winckelmann. Gli atti originali del processo criminale (1768)",
     "Cities":"Milano",
@@ -1389,9 +1388,9 @@ const jsonData = [
     "Years":1971,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":139.0,
+    "Category":"HA"
+},{
+    "Id":139,
     "Authors":"Astolfi, Giovanni",
     "Title":"Guida per l\u2019agente di campagna nelle pratiche operazioni d\u2019agrimensura",
     "Cities":"Milano",
@@ -1400,9 +1399,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2061-2062",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":140.0,
-    "Authors":null,
+},{
+    "Id":140,
+    "Authors":"Not found",
     "Title":"Atlante Garzanti. Enciclopedia geografica",
     "Cities":"Milano",
     "Publisher":"Garzanti",
@@ -1410,9 +1409,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2284",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":141.0,
-    "Authors":null,
+},{
+    "Id":141,
+    "Authors":"Not found",
     "Title":"Atlante geografico metodico.",
     "Cities":"Novara",
     "Publisher":"Istituto geografico DeAgostini",
@@ -1420,9 +1419,9 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":142.0,
-    "Authors":null,
+},{
+    "Id":142,
+    "Authors":"Not found",
     "Title":"Attivit\u00e0 geografica del TCI nel triennio 1924-1926. Nota per il XCongresso Geografico Italiano, Milano",
     "Cities":"Milano",
     "Publisher":"TCI",
@@ -1430,9 +1429,9 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 103",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":143.0,
-    "Authors":null,
+},{
+    "Id":143,
+    "Authors":"Not found",
     "Title":"L\u2019attivit\u00e0 svolta dalla Terni durante l\u2019ultimo decennio nel campo delle costruzioni idroelettriche",
     "Cities":"Milano",
     "Publisher":"Societ\u00e0 Editrice Riviste Industrie Elettriche",
@@ -1440,8 +1439,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 107",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":144.0,
+},{
+    "Id":144,
     "Authors":"Aubry, Octave",
     "Title":"Napol\u00e9on III",
     "Cities":"Paris",
@@ -1450,8 +1449,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1595",
     "Segni":"Presente solo il II volume.",
     "Category":"S "
-    },{
-    "Id":145.0,
+},{
+    "Id":145,
     "Authors":"Aubry, Octave",
     "Title":"Il Secondo Impero",
     "Cities":"Milano",
@@ -1459,9 +1458,9 @@ const jsonData = [
     "Years":1940,
     "Fund":"BTB Segn. 1594",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":146.0,
+    "Category":"H"
+},{
+    "Id":146,
     "Authors":"Auerbach, Erich",
     "Title":"Introduzione alla filologia romanza",
     "Cities":"Torino",
@@ -1470,8 +1469,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2419",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":147.0,
+},{
+    "Id":147,
     "Authors":"Auerbach, Erich",
     "Title":"Mimesis. Il realismo nella letteratura occidentale",
     "Cities":"Torino",
@@ -1480,18 +1479,18 @@ const jsonData = [
     "Fund":"BTB Segn. 1221",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":148.0,
-    "Authors":null,
+},{
+    "Id":148,
+    "Authors":"Not found",
     "Title":"Un augurio a Raffaele Mattioli",
     "Cities":"Firenze",
     "Publisher":"Sansoni",
     "Years":1970,
     "Fund":"BTB Segn. 749",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":149.0,
+    "Category":"V"
+},{
+    "Id":149,
     "Authors":"Augustinus, Aurelius (santo)",
     "Title":"I soliloqui",
     "Cities":"Novara",
@@ -1499,9 +1498,9 @@ const jsonData = [
     "Years":1844,
     "Fund":"BAL",
     "Segni":"Nota di possesso di Gerolamo CappelliLehr.",
-    "Category":"F"
-    },{
-    "Id":150.0,
+    "Category":"P"
+},{
+    "Id":150,
     "Authors":"Aym\u00e9, Marcel",
     "Title":"Le vaurien",
     "Cities":"Paris",
@@ -1510,8 +1509,8 @@ const jsonData = [
     "Fund":"BTB Segn. 947",
     "Segni":"Sottolineature e postille. B",
     "Category":"FL"
-    },{
-    "Id":151.0,
+},{
+    "Id":151,
     "Authors":"Babinger, Franz",
     "Title":"Maometto il conquistatore",
     "Cities":"Torino",
@@ -1519,9 +1518,9 @@ const jsonData = [
     "Years":1957,
     "Fund":"BTB Segn. 1724",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":152.0,
+    "Category":"H"
+},{
+    "Id":152,
     "Authors":"Bacchelli, Riccardo",
     "Title":"Acque dolci e peccati. Novelle,fiabe e racconti",
     "Cities":"Milano",
@@ -1530,8 +1529,8 @@ const jsonData = [
     "Fund":"BTB Segn. 165",
     "Segni":"Dedica dell\u2019autore in data 31.10.1939.Postille.",
     "Category":"IL"
-    },{
-    "Id":153.0,
+},{
+    "Id":153,
     "Authors":"Bacchelli, Riccardo",
     "Title":"Amore di poesia. Poemi lirici;Memorie; Riepilogo; Liriche",
     "Cities":"Milano",
@@ -1540,8 +1539,8 @@ const jsonData = [
     "Fund":"BTB Segn. 166",
     "Segni":"Dedica dell\u2019autore in data 27.7.1932.",
     "Category":"IL"
-    },{
-    "Id":154.0,
+},{
+    "Id":154,
     "Authors":"Bacchelli, Riccardo",
     "Title":"Il brigante di Tacca del Lupo.Racconti disperati",
     "Cities":"Milano",
@@ -1550,8 +1549,8 @@ const jsonData = [
     "Fund":"BTB Segn. 167",
     "Segni":"Timbro dell\u2019autore. Intonso.",
     "Category":"IL"
-    },{
-    "Id":155.0,
+},{
+    "Id":155,
     "Authors":"Bacchelli, Riccardo",
     "Title":"La citt\u00e0 degli amanti",
     "Cities":"Milano  Ce schina",
@@ -1560,8 +1559,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":156.0,
+},{
+    "Id":156,
     "Authors":"Bacchelli, Riccardo",
     "Title":"La citt\u00e0 degli amanti",
     "Cities":"Milano",
@@ -1570,8 +1569,8 @@ const jsonData = [
     "Fund":"BTB Segn. 168",
     "Segni":"Dedica dell\u2019autore in data 6.12.1968.",
     "Category":"IL"
-    },{
-    "Id":157.0,
+},{
+    "Id":157,
     "Authors":"Bacchelli, Riccardo",
     "Title":"Confessioni letterarie",
     "Cities":"Milano",
@@ -1580,8 +1579,8 @@ const jsonData = [
     "Fund":"BTB Segn. 169",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":158.0,
+},{
+    "Id":158,
     "Authors":"Bacchelli, Riccardo",
     "Title":"La congiura di Don Giuliod\u2019Este",
     "Cities":"Milano",
@@ -1590,8 +1589,8 @@ const jsonData = [
     "Fund":"BTB Segn. 170-171",
     "Segni":"Dedica dell\u2019autore in data 8.1931. Sottoli neature e postille.",
     "Category":"IL"
-    },{
-    "Id":159.0,
+},{
+    "Id":159,
     "Authors":"Bacchelli, Riccardo",
     "Title":"Il diavolo a Pontelungo",
     "Cities":"Milano",
@@ -1600,8 +1599,8 @@ const jsonData = [
     "Fund":"BTB Segn. 172-173",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":160.0,
+},{
+    "Id":160,
     "Authors":"Bacchelli, Riccardo",
     "Title":"Il diavolo al Pontelungo",
     "Cities":"Milano",
@@ -1610,8 +1609,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":161.0,
+},{
+    "Id":161,
     "Authors":"Bacchelli, Riccardo",
     "Title":"L\u2019elmo di Tancredi ed altre novelle giocose",
     "Cities":"Milano",
@@ -1620,8 +1619,8 @@ const jsonData = [
     "Fund":"BTB Segn. 174",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":162.0,
+},{
+    "Id":162,
     "Authors":"Bacchelli, Riccardo",
     "Title":"La fine di Atlantide",
     "Cities":"Milano  Garzanti",
@@ -1630,8 +1629,8 @@ const jsonData = [
     "Fund":"BTB Segn. 175",
     "Segni":"Dedica dell\u2019autore. Intonso.",
     "Category":"IL"
-    },{
-    "Id":163.0,
+},{
+    "Id":163,
     "Authors":"Bacchelli, Riccardo",
     "Title":"Il fiore della Mirabilis",
     "Cities":"Milano",
@@ -1640,8 +1639,8 @@ const jsonData = [
     "Fund":"BTB Segn. 176",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":164.0,
+},{
+    "Id":164,
     "Authors":"Bacchelli, Riccardo",
     "Title":"Mal d\u2019Africa",
     "Cities":"Milano",
@@ -1650,8 +1649,8 @@ const jsonData = [
     "Fund":"BTB Segn. 177",
     "Segni":"Dedica dell\u2019autore in data 15.12.1934.Nota di possesso autografa in data20.12.1934. Postille.",
     "Category":"IL"
-    },{
-    "Id":165.0,
+},{
+    "Id":165,
     "Authors":"Bacchelli, Riccardo",
     "Title":"Il mulino del Po. Romanzo storico",
     "Cities":"Milano",
@@ -1660,8 +1659,8 @@ const jsonData = [
     "Fund":"BTB Segn. 178-180",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":166.0,
+},{
+    "Id":166,
     "Authors":"Bacchelli, Riccardo",
     "Title":"Il mulino del Po",
     "Cities":"Milano",
@@ -1670,8 +1669,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":167.0,
+},{
+    "Id":167,
     "Authors":"Bacchelli, Riccardo",
     "Title":"Il mulino del Po. Mondo vecchio sempre nuovo",
     "Cities":"Milano",
@@ -1680,8 +1679,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":168.0,
+},{
+    "Id":168,
     "Authors":"Bacchelli, Riccardo",
     "Title":"Nel fiume della storia. Riflessioni,discorsi e saggi storici",
     "Cities":"Milano",
@@ -1690,8 +1689,8 @@ const jsonData = [
     "Fund":"BTB Segn. 181",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":169.0,
+},{
+    "Id":169,
     "Authors":"Bacchelli, Riccardo",
     "Title":"Oggi domani mai",
     "Cities":"Milano-Roma",
@@ -1700,8 +1699,8 @@ const jsonData = [
     "Fund":"BTB Segn. 182",
     "Segni":"Dedica dell\u2019autore in data 8.5.1932.",
     "Category":"IL"
-    },{
-    "Id":170.0,
+},{
+    "Id":170,
     "Authors":"Bacchelli, Riccardo",
     "Title":"La ruota del tempo. Scritti d\u2019occasione",
     "Cities":"Bologna",
@@ -1710,8 +1709,8 @@ const jsonData = [
     "Fund":"BTB Segn. 183",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":171.0,
+},{
+    "Id":171,
     "Authors":"Bacchelli, Riccardo",
     "Title":"Una passione coniugale",
     "Cities":"Milano",
@@ -1720,8 +1719,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":172.0,
+},{
+    "Id":172,
     "Authors":"Bachofen, Jakob",
     "Title":"Le madri e la virilit\u00e0 olimpica.Studi sulla storia segreta dell\u2019antico mondo mediterraneo",
     "Cities":"Milano",
@@ -1729,9 +1728,9 @@ const jsonData = [
     "Years":1949,
     "Fund":"BTB Segn. 1447",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":173.0,
+    "Category":"H"
+},{
+    "Id":173,
     "Authors":"Bacon, Francis",
     "Title":"Novum Organum",
     "Cities":"Paris",
@@ -1739,9 +1738,9 @@ const jsonData = [
     "Years":1857,
     "Fund":"BTB Segn. 1813",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":174.0,
+    "Category":"P"
+},{
+    "Id":174,
     "Authors":"Bacon, Francis",
     "Title":"Novum Organum",
     "Cities":"Bari",
@@ -1749,9 +1748,9 @@ const jsonData = [
     "Years":1912,
     "Fund":"BTB Segn. 1812",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":175.0,
+    "Category":"P"
+},{
+    "Id":175,
     "Authors":"Badoaro, Giacomo",
     "Title":"Il ritorno di Ulisse in patria",
     "Cities":"Milano",
@@ -1760,8 +1759,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1442",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":176.0,
+},{
+    "Id":176,
     "Authors":"Badoni, Piera",
     "Title":"Felicit\u00e0 che pure esisti",
     "Cities":"Milano",
@@ -1770,8 +1769,8 @@ const jsonData = [
     "Fund":"BTB Segn. 184",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":177.0,
+},{
+    "Id":177,
     "Authors":"B\u00e6deker, Karl",
     "Title":"Berlin und Umgebungen",
     "Cities":"Leipzig",
@@ -1780,8 +1779,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2304",
     "Segni":"Nota di possesso autografa in data28.09.1922 Berlino.",
     "Category":"G"
-    },{
-    "Id":178.0,
+},{
+    "Id":178,
     "Authors":"B\u00e6deker, Karl",
     "Title":"Italie centrale et Rome: manueldu voyageur",
     "Cities":"Leipzig",
@@ -1790,8 +1789,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2305",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":179.0,
+},{
+    "Id":179,
     "Authors":"B\u00e6deker, Karl",
     "Title":"Unteritalien, Sizilien, Sardinien,Malta, Korfu",
     "Cities":"Leipzig",
@@ -1800,8 +1799,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2304",
     "Segni":"Postille.",
     "Category":"G"
-    },{
-    "Id":180.0,
+},{
+    "Id":180,
     "Authors":"Bagni, Tullio",
     "Title":"Teoria matematica dei fenomenicollettivi",
     "Cities":"Firenze",
@@ -1810,8 +1809,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2063",
     "Segni":"Nota di possesso autografa in data 4.06. 1925 Milano.",
     "Category":"T"
-    },{
-    "Id":181.0,
+},{
+    "Id":181,
     "Authors":"Bailly, Auguste",
     "Title":"Byzance",
     "Cities":"Paris",
@@ -1819,9 +1818,9 @@ const jsonData = [
     "Years":1948,
     "Fund":"BTB Segn. 1448",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":182.0,
+    "Category":"H"
+},{
+    "Id":182,
     "Authors":"Bainville, Jacques",
     "Title":"Histoire de France",
     "Cities":"Paris",
@@ -1829,9 +1828,9 @@ const jsonData = [
     "Years":1924,
     "Fund":"BTB Segn. 1596",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":183.0,
+    "Category":"H"
+},{
+    "Id":183,
     "Authors":"Bainville, Jacques",
     "Title":"Napol\u00e9on",
     "Cities":"Paris",
@@ -1839,9 +1838,9 @@ const jsonData = [
     "Years":1931,
     "Fund":"BTB Segn. 1597",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":184.0,
+    "Category":"H"
+},{
+    "Id":184,
     "Authors":"Balbo, Cesare",
     "Title":"Sommario della storia d\u2019Italia (dalle origini fino ai nostri tempi). ",
     "Cities":"Milano",
@@ -1849,9 +1848,9 @@ const jsonData = [
     "Years":1927,
     "Fund":"BTB Segn. 1499",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":185.0,
+    "Category":"H"
+},{
+    "Id":185,
     "Authors":"Balbo, Cesare",
     "Title":"Vita di Dante",
     "Cities":"Firenze",
@@ -1860,8 +1859,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":186.0,
+},{
+    "Id":186,
     "Authors":"Baldini, Antonio",
     "Title":"Beato fra le donne. Seconda edizionemolto accresciuta ma niente aggiornata de \u00abLa dolce calamita\u00bb (1929)",
     "Cities":"Milano",
@@ -1870,8 +1869,8 @@ const jsonData = [
     "Fund":"BTB Segn. 185",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":187.0,
+},{
+    "Id":187,
     "Authors":"Baldini, Antonio",
     "Title":"Diagonale 1930: Parigi-Ankara. Note di viaggio",
     "Cities":"Milano",
@@ -1880,8 +1879,8 @@ const jsonData = [
     "Fund":"BTB Segn. 186",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":188.0,
+},{
+    "Id":188,
     "Authors":"Baldini, Antonio",
     "Title":"Melafumo. Quindici variazioni. Con cinque tavole di A. Bartoli",
     "Cities":"Torino",
@@ -1890,8 +1889,8 @@ const jsonData = [
     "Fund":"BTB Segn. 187bis",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":189.0,
+},{
+    "Id":189,
     "Authors":"Baldini, Antonio",
     "Title":"Michelaccio",
     "Cities":"Milano",
@@ -1900,8 +1899,8 @@ const jsonData = [
     "Fund":"BTB Segn. 187",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":190.0,
+},{
+    "Id":190,
     "Authors":"Baldini, Antonio",
     "Title":"Quel caro magon di Lucia. Microscopie manzoniane",
     "Cities":"Milano-Napoli",
@@ -1910,8 +1909,8 @@ const jsonData = [
     "Fund":"BTB Segn. 750",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":191.0,
+},{
+    "Id":191,
     "Authors":"Baldini, Gabriele",
     "Title":"Due poemetti elisabettiani: \u2018Hero and Leander\u2019 di Christopher Marlowe, \u2018Venus e Adonis\u2019 di William Shakespeare",
     "Cities":"Parma",
@@ -1920,8 +1919,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":192.0,
+},{
+    "Id":192,
     "Authors":"Baldini, Gabriele",
     "Title":"Selva e torrente",
     "Cities":"Torino",
@@ -1930,8 +1929,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":193.0,
+},{
+    "Id":193,
     "Authors":"Bailly, Auguste",
     "Title":"Mazzarino",
     "Cities":"Milano",
@@ -1939,9 +1938,9 @@ const jsonData = [
     "Years":1949,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":194.0,
+    "Category":"FL"
+},{
+    "Id":194,
     "Authors":"Bally, Charles",
     "Title":"Linguistica generale e linguistica francese",
     "Cities":"Milano",
@@ -1950,8 +1949,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"GR"
-    },{
-    "Id":195.0,
+},{
+    "Id":195,
     "Authors":"Balzac, Honor\u00e9 de",
     "Title":"Illusioni perdute",
     "Cities":"Milano",
@@ -1960,8 +1959,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":196.0,
+},{
+    "Id":196,
     "Authors":"Balzac, Honor\u00e9 de",
     "Title":" Mercadet, homme d\u2019affaires",
     "Cities":"Paris",
@@ -1970,8 +1969,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":197.0,
+},{
+    "Id":197,
     "Authors":"Balzac, Honor\u00e9 de",
     "Title":"Les paysans: sc\u00e8nes de la vie de campagne",
     "Cities":"Paris",
@@ -1980,8 +1979,8 @@ const jsonData = [
     "Fund":"BTB Segn. 949",
     "Segni":"Pieghe, sottolineature e postille. Segnalibro.",
     "Category":"FL"
-    },{
-    "Id":198.0,
+},{
+    "Id":198,
     "Authors":"Balzac, Honor\u00e9 de",
     "Title":"Le p\u00e8re Goriot",
     "Cities":"Paris",
@@ -1990,8 +1989,8 @@ const jsonData = [
     "Fund":"BTB Segn. 952",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":199.0,
+},{
+    "Id":199,
     "Authors":"Balzac, Honor\u00e9 de",
     "Title":"Les petits bourgeois",
     "Cities":"Paris",
@@ -2000,8 +1999,8 @@ const jsonData = [
     "Fund":"BTB Segn. 950-951",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":200.0,
+},{
+    "Id":200,
     "Authors":"Balzac, Honor\u00e9 de",
     "Title":"Splendori e miserie delle cortigiane",
     "Cities":"Milano",
@@ -2010,8 +2009,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Nota di possesso autografa di Enrico Gadda in data 06.1917.",
     "Category":"FL"
-    },{
-    "Id":201.0,
+},{
+    "Id":201,
     "Authors":"Balzac, Honor\u00e9 de",
     "Title":"Una figlia d\u2019Eva",
     "Cities":"Lanciano",
@@ -2020,8 +2019,8 @@ const jsonData = [
     "Fund":"BTB Segn. 948",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":202.0,
+},{
+    "Id":202,
     "Authors":"Balzaretti, Liliana",
     "Title":"Villa Amalia",
     "Cities":"Como",
@@ -2030,8 +2029,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2345-2346",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":203.0,
+},{
+    "Id":203,
     "Authors":"Bandello, Matteo",
     "Title":"Novelle",
     "Cities":"Milano",
@@ -2040,8 +2039,8 @@ const jsonData = [
     "Fund":"BTB Segn. 188",
     "Segni":"Dedica del curatore. Parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":204.0,
+},{
+    "Id":204,
     "Authors":"Bandello, Matteo",
     "Title":"Tutte le opere di Matteo Bandello",
     "Cities":"Firenze",
@@ -2050,8 +2049,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Disegni",
     "Category":"IL"
-    },{
-    "Id":205.0,
+},{
+    "Id":205,
     "Authors":"Bandini, Franco",
     "Title":"Claretta",
     "Cities":"Milano",
@@ -2060,8 +2059,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":206.0,
+},{
+    "Id":206,
     "Authors":"Banti, Anna",
     "Title":"Allarme sul lago",
     "Cities":"Milano",
@@ -2070,8 +2069,8 @@ const jsonData = [
     "Fund":"BTB Segn. 189",
     "Segni":"Dedica dell\u2019autrice in data 2.1956.",
     "Category":"IL"
-    },{
-    "Id":207.0,
+},{
+    "Id":207,
     "Authors":"Banti, Anna",
     "Title":"Artemisia",
     "Cities":"Milano",
@@ -2080,8 +2079,8 @@ const jsonData = [
     "Fund":"BTB Segn. 190",
     "Segni":"Dedica dell\u2019autrice.",
     "Category":"IL"
-    },{
-    "Id":208.0,
+},{
+    "Id":208,
     "Authors":"Banti, Anna",
     "Title":"Corte Savella",
     "Cities":"Milano",
@@ -2090,8 +2089,8 @@ const jsonData = [
     "Fund":"BTB Segn. 191",
     "Segni":"Dedica dell\u2019autrice, giugno 1960.",
     "Category":"IL"
-    },{
-    "Id":209.0,
+},{
+    "Id":209,
     "Authors":"Barbagallo, Corrado",
     "Title":"Manuale di storia antica (4000 a.C.-476 d.C.). Per la prima classe delle scuole normali",
     "Cities":"Milano-Roma-Napoli",
@@ -2099,9 +2098,9 @@ const jsonData = [
     "Years":1915,
     "Fund":"BTB Segn. 1449",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":210.0,
+    "Category":"H"
+},{
+    "Id":210,
     "Authors":"Barbagallo, Corrado",
     "Title":"Manuale di storia del Medioevo (dal 476 al 1494). Per la seconda classe delle scuole normali",
     "Cities":"Milano-Roma-Napoli",
@@ -2109,9 +2108,9 @@ const jsonData = [
     "Years":1914,
     "Fund":"BTB Segn. 1449",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":211.0,
+    "Category":"H"
+},{
+    "Id":211,
     "Authors":"Barbagallo, Corrado",
     "Title":"Manuale di storia moderna e contemporanea (1492-1914). Per la terza classe normale",
     "Cities":"Milano-Roma-Napoli",
@@ -2119,9 +2118,9 @@ const jsonData = [
     "Years":1915,
     "Fund":"BTB Segn. 1449",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":212.0,
+    "Category":"H"
+},{
+    "Id":212,
     "Authors":"Barbarani, Tiberio Umberto",
     "Title":"I due canzonieri",
     "Cities":"Verona ",
@@ -2130,8 +2129,8 @@ const jsonData = [
     "Fund":"BTB Segn. 192",
     "Segni":"Nota di possesso autografa in data 18.09.1915 Milano. Parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":213.0,
+},{
+    "Id":213,
     "Authors":"B\u00e0rberi Squarotti, Giorgio",
     "Title":"La narrativa italiana del dopoguerra",
     "Cities":"Bologna",
@@ -2140,8 +2139,8 @@ const jsonData = [
     "Fund":"BTB Segn. 751",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":214.0,
+},{
+    "Id":214,
     "Authors":"Barbet, Pierre",
     "Title":"La passione di Cristo secondo il chirurgo",
     "Cities":"Padova",
@@ -2149,9 +2148,9 @@ const jsonData = [
     "Years":1965,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":215.0,
+    "Category":"FL"
+},{
+    "Id":215,
     "Authors":"Barbiera, Raffaello",
     "Title":"Carlo Porta e la sua Milano",
     "Cities":"Firenze",
@@ -2160,8 +2159,8 @@ const jsonData = [
     "Fund":"BTB Segn. 752",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":216.0,
+},{
+    "Id":216,
     "Authors":"Barbiera, Raffaello",
     "Title":"Diademi. Donne e madonne dell\u2019Ottocento",
     "Cities":"Milano",
@@ -2170,8 +2169,8 @@ const jsonData = [
     "Fund":"BTB Segn. 753",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":217.0,
+},{
+    "Id":217,
     "Authors":"Barbiera, Raffaello",
     "Title":"Immortali e dimenticati",
     "Cities":"Milano",
@@ -2180,8 +2179,8 @@ const jsonData = [
     "Fund":"BTB Segn. 754",
     "Segni":"Nota di possesso autografa.",
     "Category":"IL"
-    },{
-    "Id":218.0,
+},{
+    "Id":218,
     "Authors":"Barbiera, Raffaello",
     "Title":"Passioni del Risorgimento. Condocumenti inediti e illustrazioni",
     "Cities":"Milano",
@@ -2190,8 +2189,8 @@ const jsonData = [
     "Fund":"BTB Segn. 755",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":219.0,
+},{
+    "Id":219,
     "Authors":"Barbiera, Raffaello",
     "Title":"La Principessa Belgiojoso: i suoiamici e nemici \u2013 il suo tempo",
     "Cities":"Milano",
@@ -2200,8 +2199,8 @@ const jsonData = [
     "Fund":"BTB Segn. 756",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":220.0,
+},{
+    "Id":220,
     "Authors":"Barbiera, Raffaello",
     "Title":"Il salotto della contessa Maffei e la societ\u00e0 milanese",
     "Cities":"Milano",
@@ -2210,8 +2209,8 @@ const jsonData = [
     "Fund":"BTB Segn. 757",
     "Segni":"Nota di possesso autografa di Luisa Gadda.",
     "Category":"IL"
-    },{
-    "Id":221.0,
+},{
+    "Id":221,
     "Authors":"Bardi, Pietro",
     "Title":"Grammatica inglese con introduzione e note storiche",
     "Cities":"Bari",
@@ -2220,8 +2219,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2420",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":222.0,
+},{
+    "Id":222,
     "Authors":"Baretti, Giuseppe",
     "Title":"Scritti scelti, inediti o rari connuove  memorie della sua vita",
     "Cities":"Milano",
@@ -2230,8 +2229,8 @@ const jsonData = [
     "Fund":"BTB Segn. 193-194",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":223.0,
+},{
+    "Id":223,
     "Authors":"Bargellini, Piero",
     "Title":"Giosu\u00e8 Carducci",
     "Cities":"Brescia",
@@ -2240,8 +2239,8 @@ const jsonData = [
     "Fund":"BTB Segn. 758",
     "Segni":"Parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":224.0,
+},{
+    "Id":224,
     "Authors":"Bargellini, Piero",
     "Title":"Pian dei Giullari: panorama storico della letteratura italiana (vol. 1:Dalle origini alla fine del Quattrocento)",
     "Cities":"Firenze",
@@ -2250,8 +2249,8 @@ const jsonData = [
     "Fund":"BTB Segn. 759",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":225.0,
+},{
+    "Id":225,
     "Authors":"Barilli, Bruno",
     "Title":"Il paese del melodramma",
     "Cities":"Lanciano",
@@ -2260,8 +2259,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1433",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":226.0,
+},{
+    "Id":226,
     "Authors":"Barni, Edoardo",
     "Title":"Elettrotecnica. Manuale teoricopratico di elettricit\u00e0 industriale",
     "Cities":"Brescia",
@@ -2270,8 +2269,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2064",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":227.0,
+},{
+    "Id":227,
     "Authors":"Barolini, Antonio",
     "Title":"Le notti della paura",
     "Cities":"Milano",
@@ -2280,8 +2279,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore",
     "Category":"IL"
-    },{
-    "Id":228.0,
+},{
+    "Id":228,
     "Authors":"Barolini, Antonio",
     "Title":"L\u2019ultima contessa di famiglia",
     "Cities":"Milano",
@@ -2290,8 +2289,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":229.0,
+},{
+    "Id":229,
     "Authors":"Barone, Carlo",
     "Title":"Manual of conversation EnglishItalian with the Italian figured pronounciation for English tourist in Italy",
     "Cities":"Milano",
@@ -2300,8 +2299,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2421",
     "Segni":null,
     "Category":"GR"
-    },{
-    "Id":230.0,
+},{
+    "Id":230,
     "Authors":"Barozzi da Vignola, Giacomo",
     "Title":"Li cinque ordini di architettura.Coll\u2019aggiunta di diverse altre regole ad istruzione della giovent\u00f9ad uso delle scuole e delle accademie d\u2019Italia",
     "Cities":"Milano-Napoli",
@@ -2310,8 +2309,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2248",
     "Segni":"Parzialmente intonso.",
     "Category":"T"
-    },{
-    "Id":231.0,
+},{
+    "Id":231,
     "Authors":"Barozzi da Vignola, Giacomo",
     "Title":"Gli ordini d\u2019architettura civile",
     "Cities":"Milano",
@@ -2320,18 +2319,18 @@ const jsonData = [
     "Fund":"BTB Segn. 2283",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":232.0,
+},{
+    "Id":232,
     "Authors":"Barzini, Luigi",
-    "Title":"La met\u00e0 del mondo vista daun\u2019automobile",
+    "Title":"La met\u00e0 del mondo vista da un\u2019automobile",
     "Cities":"Milano",
     "Publisher":"Hoepli",
     "Years":1908,
     "Fund":"BTB Segn. 2347",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":233.0,
+    "Category":"IL"
+},{
+    "Id":233,
     "Authors":"Barzini, Luigi jr.",
     "Title":"I comunisti non hanno vinto",
     "Cities":"Milano",
@@ -2339,9 +2338,9 @@ const jsonData = [
     "Years":1955,
     "Fund":"BTB Segn. 1500",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":234.0,
+    "Category":"H"
+},{
+    "Id":234,
     "Authors":"Bassani, Giorgio",
     "Title":"Gli occhiali d\u2019oro",
     "Cities":"Torino",
@@ -2350,8 +2349,8 @@ const jsonData = [
     "Fund":"BTB Segn. 196",
     "Segni":"Dedica dell\u2019autore in data 2.6.1958.",
     "Category":"IL"
-    },{
-    "Id":235.0,
+},{
+    "Id":235,
     "Authors":"Barzini, Luigi jr.",
     "Title":"Dietro la porta",
     "Cities":"Torino",
@@ -2360,8 +2359,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore.",
     "Category":null
-    },{
-    "Id":236.0,
+},{
+    "Id":236,
     "Authors":"Bassani, Giorgio",
     "Title":"Un\u2019altra libert\u00e0",
     "Cities":"Milano",
@@ -2370,8 +2369,8 @@ const jsonData = [
     "Fund":"BTB Segn. 195",
     "Segni":null,
     "Category":null
-    },{
-    "Id":237.0,
+},{
+    "Id":237,
     "Authors":"Bassi, Domenico",
     "Title":"La Bibbia",
     "Cities":"Firenze",
@@ -2379,9 +2378,9 @@ const jsonData = [
     "Years":1932,
     "Fund":null,
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":238.0,
+    "Category":"H"
+},{
+    "Id":238,
     "Authors":"Battaglia, Achille",
     "Title":"L\u2019articolo 104 e la magistratura",
     "Cities":"Roma",
@@ -2390,8 +2389,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":239.0,
+},{
+    "Id":239,
     "Authors":"Battaglia, Felice",
     "Title":"Marsilio da Padova e la filosofia politica del Medio Evo",
     "Cities":"Firenze",
@@ -2400,8 +2399,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1930",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":240.0,
+},{
+    "Id":240,
     "Authors":"Battaglia, Roberto",
     "Title":"La seconda guerra mondiale",
     "Cities":"Roma",
@@ -2409,9 +2408,9 @@ const jsonData = [
     "Years":1960,
     "Fund":"BTB Segn. 1725",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":241.0,
+    "Category":"H"
+},{
+    "Id":241,
     "Authors":"Baudelaire, Charles",
     "Title":"L\u2019art romantique",
     "Cities":"Paris",
@@ -2420,8 +2419,8 @@ const jsonData = [
     "Fund":"BTB Segn. 954",
     "Segni":"Nota di possesso autografa in data 17.09.1919 Milano.",
     "Category":"FL"
-    },{
-    "Id":242.0,
+},{
+    "Id":242,
     "Authors":"Baudelaire, Charles",
     "Title":"Charles Baudelaire critico d\u2019arte. Curiosit\u00e0 estetiche: \u00abL\u2019arte romantica\u00bb: Opere postume. Raccolta completa di saggi baudelairiani a cura de \u00abL\u2019Esame\u00bb",
     "Cities":"Milano  ",
@@ -2430,8 +2429,8 @@ const jsonData = [
     "Fund":"BTB Segn. 953",
     "Segni":"Parzialmente intonso.",
     "Category":"FL"
-    },{
-    "Id":243.0,
+},{
+    "Id":243,
     "Authors":"Baudelaire, Charles",
     "Title":"Diari intimi",
     "Cities":"Torino",
@@ -2440,8 +2439,8 @@ const jsonData = [
     "Fund":"BTB Segn. 957",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":244.0,
+},{
+    "Id":244,
     "Authors":"Baudelaire, Charles",
     "Title":"Diari intimi",
     "Cities":"Torino",
@@ -2450,8 +2449,8 @@ const jsonData = [
     "Fund":"BTB Segn. 956",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":245.0,
+},{
+    "Id":245,
     "Authors":"Baudelaire, Charles",
     "Title":"Les fleurs du mal: 1857-1861",
     "Cities":"Paris",
@@ -2460,8 +2459,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":246.0,
+},{
+    "Id":246,
     "Authors":"Baudelaire, Charles",
     "Title":"Giornali intimi",
     "Cities":"Torino",
@@ -2470,8 +2469,8 @@ const jsonData = [
     "Fund":"BTB Segn. 958",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":247.0,
+},{
+    "Id":247,
     "Authors":"Baudelaire, Charles",
     "Title":"Morale del giocattolo",
     "Cities":"Firenze",
@@ -2480,8 +2479,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1213",
     "Segni":"Dedica del curatore.",
     "Category":"FL"
-    },{
-    "Id":248.0,
+},{
+    "Id":248,
     "Authors":"Baudelaire, Charles",
     "Title":"Le spleen de Paris. Petits po\u00e8mesen prose",
     "Cities":"Paris",
@@ -2490,8 +2489,8 @@ const jsonData = [
     "Fund":"BTB Segn. 960",
     "Segni":"Nota di possesso autografa in data 16.09.1919 Milano.",
     "Category":"FL"
-    },{
-    "Id":249.0,
+},{
+    "Id":249,
     "Authors":"Baudelaire, Charles",
     "Title":"Le spleen de Paris. Petits po\u00ebmes en prose, suivis des Journaux intimes et de Choix de maximes consolantes sur l\u2019amour",
     "Cities":"Paris",
@@ -2500,8 +2499,8 @@ const jsonData = [
     "Fund":"BTB Segn. 961",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":250.0,
+},{
+    "Id":250,
     "Authors":"Bavagnoli, Carlo",
     "Title":"Cara Parma",
     "Cities":"Milano",
@@ -2509,9 +2508,9 @@ const jsonData = [
     "Years":1961,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":251.0,
+    "Category":"IL"
+},{
+    "Id":251,
     "Authors":"Baxter, James Phinney",
     "Title":"La scienza in lotta col tempo",
     "Cities":"Milano",
@@ -2520,8 +2519,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2129",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":252.0,
+},{
+    "Id":252,
     "Authors":"Beccaria, Cesare",
     "Title":"Dei delitti e delle pene",
     "Cities":"Firenze",
@@ -2530,8 +2529,8 @@ const jsonData = [
     "Fund":"BTB Segn. 197",
     "Segni":null,
     "Category":"F "
-    },{
-    "Id":253.0,
+},{
+    "Id":253,
     "Authors":"Beccaria, Cesare",
     "Title":"Scritti maggiori",
     "Cities":"Milano",
@@ -2540,8 +2539,8 @@ const jsonData = [
     "Fund":"BTB Segn. 198",
     "Segni":null,
     "Category":"F "
-    },{
-    "Id":254.0,
+},{
+    "Id":254,
     "Authors":"Beckett, Samuel",
     "Title":"Poesie in inglese",
     "Cities":"Torino",
@@ -2549,9 +2548,9 @@ const jsonData = [
     "Years":1961,
     "Fund":"BTB Segn. 1237",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":255.0,
+    "Category":"AL"
+},{
+    "Id":255,
     "Authors":"Beckett, Samuel",
     "Title":"Proust",
     "Cities":"Milano",
@@ -2559,9 +2558,9 @@ const jsonData = [
     "Years":1962,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":256.0,
+    "Category":"AL"
+},{
+    "Id":256,
     "Authors":"B\u00e9dier, Joseph",
     "Title":"Il romanzo di Tristano e Isotta",
     "Cities":"Milano",
@@ -2569,9 +2568,9 @@ const jsonData = [
     "Years":1952,
     "Fund":"BTB Segn. 962-963",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":257.0,
+    "Category":"AL"
+},{
+    "Id":257,
     "Authors":"Beecher Stowe, Enrichetta",
     "Title":"La capanna dello zio Tom",
     "Cities":"Sesto San Giovanni",
@@ -2579,19 +2578,19 @@ const jsonData = [
     "Years":1920,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":258.0,
-    "Authors":null,
+    "Category":"AL"
+},{
+    "Id":258,
+    "Authors":"Not found",
     "Title":"Belleza de Espa\u00f1a. Gu\u00eda de arte y paisaje",
     "Cities":"Barcelona",
     "Publisher":"Aedos",
     "Years":1949,
     "Fund":"BTB Segn. 2264",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":259.0,
+    "Category":"HA"
+},{
+    "Id":259,
     "Authors":"Bellezza, Dario",
     "Title":"Lettere da Sodoma",
     "Cities":"Milano",
@@ -2600,8 +2599,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":260.0,
+},{
+    "Id":260,
     "Authors":"Belli, Giuseppe Gioachino",
     "Title":"Cento sonetti",
     "Cities":"Milano",
@@ -2610,8 +2609,8 @@ const jsonData = [
     "Fund":"BTB Segn. 202",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":261.0,
+},{
+    "Id":261,
     "Authors":"Belli, Giuseppe Gioachino",
     "Title":"Er Commedione",
     "Cities":"Roma",
@@ -2620,8 +2619,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Nota di possesso autografa, Carlo Emilo  Gadda Roma 1945.",
     "Category":"IL"
-    },{
-    "Id":262.0,
+},{
+    "Id":262,
     "Authors":"Belli, Giuseppe Gioachino",
     "Title":"Duecento sonetti in dialetto romanesco",
     "Cities":"Firenze",
@@ -2630,8 +2629,8 @@ const jsonData = [
     "Fund":"BTB Segn. 201",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":263.0,
+},{
+    "Id":263,
     "Authors":"Belli, Giuseppe Gioachino",
     "Title":" Lettere, giornali, zibaldone",
     "Cities":"Torino",
@@ -2640,8 +2639,8 @@ const jsonData = [
     "Fund":"BTB Segn. 199",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":264.0,
+},{
+    "Id":264,
     "Authors":"Belli, Giuseppe Gioachino",
     "Title":"Sonetti. Vol. 1",
     "Cities":"Roma",
@@ -2650,8 +2649,8 @@ const jsonData = [
     "Fund":"BTB Segn. 200",
     "Segni":"Pieghe e postille.",
     "Category":"IL"
-    },{
-    "Id":265.0,
+},{
+    "Id":265,
     "Authors":"Bellonci, Goffredo",
     "Title":"Cristoforo Colombo",
     "Cities":"Urbino",
@@ -2659,9 +2658,9 @@ const jsonData = [
     "Years":1938,
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore in data 9.10.1951.",
-    "Category":"L"
-    },{
-    "Id":266.0,
+    "Category":"IL"
+},{
+    "Id":266,
     "Authors":"Belvero, Enrico",
     "Title":"Una stagione",
     "Cities":"Milano",
@@ -2669,9 +2668,9 @@ const jsonData = [
     "Years":1972,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":267.0,
+    "Category":"IL"
+},{
+    "Id":267,
     "Authors":"Benco, Silvio",
     "Title":"Ricordi di Antonio Smareglia",
     "Cities":"Trieste   ",
@@ -2679,9 +2678,9 @@ const jsonData = [
     "Years":1968,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":268.0,
+    "Category":"H"
+},{
+    "Id":268,
     "Authors":"Bendinelli, Goffredo",
     "Title":"Iconografia imperiale romana. I",
     "Cities":"Roma",
@@ -2689,9 +2688,9 @@ const jsonData = [
     "Years":1932,
     "Fund":"BTB Segn. 2176",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":269.0,
+    "Category":"HA"
+},{
+    "Id":269,
     "Authors":"Benedetti, Arrigo",
     "Title":"Le donne fantastiche",
     "Cities":"Torino",
@@ -2700,8 +2699,8 @@ const jsonData = [
     "Fund":"BTB Segn. 203",
     "Segni":"Parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":270.0,
+},{
+    "Id":270,
     "Authors":"Benedetti, Arrigo",
     "Title":"La figlia del capitano",
     "Cities":"Firenze",
@@ -2710,8 +2709,8 @@ const jsonData = [
     "Fund":"BTB Segn. 204",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":271.0,
+},{
+    "Id":271,
     "Authors":"Benelli, Sam",
     "Title":"La cena delle beffe",
     "Cities":"Milano  ",
@@ -2720,8 +2719,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Nota di possesso autografa, C.E. Gadda Milano 1920.",
     "Category":"IL"
-    },{
-    "Id":272.0,
+},{
+    "Id":272,
     "Authors":"Benet, Stephen Vincent",
     "Title":"La valle delle Sabine",
     "Cities":"Milano",
@@ -2729,9 +2728,9 @@ const jsonData = [
     "Years":1948,
     "Fund":"BTB Segn. 1238",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":273.0,
+    "Category":"AL"
+},{
+    "Id":273,
     "Authors":"Benjamin, Ren\u00e9",
     "Title":"La prodigieuse vie d\u2019Honor\u00e9 de Balzac",
     "Cities":"Paris",
@@ -2740,8 +2739,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1117",
     "Segni":"Nota di possesso autografa in data 10.1931.",
     "Category":"FL"
-    },{
-    "Id":274.0,
+},{
+    "Id":274,
     "Authors":"Benn, Gottfried",
     "Title":"Poesie",
     "Cities":"Firenze",
@@ -2750,8 +2749,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1156",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":275.0,
+},{
+    "Id":275,
     "Authors":"Beraudi, Sebastiano",
     "Title":"Uso del verbo latino",
     "Cities":"Torino  ",
@@ -2759,9 +2758,9 @@ const jsonData = [
     "Years":1905,
     "Fund":null,
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":276.0,
+    "Category":"GR"
+},{
+    "Id":276,
     "Authors":"Berenson, Bernard",
     "Title":"Del Caravaggio, delle sue incon gruenze e della sua fama",
     "Cities":"Firenze",
@@ -2769,9 +2768,9 @@ const jsonData = [
     "Years":1951,
     "Fund":"BTB Segn. 2219",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":277.0,
+    "Category":"HA"
+},{
+    "Id":277,
     "Authors":"Berenson, Bernard",
     "Title":"Estetica etica e storia nelle belle arti della rappresentazione visiva",
     "Cities":"Firenze",
@@ -2779,9 +2778,9 @@ const jsonData = [
     "Years":1948,
     "Fund":null,
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":278.0,
+    "Category":"HA"
+},{
+    "Id":278,
     "Authors":"Berenson, Bernard",
     "Title":"Un artista fuori del suo tempo",
     "Cities":"Firenze  ",
@@ -2789,9 +2788,9 @@ const jsonData = [
     "Years":1950,
     "Fund":"BTB Segn. Op. 106",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":279.0,
+    "Category":"HA"
+},{
+    "Id":279,
     "Authors":"Bergson, Henri",
     "Title":"L\u2019\u00e9nergie spirituelle",
     "Cities":"Paris",
@@ -2799,9 +2798,9 @@ const jsonData = [
     "Years":1946,
     "Fund":"BTB Segn. 1815",
     "Segni":"Parzialmente intonso.",
-    "Category":"F"
-    },{
-    "Id":280.0,
+    "Category":"P"
+},{
+    "Id":280,
     "Authors":"Bergson, Henri",
     "Title":"Essai sur les donn\u00e9es imm\u00e9diates de la conscience",
     "Cities":"Paris",
@@ -2809,9 +2808,9 @@ const jsonData = [
     "Years":1946,
     "Fund":"BTB Segn. 1814",
     "Segni":"Parzialmente intonso.",
-    "Category":"F"
-    },{
-    "Id":281.0,
+    "Category":"P"
+},{
+    "Id":281,
     "Authors":"Bergson, Henri",
     "Title":"L\u2019\u00e9volution cr\u00e9atrice",
     "Cities":"Paris",
@@ -2819,9 +2818,9 @@ const jsonData = [
     "Years":1946,
     "Fund":"BTB Segn. 1816",
     "Segni":"Intonso.",
-    "Category":"F"
-    },{
-    "Id":282.0,
+    "Category":"P"
+},{
+    "Id":282,
     "Authors":"Bergson, Henri",
     "Title":"L\u2019evoluzione creatrice",
     "Cities":"Milano",
@@ -2829,9 +2828,9 @@ const jsonData = [
     "Years":1936,
     "Fund":"BTB Segn. 1817",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":283.0,
+    "Category":"P"
+},{
+    "Id":283,
     "Authors":"Bergson, Henri",
     "Title":"La filosofia dell\u2019intuizione. Introduzione di G. Papini",
     "Cities":"Lanciano",
@@ -2839,9 +2838,9 @@ const jsonData = [
     "Years":1919,
     "Fund":"BTB Segn. 1818",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":284.0,
+    "Category":"P"
+},{
+    "Id":284,
     "Authors":"Bergson, Henri",
     "Title":"Mati\u00e8re et m\u00e9moire",
     "Cities":"Paris",
@@ -2849,9 +2848,9 @@ const jsonData = [
     "Years":1946,
     "Fund":"BTB Segn. 1819",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":285.0,
+    "Category":"P"
+},{
+    "Id":285,
     "Authors":"Bergson, Henri",
     "Title":"La pens\u00e9e et le mouvant",
     "Cities":"Paris",
@@ -2859,9 +2858,9 @@ const jsonData = [
     "Years":1946,
     "Fund":"BTB Segn. 1820",
     "Segni":"Intonso.",
-    "Category":"F"
-    },{
-    "Id":286.0,
+    "Category":"P"
+},{
+    "Id":286,
     "Authors":"Berkeley, George",
     "Title":"Saggio di una nuova teoria della visione",
     "Cities":"Lanciano",
@@ -2869,9 +2868,9 @@ const jsonData = [
     "Years":1920,
     "Fund":"BTB Segn. 1822",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":287.0,
+    "Category":"P"
+},{
+    "Id":287,
     "Authors":"Berkeley, George",
     "Title":"Trattato dei principi della conoscenza umana",
     "Cities":"Bari",
@@ -2879,10 +2878,10 @@ const jsonData = [
     "Years":1909,
     "Fund":"BTB Segn. 1821",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":288.0,
-    "Authors":null,
+    "Category":"P"
+},{
+    "Id":288,
+    "Authors":"Not found",
     "Title":"Berlino Ovest: accampamenti militari americani",
     "Cities":"Roma",
     "Publisher":"U.S. Information Service",
@@ -2890,8 +2889,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2349",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":289.0,
+},{
+    "Id":289,
     "Authors":"Bernardi, Marziano",
     "Title":"Antonio Fontanesi",
     "Cities":"Milano",
@@ -2899,9 +2898,9 @@ const jsonData = [
     "Years":1933,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":290.0,
+    "Category":"IL"
+},{
+    "Id":290,
     "Authors":"Bernardino da Siena",
     "Title":"Le pi\u00f9 belle pagine. Scelte da P. Misciattelli",
     "Cities":"Milano",
@@ -2909,9 +2908,9 @@ const jsonData = [
     "Years":1924,
     "Fund":"BTB Segn. 205",
     "Segni":null,
-    "Category":null
-    },{
-    "Id":291.0,
+    "Category":"IL"
+},{
+    "Id":291,
     "Authors":"Berni, Francesco",
     "Title":"Le Rime e la Catrina",
     "Cities":"Roma",
@@ -2920,8 +2919,8 @@ const jsonData = [
     "Fund":"BTB Segn. 206",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":292.0,
+},{
+    "Id":292,
     "Authors":"Bernini, Ferdinando",
     "Title":"Storia di Parma",
     "Cities":"Parma",
@@ -2929,9 +2928,9 @@ const jsonData = [
     "Years":1954,
     "Fund":"BTB Segn. 1501",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":293.0,
+    "Category":"H"
+},{
+    "Id":293,
     "Authors":"Bernini, Ferruccio",
     "Title":"Ovidio",
     "Cities":"Milano",
@@ -2940,8 +2939,8 @@ const jsonData = [
     "Fund":"BTB Segn. 116",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":294.0,
+},{
+    "Id":294,
     "Authors":"Berrini, Osvaldo",
     "Title":"Trattatello elementare di antichit\u00e0 greche e romane prescritte dairecenti programmi ministeriali alla 3a e 4a classe ginnasiale",
     "Cities":"Torino",
@@ -2950,8 +2949,8 @@ const jsonData = [
     "Fund":"BTB Segn. 117",
     "Segni":"Nota di possesso autografa di Adele Gadda Lehr. Postille.",
     "Category":"IL"
-    },{
-    "Id":295.0,
+},{
+    "Id":295,
     "Authors":"Bertarelli, Luigi Vittorio",
     "Title":"Italia centrale",
     "Cities":"Milano",
@@ -2960,8 +2959,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2322-2326",
     "Segni":null,
     "Category":"G "
-    },{
-    "Id":296.0,
+},{
+    "Id":296,
     "Authors":"Bertarelli, Luigi Vittorio",
     "Title":"Italia insulare, possedimenti e colonie",
     "Cities":"Milano",
@@ -2970,8 +2969,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2302",
     "Segni":null,
     "Category":"G "
-    },{
-    "Id":297.0,
+},{
+    "Id":297,
     "Authors":"Bertarelli, Luigi Vittorio",
     "Title":"Italia meridionale",
     "Cities":"Milano",
@@ -2980,8 +2979,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2333-2335",
     "Segni":null,
     "Category":"G "
-    },{
-    "Id":298.0,
+},{
+    "Id":298,
     "Authors":"Bertarelli, Luigi Vittorio",
     "Title":"Italia meridionale",
     "Cities":"Milano",
@@ -2990,8 +2989,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2301",
     "Segni":null,
     "Category":"G "
-    },{
-    "Id":299.0,
+},{
+    "Id":299,
     "Authors":"Bertarelli, Luigi Vittorio",
     "Title":"Italia settentrionale",
     "Cities":"Milano",
@@ -3000,8 +2999,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2298-2299",
     "Segni":null,
     "Category":"G "
-    },{
-    "Id":300.0,
+},{
+    "Id":300,
     "Authors":"Bertarelli, Luigi Vittorio",
     "Title":"Liguria \u2013 Toscana \u2013 Emilia settentrionale",
     "Cities":"Milano",
@@ -3010,8 +3009,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2328",
     "Segni":null,
     "Category":"G "
-    },{
-    "Id":301.0,
+},{
+    "Id":301,
     "Authors":"Bertarelli, Luigi Vittorio",
     "Title":"Piemonte",
     "Cities":"Milano",
@@ -3020,8 +3019,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2280",
     "Segni":null,
     "Category":"G "
-    },{
-    "Id":302.0,
+},{
+    "Id":302,
     "Authors":"Bertarelli, Luigi Vittorio",
     "Title":"Piemonte \u2013 Lombardia \u2013 Canton Ticino",
     "Cities":"Milano",
@@ -3030,8 +3029,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2320",
     "Segni":null,
     "Category":"G "
-    },{
-    "Id":303.0,
+},{
+    "Id":303,
     "Authors":"Bertarelli, Luigi Vittorio",
     "Title":"Toscana",
     "Cities":"Milano",
@@ -3040,8 +3039,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2330",
     "Segni":null,
     "Category":"G "
-    },{
-    "Id":304.0,
+},{
+    "Id":304,
     "Authors":"Bertarelli, Luigi Vittorio",
     "Title":"Le Tre Venezie",
     "Cities":"Milano",
@@ -3050,8 +3049,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2330",
     "Segni":null,
     "Category":"G "
-    },{
-    "Id":305.0,
+},{
+    "Id":305,
     "Authors":"Bertarelli, Luigi Vittorio",
     "Title":"Umbria",
     "Cities":"Milano",
@@ -3060,8 +3059,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2319",
     "Segni":null,
     "Category":"G "
-    },{
-    "Id":306.0,
+},{
+    "Id":306,
     "Authors":"Bertati, Giovanni",
     "Title":"Il matrimonio segreto",
     "Cities":"Sesto San Giovanni",
@@ -3070,8 +3069,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1440",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":307.0,
+},{
+    "Id":307,
     "Authors":"Berti, Luigi",
     "Title":"Storie di Rio",
     "Cities":"Firenze",
@@ -3080,8 +3079,8 @@ const jsonData = [
     "Fund":"BTB Segn. 207",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":308.0,
+},{
+    "Id":308,
     "Authors":"Berto, Giuseppe",
     "Title":"La cosa buffa",
     "Cities":"Milano",
@@ -3090,8 +3089,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore in data 15.11.1965.",
     "Category":"IL"
-    },{
-    "Id":309.0,
+},{
+    "Id":309,
     "Authors":"Berto, Giuseppe",
     "Title":"La fantarca",
     "Cities":"Milano",
@@ -3100,8 +3099,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore",
     "Category":"IL"
-    },{
-    "Id":310.0,
+},{
+    "Id":310,
     "Authors":"Berto, Giuseppe",
     "Title":"Guerra in camicia nera",
     "Cities":"Milano",
@@ -3110,8 +3109,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore in data 15.09.1964.",
     "Category":"IL"
-    },{
-    "Id":311.0,
+},{
+    "Id":311,
     "Authors":"Berto, Giuseppe",
     "Title":"Le opere di Dio",
     "Cities":"Milano",
@@ -3120,8 +3119,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":312.0,
+},{
+    "Id":312,
     "Authors":"Berto, Giuseppe",
     "Title":"Un po\u2019 di successo",
     "Cities":"Milano",
@@ -3130,8 +3129,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":313.0,
+},{
+    "Id":313,
     "Authors":"Berto, Giuseppe",
     "Title":"L\u2019uomo e la sua morte: dramma in due parti",
     "Cities":"Brescia",
@@ -3140,8 +3139,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":314.0,
+},{
+    "Id":314,
     "Authors":"Bertolazzi, Carlo",
     "Title":"El nost Milan e altre commedie",
     "Cities":"Torino",
@@ -3150,8 +3149,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":315.0,
+},{
+    "Id":315,
     "Authors":"Bertoli, Pietro ",
     "Title":"Non pace ma la spada",
     "Cities":"Milano",
@@ -3160,8 +3159,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 56",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":316.0,
+},{
+    "Id":316,
     "Authors":"Bertolini, Francesco",
     "Title":"Storia antica ad uso delle scuole secondarie",
     "Cities":"Milano",
@@ -3170,8 +3169,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":317.0,
+},{
+    "Id":317,
     "Authors":"Bertolucci, Attilio",
     "Title":"La capanna indiana",
     "Cities":"Firenze",
@@ -3180,8 +3179,8 @@ const jsonData = [
     "Fund":"BTB Segn. 208",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":318.0,
+},{
+    "Id":318,
     "Authors":"Bertolucci, Attilio",
     "Title":"Viaggio d\u2019inverno (1955-1970)",
     "Cities":"Milano",
@@ -3190,8 +3189,8 @@ const jsonData = [
     "Fund":"BTB Segn. 209",
     "Segni":"Dedica dell\u2019autore in data 6.1971.",
     "Category":"IL"
-    },{
-    "Id":319.0,
+},{
+    "Id":319,
     "Authors":"Bertolucci, Bernardo",
     "Title":"In cerca di mistero",
     "Cities":"Milano",
@@ -3200,8 +3199,8 @@ const jsonData = [
     "Fund":"BTB Segn. 210",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":320.0,
+},{
+    "Id":320,
     "Authors":"Bertoni, Giulio",
     "Title":"Introduzione alla filologia",
     "Cities":"Modena",
@@ -3210,8 +3209,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2422",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":321.0,
+},{
+    "Id":321,
     "Authors":"Bertoni, Giulio",
     "Title":"Profilo linguistico d\u2019Italia",
     "Cities":"Modena",
@@ -3220,8 +3219,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2423",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":322.0,
+},{
+    "Id":322,
     "Authors":"Bertram, Anthony",
     "Title":"Hieronymus Bosch",
     "Cities":"London-New York",
@@ -3229,9 +3228,9 @@ const jsonData = [
     "Years":1950,
     "Fund":"BTB Segn. 2194",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":323.0,
+    "Category":"HA"
+},{
+    "Id":323,
     "Authors":"Bertrand, Louis",
     "Title":"Louis XIV",
     "Cities":"Paris",
@@ -3239,9 +3238,9 @@ const jsonData = [
     "Years":1949,
     "Fund":"BTB Segn. 1598",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":324.0,
+    "Category":"H"
+},{
+    "Id":324,
     "Authors":"Bert\u00f9, Berto",
     "Title":"Dizionario del gergo marinaresco (A-B)",
     "Cities":"s.l.",
@@ -3250,8 +3249,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 29",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":325.0,
+},{
+    "Id":325,
     "Authors":"Bessi\u00e8re, Gustave",
     "Title":"Il calcolo differenziale ed integrale reso facile ed attraente",
     "Cities":"Milano",
@@ -3260,8 +3259,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2031-2032",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":326.0,
+},{
+    "Id":326,
     "Authors":"Besson, Georges",
     "Title":"Claude Monet",
     "Cities":"Paris",
@@ -3269,9 +3268,9 @@ const jsonData = [
     "Years":1951,
     "Fund":"BTB Segn. 2206",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":327.0,
+    "Category":"HA"
+},{
+    "Id":327,
     "Authors":"Besson, Georges",
     "Title":"Monet",
     "Cities":"Paris",
@@ -3279,9 +3278,9 @@ const jsonData = [
     "Years":1951,
     "Fund":"BTB Segn. 2230",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":328.0,
+    "Category":"HA"
+},{
+    "Id":328,
     "Authors":"Besta, Riccardo",
     "Title":"Anatomia e fisiologia comparate",
     "Cities":"Milano",
@@ -3290,8 +3289,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2021",
     "Segni":"Nota di possesso autografa.",
     "Category":"T"
-    },{
-    "Id":329.0,
+},{
+    "Id":329,
     "Authors":"Betocchi, Carlo",
     "Title":"Poesie 1930-1954: Realt\u00e0 vince il sogno. Altre poesie. Notizie. Tetti toscani",
     "Cities":"Firenze",
@@ -3300,8 +3299,8 @@ const jsonData = [
     "Fund":"BTB Segn. 211",
     "Segni":"Dedica dell\u2019autore in data 26.8.1955.",
     "Category":"IL"
-    },{
-    "Id":330.0,
+},{
+    "Id":330,
     "Authors":"Betti, Emilio",
     "Title":"Diritto romano e dogmatica odierna.",
     "Cities":"Modena",
@@ -3310,8 +3309,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 30",
     "Segni":"Dedica dell\u2019autore. Postille.",
     "Category":"V"
-    },{
-    "Id":331.0,
+},{
+    "Id":331,
     "Authors":"Betti, Ugo",
     "Title":"Canzonette. La morte",
     "Cities":"Milano",
@@ -3320,8 +3319,8 @@ const jsonData = [
     "Fund":"BTB Segn. 212",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":332.0,
+},{
+    "Id":332,
     "Authors":"Betti, Ugo",
     "Title":"Le case",
     "Cities":"Milano",
@@ -3330,8 +3329,8 @@ const jsonData = [
     "Fund":"BTB Segn. 215",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":333.0,
+},{
+    "Id":333,
     "Authors":"Betti, Ugo",
     "Title":"Il mercante di frottole",
     "Cities":null,
@@ -3340,8 +3339,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":334.0,
+},{
+    "Id":334,
     "Authors":"Betti, Ugo",
     "Title":"La padrona",
     "Cities":"Torino",
@@ -3350,8 +3349,8 @@ const jsonData = [
     "Fund":"BTB Segn. 214",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":335.0,
+},{
+    "Id":335,
     "Authors":"Betti, Ugo",
     "Title":"Il re pensieroso",
     "Cities":"Milano",
@@ -3360,8 +3359,8 @@ const jsonData = [
     "Fund":"BTB Segn. 213",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":336.0,
+},{
+    "Id":336,
     "Authors":"Betti, Ugo",
     "Title":"Versi",
     "Cities":"Roma",
@@ -3370,8 +3369,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 115",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":337.0,
+},{
+    "Id":337,
     "Authors":"Bevilacqua, Alberto",
     "Title":"L\u2019occhio del gatto",
     "Cities":"Milano",
@@ -3380,8 +3379,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":338.0,
+},{
+    "Id":338,
     "Authors":"Biagini, Mario",
     "Title":"Il poeta della terza Italia: vita di Giosu\u00e8 Carducci",
     "Cities":"Milano",
@@ -3390,8 +3389,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":339.0,
+},{
+    "Id":339,
     "Authors":"Bianchi, Celestino",
     "Title":"Manuale di storia moderna (1454-1885)",
     "Cities":"Firenze",
@@ -3399,9 +3398,9 @@ const jsonData = [
     "Years":1885,
     "Fund":"BTB Segn. 1726",
     "Segni":"Nota di possesso autografa di Adele Gadda Lehr.",
-    "Category":"S"
-    },{
-    "Id":340.0,
+    "Category":"H"
+},{
+    "Id":340,
     "Authors":"Bianchi, Matteo",
     "Title":"Geografia politica dell\u2019Italia",
     "Cities":"Firenze",
@@ -3410,8 +3409,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2348",
     "Segni":"Nota di possesso autografa di Adele Gadda Lehr.",
     "Category":"G "
-    },{
-    "Id":341.0,
+},{
+    "Id":341,
     "Authors":"Bianchi, Pietro",
     "Title":"HenriGeorges Clouzot",
     "Cities":"Parma",
@@ -3419,9 +3418,9 @@ const jsonData = [
     "Years":1951,
     "Fund":"BTB Segn. 2400",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":342.0,
+    "Category":"IL"
+},{
+    "Id":342,
     "Authors":"Bianciardi, Luciano",
     "Title":"Da Quarto a Torino: breve storia della spedizione dei Mille",
     "Cities":"Milano",
@@ -3429,9 +3428,9 @@ const jsonData = [
     "Years":1960,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":343.0,
+    "Category":"H"
+},{
+    "Id":343,
     "Authors":"Bianconi, Pietro",
     "Title":"Tutta la pittura del Correggio",
     "Cities":"Milano",
@@ -3439,19 +3438,19 @@ const jsonData = [
     "Years":1953,
     "Fund":"BTB Segn. 2198",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":344.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":344,
+    "Authors":"Not found",
     "Title":"Biblia sacra juxta vulgatam clementinam",
     "Cities":"Roma-Paris",
     "Publisher":"Descl\u00e9e",
     "Years":1938,
     "Fund":"BTB Segn. 1769",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":345.0,
+    "Category":"V"
+},{
+    "Id":345,
     "Authors":"Bigliazzi, Francesco",
     "Title":"Come visitare Firenze e i suoidintorni",
     "Cities":"Milano",
@@ -3460,8 +3459,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"G "
-    },{
-    "Id":346.0,
+},{
+    "Id":346,
     "Authors":"Bignone, Ettore",
     "Title":"Il libro della letteratura greca:storia della letteratura greca conun\u2019antologia delle pi\u00f9 belle pagine di prosa e di poesia dei maggiori scrittori",
     "Cities":"Firenze",
@@ -3469,9 +3468,9 @@ const jsonData = [
     "Years":1940,
     "Fund":"BTB",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":347.0,
+    "Category":"GR"
+},{
+    "Id":347,
     "Authors":"Bigongiari, Piero",
     "Title":"L\u2019elaborazione della lirica leopardiana",
     "Cities":"Firenze",
@@ -3479,9 +3478,9 @@ const jsonData = [
     "Years":1948,
     "Fund":"BTB Segn. 762",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":348.0,
+    "Category":"V"
+},{
+    "Id":348,
     "Authors":"Bigongiari, Piero",
     "Title":"Studi",
     "Cities":"Firenze",
@@ -3489,9 +3488,9 @@ const jsonData = [
     "Years":1946,
     "Fund":"BTB Segn. 216",
     "Segni":"Dedica dell\u2019autore in data 1.5.1946.Parzialmente intonso.",
-    "Category":"L"
-    },{
-    "Id":349.0,
+    "Category":"V"
+},{
+    "Id":349,
     "Authors":"Bigongiari, Piero\u2013 Angioletti, Giovanni Battista",
     "Title":"Testimone in Grecia",
     "Cities":"Torino",
@@ -3499,9 +3498,9 @@ const jsonData = [
     "Years":1954,
     "Fund":"BTB Segn. 2263",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":350.0,
+    "Category":"G"
+},{
+    "Id":350,
     "Authors":"Bilenchi, Romano",
     "Title":"Anna e Bruno e altri racconti",
     "Cities":"Fi renze",
@@ -3510,8 +3509,8 @@ const jsonData = [
     "Fund":"BTB Segn. 217",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":351.0,
+},{
+    "Id":351,
     "Authors":"Bilenchi, Romano",
     "Title":"Conservatorio di Santa Teresa",
     "Cities":"Firenze",
@@ -3520,8 +3519,8 @@ const jsonData = [
     "Fund":"BTB Segn. 218",
     "Segni":"Dedica dell\u2019autore. Parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":352.0,
+},{
+    "Id":352,
     "Authors":"Bilenchi, Romano",
     "Title":"Dino e altri racconti",
     "Cities":"Firenze",
@@ -3530,8 +3529,8 @@ const jsonData = [
     "Fund":"BTB Segn. 219",
     "Segni":"Dedica dell\u2019autore in data 14.12.1942.Parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":353.0,
+},{
+    "Id":353,
     "Authors":"Bilenchi, Romano",
     "Title":"Mio cugino Andrea",
     "Cities":"Firenze",
@@ -3540,8 +3539,8 @@ const jsonData = [
     "Fund":"BTB Segn. 220",
     "Segni":"Dedica dell\u2019autore in data 20.4.1943.Parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":354.0,
+},{
+    "Id":354,
     "Authors":"Bilenchi, Romano",
     "Title":"Racconti",
     "Cities":"Firenze",
@@ -3550,8 +3549,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":355.0,
+},{
+    "Id":355,
     "Authors":"Bilenchi, Romano",
     "Title":"La siccit\u00e0",
     "Cities":"Firenze",
@@ -3560,8 +3559,8 @@ const jsonData = [
     "Fund":"BTB Segn. 221",
     "Segni":"Dedica dell\u2019autore, Firenze, 2.1943.",
     "Category":"IL"
-    },{
-    "Id":356.0,
+},{
+    "Id":356,
     "Authors":"Bisinger, Gerald",
     "Title":"Sieben Gedichte zum Vorlesen",
     "Cities":"Berlin",
@@ -3569,9 +3568,9 @@ const jsonData = [
     "Years":1968,
     "Fund":"BTB Segn. 1159",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":357.0,
+    "Category":"GL"
+},{
+    "Id":357,
     "Authors":"Blanc, Charles",
     "Title":"  portatif Fran\u00e7aisItalien et ItalienFran\u00e7ais, abr\u00e9g\u00e9 de celui de Cormon et Manniavec l\u2019accent prosodique surchaque mot italien",
     "Cities":"St Hilaire",
@@ -3579,9 +3578,9 @@ const jsonData = [
     "Years":1846,
     "Fund":null,
     "Segni":"Nota di possesso Francesco Gadda",
-    "Category":"S"
-    },{
-    "Id":358.0,
+    "Category":"H"
+},{
+    "Id":358,
     "Authors":"Blixen, Karen",
     "Title":"La mia Africa",
     "Cities":"Milano",
@@ -3589,9 +3588,9 @@ const jsonData = [
     "Years":1959,
     "Fund":"BTB Segn. 1239",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":359.0,
+    "Category":"AL"
+},{
+    "Id":359,
     "Authors":"Bo, Carlo",
     "Title":"Delle immagini giovanili di Sainte-Beuve",
     "Cities":"Firenze",
@@ -3599,9 +3598,9 @@ const jsonData = [
     "Years":1938,
     "Fund":"BTB Segn. 118",
     "Segni":"Dedica dell\u2019autore in data 9.1938. Parzial mente intonso.",
-    "Category":"L"
-    },{
-    "Id":360.0,
+    "Category":"IL"
+},{
+    "Id":360,
     "Authors":"Bo, Carlo",
     "Title":"Inchiesta sul neorealismo",
     "Cities":"Torino",
@@ -3610,8 +3609,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":361.0,
+},{
+    "Id":361,
     "Authors":"Bo, Carlo",
     "Title":"Otto studi",
     "Cities":"Firenze",
@@ -3620,8 +3619,8 @@ const jsonData = [
     "Fund":"BTB Segn. 763",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":362.0,
+},{
+    "Id":362,
     "Authors":"Bo, Carlo",
     "Title":"Saggi di letteratura francese",
     "Cities":"Brescia",
@@ -3630,8 +3629,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1119",
     "Segni":"Dedica dell\u2019autore in data 5.1940. Pieghe.",
     "Category":"IL"
-    },{
-    "Id":363.0,
+},{
+    "Id":363,
     "Authors":"Boccaccio, Giovanni",
     "Title":"Il decamerone",
     "Cities":"Milano",
@@ -3640,8 +3639,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":364.0,
+},{
+    "Id":364,
     "Authors":"Boccaccio, Giovanni",
     "Title":"Il Decamerone",
     "Cities":"Roma",
@@ -3650,8 +3649,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Nota di possesso autografa in data 1945.",
     "Category":"IL"
-    },{
-    "Id":365.0,
+},{
+    "Id":365,
     "Authors":"Boccaccio, Giovanni",
     "Title":"Decamer\u00f2n",
     "Cities":"Milano",
@@ -3660,8 +3659,8 @@ const jsonData = [
     "Fund":"BTB Segn. 222-223",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":366.0,
+},{
+    "Id":366,
     "Authors":"Boccaccio, Giovanni",
     "Title":"Il testamento di Giovanni Boccaccio secondo l\u2019originale in pergamena dell\u2019archivio Bichi-Borghesi di Siena",
     "Cities":"Siena",
@@ -3670,8 +3669,8 @@ const jsonData = [
     "Fund":"BTB Segn. 224",
     "Segni":"Dedica.",
     "Category":"IL"
-    },{
-    "Id":367.0,
+},{
+    "Id":367,
     "Authors":"Bodini, Vittorio",
     "Title":"La luna dei Borboni ed altre poesie",
     "Cities":"Milano",
@@ -3680,8 +3679,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Postille.",
     "Category":"IL"
-    },{
-    "Id":368.0,
+},{
+    "Id":368,
     "Authors":"Bodrero, Emilio",
     "Title":"Eraclito",
     "Cities":"Milano",
@@ -3690,8 +3689,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1931",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":369.0,
+},{
+    "Id":369,
     "Authors":"Boezio, Severino",
     "Title":"La consolazione della filosofia",
     "Cities":"Firenze",
@@ -3700,8 +3699,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1823",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":370.0,
+},{
+    "Id":370,
     "Authors":"Boiardo, Matteo Maria",
     "Title":"Tutte le opere",
     "Cities":"Milano",
@@ -3710,8 +3709,8 @@ const jsonData = [
     "Fund":"BTB Segn. 225-226",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":371.0,
+},{
+    "Id":371,
     "Authors":"Boileau-Despr\u00e9aux, Nicolas",
     "Title":" Oeuvres",
     "Cities":"Paris",
@@ -3720,8 +3719,8 @@ const jsonData = [
     "Fund":"BTB Segn. 964",
     "Segni":"Sottolineature e postille. Nota di possesso di Clara Gadda.",
     "Category":"FL "
-    },{
-    "Id":372.0,
+},{
+    "Id":372,
     "Authors":"Bonacossa, Aldo",
     "Title":"Regione dell\u2019Ortles",
     "Cities":"Milano",
@@ -3730,8 +3729,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2286",
     "Segni":null,
     "Category":"G "
-    },{
-    "Id":373.0,
+},{
+    "Id":373,
     "Authors":"Bonaventura da Bagnoregio",
     "Title":"Vita di San Francesco",
     "Cities":"Firenze",
@@ -3740,8 +3739,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1782",
     "Segni":null,
     "Category":null
-    },{
-    "Id":374.0,
+},{
+    "Id":374,
     "Authors":"Bonavia, Calogero",
     "Title":"L\u2019Apocalisse di S. Giovanni. Nuova traduzione del poema",
     "Cities":"Bari",
@@ -3750,8 +3749,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1783",
     "Segni":null,
     "Category":null
-    },{
-    "Id":375.0,
+},{
+    "Id":375,
     "Authors":"Boneschi, Francesco",
     "Title":"Il laccio degli innocenti",
     "Cities":"Milano",
@@ -3760,8 +3759,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore in data 2.1969.",
     "Category":"IL"
-    },{
-    "Id":376.0,
+},{
+    "Id":376,
     "Authors":"Bonfadini, Romualdo",
     "Title":"Mezzo secolo di patriottismo",
     "Cities":"Milano",
@@ -3770,8 +3769,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1502",
     "Segni":"Nota di possesso autografa.",
     "Category":"IL"
-    },{
-    "Id":377.0,
+},{
+    "Id":377,
     "Authors":"Bonfadini, Romualdo",
     "Title":"Milano nei suoi momenti storici",
     "Cities":"Milano",
@@ -3780,8 +3779,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2285",
     "Segni":"Nota di possesso autografa di Luisa Gadda.",
     "Category":"IL"
-    },{
-    "Id":378.0,
+},{
+    "Id":378,
     "Authors":"Bonfantini, Mario",
     "Title":"Scomparso a Venezia",
     "Cities":"Torino",
@@ -3790,8 +3789,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore. Piega.",
     "Category":"IL"
-    },{
-    "Id":379.0,
+},{
+    "Id":379,
     "Authors":"Bongiovanni, Giannetto",
     "Title":"I Gonzaga",
     "Cities":"Milano",
@@ -3800,8 +3799,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1498",
     "Segni":"Dedica dell\u2019autore in data 1.1932.",
     "Category":"IL"
-    },{
-    "Id":380.0,
+},{
+    "Id":380,
     "Authors":"Bonsanti, Alessandro",
     "Title":"I capricci dell\u2019Adriana",
     "Cities":"Firenze",
@@ -3810,8 +3809,8 @@ const jsonData = [
     "Fund":"BTB Segn. 227",
     "Segni":"Dedica dell\u2019autore in data 12.1933.",
     "Category":"IL"
-    },{
-    "Id":381.0,
+},{
+    "Id":381,
     "Authors":"Bonsanti, Alessandro",
     "Title":"Dialoghi e altre prose",
     "Cities":"Firenze",
@@ -3820,8 +3819,8 @@ const jsonData = [
     "Fund":"BTB Segn. 228",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":382.0,
+},{
+    "Id":382,
     "Authors":"Bonsanti, Alessandro",
     "Title":"Introduzione al gran viaggio. Racconto seguito da Fine dell\u2019adolescenza",
     "Cities":"Roma",
@@ -3830,8 +3829,8 @@ const jsonData = [
     "Fund":"BTB Segn. 229",
     "Segni":null,
     "Category":null
-    },{
-    "Id":383.0,
+},{
+    "Id":383,
     "Authors":"Bonsanti, Alessandro",
     "Title":"La nuova stazione di Firenze",
     "Cities":"Milano",
@@ -3840,8 +3839,8 @@ const jsonData = [
     "Fund":"BTB Segn. 230",
     "Segni":"Dedica dell\u2019autore in data 3.6.1966.",
     "Category":"IL"
-    },{
-    "Id":384.0,
+},{
+    "Id":384,
     "Authors":"Bonsanti, Alessandro",
     "Title":"Racconto militare",
     "Cities":"Firenze",
@@ -3850,8 +3849,8 @@ const jsonData = [
     "Fund":"BTB Segn. 232",
     "Segni":"Dedica dell\u2019autore in data 29.6.1937.",
     "Category":"IL"
-    },{
-    "Id":385.0,
+},{
+    "Id":385,
     "Authors":"Bonsanti, Alessandro",
     "Title":"Racconto militare",
     "Cities":"Milano",
@@ -3860,8 +3859,8 @@ const jsonData = [
     "Fund":"BTB Segn. 231",
     "Segni":"Dedica dell\u2019autore in data 16.4.1968. Sottolineature e postille.",
     "Category":"IL"
-    },{
-    "Id":386.0,
+},{
+    "Id":386,
     "Authors":"Bonsanti, Alessandro",
     "Title":"La serva amorosa",
     "Cities":"Firenze",
@@ -3870,8 +3869,8 @@ const jsonData = [
     "Fund":"BTB Segn. 233",
     "Segni":"Dedica dell\u2019autore 19.6.1930.",
     "Category":"IL"
-    },{
-    "Id":387.0,
+},{
+    "Id":387,
     "Authors":"Bonsanti, Alessandro",
     "Title":"La vipera e il toro",
     "Cities":"Firenze",
@@ -3880,8 +3879,8 @@ const jsonData = [
     "Fund":"BTB Segn. 234",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":388.0,
+},{
+    "Id":388,
     "Authors":"Bonvesin de la Riva",
     "Title":"Cinque volgari",
     "Cities":"Modena",
@@ -3889,9 +3888,9 @@ const jsonData = [
     "Years":1937,
     "Fund":"BTB Segn. 235",
     "Segni":"Dedica del curatore.",
-    "Category":"L"
-    },{
-    "Id":389.0,
+    "Category":"GR"
+},{
+    "Id":389,
     "Authors":"Boothe Luce, Clare",
     "Title":"L\u2019Europa e l\u2019America",
     "Cities":"Roma",
@@ -3899,9 +3898,9 @@ const jsonData = [
     "Years":1955,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":390.0,
+    "Category":"G"
+},{
+    "Id":390,
     "Authors":"Borgese, Giuseppe Antonio",
     "Title":"Studi di letterature moderne",
     "Cities":"Milano",
@@ -3909,9 +3908,9 @@ const jsonData = [
     "Years":1920,
     "Fund":"BTB Segn. 764",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":391.0,
+    "Category":"GR"
+},{
+    "Id":391,
     "Authors":"Borghese, Junio Valerio",
     "Title":"Decima flottiglia MAS. Dalle origini all\u2019armistizio",
     "Cities":"Milano  ",
@@ -3919,9 +3918,9 @@ const jsonData = [
     "Years":1950,
     "Fund":"BTB Segn. 1503",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":392.0,
+    "Category":"H"
+},{
+    "Id":392,
     "Authors":"Borlenghi, Aldo",
     "Title":"L\u2019arte di N. Tommaseo",
     "Cities":"Milano",
@@ -3929,9 +3928,9 @@ const jsonData = [
     "Years":1953,
     "Fund":"BTB Segn. 765",
     "Segni":"Dedica dell\u2019autore.",
-    "Category":"L"
-    },{
-    "Id":393.0,
+    "Category":"HA"
+},{
+    "Id":393,
     "Authors":"Borlenghi, Aldo",
     "Title":"Poesie",
     "Cities":"Milano",
@@ -3940,8 +3939,8 @@ const jsonData = [
     "Fund":"BTB Segn. 236",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":394.0,
+},{
+    "Id":394,
     "Authors":"Borsetta, Francesco",
     "Title":"Per curarsi con le erbe",
     "Cities":"Vigevano",
@@ -3950,8 +3949,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2074",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":395.0,
+},{
+    "Id":395,
     "Authors":"Boselli, Carlo",
     "Title":"La grammatica spagnola del XX secolo ad uso degli italiani",
     "Cities":"Milano",
@@ -3959,9 +3958,9 @@ const jsonData = [
     "Years":1940,
     "Fund":"BTB Segn. 2424",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":396.0,
+    "Category":"GR"
+},{
+    "Id":396,
     "Authors":"Bosisio, Carlo",
     "Title":"Tecoppa in tribunal",
     "Cities":"Milano",
@@ -3970,8 +3969,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Postille.",
     "Category":"IL"
-    },{
-    "Id":397.0,
+},{
+    "Id":397,
     "Authors":"Bossert, Adolphe",
     "Title":"Histoire de la litt\u00e9rature allemande",
     "Cities":"Paris",
@@ -3980,8 +3979,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1222",
     "Segni":"Nota di possesso autografa in data 06.1925 Milano. Parzialmente intonso.",
     "Category":"FL "
-    },{
-    "Id":398.0,
+},{
+    "Id":398,
     "Authors":"Bossuet, Jacques B\u00e9nigne",
     "Title":"\u0152uvres",
     "Cities":"Fribourg",
@@ -3990,8 +3989,8 @@ const jsonData = [
     "Fund":"BTB Segn. 966",
     "Segni":null,
     "Category":"FL "
-    },{
-    "Id":399.0,
+},{
+    "Id":399,
     "Authors":"Bossuet, Jacques B\u00e9nigne",
     "Title":"Oraisons fun\u00e8bres",
     "Cities":"Milano",
@@ -4000,8 +3999,8 @@ const jsonData = [
     "Fund":"BTB Segn. 965",
     "Segni":"Nota di possesso autografa di Adele Gadda Lehr. Sottolineature, pieghe.",
     "Category":"FL "
-    },{
-    "Id":400.0,
+},{
+    "Id":400,
     "Authors":"Bossuet, Jacques B\u00e9nigne",
     "Title":"Traitez du libre arbitre et de la concupiscence",
     "Cities":"Paris",
@@ -4010,8 +4009,8 @@ const jsonData = [
     "Fund":"BTB Segn. 967",
     "Segni":"Postille.",
     "Category":"FL "
-    },{
-    "Id":401.0,
+},{
+    "Id":401,
     "Authors":"Botta, Carlo",
     "Title":"Storia della guerra d\u2019indipendenza",
     "Cities":"Milano",
@@ -4019,9 +4018,9 @@ const jsonData = [
     "Years":1844,
     "Fund":"BTB Segn. 1727-1728",
     "Segni":"Dedica a Francesco Gadda in data 1851.",
-    "Category":"S"
-    },{
-    "Id":402.0,
+    "Category":"H"
+},{
+    "Id":402,
     "Authors":"Bottari, Stefano",
     "Title":"Michelangelo e la Cappella Sistina",
     "Cities":"Milano",
@@ -4029,9 +4028,9 @@ const jsonData = [
     "Years":1968,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":403.0,
+    "Category":"HA"
+},{
+    "Id":403,
     "Authors":"Bouillet, Marie Nicolas",
     "Title":"Dictionnaire universel d\u2019histoire et de g\u00e9ographie",
     "Cities":"Paris",
@@ -4040,8 +4039,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Postille e segnalibro.",
     "Category":"D"
-    },{
-    "Id":404.0,
+},{
+    "Id":404,
     "Authors":"Bourciez, Edouard",
     "Title":"El\u00e9ments de linguistique romane",
     "Cities":"Paris",
@@ -4049,9 +4048,9 @@ const jsonData = [
     "Years":1930,
     "Fund":"BTB Segn. 2425",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":405.0,
+    "Category":"GR"
+},{
+    "Id":405,
     "Authors":"Bourget, Paul",
     "Title":"Le disciple",
     "Cities":"Paris",
@@ -4060,8 +4059,8 @@ const jsonData = [
     "Fund":"BTB Segn. 968",
     "Segni":"Invio di Bonaventura Tecchi in data 17.12.1918.",
     "Category":"FL "
-    },{
-    "Id":406.0,
+},{
+    "Id":406,
     "Authors":"Boutroux, Emile",
     "Title":"La natura e lo spirito",
     "Cities":"Lanciano",
@@ -4070,8 +4069,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1824",
     "Segni":null,
     "Category":"F "
-    },{
-    "Id":407.0,
+},{
+    "Id":407,
     "Authors":"Branca, Stefano",
     "Title":"Io ho quel che ho donato",
     "Cities":"s.l.",
@@ -4080,8 +4079,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":408.0,
+},{
+    "Id":408,
     "Authors":"Branca, Stefano",
     "Title":"Una serenit\u00e0 che sorride alla morte",
     "Cities":"Milano",
@@ -4090,8 +4089,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":409.0,
+},{
+    "Id":409,
     "Authors":"Brancati, Vitaliano",
     "Title":"Il vecchio con gli stivali",
     "Cities":"Milano",
@@ -4100,8 +4099,8 @@ const jsonData = [
     "Fund":"BTB Segn. 237",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":410.0,
+},{
+    "Id":410,
     "Authors":"Brandi, Cesare",
     "Title":"Elegie",
     "Cities":"Firenze",
@@ -4110,8 +4109,8 @@ const jsonData = [
     "Fund":"BTB Segn. 238",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":411.0,
+},{
+    "Id":411,
     "Authors":"Brandi, Cesare",
     "Title":"Morandi",
     "Cities":"Firenze",
@@ -4120,8 +4119,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2221",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":412.0,
+},{
+    "Id":412,
     "Authors":"Brandi, Karl",
     "Title":"Carlo V",
     "Cities":"Torino",
@@ -4129,9 +4128,9 @@ const jsonData = [
     "Years":1961,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":413.0,
+    "Category":"H"
+},{
+    "Id":413,
     "Authors":"Brecht, Bertolt",
     "Title":"Libro di devozioni domestiche",
     "Cities":"Torino  ",
@@ -4140,8 +4139,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1158",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":414.0,
+},{
+    "Id":414,
     "Authors":"Breton, Andr\u00e9",
     "Title":"Antologia dello humour nero",
     "Cities":"Torino",
@@ -4150,8 +4149,8 @@ const jsonData = [
     "Fund":"BTB Segn. 969",
     "Segni":null,
     "Category":"FL "
-    },{
-    "Id":415.0,
+},{
+    "Id":415,
     "Authors":"Brignetti, Raffaello",
     "Title":"La spiaggia d\u2019oro",
     "Cities":"Milano",
@@ -4160,8 +4159,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore in data 5.1971. Segna libro.",
     "Category":"IL"
-    },{
-    "Id":416.0,
+},{
+    "Id":416,
     "Authors":"Brion, Marcel",
     "Title":"La vie des Huns",
     "Cities":"Paris",
@@ -4170,8 +4169,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1729",
     "Segni":null,
     "Category":"FL "
-    },{
-    "Id":417.0,
+},{
+    "Id":417,
     "Authors":"Brioschi, Francesco",
     "Title":"I problemi di Urania. Trattato di astronomia",
     "Cities":"Milano",
@@ -4180,8 +4179,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2112",
     "Segni":"Invio ad Adele Gadda Lehr. Parzialmente  intonso.",
     "Category":"T"
-    },{
-    "Id":418.0,
+},{
+    "Id":418,
     "Authors":"Brock, Helma",
     "Title":"Storie naturali",
     "Cities":"Treviso",
@@ -4189,9 +4188,9 @@ const jsonData = [
     "Years":1954,
     "Fund":"BTB Segn. 239",
     "Segni":"Dedica dell\u2019autrice.",
-    "Category":"L"
-    },{
-    "Id":419.0,
+    "Category":"T"
+},{
+    "Id":419,
     "Authors":"Brod, Max",
     "Title":"Tycho Brahe e il suo cammino a Dio",
     "Cities":"Milano",
@@ -4199,9 +4198,9 @@ const jsonData = [
     "Years":1933,
     "Fund":"BTB Segn. 1157",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":420.0,
+    "Category":"GL"
+},{
+    "Id":420,
     "Authors":"Broggini, Luigi",
     "Title":"\u00c8 riapparso l\u2019impero sui colli fatali di Roma",
     "Cities":"Milano",
@@ -4210,8 +4209,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":421.0,
+},{
+    "Id":421,
     "Authors":"Broglie, Louis de",
     "Title":"I quanti e la fisica moderna",
     "Cities":"Torino",
@@ -4220,8 +4219,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2113",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":422.0,
+},{
+    "Id":422,
     "Authors":"Brooks, Van Wyck",
     "Title":"Storia della letteratura americana. La fioritura della Nuova Inghilterra",
     "Cities":"Roma",
@@ -4229,9 +4228,9 @@ const jsonData = [
     "Years":1952,
     "Fund":"BTB Segn. 1340",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":423.0,
+    "Category":"GR"
+},{
+    "Id":423,
     "Authors":"Brooks, Van Wyck",
     "Title":"Storia della letteratura americana. La Nuova Inghilterra: l\u2019estate di San Martino",
     "Cities":"Roma",
@@ -4239,9 +4238,9 @@ const jsonData = [
     "Years":1953,
     "Fund":"BTB Segn. 1341",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":424.0,
+    "Category":"GR"
+},{
+    "Id":424,
     "Authors":"Brousson, Jean-Jacques",
     "Title":"Anatole France en pantoufles",
     "Cities":"Paris",
@@ -4250,8 +4249,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1120",
     "Segni":null,
     "Category":"FL "
-    },{
-    "Id":425.0,
+},{
+    "Id":425,
     "Authors":"Brousson, Jean-Jacques",
     "Title":"Itin\u00e9raire de Paris \u00e0 Buenos-Ayres",
     "Cities":"Paris",
@@ -4260,8 +4259,8 @@ const jsonData = [
     "Fund":"BTB Segn. 970",
     "Segni":null,
     "Category":"FL "
-    },{
-    "Id":426.0,
+},{
+    "Id":426,
     "Authors":"Bruce, Jean",
     "Title":"A tout c\u0153ur \u00e0 Tokyo (O.S.S. 117)",
     "Cities":"Paris",
@@ -4270,8 +4269,8 @@ const jsonData = [
     "Fund":"BTB Segn. 971",
     "Segni":null,
     "Category":"G "
-    },{
-    "Id":427.0,
+},{
+    "Id":427,
     "Authors":"Bruckner, Ferdinand",
     "Title":"Elisabetta d\u2019Inghilterra",
     "Cities":"Torino",
@@ -4279,9 +4278,9 @@ const jsonData = [
     "Years":1952,
     "Fund":"BTB Segn. 1160",
     "Segni":"Intonso.",
-    "Category":"S"
-    },{
-    "Id":428.0,
+    "Category":"H"
+},{
+    "Id":428,
     "Authors":"Buchan, John",
     "Title":"The Thirty-nine Steps",
     "Cities":"London-New York",
@@ -4289,9 +4288,9 @@ const jsonData = [
     "Years":1955,
     "Fund":"BTB Segn. 1240",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":429.0,
+    "Category":"AL"
+},{
+    "Id":429,
     "Authors":"Budigna, Luciano",
     "Title":"Assedio",
     "Cities":"Trieste",
@@ -4300,8 +4299,8 @@ const jsonData = [
     "Fund":"BTB Segn. 240",
     "Segni":"Dedica.",
     "Category":"IL"
-    },{
-    "Id":430.0,
+},{
+    "Id":430,
     "Authors":"Bulferetti, Domenico",
     "Title":"Ugo Foscolo",
     "Cities":"Torino",
@@ -4310,8 +4309,8 @@ const jsonData = [
     "Fund":"BTB Segn. 767",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":431.0,
+},{
+    "Id":431,
     "Authors":"Buonaiuti, Ernesto",
     "Title":"San Girolamo",
     "Cities":"Roma",
@@ -4320,8 +4319,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1784",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":432.0,
+},{
+    "Id":432,
     "Authors":"Burali-Forti, Cesare \u2013 Boggio, Tommaso",
     "Title":"Esercizi di matematica. Algebra,geometria, funzioni circolari",
     "Cities":"Torino",
@@ -4330,8 +4329,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2044",
     "Segni":"Nota di possesso autografa in data 1.06.1925 Milano.",
     "Category":"T"
-    },{
-    "Id":433.0,
+},{
+    "Id":433,
     "Authors":"Burchiello (Domenico di Giovanni, detto il)",
     "Title":"I sonetti",
     "Cities":"Milano",
@@ -4340,8 +4339,8 @@ const jsonData = [
     "Fund":"BTB Segn. 241-242",
     "Segni":"Due copie. Una intonsa, l\u2019altra parzialmente intonsa. Piega.",
     "Category":"IL"
-    },{
-    "Id":434.0,
+},{
+    "Id":434,
     "Authors":"Burckhardt, Jacob",
     "Title":"The Age of Constantine the Great",
     "Cities":"New-York",
@@ -4349,9 +4348,9 @@ const jsonData = [
     "Years":1956,
     "Fund":"BTB Segn. 1450",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":435.0,
+    "Category":"H"
+},{
+    "Id":435,
     "Authors":"Burckhardt, Jacob",
     "Title":"La civilt\u00e0 del Rinascimento in Italia",
     "Cities":"Firenze",
@@ -4359,9 +4358,9 @@ const jsonData = [
     "Years":1958,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":436.0,
+    "Category":"H"
+},{
+    "Id":436,
     "Authors":"Burckhardt, Jacob",
     "Title":"Considerazioni sulla storia del mondo",
     "Cities":"Milano",
@@ -4370,8 +4369,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1745",
     "Segni":null,
     "Category":null
-    },{
-    "Id":437.0,
+},{
+    "Id":437,
     "Authors":"Burckhardt, Jacob",
     "Title":"Richelieu",
     "Cities":"Torino",
@@ -4379,9 +4378,9 @@ const jsonData = [
     "Years":1941,
     "Fund":"BTB Segn. 1599",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":438.0,
+    "Category":"H"
+},{
+    "Id":438,
     "Authors":"Burnand, Robert",
     "Title":"La vie quotidienne en France en 1830",
     "Cities":"Paris",
@@ -4389,9 +4388,9 @@ const jsonData = [
     "Years":1950,
     "Fund":"BTB Segn. 1600",
     "Segni":"Parzialmente intonso.",
-    "Category":"S"
-    },{
-    "Id":439.0,
+    "Category":"H"
+},{
+    "Id":439,
     "Authors":"Burnet, John",
     "Title":"Greek Philosophy",
     "Cities":"London",
@@ -4399,9 +4398,9 @@ const jsonData = [
     "Years":1920,
     "Fund":"BTB Segn. 1932",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":440.0,
+    "Category":"P"
+},{
+    "Id":440,
     "Authors":"Burnett, William Riley",
     "Title":"Il boia \u00e8 solo",
     "Cities":"Milano",
@@ -4409,9 +4408,9 @@ const jsonData = [
     "Years":1953,
     "Fund":"BTB Segn. 1241",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":441.0,
+    "Category":"AL"
+},{
+    "Id":441,
     "Authors":"Burzio, Filippo",
     "Title":"Lagrange",
     "Cities":"Torino",
@@ -4420,8 +4419,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2114",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":442.0,
+},{
+    "Id":442,
     "Authors":"Busenello, Gian Francesco",
     "Title":"Incoronazione di Poppea",
     "Cities":"Venezia",
@@ -4430,9 +4429,9 @@ const jsonData = [
     "Fund":"BTB Segn. 1436",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":443.0,
-    "Authors":null,
+},{
+    "Id":443,
+    "Authors":"Not found",
     "Title":"Le bustine si orlavano d\u2019unto\u2026",
     "Cities":null,
     "Publisher":null,
@@ -4440,8 +4439,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 100",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":444.0,
+},{
+    "Id":444,
     "Authors":"Butler, Samuel",
     "Title":"Ainsi va toute chair",
     "Cities":"Paris",
@@ -4450,8 +4449,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1242",
     "Segni":null,
     "Category":"FL "
-    },{
-    "Id":445.0,
+},{
+    "Id":445,
     "Authors":"Buttitta, Pietro A.",
     "Title":".Il volantino",
     "Cities":"Milano",
@@ -4460,8 +4459,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":446.0,
+},{
+    "Id":446,
     "Authors":"Buzzi, Giancarlo",
     "Title":"Isabella della Grazia",
     "Cities":"Milano",
@@ -4470,8 +4469,8 @@ const jsonData = [
     "Fund":"BTB Segn. 243",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":447.0,
+},{
+    "Id":447,
     "Authors":"Byron, George Gordon",
     "Title":"Il corsaro",
     "Cities":"s.l.",
@@ -4479,9 +4478,9 @@ const jsonData = [
     "Years":1842,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":448.0,
+    "Category":"AL"
+},{
+    "Id":448,
     "Authors":"Byron, George Gordon",
     "Title":"\u0152uvres completes de Lord Byron",
     "Cities":"Paris",
@@ -4489,9 +4488,9 @@ const jsonData = [
     "Years":1853,
     "Fund":"BAL",
     "Segni":"Postille su fogli inseriti.",
-    "Category":"EL"
-    },{
-    "Id":449.0,
+    "Category":"AL"
+},{
+    "Id":449,
     "Authors":"Byron, George Gordon",
     "Title":"The Works of Lord Byron complete in five volumes: vol. 2",
     "Cities":"Leipzig",
@@ -4499,9 +4498,9 @@ const jsonData = [
     "Years":1866,
     "Fund":"BTB Segn. 1243",
     "Segni":"Postille. C",
-    "Category":"EL"
-    },{
-    "Id":450.0,
+    "Category":"AL"
+},{
+    "Id":450,
     "Authors":"Cabau, Jacques",
     "Title":"Edgar Poe par luim\u00eame",
     "Cities":"Paris",
@@ -4510,8 +4509,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1344",
     "Segni":null,
     "Category":"FL "
-    },{
-    "Id":451.0,
+},{
+    "Id":451,
     "Authors":"Cabrini, Gabrielle",
     "Title":"Les \u00eeles sans bord",
     "Cities":"Paris",
@@ -4520,8 +4519,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica autografa dell\u2019autrice in data3.11.60.",
     "Category":"FL"
-    },{
-    "Id":452.0,
+},{
+    "Id":452,
     "Authors":"Caccia Dominioni, Paolo",
     "Title":"1915-1919",
     "Cities":"Milano",
@@ -4529,9 +4528,9 @@ const jsonData = [
     "Years":1965,
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore in data 1965.",
-    "Category":"S"
-    },{
-    "Id":453.0,
+    "Category":"H"
+},{
+    "Id":453,
     "Authors":"Caddeo, Rinaldo",
     "Title":"Le historie della vita e dei fatti di Cristoforo Colombo",
     "Cities":"Milano",
@@ -4539,9 +4538,9 @@ const jsonData = [
     "Years":1930,
     "Fund":"BTB Segn. 1508-1509",
     "Segni":null,
-    "Category":null
-    },{
-    "Id":454.0,
+    "Category":"V"
+},{
+    "Id":454,
     "Authors":"Cadorna, Luigi",
     "Title":"Addestramento della fanteria alcombattimento. Fascicolo Istruzione della recluta (EdizioneI.provvisoria)",
     "Cities":"Roma",
@@ -4549,9 +4548,9 @@ const jsonData = [
     "Years":1916,
     "Fund":"BTB Segn. 2167",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":455.0,
+    "Category":"M"
+},{
+    "Id":455,
     "Authors":"Cadorna, Luigi",
     "Title":"Attacco frontale e ammaestramento tattico. Circolare n. 191 del 25 febbraio 1915.",
     "Cities":"Roma",
@@ -4560,8 +4559,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2160",
     "Segni":null,
     "Category":"M"
-    },{
-    "Id":456.0,
+},{
+    "Id":456,
     "Authors":"Cadorna, Luigi",
     "Title":"Esplorazione vicina e sicurezza. Circolare n. 400 I.M. del 1 maggio\n1915",
     "Cities":"Roma",
@@ -4570,8 +4569,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2161",
     "Segni":null,
     "Category":"M"
-    },{
-    "Id":457.0,
+},{
+    "Id":457,
     "Authors":"Cadorna, Luigi",
     "Title":"Pagine polemiche",
     "Cities":"Milano",
@@ -4580,8 +4579,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"M"
-    },{
-    "Id":458.0,
+},{
+    "Id":458,
     "Authors":"Cagna, Achille Giovanni",
     "Title":"Alpinisti ciabattoni",
     "Cities":"Milano",
@@ -4589,9 +4588,9 @@ const jsonData = [
     "Years":1934,
     "Fund":"BTM",
     "Segni":"Sottolineature e postille.",
-    "Category":"L"
-    },{
-    "Id":459.0,
+    "Category":"IL"
+},{
+    "Id":459,
     "Authors":"Caldwell, Taylor",
     "Title":"L\u2019ora finale",
     "Cities":"Milano",
@@ -4599,9 +4598,9 @@ const jsonData = [
     "Years":1949,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":460.0,
+    "Category":"AL"
+},{
+    "Id":460,
     "Authors":"Caillois, Roger",
     "Title":"Descrizione del marxismo",
     "Cities":"Roma",
@@ -4609,9 +4608,9 @@ const jsonData = [
     "Years":1954,
     "Fund":"BTB Segn. 2006",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":461.0,
+    "Category":"P"
+},{
+    "Id":461,
     "Authors":"Caird, Edward",
     "Title":"Hegel",
     "Cities":"Milano-Palermo-Napoli",
@@ -4619,9 +4618,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BTB Segn. 1933",
     "Segni":"Parzialmente intonso.",
-    "Category":"F"
-    },{
-    "Id":462.0,
+    "Category":"P"
+},{
+    "Id":462,
     "Authors":"Calderini, Aristide",
     "Title":"Lettere private dell\u2019Egitto grecoromano",
     "Cities":"Milano  ",
@@ -4630,8 +4629,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 26",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":463.0,
+},{
+    "Id":463,
     "Authors":"Calderini, Aristide \u2013 Mondini, Maria",
     "Title":"Testamenti di soldati",
     "Cities":"Firenze",
@@ -4640,8 +4639,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 43",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":464.0,
+},{
+    "Id":464,
     "Authors":"Calderini, Aristide \u2013 Paribeni, Roberto",
     "Title":"Milano",
     "Cities":"Roma",
@@ -4650,8 +4649,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2340",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":465.0,
+},{
+    "Id":465,
     "Authors":"Calder\u00f3n de la Barca, Pedro",
     "Title":"La vita \u00e8 un sogno",
     "Cities":"Torino",
@@ -4660,18 +4659,18 @@ const jsonData = [
     "Fund":"BTB Segn. 908",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":466.0,
-    "Authors":null,
+},{
+    "Id":466,
+    "Authors":"Not found",
     "Title":"Calendario di letture",
     "Cities":"Torino",
     "Publisher":"ERI",
     "Years":1966,
     "Fund":"BTB Segn. 1409",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":467.0,
+    "Category":"V"
+},{
+    "Id":467,
     "Authors":"Callet, Jean-Fran\u00e7ois",
     "Title":"Tables de logarithmes \u00e0 sept d\u00e9cimales",
     "Cities":"Paris",
@@ -4680,8 +4679,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2120",
     "Segni":"Nota di possesso, C.E. Gadda 1919.",
     "Category":"T"
-    },{
-    "Id":468.0,
+},{
+    "Id":468,
     "Authors":"Calogero, Giuseppe",
     "Title":"Pedagogia politica e sociale di Tommaso Campanella",
     "Cities":"Pozzuoli (Napoli)",
@@ -4689,9 +4688,9 @@ const jsonData = [
     "Years":1964,
     "Fund":"BTB Segn. 1934",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":469.0,
+    "Category":"P"
+},{
+    "Id":469,
     "Authors":"Calvin, Jean",
     "Title":"La religione individuale",
     "Cities":"Lanciano",
@@ -4699,9 +4698,9 @@ const jsonData = [
     "Years":1919,
     "Fund":"BTB Segn. 1785",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":470.0,
+    "Category":"P"
+},{
+    "Id":470,
     "Authors":"Calvino, Italo",
     "Title":"Le cosmicomiche",
     "Cities":"Torino",
@@ -4710,8 +4709,8 @@ const jsonData = [
     "Fund":"BTB Segn. 244",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":471.0,
+},{
+    "Id":471,
     "Authors":"Calvino, Italo",
     "Title":"L\u2019entrata in guerra",
     "Cities":"Torino",
@@ -4720,8 +4719,8 @@ const jsonData = [
     "Fund":"BTB Segn. 245",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":472.0,
+},{
+    "Id":472,
     "Authors":"Calvino, Italo",
     "Title":"Fiabe italiane",
     "Cities":"Torino",
@@ -4730,8 +4729,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Biglietto augurale di Giulio Einaudidel 1956 e dedica di Gadda ad A.Lberati in data 15.6.1970.",
     "Category":"IL"
-    },{
-    "Id":473.0,
+},{
+    "Id":473,
     "Authors":"Calzini, Raffaele \u2013 Portaluppi, Piero",
     "Title":"Il Palazzo e la famiglia Durini in duesecoli di vita milanese: 1648- 1848",
     "Cities":"Milano",
@@ -4740,8 +4739,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2392",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":474.0,
+},{
+    "Id":474,
     "Authors":"Cammarano, Salvatore",
     "Title":"Lucia di Lammermoor",
     "Cities":"Sesto San Giovanni",
@@ -4750,8 +4749,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1441",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":475.0,
+},{
+    "Id":475,
     "Authors":"Campana, Dino",
     "Title":"Canti orfici",
     "Cities":"Firenze",
@@ -4760,8 +4759,8 @@ const jsonData = [
     "Fund":"BTB Segn. 247",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":476.0,
+},{
+    "Id":476,
     "Authors":"Campana, Dino",
     "Title":"Canti orfici ed altre liriche. Opera completa",
     "Cities":"Firenze",
@@ -4770,8 +4769,8 @@ const jsonData = [
     "Fund":"BTB Segn. 246",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":477.0,
+},{
+    "Id":477,
     "Authors":"Campana, Dino",
     "Title":"Inediti",
     "Cities":"Firenze",
@@ -4780,8 +4779,8 @@ const jsonData = [
     "Fund":"BTB Segn. 248",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":478.0,
+},{
+    "Id":478,
     "Authors":"Campanella, Tommaso",
     "Title":"La citt\u00e0 del sole",
     "Cities":"Torino",
@@ -4789,9 +4788,9 @@ const jsonData = [
     "Years":1941,
     "Fund":"BTB Segn. 1825",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":479.0,
+    "Category":"P"
+},{
+    "Id":479,
     "Authors":"Campanella, Tommaso",
     "Title":"La citt\u00e0 del sole",
     "Cities":"Messina-Firenze",
@@ -4799,9 +4798,9 @@ const jsonData = [
     "Years":1967,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":480.0,
+    "Category":"P"
+},{
+    "Id":480,
     "Authors":"Campanini, Giuseppe \u2013 Santini, Alessandro",
     "Title":"Nozioni di analisi logica",
     "Cities":"Roma",
@@ -4809,10 +4808,10 @@ const jsonData = [
     "Years":1904,
     "Fund":"BTB Segn. 2456",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":481.0,
-    "Authors":null,
+    "Category":"GR"
+},{
+    "Id":481,
+    "Authors":"Not found",
     "Title":"Campiello 1969. Antologia",
     "Cities":"Venezia",
     "Publisher":"Fondazione Cini",
@@ -4820,9 +4819,9 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":482.0,
-    "Authors":null,
+},{
+    "Id":482,
+    "Authors":"Not found",
     "Title":"Campiello 1970. Antologia",
     "Cities":"Venezia",
     "Publisher":"Fondazione Cini",
@@ -4830,8 +4829,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":483.0,
+},{
+    "Id":483,
     "Authors":"Campiglio, Giovanni",
     "Title":"Storia di Milano",
     "Cities":"Milano",
@@ -4839,9 +4838,9 @@ const jsonData = [
     "Years":1831,
     "Fund":"BTB Segn. 1504-1507",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":484.0,
+    "Category":"H"
+},{
+    "Id":484,
     "Authors":"Cancogni, Manlio",
     "Title":"Allegri, giovent\u00f9",
     "Cities":"Milano",
@@ -4850,8 +4849,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":485.0,
+},{
+    "Id":485,
     "Authors":"Canetti, Elias",
     "Title":"Auto da f\u00e9",
     "Cities":"Milano",
@@ -4859,9 +4858,9 @@ const jsonData = [
     "Years":1967,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":486.0,
+    "Category":"GL"
+},{
+    "Id":486,
     "Authors":"Canna, Giovanni",
     "Title":"Le opere e i giorni di Esiodo",
     "Cities":"Torino",
@@ -4869,9 +4868,9 @@ const jsonData = [
     "Years":1874,
     "Fund":"BTB Segn. Op. 31",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":487.0,
+    "Category":"CL"
+},{
+    "Id":487,
     "Authors":"Cantalupi, Antonio",
     "Title":"Nozioni pratiche intorno alle consegne, riconsegne e bilanci dei beni stabili secondo i diversi metodi adottati in Lombardia",
     "Cities":"Milano",
@@ -4880,28 +4879,28 @@ const jsonData = [
     "Fund":"BTB Segn. 2007",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":488.0,
-    "Authors":null,
+},{
+    "Id":488,
+    "Authors":"Not found",
     "Title":"Canti alpini",
     "Cities":"Milano",
     "Publisher":"Semenza",
     "Years":1924,
     "Fund":"BAL",
     "Segni":"Nota di possesso di Gadda, C.E. Gadda Capitano nel 5\u00b0 reggimento alpini marzo 1925 Milano (dono di Dubini). Sottolineature e postille.",
-    "Category":"L"
-    },{
-    "Id":489.0,
-    "Authors":null,
+    "Category":"M"
+},{
+    "Id":489,
+    "Authors":"Not found",
     "Title":"Cantico dei cantici",
     "Cities":"Venezia",
     "Publisher":"Neri Pozza",
     "Years":1952,
     "Fund":"BTB Segn. 1771",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":490.0,
+    "Category":"V"
+},{
+    "Id":490,
     "Authors":"Cant\u00f9, Cesare",
     "Title":"L\u2019Abate Parini e la Lombardia nel secolo passato: studj",
     "Cities":"Milano",
@@ -4910,28 +4909,28 @@ const jsonData = [
     "Fund":"BTB Segn. 769",
     "Segni":"Invio.",
     "Category":"IL"
-    },{
-    "Id":491.0,
-    "Authors":null,
-    "Title":"]Canzoniere italiano: antologia della poesia popolare",
+},{
+    "Id":491,
+    "Authors":"Not found",
+    "Title":"Canzoniere italiano: antologia della poesia popolare",
     "Cities":"Parma",
     "Publisher":"Guanda",
     "Years":1955,
     "Fund":"BTB Segn. 770",
     "Segni":"Dedica del curatore. Parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":492.0,
-    "Authors":null,
+},{
+    "Id":492,
+    "Authors":"Not found",
     "Title":"Capolavori nei secoli",
     "Cities":"Milano",
     "Publisher":"Fabbri",
     "Years":1961,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":493.0,
+    "Category":"V"
+},{
+    "Id":493,
     "Authors":"Caporali, Cesare",
     "Title":"Rime",
     "Cities":"Lanciano",
@@ -4940,8 +4939,8 @@ const jsonData = [
     "Fund":"BTB Segn. 249-250",
     "Segni":"volume I parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":494.0,
+},{
+    "Id":494,
     "Authors":"Capote, Truman",
     "Title":"L\u2019arpa d\u2019erba",
     "Cities":"Milano",
@@ -4949,9 +4948,9 @@ const jsonData = [
     "Years":1953,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":495.0,
+    "Category":"AL"
+},{
+    "Id":495,
     "Authors":"Caproni, Giorgio",
     "Title":"Il terzo libro e altre cose",
     "Cities":"Torino",
@@ -4960,8 +4959,8 @@ const jsonData = [
     "Fund":"BTB Segn. 251",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":496.0,
+},{
+    "Id":496,
     "Authors":"Capuana, Luigi",
     "Title":"I paralipomeni del Lucifero di Mario Rapisardi",
     "Cities":"Bologna",
@@ -4970,8 +4969,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Nota di possesso di Prosperini.",
     "Category":"IL"
-    },{
-    "Id":497.0,
+},{
+    "Id":497,
     "Authors":"Carcopino, J\u00e9r\u00f4me",
     "Title":"La vie quotidienne \u00e0 Rome \u00e0 l\u2019apog\u00e9e de l\u2019Empire",
     "Cities":"Paris",
@@ -4979,9 +4978,9 @@ const jsonData = [
     "Years":1939,
     "Fund":"BTB Segn. 1451",
     "Segni":"Parzialmente intonso.",
-    "Category":"S"
-    },{
-    "Id":498.0,
+    "Category":"H"
+},{
+    "Id":498,
     "Authors":"Cardarelli, Vincenzo",
     "Title":"Il cielo sulla citt\u00e0",
     "Cities":"Milano",
@@ -4990,8 +4989,8 @@ const jsonData = [
     "Fund":"BTB Segn. 252",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":499.0,
+},{
+    "Id":499,
     "Authors":"Cardarelli, Vincenzo",
     "Title":"Poesie",
     "Cities":"Milano",
@@ -5000,8 +4999,8 @@ const jsonData = [
     "Fund":"BTB Segn. 253",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":500.0,
+},{
+    "Id":500,
     "Authors":"Carducci, Giosu\u00e8",
     "Title":"Archeologia poetica",
     "Cities":"Bologna",
@@ -5010,8 +5009,8 @@ const jsonData = [
     "Fund":"BTB Segn. 271",
     "Segni":"Parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":501.0,
+},{
+    "Id":501,
     "Authors":"Carducci, Giosu\u00e8",
     "Title":"Bozzetti e scherme",
     "Cities":"Bologna",
@@ -5020,8 +5019,8 @@ const jsonData = [
     "Fund":"BTB Segn. 256",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":502.0,
+},{
+    "Id":502,
     "Authors":"Carducci, Giosu\u00e8",
     "Title":"Cavalleria e Umanesimo",
     "Cities":"Bologna",
@@ -5030,8 +5029,8 @@ const jsonData = [
     "Fund":"BTB Segn. 273",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":503.0,
+},{
+    "Id":503,
     "Authors":"Carducci, Giosu\u00e8",
     "Title":"Ceneri e faville: serie prima: 1858-1870",
     "Cities":"Bologna",
@@ -5040,8 +5039,8 @@ const jsonData = [
     "Fund":"BTB Segn. 258",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":504.0,
+},{
+    "Id":504,
     "Authors":"Carducci, Giosu\u00e8",
     "Title":"Ceneri e faville: serie seconda: 1871-1876",
     "Cities":"Bologna",
@@ -5050,8 +5049,8 @@ const jsonData = [
     "Fund":"BTB Segn. 260",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":505.0,
+},{
+    "Id":505,
     "Authors":"Carducci, Giosu\u00e8",
     "Title":"Ceneri e faville: serie terza e ultima: 1877-1901",
     "Cities":"Bologna",
@@ -5060,8 +5059,8 @@ const jsonData = [
     "Fund":"BTB Segn. 264",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":506.0,
+},{
+    "Id":506,
     "Authors":"Carducci, Giosu\u00e8",
     "Title":"Confessioni e battaglie",
     "Cities":"Bologna",
@@ -5070,8 +5069,8 @@ const jsonData = [
     "Fund":"BTB Segn. 257",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":507.0,
+},{
+    "Id":507,
     "Authors":"Carducci, Giosu\u00e8",
     "Title":"Confessioni e battaglie: serie seconda",
     "Cities":"Bologna",
@@ -5080,8 +5079,8 @@ const jsonData = [
     "Fund":"BTB Segn. 265",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":508.0,
+},{
+    "Id":508,
     "Authors":"Carducci, Giosu\u00e8",
     "Title":"Discorsi letterari e storici",
     "Cities":"Bologna",
@@ -5090,8 +5089,8 @@ const jsonData = [
     "Fund":"BTB Segn. 254",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":509.0,
+},{
+    "Id":509,
     "Authors":"Carducci, Giosu\u00e8",
     "Title":"Giambi ed epodi e rime nuove",
     "Cities":"Bologna",
@@ -5100,8 +5099,8 @@ const jsonData = [
     "Fund":"BTB Segn. 262",
     "Segni":"Sottolineature e postille.",
     "Category":"IL"
-    },{
-    "Id":510.0,
+},{
+    "Id":510,
     "Authors":"Carducci, Giosu\u00e8",
     "Title":"Juvenilia e Levia gravia",
     "Cities":"Bologna",
@@ -5110,8 +5109,8 @@ const jsonData = [
     "Fund":"BTB Segn. 259",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":511.0,
+},{
+    "Id":511,
     "Authors":"Carducci, Giosu\u00e8",
     "Title":" Melica e lirica del Settecento: con altri studi di varia letteratura",
     "Cities":"Bologna",
@@ -5120,8 +5119,8 @@ const jsonData = [
     "Fund":"BTB Segn. 272",
     "Segni":"Parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":512.0,
+},{
+    "Id":512,
     "Authors":"Carducci, Giosu\u00e8",
     "Title":"Odi barbare: Rime e ritmi",
     "Cities":"Bologna",
@@ -5130,8 +5129,8 @@ const jsonData = [
     "Fund":"BTB Segn. 270",
     "Segni":"Sottolineature.",
     "Category":"IL"
-    },{
-    "Id":513.0,
+},{
+    "Id":513,
     "Authors":"Carducci, Giosu\u00e8",
     "Title":"Poesia e storia",
     "Cities":"Bologna",
@@ -5140,8 +5139,8 @@ const jsonData = [
     "Fund":"BTB Segn. 269",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":514.0,
+},{
+    "Id":514,
     "Authors":"Carducci, Giosu\u00e8",
     "Title":"Poesie di Giosu\u00e8 Carducci 1850-1900",
     "Cities":"Bologna",
@@ -5150,8 +5149,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica di Carlotta Gadda Belloni",
     "Category":"IL"
-    },{
-    "Id":515.0,
+},{
+    "Id":515,
     "Authors":"Carducci, Giosu\u00e8",
     "Title":"Primi saggi",
     "Cities":"Bologna",
@@ -5160,8 +5159,8 @@ const jsonData = [
     "Fund":"BTB Segn. 255",
     "Segni":"Sottolineature.",
     "Category":"IL"
-    },{
-    "Id":516.0,
+},{
+    "Id":516,
     "Authors":"Carducci, Giosu\u00e8",
     "Title":"Studi letterari",
     "Cities":"Bologna",
@@ -5170,8 +5169,8 @@ const jsonData = [
     "Fund":"BTB Segn. 261",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":517.0,
+},{
+    "Id":517,
     "Authors":"Carducci, Giosu\u00e8",
     "Title":" Studi, saggi e discorsi",
     "Cities":"Bologna",
@@ -5180,8 +5179,8 @@ const jsonData = [
     "Fund":"BTB Segn. 263",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":518.0,
+},{
+    "Id":518,
     "Authors":"Carducci, Giosu\u00e8",
     "Title":"Studi su Giuseppe Parini: Il Parini maggiore",
     "Cities":"Bologna",
@@ -5190,8 +5189,8 @@ const jsonData = [
     "Fund":"BTB Segn. 267",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":519.0,
+},{
+    "Id":519,
     "Authors":"Carducci, Giosu\u00e8",
     "Title":"Studi su Giuseppe Parini: Il Parini minore",
     "Cities":"Bologna",
@@ -5200,8 +5199,8 @@ const jsonData = [
     "Fund":"BTB Segn. 266",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":520.0,
+},{
+    "Id":520,
     "Authors":"Carducci, Giosu\u00e8",
     "Title":"Su Ludovico Ariosto e TorquatoTasso",
     "Cities":"Bologna",
@@ -5210,8 +5209,8 @@ const jsonData = [
     "Fund":"BTB Segn. 268",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":521.0,
+},{
+    "Id":521,
     "Authors":"Carena, Giacinto",
     "Title":"Prontuario di vocaboli attinenti aparecchie arti, ad alcuni mestieri, acose domestiche, ed altre di uso comune \u2013 parte prima",
     "Cities":"Napoli",
@@ -5220,8 +5219,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Nota di possesso autografa di AdeleGadda Lehr.",
     "Category":"IL"
-    },{
-    "Id":522.0,
+},{
+    "Id":522,
     "Authors":"Caretti, Lanfranco",
     "Title":"Ariosto e Tasso",
     "Cities":"Torino",
@@ -5230,8 +5229,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":523.0,
+},{
+    "Id":523,
     "Authors":"Caretti, Lanfranco",
     "Title":"Le carte alfieriane della raccoltaCora: catalogo e testi",
     "Cities":"Pavia",
@@ -5240,8 +5239,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica autografa in data 5.1961.",
     "Category":"IL"
-    },{
-    "Id":524.0,
+},{
+    "Id":524,
     "Authors":"Caretti, Lanfranco",
     "Title":"Il diario del Pontormo",
     "Cities":"Roma",
@@ -5250,8 +5249,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 32",
     "Segni":"Dedica dell\u2019autore in data 27.9.1959.",
     "Category":"IL"
-    },{
-    "Id":525.0,
+},{
+    "Id":525,
     "Authors":"Caretti, Lanfranco",
     "Title":"Manzoni e la critica",
     "Cities":"Bari",
@@ -5260,8 +5259,8 @@ const jsonData = [
     "Fund":"BTB Segn. 771",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":526.0,
+},{
+    "Id":526,
     "Authors":"Carletti, Francesco",
     "Title":"Giro del mondo del buon negriero (1594-1606)",
     "Cities":"Milano",
@@ -5270,8 +5269,8 @@ const jsonData = [
     "Fund":"BTB Segn. 274",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":527.0,
+},{
+    "Id":527,
     "Authors":"Carletti, Francesco",
     "Title":"Le pi\u00f9 belle pagine",
     "Cities":"Milano",
@@ -5280,8 +5279,8 @@ const jsonData = [
     "Fund":"BTB Segn. 275",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":528.0,
+},{
+    "Id":528,
     "Authors":"Carletti, Francesco",
     "Title":"Ragionamenti del mio viaggio intorno al mondo",
     "Cities":"Torino",
@@ -5290,8 +5289,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":529.0,
+},{
+    "Id":529,
     "Authors":"Carli, Enzo",
     "Title":"La mostra dei capolavori delle chiese di Bologna.",
     "Cities":null,
@@ -5299,9 +5298,9 @@ const jsonData = [
     "Years":null,
     "Fund":"BTB Segn. Op. 93",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":530.0,
+    "Category":"HA"
+},{
+    "Id":530,
     "Authors":"Carli, Enzo",
     "Title":"Mostra delle tavolette di Biccherna e di altri uffici delloStato di Siena",
     "Cities":"Firenze",
@@ -5309,19 +5308,19 @@ const jsonData = [
     "Years":1950,
     "Fund":"BTB Segn. 2209-2210",
     "Segni":"Su una copia, dedica di C.L. Ragghianti.",
-    "Category":"SA"
-    },{
-    "Id":531.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":531,
+    "Authors":"Not found",
     "Title":"Carlo Dossi: mostra di documenti sulla vita e sull\u2019opera (Milano, Palazzo Sormani, 18 marzo 10 aprile 1965)",
     "Cities":"Milano",
     "Publisher":"Biblioteca Comunale di Milano",
     "Years":1965,
     "Fund":"BTB Segn. 773",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":532.0,
+    "Category":"HA"
+},{
+    "Id":532,
     "Authors":"Carlyle, Thomas",
     "Title":"La rivoluzione francese",
     "Cities":"Milano",
@@ -5329,9 +5328,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BAL e BTB Segn. 1601-1603",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":533.0,
+    "Category":"H"
+},{
+    "Id":533,
     "Authors":"Caro, Annibale",
     "Title":"Lettere del commendatore Annibal Caro distribuite ne\u2019 loro varj argomenti. Colla vita dell\u2019autore scritta da A.F. Seghezzi",
     "Cities":"Como",
@@ -5339,9 +5338,9 @@ const jsonData = [
     "Years":1825,
     "Fund":"BTB Segn. 276-278",
     "Segni":"Nota di possesso autografa. Parzialmente intonso.",
-    "Category":"L"
-    },{
-    "Id":534.0,
+    "Category":"V"
+},{
+    "Id":534,
     "Authors":"Carossa, Hans",
     "Title":"Adolescenza",
     "Cities":"Milano",
@@ -5350,8 +5349,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1161",
     "Segni":"Dedica del traduttore.",
     "Category":"GL"
-    },{
-    "Id":535.0,
+},{
+    "Id":535,
     "Authors":"Carossa, Hans",
     "Title":"Dieci poesie",
     "Cities":"Milano",
@@ -5360,8 +5359,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":536.0,
+},{
+    "Id":536,
     "Authors":"Carotti, Giulio",
     "Title":"Pittura italiana di tutti i tempi. Strenna a benefizio del Pio Istituto Rachitici di Milano",
     "Cities":"Bergamo",
@@ -5369,19 +5368,19 @@ const jsonData = [
     "Years":1914,
     "Fund":"BTB Segn. 2223",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":537.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":537,
+    "Authors":"Not found",
     "Title":"Carpaccio",
     "Cities":"Firenze",
     "Publisher":"Electa",
     "Years":1949,
     "Fund":"BTB Segn. 2200",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":538.0,
+    "Category":"HA"
+},{
+    "Id":538,
     "Authors":"Carpaccio, Vittore",
     "Title":"Vittore : la leggenda di San t\u2019Orsola",
     "Cities":"Milano",
@@ -5389,9 +5388,9 @@ const jsonData = [
     "Years":1957,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":539.0,
+    "Category":"HA"
+},{
+    "Id":539,
     "Authors":"Carr\u00e0, Carlo",
     "Title":"Artisti moderni",
     "Cities":"Firenze",
@@ -5399,9 +5398,9 @@ const jsonData = [
     "Years":1943,
     "Fund":"BTB Segn. 772",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":540.0,
+    "Category":"HA"
+},{
+    "Id":540,
     "Authors":"Carra de Vaux, Bernard",
     "Title":"Leibniz",
     "Cities":"Paris",
@@ -5409,9 +5408,9 @@ const jsonData = [
     "Years":1908,
     "Fund":"BTB Segn. 1935",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":541.0,
+    "Category":"P"
+},{
+    "Id":541,
     "Authors":"Carr\u00e9, Jean Marie",
     "Title":"La vie aventureuse de JeanArthur Rimbaud",
     "Cities":"Paris",
@@ -5420,8 +5419,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1121",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":542.0,
+},{
+    "Id":542,
     "Authors":"Carrieri, Raffaele",
     "Title":"Cesetti",
     "Cities":"Milano",
@@ -5429,9 +5428,9 @@ const jsonData = [
     "Years":1937,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":543.0,
+    "Category":"HA"
+},{
+    "Id":543,
     "Authors":"Carrieri, Raffaele",
     "Title":"Fantasia degli italiani",
     "Cities":"Milano",
@@ -5440,8 +5439,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":544.0,
+},{
+    "Id":544,
     "Authors":"Carrieri, Raffaele",
     "Title":"Immagini di moda 1800-1900",
     "Cities":"Milano",
@@ -5450,8 +5449,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":545.0,
+},{
+    "Id":545,
     "Authors":"Carrieri, Raffaele",
     "Title":"Il sabato del bibliofilo",
     "Cities":"Milano",
@@ -5460,8 +5459,8 @@ const jsonData = [
     "Fund":"BTB Segn. 279",
     "Segni":"Parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":546.0,
+},{
+    "Id":546,
     "Authors":"Carrozzari, Raph\u00e4el",
     "Title":"Carmina selecta",
     "Cities":"Milano",
@@ -5470,8 +5469,8 @@ const jsonData = [
     "Fund":"BTB Segn. 280",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":547.0,
+},{
+    "Id":547,
     "Authors":"Casalini, Mario",
     "Title":"La boniifica di Alberese",
     "Cities":"Roma",
@@ -5480,8 +5479,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 108",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":548.0,
+},{
+    "Id":548,
     "Authors":"Casas, Cristobal de las",
     "Title":"Vocabulario de las dos lenguas toscana y castellana",
     "Cities":"Venezia",
@@ -5490,8 +5489,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2452",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":549.0,
+},{
+    "Id":549,
     "Authors":"Casati, Carlo",
     "Title":"Nuove rivelazioni su i fatti di Milano nel 1847-1848",
     "Cities":"Milano",
@@ -5499,9 +5498,9 @@ const jsonData = [
     "Years":1885,
     "Fund":null,
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":550.0,
+    "Category":"H"
+},{
+    "Id":550,
     "Authors":"Casati, Gaetano",
     "Title":"Dieci anni in Equatoria e ritorno con Emin Pasci\u00e0",
     "Cities":"Milano",
@@ -5510,8 +5509,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2350-2351",
     "Segni":"Nota di possesso autografa in data 4.11.1905.",
     "Category":"G "
-    },{
-    "Id":551.0,
+},{
+    "Id":551,
     "Authors":"Cassieri, Giuseppe",
     "Title":"Dove abita il prossimo",
     "Cities":"Firenze",
@@ -5520,8 +5519,8 @@ const jsonData = [
     "Fund":"BTB Segn. 281",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":552.0,
+},{
+    "Id":552,
     "Authors":"Cassirer, Ernst",
     "Title":"La filosofia dell\u2019Illuminismo",
     "Cities":"Firenze",
@@ -5529,9 +5528,9 @@ const jsonData = [
     "Years":1935,
     "Fund":"BTB Segn. 1936",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":553.0,
+    "Category":"P"
+},{
+    "Id":553,
     "Authors":"Cassirer, Ernst",
     "Title":"Individuo e cosmo nella filosofiadel Rinascimento",
     "Cities":"Firenze",
@@ -5539,9 +5538,9 @@ const jsonData = [
     "Years":1935,
     "Fund":"BTB Segn. 1937",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":554.0,
+    "Category":"P"
+},{
+    "Id":554,
     "Authors":"Castellaneta, Carlo",
     "Title":"La dolce compagna",
     "Cities":"Milano",
@@ -5550,8 +5549,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":555.0,
+},{
+    "Id":555,
     "Authors":"Castellaneta, Carlo",
     "Title":"Villa di delizia",
     "Cities":"Milano",
@@ -5560,8 +5559,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore in data 14.9.1965.",
     "Category":"IL"
-    },{
-    "Id":556.0,
+},{
+    "Id":556,
     "Authors":"Castelnuovo, Enrico",
     "Title":"Un pittore italiano alla corte diAvignone. Matteo Giovannetti e la pittura in Provenza nel secolo XIV",
     "Cities":"Torino",
@@ -5569,9 +5568,9 @@ const jsonData = [
     "Years":1962,
     "Fund":"BTB Segn. 2224",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":557.0,
+    "Category":"HA"
+},{
+    "Id":557,
     "Authors":"Castelnuovo, Guido",
     "Title":"Spazio e tempo secondo le vedutedi A. Einstein",
     "Cities":"Bologna",
@@ -5580,8 +5579,8 @@ const jsonData = [
     "Fund":"BTM",
     "Segni":"Nota di possesso e data 10.06.1925Milano.",
     "Category":"T"
-    },{
-    "Id":558.0,
+},{
+    "Id":558,
     "Authors":"Castelnuovo Tedesco, Ugo",
     "Title":"La figura umana di G. Pieraccini",
     "Cities":"Firenze",
@@ -5589,9 +5588,9 @@ const jsonData = [
     "Years":1957,
     "Fund":"BTB Segn. Op. 33",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":559.0,
+    "Category":"IL"
+},{
+    "Id":559,
     "Authors":"Castiglione, Baldassare",
     "Title":"Il Cortegiano. Con un\u2019appendicecontenente una scelta dal Galateodi G. della Casa",
     "Cities":"Milano",
@@ -5600,8 +5599,8 @@ const jsonData = [
     "Fund":"BTB Segn. 283",
     "Segni":"Parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":560.0,
+},{
+    "Id":560,
     "Authors":"Castiglione, Baldassare \u2013 Giovanni Della Casa",
     "Title":"Opere",
     "Cities":"Milano",
@@ -5610,8 +5609,8 @@ const jsonData = [
     "Fund":"BTB Segn. 282",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":561.0,
+},{
+    "Id":561,
     "Authors":"Castro, Americo",
     "Title":"La Spagna nella sua realt\u00e0 storica",
     "Cities":"Firenze",
@@ -5619,30 +5618,30 @@ const jsonData = [
     "Years":1955,
     "Fund":"BTB Segn. 1585",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":562.0,
-    "Authors":null,
+    "Category":"H"
+},{
+    "Id":562,
+    "Authors":"Not found",
     "Title":"Catalogo Catalogo della esposizione\ndella pittura ferrarese del Rinascimento. Ferrara maggioottobre 1933 XI E.F.della esposizionedella pittura ferrarese del Rinascimento",
     "Cities":"Venezia",
     "Publisher":"Tipi di Carlo Ferrari",
     "Years":1933,
     "Fund":"BTB Segn. 2240",
     "Segni":"Postille.",
-    "Category":"SA"
-    },{
-    "Id":563.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":563,
+    "Authors":"Not found",
     "Title":"Catalogo della R. Pinacoteca di Brera in Milano",
     "Cities":"Milano",
     "Publisher":"R. Pinacoteca di Brera",
     "Years":"s.d.",
     "Fund":"BTB Segn. 2238",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":564.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":564,
+    "Authors":"Not found",
     "Title":"Catalogo generale delle edizioni Einaudi dalla fondazione della Casa editrice al 1\u00b0 gennaio 1956.",
     "Cities":"Torino",
     "Publisher":"Einaudi",
@@ -5650,8 +5649,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 134",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":565.0,
+},{
+    "Id":565,
     "Authors":"Cattaneo, Carlo",
     "Title":"Considerazioni sulle cose d\u2019Italia nel 1848",
     "Cities":"Torino",
@@ -5659,9 +5658,9 @@ const jsonData = [
     "Years":1942,
     "Fund":"BTB Segn. 286",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":566.0,
+    "Category":"H"
+},{
+    "Id":566,
     "Authors":"Cattaneo, Carlo",
     "Title":"India, Messico, Cina",
     "Cities":"Milano",
@@ -5670,8 +5669,8 @@ const jsonData = [
     "Fund":"BTB Segn. 285",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":567.0,
+},{
+    "Id":567,
     "Authors":"Cattaneo, Carlo",
     "Title":"Lombardia antica e moderna",
     "Cities":"Firenze",
@@ -5679,9 +5678,9 @@ const jsonData = [
     "Years":1943,
     "Fund":"BTB Segn. 284",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":568.0,
+    "Category":"H"
+},{
+    "Id":568,
     "Authors":"Cattaneo, Carlo",
     "Title":"Saggi di economia rurale",
     "Cities":"Torino",
@@ -5690,8 +5689,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2008",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":569.0,
+},{
+    "Id":569,
     "Authors":"Cattaneo, Carlo",
     "Title":"Sulle interdizioni israelitiche",
     "Cities":"Roma",
@@ -5699,9 +5698,9 @@ const jsonData = [
     "Years":1944,
     "Fund":"BTB Segn. 287",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":570.0,
+    "Category":"H"
+},{
+    "Id":570,
     "Authors":"Cattaneo, Giulio",
     "Title":"Bisbetici e bizzarri nella letteratura italiana",
     "Cities":"Milano",
@@ -5710,8 +5709,8 @@ const jsonData = [
     "Fund":"BTB Segn. 774",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":571.0,
+},{
+    "Id":571,
     "Authors":"Cattaneo, Giulio",
     "Title":"Da inverno a inverno",
     "Cities":"Milano",
@@ -5720,8 +5719,8 @@ const jsonData = [
     "Fund":"BTB Segn. 288",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":572.0,
+},{
+    "Id":572,
     "Authors":"Cattaneo, Giulio",
     "Title":"Il gran lombardo",
     "Cities":"Milano",
@@ -5730,8 +5729,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore in data 3.1973.",
     "Category":"IL"
-    },{
-    "Id":573.0,
+},{
+    "Id":573,
     "Authors":"Cattaneo, Giulio",
     "Title":"L\u2019uomo delle novit\u00e0",
     "Cities":"Milano",
@@ -5740,8 +5739,8 @@ const jsonData = [
     "Fund":"BTB Segn. 289",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":574.0,
+},{
+    "Id":574,
     "Authors":"Catullo, Gaio Valerio",
     "Title":"Carmi",
     "Cities":"Milano",
@@ -5750,8 +5749,8 @@ const jsonData = [
     "Fund":"BTB Segn. 30",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":575.0,
+},{
+    "Id":575,
     "Authors":"Catullo, Gaio Valerio",
     "Title":"I carmi",
     "Cities":"Milano",
@@ -5760,8 +5759,8 @@ const jsonData = [
     "Fund":"BTB Segn. 31",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":576.0,
+},{
+    "Id":576,
     "Authors":"Catullo, Gaio Valerio",
     "Title":"Carmina",
     "Cities":"Milano",
@@ -5770,8 +5769,8 @@ const jsonData = [
     "Fund":"BTB Segn. 32",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":577.0,
+},{
+    "Id":577,
     "Authors":"Catullo, Gaio Valerio",
     "Title":"Le Poesie",
     "Cities":"Torino",
@@ -5780,8 +5779,8 @@ const jsonData = [
     "Fund":"BTB Segn. 33",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":578.0,
+},{
+    "Id":578,
     "Authors":"Catullo, Gaio Valerio",
     "Title":"Po\u00e9sies",
     "Cities":"Paris",
@@ -5790,8 +5789,8 @@ const jsonData = [
     "Fund":"BTB Segn. 89",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":579.0,
+},{
+    "Id":579,
     "Authors":"Cavallotti, Felice",
     "Title":"Canti e frammenti di Tirteo",
     "Cities":"s.l.",
@@ -5800,8 +5799,8 @@ const jsonData = [
     "Fund":"BTB Segn. 290",
     "Segni":"Nota di possesso di Adele Gadda Lehr.",
     "Category":"IL"
-    },{
-    "Id":580.0,
+},{
+    "Id":580,
     "Authors":"Cecchi, Dario",
     "Title":"Giovanni Boldini",
     "Cities":"Torino",
@@ -5810,8 +5809,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":581.0,
+},{
+    "Id":581,
     "Authors":"Cecchi, Dario",
     "Title":"Museo d\u2019amore",
     "Cities":"Milano",
@@ -5820,8 +5819,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":582.0,
+},{
+    "Id":582,
     "Authors":"Cecchi, Emilio",
     "Title":"America amara",
     "Cities":"Firenze",
@@ -5830,8 +5829,8 @@ const jsonData = [
     "Fund":"BTB Segn. 291",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":583.0,
+},{
+    "Id":583,
     "Authors":"Cecchi, Emilio",
     "Title":"Appunti per un periplo dell\u2019Africa",
     "Cities":"Milano-Napoli",
@@ -5840,8 +5839,8 @@ const jsonData = [
     "Fund":"BTB Segn. 292",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":584.0,
+},{
+    "Id":584,
     "Authors":"Cecchi, Emilio",
     "Title":"Di giorno in giorno: note di letteraturaitaliana contemporanea (1945- 1954)",
     "Cities":"Milano",
@@ -5850,8 +5849,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore in data 10.1959.",
     "Category":"IL"
-    },{
-    "Id":585.0,
+},{
+    "Id":585,
     "Authors":"Cecchi, Emilio",
     "Title":"Et in Arcadia ego",
     "Cities":"Milano",
@@ -5860,8 +5859,8 @@ const jsonData = [
     "Fund":"BTB Segn. 293",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":586.0,
+},{
+    "Id":586,
     "Authors":"Cecchi, Emilio",
     "Title":"Messico",
     "Cities":"Milano",
@@ -5870,8 +5869,8 @@ const jsonData = [
     "Fund":"BTB Segn. 294",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":587.0,
+},{
+    "Id":587,
     "Authors":"Cecchi, Emilio",
     "Title":"L\u2019osteria del cattivo tempo",
     "Cities":"Milano",
@@ -5880,8 +5879,8 @@ const jsonData = [
     "Fund":"BTB Segn. 295",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":588.0,
+},{
+    "Id":588,
     "Authors":"Cecchi, Emilio",
     "Title":"L\u2019osteria del cattivo tempo",
     "Cities":"Milano",
@@ -5890,8 +5889,8 @@ const jsonData = [
     "Fund":"BTB Segn. 296",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":589.0,
+},{
+    "Id":589,
     "Authors":"Cecchi, Emilio",
     "Title":"Pesci rossi",
     "Cities":"Firenze",
@@ -5900,8 +5899,8 @@ const jsonData = [
     "Fund":"BTB Segn. 297",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":590.0,
+},{
+    "Id":590,
     "Authors":"Cecchi, Emilio",
     "Title":"Ritratti e profili",
     "Cities":"Milano",
@@ -5910,8 +5909,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore in data 10.1957.",
     "Category":"IL"
-    },{
-    "Id":591.0,
+},{
+    "Id":591,
     "Authors":"Cecchi Pieraccini, Leonetta",
     "Title":"Agendina di guerra 1939-1944",
     "Cities":"Milano",
@@ -5920,8 +5919,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autrice",
     "Category":"IL"
-    },{
-    "Id":592.0,
+},{
+    "Id":592,
     "Authors":"Cecchi Pieraccini, Leonetta",
     "Title":"Vecchie agendine 1911-1929",
     "Cities":"Firenze",
@@ -5930,8 +5929,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autrice",
     "Category":"IL"
-    },{
-    "Id":593.0,
+},{
+    "Id":593,
     "Authors":"Cecchini, Giovanni",
     "Title":"La Galleria Nazionale dell\u2019Umbria in Perugia",
     "Cities":"Roma",
@@ -5939,9 +5938,9 @@ const jsonData = [
     "Years":1932,
     "Fund":"BTB Segn. 2354",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":594.0,
+    "Category":"HA"
+},{
+    "Id":594,
     "Authors":"Cecco d\u2019Ascoli (Francesco Stabili)",
     "Title":"L\u2019Acerba",
     "Cities":"Lanciano",
@@ -5950,8 +5949,8 @@ const jsonData = [
     "Fund":"BTB Segn. 298",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":595.0,
+},{
+    "Id":595,
     "Authors":"\u010cechov, Anton Pavlovi\u010d",
     "Title":"Caccia tragica",
     "Cities":"Milano",
@@ -5960,8 +5959,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1356",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":596.0,
+},{
+    "Id":596,
     "Authors":"\u010cechov, Anton Pavlovi\u010d",
     "Title":"La camera n. 6",
     "Cities":"Torino",
@@ -5970,8 +5969,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1357",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":597.0,
+},{
+    "Id":597,
     "Authors":"\u010cechov, Anton Pavlovi\u010d",
     "Title":"La casa sul mezzanino",
     "Cities":"Torino",
@@ -5980,8 +5979,8 @@ const jsonData = [
     "Fund":"BTB",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":598.0,
+},{
+    "Id":598,
     "Authors":"\u010cechov, Anton Pavlovi\u010d",
     "Title":" Cechov",
     "Cities":"Milano",
@@ -5990,8 +5989,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1355",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":599.0,
+},{
+    "Id":599,
     "Authors":"\u010cechov, Anton Pavlovi\u010d",
     "Title":"Un delitto. Racconti",
     "Cities":"Torino",
@@ -6000,8 +5999,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":600.0,
+},{
+    "Id":600,
     "Authors":"\u010cechov, Anton Pavlovi\u010d",
     "Title":"Il fiammifero svedese",
     "Cities":"Milano",
@@ -6010,8 +6009,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1361 bis",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":601.0,
+},{
+    "Id":601,
     "Authors":"\u010cechov, Anton Pavlovi\u010d",
     "Title":"Romanzi brevi",
     "Cities":"Milano-Roma",
@@ -6020,8 +6019,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1361 ter",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":602.0,
+},{
+    "Id":602,
     "Authors":"\u010cechov, Anton Pavlovi\u010d",
     "Title":"La steppa e altri racconti",
     "Cities":"Milano",
@@ -6030,8 +6029,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":603.0,
+},{
+    "Id":603,
     "Authors":"\u010cechov, Anton Pavlovi\u010d",
     "Title":"Teatro",
     "Cities":"Firenze",
@@ -6040,8 +6039,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1356 bis",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":604.0,
+},{
+    "Id":604,
     "Authors":"\u010cechov, Anton Pavlovi\u010d",
     "Title":"Tre anni",
     "Cities":"Milano-Roma",
@@ -6050,8 +6049,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1356 ter",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":605.0,
+},{
+    "Id":605,
     "Authors":"\u010cechov, Anton Pavlovi\u010d",
     "Title":"Le tre sorelle",
     "Cities":"Firenze",
@@ -6060,8 +6059,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1355 ter",
     "Segni":"Intonso.",
     "Category":"RL"
-    },{
-    "Id":606.0,
+},{
+    "Id":606,
     "Authors":"\u010cechov, Anton Pavlovi\u010d",
     "Title":"Tre sorelle",
     "Cities":"Torino",
@@ -6070,18 +6069,18 @@ const jsonData = [
     "Fund":"BTB Segn. 1355 bis",
     "Segni":"Intonso.",
     "Category":"RL"
-    },{
-    "Id":607.0,
-    "Authors":null,
+},{
+    "Id":607,
+    "Authors":"Not found",
     "Title":"Celebrazioni di Torquato Tasso, Ferrara, 26 giugno-4 luglio, 11 settembre-10 ottobre 1954",
     "Cities":"Ferrara",
     "Publisher":"Tip. Padana",
     "Years":1954,
     "Fund":"BTB Segn. 775",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":608.0,
+    "Category":"V"
+},{
+    "Id":608,
     "Authors":"Celli, Teodoro",
     "Title":"Manuale pratico dell\u2019impiegatodi banca. Le operazioni commerciali, le operazioni accessorie,l\u2019organizzazione",
     "Cities":"Milano",
@@ -6090,8 +6089,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2033",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":609.0,
+},{
+    "Id":609,
     "Authors":"Cellini, Benvenuto",
     "Title":"La vita",
     "Cities":"Milano",
@@ -6100,8 +6099,8 @@ const jsonData = [
     "Fund":"BTB Segn. 301",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":610.0,
+},{
+    "Id":610,
     "Authors":"Cellini, Benvenuto",
     "Title":"La vita",
     "Cities":"Milano",
@@ -6110,8 +6109,8 @@ const jsonData = [
     "Fund":"BTB Segn. 299",
     "Segni":"Nota di possesso autografata in data12.10.1941.",
     "Category":"IL"
-    },{
-    "Id":611.0,
+},{
+    "Id":611,
     "Authors":"Cellini, Benvenuto",
     "Title":"La vita",
     "Cities":"Firenze",
@@ -6120,8 +6119,8 @@ const jsonData = [
     "Fund":"BTB Segn. 300",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":612.0,
+},{
+    "Id":612,
     "Authors":"Cellini, Benvenuto",
     "Title":"La vita: prefazione",
     "Cities":"Milano",
@@ -6130,8 +6129,8 @@ const jsonData = [
     "Fund":"BTB Segn. 301",
     "Segni":"Parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":613.0,
+},{
+    "Id":613,
     "Authors":"Celotti, Temistocle",
     "Title":"Storia di Spagna",
     "Cities":"Torino",
@@ -6139,9 +6138,9 @@ const jsonData = [
     "Years":1940,
     "Fund":"BTB Segn. 1586",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":614.0,
+    "Category":"H"
+},{
+    "Id":614,
     "Authors":"Cendras, Blaise",
     "Title":"La mano mozza",
     "Cities":"Milano",
@@ -6150,8 +6149,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":615.0,
+},{
+    "Id":615,
     "Authors":"Cernezzi, Luigi",
     "Title":"I cinquant\u2019anni del Circolo Filologico Milanese 1872-1922",
     "Cities":"Milano",
@@ -6160,8 +6159,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 91",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":616.0,
+},{
+    "Id":616,
     "Authors":"Ceronetti, Guido",
     "Title":"Aquilegia",
     "Cities":"Azzate",
@@ -6170,8 +6169,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Biglietto e due fogli dattiloscritti inseriti.",
     "Category":"IL"
-    },{
-    "Id":617.0,
+},{
+    "Id":617,
     "Authors":"Cervantes Saavedra, Miguel de",
     "Title":"Don Chisciotte",
     "Cities":"Sesto San Giovanni",
@@ -6180,8 +6179,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"SL"
-    },{
-    "Id":618.0,
+},{
+    "Id":618,
     "Authors":"Cervantes Saavedra, Miguel de",
     "Title":"Don Chisciotte",
     "Cities":"Sesto San Giovanni",
@@ -6190,8 +6189,8 @@ const jsonData = [
     "Fund":"BTB Segn. 910-911",
     "Segni":"Parzialmente intonso.",
     "Category":"SL"
-    },{
-    "Id":619.0,
+},{
+    "Id":619,
     "Authors":"Cervantes Saavedra, Miguel de",
     "Title":"Don Chisciotte",
     "Cities":"Milano",
@@ -6200,8 +6199,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Appunti su foglietto nel vol. 2",
     "Category":"SL"
-    },{
-    "Id":620.0,
+},{
+    "Id":620,
     "Authors":"Cervantes Saavedra, Miguel de",
     "Title":"El ingenioso hidalgo Don Quijote de la Mancha",
     "Cities":"Madrid",
@@ -6210,8 +6209,8 @@ const jsonData = [
     "Fund":"BTB Segn. 909",
     "Segni":null,
     "Category":"SL"
-    },{
-    "Id":621.0,
+},{
+    "Id":621,
     "Authors":"Cervantes Saavedra, Miguel de",
     "Title":" El ingenioso hidalgo Don Quijote de la Mancha",
     "Cities":"Madrid",
@@ -6220,8 +6219,8 @@ const jsonData = [
     "Fund":"BTB Segn. 912",
     "Segni":null,
     "Category":"SL"
-    },{
-    "Id":622.0,
+},{
+    "Id":622,
     "Authors":"Cervantes Saavedra, Miguel de",
     "Title":"Novelas ejemplares",
     "Cities":"Madrid",
@@ -6230,8 +6229,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"SL"
-    },{
-    "Id":623.0,
+},{
+    "Id":623,
     "Authors":"Cervantes Saavedra, Miguel de",
     "Title":"Novelas ejemplares",
     "Cities":"Madrid",
@@ -6240,8 +6239,8 @@ const jsonData = [
     "Fund":"BTB Segn. 913",
     "Segni":"Parzialmente intonso.",
     "Category":"SL"
-    },{
-    "Id":624.0,
+},{
+    "Id":624,
     "Authors":"Cesare, Caio Giulio",
     "Title":"I commentarii: De bello gallico",
     "Cities":"Torino",
@@ -6250,8 +6249,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"CL "
-    },{
-    "Id":625.0,
+},{
+    "Id":625,
     "Authors":"Cesare, Caio Giulio",
     "Title":"I commentarii: De bello civili",
     "Cities":"Torino",
@@ -6260,8 +6259,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"CL "
-    },{
-    "Id":626.0,
+},{
+    "Id":626,
     "Authors":"Cesare, Caio Giulio",
     "Title":"Le Memorie sulla guerra di Gallia: Libri II e III",
     "Cities":"Milano-Roma-Napoli",
@@ -6270,8 +6269,8 @@ const jsonData = [
     "Fund":"BTB Segn. 29",
     "Segni":"Postille.",
     "Category":"CL "
-    },{
-    "Id":627.0,
+},{
+    "Id":627,
     "Authors":"Chamberlin, William Henry",
     "Title":"Storia della rivoluzione russa",
     "Cities":"Torino",
@@ -6279,9 +6278,9 @@ const jsonData = [
     "Years":1941,
     "Fund":"BTB Segn. 1730-1731",
     "Segni":"Volume 2 intonso.",
-    "Category":"S"
-    },{
-    "Id":628.0,
+    "Category":"H"
+},{
+    "Id":628,
     "Authors":"Chamfort, Nicolas de",
     "Title":"Caratteri e aneddoti: Dialoghetti filosofici. Xilografie di Parigi",
     "Cities":"Roma  ",
@@ -6290,9 +6289,9 @@ const jsonData = [
     "Fund":"BTB Segn. 972",
     "Segni":"Parzialmente intonso.",
     "Category":"F "
-    },{
-    "Id":629.0,
-    "Authors":null,
+},{
+    "Id":629,
+    "Authors":"Not found",
     "Title":"La Chanson de Roland",
     "Cities":"Tours",
     "Publisher":"Maison Alfred Mame et fils",
@@ -6300,9 +6299,9 @@ const jsonData = [
     "Fund":"BTB Segn. 973",
     "Segni":"Sottolineature e postille.",
     "Category":"FL"
-    },{
-    "Id":630.0,
-    "Authors":null,
+},{
+    "Id":630,
+    "Authors":"Not found",
     "Title":"Charcot",
     "Cities":"Firenze",
     "Publisher":"Bemporad",
@@ -6310,8 +6309,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1510",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":631.0,
+},{
+    "Id":631,
     "Authors":"Charteris, Leslie",
     "Title":"Vendetta per il santo",
     "Cities":"Milano",
@@ -6319,9 +6318,9 @@ const jsonData = [
     "Years":1968,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":632.0,
+    "Category":"AL"
+},{
+    "Id":632,
     "Authors":"Chartrou, Jos\u00e8phe",
     "Title":"La r\u00e9forme et les guerres de religion",
     "Cities":"Paris",
@@ -6329,9 +6328,9 @@ const jsonData = [
     "Years":1948,
     "Fund":"BTB Segn. 1732",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":633.0,
+    "Category":"H"
+},{
+    "Id":633,
     "Authors":"Chateaubriand, Fran\u00e7ois Ren\u00e9 de",
     "Title":"Atala",
     "Cities":"Milano",
@@ -6340,8 +6339,8 @@ const jsonData = [
     "Fund":"BTB Segn. 975 e BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":634.0,
+},{
+    "Id":634,
     "Authors":"Chateaubriand, Fran\u00e7ois Ren\u00e9 de",
     "Title":"Memoires d\u2019outretombe",
     "Cities":"Paris",
@@ -6350,8 +6349,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":635.0,
+},{
+    "Id":635,
     "Authors":"Chateaubriand, Fran\u00e7ois Ren\u00e9 de",
     "Title":"Vita di Ranc\u00e9",
     "Cities":"Milano",
@@ -6360,8 +6359,8 @@ const jsonData = [
     "Fund":"BTB Segn. 976",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":636.0,
+},{
+    "Id":636,
     "Authors":"Checchi, Eugenio",
     "Title":"L\u2019Italia dal 1861 ad oggi \u2013 narrazione storica per giovani",
     "Cities":"Milano",
@@ -6369,9 +6368,9 @@ const jsonData = [
     "Years":1888,
     "Fund":"BAL",
     "Segni":"Nota di possesso di Adele Gadda Lehr.",
-    "Category":"S"
-    },{
-    "Id":637.0,
+    "Category":"H"
+},{
+    "Id":637,
     "Authors":"Chesterton, Gilbert Keith",
     "Title":"George Bernard Shaw",
     "Cities":"Bari",
@@ -6379,9 +6378,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BTB Segn. 1342",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":638.0,
+    "Category":"H"
+},{
+    "Id":638,
     "Authors":"Chesterton, Gilbert Keith",
     "Title":"Piccola storia d\u2019Inghilterra",
     "Cities":"Roma",
@@ -6389,9 +6388,9 @@ const jsonData = [
     "Years":1945,
     "Fund":"BTB Segn. 1713",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":639.0,
+    "Category":"H"
+},{
+    "Id":639,
     "Authors":"Chevalley Abel \u2013 Chevalley Marguerite",
     "Title":"The Coincise Oxford French dictionary",
     "Cities":"Oxford",
@@ -6400,8 +6399,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":640.0,
+},{
+    "Id":640,
     "Authors":"Chiappini, Filippo",
     "Title":"Vocabolario romanesco",
     "Cities":"Roma",
@@ -6410,8 +6409,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":641.0,
+},{
+    "Id":641,
     "Authors":"Chiara, Piero",
     "Title":"Dolore del tempo",
     "Cities":"Padova",
@@ -6420,8 +6419,8 @@ const jsonData = [
     "Fund":"BTB Segn. 302",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":642.0,
+},{
+    "Id":642,
     "Authors":"Chiara, Piero",
     "Title":"Il pretore di Cuvio",
     "Cities":"Milano",
@@ -6430,8 +6429,8 @@ const jsonData = [
     "Fund":"BTB Segn. 303",
     "Segni":"Dedica dell\u2019autore in data 4.5.1973.",
     "Category":"IL"
-    },{
-    "Id":643.0,
+},{
+    "Id":643,
     "Authors":"Chiarini, Giuseppe",
     "Title":"Memorie della vita di Giosu\u00e8 Carducci (1835-1907) raccolte da un amico",
     "Cities":"Firenze",
@@ -6440,8 +6439,8 @@ const jsonData = [
     "Fund":"BTB Segn. 776",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":644.0,
+},{
+    "Id":644,
     "Authors":"Chiarini, Giuseppe",
     "Title":"La vita di Ugo Foscolo. Premessi alcuni cenni su Giuseppe Chiarini da G. Mazzoni",
     "Cities":"Firenze",
@@ -6450,8 +6449,8 @@ const jsonData = [
     "Fund":"BTB Segn. 777",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":645.0,
+},{
+    "Id":645,
     "Authors":"Chierici, Gino",
     "Title":"Guida della Certosa di Pavia",
     "Cities":"Roma",
@@ -6459,9 +6458,9 @@ const jsonData = [
     "Years":1950,
     "Fund":"BTB Segn. 2355",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":646.0,
+    "Category":"HA"
+},{
+    "Id":646,
     "Authors":"Chiesura, Giorgio",
     "Title":"La zona immobile",
     "Cities":"Milano",
@@ -6470,8 +6469,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore in data 5.1969.",
     "Category":"IL"
-    },{
-    "Id":647.0,
+},{
+    "Id":647,
     "Authors":"Chilanti, Felice",
     "Title":"La paura entusiasmante",
     "Cities":"Milano",
@@ -6480,8 +6479,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore in data 5.1971.",
     "Category":"IL"
-    },{
-    "Id":648.0,
+},{
+    "Id":648,
     "Authors":"Chiocchio, Anton Angelo",
     "Title":"Canto secco per gli undici mesidell\u2019anno",
     "Cities":"Roma",
@@ -6490,8 +6489,8 @@ const jsonData = [
     "Fund":"BTB Segn. 304",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":649.0,
+},{
+    "Id":649,
     "Authors":"Chiocchio, Anton Angelo",
     "Title":"Poesia post-modernista in Brasile",
     "Cities":"Roma",
@@ -6500,8 +6499,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":650.0,
+},{
+    "Id":650,
     "Authors":"Chopin, Jean-Marie",
     "Title":"Russia",
     "Cities":"Venezia",
@@ -6510,8 +6509,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2356-2357",
     "Segni":"Nota di possesso autografa di Adele Gadda Lehr.",
     "Category":"G"
-    },{
-    "Id":651.0,
+},{
+    "Id":651,
     "Authors":"Cialente, Fausta",
     "Title":"Un inverno freddissimo",
     "Cities":"Milano",
@@ -6519,9 +6518,9 @@ const jsonData = [
     "Years":1966,
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autrice in data 4.1966.",
-    "Category":"L"
-    },{
-    "Id":652.0,
+    "Category":"IL"
+},{
+    "Id":652,
     "Authors":"Cialfi, Mario",
     "Title":"Tempo di Grecia",
     "Cities":"Venezia",
@@ -6529,9 +6528,9 @@ const jsonData = [
     "Years":1955,
     "Fund":"BTB Segn. 1452",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":653.0,
+    "Category":"IL"
+},{
+    "Id":653,
     "Authors":"Ciarrocchi, Arnoldo \u2013 Zuaglia, Carlo \u2013 Stradore, Giovanni",
     "Title":"Catalogo della mostra. Galleria Passeggiata di Ripetta. 16-31\ngennaio",
     "Cities":null,
@@ -6539,9 +6538,9 @@ const jsonData = [
     "Years":null,
     "Fund":"BTB Segn. Op. 94",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":654.0,
+    "Category":"HA"
+},{
+    "Id":654,
     "Authors":"Ciccarelli, Salvatore",
     "Title":"Trattato di prosodia e metrologia latina",
     "Cities":"Napoli",
@@ -6549,9 +6548,9 @@ const jsonData = [
     "Years":1878,
     "Fund":null,
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":655.0,
+    "Category":"GR"
+},{
+    "Id":655,
     "Authors":"Cicerone, Marco Tullio",
     "Title":"Correspondance",
     "Cities":"Paris",
@@ -6560,8 +6559,8 @@ const jsonData = [
     "Fund":"BTB Segn. 90-92",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":656.0,
+},{
+    "Id":656,
     "Authors":"Cicerone, Marco Tullio",
     "Title":"De Officiis ad Marcum filium Liber Primus",
     "Cities":"Verona",
@@ -6570,8 +6569,8 @@ const jsonData = [
     "Fund":"BTB Segn. 37",
     "Segni":"Postille.",
     "Category":"CL"
-    },{
-    "Id":657.0,
+},{
+    "Id":657,
     "Authors":"Cicerone, Marco Tullio",
     "Title":"De officiis",
     "Cities":"Napoli",
@@ -6580,8 +6579,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":658.0,
+},{
+    "Id":658,
     "Authors":"Cicerone, Marco Tullio",
     "Title":"De Oratore Libri Tres: Liber Secundus",
     "Cities":"Torino-Roma-Milano-Firenze-Napoli",
@@ -6590,8 +6589,8 @@ const jsonData = [
     "Fund":"BTB Segn. 39",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":659.0,
+},{
+    "Id":659,
     "Authors":"Cicerone, Marco Tullio",
     "Title":"Discorso in difesa di Lucio Murena reo di broglio",
     "Cities":"Torino",
@@ -6600,8 +6599,8 @@ const jsonData = [
     "Fund":"BTB Segn. 38",
     "Segni":"Nota di possesso autografa.",
     "Category":"CL"
-    },{
-    "Id":660.0,
+},{
+    "Id":660,
     "Authors":"Cicerone, Marco Tullio",
     "Title":"Discours: Tome 2\u00e8me: Pour M. Tullius: Discours contre Q. Caecilius, dit \u00abLa divination\u00bb: Premi\u00e8re action contre C. Verr\u00e8s, Livre premier: La Pr\u00e9ture urbaine",
     "Cities":"Paris",
@@ -6610,8 +6609,8 @@ const jsonData = [
     "Fund":"BTB Segn. 93",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":661.0,
+},{
+    "Id":661,
     "Authors":"Cicerone, Marco Tullio",
     "Title":"Discours: Tome 3\u00e8me: Seconde action contre Verr\u00e8s, Livre second: La Pr\u00e9ture de Sicile",
     "Cities":"Paris",
@@ -6620,8 +6619,8 @@ const jsonData = [
     "Fund":"BTB Segn. 94",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":662.0,
+},{
+    "Id":662,
     "Authors":"Cicerone, Marco Tullio",
     "Title":"Discours: Tome 4\u00e8me: Seconde actioncontre Verr\u00e8s, Livre troisi\u00e8me: Le froment",
     "Cities":"Paris",
@@ -6630,8 +6629,8 @@ const jsonData = [
     "Fund":"BTB Segn. 95",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":663.0,
+},{
+    "Id":663,
     "Authors":"Cicerone, Marco Tullio",
     "Title":" Discours: Tome 5\u00e8me: Seconde action contre Verr\u00e8s, Livre IVe: Les oeuvres d\u2019art",
     "Cities":"Paris",
@@ -6640,8 +6639,8 @@ const jsonData = [
     "Fund":"BTB Segn. 96",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":664.0,
+},{
+    "Id":664,
     "Authors":"Cicerone, Marco Tullio",
     "Title":" Discours: Tome 6\u00e8me: Seconde action contre Verr\u00e8s, Livre Ve: Les supplices",
     "Cities":"Paris",
@@ -6650,8 +6649,8 @@ const jsonData = [
     "Fund":"BTB Segn. 97",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":665.0,
+},{
+    "Id":665,
     "Authors":"Cicerone, Marco Tullio",
     "Title":"Discours: Tome 7\u00e8me: \u00abPour M. Fonteius\u00bb: \u00abPour A. C\u00e9cina\u00bb: Sur les pouvoirs de Pomp\u00e9e",
     "Cities":"Paris",
@@ -6660,8 +6659,8 @@ const jsonData = [
     "Fund":"BTB Segn. 98",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":666.0,
+},{
+    "Id":666,
     "Authors":"Cicerone, Marco Tullio",
     "Title":"Discours: Tome 10\u00e8me: Catilinaires",
     "Cities":"Paris",
@@ -6670,8 +6669,8 @@ const jsonData = [
     "Fund":"BTB Segn. 99",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":667.0,
+},{
+    "Id":667,
     "Authors":"Cicerone, Marco Tullio",
     "Title":"Due accuse di omicidio (I processi di Celio e di Milone)",
     "Cities":"Milano",
@@ -6680,8 +6679,8 @@ const jsonData = [
     "Fund":"BTB Segn. 34",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":668.0,
+},{
+    "Id":668,
     "Authors":"Cicerone, Marco Tullio",
     "Title":"Il trattato intorno ai doveri: Libro primo",
     "Cities":"Milano-Roma-Napoli",
@@ -6690,8 +6689,8 @@ const jsonData = [
     "Fund":"BTB Segn. 40",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":669.0,
+},{
+    "Id":669,
     "Authors":"Cicerone, Marco Tullio",
     "Title":"I tre libri De Officiis",
     "Cities":"Torino",
@@ -6700,8 +6699,8 @@ const jsonData = [
     "Fund":"BTB Segn. 35",
     "Segni":"Postille.",
     "Category":"CL"
-    },{
-    "Id":670.0,
+},{
+    "Id":670,
     "Authors":"Cicerone, Marco Tullio",
     "Title":"Le tre orazioni dette dinanzi a Cesare per M. Marcello, Q. Ligario e il re Dejotaro",
     "Cities":"Milano",
@@ -6710,8 +6709,8 @@ const jsonData = [
     "Fund":"BTB Segn. 41",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":671.0,
+},{
+    "Id":671,
     "Authors":"Cicerone, Marco Tullio",
     "Title":"Gli ufficj: Libri tre. Bandiera",
     "Cities":"Napoli",
@@ -6720,8 +6719,8 @@ const jsonData = [
     "Fund":"BTB Segn. 36",
     "Segni":"Parzialmente intonso. Postille.",
     "Category":"CL"
-    },{
-    "Id":672.0,
+},{
+    "Id":672,
     "Authors":"Cinquini, Adolfo",
     "Title":"Andocidis de codicibus qui in Bibliotheca Ambrosiana existant",
     "Cities":"s.l.",
@@ -6729,9 +6728,9 @@ const jsonData = [
     "Years":1886,
     "Fund":"BTB Segn. Op. 79",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":673.0,
+    "Category":"V"
+},{
+    "Id":673,
     "Authors":"Cioffi, Ren\u00e9 M.",
     "Title":"Ti amo, eppure vivo",
     "Cities":"Milano",
@@ -6740,8 +6739,8 @@ const jsonData = [
     "Fund":"BTB Segn. 305",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":674.0,
+},{
+    "Id":674,
     "Authors":"Cirese, Alberto Mario",
     "Title":"Saggi della cultura meridionale. I. Gli studi di tradizioni popolari nel Molise. Profilo storico e saggio di bibliografia",
     "Cities":"Roma",
@@ -6750,8 +6749,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2157",
     "Segni":null,
     "Category":"L"
-    },{
-    "Id":675.0,
+},{
+    "Id":675,
     "Authors":"Citati, Piero",
     "Title":"Goethe",
     "Cities":"Milano",
@@ -6759,9 +6758,9 @@ const jsonData = [
     "Years":1970,
     "Fund":"BTB Segn. 1223",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":676.0,
+    "Category":"IL"
+},{
+    "Id":676,
     "Authors":"Citati, Piero",
     "Title":"La poesia e il caso",
     "Cities":"Firenze",
@@ -6769,9 +6768,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":677.0,
+    "Category":"IL"
+},{
+    "Id":677,
     "Authors":"Citati, Piero",
     "Title":"Il t\u00e8 del cappellaio matto",
     "Cities":"Milano",
@@ -6779,9 +6778,9 @@ const jsonData = [
     "Years":1972,
     "Fund":"BTB Segn. 778",
     "Segni":"Dedica dell\u2019autore",
-    "Category":"L"
-    },{
-    "Id":678.0,
+    "Category":"IL"
+},{
+    "Id":678,
     "Authors":"Clark, Alan",
     "Title":"Operazione Barbarossa. Il conflittorusso-tedesco 1941-45",
     "Cities":"Milano",
@@ -6789,9 +6788,9 @@ const jsonData = [
     "Years":1966,
     "Fund":"BTB Segn. 1733",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":679.0,
+    "Category":"H"
+},{
+    "Id":679,
     "Authors":"Clerici, Fabrizio",
     "Title":"Allegorie dei sensi di Jan Brueghel",
     "Cities":"Firenze",
@@ -6799,19 +6798,19 @@ const jsonData = [
     "Years":1946,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":680.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":680,
+    "Authors":"Not found",
     "Title":"Club delle fattorie",
     "Cities":"s.l.",
     "Publisher":"s.e.",
     "Years":"s.d.",
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":681.0,
+    "Category":"V"
+},{
+    "Id":681,
     "Authors":"Cobban, Alfred",
     "Title":"Storia della Francia da 1715 al 1965",
     "Cities":"Milano",
@@ -6819,9 +6818,9 @@ const jsonData = [
     "Years":1966,
     "Fund":"BTB Segn. 1604",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":682.0,
+    "Category":"H"
+},{
+    "Id":682,
     "Authors":"Coccia, Alfio",
     "Title":"Profilo di ignoto",
     "Cities":null,
@@ -6829,10 +6828,10 @@ const jsonData = [
     "Years":1950,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":683.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":683,
+    "Authors":"Not found",
     "Title":"La cokeria di San Giuseppe di Cairo nell\u2019anno della sua inaugurazione 1936",
     "Cities":"Torino",
     "Publisher":"Cokitalia",
@@ -6840,8 +6839,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2109",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":684.0,
+},{
+    "Id":684,
     "Authors":"Coleridge, Samuel Taylor",
     "Title":"La ballata del vecchio marinaio",
     "Cities":"Torino",
@@ -6849,9 +6848,9 @@ const jsonData = [
     "Years":1964,
     "Fund":"BTB Segn. 1244",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":685.0,
+    "Category":"AL"
+},{
+    "Id":685,
     "Authors":"Colerus, Egmont",
     "Title":"Piccola storia della matematica. Da Pitagora a Hilbert",
     "Cities":"Torino",
@@ -6860,8 +6859,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2115",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":686.0,
+},{
+    "Id":686,
     "Authors":"Collins, William Wilkie",
     "Title":"The Moonstone",
     "Cities":"London",
@@ -6869,9 +6868,9 @@ const jsonData = [
     "Years":1953,
     "Fund":"BTB Segn. 1245",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":687.0,
+    "Category":"AL"
+},{
+    "Id":687,
     "Authors":"Collodi, Carlo",
     "Title":"Le avventure di Pinocchio: storia di un burattino",
     "Cities":"Firenze",
@@ -6880,8 +6879,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":688.0,
+},{
+    "Id":688,
     "Authors":"Colombi Guidotti, Mario",
     "Title":"Impazienza",
     "Cities":"Parma",
@@ -6890,8 +6889,8 @@ const jsonData = [
     "Fund":"BTB Segn. 306",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":689.0,
+},{
+    "Id":689,
     "Authors":"Colombo, Cristoforo",
     "Title":"Giornale di bordo di Cristoforo Colombo 1492-93",
     "Cities":"Milano",
@@ -6899,9 +6898,9 @@ const jsonData = [
     "Years":1939,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":690.0,
+    "Category":"G"
+},{
+    "Id":690,
     "Authors":"Colombo, Giuseppe",
     "Title":"Manuale dell\u2019ingegnere civile e industriale",
     "Cities":"Milano",
@@ -6910,8 +6909,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2057",
     "Segni":"Nota di possesso autografa in data 07.1920 Milano. Postille.",
     "Category":"T"
-    },{
-    "Id":691.0,
+},{
+    "Id":691,
     "Authors":"Colombo, Giuseppe",
     "Title":"Le scienze fisiche e le loro applicazioni nel cinquantennio 1865- 1915",
     "Cities":"Milano",
@@ -6920,18 +6919,18 @@ const jsonData = [
     "Fund":"BTB Segn. 2117",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":692.0,
-    "Authors":null,
+},{
+    "Id":692,
+    "Authors":"Not found",
     "Title":"La colonizzazione del latifondo siciliano: documenti fotografici leggi e decreti",
     "Cities":"Roma",
     "Publisher":"Ministero dell\u2019Agricoltura e delle Foreste",
     "Years":1940,
     "Fund":"BTB Segn. 2379",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":693.0,
+    "Category":"H"
+},{
+    "Id":693,
     "Authors":"Comas, Juan",
     "Title":"Antologia de el Escorial",
     "Cities":"s.l.",
@@ -6939,9 +6938,9 @@ const jsonData = [
     "Years":1946,
     "Fund":"BTB Segn. 2352",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":694.0,
+    "Category":"SL"
+},{
+    "Id":694,
     "Authors":"Comisso, Giovanni",
     "Title":"Al vento dell\u2019Adriatico",
     "Cities":"Torino",
@@ -6949,9 +6948,9 @@ const jsonData = [
     "Years":1928,
     "Fund":"BTB Segn. 308",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":695.0,
+    "Category":"IL"
+},{
+    "Id":695,
     "Authors":"Comisso, Giovanni",
     "Title":"Capriccio e illusione",
     "Cities":"Milano",
@@ -6959,9 +6958,9 @@ const jsonData = [
     "Years":1947,
     "Fund":null,
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":696.0,
+    "Category":"IL"
+},{
+    "Id":696,
     "Authors":"Comisso, Giovanni",
     "Title":"L\u2019italiano errante per l\u2019Italia",
     "Cities":"Firenze",
@@ -6969,20 +6968,20 @@ const jsonData = [
     "Years":1937,
     "Fund":"BTB Segn. 307",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":697.0,
-    "Authors":null,
+    "Category":"IL"
+},{
+    "Id":697,
+    "Authors":"Not found",
     "Title":"Commedia dell\u2019arte. Canovacci della gloriosa Commedia dell\u2019Arte italiana",
     "Cities":"Torino",
     "Publisher":"SET-Il Dramma",
     "Years":1943,
     "Fund":"BTB Segn. 766",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":698.0,
-    "Authors":null,
+    "Category":"TH"
+},{
+    "Id":698,
+    "Authors":"Not found",
     "Title":"Commemorazione di Gaetano Negri tenuta dai licenziandi del R. Liceo Beccaria il 30 maggio 1912",
     "Cities":"Milano",
     "Publisher":"Tipolitografia di Rebeschini",
@@ -6990,8 +6989,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":699.0,
+},{
+    "Id":699,
     "Authors":"Compagni, Dino",
     "Title":"La Cronica e passi scelti dalla \u00abCronaca\u00bb di Giovanni Villani",
     "Cities":"Milano",
@@ -6999,30 +6998,30 @@ const jsonData = [
     "Years":1941,
     "Fund":"BTB Segn. 309",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":700.0,
-    "Authors":null,
+    "Category":"H"
+},{
+    "Id":700,
+    "Authors":"Not found",
     "Title":"Compendiaria graecae grammatices institutio",
     "Cities":"Torino",
     "Publisher":"Marietti",
     "Years":1843,
     "Fund":"BTB Segn. 2426",
     "Segni":"Parzialmente intonso.",
-    "Category":"L"
-    },{
-    "Id":701.0,
-    "Authors":null,
+    "Category":"GR"
+},{
+    "Id":701,
+    "Authors":"Not found",
     "Title":"Compendio della storia della casa d\u2019Austria",
     "Cities":"Milano",
     "Publisher":"Gnocchi",
     "Years":1855,
     "Fund":"BTB Segn. 1734",
     "Segni":"Pieghe.",
-    "Category":"S"
-    },{
-    "Id":702.0,
-    "Authors":null,
+    "Category":"H"
+},{
+    "Id":702,
+    "Authors":"Not found",
     "Title":"A Complete Dictionary of the English Language, both with regard to Sound and Meaning: One main Object of which is, to establish a plain and permanent standard of pronunciation. To which is prefixed a Prosodial Grammar. Vol. II: J-Z",
     "Cities":"London",
     "Publisher":"Dilly, Law and son, Richardson, Scatcherd and Longman",
@@ -7030,8 +7029,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2507",
     "Segni":"Presente solo il II volume.",
     "Category":"D"
-    },{
-    "Id":703.0,
+},{
+    "Id":703,
     "Authors":"Concina, Umberto \u2013 Neppi Modona, Angelo",
     "Title":"Nozioni di trigonometria sferica ad uso dei Licei Scientifici",
     "Cities":"Torino",
@@ -7040,8 +7039,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2116",
     "Segni":"Nota di possesso autografa in data 2.06.1925 Milano.",
     "Category":"T"
-    },{
-    "Id":704.0,
+},{
+    "Id":704,
     "Authors":"Concina, Umberto \u2013 Neppi Modona, Angelo",
     "Title":"Trigonometria piana",
     "Cities":"Torino",
@@ -7050,8 +7049,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2117",
     "Segni":"Nota di possesso autografa in data1925 Milano.",
     "Category":"T"
-    },{
-    "Id":705.0,
+},{
+    "Id":705,
     "Authors":"Confucio",
     "Title":"Studio integrale e L\u2019asse che non vacilla",
     "Cities":"Milano",
@@ -7059,10 +7058,10 @@ const jsonData = [
     "Years":1955,
     "Fund":"BTB Segn. 1403",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":706.0,
-    "Authors":null,
+    "Category":"P"
+},{
+    "Id":706,
+    "Authors":"Not found",
     "Title":"Conosci Bergamo. Invito allascoperta della provincia orobica",
     "Cities":"Bergamo",
     "Publisher":"Pol. Bolis",
@@ -7070,8 +7069,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2266",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":707.0,
+},{
+    "Id":707,
     "Authors":"Conrad, Joseph",
     "Title":"L\u2019agente segreto. Romanzo",
     "Cities":"Milano",
@@ -7079,9 +7078,9 @@ const jsonData = [
     "Years":1953,
     "Fund":"BTM",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":708.0,
+    "Category":"AL"
+},{
+    "Id":708,
     "Authors":"Conrad, Joseph",
     "Title":"Appunti di vita e letteratura",
     "Cities":"Milano",
@@ -7089,9 +7088,9 @@ const jsonData = [
     "Years":1950,
     "Fund":"BTB Segn. 1247",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":709.0,
+    "Category":"AL"
+},{
+    "Id":709,
     "Authors":"Conrad, Joseph",
     "Title":"L\u2019avventuriero",
     "Cities":"Milano",
@@ -7099,9 +7098,9 @@ const jsonData = [
     "Years":1950,
     "Fund":"BTB Segn. 1248",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":710.0,
+    "Category":"AL"
+},{
+    "Id":710,
     "Authors":"Conrad, Joseph",
     "Title":"Lo specchio del mare. Cronaca personale. Racconti tra terra e mare",
     "Cities":"Milano",
@@ -7109,9 +7108,9 @@ const jsonData = [
     "Years":1954,
     "Fund":"BTB Segn. 1246",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":711.0,
+    "Category":"AL"
+},{
+    "Id":711,
     "Authors":"Constant, Benjamin",
     "Title":"Adolfo",
     "Cities":"Milano-Roma",
@@ -7119,9 +7118,9 @@ const jsonData = [
     "Years":1932,
     "Fund":"BTB Segn. 977",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":712.0,
+    "Category":"FL"
+},{
+    "Id":712,
     "Authors":"Constant, Benjamin",
     "Title":"Il generale Federico. Commedia-farsa",
     "Cities":"Torino",
@@ -7129,9 +7128,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BTB Segn. 978",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":713.0,
+    "Category":"FL"
+},{
+    "Id":713,
     "Authors":"Conti, Ettore",
     "Title":"Dal taccuino di un borghese",
     "Cities":"Milano",
@@ -7139,9 +7138,9 @@ const jsonData = [
     "Years":1946,
     "Fund":"BTB Segn. 310",
     "Segni":"Dedica dell\u2019autore.",
-    "Category":"L"
-    },{
-    "Id":714.0,
+    "Category":"IL"
+},{
+    "Id":714,
     "Authors":"Conti, Gian Carlo",
     "Title":"Un mite ottobre ed altre poesie",
     "Cities":"Parma",
@@ -7150,8 +7149,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore in data 13.2.1956.",
     "Category":"IL"
-    },{
-    "Id":715.0,
+},{
+    "Id":715,
     "Authors":"Conti, Gian Carlo",
     "Title":"Il primo passeggio dopo il mare",
     "Cities":"Cal tanissetta",
@@ -7160,8 +7159,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":716.0,
+},{
+    "Id":716,
     "Authors":"Conti, Gian Carlo",
     "Title":"Il profumo di tigli",
     "Cities":"Milano",
@@ -7170,8 +7169,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore in data 29.5.1968.",
     "Category":"IL"
-    },{
-    "Id":717.0,
+},{
+    "Id":717,
     "Authors":"Conti, Giusto",
     "Title":"La bella mano",
     "Cities":"Lanciano",
@@ -7180,8 +7179,8 @@ const jsonData = [
     "Fund":"BTB Segn. 354",
     "Segni":"Nota di possesso autografa di Enrico Gadda in data 06.1917.",
     "Category":"IL"
-    },{
-    "Id":718.0,
+},{
+    "Id":718,
     "Authors":"Contini, Gianfranco",
     "Title":"Un anno di letteratura",
     "Cities":"Firenze",
@@ -7190,8 +7189,8 @@ const jsonData = [
     "Fund":"BTB Segn. 779",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":719.0,
+},{
+    "Id":719,
     "Authors":"Contini, Gianfranco",
     "Title":"Esercizi di lettura",
     "Cities":"Firenze",
@@ -7200,8 +7199,8 @@ const jsonData = [
     "Fund":"BTB Segn. 780",
     "Segni":"Dedica dell\u2019autore. Postille.",
     "Category":"IL"
-    },{
-    "Id":720.0,
+},{
+    "Id":720,
     "Authors":"Contini, Gianfranco",
     "Title":"Letteratura dell\u2019Italia unita 1861- 1968",
     "Cities":"Firenze",
@@ -7210,8 +7209,8 @@ const jsonData = [
     "Fund":"BTB Segn. 781",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":721.0,
+},{
+    "Id":721,
     "Authors":"Contini, Gianfranco",
     "Title":"Il mulino del Po e la carriera letteraria di Riccardo Bacchelli",
     "Cities":"Roma",
@@ -7220,8 +7219,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 78",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":722.0,
+},{
+    "Id":722,
     "Authors":"Contini, Gianfranco",
     "Title":"Scriptor rerum francigenarum",
     "Cities":"Reggio Emilia",
@@ -7230,8 +7229,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":723.0,
+},{
+    "Id":723,
     "Authors":"Contini, Gianfranco",
     "Title":"Scrittori Moderni",
     "Cities":"Reggio Emilia",
@@ -7240,8 +7239,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":724.0,
+},{
+    "Id":724,
     "Authors":"Contini, Gianfranco",
     "Title":"Tre composizioni o la metrica di Saba \u2013 Bonsanti, o dell\u2019attivit\u00e0 pura",
     "Cities":"Reggio Emilia",
@@ -7250,8 +7249,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":725.0,
+},{
+    "Id":725,
     "Authors":"Contini, Gianfranco",
     "Title":"Ungaretti o dell\u2019allegria",
     "Cities":"Reggio Emilia",
@@ -7260,8 +7259,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":726.0,
+},{
+    "Id":726,
     "Authors":"Contini, Gianfranco",
     "Title":"Varianti e altra linguistica: una raccolta di saggi (1938-1968)",
     "Cities":"Torino",
@@ -7269,10 +7268,10 @@ const jsonData = [
     "Years":1970,
     "Fund":"BTB Segn. 782",
     "Segni":"Parzialmente intonso.",
-    "Category":null
-    },{
-    "Id":727.0,
-    "Authors":null,
+    "Category":"GR"
+},{
+    "Id":727,
+    "Authors":"Not found",
     "Title":"Contorni di Milano",
     "Cities":"Milano",
     "Publisher":"Vallardi",
@@ -7280,8 +7279,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 67",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":728.0,
+},{
+    "Id":728,
     "Authors":"Cordati-Martinelli, Bruna",
     "Title":"Cordati Martinelli, BrunaQuando s\u2019insegna Dante",
     "Cities":"Pisa",
@@ -7290,8 +7289,8 @@ const jsonData = [
     "Fund":"BTB Segn. 833",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":729.0,
+},{
+    "Id":729,
     "Authors":"Cordi\u00e8, Carlo",
     "Title":"Ideali e figure d\u2019Europa",
     "Cities":"Pisa",
@@ -7300,8 +7299,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1735",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":730.0,
+},{
+    "Id":730,
     "Authors":"Corneille, Pierre",
     "Title":"\u0152uvres de Corneille",
     "Cities":"Paris",
@@ -7310,8 +7309,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":731.0,
+},{
+    "Id":731,
     "Authors":"Corneille, Pierre",
     "Title":"Th\u00e9\u00e2tre. Tome second",
     "Cities":"Paris",
@@ -7320,8 +7319,8 @@ const jsonData = [
     "Fund":"BTB Segn. 979",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":732.0,
+},{
+    "Id":732,
     "Authors":"Cornelio Nepote",
     "Title":"Liber de excellentibus ducibus exterarum gentium",
     "Cities":"Milano",
@@ -7330,8 +7329,8 @@ const jsonData = [
     "Fund":"BTB Segn. 43",
     "Segni":"Postille.",
     "Category":"CL"
-    },{
-    "Id":733.0,
+},{
+    "Id":733,
     "Authors":"Cornelissen, Christian",
     "Title":"Les hallucinations des Einsteiniens ou les erreurs de m\u00e9thode chez le physiciens-math\u00e9maticiens",
     "Cities":"Paris",
@@ -7340,8 +7339,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2065",
     "Segni":"Intonso.",
     "Category":"T "
-    },{
-    "Id":734.0,
+},{
+    "Id":734,
     "Authors":"Coulon, Marcel",
     "Title":"Au c\u0153ur de Verlaine et de Rimbaud. Avec des documents in\u00e9dits",
     "Cities":"Paris",
@@ -7350,8 +7349,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1122",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":735.0,
+},{
+    "Id":735,
     "Authors":"Courteline, Georges",
     "Title":"Le 51e Chasseurs",
     "Cities":"Paris",
@@ -7360,9 +7359,9 @@ const jsonData = [
     "Fund":"BTB Segn. 980",
     "Segni":"Timbro di Antonio Semenza. Parzialmente intonso.",
     "Category":"FL"
-    },{
-    "Id":736.0,
-    "Authors":null,
+},{
+    "Id":736,
+    "Authors":"Not found",
     "Title":"Cremona passato e presente.",
     "Cities":"Cremona",
     "Publisher":"Italia Nostra",
@@ -7370,8 +7369,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2381",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":737.0,
+},{
+    "Id":737,
     "Authors":"Crippa, Geo Renato",
     "Title":"Il restauratore principe Mauro Pelliccioli uomo e \u00abmago\u00bb",
     "Cities":"Bergamo",
@@ -7379,19 +7378,19 @@ const jsonData = [
     "Years":1966,
     "Fund":"BTB Segn. 2225",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":738.0,
-    "Authors":null,
+    "Category":"IL"
+},{
+    "Id":738,
+    "Authors":"Not found",
     "Title":"Crivelli e i Crivelleschi.",
     "Cities":"Venezia",
     "Publisher":"Edizioni Alfieri",
     "Years":1961,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":739.0,
+    "Category":"HA"
+},{
+    "Id":739,
     "Authors":"Croce, Benedetto",
     "Title":"Estetica come scienza dell\u2019espressione  e  Linguistica generale",
     "Cities":"Bari",
@@ -7399,9 +7398,9 @@ const jsonData = [
     "Years":1912,
     "Fund":"BTB Segn. 321",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":740.0,
+    "Category":"P"
+},{
+    "Id":740,
     "Authors":"Croce, Benedetto",
     "Title":"Filosofia della pratica; Economia ed etica",
     "Cities":"Bari",
@@ -7409,9 +7408,9 @@ const jsonData = [
     "Years":1915,
     "Fund":"BTB Segn. 323",
     "Segni":"Sottolineature e postille.",
-    "Category":"F"
-    },{
-    "Id":741.0,
+    "Category":"P"
+},{
+    "Id":741,
     "Authors":"Croce, Benedetto",
     "Title":"La letturatura della nuova Italia.Saggi critici",
     "Cities":"Bari",
@@ -7419,9 +7418,9 @@ const jsonData = [
     "Years":1942,
     "Fund":"BTB Segn. 312-317",
     "Segni":"Intonsi i volumi 4 e 6.",
-    "Category":"F"
-    },{
-    "Id":742.0,
+    "Category":"P"
+},{
+    "Id":742,
     "Authors":"Croce, Benedetto",
     "Title":"La logica come scienza del concetto puro",
     "Cities":"Bari",
@@ -7429,9 +7428,9 @@ const jsonData = [
     "Years":1920,
     "Fund":"BTB Segn. 322",
     "Segni":"Sottolineature.",
-    "Category":"F"
-    },{
-    "Id":743.0,
+    "Category":"P"
+},{
+    "Id":743,
     "Authors":"Croce, Benedetto",
     "Title":"Ludovico Ariosto",
     "Cities":"Bari",
@@ -7439,9 +7438,9 @@ const jsonData = [
     "Years":1927,
     "Fund":"BTB Segn. 311",
     "Segni":"Nota di possesso autografa.",
-    "Category":"F"
-    },{
-    "Id":744.0,
+    "Category":"P"
+},{
+    "Id":744,
     "Authors":"Croce, Benedetto",
     "Title":"Per la storia del Comunismo in quanto realt\u00e0 politica. In appendice: La \u00abterza via\u00bb",
     "Cities":"Bari",
@@ -7449,9 +7448,9 @@ const jsonData = [
     "Years":1943,
     "Fund":"BTB Segn. 327",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":745.0,
+    "Category":"P"
+},{
+    "Id":745,
     "Authors":"Croce, Benedetto",
     "Title":"Perch\u00e9 non possiamo non dirci \u00abcristiani\u00bb",
     "Cities":"Bari",
@@ -7459,9 +7458,9 @@ const jsonData = [
     "Years":1943,
     "Fund":"BTB Segn. 326",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":746.0,
+    "Category":"P"
+},{
+    "Id":746,
     "Authors":"Croce, Benedetto",
     "Title":"Saggio sullo Hegel seguito da altri scritti di storia della filosofia",
     "Cities":"Bari",
@@ -7469,9 +7468,9 @@ const jsonData = [
     "Years":1913,
     "Fund":"BTB Segn. 325",
     "Segni":"Sottolineature e postille.",
-    "Category":"F"
-    },{
-    "Id":747.0,
+    "Category":"P"
+},{
+    "Id":747,
     "Authors":"Croce, Benedetto",
     "Title":"Storia d\u2019Europa nel secolo decimonono",
     "Cities":"Bari",
@@ -7479,9 +7478,9 @@ const jsonData = [
     "Years":1948,
     "Fund":"BTB Segn. 320",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":748.0,
+    "Category":"P"
+},{
+    "Id":748,
     "Authors":"Croce, Benedetto",
     "Title":"Storia del Regno di Napoli",
     "Cities":"Bari",
@@ -7489,9 +7488,9 @@ const jsonData = [
     "Years":1931,
     "Fund":"BTB Segn. 318",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":749.0,
+    "Category":"P"
+},{
+    "Id":749,
     "Authors":"Croce, Benedetto",
     "Title":"Storia d\u2019Italia dal 1871 al 1915.",
     "Cities":"Bari",
@@ -7499,9 +7498,9 @@ const jsonData = [
     "Years":1947,
     "Fund":"BTB Segn. 319",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":750.0,
+    "Category":"P"
+},{
+    "Id":750,
     "Authors":"Croce, Benedetto",
     "Title":"Teoria e storia della storiografia",
     "Cities":"Bari",
@@ -7509,9 +7508,9 @@ const jsonData = [
     "Years":1920,
     "Fund":"BTB Segn. 324",
     "Segni":"Sottolineature.",
-    "Category":"F"
-    },{
-    "Id":751.0,
+    "Category":"P"
+},{
+    "Id":751,
     "Authors":"Croce, Elena",
     "Title":"L\u2019infanzia dorata",
     "Cities":"Milano",
@@ -7520,8 +7519,8 @@ const jsonData = [
     "Fund":"BTB Segn. 328",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":752.0,
+},{
+    "Id":752,
     "Authors":"Crofts, Freeman Wills",
     "Title":"L\u2019incendio nella brughiera",
     "Cities":"Milano",
@@ -7529,10 +7528,10 @@ const jsonData = [
     "Years":1932,
     "Fund":"BTB Segn. 1249",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":753.0,
-    "Authors":null,
+    "Category":"AL"
+},{
+    "Id":753,
+    "Authors":"Not found",
     "Title":"Cronica de las jornadas de lengua y literatura hispanoamericana",
     "Cities":"Salamanca",
     "Publisher":"Universidad de Salamanca",
@@ -7540,8 +7539,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 61",
     "Segni":null,
     "Category":"S "
-    },{
-    "Id":754.0,
+},{
+    "Id":754,
     "Authors":"Cronin, Archibald Joseph",
     "Title":"Gli anni che contano",
     "Cities":"Milano",
@@ -7549,19 +7548,19 @@ const jsonData = [
     "Years":1954,
     "Fund":"BAL",
     "Segni":"Postille.",
-    "Category":"L"
-    },{
-    "Id":755.0,
-    "Authors":null,
+    "Category":"AL"
+},{
+    "Id":755,
+    "Authors":"Not found",
     "Title":"Cronisti del Trecento",
     "Cities":"Milano-Roma",
     "Publisher":"Rizzoli",
     "Years":1935,
     "Fund":"BTB Segn. 329",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":756.0,
+    "Category":"H"
+},{
+    "Id":756,
     "Authors":"Croome, Honor Ren\u00e9e \u2013 Hammond, Richard James",
     "Title":"Storia economica d\u2019Inghilterra",
     "Cities":"Milano",
@@ -7569,39 +7568,39 @@ const jsonData = [
     "Years":1951,
     "Fund":"BTB Segn. 1714",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":757.0,
-    "Authors":null,
+    "Category":"H"
+},{
+    "Id":757,
+    "Authors":"Not found",
     "Title":"La cucina degli stomachi deboli",
     "Cities":"Milano",
     "Publisher":"Longanesi",
     "Years":1893,
     "Fund":"BAL",
     "Segni":"Foglietto incollato a p. 12 e nota dipossesso in data 1893.",
-    "Category":"L"
-    },{
-    "Id":758.0,
-    "Authors":null,
+    "Category":"V"
+},{
+    "Id":758,
+    "Authors":"Not found",
     "Title":"Cultura e societ\u00e0",
     "Cities":"Roma",
     "Publisher":"Associazione italiana per la libert\u00e0 della cultura",
     "Years":1958,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":759.0,
-    "Authors":null,
+    "Category":"V"
+},{
+    "Id":759,
+    "Authors":"Not found",
     "Title":"La cultura figurativa e la stampa d\u2019arte ai nostri giorni.",
     "Cities":"Roma",
     "Publisher":"Associazione italiana per la libert\u00e0 dellacultura",
     "Years":1935,
     "Fund":null,
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":760.0,
+    "Category":"HA"
+},{
+    "Id":760,
     "Authors":"Curetti, Adriano",
     "Title":"Gli alberi non vogliono morire",
     "Cities":"Bologna",
@@ -7610,8 +7609,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore in data 2.1964.",
     "Category":"IL"
-    },{
-    "Id":761.0,
+},{
+    "Id":761,
     "Authors":"Curotto, Ernesto",
     "Title":"Dizionarietto geografico dantesco",
     "Cities":"Genova",
@@ -7620,8 +7619,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"D",
     "Category":"D"
-    },{
-    "Id":762.0,
+},{
+    "Id":762,
     "Authors":"Da Costa Andrade \u2013 Edward Neville",
     "Title":"Isaac Newton. La vita e le opere",
     "Cities":"Bologna",
@@ -7629,9 +7628,9 @@ const jsonData = [
     "Years":1965,
     "Fund":"BTB Segn. 2073",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":763.0,
+    "Category":"V"
+},{
+    "Id":763,
     "Authors":"Daiches, David",
     "Title":"Storia della letteratura inglese",
     "Cities":"Milano",
@@ -7639,9 +7638,9 @@ const jsonData = [
     "Years":1970,
     "Fund":"BTB Segn. 1337-1338",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":764.0,
+    "Category":"AL"
+},{
+    "Id":764,
     "Authors":"Dalbono, Claudio Tito",
     "Title":"Guida di Napoli e dintorni",
     "Cities":"Napoli",
@@ -7650,8 +7649,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":765.0,
+},{
+    "Id":765,
     "Authors":"D\u2019Alicandro, Giuseppe Maria",
     "Title":"Cesare Battisti nel mio ricordo fanciullo",
     "Cities":"Milano",
@@ -7659,9 +7658,9 @@ const jsonData = [
     "Years":1928,
     "Fund":"BTB Segn. Op. 77",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":766.0,
+    "Category":"IL"
+},{
+    "Id":766,
     "Authors":"D\u2019Amato, Ferdinando",
     "Title":"Il pensiero di Enrico Bergson",
     "Cities":"s.l",
@@ -7669,9 +7668,9 @@ const jsonData = [
     "Years":1921,
     "Fund":"BTB Segn. 1938",
     "Segni":"Parzialmente intonso.",
-    "Category":"F"
-    },{
-    "Id":767.0,
+    "Category":"P"
+},{
+    "Id":767,
     "Authors":"D\u2019Ancona, Alessandro \u2013 Bacci, Orazio",
     "Title":"Manuale della letteratura italiana",
     "Cities":"Firenze",
@@ -7680,8 +7679,8 @@ const jsonData = [
     "Fund":"BTB Segn. 783-787",
     "Segni":"Sottolineature e postille.",
     "Category":"IL"
-    },{
-    "Id":768.0,
+},{
+    "Id":768,
     "Authors":"D\u2019Ancona, Paolo",
     "Title":" La mostra di Vincenzo VanGogh",
     "Cities":null,
@@ -7689,9 +7688,9 @@ const jsonData = [
     "Years":1952,
     "Fund":null,
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":769.0,
+    "Category":"HA"
+},{
+    "Id":769,
     "Authors":"D\u2019Andrea, Ezio",
     "Title":"51 col formicone",
     "Cities":"Roma",
@@ -7700,8 +7699,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Biglietto da visita dell\u2019autore con nota.",
     "Category":"IL"
-    },{
-    "Id":770.0,
+},{
+    "Id":770,
     "Authors":"Dani, Franco",
     "Title":"Un gran buio, ancora su Custozae sugli altri eventi militari del 1866",
     "Cities":"Firenze",
@@ -7710,8 +7709,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":771.0,
+},{
+    "Id":771,
     "Authors":"D\u2019Annunzio, Gabriele",
     "Title":"Canto novo. Intermezzo",
     "Cities":"Milano",
@@ -7720,8 +7719,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":772.0,
+},{
+    "Id":772,
     "Authors":"D\u2019Annunzio, Gabriele",
     "Title":"Il fuoco",
     "Cities":"Roma",
@@ -7730,8 +7729,8 @@ const jsonData = [
     "Fund":"BTB Segn. 330",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":773.0,
+},{
+    "Id":773,
     "Authors":"D\u2019Annunzio, Gabriele",
     "Title":"In morte di Giuseppe Verdi: Canzone: preceduta da un\u2019orazione ai giovani",
     "Cities":"Milano",
@@ -7740,8 +7739,8 @@ const jsonData = [
     "Fund":"BTB Segn. 332",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":774.0,
+},{
+    "Id":774,
     "Authors":"D\u2019Annunzio, Gabriele",
     "Title":"L\u2019innocente",
     "Cities":"Roma",
@@ -7750,8 +7749,8 @@ const jsonData = [
     "Fund":"BTB Segn. 331",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":775.0,
+},{
+    "Id":775,
     "Authors":"D\u2019Annunzio, Gabriele",
     "Title":"Laudi del cielo del mare della terra e degli eroi. Libro primo: Maia",
     "Cities":"Milano",
@@ -7760,8 +7759,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":776.0,
+},{
+    "Id":776,
     "Authors":"D\u2019Annunzio, Gabriele",
     "Title":"Laudi del cielo del mare della terrae  degli eroi: Libro quarto: Merope.Le canzoni delle gesta d\u2019oltremare",
     "Cities":"Milano",
@@ -7770,8 +7769,8 @@ const jsonData = [
     "Fund":"BTB Segn. 334",
     "Segni":"Nota di possesso autografa di EnricoGadda in data 11.1917, Cascina Malpensa.",
     "Category":"IL"
-    },{
-    "Id":777.0,
+},{
+    "Id":777,
     "Authors":"D\u2019Annunzio, Gabriele",
     "Title":"Laudi del cielo del mare della terra e degli eroi",
     "Cities":"Roma",
@@ -7780,8 +7779,8 @@ const jsonData = [
     "Fund":"BTB Segn. 335",
     "Segni":"Parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":778.0,
+},{
+    "Id":778,
     "Authors":"D\u2019Annunzio, Gabriele",
     "Title":"La Leda senza cigno. Raccontoseguito da una licenza",
     "Cities":"Milano",
@@ -7790,8 +7789,8 @@ const jsonData = [
     "Fund":"BTB Segn. 336-338",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":779.0,
+},{
+    "Id":779,
     "Authors":"D\u2019Annunzio, Gabriele",
     "Title":"Lettera ai Dalmati",
     "Cities":"Venezia",
@@ -7800,8 +7799,8 @@ const jsonData = [
     "Fund":"BTB Segn. 339",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":780.0,
+},{
+    "Id":780,
     "Authors":"D\u2019Annunzio, Gabriele",
     "Title":"Il libro delle Vergini",
     "Cities":"Como",
@@ -7810,8 +7809,8 @@ const jsonData = [
     "Fund":"BTB Segn. 340",
     "Segni":"Segnalibro.",
     "Category":"IL"
-    },{
-    "Id":781.0,
+},{
+    "Id":781,
     "Authors":"D\u2019Annunzio, Gabriele",
     "Title":"Notturno",
     "Cities":"Roma",
@@ -7820,8 +7819,8 @@ const jsonData = [
     "Fund":"BTB Segn. 341",
     "Segni":"Parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":782.0,
+},{
+    "Id":782,
     "Authors":"D\u2019Annunzio, Gabriele",
     "Title":"Novelle della Pescara",
     "Cities":"Roma",
@@ -7830,8 +7829,8 @@ const jsonData = [
     "Fund":"BTB Segn. 342",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":783.0,
+},{
+    "Id":783,
     "Authors":"D\u2019Annunzio, Gabriele",
     "Title":"Il piacere",
     "Cities":"Milano",
@@ -7840,8 +7839,8 @@ const jsonData = [
     "Fund":"BTB Segn. 344",
     "Segni":"Nota di possesso autografa di Enrico Gadda in data 10.1916.",
     "Category":"IL"
-    },{
-    "Id":784.0,
+},{
+    "Id":784,
     "Authors":"D\u2019Annunzio, Gabriele",
     "Title":"Il piacere",
     "Cities":"Roma",
@@ -7850,8 +7849,8 @@ const jsonData = [
     "Fund":"BTB Segn. 343",
     "Segni":"Parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":785.0,
+},{
+    "Id":785,
     "Authors":"D\u2019Annunzio, Gabriele",
     "Title":"  Poema paradisiaco",
     "Cities":"s.l.",
@@ -7860,8 +7859,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":786.0,
+},{
+    "Id":786,
     "Authors":"D\u2019Annunzio, Gabriele",
     "Title":"Le vergini delle rocce",
     "Cities":"Roma",
@@ -7870,8 +7869,8 @@ const jsonData = [
     "Fund":"BTB Segn. 345",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":787.0,
+},{
+    "Id":787,
     "Authors":"Da Ponte, Lorenzo",
     "Title":"Don Giovanni",
     "Cities":"Sesto San Giovanni",
@@ -7880,8 +7879,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1443",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":788.0,
+},{
+    "Id":788,
     "Authors":"Dari\u00e8s, Georges",
     "Title":"M\u00e9canique, hydraulique, thermodynamique",
     "Cities":"Paris",
@@ -7890,8 +7889,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2066",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":789.0,
+},{
+    "Id":789,
     "Authors":"D\u2019Arrigo, Stefano",
     "Title":"Codice siciliano",
     "Cities":"Milano",
@@ -7900,8 +7899,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":790.0,
+},{
+    "Id":790,
     "Authors":"D\u2019Aspro, Franco.",
     "Title":"Disegni di Franco D\u2019Aspro",
     "Cities":"Firenze",
@@ -7910,8 +7909,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":791.0,
+},{
+    "Id":791,
     "Authors":"D\u2019Arzo, Silvio",
     "Title":"Casa d\u2019altri",
     "Cities":"Firenze",
@@ -7920,8 +7919,8 @@ const jsonData = [
     "Fund":"BTB Segn. 346",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":792.0,
+},{
+    "Id":792,
     "Authors":"Darwin, Charles",
     "Title":"L\u2019origine dell\u2019uomo e la scelta in rapporto col sesso",
     "Cities":"Milano",
@@ -7930,8 +7929,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Nota di possesso, Ing. Carlo Emilio Gadda 14 aprile 1925.",
     "Category":"T"
-    },{
-    "Id":793.0,
+},{
+    "Id":793,
     "Authors":"Daudet, Alphonse",
     "Title":"Tartarino di Tarascona",
     "Cities":"Milano",
@@ -7939,9 +7938,9 @@ const jsonData = [
     "Years":1939,
     "Fund":"BTB Segn. 981",
     "Segni":"Intonso.",
-    "Category":"L"
-    },{
-    "Id":794.0,
+    "Category":"FL"
+},{
+    "Id":794,
     "Authors":"Dauzat, Albert",
     "Title":"Dictionnaire \u00e9tymologique de la langue fran\u00e7aise",
     "Cities":"Paris",
@@ -7950,8 +7949,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":795.0,
+},{
+    "Id":795,
     "Authors":"Davanzati, Bernardo",
     "Title":"Le opere",
     "Cities":"Firenze",
@@ -7960,8 +7959,8 @@ const jsonData = [
     "Fund":"BTB Segn. 347-348",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":796.0,
+},{
+    "Id":796,
     "Authors":"Da Verona, Guido",
     "Title":"Il Cavaliere dello Spirito Santo. Storia di una giornata",
     "Cities":"Milano",
@@ -7970,8 +7969,8 @@ const jsonData = [
     "Fund":"BTB Segn. 349",
     "Segni":"Nota di possesso autografa di Enrico Gadda in data 07.1917.",
     "Category":"IL"
-    },{
-    "Id":797.0,
+},{
+    "Id":797,
     "Authors":"Da Verona, Guido",
     "Title":"Colei che non si deve amare",
     "Cities":"Milano",
@@ -7980,8 +7979,8 @@ const jsonData = [
     "Fund":"BTB Segn. 350",
     "Segni":"Nota di possesso autografa di Enrico Gadda in data 3.08.1916.",
     "Category":"IL"
-    },{
-    "Id":798.0,
+},{
+    "Id":798,
     "Authors":"Da Verona, Guido",
     "Title":"La vita comincia domani",
     "Cities":"Milano",
@@ -7990,8 +7989,8 @@ const jsonData = [
     "Fund":"BTB Segn. 351",
     "Segni":"Nota di possesso autografa di EnricoGadda in data 02.1916.",
     "Category":"IL"
-    },{
-    "Id":799.0,
+},{
+    "Id":799,
     "Authors":"Davidsohn, Roberto",
     "Title":"Storia di Firenze",
     "Cities":"Firenze",
@@ -7999,9 +7998,9 @@ const jsonData = [
     "Years":1910,
     "Fund":"BTB Segn. 1511-1512",
     "Segni":"Intonsi.",
-    "Category":"S"
-    },{
-    "Id":800.0,
+    "Category":"H"
+},{
+    "Id":800,
     "Authors":"Dawson, Christopher",
     "Title":"La formazione dell\u2019unit\u00e0 europea. Dal secolo V al XI",
     "Cities":"Torino",
@@ -8009,9 +8008,9 @@ const jsonData = [
     "Years":1939,
     "Fund":"BTB Segn. 1746",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":801.0,
+    "Category":"H"
+},{
+    "Id":801,
     "Authors":"D\u2019Azeglio, Massimo",
     "Title":"I miei ricordi",
     "Cities":"Firenze",
@@ -8019,9 +8018,9 @@ const jsonData = [
     "Years":1924,
     "Fund":"BTB Segn. 352",
     "Segni":"Parzialmente intonso.",
-    "Category":"L"
-    },{
-    "Id":802.0,
+    "Category":"IL"
+},{
+    "Id":802,
     "Authors":"Deakin, Frederick William",
     "Title":"Storia della Repubblica di Sal\u00f2",
     "Cities":"Torino",
@@ -8029,9 +8028,9 @@ const jsonData = [
     "Years":1963,
     "Fund":"BTB Segn. 1513",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":803.0,
+    "Category":"H"
+},{
+    "Id":803,
     "Authors":"Debenedetti, Giacomo",
     "Title":"Radiorecita su Proust",
     "Cities":"Roma",
@@ -8040,8 +8039,8 @@ const jsonData = [
     "Fund":"BTB Segn. 353",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":804.0,
+},{
+    "Id":804,
     "Authors":"Debenedetti, Giacomo",
     "Title":"Saggi critici",
     "Cities":"Firenze",
@@ -8050,8 +8049,8 @@ const jsonData = [
     "Fund":"BTB Segn. 788",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":805.0,
+},{
+    "Id":805,
     "Authors":"Debenedetti, Giacomo",
     "Title":"Saggi critici",
     "Cities":"Milano",
@@ -8060,8 +8059,8 @@ const jsonData = [
     "Fund":"BTB Segn. 789",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":806.0,
+},{
+    "Id":806,
     "Authors":"De Beranger, Pierre-Jean",
     "Title":"\u0152uvres completes de Pierre-Jean de Beranger",
     "Cities":"Paris",
@@ -8070,8 +8069,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":807.0,
+},{
+    "Id":807,
     "Authors":"De Biasi, Mario \u2013 Gadda Conti, Piero",
     "Title":"La Brianza",
     "Cities":"Roma",
@@ -8080,8 +8079,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2267",
     "Segni":"Dedica di Piero Gadda Conti in data15.6. 1967.",
     "Category":"IL"
-    },{
-    "Id":808.0,
+},{
+    "Id":808,
     "Authors":"De Di\u00e9guez, Manuel",
     "Title":"Rabelais par lui-m\u00eame",
     "Cities":"Paris",
@@ -8090,8 +8089,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Postille.",
     "Category":"FL"
-    },{
-    "Id":809.0,
+},{
+    "Id":809,
     "Authors":"De Feo, Sandro",
     "Title":"I cattivi pensieri",
     "Cities":"Milano",
@@ -8100,8 +8099,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore in data 3.1967.",
     "Category":"IL"
-    },{
-    "Id":810.0,
+},{
+    "Id":810,
     "Authors":"De Filippis, Salvatore",
     "Title":"Il Fucino ed il suo prosciugamento",
     "Cities":"Citt\u00e0 di Castello",
@@ -8110,8 +8109,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 82",
     "Segni":"Sottolineature e postille.",
     "Category":"T"
-    },{
-    "Id":811.0,
+},{
+    "Id":811,
     "Authors":"Defoe, Daniel",
     "Title":"Fortune e sfortune della famosaMoll Flanders",
     "Cities":"Torino",
@@ -8120,8 +8119,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1251",
     "Segni":null,
     "Category":null
-    },{
-    "Id":812.0,
+},{
+    "Id":812,
     "Authors":"Defoe, Daniel",
     "Title":"La peste a Londra",
     "Cities":"Milano",
@@ -8129,9 +8128,9 @@ const jsonData = [
     "Years":1939,
     "Fund":"BTB Segn. 1250",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":813.0,
+    "Category":"AL"
+},{
+    "Id":813,
     "Authors":"Defoe, Daniel",
     "Title":"Robinson Cruso\u00e8",
     "Cities":"Milano",
@@ -8139,9 +8138,9 @@ const jsonData = [
     "Years":1950,
     "Fund":"BTB Segn. 1252",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":814.0,
+    "Category":"AL"
+},{
+    "Id":814,
     "Authors":"De Giorgi, Elsa",
     "Title":"Un coraggio splendente",
     "Cities":"Milano",
@@ -8150,8 +8149,8 @@ const jsonData = [
     "Fund":"BTB Segn. 355",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":815.0,
+},{
+    "Id":815,
     "Authors":"De Giorgi, Elsa",
     "Title":"L\u2019innocenza",
     "Cities":"Venezia",
@@ -8160,8 +8159,8 @@ const jsonData = [
     "Fund":"BTB Segn. 356 e BAL",
     "Segni":"Dedica autografa dell\u2019autrice in data 16.12.60.",
     "Category":"IL"
-    },{
-    "Id":816.0,
+},{
+    "Id":816,
     "Authors":"De Giorgi, Elsa",
     "Title":"Sangue + fango = logos passione",
     "Cities":"Roma",
@@ -8170,8 +8169,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 19",
     "Segni":"Dedica dell\u2019autrice.",
     "Category":"IL"
-    },{
-    "Id":817.0,
+},{
+    "Id":817,
     "Authors":"De Giorgi, Elsa",
     "Title":"Il sole e il vampiro",
     "Cities":"Citt\u00e0 di Castello",
@@ -8180,8 +8179,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica autografa dell\u2019autrice in data 5.1970.",
     "Category":"IL"
-    },{
-    "Id":818.0,
+},{
+    "Id":818,
     "Authors":"De Giorgi, Elsa",
     "Title":"Storia di una bella donna",
     "Cities":"Roma",
@@ -8190,8 +8189,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica autografa dell\u2019autrice in data 5.1970.",
     "Category":"IL"
-    },{
-    "Id":819.0,
+},{
+    "Id":819,
     "Authors":"De Gironcoli, Franco",
     "Title":"Altris poesiis",
     "Cities":"Treviso",
@@ -8200,8 +8199,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":820.0,
+},{
+    "Id":820,
     "Authors":"De Gironcoli, Franco",
     "Title":"Elegie in friulano",
     "Cities":"Treviso",
@@ -8210,8 +8209,8 @@ const jsonData = [
     "Fund":"BTB Segn. 430",
     "Segni":"Dedica dell\u2019autore. Intonso.",
     "Category":"IL"
-    },{
-    "Id":821.0,
+},{
+    "Id":821,
     "Authors":"De Gironcoli, Franco",
     "Title":"V\u00f2t poesiis",
     "Cities":"Treviso",
@@ -8220,8 +8219,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":822.0,
+},{
+    "Id":822,
     "Authors":"De La Bruy\u00e8re, Jean",
     "Title":"\u0152uvres compl\u00e8tes",
     "Cities":"Paris",
@@ -8230,8 +8229,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":823.0,
+},{
+    "Id":823,
     "Authors":"De La Rochefoucauld, Fran\u00e7ois",
     "Title":"\u0152uvres completes",
     "Cities":"Paris",
@@ -8240,8 +8239,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":824.0,
+},{
+    "Id":824,
     "Authors":"De Leva, Giuseppe",
     "Title":"Sommario della storia dei popoli antichi",
     "Cities":"Padova",
@@ -8249,9 +8248,9 @@ const jsonData = [
     "Years":1855,
     "Fund":"BTB Segn. 1453",
     "Segni":"Nota di possesso autografa di Adele Gadda Lehr. Sottolineature e postille.",
-    "Category":"S"
-    },{
-    "Id":825.0,
+    "Category":"H"
+},{
+    "Id":825,
     "Authors":"Delfini, Antonio",
     "Title":"Misa Bovetti e altre cronache",
     "Cities":"Milano",
@@ -8260,8 +8259,8 @@ const jsonData = [
     "Fund":"BTB Segn. 357",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":826.0,
+},{
+    "Id":826,
     "Authors":"Delfini, Antonio",
     "Title":"Modena 1831, citt\u00e0 della Chartreuse",
     "Cities":"Milano",
@@ -8270,8 +8269,8 @@ const jsonData = [
     "Fund":"BTB Segn. 358",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":827.0,
+},{
+    "Id":827,
     "Authors":"Delfini, Antonio",
     "Title":"I racconti",
     "Cities":"Milano",
@@ -8280,8 +8279,8 @@ const jsonData = [
     "Fund":"BTB Segn. 359",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":828.0,
+},{
+    "Id":828,
     "Authors":"Delfini, Antonio",
     "Title":"Il ricordo della Basca",
     "Cities":"Firenze",
@@ -8290,8 +8289,8 @@ const jsonData = [
     "Fund":"BTB Segn. 360",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":829.0,
+},{
+    "Id":829,
     "Authors":"Delfini, Antonio",
     "Title":"Ritorno in citt\u00e0",
     "Cities":"Milano",
@@ -8300,8 +8299,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":830.0,
+},{
+    "Id":830,
     "Authors":"De Libero, Libero",
     "Title":"Eclisse",
     "Cities":"Rom",
@@ -8310,8 +8309,8 @@ const jsonData = [
     "Fund":"BTB Segn. 361",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":831.0,
+},{
+    "Id":831,
     "Authors":"Della Casa, Giovanni",
     "Title":"Se s\u2019abbia a prender moglie",
     "Cities":"Firenze",
@@ -8320,8 +8319,8 @@ const jsonData = [
     "Fund":"BTB Segn. 362",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":832.0,
+},{
+    "Id":832,
     "Authors":"Della Montagna, Lupo",
     "Title":"Il Trentino, la Venezia Giulia e la Dalmazia nel Risorgimento italiano",
     "Cities":"Milano",
@@ -8329,9 +8328,9 @@ const jsonData = [
     "Years":1914,
     "Fund":"BTB Segn. 1531",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":833.0,
+    "Category":"H"
+},{
+    "Id":833,
     "Authors":"Della Pergola, Paola",
     "Title":"I Carracci",
     "Cities":"Roma",
@@ -8339,9 +8338,9 @@ const jsonData = [
     "Years":1932,
     "Fund":"BTB Segn. 2177",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":834.0,
+    "Category":"HA"
+},{
+    "Id":834,
     "Authors":"Dell\u2019Arco, Mario",
     "Title":"Er gusto mio",
     "Cities":"Roma",
@@ -8350,8 +8349,8 @@ const jsonData = [
     "Fund":"BTB Segn. 363",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":835.0,
+},{
+    "Id":835,
     "Authors":"Dell\u2019Arco, Mario",
     "Title":" Marziale per un mese",
     "Cities":"Roma",
@@ -8360,8 +8359,8 @@ const jsonData = [
     "Fund":"BTB Segn. 364",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":836.0,
+},{
+    "Id":836,
     "Authors":"Dell\u2019Arco, Mario",
     "Title":"Omaggio a Esopo",
     "Cities":"Roma",
@@ -8370,8 +8369,8 @@ const jsonData = [
     "Fund":"BTB Segn. 365",
     "Segni":"Dedica dell\u2019autore. Postille.",
     "Category":"IL"
-    },{
-    "Id":837.0,
+},{
+    "Id":837,
     "Authors":"Dell\u2019Arco, Mario",
     "Title":" La peste a Roma",
     "Cities":"Roma",
@@ -8380,8 +8379,8 @@ const jsonData = [
     "Fund":"BTB Segn. 366",
     "Segni":"Dedica dell\u2019autore in data 10.1953.",
     "Category":"IL"
-    },{
-    "Id":838.0,
+},{
+    "Id":838,
     "Authors":"Dell\u2019Arco, Mario",
     "Title":" Taja ch\u2019\u00e8 rosso. Poesie romanesche",
     "Cities":"Roma",
@@ -8390,8 +8389,8 @@ const jsonData = [
     "Fund":"BTB Segn. 367",
     "Segni":"Dedica dell\u2019autore in data 05.1947.",
     "Category":"IL"
-    },{
-    "Id":839.0,
+},{
+    "Id":839,
     "Authors":"Dell\u2019Arco, Mario",
     "Title":"Tormarancio",
     "Cities":"Roma",
@@ -8400,8 +8399,8 @@ const jsonData = [
     "Fund":"BTB Segn. 368",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":840.0,
+},{
+    "Id":840,
     "Authors":"Del Pizzo, Giovanni",
     "Title":"L\u2019iconicella. Nuovi idilli",
     "Cities":"Modena",
@@ -8410,8 +8409,8 @@ const jsonData = [
     "Fund":"BTB Segn. 369",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":841.0,
+},{
+    "Id":841,
     "Authors":"Del Pizzo, Giovanni",
     "Title":"Passeggeri del colle. Idilli",
     "Cities":"Modena",
@@ -8420,8 +8419,8 @@ const jsonData = [
     "Fund":"BTB Segn. 370",
     "Segni":"Dedica dell\u2019autore ad A. Gargiulo. Sottolineature e postille.",
     "Category":"IL"
-    },{
-    "Id":842.0,
+},{
+    "Id":842,
     "Authors":"Del Pizzo, Giovanni",
     "Title":"Trapasso di stagione",
     "Cities":"Modena",
@@ -8430,8 +8429,8 @@ const jsonData = [
     "Fund":"BTB Segn. 371",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":843.0,
+},{
+    "Id":843,
     "Authors":"Del Re, Niccol\u00f2",
     "Title":"La curia romana. Lineamenti storico-giuridici",
     "Cities":"Roma",
@@ -8439,9 +8438,9 @@ const jsonData = [
     "Years":1952,
     "Fund":"BTB Segn. 1514",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":844.0,
+    "Category":"H"
+},{
+    "Id":844,
     "Authors":"De Luca, Giuseppe",
     "Title":"Atlante geografico: ad uso delle scuole ginnasiali liceali e tecniche",
     "Cities":"Napoli",
@@ -8450,8 +8449,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":845.0,
+},{
+    "Id":845,
     "Authors":"De Luca, Pasquale",
     "Title":"Visioni italiche",
     "Cities":"Bergamo",
@@ -8460,8 +8459,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":846.0,
+},{
+    "Id":846,
     "Authors":"De Martino, Ernesto",
     "Title":"Sud e magia",
     "Cities":"Milano",
@@ -8470,8 +8469,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2158",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":847.0,
+},{
+    "Id":847,
     "Authors":"De Mattei, Rodolfo",
     "Title":"Polvere di Roma",
     "Cities":"Firenze",
@@ -8480,8 +8479,8 @@ const jsonData = [
     "Fund":"BTB Segn. 372",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":848.0,
+},{
+    "Id":848,
     "Authors":"De Mirecourt, Eugene",
     "Title":"Saint Beuve",
     "Cities":"Paris",
@@ -8490,8 +8489,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Postille.",
     "Category":"FL"
-    },{
-    "Id":849.0,
+},{
+    "Id":849,
     "Authors":"De Napoli, Ferdinando",
     "Title":"La bisessualit\u00e0 latente",
     "Cities":"Roma",
@@ -8499,9 +8498,9 @@ const jsonData = [
     "Years":1934,
     "Fund":null,
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":850.0,
+    "Category":"IL"
+},{
+    "Id":850,
     "Authors":"Denis, Ferdinando",
     "Title":"Portogallo",
     "Cities":"Venezia",
@@ -8510,8 +8509,8 @@ const jsonData = [
     "Fund":"BTB Segn. 3259",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":851.0,
+},{
+    "Id":851,
     "Authors":"De Pereda, Jos\u00e8 Maria",
     "Title":"Sotileza",
     "Cities":"Milano-Verona",
@@ -8520,8 +8519,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"SL"
-    },{
-    "Id":852.0,
+},{
+    "Id":852,
     "Authors":"De Pisis, Filippo",
     "Title":"Il marchesino pittore",
     "Cities":"Milano",
@@ -8530,8 +8529,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":853.0,
+},{
+    "Id":853,
     "Authors":"De Pisis, Filippo",
     "Title":"Poesie",
     "Cities":"Firenze",
@@ -8540,18 +8539,18 @@ const jsonData = [
     "Fund":"BTB Segn. 373",
     "Segni":"Parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":854.0,
-    "Authors":null,
+},{
+    "Id":854,
+    "Authors":"Not found",
     "Title":"La Deposizione. Beato Angelico",
     "Cities":"Firenze",
     "Publisher":"Electa",
     "Years":1948,
     "Fund":"BTB Segn. 2217",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":855.0,
+    "Category":"HA"
+},{
+    "Id":855,
     "Authors":"De Rabutin \u2013 Chantal, Marie marquise de S\u00e9vign\u00e9",
     "Title":"Lettres choisies de Madame de S\u00e9vign\u00e9",
     "Cities":"Paris",
@@ -8560,8 +8559,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dediche ad Adele Gadda Lehr in data 2.1905.",
     "Category":"FL"
-    },{
-    "Id":856.0,
+},{
+    "Id":856,
     "Authors":"De Rabutin \u2013 Chantal, Marie marquise de S\u00e9vign\u00e9",
     "Title":"Lettres choisies de Madame de S\u00e9vign\u00e9",
     "Cities":"Paris",
@@ -8570,8 +8569,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":857.0,
+},{
+    "Id":857,
     "Authors":"De Roberto, Federico",
     "Title":"I Vicer\u00e9",
     "Cities":"Milano",
@@ -8580,8 +8579,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":858.0,
+},{
+    "Id":858,
     "Authors":"De Roberto, Federico",
     "Title":"I Vicer\u00e9",
     "Cities":"Milano",
@@ -8590,8 +8589,8 @@ const jsonData = [
     "Fund":"BTB Segn. 374",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":859.0,
+},{
+    "Id":859,
     "Authors":"De Rubejs, Jean Baptiste",
     "Title":"De\u2019 ritratti, ossia Trattato per cogliere le fisionomie",
     "Cities":"Paris",
@@ -8599,9 +8598,9 @@ const jsonData = [
     "Years":1809,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":860.0,
+    "Category":"HA"
+},{
+    "Id":860,
     "Authors":"De Robertis, Giuseppe",
     "Title":"Saggio sul Leopardi",
     "Cities":"Firenze",
@@ -8610,8 +8609,8 @@ const jsonData = [
     "Fund":"BTB Segn. 790",
     "Segni":"Dedica dell\u2019autore in data 3.1944.",
     "Category":"IL"
-    },{
-    "Id":861.0,
+},{
+    "Id":861,
     "Authors":"De Ruggiero, Guido",
     "Title":"L\u2019esistenzialismo. Aggiunta allaprima edizione dei Filosofi del Novecento",
     "Cities":"Bari",
@@ -8620,8 +8619,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1939",
     "Segni":null,
     "Category":"F  "
-    },{
-    "Id":862.0,
+},{
+    "Id":862,
     "Authors":"De Ruggiero, Guido",
     "Title":"La filosofia contemporanea",
     "Cities":"Bari",
@@ -8629,9 +8628,9 @@ const jsonData = [
     "Years":1942,
     "Fund":"BTB Segn. 1940",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":863.0,
+    "Category":"P"
+},{
+    "Id":863,
     "Authors":"De Sanctis, Francesco",
     "Title":"Mazzini e la scuola democratica",
     "Cities":"Torino",
@@ -8640,8 +8639,8 @@ const jsonData = [
     "Fund":"BTB Segn. 794",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":864.0,
+},{
+    "Id":864,
     "Authors":"De Sanctis, Francesco",
     "Title":"Saggi critici. Saggi, nuovi saggi,scritti critici e vari raccolti in quattro volumi",
     "Cities":"Milano",
@@ -8650,8 +8649,8 @@ const jsonData = [
     "Fund":"BTB Segn. 797-799",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":865.0,
+},{
+    "Id":865,
     "Authors":"De Sanctis, Francesco",
     "Title":"Saggio critico sul Petrarca",
     "Cities":"Torino",
@@ -8660,8 +8659,8 @@ const jsonData = [
     "Fund":"BTB Segn. 796",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":866.0,
+},{
+    "Id":866,
     "Authors":"De Sanctis, Francesco",
     "Title":"La scuola cattolico-liberale e il Romanticismo a Napoli",
     "Cities":"Torino",
@@ -8670,8 +8669,8 @@ const jsonData = [
     "Fund":"BTB Segn. 795",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":867.0,
+},{
+    "Id":867,
     "Authors":"De Sanctis, Francesco",
     "Title":"Storia della letteratura italiana",
     "Cities":"Milano",
@@ -8680,8 +8679,8 @@ const jsonData = [
     "Fund":"BTB Segn. 791-793",
     "Segni":"Nota di possesso autografa.",
     "Category":"IL"
-    },{
-    "Id":868.0,
+},{
+    "Id":868,
     "Authors":"Descalzo, Giovanni",
     "Title":"Paese e mito",
     "Cities":"Milano",
@@ -8690,8 +8689,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":869.0,
+},{
+    "Id":869,
     "Authors":"Descartes, Ren\u00e9",
     "Title":"Discorso sul metodo",
     "Cities":"Bari",
@@ -8700,8 +8699,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1826-1827",
     "Segni":null,
     "Category":"F "
-    },{
-    "Id":870.0,
+},{
+    "Id":870,
     "Authors":"Descartes, Ren\u00e9",
     "Title":"I principi della filosofia",
     "Cities":"Bari",
@@ -8710,18 +8709,18 @@ const jsonData = [
     "Fund":"BTB Segn. 1828",
     "Segni":"Parzialmente intonso.",
     "Category":"F "
-    },{
-    "Id":871.0,
-    "Authors":null,
+},{
+    "Id":871,
+    "Authors":"Not found",
     "Title":"Descrizione delle sale accademiche al Boe del Liviano",
     "Cities":"Padova",
     "Publisher":"Officine grafiche STEDIV",
     "Years":1950,
     "Fund":"BTB Segn. 2308",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":872.0,
+    "Category":"HA"
+},{
+    "Id":872,
     "Authors":"De Stefani, Livia",
     "Title":"Gli affatturati",
     "Cities":"Milano",
@@ -8730,8 +8729,8 @@ const jsonData = [
     "Fund":"BTB Segn. 375",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":873.0,
+},{
+    "Id":873,
     "Authors":"De Stefani, Livia",
     "Title":".La vigna di uve nere",
     "Cities":"Milano",
@@ -8740,8 +8739,8 @@ const jsonData = [
     "Fund":"BTB Segn. 376",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":874.0,
+},{
+    "Id":874,
     "Authors":"De Tullio, Giovanni",
     "Title":"Manuale per l\u2019ufficiale in pacee in guerra",
     "Cities":"Milano",
@@ -8750,9 +8749,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2168-2170",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":875.0,
-    "Authors":null,
+},{
+    "Id":875,
+    "Authors":"Not found",
     "Title":"Deutsch-Italienisches und Italienisch-Deutsches Handw\u00f6rterbuch. Nuovo dizionario portatile italiano-tedesco e tedesco-italiano",
     "Cities":"Milano",
     "Publisher":"Pirotta",
@@ -8760,8 +8759,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2474-2476",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":876.0,
+},{
+    "Id":876,
     "Authors":"Deutscher, Isaac",
     "Title":"Il profeta disarmato: Leone Trotsky 1921-1929",
     "Cities":"Milano",
@@ -8769,9 +8768,9 @@ const jsonData = [
     "Years":1961,
     "Fund":"BTB Segn. 1747",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":877.0,
+    "Category":"P"
+},{
+    "Id":877,
     "Authors":"De Viti De Marco, Antonio",
     "Title":"La funzione della banca. Introduzione allo studio dei problemi monetari e bancari contemporanei",
     "Cities":"Torino",
@@ -8780,8 +8779,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2009",
     "Segni":"Intonso.",
     "Category":"T"
-    },{
-    "Id":878.0,
+},{
+    "Id":878,
     "Authors":"Devoto, Giacomo",
     "Title":"Grammatiche",
     "Cities":"Roma",
@@ -8789,9 +8788,9 @@ const jsonData = [
     "Years":1941,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":879.0,
+    "Category":"GR"
+},{
+    "Id":879,
     "Authors":"Devoto, Giacomo",
     "Title":"Studi di stilistica",
     "Cities":"Firenze",
@@ -8799,9 +8798,9 @@ const jsonData = [
     "Years":1950,
     "Fund":"BTM",
     "Segni":"Parzialmente intonso. Sottolineature e postille.",
-    "Category":"L"
-    },{
-    "Id":880.0,
+    "Category":"T"
+},{
+    "Id":880,
     "Authors":"Devoto, Giacomo \u2013 Migliorini, Bruno \u2013 Schiaffini, Alfredo",
     "Title":"Cento anni di lingua italiana",
     "Cities":"Milano",
@@ -8810,8 +8809,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":881.0,
+},{
+    "Id":881,
     "Authors":"Diano, Carlo",
     "Title":"Forma ed Evento. Principi per unainterpretazione del mondo greco",
     "Cities":"Venezia",
@@ -8820,8 +8819,8 @@ const jsonData = [
     "Fund":"BTB Segn. 25-26",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":882.0,
+},{
+    "Id":882,
     "Authors":"D\u00edaz Gonz\u00e1lez, Joaquin",
     "Title":"Scoperta d\u2019un grande segreto nel l\u2019arte del Giudizio Universale di Michelangelo",
     "Cities":"Roma",
@@ -8829,10 +8828,10 @@ const jsonData = [
     "Years":1954,
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore in data 16.12.1954.",
-    "Category":"SA"
-    },{
-    "Id":883.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":883,
+    "Authors":"Not found",
     "Title":"Diccionario de la literatura espa\u00f1ola",
     "Cities":"Madrid",
     "Publisher":"Revista de Occidente",
@@ -8840,18 +8839,18 @@ const jsonData = [
     "Fund":"BTB Segn. 937",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":884.0,
-    "Authors":null,
+},{
+    "Id":884,
+    "Authors":"Not found",
     "Title":"Diciottesima Esposizione Biennale Internazionale d\u2019Arte 1932: Catalogo",
     "Cities":"s.l.",
     "Publisher":"s.n.",
     "Years":1932,
     "Fund":"BTB Segn. 2208",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":885.0,
+    "Category":"HA"
+},{
+    "Id":885,
     "Authors":"Dickens, Charles",
     "Title":"Davide Copperfield",
     "Cities":"Milano",
@@ -8859,9 +8858,9 @@ const jsonData = [
     "Years":1939,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":886.0,
+    "Category":"AL"
+},{
+    "Id":886,
     "Authors":"Dickens, Charles",
     "Title":"Le magasin d\u2019antiquit\u00e9s",
     "Cities":"Paris",
@@ -8869,9 +8868,9 @@ const jsonData = [
     "Years":1913,
     "Fund":"BTB Segn. 1253-1254",
     "Segni":"Nota di possesso autografa di Enrico Gadda in data 10.1917.",
-    "Category":"EL"
-    },{
-    "Id":887.0,
+    "Category":"AL"
+},{
+    "Id":887,
     "Authors":"Dickinson, Emily",
     "Title":"Poesie",
     "Cities":"Milano",
@@ -8879,9 +8878,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BTB Segn. 1255",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":888.0,
+    "Category":"AL"
+},{
+    "Id":888,
     "Authors":"Dickson, Carter",
     "Title":"The bowstring murders",
     "Cities":"London",
@@ -8889,10 +8888,10 @@ const jsonData = [
     "Years":1944,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":889.0,
-    "Authors":null,
+    "Category":"AL"
+},{
+    "Id":889,
+    "Authors":"Not found",
     "Title":"Dictionnaire de la langue fran\u00e7aise",
     "Cities":"Paris",
     "Publisher":"Hachette",
@@ -8900,19 +8899,19 @@ const jsonData = [
     "Fund":"BTB Segn. 2411-2415",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":890.0,
-    "Authors":null,
-    "Title":"]Dictionnaire fran\u00e7ais-grec, compos\u00e9 sur le plan des meilleurs dictionnaires fran\u00e7aislatins",
+},{
+    "Id":890,
+    "Authors":"Not found",
+    "Title":"Dictionnaire fran\u00e7ais-grec, compos\u00e9 sur le plan des meilleurs dictionnaires fran\u00e7aislatins",
     "Cities":"Paris-Bruxelles  ",
     "Publisher":"Belin Mandar & Devaux",
     "Years":1828,
     "Fund":"BTB Segn. 2483",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":891.0,
-    "Authors":null,
+},{
+    "Id":891,
+    "Authors":"Not found",
     "Title":"Dictionnaire fran\u00e7aise-italienne",
     "Cities":"Paris",
     "Publisher":"Librairie Larousse",
@@ -8920,8 +8919,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Timbro di possesso \u00abIng. Ettore Roscioni\u00bb.",
     "Category":"D"
-    },{
-    "Id":892.0,
+},{
+    "Id":892,
     "Authors":"Diderot, Denis",
     "Title":"\u0152uvres",
     "Cities":"Paris",
@@ -8930,8 +8929,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":893.0,
+},{
+    "Id":893,
     "Authors":"Diderot, Denis",
     "Title":"La religiosa",
     "Cities":"Torino",
@@ -8940,8 +8939,8 @@ const jsonData = [
     "Fund":"BTB Segn. 982",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":894.0,
+},{
+    "Id":894,
     "Authors":"Diehl, Charles",
     "Title":"La civilt\u00e0 bizantina",
     "Cities":"Milano",
@@ -8949,9 +8948,9 @@ const jsonData = [
     "Years":1962,
     "Fund":"BTB Segn. 1454",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":895.0,
+    "Category":"H"
+},{
+    "Id":895,
     "Authors":"Diehl, Charles",
     "Title":"Teodora imperatrice di Bisanzio",
     "Cities":"Firenze",
@@ -8959,9 +8958,9 @@ const jsonData = [
     "Years":1939,
     "Fund":"BTB Segn. 1455",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":896.0,
+    "Category":"H"
+},{
+    "Id":896,
     "Authors":"Dieudonn\u00e9, Eug\u00e8ne",
     "Title":"La vie des for\u00e7ats.",
     "Cities":"Paris",
@@ -8970,8 +8969,8 @@ const jsonData = [
     "Fund":"BTB Segn. 983",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":897.0,
+},{
+    "Id":897,
     "Authors":"Di Lauro, Raffaele",
     "Title":"Le terre del Lago Tsana. Possibilit\u00e0 economiche attuali del Nord Ovest etiopico",
     "Cities":"Roma",
@@ -8980,8 +8979,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2378",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":898.0,
+},{
+    "Id":898,
     "Authors":"Dimier, Louis",
     "Title":"La vie raisonnable de Descartes",
     "Cities":"Paris",
@@ -8989,9 +8988,9 @@ const jsonData = [
     "Years":1926,
     "Fund":"BTB Segn. 1123",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":899.0,
+    "Category":"P"
+},{
+    "Id":899,
     "Authors":"Di Pino, Guido",
     "Title":"La polemica del Boccaccio",
     "Cities":"Firenze",
@@ -8999,10 +8998,10 @@ const jsonData = [
     "Years":1953,
     "Fund":"BTB Segn. 2378",
     "Segni":"Dedica dell\u2019autore.",
-    "Category":"L"
-    },{
-    "Id":900.0,
-    "Authors":null,
+    "Category":"IL"
+},{
+    "Id":900,
+    "Authors":"Not found",
     "Title":"La Direttissima Bologna-Firenze",
     "Cities":"Roma",
     "Publisher":"Ministero Lavori Pubblici",
@@ -9010,9 +9009,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2268-2269",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":901.0,
-    "Authors":null,
+},{
+    "Id":901,
+    "Authors":"Not found",
     "Title":"Discorsi celebrativi dell\u2019entrata dell\u2019Italia nelle Nazioni Unite (Roma 31 gennaio 1956)",
     "Cities":"Roma",
     "Publisher":"ITI",
@@ -9020,9 +9019,9 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":902.0,
-    "Authors":null,
+},{
+    "Id":902,
+    "Authors":"Not found",
     "Title":"Dizionario biografico universale",
     "Cities":"Milano",
     "Publisher":"Guigoni",
@@ -9030,9 +9029,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2468-2469",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":903.0,
-    "Authors":null,
+},{
+    "Id":903,
+    "Authors":"Not found",
     "Title":"Dizionario degli autori",
     "Cities":"Milano",
     "Publisher":"Fabbri",
@@ -9040,9 +9039,9 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":904.0,
-    "Authors":null,
+},{
+    "Id":904,
+    "Authors":"Not found",
     "Title":"Dizionario della lingua italiana",
     "Cities":"Torino",
     "Publisher":"UTET",
@@ -9050,9 +9049,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2498-2504",
     "Segni":"Postille.",
     "Category":"D"
-    },{
-    "Id":905.0,
-    "Authors":null,
+},{
+    "Id":905,
+    "Authors":"Not found",
     "Title":"Dizionario delle battaglie.",
     "Cities":null,
     "Publisher":".",
@@ -9060,9 +9059,9 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 81",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":906.0,
-    "Authors":null,
+},{
+    "Id":906,
+    "Authors":"Not found",
     "Title":"Dizionario Garzanti francese-italiano italiano-francese. Diretto da U. Salati per la redazione lessicografica Garzanti diretta da G. Cusatelli con la supervisione G",
     "Cities":"Milano",
     "Publisher":"Garzanti",
@@ -9070,9 +9069,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2491",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":907.0,
-    "Authors":null,
+},{
+    "Id":907,
+    "Authors":"Not found",
     "Title":"Dizionario Garzanti franceseitaliano italiano-francese",
     "Cities":"Milano",
     "Publisher":"Garzanti",
@@ -9080,9 +9079,9 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 12",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":908.0,
-    "Authors":null,
+},{
+    "Id":908,
+    "Authors":"Not found",
     "Title":"Dizionario inglese-italiano",
     "Cities":"Milano",
     "Publisher":"Bietti",
@@ -9090,9 +9089,9 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":909.0,
-    "Authors":null,
+},{
+    "Id":909,
+    "Authors":"Not found",
     "Title":"Dizionario italiano-spagnolo spa gnolo-italiano",
     "Cities":"Firenze",
     "Publisher":"Barbera",
@@ -9100,9 +9099,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2478-2479",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":910.0,
-    "Authors":null,
+},{
+    "Id":910,
+    "Authors":"Not found",
     "Title":"Dizionario latino-italiano e italiano-latino",
     "Cities":"Torino",
     "Publisher":"Rosenberg e Sellier",
@@ -9110,9 +9109,9 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":911.0,
-    "Authors":null,
+},{
+    "Id":911,
+    "Authors":"Not found",
     "Title":"Dizionario letterario delle opere e dei personaggi di tutti i tempi e di tutte le letterature",
     "Cities":"Milano",
     "Publisher":"Bompiani",
@@ -9120,9 +9119,9 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":912.0,
-    "Authors":null,
+},{
+    "Id":912,
+    "Authors":"Not found",
     "Title":"Dizionario tascabile italianotedesco tedesco-italiano con indicazione della pronuncia secondo il sistema fonetico del metodo Toussaint-Langenschei dt",
     "Cities":"Milano",
     "Publisher":"Hoepli",
@@ -9130,8 +9129,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2463-2464",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":913.0,
+},{
+    "Id":913,
     "Authors":"Dobelli, Ferdinando",
     "Title":"I Papi da San Pietro a Pio IX",
     "Cities":"Roma",
@@ -9139,9 +9138,9 @@ const jsonData = [
     "Years":1889,
     "Fund":null,
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":914.0,
+    "Category":"H"
+},{
+    "Id":914,
     "Authors":"Dobzhansky, Theodosius",
     "Title":"L\u2019evoluzione della specie umana",
     "Cities":"Torino",
@@ -9150,9 +9149,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2119",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":915.0,
-    "Authors":null,
+},{
+    "Id":915,
+    "Authors":"Not found",
     "Title":"Die Dolomiten",
     "Cities":"s.l.",
     "Publisher":"s.e.",
@@ -9160,8 +9159,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":916.0,
+},{
+    "Id":916,
     "Authors":"Dommarco, Alessandro",
     "Title":"T\u00e8mbe st\u00f2rte. Poesie in dialetto abruzzese",
     "Cities":"Roma",
@@ -9170,8 +9169,8 @@ const jsonData = [
     "Fund":"BTB Segn. 377",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":917.0,
+},{
+    "Id":917,
     "Authors":"Doni, Anton Francesco",
     "Title":"Le pi\u00f9 belle pagine",
     "Cities":"Milano",
@@ -9180,8 +9179,8 @@ const jsonData = [
     "Fund":"BTB Segn. 378",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":918.0,
+},{
+    "Id":918,
     "Authors":"Doniselli, Casimiro",
     "Title":"La fisiologia del labirinto e i sensi generali matematici (spazio, tempo, numero). Estratto da \u00abArchivio di filosofia\u00bb, XI",
     "Cities":null,
@@ -9190,8 +9189,8 @@ const jsonData = [
     "Fund":"BTM",
     "Segni":"Nota di possesso e data 10.06.1924. Dono del prof. Casimiro Doniselli. Sottolineature e postille.",
     "Category":"T"
-    },{
-    "Id":919.0,
+},{
+    "Id":919,
     "Authors":"Doniselli, Casimiro",
     "Title":"Problemi di psicofisiologia dell\u2019udito e della fonazione. Estratto da \u00abAtti della Societ\u00e0 Italiana di Scienze Naturali\u00bb, IX (1921).",
     "Cities":"Pavia",
@@ -9200,8 +9199,8 @@ const jsonData = [
     "Fund":"BTM",
     "Segni":"Nota di possesso e data 10.06.1924 Milano.",
     "Category":"T"
-    },{
-    "Id":920.0,
+},{
+    "Id":920,
     "Authors":"Doplicher, Fabio",
     "Title":"Il girochiuso",
     "Cities":"Roma",
@@ -9210,8 +9209,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":921.0,
+},{
+    "Id":921,
     "Authors":"Dorico, Enea",
     "Title":"Guglielmo Tell il liberatore della Svizzera",
     "Cities":"Milano",
@@ -9219,9 +9218,9 @@ const jsonData = [
     "Years":1889,
     "Fund":"BAL",
     "Segni":"Nota di possesso di Enrico Gadda.",
-    "Category":"S"
-    },{
-    "Id":922.0,
+    "Category":"H"
+},{
+    "Id":922,
     "Authors":"D\u2019Ors, Eugenio",
     "Title":"Epopea della Spagna. Padovani",
     "Cities":"Milano",
@@ -9229,9 +9228,9 @@ const jsonData = [
     "Years":1948,
     "Fund":"BTB Segn. 1587",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":923.0,
+    "Category":"H"
+},{
+    "Id":923,
     "Authors":"D\u2019Ors, Eugenio",
     "Title":"Gigiotti Zanini",
     "Cities":"Milano",
@@ -9239,9 +9238,9 @@ const jsonData = [
     "Years":1953,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":924.0,
+    "Category":"H"
+},{
+    "Id":924,
     "Authors":"D\u2019Ors, Eugenio",
     "Title":"La valle di Giosafat",
     "Cities":"Milano",
@@ -9249,9 +9248,9 @@ const jsonData = [
     "Years":1945,
     "Fund":"BTB Segn. 914",
     "Segni":"Dedica del traduttore.",
-    "Category":"S"
-    },{
-    "Id":925.0,
+    "Category":"H"
+},{
+    "Id":925,
     "Authors":"Dos Passos, John",
     "Title":"42e parall\u00e8le",
     "Cities":"Paris",
@@ -9259,9 +9258,9 @@ const jsonData = [
     "Years":1933,
     "Fund":"BTB Segn. 1256",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":926.0,
+    "Category":"AL"
+},{
+    "Id":926,
     "Authors":"Dossi, Carlo",
     "Title":"Dossi",
     "Cities":"Milano",
@@ -9270,8 +9269,8 @@ const jsonData = [
     "Fund":"BTB Segn. 379",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":927.0,
+},{
+    "Id":927,
     "Authors":"Dostoevskij, F\u00ebdor Michajlovi\u010d",
     "Title":"Delitto e castigo",
     "Cities":"Milano",
@@ -9280,8 +9279,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1360-1361",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":928.0,
+},{
+    "Id":928,
     "Authors":"Dostoevskij, F\u00ebdor Michajlovi\u010d",
     "Title":"Delitto e castigo",
     "Cities":"Firenze",
@@ -9290,8 +9289,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":929.0,
+},{
+    "Id":929,
     "Authors":"Dostoevskij, F\u00ebdor Michajlovi\u010d",
     "Title":"I demoni",
     "Cities":"Torino",
@@ -9300,8 +9299,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1358 bis-1359",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":930.0,
+},{
+    "Id":930,
     "Authors":"Dostoevskij, F\u00ebdor Michajlovi\u010d",
     "Title":"I fratelli Karamazov",
     "Cities":"Torino",
@@ -9310,8 +9309,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1363-1366",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":931.0,
+},{
+    "Id":931,
     "Authors":"Dostoevskij, F\u00ebdor Michajlovi\u010d",
     "Title":"I fratelli Karam\u00e0zov",
     "Cities":"Milano",
@@ -9320,8 +9319,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1362",
     "Segni":"Intonso.",
     "Category":"RL"
-    },{
-    "Id":932.0,
+},{
+    "Id":932,
     "Authors":"Dostoevskij, F\u00ebdor Michajlovi\u010d",
     "Title":"Il giocatore",
     "Cities":"Torino",
@@ -9330,8 +9329,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1367",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":933.0,
+},{
+    "Id":933,
     "Authors":"Dostoevskij, F\u00ebdor Michajlovi\u010d",
     "Title":"L\u2019idiota",
     "Cities":"Torino",
@@ -9340,8 +9339,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1359 bis",
     "Segni":"Parzialmente intonso.",
     "Category":"RL"
-    },{
-    "Id":934.0,
+},{
+    "Id":934,
     "Authors":"Dostoevskij, F\u00ebdor Michajlovi\u010d",
     "Title":"Memorie di una casa morta",
     "Cities":"Milano",
@@ -9350,8 +9349,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1368",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":935.0,
+},{
+    "Id":935,
     "Authors":"Dostoevskij, F\u00ebdor Michajlovi\u010d",
     "Title":"Povera gente",
     "Cities":"Lanciano",
@@ -9360,8 +9359,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1369",
     "Segni":"Nota di possesso autografa di Enrico Gadda in data 07.1917 S. Giustina.",
     "Category":"RL"
-    },{
-    "Id":936.0,
+},{
+    "Id":936,
     "Authors":"Dostoevskij, F\u00ebdor Michajlovi\u010d",
     "Title":"Racconti e romanzi.",
     "Cities":"Firenze",
@@ -9370,8 +9369,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1370",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":937.0,
+},{
+    "Id":937,
     "Authors":"Dostoevskij, F\u00ebdor Michajlovi\u010d",
     "Title":"I Ragazzi",
     "Cities":"Milano",
@@ -9380,8 +9379,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Nota di possesso di Enrico Gadda in data 1917 Malpensa.",
     "Category":"RL"
-    },{
-    "Id":938.0,
+},{
+    "Id":938,
     "Authors":"Dostoevskij, F\u00ebdor Michajlovi\u010d",
     "Title":"Il sosia",
     "Cities":"Milano",
@@ -9390,8 +9389,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":939.0,
+},{
+    "Id":939,
     "Authors":"Dostoevskij, F\u00ebdor Michajlovi\u010d",
     "Title":"Umiliati e offesi",
     "Cities":"Sesto San Giovanni",
@@ -9400,8 +9399,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1371",
     "Segni":"Parzialmente intonso.",
     "Category":"RL"
-    },{
-    "Id":940.0,
+},{
+    "Id":940,
     "Authors":"Dostoevskij, F\u00ebdor Michajlovi\u010d",
     "Title":"Umiliati e offesi",
     "Cities":"Torino",
@@ -9410,8 +9409,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1372",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":941.0,
+},{
+    "Id":941,
     "Authors":null,
     "Title":"Dove a Milano",
     "Cities":"Milano",
@@ -9420,8 +9419,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2353",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":942.0,
+},{
+    "Id":942,
     "Authors":"D\u2019Ovidio, Francesco",
     "Title":"Versificazione romanza. Poetica e poesia medioevale",
     "Cities":"Napoli",
@@ -9429,9 +9428,9 @@ const jsonData = [
     "Years":1932,
     "Fund":"BTB Segn. 2428",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":943.0,
+    "Category":"GR"
+},{
+    "Id":943,
     "Authors":"Dubois Janni, Th\u00e9r\u00e8se",
     "Title":"August Strindberg. Una biografia",
     "Cities":"Milano",
@@ -9439,9 +9438,9 @@ const jsonData = [
     "Years":1970,
     "Fund":"BTB Segn. 1408",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":944.0,
+    "Category":"V"
+},{
+    "Id":944,
     "Authors":"Du Bos, Charles",
     "Title":"Approximations: 4e s\u00e9rie",
     "Cities":"Paris",
@@ -9449,9 +9448,9 @@ const jsonData = [
     "Years":1948,
     "Fund":"BTB Segn. 884",
     "Segni":"Parzialmente intonso.",
-    "Category":"L"
-    },{
-    "Id":945.0,
+    "Category":"V"
+},{
+    "Id":945,
     "Authors":"Dubreuil, Hyacinthe",
     "Title":"Nouveaux standards",
     "Cities":"Paris",
@@ -9460,8 +9459,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2010",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":946.0,
+},{
+    "Id":946,
     "Authors":"Ducati, Pericle",
     "Title":"Lisippo",
     "Cities":"Roma",
@@ -9469,9 +9468,9 @@ const jsonData = [
     "Years":1930,
     "Fund":"BTB Segn. 2178",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":947.0,
+    "Category":"H"
+},{
+    "Id":947,
     "Authors":"Ducati, Pericle",
     "Title":" Il santuario di Olimpia",
     "Cities":"Roma",
@@ -9480,8 +9479,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2179-2180",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":948.0,
+},{
+    "Id":948,
     "Authors":"Ducati, Pericle",
     "Title":" Storia d\u2019Italia illustrata. I. L\u2019Italia antica",
     "Cities":"Milano",
@@ -9489,9 +9488,9 @@ const jsonData = [
     "Years":1936,
     "Fund":"BTB Segn. 1566",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":949.0,
+    "Category":"H"
+},{
+    "Id":949,
     "Authors":"Duclos, Adolphe",
     "Title":"Bruges en un jour",
     "Cities":"Bruges",
@@ -9500,8 +9499,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2289",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":950.0,
+},{
+    "Id":950,
     "Authors":"Dugas, Ludovic",
     "Title":"Vocabulaire de psychologie",
     "Cities":"Paris",
@@ -9510,8 +9509,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1997",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":951.0,
+},{
+    "Id":951,
     "Authors":"Dulles, John Foster",
     "Title":"Gli Stati Uniti e i problemi mondiali",
     "Cities":" s.l",
@@ -9520,8 +9519,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 80",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":952.0,
+},{
+    "Id":952,
     "Authors":"Dumas, Alexandre",
     "Title":"I Borgia",
     "Cities":"Milano",
@@ -9529,9 +9528,9 @@ const jsonData = [
     "Years":1936,
     "Fund":"BTB Segn. 1515",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":953.0,
+    "Category":"H"
+},{
+    "Id":953,
     "Authors":"Dupouy, Auguste",
     "Title":"G\u00e9ographie des lettres fran\u00e7aises",
     "Cities":"Paris",
@@ -9540,8 +9539,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1124",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":954.0,
+},{
+    "Id":954,
     "Authors":"Duproix, Paul",
     "Title":"Kant et Fichte et le probl\u00e8me de l\u2019\u00e9ducation",
     "Cities":"Gen\u00e8ve",
@@ -9550,8 +9549,8 @@ const jsonData = [
     "Fund":"BTM",
     "Segni":"Sottolineature e postille.",
     "Category":"F "
-    },{
-    "Id":955.0,
+},{
+    "Id":955,
     "Authors":"Dupuy, Th\u00e9odore",
     "Title":"Un moraliste sceptique et un po\u00e8te satirique du XVI si\u00e8cle. Michel Montaigne et Mathurin R\u00e9gnier",
     "Cities":"Milan",
@@ -9560,8 +9559,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1125",
     "Segni":"Dedica dell\u2019autore ad Adele Gadda Lehr.",
     "Category":"FL"
-    },{
-    "Id":956.0,
+},{
+    "Id":956,
     "Authors":"Duran, Jorge Ga\u00edtan",
     "Title":"El libertino",
     "Cities":"Bogot\u00e0",
@@ -9570,8 +9569,8 @@ const jsonData = [
     "Fund":"BTB Segn. 915",
     "Segni":"Dedica dell\u2019autore. Intonso.",
     "Category":"SL"
-    },{
-    "Id":957.0,
+},{
+    "Id":957,
     "Authors":"Durrell, Lawrence",
     "Title":"L\u2019ineffabile Antrobus",
     "Cities":"Milano",
@@ -9579,9 +9578,9 @@ const jsonData = [
     "Years":1966,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":958.0,
+    "Category":"AL"
+},{
+    "Id":958,
     "Authors":"Dwelshauvers, Georges",
     "Title":"La psychologie fran\u00e7aise contemporaine",
     "Cities":"Paris",
@@ -9590,8 +9589,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1998",
     "Segni":"E",
     "Category":"F "
-    },{
-    "Id":959.0,
+},{
+    "Id":959,
     "Authors":"Eckermann, Johann Peter",
     "Title":"Colloqui con Goethe",
     "Cities":"Firenze",
@@ -9600,8 +9599,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1224-1225",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":960.0,
+},{
+    "Id":960,
     "Authors":"Eckermann, Johann Peter",
     "Title":"Gespr\u00e4che mit Goethe",
     "Cities":"Weimar",
@@ -9610,8 +9609,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1226",
     "Segni":"Nota di possesso autografa in data 1918  Celle, Hannover. Sottolineature.",
     "Category":"GL"
-    },{
-    "Id":961.0,
+},{
+    "Id":961,
     "Authors":"Eddington, Arthur Stanley",
     "Title":"Luci dall\u2019infinito",
     "Cities":"Milano",
@@ -9620,8 +9619,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2067",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":962.0,
+},{
+    "Id":962,
     "Authors":"Einstein, Albert",
     "Title":"La th\u00e9orie de la relativit\u00e9 restreinte et g\u00e9n\u00e9ralis\u00e9e (mise \u00e0 la port\u00e9e de tout le monde)",
     "Cities":"Paris",
@@ -9630,19 +9629,19 @@ const jsonData = [
     "Fund":"BTB Segn. 2069",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":963.0,
-    "Authors":null,
+},{
+    "Id":963,
+    "Authors":"Not found",
     "Title":"Gli Eleati: Frammenti",
     "Cities":"Lanciano",
     "Publisher":"Carabba",
     "Years":"s.d.",
     "Fund":"BTB Segn. 1829",
     "Segni":"Nota di possesso autografa in data 9.03.1921.",
-    "Category":"F"
-    },{
-    "Id":964.0,
-    "Authors":null,
+    "Category":"P"
+},{
+    "Id":964,
+    "Authors":"Not found",
     "Title":"Electricity in Mining",
     "Cities":"Berlino",
     "Publisher":"SiemensSchuckertwerke",
@@ -9650,9 +9649,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2105",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":965.0,
-    "Authors":null,
+},{
+    "Id":965,
+    "Authors":"Not found",
     "Title":"Elenco degli allievi morti in guerra ai quali \u00e8 stata conferita la laurea ad honorem",
     "Cities":"Milano",
     "Publisher":"Istituti superiori di Milano",
@@ -9660,9 +9659,9 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":966.0,
-    "Authors":null,
+},{
+    "Id":966,
+    "Authors":"Not found",
     "Title":"Elenco degli allievi morti in guerra ai quali \u00e8 stata conferita la laurea d\u2019onore 27 gennaio 1919",
     "Cities":"Milano",
     "Publisher":"Istituti superiori di Milano",
@@ -9670,9 +9669,9 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":967.0,
-    "Authors":null,
+},{
+    "Id":967,
+    "Authors":"Not found",
     "Title":"Elenco dei soci 1912-1913- 1914-1915",
     "Cities":"Milano",
     "Publisher":"Circolo filologico milanese",
@@ -9680,8 +9679,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":968.0,
+},{
+    "Id":968,
     "Authors":"Elfenhans, Theodor",
     "Title":"Psychologie und Logik zur Einf\u00fc hrung in die Philosophie",
     "Cities":"Leipzig",
@@ -9689,9 +9688,9 @@ const jsonData = [
     "Years":1914,
     "Fund":"BAL",
     "Segni":"Nota di possesso autografa. Postille.",
-    "Category":"F"
-    },{
-    "Id":969.0,
+    "Category":"P"
+},{
+    "Id":969,
     "Authors":"Elia, Olga",
     "Title":"Xenion: nature morte e paesaggi campani",
     "Cities":"Pompei",
@@ -9699,9 +9698,9 @@ const jsonData = [
     "Years":1958,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":970.0,
+    "Category":"HA"
+},{
+    "Id":970,
     "Authors":"Eliot, Thomas Stearns",
     "Title":"Little Gidding",
     "Cities":"s.l.",
@@ -9709,10 +9708,10 @@ const jsonData = [
     "Years":1944,
     "Fund":"BTB Segn. 1257",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":971.0,
-    "Authors":null,
+    "Category":"AL"
+},{
+    "Id":971,
+    "Authors":"Not found",
     "Title":"Enciclopedia britannica",
     "Cities":"London",
     "Publisher":"s.n.",
@@ -9720,9 +9719,9 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":972.0,
-    "Authors":null,
+},{
+    "Id":972,
+    "Authors":"Not found",
     "Title":"Enciclopedia Garzanti della letteratura",
     "Cities":"Milano",
     "Publisher":"Garzanti",
@@ -9730,9 +9729,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2488-2489",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":973.0,
-    "Authors":null,
+},{
+    "Id":973,
+    "Authors":"Not found",
     "Title":"Enciclopedia italiana",
     "Cities":"Roma",
     "Publisher":"Istituto dell\u2019Enciclopedia Italiana",
@@ -9740,9 +9739,9 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 13",
     "Segni":"Annotazione sull\u2019ultima pagina.",
     "Category":"D"
-    },{
-    "Id":974.0,
-    "Authors":null,
+},{
+    "Id":974,
+    "Authors":"Not found",
     "Title":"Enciclopedia Treccani",
     "Cities":"Milano",
     "Publisher":"E. Bestetti",
@@ -9750,9 +9749,9 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":975.0,
-    "Authors":null,
+},{
+    "Id":975,
+    "Authors":"Not found",
     "Title":"Energia atomica per la guerra?Per la pace? ",
     "Cities":"Roma",
     "Publisher":"U.S.I.S.",
@@ -9760,9 +9759,9 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":976.0,
-    "Authors":null,
+},{
+    "Id":976,
+    "Authors":"Not found",
     "Title":"English-Italian and ItalianEnglish",
     "Cities":"s.l.",
     "Publisher":"s.e.",
@@ -9770,18 +9769,18 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":977.0,
-    "Authors":null,
+},{
+    "Id":977,
+    "Authors":"Not found",
     "Title":"English literature",
     "Cities":"London",
     "Publisher":"Enciclopedia Britannica",
     "Years":1958,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":978.0,
+    "Category":"AL"
+},{
+    "Id":978,
     "Authors":"Enriques, Federigo \u2013 Amaldi, Ugo",
     "Title":"Geometria elementare per lescuole secondarie superiori. Parteseconda. Geometria solida",
     "Cities":"Bologna",
@@ -9790,18 +9789,18 @@ const jsonData = [
     "Fund":"BTB Segn. 2121",
     "Segni":"Segnalibro inserito. Nota di possesso, Ing. C.E. Gadda 29.10.1924 Milano.",
     "Category":"T"
-    },{
-    "Id":979.0,
-    "Authors":null,
+},{
+    "Id":979,
+    "Authors":"Not found",
     "Title":"Environs de Paris.",
     "Cities":"Paris",
     "Publisher":"Hachette",
     "Years":1952,
     "Fund":"BTB Segn. 2318",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":980.0,
+    "Category":"G"
+},{
+    "Id":980,
     "Authors":"Epitteto",
     "Title":"Il manuale",
     "Cities":"Milano",
@@ -9809,9 +9808,9 @@ const jsonData = [
     "Years":1913,
     "Fund":"BTB Segn. 1830",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":981.0,
+    "Category":"P"
+},{
+    "Id":981,
     "Authors":"Epitteto",
     "Title":"Manuel traduit du grec, avec les Commentaires de Simplicius, le nouveau manuel et le Tableau de C\u00e9b\u00e8s",
     "Cities":"Paris",
@@ -9819,9 +9818,9 @@ const jsonData = [
     "Years":1790,
     "Fund":"BTB Segn. 1831",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":982.0,
+    "Category":"P"
+},{
+    "Id":982,
     "Authors":"Eraclito",
     "Title":"Frammenti e testimonianze",
     "Cities":"Lanciano",
@@ -9829,9 +9828,9 @@ const jsonData = [
     "Years":1919,
     "Fund":"BTB Segn. 1832",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":983.0,
+    "Category":"P"
+},{
+    "Id":983,
     "Authors":"Ermini, Filippo",
     "Title":"Benedetto da Norcia",
     "Cities":"Roma",
@@ -9840,8 +9839,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1786",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":984.0,
+},{
+    "Id":984,
     "Authors":"Eschilo",
     "Title":"Le Eumenidi",
     "Cities":"Milano-Roma-Napoli",
@@ -9850,8 +9849,8 @@ const jsonData = [
     "Fund":"BTB Segn. 5",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":985.0,
+},{
+    "Id":985,
     "Authors":"Eschilo",
     "Title":"Orestiade",
     "Cities":"Torino",
@@ -9860,8 +9859,8 @@ const jsonData = [
     "Fund":"BTB Segn. 4",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":986.0,
+},{
+    "Id":986,
     "Authors":"Eschilo",
     "Title":"I Persiani",
     "Cities":"Bologna",
@@ -9870,8 +9869,8 @@ const jsonData = [
     "Fund":"BTB Segn. 7",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":987.0,
+},{
+    "Id":987,
     "Authors":"Eschilo",
     "Title":"Il Prometeo legato",
     "Cities":"Milano",
@@ -9880,8 +9879,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":988.0,
+},{
+    "Id":988,
     "Authors":"Eschilo",
     "Title":"Le Suppliche",
     "Cities":"Torino",
@@ -9890,8 +9889,8 @@ const jsonData = [
     "Fund":"BTB Segn. 6",
     "Segni":"Intonso.",
     "Category":"CL"
-    },{
-    "Id":989.0,
+},{
+    "Id":989,
     "Authors":"Eschilo",
     "Title":"Le Supplici; I Persiani; I Settecontro Tebe; Prometeo legato",
     "Cities":"Milano",
@@ -9900,8 +9899,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2-3",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":990.0,
+},{
+    "Id":990,
     "Authors":"Esenin, Sergej Aleksandrovi\u010d",
     "Title":"Canto liturgico",
     "Cities":"Milano",
@@ -9909,9 +9908,9 @@ const jsonData = [
     "Years":1938,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":991.0,
+    "Category":"V"
+},{
+    "Id":991,
     "Authors":"Esercito Italiano. Comando supremo",
     "Title":"Addestramento dei riparti all\u2019attacco nella guerra di trincee",
     "Cities":"s.l.",
@@ -9920,8 +9919,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 125",
     "Segni":"Intonso.",
     "Category":"M"
-    },{
-    "Id":992.0,
+},{
+    "Id":992,
     "Authors":"Esercito Italiano. Comando supremo",
     "Title":"Clima e acque dell\u2019Altipiano dei Sette Comuni",
     "Cities":"s.l.",
@@ -9930,8 +9929,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 121",
     "Segni":null,
     "Category":"M"
-    },{
-    "Id":993.0,
+},{
+    "Id":993,
     "Authors":"Esercito Italiano. Comando supremo",
     "Title":"Criteri d\u2019impiego della fanterianella guerra di trincee. s.l., R",
     "Cities":"s.l.",
@@ -9940,8 +9939,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 120",
     "Segni":null,
     "Category":"M"
-    },{
-    "Id":994.0,
+},{
+    "Id":994,
     "Authors":"Esercito Italiano. Comando supremo",
     "Title":"Impiego delle mitragliatrici.s.l",
     "Cities":"s.l.",
@@ -9950,8 +9949,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 122",
     "Segni":null,
     "Category":"M"
-    },{
-    "Id":995.0,
+},{
+    "Id":995,
     "Authors":"Esercito Italiano. Comando supremo",
     "Title":"Varianti provvisorie ai n. 107,113,114, 116, 117 e relativi allegati del Servizio in Guerra, parteI. s.l., R",
     "Cities":"s.l.",
@@ -9960,8 +9959,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 123-124",
     "Segni":"Due copie, di cui una intonsa.",
     "Category":"M"
-    },{
-    "Id":996.0,
+},{
+    "Id":996,
     "Authors":"Esiodo",
     "Title":"Teogonia esiodea",
     "Cities":"Bologna",
@@ -9970,8 +9969,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1969",
     "Segni":"Parzialmente intonso.",
     "Category":"CL"
-    },{
-    "Id":997.0,
+},{
+    "Id":997,
     "Authors":"Esopo",
     "Title":"Favole",
     "Cities":"Milano",
@@ -9980,9 +9979,9 @@ const jsonData = [
     "Fund":"BTB Segn. 8",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":998.0,
-    "Authors":null,
+},{
+    "Id":998,
+    "Authors":"Not found",
     "Title":"Espagne",
     "Cities":"Paris",
     "Publisher":"Hachette",
@@ -9990,9 +9989,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2316",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":999.0,
-    "Authors":null,
+},{
+    "Id":999,
+    "Authors":"Not found",
     "Title":"Espagne Michelin",
     "Cities":"Paris",
     "Publisher":"Pneu Michelin Services de tourisme",
@@ -10000,8 +9999,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2383",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":1000.0,
+},{
+    "Id":1000,
     "Authors":"Euripide",
     "Title":"Alcesti; Il Ciclope",
     "Cities":"Milano",
@@ -10010,8 +10009,8 @@ const jsonData = [
     "Fund":"BTB Segn. 9",
     "Segni":"Postille.",
     "Category":"CL"
-    },{
-    "Id":1001.0,
+},{
+    "Id":1001,
     "Authors":"Evans, Ivor",
     "Title":"The use of English",
     "Cities":"London",
@@ -10019,19 +10018,19 @@ const jsonData = [
     "Years":1949,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":1002.0,
-    "Authors":null,
-    "Title":"] Exhibition of Masterpieces of\nEuropean Painting XV-XVII Century. Catalogue",
+    "Category":"AL"
+},{
+    "Id":1002,
+    "Authors":"Not found",
+    "Title":" Exhibition of Masterpieces of\nEuropean Painting XV-XVII Century. Catalogue",
     "Cities":"Roma",
     "Publisher":"Division of Fine Arts \u2013 Region IV \u2013 Allied Military Government",
     "Years":1944,
     "Fund":"BTB Segn. 2207",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1003.0,
+    "Category":"HA"
+},{
+    "Id":1003,
     "Authors":"Fabre, Alessandro",
     "Title":"Dizionarietto della mitologia greca e romana ad uso dell\u2019onesta giovent\u00f9 italiana con un\u2019appen-dice sulle principali divinit\u00e0 di altri popoli",
     "Cities":"Torino",
@@ -10040,8 +10039,8 @@ const jsonData = [
     "Fund":"BTB Segn. 119",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":1004.0,
+},{
+    "Id":1004,
     "Authors":"Fagiolo Dell\u2019Arco, Maurizio",
     "Title":"Rapporto 60. Le arti oggi in Italia",
     "Cities":"Roma",
@@ -10049,9 +10048,9 @@ const jsonData = [
     "Years":1966,
     "Fund":"BTB Segn. 2226",
     "Segni":"Dedica dell\u2019autore.",
-    "Category":"SA"
-    },{
-    "Id":1005.0,
+    "Category":"HA"
+},{
+    "Id":1005,
     "Authors":"Fagiolo Dell\u2019Arco, Maurizio \u2013 Fagiolo, Marcello",
     "Title":"Bernini: una introduzione al gran teatro del barocco",
     "Cities":"Roma",
@@ -10059,9 +10058,9 @@ const jsonData = [
     "Years":1967,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1006.0,
+    "Category":"HA"
+},{
+    "Id":1006,
     "Authors":"Falangola, M.E.",
     "Title":"Fanciulle, dame e mariti in Francia nel sec. XVI",
     "Cities":"Roma",
@@ -10069,9 +10068,9 @@ const jsonData = [
     "Years":1935,
     "Fund":"BTB Segn. Op. 3",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1007.0,
+    "Category":"H"
+},{
+    "Id":1007,
     "Authors":"Faldella, Giovanni",
     "Title":"Figurine",
     "Cities":"Milano",
@@ -10079,9 +10078,9 @@ const jsonData = [
     "Years":1875,
     "Fund":"BTB Segn. 380",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1008.0,
+    "Category":"V"
+},{
+    "Id":1008,
     "Authors":"Faldella, Giovanni",
     "Title":"Le \u00abfigurine\u00bb",
     "Cities":"Milano",
@@ -10089,9 +10088,9 @@ const jsonData = [
     "Years":1942,
     "Fund":"BTB Segn. 381",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1009.0,
+    "Category":"V"
+},{
+    "Id":1009,
     "Authors":"Falorsi, Guido",
     "Title":"Storia antica. Storia greca",
     "Cities":"Livorno",
@@ -10099,9 +10098,9 @@ const jsonData = [
     "Years":1901,
     "Fund":"BTB Segn. 1456",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1010.0,
+    "Category":"H"
+},{
+    "Id":1010,
     "Authors":"Falorsi, Guido",
     "Title":"Storia antica. Storia romana",
     "Cities":"Livorno",
@@ -10109,9 +10108,9 @@ const jsonData = [
     "Years":1901,
     "Fund":"BTB Segn. 1457",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1011.0,
+    "Category":"H"
+},{
+    "Id":1011,
     "Authors":"Falqui, Enrico",
     "Title":"Magalottiana. Saggi tre",
     "Cities":"Urbino",
@@ -10119,9 +10118,9 @@ const jsonData = [
     "Years":1949,
     "Fund":"BTB Segn. 804",
     "Segni":"Dedica dell\u2019autore in data 1952.",
-    "Category":"L"
-    },{
-    "Id":1012.0,
+    "Category":"V"
+},{
+    "Id":1012,
     "Authors":"Falqui, Enrico",
     "Title":"Piet\u00e0 per i vivi",
     "Cities":"Catania",
@@ -10129,9 +10128,9 @@ const jsonData = [
     "Years":1950,
     "Fund":"BTB Segn. 382",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1013.0,
+    "Category":"IL"
+},{
+    "Id":1013,
     "Authors":"Fast, Howard",
     "Title":"Spartacus",
     "Cities":"Milano",
@@ -10139,9 +10138,9 @@ const jsonData = [
     "Years":1959,
     "Fund":"BTB Segn. 1258",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":1014.0,
+    "Category":"AL"
+},{
+    "Id":1014,
     "Authors":"Fatta, Corrado",
     "Title":"Il regno di Enrico VIII d\u2019Inghilterra",
     "Cities":"Firenze",
@@ -10149,9 +10148,9 @@ const jsonData = [
     "Years":1938,
     "Fund":"BTB Segn. 1715-1716",
     "Segni":"Volume II intonso. Sottolineature e postille.",
-    "Category":"S"
-    },{
-    "Id":1015.0,
+    "Category":"H"
+},{
+    "Id":1015,
     "Authors":"Favorini, Egiziaca",
     "Title":"Simone Martini",
     "Cities":"Roma",
@@ -10159,9 +10158,9 @@ const jsonData = [
     "Years":1933,
     "Fund":"BTB Segn. 2181",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1016.0,
+    "Category":"HA"
+},{
+    "Id":1016,
     "Authors":"Fazio Allmayer, Vito",
     "Title":"Lezioni sulla logica",
     "Cities":"Firenze",
@@ -10169,9 +10168,9 @@ const jsonData = [
     "Years":1920,
     "Fund":"BTB Segn. 1833",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1017.0,
+    "Category":"P"
+},{
+    "Id":1017,
     "Authors":"Fazio Allmayer, Vito",
     "Title":"Lezioni sulla psicologia",
     "Cities":"Firenze",
@@ -10179,9 +10178,9 @@ const jsonData = [
     "Years":1920,
     "Fund":"BTB Segn. 1834",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1018.0,
+    "Category":"P"
+},{
+    "Id":1018,
     "Authors":"Fedro",
     "Title":"Le favole",
     "Cities":"Milano",
@@ -10190,8 +10189,8 @@ const jsonData = [
     "Fund":"BTB Segn. 69",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":1019.0,
+},{
+    "Id":1019,
     "Authors":"Fedro",
     "Title":" Le favole esopiane",
     "Cities":"Torino",
@@ -10200,8 +10199,8 @@ const jsonData = [
     "Fund":"BTB Segn. 68",
     "Segni":"Postille.",
     "Category":"CL"
-    },{
-    "Id":1020.0,
+},{
+    "Id":1020,
     "Authors":"Feller, Friedrich Ernest",
     "Title":"Nouveau dictionnaire de poche fran\u00e7ais e allemand",
     "Cities":"Leipzig",
@@ -10210,8 +10209,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Postille.",
     "Category":"D"
-    },{
-    "Id":1021.0,
+},{
+    "Id":1021,
     "Authors":"F\u00e9n\u00e9lon, Fran\u00e7ois de Salignac dela Mothe",
     "Title":"Les aventures de T\u00e9l\u00e9maque",
     "Cities":"Turin",
@@ -10220,8 +10219,8 @@ const jsonData = [
     "Fund":"BTB Segn. 986",
     "Segni":"Nota di possesso autografa di Adele Gadda Lehr.",
     "Category":"FL"
-    },{
-    "Id":1022.0,
+},{
+    "Id":1022,
     "Authors":"F\u00e9n\u00e9lon, Fran\u00e7ois de Salignac dela Mothe",
     "Title":" Dialogues des morts. Suivi de quelques dialogues de Boileau, Fontenelle et D\u2019Alembert",
     "Cities":"Paris",
@@ -10230,8 +10229,8 @@ const jsonData = [
     "Fund":"BTB Segn. 985",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1023.0,
+},{
+    "Id":1023,
     "Authors":"Fenoglio, Beppe",
     "Title":"Il partigiano Johnny",
     "Cities":"Torino",
@@ -10240,8 +10239,8 @@ const jsonData = [
     "Fund":"BTB Segn. 384",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1024.0,
+},{
+    "Id":1024,
     "Authors":"Fenoglio, Beppe",
     "Title":"Primavera di bellezza",
     "Cities":"Milano",
@@ -10250,8 +10249,8 @@ const jsonData = [
     "Fund":"BTB Segn. 383",
     "Segni":"Pieghe.",
     "Category":"IL"
-    },{
-    "Id":1025.0,
+},{
+    "Id":1025,
     "Authors":"Ferrabino, Aldo",
     "Title":"Cesare",
     "Cities":"Torino",
@@ -10260,8 +10259,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1458",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1026.0,
+},{
+    "Id":1026,
     "Authors":"Ferrari, Giuseppe",
     "Title":"Le pi\u00f9 belle pagine",
     "Cities":"Milano",
@@ -10270,8 +10269,8 @@ const jsonData = [
     "Fund":"BTB Segn. 385",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1027.0,
+},{
+    "Id":1027,
     "Authors":"Ferrari, Giuseppe",
     "Title":"Teoria dei periodi politici",
     "Cities":"Milano",
@@ -10280,8 +10279,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1748",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1028.0,
+},{
+    "Id":1028,
     "Authors":"Ferraris, Galileo",
     "Title":"Lezioni di elettrotecnica dettate nel R. Museo Industriale italiano in Torino da Galileo Ferraris e raccolte per cura della Famiglia e sotto gli auspi- cii dell\u2019A.E.I. Fondamenti scientifici dell\u2019elettrotecnica.",
     "Cities":"Torino",
@@ -10290,8 +10289,8 @@ const jsonData = [
     "Fund":"BTM",
     "Segni":"Nota di possesso e data alla sovraccoperta: Elettrotecnica G. Ferraris. 1920.",
     "Category":"T"
-    },{
-    "Id":1029.0,
+},{
+    "Id":1029,
     "Authors":"Ferraris, Galileo",
     "Title":"Sulla teoria matematica della propagazione dell\u2019elettricit\u00e0 nei solidi omogenei",
     "Cities":"Torino",
@@ -10300,8 +10299,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2122",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1030.0,
+},{
+    "Id":1030,
     "Authors":"Ferraris, Galileo",
     "Title":" Sulle differenze di fase nelle correnti, sul ritardo dell\u2019induzione e sulla dissipazione di energia nei trasformatori",
     "Cities":"Torino",
@@ -10310,8 +10309,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2106",
     "Segni":"Intonso.",
     "Category":"T"
-    },{
-    "Id":1031.0,
+},{
+    "Id":1031,
     "Authors":"Ferraris, Galileo",
     "Title":"Teoria geometrica dei campi vettori",
     "Cities":"Torino",
@@ -10320,8 +10319,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2107",
     "Segni":"Intonso.",
     "Category":"T"
-    },{
-    "Id":1032.0,
+},{
+    "Id":1032,
     "Authors":"Ferraro, Pietro",
     "Title":"La nuova industria italiana del\nmagnesio. Estratto da \u00abI quaderni\ndi Prospettive autarchiche\u00bb,II",
     "Cities":null,
@@ -10330,8 +10329,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 130-132",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1033.0,
+},{
+    "Id":1033,
     "Authors":"Ferrata, Giansiro \u2013 Vittorini, Elio",
     "Title":"La tragica vicenda di Carlo III. 1848- 1858",
     "Cities":"Milano",
@@ -10339,9 +10338,9 @@ const jsonData = [
     "Years":1939,
     "Fund":"BTB Segn. 1516",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1034.0,
+    "Category":"H"
+},{
+    "Id":1034,
     "Authors":"Ferravilla, Edoardo",
     "Title":"La caccia del scior. Brugnell",
     "Cities":"s.l.",
@@ -10350,8 +10349,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Postille.",
     "Category":"IL"
-    },{
-    "Id":1035.0,
+},{
+    "Id":1035,
     "Authors":"Ferravilla, Edoardo",
     "Title":"Il teatro di Ferravilla",
     "Cities":"Milano",
@@ -10360,8 +10359,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1036.0,
+},{
+    "Id":1036,
     "Authors":"Ferrero, Ernesto",
     "Title":"I gerghi della malavita dal Cinquecento ad oggi",
     "Cities":"Milano",
@@ -10370,8 +10369,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":1037.0,
+},{
+    "Id":1037,
     "Authors":"Ferrero, Guglielmo",
     "Title":"Grandezza e decadenza di Roma. Vol. I. La conquista dell\u2019impero",
     "Cities":"Milano",
@@ -10379,9 +10378,9 @@ const jsonData = [
     "Years":1927,
     "Fund":"BTB Segn. 1459",
     "Segni":"Postille.",
-    "Category":"S"
-    },{
-    "Id":1038.0,
+    "Category":"H"
+},{
+    "Id":1038,
     "Authors":"Ferrero, Guglielmo",
     "Title":"Grandezza e decadenza di Roma. Vol. II. Giulio Cesare",
     "Cities":"Milano",
@@ -10389,9 +10388,9 @@ const jsonData = [
     "Years":1926,
     "Fund":"BTB Segn. 1460",
     "Segni":"Postille.",
-    "Category":"S"
-    },{
-    "Id":1039.0,
+    "Category":"H"
+},{
+    "Id":1039,
     "Authors":"Ferrero, Guglielmo",
     "Title":"Grandezza e decadenza di Roma. Vol. III. Da Cesare ad Augusto",
     "Cities":"Milano",
@@ -10399,9 +10398,9 @@ const jsonData = [
     "Years":1929,
     "Fund":"BTB Segn. 1461",
     "Segni":"Postille. Pieghe.",
-    "Category":"S"
-    },{
-    "Id":1040.0,
+    "Category":"H"
+},{
+    "Id":1040,
     "Authors":"Ferrero, Mario",
     "Title":"Piccolo dizionario di pedagogia didattica e storia della pedagogia",
     "Cities":"Firenze",
@@ -10410,8 +10409,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":1041.0,
+},{
+    "Id":1041,
     "Authors":"Ferretti, Giovanni",
     "Title":"Pietro Giordani sino ai quaranta anni",
     "Cities":"Roma",
@@ -10419,9 +10418,9 @@ const jsonData = [
     "Years":1952,
     "Fund":"BTB Segn. 805",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1042.0,
+    "Category":"IL"
+},{
+    "Id":1042,
     "Authors":"Ferrio, Luigi",
     "Title":"Terminologia medica",
     "Cities":"Torino",
@@ -10430,28 +10429,28 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":1043.0,
-    "Authors":null,
+},{
+    "Id":1043,
+    "Authors":"Not found",
     "Title":"Fiabe africane",
     "Cities":"Torino",
     "Publisher":"Einaudi",
     "Years":1955,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1044.0,
-    "Authors":null,
+    "Category":"V"
+},{
+    "Id":1044,
+    "Authors":"Not found",
     "Title":"I fiamminghi e l\u2019Italia. Pittori italiani e fiamminghi dal XV al XVIII secolo",
     "Cities":"Venezia",
     "Publisher":"Ed. Arte Veneta",
     "Years":1951,
     "Fund":"BTB Segn. 2227",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1045.0,
+    "Category":"HA"
+},{
+    "Id":1045,
     "Authors":"Fichte, Johann Gottlieb",
     "Title":"I discorsi alla nazione tedesca",
     "Cities":"Milano-Palermo-Napoli-Genova-Bologna",
@@ -10459,9 +10458,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BTM",
     "Segni":"Nota di possesso e data 18.05.1924 Milano. Sottolineature e postille.",
-    "Category":"F"
-    },{
-    "Id":1046.0,
+    "Category":"P"
+},{
+    "Id":1046,
     "Authors":"Fichte, Johann Gottlieb",
     "Title":"Dottrina della scienza",
     "Cities":"Bari",
@@ -10469,9 +10468,9 @@ const jsonData = [
     "Years":1910,
     "Fund":"BTB Segn. 1835",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1047.0,
+    "Category":"P"
+},{
+    "Id":1047,
     "Authors":"Fichte, Johann Gottlieb",
     "Title":"Sulla missione del dotto",
     "Cities":"Lanciano",
@@ -10479,9 +10478,9 @@ const jsonData = [
     "Years":1912,
     "Fund":"BTB Segn. 1836",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1048.0,
+    "Category":"P"
+},{
+    "Id":1048,
     "Authors":"Ficino, Marsilio",
     "Title":"Sopra lo amore: Il convito",
     "Cities":"Lanciano",
@@ -10489,9 +10488,9 @@ const jsonData = [
     "Years":1934,
     "Fund":"BTB Segn. 1867",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1049.0,
+    "Category":"P"
+},{
+    "Id":1049,
     "Authors":"Filippini, Felice",
     "Title":"Figaro ovvero Il primo torto \u00e8 quello di esser morto. Saggio sul celebre personaggio di Beaumarchais",
     "Cities":"Lugano",
@@ -10500,8 +10499,8 @@ const jsonData = [
     "Fund":"BTB Segn. 386",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":1050.0,
+},{
+    "Id":1050,
     "Authors":"Filippini, Felice",
     "Title":"Signore dei poveri morti",
     "Cities":"Firenze",
@@ -10510,8 +10509,8 @@ const jsonData = [
     "Fund":"BTB Segn. 387",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1051.0,
+},{
+    "Id":1051,
     "Authors":"Filon, Augustin",
     "Title":"Histoire de la litt\u00e9rature anglaise depuis ses origines jusqu\u2019\u00e0 nos jours",
     "Cities":"Paris",
@@ -10519,29 +10518,29 @@ const jsonData = [
     "Years":1922,
     "Fund":"BTB Segn. 1345",
     "Segni":"Parzialmente intonso. Nota di possesso autografa in data 1925 Milano.",
-    "Category":"S"
-    },{
-    "Id":1052.0,
-    "Authors":null,
+    "Category":"H"
+},{
+    "Id":1052,
+    "Authors":"Not found",
     "Title":"Filosofi americani contemporanei",
     "Cities":"Milano",
     "Publisher":"Bompiani",
     "Years":1939,
     "Fund":"BTB Segn. 1962",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1053.0,
-    "Authors":null,
+    "Category":"P"
+},{
+    "Id":1053,
+    "Authors":"Not found",
     "Title":"Filosofi inglesi contemporanei",
     "Cities":"Milano",
     "Publisher":"Bompiani",
     "Years":1939,
     "Fund":"BTB Segn. 1963",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1054.0,
+    "Category":"P"
+},{
+    "Id":1054,
     "Authors":"Fini, Rodolfo",
     "Title":"La cremazione al servizio dello Stato nel mondo di domani",
     "Cities":"Firenze",
@@ -10550,8 +10549,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 73",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":1055.0,
+},{
+    "Id":1055,
     "Authors":"Finzi, Giuseppe",
     "Title":"  Principi di stilistica, versificazione e metrica italiana con un dizionarietto de\u2019 modi errati ad uso della 4\u00aa classe ginnasiale",
     "Cities":"Firenze",
@@ -10560,8 +10559,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":1056.0,
+},{
+    "Id":1056,
     "Authors":"Fiorani, Mario",
     "Title":"Poesie",
     "Cities":"s.l.",
@@ -10570,8 +10569,8 @@ const jsonData = [
     "Fund":"BTB Segn. 388",
     "Segni":"Dedica dell\u2019autore. Intonso.",
     "Category":"IL"
-    },{
-    "Id":1057.0,
+},{
+    "Id":1057,
     "Authors":"Fiore, Elio",
     "Title":"Dialoghi per non morire",
     "Cities":"Milano",
@@ -10580,8 +10579,8 @@ const jsonData = [
     "Fund":"BTB Segn. 389",
     "Segni":"Dedica dell\u2019autore in data 1970.",
     "Category":"IL"
-    },{
-    "Id":1058.0,
+},{
+    "Id":1058,
     "Authors":"Fiore, Elio",
     "Title":"Dialoghi per non morire",
     "Cities":"Milano",
@@ -10590,8 +10589,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 11",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1059.0,
+},{
+    "Id":1059,
     "Authors":"Fiorentino, Francesco",
     "Title":"Compendio di storia della filosofia",
     "Cities":"Firenze",
@@ -10599,9 +10598,9 @@ const jsonData = [
     "Years":1921,
     "Fund":"BTB Segn. 1943-1945",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1060.0,
+    "Category":"P"
+},{
+    "Id":1060,
     "Authors":null,
     "Title":"Fiorenzo Tomea",
     "Cities":"s.l.",
@@ -10609,9 +10608,9 @@ const jsonData = [
     "Years":1968,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1061.0,
+    "Category":"V"
+},{
+    "Id":1061,
     "Authors":"Fiori, Annibale",
     "Title":"Handbuch der italienischen  und deutschen Konversationsprache",
     "Cities":"Berlin-Sch\u00f6neberg-Milano",
@@ -10620,8 +10619,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2432",
     "Segni":"Nota di possesso autografa in data 4.02.1918 Rastatt (Friedrichsfeste). Sottolineature e postille.",
     "Category":"D"
-    },{
-    "Id":1062.0,
+},{
+    "Id":1062,
     "Authors":"Firenzuola, Agnolo",
     "Title":"Le novelle",
     "Cities":"Milano",
@@ -10630,8 +10629,8 @@ const jsonData = [
     "Fund":"BTB Segn. 390",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1063.0,
+},{
+    "Id":1063,
     "Authors":"Fisher, Herbert Albert Laurens",
     "Title":"Storia d\u2019Europa",
     "Cities":"Bari",
@@ -10639,9 +10638,9 @@ const jsonData = [
     "Years":1948,
     "Fund":"BTB Segn. 1749-1751",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1064.0,
+    "Category":"H"
+},{
+    "Id":1064,
     "Authors":"Flaubert, Gustave",
     "Title":"L\u2019educazione sentimentale. Storia di un giovane",
     "Cities":"Milano",
@@ -10650,8 +10649,8 @@ const jsonData = [
     "Fund":"BTB Segn. 987",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1065.0,
+},{
+    "Id":1065,
     "Authors":"Flaubert, Gustave",
     "Title":"Madame Bovary. Moeurs de province. Suivie des r\u00e9quisitoires, plaidoirie et jugement du proc\u00e8s intent\u00e9 \u00e0 l\u2019Auteurdevant le Tribunal correctionnel de Paris, audiences des 31\/1 et 7\/2\/1857",
     "Cities":"Paris",
@@ -10660,8 +10659,8 @@ const jsonData = [
     "Fund":"BTB Segn. 988",
     "Segni":"Nota di possesso autografa in data 1939 Milano. Pieghe.",
     "Category":"FL"
-    },{
-    "Id":1066.0,
+},{
+    "Id":1066,
     "Authors":"Flaubert, Gustave",
     "Title":"\u0152uvres",
     "Cities":"Paris",
@@ -10670,8 +10669,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1067.0,
+},{
+    "Id":1067,
     "Authors":"Flaubert, Gustave",
     "Title":"La signora Bovary. Costumi di provincia",
     "Cities":"Torino",
@@ -10680,8 +10679,8 @@ const jsonData = [
     "Fund":"BTB Segn. 989",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1068.0,
+},{
+    "Id":1068,
     "Authors":"Flora, Francesco",
     "Title":"Dal romanticismo al futurismo",
     "Cities":"Milano",
@@ -10690,8 +10689,8 @@ const jsonData = [
     "Fund":"BTB Segn. 806",
     "Segni":"Nota di possesso autografa in data 1925.",
     "Category":"IL"
-    },{
-    "Id":1069.0,
+},{
+    "Id":1069,
     "Authors":"Flora, Francesco",
     "Title":"Leonardo",
     "Cities":"Milano",
@@ -10700,8 +10699,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2196",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1070.0,
+},{
+    "Id":1070,
     "Authors":"Foch, Ferdinand",
     "Title":"De la conduite de la guerre. La man\u0153uvre pour la bataille",
     "Cities":"Paris-Nancy",
@@ -10710,8 +10709,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2153",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1071.0,
+},{
+    "Id":1071,
     "Authors":"Fogazzaro, Antonio",
     "Title":"Il mistero del poeta",
     "Cities":"Milano",
@@ -10720,8 +10719,8 @@ const jsonData = [
     "Fund":"BTB Segn. 391",
     "Segni":"Nota di possesso autografa di Enrico Gadda in data 7.09.1917.",
     "Category":"IL"
-    },{
-    "Id":1072.0,
+},{
+    "Id":1072,
     "Authors":"Fogazzaro, Antonio",
     "Title":"Piccolo mondo antico",
     "Cities":"Milano",
@@ -10730,8 +10729,8 @@ const jsonData = [
     "Fund":"BTB Segn. 392",
     "Segni":"Nota di possesso autografa di Enrico Gadda in data 09.1917, Longone al Segrino. Postille.",
     "Category":"IL"
-    },{
-    "Id":1073.0,
+},{
+    "Id":1073,
     "Authors":"Fogazzaro, Antonio",
     "Title":"Piccolo mondo moderno",
     "Cities":"Milano",
@@ -10740,8 +10739,8 @@ const jsonData = [
     "Fund":"BTB Segn. 393",
     "Segni":"Nota di possesso autografa di Enrico Gadda in data 12.1917, Cascine Malpensa.",
     "Category":"IL"
-    },{
-    "Id":1074.0,
+},{
+    "Id":1074,
     "Authors":"Fogazzaro, Antonio",
     "Title":"Il Santo",
     "Cities":"Milano",
@@ -10750,8 +10749,8 @@ const jsonData = [
     "Fund":"BTB Segn. 394",
     "Segni":"Nota di possesso autografa di Enrico Gadda in data 10.1917.",
     "Category":"IL"
-    },{
-    "Id":1075.0,
+},{
+    "Id":1075,
     "Authors":"Folengo, Teofilo",
     "Title":"Il Baldo",
     "Cities":"Milano",
@@ -10760,8 +10759,8 @@ const jsonData = [
     "Fund":"BTB Segn. 398-399",
     "Segni":"Dedica del traduttore.",
     "Category":"IL"
-    },{
-    "Id":1076.0,
+},{
+    "Id":1076,
     "Authors":"Folengo, Teofilo",
     "Title":"Il Baldus e le altre opere latine e volgari",
     "Cities":"Firenze",
@@ -10770,8 +10769,8 @@ const jsonData = [
     "Fund":"BTB Segn. 397",
     "Segni":"Dedica del curatore in Firenze 16.11.1947. Parzialmente intonso. Postille.",
     "Category":"IL"
-    },{
-    "Id":1077.0,
+},{
+    "Id":1077,
     "Authors":"Folengo, Teofilo",
     "Title":"Histoire maccaronique de Merlin Coccaie",
     "Cities":"Paris",
@@ -10780,8 +10779,8 @@ const jsonData = [
     "Fund":"BTB Segn. 395",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1078.0,
+},{
+    "Id":1078,
     "Authors":"Folengo, Teofilo",
     "Title":"Le opere maccheroniche di Merlin Cocai",
     "Cities":"s.l.",
@@ -10790,8 +10789,8 @@ const jsonData = [
     "Fund":"BTB Segn. 396",
     "Segni":"Sottolineature. Foglio inserito con annotazione in data 1957.",
     "Category":"IL"
-    },{
-    "Id":1079.0,
+},{
+    "Id":1079,
     "Authors":"Foot Moore, George",
     "Title":"I libri del Vecchio Testamento",
     "Cities":"Bari",
@@ -10799,9 +10798,9 @@ const jsonData = [
     "Years":1924,
     "Fund":"BTB Segn. 1789",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1080.0,
+    "Category":"V"
+},{
+    "Id":1080,
     "Authors":"Forlati, Ferdinando \u2013 Gengaro, Maria Luisa",
     "Title":"La chiesa degli Eremitani a Padova",
     "Cities":"Firenze",
@@ -10809,9 +10808,9 @@ const jsonData = [
     "Years":1945,
     "Fund":"BTB Segn. Op. 127",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1081.0,
+    "Category":"HA"
+},{
+    "Id":1081,
     "Authors":"Formaggio, Dino",
     "Title":"Van Gogh",
     "Cities":"Milano",
@@ -10819,9 +10818,9 @@ const jsonData = [
     "Years":1952,
     "Fund":"BTB Segn. 2197",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1082.0,
+    "Category":"HA"
+},{
+    "Id":1082,
     "Authors":"Formichi, Carlo",
     "Title":"Grammatica razionale della lingua inglese ad uso delle scuole superiori e medie",
     "Cities":"Milano",
@@ -10829,9 +10828,9 @@ const jsonData = [
     "Years":1925,
     "Fund":"BTB Segn. 2433-2434",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1083.0,
+    "Category":"GR"
+},{
+    "Id":1083,
     "Authors":"Forster, Edward Morgan",
     "Title":"Casa Howard",
     "Cities":"Milano",
@@ -10839,9 +10838,9 @@ const jsonData = [
     "Years":1959,
     "Fund":"BTB Segn. 1259",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":1084.0,
+    "Category":"AL"
+},{
+    "Id":1084,
     "Authors":"F\u00f6rster, Max",
     "Title":"Manuale del costruttore",
     "Cities":"Milano",
@@ -10850,8 +10849,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2139-2141",
     "Segni":"Volume I con nota di possesso autografa in data 23.04.1920 Milano; volumeII con nota di possesso autografa in data 23.04.1922 Milano; volume III con nota di possesso autografa in data23.04.1925 Mi lano.",
     "Category":"T"
-    },{
-    "Id":1085.0,
+},{
+    "Id":1085,
     "Authors":"Foscolo, Ugo",
     "Title":"Il gazzettino del bel mondo",
     "Cities":"Milano",
@@ -10860,8 +10859,8 @@ const jsonData = [
     "Fund":"BTB Segn. 404",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1086.0,
+},{
+    "Id":1086,
     "Authors":"Foscolo, Ugo",
     "Title":"Le Grazie",
     "Cities":"Roma",
@@ -10870,8 +10869,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Timbro di possesso di Enrico Gadda.",
     "Category":"IL"
-    },{
-    "Id":1087.0,
+},{
+    "Id":1087,
     "Authors":"Foscolo, Ugo",
     "Title":"Opere complete",
     "Cities":"Napoli",
@@ -10880,8 +10879,8 @@ const jsonData = [
     "Fund":"BTB Segn. 400-401",
     "Segni":"Sottolineature e postille.",
     "Category":"IL"
-    },{
-    "Id":1088.0,
+},{
+    "Id":1088,
     "Authors":"Foscolo, Ugo",
     "Title":"Prose",
     "Cities":"Milano",
@@ -10890,8 +10889,8 @@ const jsonData = [
     "Fund":"BTB Segn. 402",
     "Segni":"Nota di possesso autografa di Enrico Gadda in data Udine, ottobre 1917.",
     "Category":"IL"
-    },{
-    "Id":1089.0,
+},{
+    "Id":1089,
     "Authors":"Foscolo, Ugo",
     "Title":"Prose e poesie: Ortis; Odi; Sonetti; Poesie varie; I Sepolcri; Le Grazie; Prose biografiche e critiche",
     "Cities":"Firenze",
@@ -10900,8 +10899,8 @@ const jsonData = [
     "Fund":"BTB Segn. 403",
     "Segni":"Postille.",
     "Category":"IL"
-    },{
-    "Id":1090.0,
+},{
+    "Id":1090,
     "Authors":"Foscolo, Ugo",
     "Title":"I sepolcri",
     "Cities":"Roma",
@@ -10910,8 +10909,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1091.0,
+},{
+    "Id":1091,
     "Authors":"Foscolo, Ugo",
     "Title":"Ultime lettere di Jacopo Ortis",
     "Cities":"Torino",
@@ -10920,8 +10919,8 @@ const jsonData = [
     "Fund":"BTB Segn. 405",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1092.0,
+},{
+    "Id":1092,
     "Authors":"Foscolo, Ugo",
     "Title":"Ultime lettere di Jacopo Ortis",
     "Cities":"Milano",
@@ -10930,8 +10929,8 @@ const jsonData = [
     "Fund":"BAL e BTB Segn. 406",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1093.0,
+},{
+    "Id":1093,
     "Authors":"Fouill\u00e9e, Alfred",
     "Title":"Histoire de la philosophie. I, II.1, II.2",
     "Cities":"Paris",
@@ -10939,9 +10938,9 @@ const jsonData = [
     "Years":1940,
     "Fund":"BTB Segn. 1946",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1094.0,
+    "Category":"H"
+},{
+    "Id":1094,
     "Authors":"Fragmente der Vorsokratiker. Berlin,",
     "Title":"Fragmente der Vorsokratiker",
     "Cities":"Berlin",
@@ -10949,19 +10948,19 @@ const jsonData = [
     "Years":1922,
     "Fund":"BTB Segn. 1941-1942",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1095.0,
-    "Authors":null,
+    "Category":"P"
+},{
+    "Id":1095,
+    "Authors":"Not found",
     "Title":"Fragmente fr\u00fchgriechischerLyrik",
     "Cities":"Firenze",
     "Publisher":"Sansoni",
     "Years":"s.d.",
     "Fund":"BTB Segn. 22",
     "Segni":"Dedica del traduttore in data 14.1. 1944.",
-    "Category":"L"
-    },{
-    "Id":1096.0,
+    "Category":"GR"
+},{
+    "Id":1096,
     "Authors":"France, Anatole",
     "Title":"L\u2019Ile des pingouins",
     "Cities":"Paris",
@@ -10970,8 +10969,8 @@ const jsonData = [
     "Fund":"BTB Segn. 990",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1097.0,
+},{
+    "Id":1097,
     "Authors":null,
     "Title":"France automobile en volume.",
     "Cities":"Paris",
@@ -10980,8 +10979,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2319",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":1098.0,
+},{
+    "Id":1098,
     "Authors":"Francesco d\u2019Assisi (San)",
     "Title":"I fioretti di San Francesco",
     "Cities":"Firenze",
@@ -10990,8 +10989,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1099.0,
+},{
+    "Id":1099,
     "Authors":"Francesco d\u2019Assisi (San)",
     "Title":"I fioretti di San Francesco",
     "Cities":"Torino",
@@ -11000,8 +10999,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1100.0,
+},{
+    "Id":1100,
     "Authors":"Franchi, Luigi",
     "Title":"Codice penale e nuovo Codice di procedura penale",
     "Cities":"Milano",
@@ -11010,8 +11009,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2036",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":1101.0,
+},{
+    "Id":1101,
     "Authors":"Franchi, Raffaello",
     "Title":"Massimo Campigli",
     "Cities":"Milano",
@@ -11019,9 +11018,9 @@ const jsonData = [
     "Years":1944,
     "Fund":"BTB Segn. 2190",
     "Segni":"Dedica dell\u2019autore in data 14.9.1945.",
-    "Category":"S"
-    },{
-    "Id":1102.0,
+    "Category":"H"
+},{
+    "Id":1102,
     "Authors":"Franchi, Raffaello",
     "Title":"Memorie critiche",
     "Cities":"Firenze",
@@ -11029,9 +11028,9 @@ const jsonData = [
     "Years":1938,
     "Fund":"BTB Segn. 407",
     "Segni":"Parzialmente intonso.",
-    "Category":"L"
-    },{
-    "Id":1103.0,
+    "Category":"IL"
+},{
+    "Id":1103,
     "Authors":"Frank, Tenney",
     "Title":"Virgilio. L\u2019uomo e il poeta",
     "Cities":"Lanciano",
@@ -11040,9 +11039,9 @@ const jsonData = [
     "Fund":"BTB Segn. 120",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1104.0,
-    "Authors":null,
+},{
+    "Id":1104,
+    "Authors":"Not found",
     "Title":"Frankfurt a. M. und Umgebung",
     "Cities":"Berlin",
     "Publisher":"Goldschmidt",
@@ -11050,8 +11049,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2287",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":1105.0,
+},{
+    "Id":1105,
     "Authors":"Frassineti, Augusto",
     "Title":"Misteri dei ministeri",
     "Cities":"Modena",
@@ -11060,8 +11059,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2173",
     "Segni":"Dedica dell\u2019autore in data 14.10.1953.",
     "Category":"IL"
-    },{
-    "Id":1106.0,
+},{
+    "Id":1106,
     "Authors":"Frassineti, Augusto",
     "Title":"Un capitano a riposo",
     "Cities":"Milano",
@@ -11070,8 +11069,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1107.0,
+},{
+    "Id":1107,
     "Authors":"Frassineti, Augusto",
     "Title":"Una traduzione da Keats.",
     "Cities":"Roma",
@@ -11080,8 +11079,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1108.0,
+},{
+    "Id":1108,
     "Authors":"Fr\u00e9naud, Andr\u00e9",
     "Title":"Passage de la visitation",
     "Cities":"Paris",
@@ -11090,8 +11089,8 @@ const jsonData = [
     "Fund":"BTB Segn. 991",
     "Segni":"Dedica dell\u2019autore in data 15.1.1961. Parialmente intonso.",
     "Category":"FL"
-    },{
-    "Id":1109.0,
+},{
+    "Id":1109,
     "Authors":"Freud, Sigmund",
     "Title":"Il disagio della civilt\u00e0",
     "Cities":"s.l.",
@@ -11099,9 +11098,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BTB Segn. 1991",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1110.0,
+    "Category":"P"
+},{
+    "Id":1110,
     "Authors":"Freud, Sigmund",
     "Title":"Essais de psychanalyse",
     "Cities":"Paris",
@@ -11109,9 +11108,9 @@ const jsonData = [
     "Years":1929,
     "Fund":"BTB Segn. 1993",
     "Segni":"Sul frontespizio: \u00ab1942\u00bb. Pieghe, sottolineature e annotazioni.",
-    "Category":"F"
-    },{
-    "Id":1111.0,
+    "Category":"P"
+},{
+    "Id":1111,
     "Authors":"Freud, Sigmund",
     "Title":"Essais de psychanalyse appliqu\u00e9e",
     "Cities":"Paris",
@@ -11119,9 +11118,9 @@ const jsonData = [
     "Years":1933,
     "Fund":"BTB Segn. 1990",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1112.0,
+    "Category":"P"
+},{
+    "Id":1112,
     "Authors":"Freud, Sigmund",
     "Title":"Introduction \u00e0 la psychanalyse",
     "Cities":"Paris",
@@ -11129,9 +11128,9 @@ const jsonData = [
     "Years":1929,
     "Fund":"BTB Segn. 1994",
     "Segni":"Sottolineature.",
-    "Category":"F"
-    },{
-    "Id":1113.0,
+    "Category":"P"
+},{
+    "Id":1113,
     "Authors":"Freud, Sigmund",
     "Title":"Nuovi saggi di psicoanalisi. Al di l\u00e0 del principio del piacere. Psicologia delle masse e analisi dell\u2019io. Rivelazione dell\u2019inconscio: l\u2019Io e l\u2019Es",
     "Cities":"Roma",
@@ -11139,9 +11138,9 @@ const jsonData = [
     "Years":1947,
     "Fund":null,
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1114.0,
+    "Category":"P"
+},{
+    "Id":1114,
     "Authors":"Freud, Sigmund",
     "Title":"La psychopathologie de la vie quotidienne. Application de la psychanalyse a l\u2019interpr\u00e9tation des actes de la vie courante",
     "Cities":"Paris",
@@ -11149,9 +11148,9 @@ const jsonData = [
     "Years":1926,
     "Fund":"BTB Segn. 1995",
     "Segni":"Parzialmente intonso.",
-    "Category":"F"
-    },{
-    "Id":1115.0,
+    "Category":"P"
+},{
+    "Id":1115,
     "Authors":"Freud, Sigmund",
     "Title":"Totem e tab\u00f9",
     "Cities":"Bari",
@@ -11159,9 +11158,9 @@ const jsonData = [
     "Years":1946,
     "Fund":"BTB Segn. 1992",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1116.0,
+    "Category":"P"
+},{
+    "Id":1116,
     "Authors":"Freycinet, Charles-Louis de Saulces de",
     "Title":"Dell\u2019esperienza in geometria.",
     "Cities":"Palermo",
@@ -11170,8 +11169,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2068",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1117.0,
+},{
+    "Id":1117,
     "Authors":"Freyre, Gilberto",
     "Title":"Padroni e schiavi",
     "Cities":"Torino",
@@ -11179,9 +11178,9 @@ const jsonData = [
     "Years":1965,
     "Fund":"BTB Segn. 1736",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1118.0,
+    "Category":"SL"
+},{
+    "Id":1118,
     "Authors":"Friedmann, Sigismund",
     "Title":"Avviamento allo studio del tedesco",
     "Cities":"Milano",
@@ -11190,8 +11189,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":1119.0,
+},{
+    "Id":1119,
     "Authors":"Friedmann, Sigismund",
     "Title":" Grammatica tedesca: con esercizi, letture e vocabolario etimologico",
     "Cities":"Torino",
@@ -11200,8 +11199,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":1120.0,
+},{
+    "Id":1120,
     "Authors":"Frigerio, Federico",
     "Title":"La cupola della cattedrale di Como e le sue vicende",
     "Cities":"Como",
@@ -11209,9 +11208,9 @@ const jsonData = [
     "Years":1935,
     "Fund":"BTB Segn. Op. 128-129",
     "Segni":"Dedica dell\u2019autore",
-    "Category":"SA"
-    },{
-    "Id":1121.0,
+    "Category":"HA"
+},{
+    "Id":1121,
     "Authors":"Frison-Roche, Roger",
     "Title":"Il ponte di neve",
     "Cities":"Milano",
@@ -11219,9 +11218,9 @@ const jsonData = [
     "Years":1953,
     "Fund":"BTB Segn. 992",
     "Segni":"Dedica del traduttore.",
-    "Category":"L"
-    },{
-    "Id":1122.0,
+    "Category":"G"
+},{
+    "Id":1122,
     "Authors":"Frisoni, Ga\u00e9tan",
     "Title":"Manuel de correspondance commerciale fran\u00e7aise. Accompagn\u00e9e de facsimil\u00e9s des diff\u00e9rents documents d\u2019usage quotidien",
     "Cities":"Milano",
@@ -11230,8 +11229,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2034",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1123.0,
+},{
+    "Id":1123,
     "Authors":"Fuchs, Paul",
     "Title":"Clef de la grammaire russe",
     "Cities":"Francfort",
@@ -11240,8 +11239,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2437",
     "Segni":null,
     "Category":"GR"
-    },{
-    "Id":1124.0,
+},{
+    "Id":1124,
     "Authors":"Fucini, Renato",
     "Title":"Poesie. Cento sonetti in vernacolo pisano: nuove poesie",
     "Cities":"Firenze",
@@ -11250,8 +11249,8 @@ const jsonData = [
     "Fund":"BTB Segn. 408",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1125.0,
+},{
+    "Id":1125,
     "Authors":"Fucini, Renato",
     "Title":"Le veglie di Neri",
     "Cities":"Milano",
@@ -11260,8 +11259,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1126.0,
+},{
+    "Id":1126,
     "Authors":"Fucini, Renato",
     "Title":"Le veglie di Neri",
     "Cities":"Firenze",
@@ -11270,8 +11269,8 @@ const jsonData = [
     "Fund":"BTB Segn. 410",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":1127.0,
+},{
+    "Id":1127,
     "Authors":"Fucini, Renato",
     "Title":"Le veglie di Neri. Paesi e figure della campagna toscana",
     "Cities":"Milano",
@@ -11280,8 +11279,8 @@ const jsonData = [
     "Fund":"BTB Segn. 409",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1128.0,
+},{
+    "Id":1128,
     "Authors":"Fustel de Coulanges, NumaDenis",
     "Title":"La citt\u00e0 antica. Studi sul culto, il diritto, le istituzioni di Grecia e di Roma",
     "Cities":"Bari",
@@ -11289,10 +11288,10 @@ const jsonData = [
     "Years":1925,
     "Fund":"BTB Segn. 1462-1463",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1129.0,
-    "Authors":null,
+    "Category":"H"
+},{
+    "Id":1129,
+    "Authors":"Not found",
     "Title":"Le funzioni dell\u2019ente nazionale per la cellulosa e per la carta",
     "Cities":"Roma",
     "Publisher":"Federazione Italiana Editori Giornali",
@@ -11300,18 +11299,18 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1130.0,
-    "Authors":null,
+},{
+    "Id":1130,
+    "Authors":"Not found",
     "Title":"Il Futurismo, il Novecentismo",
     "Cities":"Torino",
     "Publisher":"ERI",
     "Years":1953,
     "Fund":"BTB Segn. 803",
     "Segni":"G",
-    "Category":"SA"
-    },{
-    "Id":1131.0,
+    "Category":"HA"
+},{
+    "Id":1131,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"L\u2019Adalgisa \u2013 disegni milanesi",
     "Cities":"Firenze",
@@ -11319,9 +11318,9 @@ const jsonData = [
     "Years":1943,
     "Fund":"BAL",
     "Segni":"Nota di possesso autografa e postille.",
-    "Category":"IL"
-    },{
-    "Id":1132.0,
+    "Category":"GB"
+},{
+    "Id":1132,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"L\u2019Adalgisa. Disegni milanesi",
     "Cities":"Firenze",
@@ -11329,9 +11328,9 @@ const jsonData = [
     "Years":1944,
     "Fund":"BTM",
     "Segni":"Postille per il tipografo in vista della ripubblicazione dell\u2019opera.",
-    "Category":"IL"
-    },{
-    "Id":1133.0,
+    "Category":"GB"
+},{
+    "Id":1133,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"L\u2019Adalgisa",
     "Cities":"Firenze",
@@ -11339,9 +11338,9 @@ const jsonData = [
     "Years":1945,
     "Fund":"BTM",
     "Segni":null,
-    "Category":"IL"
-    },{
-    "Id":1134.0,
+    "Category":"GB"
+},{
+    "Id":1134,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"L\u2019Adalgisa",
     "Cities":"Firenze",
@@ -11349,9 +11348,9 @@ const jsonData = [
     "Years":1945,
     "Fund":"BAL",
     "Segni":"Nota di possesso di Gadda in data 1970 Roma.",
-    "Category":"IL"
-    },{
-    "Id":1135.0,
+    "Category":"GB"
+},{
+    "Id":1135,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"L\u2019Adalgisa",
     "Cities":"Firenze",
@@ -11359,19 +11358,19 @@ const jsonData = [
     "Years":1945,
     "Fund":"BAL",
     "Segni":"Due copie",
-    "Category":"IL"
-    },{
-    "Id":1136.0,
+    "Category":"GB"
+},{
+    "Id":1136,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"L\u2019Adalgisa",
     "Cities":"Torino",
     "Publisher":"Einaudi",
     "Years":1963,
     "Fund":"BAL",
-    "Segni":null,
-    "Category":"IL"
-    },{
-    "Id":1137.0,
+    "Segni":" ",
+    "Category":"GB"
+},{
+    "Id":1137,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"Gli anni",
     "Cities":"Firenze",
@@ -11379,9 +11378,9 @@ const jsonData = [
     "Years":1943,
     "Fund":"BTM",
     "Segni":"Postille.",
-    "Category":"IL"
-    },{
-    "Id":1138.0,
+    "Category":"GB"
+},{
+    "Id":1138,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"Gli anni",
     "Cities":"Firenze",
@@ -11389,9 +11388,9 @@ const jsonData = [
     "Years":1943,
     "Fund":"BAL",
     "Segni":"Due copie.",
-    "Category":"IL"
-    },{
-    "Id":1139.0,
+    "Category":"GB"
+},{
+    "Id":1139,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"Il castello di Udine",
     "Cities":"Firenze",
@@ -11399,9 +11398,9 @@ const jsonData = [
     "Years":1934,
     "Fund":"BTM",
     "Segni":null,
-    "Category":"IL"
-    },{
-    "Id":1140.0,
+    "Category":"GB"
+},{
+    "Id":1140,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"Il castello di Udine",
     "Cities":"Firenze",
@@ -11409,9 +11408,9 @@ const jsonData = [
     "Years":1934,
     "Fund":"BAL",
     "Segni":"Nota di possesso di Gadda in data 28.1.1973 Roma.",
-    "Category":"IL"
-    },{
-    "Id":1141.0,
+    "Category":"GB"
+},{
+    "Id":1141,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"Il castello di Udine",
     "Cities":"Firenze",
@@ -11419,9 +11418,9 @@ const jsonData = [
     "Years":1934,
     "Fund":"BAL",
     "Segni":"Due copie",
-    "Category":"IL"
-    },{
-    "Id":1142.0,
+    "Category":"GB"
+},{
+    "Id":1142,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"La centrale di Cornigliano",
     "Cities":"Estratto da \u00abLa civilt\u00e0 delle macchine\u00bb",
@@ -11429,9 +11428,9 @@ const jsonData = [
     "Years":1953,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"IL"
-    },{
-    "Id":1143.0,
+    "Category":"GB"
+},{
+    "Id":1143,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"La cognizione del dolore",
     "Cities":"Torino",
@@ -11439,9 +11438,9 @@ const jsonData = [
     "Years":1965,
     "Fund":"BAC",
     "Segni":"Menab\u00f2 per Einaudi spedito in busta con timbro postale del 3.7.1965.",
-    "Category":"IL"
-    },{
-    "Id":1144.0,
+    "Category":"GB"
+},{
+    "Id":1144,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"Eros e Priapo",
     "Cities":"Milano",
@@ -11449,9 +11448,9 @@ const jsonData = [
     "Years":1967,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"IL"
-    },{
-    "Id":1145.0,
+    "Category":"GB"
+},{
+    "Id":1145,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"Giornale di guerra e di prigionia",
     "Cities":"Firenze",
@@ -11459,9 +11458,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BTM",
     "Segni":null,
-    "Category":"IL"
-    },{
-    "Id":1146.0,
+    "Category":"GB"
+},{
+    "Id":1146,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"Giornale di guerra e di prigionia",
     "Cities":"Firenze",
@@ -11469,9 +11468,9 @@ const jsonData = [
     "Years":1955,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"IL"
-    },{
-    "Id":1147.0,
+    "Category":"GB"
+},{
+    "Id":1147,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"Giornale di guerra e di prigionia",
     "Cities":"Fi renze",
@@ -11479,9 +11478,9 @@ const jsonData = [
     "Years":1955,
     "Fund":"BAL",
     "Segni":"Data autografa 2.7.1973 Roma.",
-    "Category":"IL"
-    },{
-    "Id":1148.0,
+    "Category":"GB"
+},{
+    "Id":1148,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"Giornale di guerra e di prigionia",
     "Cities":"Firenze",
@@ -11489,9 +11488,9 @@ const jsonData = [
     "Years":1965,
     "Fund":"BAL",
     "Segni":"Due copie",
-    "Category":"IL"
-    },{
-    "Id":1149.0,
+    "Category":"GB"
+},{
+    "Id":1149,
     "Authors":"Gadda, Carlo Emilio",
     "Title":" Il guerriero, l\u2019amazzone, lo spirito della poesia nel verso immortale del Foscolo",
     "Cities":"Milano",
@@ -11499,9 +11498,9 @@ const jsonData = [
     "Years":1967,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"IL"
-    },{
-    "Id":1150.0,
+    "Category":"GB"
+},{
+    "Id":1150,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"Gli impianti termoelettrici della Citt\u00e0  del Vaticano",
     "Cities":"Milano",
@@ -11509,9 +11508,9 @@ const jsonData = [
     "Years":1933,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"IL"
-    },{
-    "Id":1151.0,
+    "Category":"GB"
+},{
+    "Id":1151,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"I littoriali del lavoro",
     "Cities":null,
@@ -11519,9 +11518,9 @@ const jsonData = [
     "Years":1904,
     "Fund":"BAL",
     "Segni":"Due copie",
-    "Category":"IL"
-    },{
-    "Id":1152.0,
+    "Category":"GB"
+},{
+    "Id":1152,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"La Madonna dei filosofi",
     "Cities":"Firenze",
@@ -11529,9 +11528,9 @@ const jsonData = [
     "Years":1931,
     "Fund":"BTM",
     "Segni":null,
-    "Category":"IL"
-    },{
-    "Id":1153.0,
+    "Category":"GB"
+},{
+    "Id":1153,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"La Madonna dei filosofi",
     "Cities":"Firenze",
@@ -11539,9 +11538,9 @@ const jsonData = [
     "Years":1931,
     "Fund":"BAL",
     "Segni":"Nota di possesso autografa in data 14.04.1931 Milano.",
-    "Category":"IL"
-    },{
-    "Id":1154.0,
+    "Category":"GB"
+},{
+    "Id":1154,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"La Madonna dei filosofi",
     "Cities":"Firenze",
@@ -11549,9 +11548,9 @@ const jsonData = [
     "Years":1931,
     "Fund":"BAL",
     "Segni":"Nota di possesso di Gadda in data 14.11.1972.",
-    "Category":"IL"
-    },{
-    "Id":1155.0,
+    "Category":"GB"
+},{
+    "Id":1155,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"La Madonna dei filosofi",
     "Cities":"Torino",
@@ -11559,9 +11558,9 @@ const jsonData = [
     "Years":1963,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"IL"
-    },{
-    "Id":1156.0,
+    "Category":"GB"
+},{
+    "Id":1156,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"Le meraviglie d\u2019Italia",
     "Cities":"Firenze",
@@ -11569,9 +11568,9 @@ const jsonData = [
     "Years":1939,
     "Fund":"BTM e BAL (due copie)",
     "Segni":null,
-    "Category":"IL"
-    },{
-    "Id":1157.0,
+    "Category":"GB"
+},{
+    "Id":1157,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"Le meraviglie d\u2019Italia",
     "Cities":"Torino",
@@ -11579,9 +11578,9 @@ const jsonData = [
     "Years":1964,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"IL"
-    },{
-    "Id":1158.0,
+    "Category":"GB"
+},{
+    "Id":1158,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"Le meraviglie d\u2019Italia",
     "Cities":"Torino",
@@ -11589,9 +11588,9 @@ const jsonData = [
     "Years":1939,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"IL"
-    },{
-    "Id":1159.0,
+    "Category":"GB"
+},{
+    "Id":1159,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"La \u00abMostra leonardesca\u00bb di Milano",
     "Cities":null,
@@ -11599,9 +11598,9 @@ const jsonData = [
     "Years":1618,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"IL"
-    },{
-    "Id":1160.0,
+    "Category":"GB"
+},{
+    "Id":1160,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"Norme per la redazione di un testo radiofonico",
     "Cities":"Torino",
@@ -11609,9 +11608,9 @@ const jsonData = [
     "Years":1953,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"IL"
-    },{
-    "Id":1161.0,
+    "Category":"GB"
+},{
+    "Id":1161,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"Norme per la redazione di un testo radiofonico",
     "Cities":"Torino",
@@ -11619,9 +11618,9 @@ const jsonData = [
     "Years":1973,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"IL"
-    },{
-    "Id":1162.0,
+    "Category":"GB"
+},{
+    "Id":1162,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"Norme per la redazione di un testo radiofonico",
     "Cities":"Milano",
@@ -11629,9 +11628,9 @@ const jsonData = [
     "Years":1973,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"IL"
-    },{
-    "Id":1163.0,
+    "Category":"GB"
+},{
+    "Id":1163,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"Novella seconda",
     "Cities":"Milano",
@@ -11639,9 +11638,9 @@ const jsonData = [
     "Years":1970,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"IL"
-    },{
-    "Id":1164.0,
+    "Category":"GB"
+},{
+    "Id":1164,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"Novelle dal ducato in fiamme",
     "Cities":"Firenze",
@@ -11649,9 +11648,9 @@ const jsonData = [
     "Years":1953,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"IL"
-    },{
-    "Id":1165.0,
+    "Category":"GB"
+},{
+    "Id":1165,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"I nuovi borghi della Sicilia rurale",
     "Cities":null,
@@ -11659,9 +11658,9 @@ const jsonData = [
     "Years":1941,
     "Fund":"BAL e BTB Segn. Op. 87",
     "Segni":null,
-    "Category":"IL"
-    },{
-    "Id":1166.0,
+    "Category":"GB"
+},{
+    "Id":1166,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"Il primo libro delle favole",
     "Cities":"Venezia",
@@ -11669,9 +11668,9 @@ const jsonData = [
     "Years":1952,
     "Fund":"BAL",
     "Segni":"Postille.",
-    "Category":"IL"
-    },{
-    "Id":1167.0,
+    "Category":"GB"
+},{
+    "Id":1167,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"Il primo libro delle favole",
     "Cities":"Venezia",
@@ -11679,9 +11678,9 @@ const jsonData = [
     "Years":1952,
     "Fund":"BAL",
     "Segni":"Due copie",
-    "Category":"IL"
-    },{
-    "Id":1168.0,
+    "Category":"GB"
+},{
+    "Id":1168,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"Il primo libro delle favole",
     "Cities":"Milano",
@@ -11689,9 +11688,9 @@ const jsonData = [
     "Years":1969,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"IL"
-    },{
-    "Id":1169.0,
+    "Category":"GB"
+},{
+    "Id":1169,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"Quer pasticciaccio brutto de via Merulana",
     "Cities":"Milano",
@@ -11699,9 +11698,9 @@ const jsonData = [
     "Years":1964,
     "Fund":"BAL",
     "Segni":"Fogli inseriti.",
-    "Category":"IL"
-    },{
-    "Id":1170.0,
+    "Category":"GB"
+},{
+    "Id":1170,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"I racconti",
     "Cities":"Milano",
@@ -11709,9 +11708,9 @@ const jsonData = [
     "Years":1965,
     "Fund":"BAL",
     "Segni":"Due copie",
-    "Category":"IL"
-    },{
-    "Id":1171.0,
+    "Category":"GB"
+},{
+    "Id":1171,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"I sogni e la folgore",
     "Cities":"Torino",
@@ -11719,9 +11718,9 @@ const jsonData = [
     "Years":1955,
     "Fund":"BAL",
     "Segni":"Data autografa di Gadda in data 20.01.1973 Roma.",
-    "Category":"IL"
-    },{
-    "Id":1172.0,
+    "Category":"GB"
+},{
+    "Id":1172,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"Tecnica e poesia",
     "Cities":null,
@@ -11729,9 +11728,9 @@ const jsonData = [
     "Years":1637,
     "Fund":"BAL",
     "Segni":"Due copie",
-    "Category":"IL"
-    },{
-    "Id":1173.0,
+    "Category":"GB"
+},{
+    "Id":1173,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"Una poesia 1931-1932",
     "Cities":"s.l.",
@@ -11739,9 +11738,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BAL",
     "Segni":"Due copie.",
-    "Category":"IL"
-    },{
-    "Id":1174.0,
+    "Category":"GB"
+},{
+    "Id":1174,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"Una poesia",
     "Cities":null,
@@ -11749,9 +11748,9 @@ const jsonData = [
     "Years":1963,
     "Fund":"BAL",
     "Segni":"Due copie",
-    "Category":"IL"
-    },{
-    "Id":1175.0,
+    "Category":"GB"
+},{
+    "Id":1175,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"Verso la Certosa",
     "Cities":"Milano-Napoli",
@@ -11759,9 +11758,9 @@ const jsonData = [
     "Years":1961,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"IL"
-    },{
-    "Id":1176.0,
+    "Category":"GB"
+},{
+    "Id":1176,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"Verso la Certosa",
     "Cities":"Milano-Napoli",
@@ -11769,9 +11768,9 @@ const jsonData = [
     "Years":1961,
     "Fund":"BAL",
     "Segni":"Nota di possesso di Gadda in data 1965.",
-    "Category":"IL"
-    },{
-    "Id":1177.0,
+    "Category":"GB"
+},{
+    "Id":1177,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"Verso la Certosa",
     "Cities":"Milano-Napoli",
@@ -11779,9 +11778,9 @@ const jsonData = [
     "Years":1961,
     "Fund":"BAL",
     "Segni":"Nota di possesso di Gadda in data 11.06.1972.",
-    "Category":"IL"
-    },{
-    "Id":1178.0,
+    "Category":"GB"
+},{
+    "Id":1178,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"Viaggi di Gulliver cio\u00e8 del Gaddus alcune battute per il progettato libro",
     "Cities":"Firenze",
@@ -11789,9 +11788,9 @@ const jsonData = [
     "Years":1970,
     "Fund":"BAL",
     "Segni":"Cinque copie",
-    "Category":"IL"
-    },{
-    "Id":1179.0,
+    "Category":"GB"
+},{
+    "Id":1179,
     "Authors":"Gadda, Carlo Emilio",
     "Title":"I viaggi la morte",
     "Cities":"Milano  ",
@@ -11799,9 +11798,9 @@ const jsonData = [
     "Years":1958,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"IL"
-    },{
-    "Id":1180.0,
+    "Category":"GB"
+},{
+    "Id":1180,
     "Authors":"Gadda, Giuseppe",
     "Title":"L\u2019educazione equilibrata della giovent\u00f9",
     "Cities":"Milano",
@@ -11810,8 +11809,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 88",
     "Segni":"Omaggio.",
     "Category":"IL"
-    },{
-    "Id":1181.0,
+},{
+    "Id":1181,
     "Authors":"Gadda, Giuseppe",
     "Title":"Poesie",
     "Cities":"Milano-Napoli",
@@ -11820,8 +11819,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1182.0,
+},{
+    "Id":1182,
     "Authors":"Gadda, Giuseppe",
     "Title":"Ricordi ed impressioni nella storia politica nel 1866-67",
     "Cities":"Torino",
@@ -11830,8 +11829,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1183.0,
+},{
+    "Id":1183,
     "Authors":"Gadda Conti, Piero",
     "Title":"Adamira",
     "Cities":"Milano",
@@ -11840,8 +11839,8 @@ const jsonData = [
     "Fund":"BTB Segn. 411",
     "Segni":"Dedica dell\u2019autore in data 1956.",
     "Category":"IL"
-    },{
-    "Id":1184.0,
+},{
+    "Id":1184,
     "Authors":"Gadda Conti, Piero",
     "Title":"Beati regni",
     "Cities":"Milano",
@@ -11850,8 +11849,8 @@ const jsonData = [
     "Fund":"BTB Segn. 412",
     "Segni":"Dedica dell\u2019autore in data 1955.",
     "Category":"IL"
-    },{
-    "Id":1185.0,
+},{
+    "Id":1185,
     "Authors":"Gadda Conti, Piero",
     "Title":"Carlo Linati nel suo tempo",
     "Cities":"Milano",
@@ -11860,8 +11859,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1186.0,
+},{
+    "Id":1186,
     "Authors":"Gadda Conti, Piero",
     "Title":"Gagliarda",
     "Cities":"Milano",
@@ -11870,8 +11869,8 @@ const jsonData = [
     "Fund":"BTB Segn. 415",
     "Segni":"Dedica dell\u2019autore in data 1932. Sottolineature e postille.",
     "Category":"IL"
-    },{
-    "Id":1187.0,
+},{
+    "Id":1187,
     "Authors":"Gadda Conti, Piero",
     "Title":"I mesi e le stagioni",
     "Cities":"Milano",
@@ -11880,8 +11879,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1188.0,
+},{
+    "Id":1188,
     "Authors":"Gadda Conti, Piero",
     "Title":"Mozzo",
     "Cities":"Milano",
@@ -11890,8 +11889,8 @@ const jsonData = [
     "Fund":"BTB Segn. 416",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":1189.0,
+},{
+    "Id":1189,
     "Authors":"Gadda Conti, Piero",
     "Title":"La paura",
     "Cities":"Milano",
@@ -11900,8 +11899,8 @@ const jsonData = [
     "Fund":"BTB Segn. 413",
     "Segni":"Dedica dell\u2019autore in data 1970.",
     "Category":"IL"
-    },{
-    "Id":1190.0,
+},{
+    "Id":1190,
     "Authors":"Gadda Conti, Piero",
     "Title":"Ritorno in Italia",
     "Cities":null,
@@ -11910,8 +11909,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1191.0,
+},{
+    "Id":1191,
     "Authors":"Gadda Conti, Piero",
     "Title":"Vanterie adolescenti",
     "Cities":"Padova",
@@ -11920,8 +11919,8 @@ const jsonData = [
     "Fund":"BTB Segn. 414",
     "Segni":"Dedica dell\u2019autore in data 1960.",
     "Category":"IL"
-    },{
-    "Id":1192.0,
+},{
+    "Id":1192,
     "Authors":"Gadda Conti, Piero",
     "Title":"Vita e melodie di Giacomo Puccini",
     "Cities":"Milano",
@@ -11930,8 +11929,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1193.0,
+},{
+    "Id":1193,
     "Authors":"Gaetani, Enrico",
     "Title":"Apoph\u00f2reta",
     "Cities":"Fiorentino",
@@ -11940,8 +11939,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1194.0,
+},{
+    "Id":1194,
     "Authors":"Galante Garrone, Alessandro",
     "Title":"Filippo Buonarroti e i rivoluzionari dell\u2019Ottocento",
     "Cities":"Torino",
@@ -11949,9 +11948,9 @@ const jsonData = [
     "Years":1951,
     "Fund":"BTB Segn. 1517",
     "Segni":"Intonso.",
-    "Category":"S"
-    },{
-    "Id":1195.0,
+    "Category":"H"
+},{
+    "Id":1195,
     "Authors":"Galiani, Ferdinando \u2013 Lorenzi, Giambattista",
     "Title":"Socrate immaginario: commedia per musica",
     "Cities":"Milano",
@@ -11960,8 +11959,8 @@ const jsonData = [
     "Fund":"BTB Segn. 417",
     "Segni":"Parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":1196.0,
+},{
+    "Id":1196,
     "Authors":"Galilei, Galileo",
     "Title":"Galileo: pagine di scienza con introduzione, note e ritratti. II",
     "Cities":"Milano",
@@ -11970,8 +11969,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2149",
     "Segni":"Dedica del curatore in data 1942.",
     "Category":"T"
-    },{
-    "Id":1197.0,
+},{
+    "Id":1197,
     "Authors":"Galilei, Galileo",
     "Title":"Lettere a Cristina di Lorena sui rapporti tra l\u2019autorit\u00e0 della scrittura e la libert\u00e0 della scienza",
     "Cities":"Firenze",
@@ -11980,8 +11979,8 @@ const jsonData = [
     "Fund":"BTB Segn. 422",
     "Segni":"Intonso.",
     "Category":"T"
-    },{
-    "Id":1198.0,
+},{
+    "Id":1198,
     "Authors":"Galilei, Galileo",
     "Title":"Opere",
     "Cities":"Milano-Roma",
@@ -11990,8 +11989,8 @@ const jsonData = [
     "Fund":"BTB Segn. 420-421",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1199.0,
+},{
+    "Id":1199,
     "Authors":"Galilei, Galileo",
     "Title":"Opere",
     "Cities":"Milano-Napoli",
@@ -12000,8 +11999,8 @@ const jsonData = [
     "Fund":"BTB Segn. 418",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1200.0,
+},{
+    "Id":1200,
     "Authors":"Galilei, Galileo",
     "Title":"Il pensiero di Galileo Galilei: frammenti filosofici",
     "Cities":"Lanciano",
@@ -12010,28 +12009,28 @@ const jsonData = [
     "Fund":"BTB Segn. 419",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1201.0,
-    "Authors":null,
+},{
+    "Id":1201,
+    "Authors":"Not found",
     "Title":"Galleria d\u2019Arte Cairola. Il 18 febbraio 1943-XXI alle ore 17 inaugurazione della mostra personale di Fabrizio Clerici",
     "Cities":"Milano",
     "Publisher":"Officina d\u2019Arte grafica A. Lucini & C",
     "Years":1943,
     "Fund":"BTB Segn. Op. 133",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1202.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":1202,
+    "Authors":"Not found",
     "Title":"Galleria degli Uffizi. Elenco dei dipinti",
     "Cities":"Firenze",
     "Publisher":"Giannini",
     "Years":1920,
     "Fund":"BTB Segn. 2211",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1203.0,
+    "Category":"HA"
+},{
+    "Id":1203,
     "Authors":"Galli, Orazio",
     "Title":"Gli schiavi nell\u2019antica Roma",
     "Cities":"Roma",
@@ -12040,8 +12039,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1204.0,
+},{
+    "Id":1204,
     "Authors":"Gallo, Ugo",
     "Title":"Storia della letteratura ispanoamericana",
     "Cities":"Milano",
@@ -12049,9 +12048,9 @@ const jsonData = [
     "Years":1954,
     "Fund":"BTB Segn. 939",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1205.0,
+    "Category":"SL"
+},{
+    "Id":1205,
     "Authors":"Gallo, Ugo",
     "Title":"Storia della letteratura spagnola",
     "Cities":"Milano",
@@ -12059,9 +12058,9 @@ const jsonData = [
     "Years":1952,
     "Fund":"BTB Segn. 940",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1206.0,
+    "Category":"SL"
+},{
+    "Id":1206,
     "Authors":"Gamo, Jos\u00e9 M. Alonso",
     "Title":"Tus rosas frente al espejo",
     "Cities":"Valencia",
@@ -12070,8 +12069,8 @@ const jsonData = [
     "Fund":"BTB Segn. 916",
     "Segni":"Dedica dell\u2019autore in data 3.6.1953.",
     "Category":"SL"
-    },{
-    "Id":1207.0,
+},{
+    "Id":1207,
     "Authors":"Gamow, George",
     "Title":"Trent\u2019anni che sconvolsero la fisica. La storia della Teoria dei Quanti",
     "Cities":"Bologna",
@@ -12080,8 +12079,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2075",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1208.0,
+},{
+    "Id":1208,
     "Authors":"Gandino, Giovanni Battista",
     "Title":"Lo stile latino mostrato con temi di versione tratti da scrittori italiani del secolo 19. e corredati di regole ed osservazioni ad uso delle scuole",
     "Cities":"Torino-Milano-Firenze-Roma-Napoli-Palermo",
@@ -12089,9 +12088,9 @@ const jsonData = [
     "Years":1925,
     "Fund":"BTB Segn. 2438",
     "Segni":"Nota di possesso autografa di Clara Gadda.",
-    "Category":"L"
-    },{
-    "Id":1209.0,
+    "Category":"SL"
+},{
+    "Id":1209,
     "Authors":"Garc\u00eca Lorca, Federico",
     "Title":"Donna Rosita nubile",
     "Cities":"Modena",
@@ -12100,8 +12099,8 @@ const jsonData = [
     "Fund":"BTB Segn. 917",
     "Segni":null,
     "Category":"SL"
-    },{
-    "Id":1210.0,
+},{
+    "Id":1210,
     "Authors":"Garc\u00eca Lorca, Federico",
     "Title":"Poesie",
     "Cities":"Modena",
@@ -12110,8 +12109,8 @@ const jsonData = [
     "Fund":"BTB Segn. 918",
     "Segni":null,
     "Category":"SL"
-    },{
-    "Id":1211.0,
+},{
+    "Id":1211,
     "Authors":"Gargiulo, Alfredo",
     "Title":"Gabriele D\u2019Annunzio",
     "Cities":"Firenze",
@@ -12120,8 +12119,8 @@ const jsonData = [
     "Fund":"BTB Segn. 807",
     "Segni":"Dedica dell\u2019autore in data 1941.",
     "Category":"IL"
-    },{
-    "Id":1212.0,
+},{
+    "Id":1212,
     "Authors":"Gargiulo, Alfredo",
     "Title":"L\u2019opera di Enrico Pea",
     "Cities":null,
@@ -12130,8 +12129,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1213.0,
+},{
+    "Id":1213,
     "Authors":"Gargiulo, Alfredo",
     "Title":"Scritti di estetica",
     "Cities":"Firenze",
@@ -12139,9 +12138,9 @@ const jsonData = [
     "Years":1952,
     "Fund":"BTB Segn. 808",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1214.0,
+    "Category":"P"
+},{
+    "Id":1214,
     "Authors":"Garneri, Augusto",
     "Title":"Gli ordini di architettura civile di Giacomo Barozzi da Vignola architetto",
     "Cities":"o. Torino-Roma-Milano-FirenzeNapoli",
@@ -12149,9 +12148,9 @@ const jsonData = [
     "Years":1910,
     "Fund":"BTB Segn. 2189",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1215.0,
+    "Category":"HA"
+},{
+    "Id":1215,
     "Authors":"Garnier, Enrico",
     "Title":"Un po\u2019 di calcolo sublime (analisi infinitesimale) reso accessibile alle persone di media cultura col mezzo dell\u2019immagine e del calcolo numerico",
     "Cities":"Milano",
@@ -12160,8 +12159,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2070-2071",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1216.0,
+},{
+    "Id":1216,
     "Authors":"Garrone, Dino",
     "Title":"Giovanni Verga",
     "Cities":"Firenze",
@@ -12170,8 +12169,8 @@ const jsonData = [
     "Fund":"BTB Segn. 808 bis",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1217.0,
+},{
+    "Id":1217,
     "Authors":"Garuffa, Egidio",
     "Title":"Motori ad olio pesante, diesel, ecc",
     "Cities":"Milano",
@@ -12180,8 +12179,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2035",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1218.0,
+},{
+    "Id":1218,
     "Authors":"Gaskell, Elizabeth Cleghorn",
     "Title":"Il paese delle nobili signore (Cranford)",
     "Cities":"Milano",
@@ -12189,9 +12188,9 @@ const jsonData = [
     "Years":1950,
     "Fund":"BTB Segn. 1260",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1219.0,
+    "Category":"AL"
+},{
+    "Id":1219,
     "Authors":"Gastaldi, Giovanni",
     "Title":"Tavole di ragguaglio riguardanti le misure e i pesi in uso presso le principali citt\u00e0 italiane",
     "Cities":"Novara",
@@ -12200,8 +12199,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Nota di possesso in data 1905.",
     "Category":"T"
-    },{
-    "Id":1220.0,
+},{
+    "Id":1220,
     "Authors":"Gatti, Riccardo",
     "Title":"Il genere grammaticale nell\u2019indoeuropeo. Studi e ricerche con riguardo anche ad altri gruppi linguistici",
     "Cities":"Bologna",
@@ -12209,9 +12208,9 @@ const jsonData = [
     "Years":1912,
     "Fund":"BTB Segn. Op. 75",
     "Segni":"Omaggio 25.6.1920",
-    "Category":"L"
-    },{
-    "Id":1221.0,
+    "Category":"GR"
+},{
+    "Id":1221,
     "Authors":"Gatti, Riccardo",
     "Title":"Il parlare di Jesi e l\u2019italiano",
     "Cities":"Jesi",
@@ -12219,9 +12218,9 @@ const jsonData = [
     "Years":1926,
     "Fund":"BTB Segn. Op. 83",
     "Segni":"Omaggio dell\u2019autore 17.11.1929.",
-    "Category":"L"
-    },{
-    "Id":1222.0,
+    "Category":"GR"
+},{
+    "Id":1222,
     "Authors":"Gatto, Alfonso",
     "Title":"Poesie (1929-1941)",
     "Cities":"Firenza",
@@ -12230,8 +12229,8 @@ const jsonData = [
     "Fund":"BTB Segn. 423",
     "Segni":"Dedica dell\u2019autore. Parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":1223.0,
+},{
+    "Id":1223,
     "Authors":"Gauguin, Paul",
     "Title":"Noa Noa e altri scritti (1891-1903)",
     "Cities":"Milano",
@@ -12240,8 +12239,8 @@ const jsonData = [
     "Fund":"BTB Segn. 993",
     "Segni":"Dedica del curatore.",
     "Category":"FL"
-    },{
-    "Id":1224.0,
+},{
+    "Id":1224,
     "Authors":"Gauthier, Maximilien",
     "Title":"Daumier",
     "Cities":"Paris",
@@ -12250,8 +12249,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2203",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1225.0,
+},{
+    "Id":1225,
     "Authors":"Gautier, Th\u00e9ophile",
     "Title":"Emaux et cam\u00e9es",
     "Cities":"Milano",
@@ -12260,8 +12259,8 @@ const jsonData = [
     "Fund":"BTB Segn. 994",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1226.0,
+},{
+    "Id":1226,
     "Authors":"Gavazzeni, Gianandrea",
     "Title":"La casa di Arlecchino: prose memorie e un dialogo",
     "Cities":"Milano",
@@ -12270,8 +12269,8 @@ const jsonData = [
     "Fund":"BTB Segn. 424",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1227.0,
+},{
+    "Id":1227,
     "Authors":"Gavazzeni, Gianandrea",
     "Title":"Viaggio in paesi musicali",
     "Cities":"Firenze",
@@ -12280,8 +12279,8 @@ const jsonData = [
     "Fund":"BTB Segn. 425",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":1228.0,
+},{
+    "Id":1228,
     "Authors":"Gaxotte, Pierre",
     "Title":"La France de Louis XIV",
     "Cities":"Paris",
@@ -12289,9 +12288,9 @@ const jsonData = [
     "Years":1946,
     "Fund":"BTB Segn. 1608",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1229.0,
+    "Category":"H"
+},{
+    "Id":1229,
     "Authors":"Gaxotte, Pierre",
     "Title":"La R\u00e9volution fran\u00e7aise",
     "Cities":"Paris",
@@ -12299,9 +12298,9 @@ const jsonData = [
     "Years":1947,
     "Fund":"BTB Segn. 1606",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1230.0,
+    "Category":"H"
+},{
+    "Id":1230,
     "Authors":"Gaxotte, Pierre",
     "Title":"La Rivoluzione francese",
     "Cities":"Milano",
@@ -12309,9 +12308,9 @@ const jsonData = [
     "Years":1949,
     "Fund":"BTB Segn. 1607",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1231.0,
+    "Category":"H"
+},{
+    "Id":1231,
     "Authors":"Gaxotte, Pierre",
     "Title":"Le si\u00e8cle de Louis XV",
     "Cities":"Paris",
@@ -12319,9 +12318,9 @@ const jsonData = [
     "Years":1948,
     "Fund":"BTB Segn. 1608",
     "Segni":"Segnalibro inserito.",
-    "Category":"S"
-    },{
-    "Id":1232.0,
+    "Category":"H"
+},{
+    "Id":1232,
     "Authors":"Gay, John",
     "Title":"L\u2019opera dei mendicanti",
     "Cities":"Torino",
@@ -12329,9 +12328,9 @@ const jsonData = [
     "Years":1943,
     "Fund":"BTB Segn. 1261",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":1233.0,
+    "Category":"AL"
+},{
+    "Id":1233,
     "Authors":"Gay, Paul",
     "Title":"J. F. Millet",
     "Cities":"Paris",
@@ -12339,9 +12338,9 @@ const jsonData = [
     "Years":1950,
     "Fund":"BTB Segn. 2205",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1234.0,
+    "Category":"V"
+},{
+    "Id":1234,
     "Authors":"Genet, Jean",
     "Title":"Journal du voleur",
     "Cities":"Paris ",
@@ -12350,8 +12349,8 @@ const jsonData = [
     "Fund":"BTB Segn. 995",
     "Segni":"Piega. Foglio inserito.",
     "Category":"FL"
-    },{
-    "Id":1235.0,
+},{
+    "Id":1235,
     "Authors":"Gentile, Iginio",
     "Title":"Elementi di storia antica. I. L\u2019Oriente antico. Prospetto storico",
     "Cities":"Milano",
@@ -12359,9 +12358,9 @@ const jsonData = [
     "Years":1890,
     "Fund":"BTB Segn. 1464",
     "Segni":"Nota di possesso autografa di Adele Gadda Lehr.",
-    "Category":"S"
-    },{
-    "Id":1236.0,
+    "Category":"H"
+},{
+    "Id":1236,
     "Authors":"Gentile, Iginio",
     "Title":"Storia romana dalle origini di Roma alla caduta dell\u2019Impero d\u2019Occidente. Compendio ad uso delle scuole secondarie",
     "Cities":"Milano",
@@ -12369,9 +12368,9 @@ const jsonData = [
     "Years":1885,
     "Fund":"BTB Segn. 1465",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1237.0,
+    "Category":"H"
+},{
+    "Id":1237,
     "Authors":"Gerla, Renzo",
     "Title":"Renzo Gerla",
     "Cities":"Ginevra",
@@ -12379,19 +12378,19 @@ const jsonData = [
     "Years":1931,
     "Fund":"BTB Segn. 2228",
     "Segni":"Dedica dell\u2019autore in data 24.10.1935.",
-    "Category":"L"
-    },{
-    "Id":1238.0,
-    "Authors":null,
+    "Category":"IL"
+},{
+    "Id":1238,
+    "Authors":"Not found",
     "Title":"Germanica. Raccolta di narratori dalle origini ai nostri giorni",
     "Cities":"Milano",
     "Publisher":"Bompiani",
     "Years":1942,
     "Fund":"BTB Segn. 1162",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1239.0,
+    "Category":"GL"
+},{
+    "Id":1239,
     "Authors":"Gersbach, Markus",
     "Title":"Carlo Emilio Gadda Wirklichkeit und Verzerrung",
     "Cities":"Bern",
@@ -12399,9 +12398,9 @@ const jsonData = [
     "Years":1969,
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore in data 10.10.1969 e biglietto da visita.",
-    "Category":"L"
-    },{
-    "Id":1240.0,
+    "Category":"V"
+},{
+    "Id":1240,
     "Authors":"Gessi, Leone",
     "Title":"Nella casa del padre",
     "Cities":"Citt\u00e0 del Vaticano",
@@ -12410,8 +12409,8 @@ const jsonData = [
     "Fund":"BAC",
     "Segni":"Dedica dell\u2019autore in data 18.12.1933.",
     "Category":"IL"
-    },{
-    "Id":1241.0,
+},{
+    "Id":1241,
     "Authors":"Ghiselli, Luca",
     "Title":"Diario",
     "Cities":"Firenze",
@@ -12420,8 +12419,8 @@ const jsonData = [
     "Fund":"BTB Segn. 426",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":1242.0,
+},{
+    "Id":1242,
     "Authors":"Ghiselli, Luca",
     "Title":"Poesie: con un\u2019appendice di prose e racconti",
     "Cities":"Firenze",
@@ -12430,8 +12429,8 @@ const jsonData = [
     "Fund":"BTB Segn. 427",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":1243.0,
+},{
+    "Id":1243,
     "Authors":"Ghisleri, Arcangelo",
     "Title":"Testo atlante del mondo antico \u2013 parte 1: Oriente e Grecia",
     "Cities":"Bergamo",
@@ -12440,8 +12439,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":1244.0,
+},{
+    "Id":1244,
     "Authors":"Ghisleri, Arcangelo",
     "Title":"Testo atlante \u2013 Medio Evo",
     "Cities":"Bergamo",
@@ -12450,8 +12449,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":1245.0,
+},{
+    "Id":1245,
     "Authors":"Ghisleri, Arcangelo",
     "Title":"Testo atlante \u2013 Evo moderno e contemporaneo",
     "Cities":"Bergamo",
@@ -12460,8 +12459,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":1246.0,
+},{
+    "Id":1246,
     "Authors":"Giachetti, Cipriano",
     "Title":"Il Congresso di Vienna",
     "Cities":"Milano",
@@ -12469,9 +12468,9 @@ const jsonData = [
     "Years":1941,
     "Fund":"BTB Segn. 1752",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1247.0,
+    "Category":"H"
+},{
+    "Id":1247,
     "Authors":"Giachetti, Cipriano",
     "Title":"La tragica avventura dei Concini. La fine del maresciallo d\u2019Ancre (1600-1617)",
     "Cities":"Milano",
@@ -12479,9 +12478,9 @@ const jsonData = [
     "Years":1939,
     "Fund":"BTB Segn. 1609",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1248.0,
+    "Category":"H"
+},{
+    "Id":1248,
     "Authors":"Giampieri, Dante",
     "Title":"Poesie",
     "Cities":"Firenze",
@@ -12490,8 +12489,8 @@ const jsonData = [
     "Fund":"BTB Segn. 428",
     "Segni":"Dedica dell\u2019autore in data 1946.",
     "Category":"IL"
-    },{
-    "Id":1249.0,
+},{
+    "Id":1249,
     "Authors":"Giampieri, Dante \u2013 Marcucci, Mario",
     "Title":"5 dipinti di Mario Marcucci. 5 poesie di Dante Giampieri",
     "Cities":"Firenze",
@@ -12500,8 +12499,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2174",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1250.0,
+},{
+    "Id":1250,
     "Authors":"Giannessi, Ferdinando",
     "Title":"Il grande Carducci",
     "Cities":"Treviso",
@@ -12510,8 +12509,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":1251.0,
+},{
+    "Id":1251,
     "Authors":"Giardini, Cesare",
     "Title":"L\u2019affaire D\u2019Enghien",
     "Cities":"Milano",
@@ -12519,9 +12518,9 @@ const jsonData = [
     "Years":1945,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1252.0,
+    "Category":"IL"
+},{
+    "Id":1252,
     "Authors":"Giardini, Cesare",
     "Title":"Il tragico destino di Don Carlos (1545-1568)",
     "Cities":"Milano",
@@ -12530,8 +12529,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1588",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1253.0,
+},{
+    "Id":1253,
     "Authors":"Gide, Andr\u00e9",
     "Title":"Anthologie de la po\u00e8sie fran\u00e7aise",
     "Cities":"Paris",
@@ -12540,8 +12539,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1254.0,
+},{
+    "Id":1254,
     "Authors":"Gide, Andr\u00e9",
     "Title":"Les caves du Vatican. Sotie",
     "Cities":"Paris",
@@ -12550,8 +12549,8 @@ const jsonData = [
     "Fund":"BTB Segn. 996",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1255.0,
+},{
+    "Id":1255,
     "Authors":"Gide, Andr\u00e9",
     "Title":"Corydon. Quatre dialogues socratiques",
     "Cities":"Paris",
@@ -12560,8 +12559,8 @@ const jsonData = [
     "Fund":"BTB Segn. 997",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1256.0,
+},{
+    "Id":1256,
     "Authors":"Gide, Andr\u00e9",
     "Title":"L\u2019\u00e9cole des femmes; Robert; Genevi\u00e8ve",
     "Cities":"Paris",
@@ -12570,8 +12569,8 @@ const jsonData = [
     "Fund":"BTB Segn. 998",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1257.0,
+},{
+    "Id":1257,
     "Authors":"Gide, Andr\u00e9",
     "Title":"Incontri e pretesti",
     "Cities":"Milano",
@@ -12580,8 +12579,8 @@ const jsonData = [
     "Fund":"BTB Segn. 999",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1258.0,
+},{
+    "Id":1258,
     "Authors":"Giglioli, Odoardo Hillyer",
     "Title":"Masaccio",
     "Cities":"Roma",
@@ -12589,9 +12588,9 @@ const jsonData = [
     "Years":1930,
     "Fund":"BTB Segn. 2182",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1259.0,
+    "Category":"HA"
+},{
+    "Id":1259,
     "Authors":"Gilson, Etienne",
     "Title":"La filosofia del Medioevo",
     "Cities":"Firenze",
@@ -12599,9 +12598,9 @@ const jsonData = [
     "Years":1932,
     "Fund":"BTB Segn. 1838",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1260.0,
+    "Category":"P"
+},{
+    "Id":1260,
     "Authors":"Gilson, Etienne",
     "Title":"La philosophie au Moyen Age. I. De Scot \u00c9rig\u00e8ne \u00e0 S. Bonaventure",
     "Cities":"Paris",
@@ -12609,9 +12608,9 @@ const jsonData = [
     "Years":1922,
     "Fund":"BTB Segn. 1836 bis",
     "Segni":"Foglio inserito.",
-    "Category":"F"
-    },{
-    "Id":1261.0,
+    "Category":"P"
+},{
+    "Id":1261,
     "Authors":"Gilson, Etienne",
     "Title":"La philosophie au Moyen Age. II. De S. Thomas d\u2019Aquin \u00e0 G. Occam",
     "Cities":"Paris",
@@ -12619,9 +12618,9 @@ const jsonData = [
     "Years":1922,
     "Fund":"BTB Segn. 1837",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1262.0,
+    "Category":"P"
+},{
+    "Id":1262,
     "Authors":"Ginzburg, Natalia",
     "Title":"Lessico famigliare",
     "Cities":"Torino",
@@ -12630,8 +12629,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1263.0,
+},{
+    "Id":1263,
     "Authors":"Ginzburg, Natalia",
     "Title":"Le piccole virt\u00f9",
     "Cities":"Torino",
@@ -12640,8 +12639,8 @@ const jsonData = [
     "Fund":"BTB Segn. 429",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1264.0,
+},{
+    "Id":1264,
     "Authors":"Giolitti, Antonio",
     "Title":"Il comunismo in Europa",
     "Cities":"Milano",
@@ -12649,9 +12648,9 @@ const jsonData = [
     "Years":1960,
     "Fund":"BTB Segn. 1753",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1265.0,
+    "Category":"H"
+},{
+    "Id":1265,
     "Authors":"Giordano-Orsini, Gian Napoleone",
     "Title":"Corso elementare di lingua inglese ad uso delle scuole medie inferiori",
     "Cities":"Firenze",
@@ -12660,8 +12659,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2439",
     "Segni":null,
     "Category":"GR"
-    },{
-    "Id":1266.0,
+},{
+    "Id":1266,
     "Authors":"Giorni, Carlo",
     "Title":"Letture greche di prosa e di poesia secondo gli ultimi programmi",
     "Cities":"Firenze",
@@ -12669,19 +12668,19 @@ const jsonData = [
     "Years":1908,
     "Fund":null,
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1267.0,
-    "Authors":null,
+    "Category":"CL"
+},{
+    "Id":1267,
+    "Authors":"Not found",
     "Title":"Giovanni Fattori",
     "Cities":"Firenze",
     "Publisher":"Electa",
     "Years":1949,
     "Fund":"BTB Segn. 2201",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1268.0,
+    "Category":"HA"
+},{
+    "Id":1268,
     "Authors":"Giovenale, Decimo Giunio",
     "Title":"Le satire",
     "Cities":"Milano",
@@ -12690,8 +12689,8 @@ const jsonData = [
     "Fund":"BTB Segn. 51",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":1269.0,
+},{
+    "Id":1269,
     "Authors":"Giovenale, Decimo Giunio",
     "Title":"Satires",
     "Cities":"Paris",
@@ -12700,8 +12699,8 @@ const jsonData = [
     "Fund":"BTB Segn. 102",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":1270.0,
+},{
+    "Id":1270,
     "Authors":"Giraud, Edoardo",
     "Title":"I duu ors",
     "Cities":"s.l.",
@@ -12710,8 +12709,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1271.0,
+},{
+    "Id":1271,
     "Authors":"Giraud, Edoardo",
     "Title":" Minestron",
     "Cities":"s.l.",
@@ -12720,8 +12719,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1272.0,
+},{
+    "Id":1272,
     "Authors":"Giraud, Edoardo",
     "Title":" Tecoppa brumista",
     "Cities":"s.l.",
@@ -12730,8 +12729,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1273.0,
+},{
+    "Id":1273,
     "Authors":"Giua, Stefano",
     "Title":"Elogio dell\u2019ipocrisia",
     "Cities":"Roma",
@@ -12739,19 +12738,19 @@ const jsonData = [
     "Years":1960,
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore.",
-    "Category":"L"
-    },{
-    "Id":1274.0,
-    "Authors":null,
+    "Category":"IL"
+},{
+    "Id":1274,
+    "Authors":"Not found",
     "Title":" Giuseppe Gioachino Belli e la Roma del suo tempo. Mostra nel centenario della morte del poeta\n(1863-1963). Palazzo Braschi, dicembre 1963-febbraio 1964",
     "Cities":"Roma",
     "Publisher":"De Luca",
     "Years":1963,
     "Fund":"BTB Segn. 760",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1275.0,
+    "Category":"HA"
+},{
+    "Id":1275,
     "Authors":"Giussani, Camillo",
     "Title":"Chiacchiere di un alpinista",
     "Cities":"Milano",
@@ -12760,8 +12759,8 @@ const jsonData = [
     "Fund":"BTB Segn. 431",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1276.0,
+},{
+    "Id":1276,
     "Authors":"Giusti, Giuseppe",
     "Title":"Epistolario di Giuseppe Giusti",
     "Cities":"Firenze",
@@ -12770,8 +12769,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Nota di possesso di Adele Gadda Lehr.",
     "Category":"IL"
-    },{
-    "Id":1277.0,
+},{
+    "Id":1277,
     "Authors":"Giusti, Giuseppe",
     "Title":"Le poesie di Giuseppe Giusti",
     "Cities":"Milano",
@@ -12780,8 +12779,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1278.0,
+},{
+    "Id":1278,
     "Authors":"Giusti, Giuseppe",
     "Title":"Poesie.",
     "Cities":"Sesto San Giovanni",
@@ -12790,8 +12789,8 @@ const jsonData = [
     "Fund":"BTB Segn. 432",
     "Segni":"Parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":1279.0,
+},{
+    "Id":1279,
     "Authors":"Giusti, Giuseppe",
     "Title":"Prose di Giuseppe Giusti",
     "Cities":"Firenze",
@@ -12800,8 +12799,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1280.0,
+},{
+    "Id":1280,
     "Authors":"Giusti, Giuseppe",
     "Title":"Raccolta di proverbi toscani",
     "Cities":"Firenze",
@@ -12810,8 +12809,8 @@ const jsonData = [
     "Fund":"BTB Segn. 434",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1281.0,
+},{
+    "Id":1281,
     "Authors":"Giusti, Giuseppe",
     "Title":"Versi editi e inediti",
     "Cities":"Firenze",
@@ -12820,8 +12819,8 @@ const jsonData = [
     "Fund":"BTB Segn. 433",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1282.0,
+},{
+    "Id":1282,
     "Authors":"Giusti, Wolf",
     "Title":"Dostoewski e il mondo russo dell\u2019800",
     "Cities":"Napoli",
@@ -12829,9 +12828,9 @@ const jsonData = [
     "Years":1952,
     "Fund":"BTB Segn. 1400",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1283.0,
+    "Category":"RL"
+},{
+    "Id":1283,
     "Authors":"Glotz, Gustave",
     "Title":"La civilt\u00e0 egea",
     "Cities":"Torino",
@@ -12839,9 +12838,9 @@ const jsonData = [
     "Years":1953,
     "Fund":"BTB Segn. 1466",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1284.0,
+    "Category":"H"
+},{
+    "Id":1284,
     "Authors":"Gnecchi, Alessandro",
     "Title":"Le montagne dell\u2019Alta Valle Camonica",
     "Cities":"Brescia",
@@ -12849,9 +12848,9 @@ const jsonData = [
     "Years":1908,
     "Fund":"BAL",
     "Segni":"Nota di possesso Carlo Emilio Gadda 29 agosto 1915 Edolo 5\u00b0 reggimento alpini.",
-    "Category":"L"
-    },{
-    "Id":1285.0,
+    "Category":"G"
+},{
+    "Id":1285,
     "Authors":"Goethe, Johann Wolfgang von",
     "Title":"Autobiografia (Poesia e verit\u00e0)",
     "Cities":"Milano",
@@ -12860,8 +12859,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1177",
     "Segni":"Intonso.",
     "Category":"GL"
-    },{
-    "Id":1286.0,
+},{
+    "Id":1286,
     "Authors":"Goethe, Johann Wolfgang von",
     "Title":"La bella genovese",
     "Cities":"Milano",
@@ -12870,8 +12869,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1179",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":1287.0,
+},{
+    "Id":1287,
     "Authors":"Goethe, Johann Wolfgang von",
     "Title":" La Campagna di Francia: L\u2019assedio di Magonza",
     "Cities":"Milano",
@@ -12880,8 +12879,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1178",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":1288.0,
+},{
+    "Id":1288,
     "Authors":"Goethe, Johann Wolfgang von",
     "Title":"I dolori del giovane Werther",
     "Cities":"Torino",
@@ -12890,8 +12889,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1180",
     "Segni":"Intonso.",
     "Category":"GL"
-    },{
-    "Id":1289.0,
+},{
+    "Id":1289,
     "Authors":"Goethe, Johann Wolfgang von",
     "Title":" Faust",
     "Cities":"Leipzig",
@@ -12900,8 +12899,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1182",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":1290.0,
+},{
+    "Id":1290,
     "Authors":"Goethe, Johann Wolfgang von",
     "Title":"  Faust",
     "Cities":"Leipzig",
@@ -12910,8 +12909,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":1291.0,
+},{
+    "Id":1291,
     "Authors":"Goethe, Johann Wolfgang von",
     "Title":"Faust",
     "Cities":"Paris",
@@ -12920,8 +12919,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1181",
     "Segni":"Pieghe.",
     "Category":"GL"
-    },{
-    "Id":1292.0,
+},{
+    "Id":1292,
     "Authors":"Goethe, Johann Wolfgang von",
     "Title":"Gedichte",
     "Cities":"LeipzigWien",
@@ -12930,8 +12929,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1176",
     "Segni":"Nota di possesso autografa in data 10.10.1919.",
     "Category":"GL"
-    },{
-    "Id":1293.0,
+},{
+    "Id":1293,
     "Authors":"Goethe, Johann Wolfgang von",
     "Title":"Opere",
     "Cities":"Firenze",
@@ -12940,8 +12939,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1163-1165",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":1294.0,
+},{
+    "Id":1294,
     "Authors":"Goethe, Johann Wolfgang von",
     "Title":"Poesie liriche",
     "Cities":"Bologna",
@@ -12950,8 +12949,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1183",
     "Segni":"Nota di possesso autografa in data 31.05.1919. Dono di Adele Gadda Lehr.",
     "Category":"GL"
-    },{
-    "Id":1295.0,
+},{
+    "Id":1295,
     "Authors":"Goethe, Johann Wolfgang von",
     "Title":"Viaggio in Italia",
     "Cities":"Genova",
@@ -12960,8 +12959,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1184",
     "Segni":"Nota di possesso autografa di Adele Gadda Lehr.",
     "Category":"GL"
-    },{
-    "Id":1296.0,
+},{
+    "Id":1296,
     "Authors":"Goethe, Johann Wolfgang von",
     "Title":"Werke",
     "Cities":"Berlin",
@@ -12970,8 +12969,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1166-1175",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":1297.0,
+},{
+    "Id":1297,
     "Authors":"Gogol\u2019, Nikolaj Vasil\u2019evic",
     "Title":"Le avventure di Cicikov ovvero Le anime morte",
     "Cities":"Torino",
@@ -12980,8 +12979,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1375-1376",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":1298.0,
+},{
+    "Id":1298,
     "Authors":"Gogol\u2019, Nikolaj Vasil\u2019evic",
     "Title":"Le avventure di Cicikov ovvero Le anime morte",
     "Cities":"Firenze",
@@ -12990,8 +12989,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1373-1374",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":1299.0,
+},{
+    "Id":1299,
     "Authors":"Gogol\u2019, Nikolaj Vasil\u2019evic",
     "Title":"Come Iv\u00e0n Ivanovich question\u00f2 con Iv\u00e0n Nik\u00ecforovich",
     "Cities":"Roma",
@@ -13000,8 +12999,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1377",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":1300.0,
+},{
+    "Id":1300,
     "Authors":"Gogol\u2019, Nikolaj Vasil\u2019evic",
     "Title":"Racconti di Pietroburgo",
     "Cities":"Milano-Roma",
@@ -13010,8 +13009,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1378",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":1301.0,
+},{
+    "Id":1301,
     "Authors":"Gogol\u2019, Nikolaj Vasil\u2019evic",
     "Title":"Taras Bulba",
     "Cities":"Milano",
@@ -13020,8 +13019,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1379",
     "Segni":"Intonso.",
     "Category":"RL"
-    },{
-    "Id":1302.0,
+},{
+    "Id":1302,
     "Authors":"Gogol\u2019, Nikolaj Vasil\u2019evic",
     "Title":"Taras Bulba",
     "Cities":"Milano",
@@ -13030,8 +13029,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":1303.0,
+},{
+    "Id":1303,
     "Authors":"Goldoni, Carlo",
     "Title":"Commedie: La locandiera; Gli innamorati; I rusteghi; Le baruffe chiozzotte",
     "Cities":"Milano",
@@ -13040,8 +13039,8 @@ const jsonData = [
     "Fund":"BTB Segn. 435",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1304.0,
+},{
+    "Id":1304,
     "Authors":"Goldoni, Carlo",
     "Title":"Opere. Con appendice del teatro comico nel Settecento",
     "Cities":"Milano-Napoli",
@@ -13050,8 +13049,8 @@ const jsonData = [
     "Fund":"BTB Segn. 436",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1305.0,
+},{
+    "Id":1305,
     "Authors":"Goldoni, Carlo",
     "Title":" Tutte le opere di Carlo Goldoni, vol. XI",
     "Cities":"Milano",
@@ -13060,8 +13059,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1306.0,
+},{
+    "Id":1306,
     "Authors":"Goldoni, Carlo",
     "Title":" Tutte le opere di Carlo Goldoni, vol. XII",
     "Cities":"Milano",
@@ -13070,8 +13069,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1307.0,
+},{
+    "Id":1307,
     "Authors":"Goncarov, Ivan Aleksandrovic",
     "Title":"Oblomov",
     "Cities":"Torino",
@@ -13080,8 +13079,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1380",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":1308.0,
+},{
+    "Id":1308,
     "Authors":"Goncourt, Edmond e Jules de",
     "Title":"Journal des Goncourt: M\u00e9moires de la vie litt\u00e9raire",
     "Cities":"Paris",
@@ -13090,8 +13089,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1000-1008",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1309.0,
+},{
+    "Id":1309,
     "Authors":"G\u00f3ngora y Argote, Luis de",
     "Title":"Sonetti funebri",
     "Cities":"Milano",
@@ -13100,8 +13099,8 @@ const jsonData = [
     "Fund":"BTB Segn. 919",
     "Segni":"Dedica del curatore in data 14.8.1961.",
     "Category":"SL"
-    },{
-    "Id":1310.0,
+},{
+    "Id":1310,
     "Authors":"Gourmont, Remy De",
     "Title":"Promenades litt\u00e9raires",
     "Cities":"Paris",
@@ -13110,8 +13109,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1311.0,
+},{
+    "Id":1311,
     "Authors":"Govoni, Corrado",
     "Title":"Antologia poetica (1903-1953)",
     "Cities":"Firenze",
@@ -13120,8 +13119,8 @@ const jsonData = [
     "Fund":"BTB Segn. 437",
     "Segni":"Dedica dell\u2019autore in data 6.1953.",
     "Category":"IL"
-    },{
-    "Id":1312.0,
+},{
+    "Id":1312,
     "Authors":"Gozzano, Guido",
     "Title":"I colloqui e altre poesie",
     "Cities":"Milano",
@@ -13130,8 +13129,8 @@ const jsonData = [
     "Fund":"BTB Segn. 439",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1313.0,
+},{
+    "Id":1313,
     "Authors":"Gozzano, Guido",
     "Title":"Le poesie",
     "Cities":"Milano",
@@ -13140,8 +13139,8 @@ const jsonData = [
     "Fund":"BTB Segn. 438",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1314.0,
+},{
+    "Id":1314,
     "Authors":"Gozzano, Guido",
     "Title":"La via del rifugio",
     "Cities":"Milano  ",
@@ -13150,8 +13149,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1315.0,
+},{
+    "Id":1315,
     "Authors":"Gozzi, Gasparo",
     "Title":"Gazzetta veneta",
     "Cities":"Milano",
@@ -13160,8 +13159,8 @@ const jsonData = [
     "Fund":"BTB Segn. 440-441",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1316.0,
+},{
+    "Id":1316,
     "Authors":"Gradenigo, Sergio \u2013 Perco, Giovanni Andrea",
     "Title":"Postumia e le sue celebri grotte",
     "Cities":"Postumia",
@@ -13170,8 +13169,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2339",
     "Segni":"Nota di possesso autografa in data 1931.",
     "Category":"G "
-    },{
-    "Id":1317.0,
+},{
+    "Id":1317,
     "Authors":"Graetz, LeoRossi, Carl",
     "Title":" Le nuove teorie atomiche e la costituzione della materia",
     "Cities":"Milano",
@@ -13180,9 +13179,9 @@ const jsonData = [
     "Fund":"BTM",
     "Segni":"Nota di possesso e data 1925 Milano.",
     "Category":"T"
-    },{
-    "Id":1318.0,
-    "Authors":null,
+},{
+    "Id":1318,
+    "Authors":"Not found",
     "Title":"Gramatica de la lengua espa\u00f1ola",
     "Cities":"Madrid",
     "Publisher":"Espasa-Calpe",
@@ -13190,9 +13189,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2405",
     "Segni":null,
     "Category":"GR"
-    },{
-    "Id":1319.0,
-    "Authors":null,
+},{
+    "Id":1319,
+    "Authors":"Not found",
     "Title":"Grammaire g\u00e9n\u00e9rale de Port Royal",
     "Cities":"Paris",
     "Publisher":"Hachette",
@@ -13200,9 +13199,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2440",
     "Segni":null,
     "Category":"GR"
-    },{
-    "Id":1320.0,
-    "Authors":null,
+},{
+    "Id":1320,
+    "Authors":"Not found",
     "Title":"Grand dictionnaire fran\u00e7aisitalien italienfran\u00e7ais compos\u00e9 sur les dictionnaires de l\u2019Acad\u00e9mie Fran\u00e7aise et de la Crusca",
     "Cities":"Milano",
     "Publisher":"Nervetti",
@@ -13210,9 +13209,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2416-2417",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":1321.0,
-    "Authors":null,
+},{
+    "Id":1321,
+    "Authors":"Not found",
     "Title":"La grande bonificazione ferrarese",
     "Cities":"s.l.",
     "Publisher":"Bonifica e Colonizzazione",
@@ -13220,8 +13219,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 74",
     "Segni":"Sottolineature e postille.",
     "Category":"T"
-    },{
-    "Id":1322.0,
+},{
+    "Id":1322,
     "Authors":"Granelli Cerlini, Amalia",
     "Title":"Un ministro del regno italico: Antonio Veneri",
     "Cities":"Treviglio",
@@ -13229,9 +13228,9 @@ const jsonData = [
     "Years":1927,
     "Fund":null,
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1323.0,
+    "Category":"V"
+},{
+    "Id":1323,
     "Authors":"Granville Baker, Harley",
     "Title":"Introduzione all\u2019Amleto",
     "Cities":"Bari",
@@ -13239,9 +13238,9 @@ const jsonData = [
     "Years":1959,
     "Fund":"BAL",
     "Segni":"Dedica del traduttore in data 11.6.1959.",
-    "Category":"L"
-    },{
-    "Id":1324.0,
+    "Category":"AL"
+},{
+    "Id":1324,
     "Authors":"Grasso, Gabriele",
     "Title":"Sul significato geografico del nome \u00abcontra\u00bb in Italia",
     "Cities":"Milano",
@@ -13250,8 +13249,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 71",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":1325.0,
+},{
+    "Id":1325,
     "Authors":"Gray, Richard O.",
     "Title":"Dizionario inglese-italiano e viceversa",
     "Cities":"Milano",
@@ -13260,8 +13259,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":1326.0,
+},{
+    "Id":1326,
     "Authors":"Grazzini, Anton Francesco (detto il Lasca)",
     "Title":"Le cene",
     "Cities":"Milano",
@@ -13269,9 +13268,9 @@ const jsonData = [
     "Years":1943,
     "Fund":"BTB Segn. 442-443",
     "Segni":"Due copie.",
-    "Category":"L"
-    },{
-    "Id":1327.0,
+    "Category":"IL"
+},{
+    "Id":1327,
     "Authors":"Green, Julien",
     "Title":"Adrienne Mesurat",
     "Cities":"Paris",
@@ -13279,9 +13278,9 @@ const jsonData = [
     "Years":1923,
     "Fund":"BTB Segn. 1010",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1328.0,
+    "Category":"FL"
+},{
+    "Id":1328,
     "Authors":"Greene, Graham",
     "Title":"Il nocciolo della questione",
     "Cities":"Milano",
@@ -13289,9 +13288,9 @@ const jsonData = [
     "Years":1952,
     "Fund":"BTB Segn. 1262",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1329.0,
+    "Category":"AL"
+},{
+    "Id":1329,
     "Authors":"Grimal, Pierre",
     "Title":"Horace",
     "Cities":"Tours",
@@ -13300,8 +13299,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1330.0,
+},{
+    "Id":1330,
     "Authors":"Grisi, Francesco",
     "Title":"Incontri e occasioni",
     "Cities":"Milano  ",
@@ -13310,8 +13309,8 @@ const jsonData = [
     "Fund":"BTB Segn. 810",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1331.0,
+},{
+    "Id":1331,
     "Authors":"Grisi, Francesco",
     "Title":"Incontri in libreria (scrittori italiani d\u2019oggi)",
     "Cities":"Milano",
@@ -13320,8 +13319,8 @@ const jsonData = [
     "Fund":"BTB Segn. 811",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1332.0,
+},{
+    "Id":1332,
     "Authors":"Groff Conklin, Edward",
     "Title":"Racconti di fantascienza scritti daglii scienziati",
     "Cities":"Milano",
@@ -13329,9 +13328,9 @@ const jsonData = [
     "Years":1965,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1333.0,
+    "Category":"V"
+},{
+    "Id":1333,
     "Authors":"Grosso, Orlando",
     "Title":"Genova e la Riviera ligure",
     "Cities":"Roma",
@@ -13340,19 +13339,19 @@ const jsonData = [
     "Fund":"BTB Segn. 2341",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":1334.0,
-    "Authors":null,
+},{
+    "Id":1334,
+    "Authors":"Not found",
     "Title":"Gruppo 63: la nuova letteratura. 34 scrittori, Palermo ottobre 1963.",
     "Cities":"Milano",
     "Publisher":"Feltrinelli",
     "Years":1964,
     "Fund":"BTB Segn. 809",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1335.0,
-    "Authors":null,
+    "Category":"IL"
+},{
+    "Id":1335,
+    "Authors":"Not found",
     "Title":"Gruppo Societ\u00e0 Adriatica di elettricit\u00e0 e la sua attivit\u00e0 economica dalle origini al 1929",
     "Cities":"Roma",
     "Publisher":"L\u2019Universale",
@@ -13360,8 +13359,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2110",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1336.0,
+},{
+    "Id":1336,
     "Authors":"Guarnieri, Silvio",
     "Title":"Cinquant\u2019anni di narrativa in Italia",
     "Cities":"Firenze",
@@ -13370,8 +13369,8 @@ const jsonData = [
     "Fund":"BTB Segn. 814",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1337.0,
+},{
+    "Id":1337,
     "Authors":"Guarnieri, Silvio",
     "Title":"Saggio su D\u2019Annunzio",
     "Cities":"Firenze",
@@ -13380,8 +13379,8 @@ const jsonData = [
     "Fund":"BTB Segn. 812",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1338.0,
+},{
+    "Id":1338,
     "Authors":"Guarnieri, Silvio",
     "Title":"Lo spettatore appassionato",
     "Cities":"Firenze",
@@ -13390,8 +13389,8 @@ const jsonData = [
     "Fund":"BTB Segn. 813",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1339.0,
+},{
+    "Id":1339,
     "Authors":"Guerra, Antonio",
     "Title":"Dopo i leoni",
     "Cities":"Torino",
@@ -13400,8 +13399,8 @@ const jsonData = [
     "Fund":"BTB Segn. 445",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":1340.0,
+},{
+    "Id":1340,
     "Authors":"Guerra, Antonio",
     "Title":"Lunario",
     "Cities":"Faenza",
@@ -13410,18 +13409,18 @@ const jsonData = [
     "Fund":"BTB Segn. 444",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1341.0,
-    "Authors":null,
+},{
+    "Id":1341,
+    "Authors":"Not found",
     "Title":"La Guerra",
     "Cities":"Milano",
     "Publisher":"Fratelli Treves",
     "Years":1936,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1342.0,
+    "Category":"M"
+},{
+    "Id":1342,
     "Authors":"Guerrazzi, Francesco Domenico",
     "Title":"L\u2019assedio di Firenze",
     "Cities":"Milano",
@@ -13430,8 +13429,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1519",
     "Segni":"Nota di possesso in data 14.11.1906. Pieghe.",
     "Category":"S "
-    },{
-    "Id":1343.0,
+},{
+    "Id":1343,
     "Authors":"Guerreschi, Giuseppe",
     "Title":"Dipinti",
     "Cities":"Comune di Ferrara",
@@ -13439,9 +13438,9 @@ const jsonData = [
     "Years":1969,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1344.0,
+    "Category":"HA"
+},{
+    "Id":1344,
     "Authors":"Guerrieri-Gonzaga, Carlo",
     "Title":"Marco Minghetti. Commemorazione fatta alla R. Accademia Virgiliana il 5 giugno 1892",
     "Cities":"Mantova",
@@ -13449,9 +13448,9 @@ const jsonData = [
     "Years":1892,
     "Fund":"BTB Segn. Op. 76",
     "Segni":"Dedica dell\u2019autore a Giuseppe Gadda.",
-    "Category":"S"
-    },{
-    "Id":1345.0,
+    "Category":"H"
+},{
+    "Id":1345,
     "Authors":"Guerzoni, Giuseppe",
     "Title":"La vita di Nino Bixio",
     "Cities":"Firenze",
@@ -13459,9 +13458,9 @@ const jsonData = [
     "Years":1875,
     "Fund":"BTB Segn. 1520",
     "Segni":"Nota di possesso autografa di Gadda.  Postille.",
-    "Category":"S"
-    },{
-    "Id":1346.0,
+    "Category":"H"
+},{
+    "Id":1346,
     "Authors":"Gueux, Fran\u00e7ois",
     "Title":"Storia dell\u2019istruzione e dell\u2019educazione",
     "Cities":"Torino-Milano-Firenze-Roma-Napoli-Palermo ",
@@ -13469,9 +13468,9 @@ const jsonData = [
     "Years":1924,
     "Fund":"BTB Segn. 2003-2004",
     "Segni":"Nota di possesso autografa in data 18.05. 1924 Milano.",
-    "Category":"S"
-    },{
-    "Id":1347.0,
+    "Category":"H"
+},{
+    "Id":1347,
     "Authors":"Guglielmi, Angelo",
     "Title":"Avanguardia e sperimentalismo",
     "Cities":"Milano",
@@ -13479,9 +13478,9 @@ const jsonData = [
     "Years":1964,
     "Fund":"BTB Segn. 815",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1348.0,
+    "Category":"V"
+},{
+    "Id":1348,
     "Authors":"Guglielmi, Guido",
     "Title":"Letteratura come sistema e come funzione",
     "Cities":"Torino",
@@ -13490,8 +13489,8 @@ const jsonData = [
     "Fund":"BTB Segn. 816",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1349.0,
+},{
+    "Id":1349,
     "Authors":"Guicciardini, Francesco",
     "Title":"Istoria d\u2019Italia",
     "Cities":"Firenze",
@@ -13499,9 +13498,9 @@ const jsonData = [
     "Years":1830,
     "Fund":"BTB Segn. 1521-1528",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1350.0,
+    "Category":"H"
+},{
+    "Id":1350,
     "Authors":"Guicciardini, Francesco",
     "Title":"Ricordi politici e civili",
     "Cities":"Milano",
@@ -13509,10 +13508,10 @@ const jsonData = [
     "Years":1951,
     "Fund":"BTB Segn. 446",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1351.0,
-    "Authors":null,
+    "Category":"H"
+},{
+    "Id":1351,
+    "Authors":"Not found",
     "Title":"Guida artistica di Firenze e dintorni",
     "Cities":"Firenze",
     "Publisher":"Societ\u00e0 Editrice Fiorentina",
@@ -13520,9 +13519,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2303",
     "Segni":null,
     "Category":"F "
-    },{
-    "Id":1352.0,
-    "Authors":null,
+},{
+    "Id":1352,
+    "Authors":"Not found",
     "Title":"Guida breve dell\u2019Italia Centrale",
     "Cities":"s.l.",
     "Publisher":"Consociazione Turistica Italiana",
@@ -13530,9 +13529,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2313",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":1353.0,
-    "Authors":null,
+},{
+    "Id":1353,
+    "Authors":"Not found",
     "Title":"Guida pratica e pianta della citt\u00e0di Torino",
     "Cities":"Torino",
     "Publisher":"Muletti",
@@ -13540,9 +13539,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2290",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":1354.0,
-    "Authors":null,
+},{
+    "Id":1354,
+    "Authors":"Not found",
     "Title":"Guida storico-artistica dell\u2019Ospedale maggiore di Milano.",
     "Cities":"Milano",
     "Publisher":"s.n.",
@@ -13550,8 +13549,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2375",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":1355.0,
+},{
+    "Id":1355,
     "Authors":"Guidacci, Margherita",
     "Title":"Morte del ricco. Un oratorio",
     "Cities":"Firenze",
@@ -13560,8 +13559,8 @@ const jsonData = [
     "Fund":"BTB Segn. 447",
     "Segni":"Dedica dell\u2019autrice.",
     "Category":"IL"
-    },{
-    "Id":1356.0,
+},{
+    "Id":1356,
     "Authors":"Guidacci, Margherita",
     "Title":"La sabbia e l\u2019angelo",
     "Cities":"Firenze",
@@ -13570,9 +13569,9 @@ const jsonData = [
     "Fund":"BTB Segn. 448",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1357.0,
-    "Authors":null,
+},{
+    "Id":1357,
+    "Authors":"Not found",
     "Title":"Guide pratique de Lyon et de sa r\u00e9gion.",
     "Cities":"Lyon",
     "Publisher":"Guides Pol",
@@ -13580,8 +13579,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2306",
     "Segni":"Nota di possesso autografa.",
     "Category":"G"
-    },{
-    "Id":1358.0,
+},{
+    "Id":1358,
     "Authors":"Guidi, Augusto",
     "Title":"La civilt\u00e0 elisabettiana",
     "Cities":"Milano",
@@ -13589,9 +13588,9 @@ const jsonData = [
     "Years":1962,
     "Fund":"BTB Segn. 1717",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1359.0,
+    "Category":"H"
+},{
+    "Id":1359,
     "Authors":"Gundolf, Friedrich",
     "Title":"Caesar. Storia della sua fama",
     "Cities":"Milano",
@@ -13599,9 +13598,9 @@ const jsonData = [
     "Years":1934,
     "Fund":"BTB Segn. 1467",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1360.0,
+    "Category":"H"
+},{
+    "Id":1360,
     "Authors":"Guttmacher, Alan Frank",
     "Title":"Come si crea la vita",
     "Cities":"Milano",
@@ -13610,8 +13609,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2072",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1361.0,
+},{
+    "Id":1361,
     "Authors":"Guttmacher, Alan Frank",
     "Title":"Come si crea la vita",
     "Cities":"Milano",
@@ -13620,8 +13619,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1362.0,
+},{
+    "Id":1362,
     "Authors":"Guzzo, Augusto",
     "Title":"Il pensiero di Spinoza",
     "Cities":"Firenze",
@@ -13629,9 +13628,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BTM",
     "Segni":"Sottolineature e postille.",
-    "Category":"F"
-    },{
-    "Id":1363.0,
+    "Category":"P"
+},{
+    "Id":1363,
     "Authors":"Hamelin, Octave",
     "Title":"Le syst\u00e8me d\u2019Aristote",
     "Cities":"Paris",
@@ -13639,9 +13638,9 @@ const jsonData = [
     "Years":1920,
     "Fund":"BTB Segn. 1947",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1364.0,
+    "Category":"P"
+},{
+    "Id":1364,
     "Authors":"Hare, Frederick Kenneth",
     "Title":"L\u2019atmosfera in movimento",
     "Cities":"Milano",
@@ -13650,8 +13649,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2076",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":1365.0,
+},{
+    "Id":1365,
     "Authors":"Hauptmann, Gerhart",
     "Title":"Die versunkene Glocke",
     "Cities":"Berlin",
@@ -13660,8 +13659,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1185",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":1366.0,
+},{
+    "Id":1366,
     "Authors":"Hawthorne, Nathaniel",
     "Title":"La lettera scarlatta",
     "Cities":"Milano",
@@ -13669,9 +13668,9 @@ const jsonData = [
     "Years":1937,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":1367.0,
+    "Category":"AL"
+},{
+    "Id":1367,
     "Authors":"Hayward, Wyatt W.",
     "Title":"Mitchell\u2019s revised English course",
     "Cities":"Buenos Aires",
@@ -13679,9 +13678,9 @@ const jsonData = [
     "Years":1913,
     "Fund":"BTB Segn. 2444",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":1368.0,
+    "Category":"AL"
+},{
+    "Id":1368,
     "Authors":"Hebbel, Christian Friedrich",
     "Title":"Giuditta",
     "Cities":"Firenze",
@@ -13690,8 +13689,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1186",
     "Segni":"Nota di possesso autografa di Enrico Gadda. Sottolineature.",
     "Category":"GL"
-    },{
-    "Id":1369.0,
+},{
+    "Id":1369,
     "Authors":"Hedin, Steve",
     "Title":"Il lago errante",
     "Cities":"Torino",
@@ -13700,8 +13699,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1404",
     "Segni":"Intonso.",
     "Category":"GL"
-    },{
-    "Id":1370.0,
+},{
+    "Id":1370,
     "Authors":"Hegel, Georg Wilhelm Friedrich",
     "Title":"Enciclopedia delle scienze filosofiche",
     "Cities":"Bari",
@@ -13710,8 +13709,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1839",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":1371.0,
+},{
+    "Id":1371,
     "Authors":"Heine, Heinrich",
     "Title":"Buch der Lieder; Neue Gedichte",
     "Cities":"Leipzig",
@@ -13720,8 +13719,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1187",
     "Segni":"Nota di possesso autografa in data 10.10.1919 Milano.",
     "Category":"GL"
-    },{
-    "Id":1372.0,
+},{
+    "Id":1372,
     "Authors":"Heine, Heinrich",
     "Title":" Che cosa \u00e8 la Germania: analisi e profezie.",
     "Cities":"Milano",
@@ -13730,8 +13729,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1188",
     "Segni":"Nota di possesso autografa di Adele Gadda Lehr.",
     "Category":"GL"
-    },{
-    "Id":1373.0,
+},{
+    "Id":1373,
     "Authors":"Heine, Heinrich",
     "Title":"Pagine autobiografiche",
     "Cities":"Roma",
@@ -13740,8 +13739,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1189",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":1374.0,
+},{
+    "Id":1374,
     "Authors":"Heisenberg, Werner",
     "Title":"Natura e fisica moderna",
     "Cities":"Milano",
@@ -13750,8 +13749,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2077",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":1375.0,
+},{
+    "Id":1375,
     "Authors":"Heldrich, Jerry Wald",
     "Title":"Un milione di anni adesso",
     "Cities":"Roma",
@@ -13760,8 +13759,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":1376.0,
+},{
+    "Id":1376,
     "Authors":"Hergesheimer, Joseph",
     "Title":"Java Head",
     "Cities":"London",
@@ -13770,8 +13769,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":1377.0,
+},{
+    "Id":1377,
     "Authors":"Herland, Louis",
     "Title":"Corneille par luim\u00eame",
     "Cities":"Paris",
@@ -13780,8 +13779,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1126",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1378.0,
+},{
+    "Id":1378,
     "Authors":"Hermanin, Federico",
     "Title":"Alberto D\u00fcrer",
     "Cities":"Roma",
@@ -13789,9 +13788,9 @@ const jsonData = [
     "Years":1930,
     "Fund":"BTB Segn. 2183",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1379.0,
+    "Category":"HA"
+},{
+    "Id":1379,
     "Authors":"Hersch, Jeanne",
     "Title":"L\u2019illusione della filosofia",
     "Cities":"Torino",
@@ -13799,9 +13798,9 @@ const jsonData = [
     "Years":1942,
     "Fund":"BTB Segn. 1840",
     "Segni":" Intonso.",
-    "Category":"F"
-    },{
-    "Id":1380.0,
+    "Category":"P"
+},{
+    "Id":1380,
     "Authors":"Herzen, Aleksandr",
     "Title":"Garibaldi a Londra",
     "Cities":"Milano",
@@ -13809,9 +13808,9 @@ const jsonData = [
     "Years":1950,
     "Fund":"BTB Segn. 1529",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1381.0,
+    "Category":"H"
+},{
+    "Id":1381,
     "Authors":"Hibben, John Grier",
     "Title":"La logica di Hegel (saggio d\u2019interpretazione)",
     "Cities":"Torino-Milano-Roma",
@@ -13819,29 +13818,29 @@ const jsonData = [
     "Years":1910,
     "Fund":"BTB Segn. 1948",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1382.0,
-    "Authors":null,
+    "Category":"P"
+},{
+    "Id":1382,
+    "Authors":"Not found",
     "Title":"Histoire de France depuis les origines jusqu\u2019\u00e0 la R\u00e9volution",
     "Cities":"Paris",
     "Publisher":"Hachette",
     "Years":1900,
     "Fund":"BTB Segn. 1620-1646",
     "Segni":"Sottolineature al volume 8\/II.",
-    "Category":"S"
-    },{
-    "Id":1383.0,
-    "Authors":null,
+    "Category":"H"
+},{
+    "Id":1383,
+    "Authors":"Not found",
     "Title":"Histoire de la France pour tous les Fran\u00e7ais",
     "Cities":"Paris",
     "Publisher":"Hachette",
     "Years":1950,
     "Fund":"BTB Segn. 1649-1650",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1384.0,
+    "Category":"H"
+},{
+    "Id":1384,
     "Authors":"H\u00f6ffding, Harald",
     "Title":"Storia della filosofia moderna. Esposizione della storia della filosofia dalla fine del Rinascimento fino ai giorni nostri",
     "Cities":"Torino ",
@@ -13849,9 +13848,9 @@ const jsonData = [
     "Years":1913,
     "Fund":"BTB Segn. 1950-1951",
     "Segni":"Postille.",
-    "Category":"F"
-    },{
-    "Id":1385.0,
+    "Category":"P"
+},{
+    "Id":1385,
     "Authors":"Hoffman, Frederick J.",
     "Title":"Il romanzo in America 1900-1950",
     "Cities":"Roma",
@@ -13859,9 +13858,9 @@ const jsonData = [
     "Years":1953,
     "Fund":"BTB Segn. 1346",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":1386.0,
+    "Category":"AL"
+},{
+    "Id":1386,
     "Authors":"Hoffmann, Ernst Theodor Amadeus",
     "Title":"La principessa Brambilla",
     "Cities":"Torino",
@@ -13870,8 +13869,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1191",
     "Segni":"Sottolineature e postille.",
     "Category":"GL"
-    },{
-    "Id":1387.0,
+},{
+    "Id":1387,
     "Authors":"Hoffmann, Ernst Theodor Amadeus",
     "Title":"Racconti",
     "Cities":"Milano",
@@ -13880,8 +13879,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1192",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":1388.0,
+},{
+    "Id":1388,
     "Authors":"Hofmannsthal, Hugo von",
     "Title":"Ognuno: Il dramma della morte del ricco",
     "Cities":"Firenze ",
@@ -13890,8 +13889,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1193",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":1389.0,
+},{
+    "Id":1389,
     "Authors":"Hogg, James",
     "Title":"Confessioni di un peccatore",
     "Cities":"Parma",
@@ -13899,9 +13898,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BTB Segn. 1263",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":1390.0,
+    "Category":"AL"
+},{
+    "Id":1390,
     "Authors":"H\u00f6lderlin, Friedrich",
     "Title":"Alcune poesie",
     "Cities":"Firenze",
@@ -13910,8 +13909,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1194",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":1391.0,
+},{
+    "Id":1391,
     "Authors":"H\u00f6llerer, Walter",
     "Title":"Systeme: Neue Gedichte",
     "Cities":"Berlin  ",
@@ -13920,9 +13919,9 @@ const jsonData = [
     "Fund":"BTB Segn. 1190",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":1392.0,
-    "Authors":null,
+},{
+    "Id":1392,
+    "Authors":"Not found",
     "Title":"Hommage \u00e0 Marcel Proust 1871-1922. Souvenirs \u2013 L\u2019\u0152uvre \u2013 T\u00e9moignages \u00e9trangers \u2013 La Prisonni\u00e8re (fragments in\u00e9dits) \u2013 Bibliographie. Documents. Portraits",
     "Cities":"Paris",
     "Publisher":"NRF-Gallimard",
@@ -13930,8 +13929,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1136",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1393.0,
+},{
+    "Id":1393,
     "Authors":"Homo, L\u00e9on",
     "Title":"Nouvelle histoire romaine",
     "Cities":"Roma",
@@ -13940,8 +13939,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1468",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1394.0,
+},{
+    "Id":1394,
     "Authors":"Hopkins Lochridge, Betsey",
     "Title":"Blue river",
     "Cities":"Paris",
@@ -13949,9 +13948,9 @@ const jsonData = [
     "Years":1960,
     "Fund":"BTB Segn. 1264",
     "Segni":" Intonso.",
-    "Category":"L"
-    },{
-    "Id":1395.0,
+    "Category":"AL"
+},{
+    "Id":1395,
     "Authors":"Hubert, Henri",
     "Title":"Les Celtes depuis l\u2019\u00e9poque de la T\u00e8ne et la civilisation celtique",
     "Cities":"Paris",
@@ -13960,8 +13959,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1610",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1396.0,
+},{
+    "Id":1396,
     "Authors":"Hughes, Ernest Richard",
     "Title":"La Cina e il mondo occidentale",
     "Cities":"Torino",
@@ -13970,8 +13969,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1754",
     "Segni":"Intonso.",
     "Category":"G"
-    },{
-    "Id":1397.0,
+},{
+    "Id":1397,
     "Authors":"Hugo, Victor",
     "Title":"Napoleone il piccolo",
     "Cities":"Milano   ",
@@ -13980,8 +13979,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1011-1012",
     "Segni":"Postille.",
     "Category":"FL"
-    },{
-    "Id":1398.0,
+},{
+    "Id":1398,
     "Authors":"Hugo, Victor",
     "Title":"Notre Dame de Paris.",
     "Cities":"Milano  ",
@@ -13990,8 +13989,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1013-1014",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1399.0,
+},{
+    "Id":1399,
     "Authors":"Hugo, Victor",
     "Title":"Po\u00e9sies",
     "Cities":"Paris",
@@ -14000,8 +13999,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1015",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1400.0,
+},{
+    "Id":1400,
     "Authors":"Hugo, Victor",
     "Title":" Quatrevingt-treize. ",
     "Cities":"Paris",
@@ -14010,8 +14009,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1016",
     "Segni":"Nota di possesso autografa di EnricoGadda in data 9.09.1917.",
     "Category":"FL"
-    },{
-    "Id":1401.0,
+},{
+    "Id":1401,
     "Authors":"Huizinga, Johan",
     "Title":"L\u2019autunno del Medioevo",
     "Cities":"Firenze  ",
@@ -14019,9 +14018,9 @@ const jsonData = [
     "Years":1940,
     "Fund":"BTB Segn. 1737",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1402.0,
+    "Category":"H"
+},{
+    "Id":1402,
     "Authors":"Huizinga, Johan",
     "Title":"La crisi della civilt\u00e0",
     "Cities":"Torino  ",
@@ -14029,9 +14028,9 @@ const jsonData = [
     "Years":1938,
     "Fund":"BTB Segn. 1949",
     "Segni":"Intonso.",
-    "Category":"S"
-    },{
-    "Id":1403.0,
+    "Category":"H"
+},{
+    "Id":1403,
     "Authors":"Huizinga, Johan",
     "Title":"Erasmo",
     "Cities":"Torino",
@@ -14039,9 +14038,9 @@ const jsonData = [
     "Years":1941,
     "Fund":"BTB Segn. 1738",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1404.0,
+    "Category":"H"
+},{
+    "Id":1404,
     "Authors":"Hume, David",
     "Title":"Ricerche sull\u2019intelletto umano",
     "Cities":"Bari  ",
@@ -14049,19 +14048,19 @@ const jsonData = [
     "Years":1910,
     "Fund":"BTB Segn. 1841",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1405.0,
-    "Authors":null,
+    "Category":"P"
+},{
+    "Id":1405,
+    "Authors":"Not found",
     "Title":"Hume e l\u2019illuminismo inglese",
     "Cities":"Milano",
     "Publisher":"Garzanti",
     "Years":1943,
     "Fund":"BTB Segn. 1929",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1406.0,
+    "Category":"P"
+},{
+    "Id":1406,
     "Authors":"Huxley, Aldous Leonard",
     "Title":"Contrepoint",
     "Cities":"Paris",
@@ -14069,9 +14068,9 @@ const jsonData = [
     "Years":1930,
     "Fund":"BTB Segn. 1265-1266",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1407.0,
+    "Category":"AL"
+},{
+    "Id":1407,
     "Authors":"Huxley, Aldous Leonard",
     "Title":"Dopo i fuochi d\u2019artificio",
     "Cities":"Milano",
@@ -14079,9 +14078,9 @@ const jsonData = [
     "Years":1936,
     "Fund":"BTB Segn. 1267",
     "Segni":"Dedica dei traduttori.",
-    "Category":"EL"
-    },{
-    "Id":1408.0,
+    "Category":"AL"
+},{
+    "Id":1408,
     "Authors":"Huxley, Aldous Leonard",
     "Title":"La Fin et les Moyens, ",
     "Cities":"Paris  ",
@@ -14089,10 +14088,10 @@ const jsonData = [
     "Years":1939,
     "Fund":null,
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":1409.0,
-    "Authors":null,
+    "Category":"AL"
+},{
+    "Id":1409,
+    "Authors":"Not found",
     "Title":"Hydroelectric and steam powerplants",
     "Cities":"New York",
     "Publisher":"Viel\u00e9",
@@ -14100,8 +14099,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2108",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1410.0,
+},{
+    "Id":1410,
     "Authors":"Iacopone da Todi",
     "Title":"Le pi\u00f9 belle pagine.",
     "Cities":"Milano",
@@ -14110,8 +14109,8 @@ const jsonData = [
     "Fund":"BTB Segn. 449",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1411.0,
+},{
+    "Id":1411,
     "Authors":"Ignotus, Paul",
     "Title":"La responsabilit\u00e0 degli intellettuali",
     "Cities":"Roma  ",
@@ -14120,19 +14119,19 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 85",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1412.0,
-    "Authors":null,
+},{
+    "Id":1412,
+    "Authors":"Not found",
     "Title":"L\u2019Illustrazione italiana. 90 anni di storia. ",
     "Cities":"Milano",
     "Publisher":"Garzanti",
     "Years":1963,
     "Fund":"BTB Segn. 2771",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1413.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":1413,
+    "Authors":"Not found",
     "Title":"L\u2019imitazione di Cristo. Tradu zione di C. Guasti",
     "Cities":"Firenze  ",
     "Publisher":"L\u2019Ape",
@@ -14140,9 +14139,9 @@ const jsonData = [
     "Fund":"BTB Segn. 1774",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":1414.0,
-    "Authors":null,
+},{
+    "Id":1414,
+    "Authors":"Not found",
     "Title":"Importante vendita all\u2019asta di libri rari e legature d\u2019amatore in parte provenienti dalla raccolta di Claudio Argentieri",
     "Cities":"Roma  ",
     "Publisher":"Selecta Libri e Oggetti d\u2019Arte",
@@ -14150,9 +14149,9 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 17",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":1415.0,
-    "Authors":null,
+},{
+    "Id":1415,
+    "Authors":"Not found",
     "Title":"Importante vendita di libri antichi e moderni: catalogo",
     "Cities":"Roma",
     "Publisher":"Selecta Galleria d\u2019Arte",
@@ -14160,9 +14159,9 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 16",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":1416.0,
-    "Authors":null,
+},{
+    "Id":1416,
+    "Authors":"Not found",
     "Title":"In memoria dei soci del \u201cCircolo Filologico Milanese\u201d caduti in guerra 1915-1918",
     "Cities":"Milano",
     "Publisher":"Alfieri & Lacroix",
@@ -14170,9 +14169,9 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":1417.0,
-    "Authors":null,
+},{
+    "Id":1417,
+    "Authors":"Not found",
     "Title":"In memoria dei soci del \u201cCircolo Filologico Milanese\u201d caduti in guerra 1915-1918",
     "Cities":"Milano",
     "Publisher":"Alfieri & Lacroix",
@@ -14180,9 +14179,9 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Fogli inseriti.",
     "Category":"V"
-    },{
-    "Id":1418.0,
-    "Authors":null,
+},{
+    "Id":1418,
+    "Authors":"Not found",
     "Title":"In Memoria del Cav. Ing. Pietro Gadda.",
     "Cities":"s.l.",
     "Publisher":"s.e.",
@@ -14190,9 +14189,9 @@ const jsonData = [
     "Fund":"BAC",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":1419.0,
-    "Authors":null,
+},{
+    "Id":1419,
+    "Authors":"Not found",
     "Title":"In memoria di Giangiacomo Feltrinelli",
     "Cities":"Milano",
     "Publisher":"Feltrinelli",
@@ -14200,9 +14199,9 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 84",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":1420.0,
-    "Authors":null,
+},{
+    "Id":1420,
+    "Authors":"Not found",
     "Title":"In memoria di Giuseppe Gadda.",
     "Cities":"s.l.",
     "Publisher":"s.e.",
@@ -14210,8 +14209,8 @@ const jsonData = [
     "Fund":"BAC",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":1421.0,
+},{
+    "Id":1421,
     "Authors":"Inama, Vigilio",
     "Title":"Compendio ad uso dei ginnasi della grammatica greca \u2013 parte prima: etimologia",
     "Cities":"Milano",
@@ -14220,29 +14219,29 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Sottolineature, disegni e note di possesso.",
     "Category":"D"
-    },{
-    "Id":1422.0,
-    "Authors":null,
+},{
+    "Id":1422,
+    "Authors":"Not found",
     "Title":"Inchiesta sul neorealismo.",
     "Cities":"s.l.",
     "Publisher":"Edizioni della Radio Italiana",
     "Years":"s.d.",
     "Fund":"BTM",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1423.0,
-    "Authors":null,
+    "Category":"V"
+},{
+    "Id":1423,
+    "Authors":"Not found",
     "Title":"Inchiesta sulla terza pagina.",
     "Cities":"Torino",
     "Publisher":"ERI",
     "Years":1953,
     "Fund":"BTB Segn. Op. 140",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1424.0,
-    "Authors":null,
+    "Category":"V"
+},{
+    "Id":1424,
+    "Authors":"Not found",
     "Title":"L\u2019inglese imparato da s\u00e9 con la pronuncia fonetica",
     "Cities":"London",
     "Publisher":"Marlborough",
@@ -14250,9 +14249,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2427",
     "Segni":null,
     "Category":"GR"
-    },{
-    "Id":1425.0,
-    "Authors":null,
+},{
+    "Id":1425,
+    "Authors":"Not found",
     "Title":"La Inquisizione co\u2019 suoi strumenti di martirio e tortura esposta in modelli di grandezza naturale e perfettamente uguali agli originali.",
     "Cities":"Torino  ",
     "Publisher":"Dessort",
@@ -14260,9 +14259,9 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 34",
     "Segni":"Nota di possesso di Adele Gadda Lehr.",
     "Category":"V"
-    },{
-    "Id":1426.0,
-    "Authors":null,
+},{
+    "Id":1426,
+    "Authors":"Not found",
     "Title":"Io, Milano.",
     "Cities":"Bologna",
     "Publisher":"Alfa",
@@ -14270,8 +14269,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2376",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":1427.0,
+},{
+    "Id":1427,
     "Authors":"Isella, Dante",
     "Title":"La cultura italiana e la letteratura italiana",
     "Cities":"Firenze",
@@ -14280,8 +14279,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":1428.0,
+},{
+    "Id":1428,
     "Authors":"Istrati, Panait",
     "Title":"Kyra Kyralina",
     "Cities":"Paris",
@@ -14289,10 +14288,10 @@ const jsonData = [
     "Years":1924,
     "Fund":"BTB Segn. 1017",
     "Segni":"Nota di possesso autografa.",
-    "Category":"L"
-    },{
-    "Id":1429.0,
-    "Authors":null,
+    "Category":"FL"
+},{
+    "Id":1429,
+    "Authors":"Not found",
     "Title":"Istruzioni secrete della Compagnia di Ges\u00f9 con aggiunte importanti",
     "Cities":"Roma",
     "Publisher":"Tip. della Propaganda",
@@ -14300,9 +14299,9 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":1430.0,
-    "Authors":null,
+},{
+    "Id":1430,
+    "Authors":"Not found",
     "Title":"L\u2019Italia \u00e8 giovane.",
     "Cities":"Milano",
     "Publisher":"Mondadori",
@@ -14310,8 +14309,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":1431.0,
+},{
+    "Id":1431,
     "Authors":"Italia. Esercito. Servizio Meteorologico",
     "Title":"Clima e acque dell\u2019Altipiano dei SetteComuni",
     "Cities":"s.l.",
@@ -14320,9 +14319,9 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 36",
     "Segni":null,
     "Category":"M"
-    },{
-    "Id":1432.0,
-    "Authors":null,
+},{
+    "Id":1432,
+    "Authors":"Not found",
     "Title":"Italienerz\u00e4hlt. Elf Erz\u00e4hlungen. ",
     "Cities":"Frankfurt",
     "Publisher":"Fischer",
@@ -14330,9 +14329,9 @@ const jsonData = [
     "Fund":"BTB Segn. 818",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":1433.0,
-    "Authors":null,
+},{
+    "Id":1433,
+    "Authors":"Not found",
     "Title":"Italienische Erz\u00e4hlerder Gegenwart. Eine Anthologie. ",
     "Cities":"  Stuttgart",
     "Publisher":"Reclam",
@@ -14340,8 +14339,8 @@ const jsonData = [
     "Fund":"BTB Segn. 817",
     "Segni":"J",
     "Category":"V"
-    },{
-    "Id":1434.0,
+},{
+    "Id":1434,
     "Authors":"Jachino, Angelo",
     "Title":"Gaudo e Matapan",
     "Cities":"Milano  ",
@@ -14350,8 +14349,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1435.0,
+},{
+    "Id":1435,
     "Authors":"Jacobbi, Ruggero",
     "Title":"Campo di Marte trent\u2019anni dopo 1938\/1968",
     "Cities":"Firenze",
@@ -14360,8 +14359,8 @@ const jsonData = [
     "Fund":"BTB Segn. 819",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1436.0,
+},{
+    "Id":1436,
     "Authors":"Jacobi, Friedrich Heinrich",
     "Title":"Sulla dottrina dello Spinoza",
     "Cities":"Bari",
@@ -14369,9 +14368,9 @@ const jsonData = [
     "Years":1914,
     "Fund":"BTB Segn. 1842",
     "Segni":"Parzialmente intonso.",
-    "Category":"F"
-    },{
-    "Id":1437.0,
+    "Category":"P"
+},{
+    "Id":1437,
     "Authors":"Jacobsen, Jens Peter",
     "Title":"La signora F\u00f6nss e altre novelle",
     "Cities":"Milano  ",
@@ -14379,9 +14378,9 @@ const jsonData = [
     "Years":1957,
     "Fund":"BTB Segn. 1407",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1438.0,
+    "Category":"GL"
+},{
+    "Id":1438,
     "Authors":"Jaeger, Werner",
     "Title":"Paideia",
     "Cities":"Firenze",
@@ -14390,8 +14389,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1407",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":1439.0,
+},{
+    "Id":1439,
     "Authors":"Jaffe, Bernard",
     "Title":"La conquista della materia. Dall\u2019alchimia alla radioattivit\u00e0 artificiale",
     "Cities":"Milano  ",
@@ -14400,8 +14399,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2078",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1440.0,
+},{
+    "Id":1440,
     "Authors":"Jahn, Lila",
     "Title":"Bianca Maria duchessa di Milano",
     "Cities":"Milano",
@@ -14409,9 +14408,9 @@ const jsonData = [
     "Years":1941,
     "Fund":"BTB Segn. 1530",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1441.0,
+    "Category":"H"
+},{
+    "Id":1441,
     "Authors":"James, Henry",
     "Title":"L\u2019americano",
     "Cities":"Milano",
@@ -14419,9 +14418,9 @@ const jsonData = [
     "Years":1934,
     "Fund":"BTB Segn. 1268",
     "Segni":"Dedica del traduttore in data 17.10.1934.",
-    "Category":"EL"
-    },{
-    "Id":1442.0,
+    "Category":"AL"
+},{
+    "Id":1442,
     "Authors":"James, Henry",
     "Title":"Profili di donne",
     "Cities":"Milano  ",
@@ -14429,9 +14428,9 @@ const jsonData = [
     "Years":1962,
     "Fund":"BAL",
     "Segni":"Firma della traduttrice Argia Brunacci Michettoni.",
-    "Category":"EL"
-    },{
-    "Id":1443.0,
+    "Category":"AL"
+},{
+    "Id":1443,
     "Authors":"James, Henry",
     "Title":"Ritratto di signora",
     "Cities":"Torino",
@@ -14439,9 +14438,9 @@ const jsonData = [
     "Years":1943,
     "Fund":"BTB Segn. 1269",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":1444.0,
+    "Category":"AL"
+},{
+    "Id":1444,
     "Authors":"James, Henry",
     "Title":"The Turn of the Screw",
     "Cities":"Harmondsworth  ",
@@ -14449,9 +14448,9 @@ const jsonData = [
     "Years":1946,
     "Fund":"BTB Segn. 1270",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":1445.0,
+    "Category":"AL"
+},{
+    "Id":1445,
     "Authors":"Janner, Arminio",
     "Title":"Luigi Pirandello",
     "Cities":"Firenze  ",
@@ -14459,9 +14458,9 @@ const jsonData = [
     "Years":1948,
     "Fund":"BTB Segn. 820",
     "Segni":"Intonso.",
-    "Category":"L"
-    },{
-    "Id":1446.0,
+    "Category":"IL"
+},{
+    "Id":1446,
     "Authors":"Jean Paul (Richter, Johann Paul Friedrich)",
     "Title":"Levana",
     "Cities":"Torino",
@@ -14470,8 +14469,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1211",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":1447.0,
+},{
+    "Id":1447,
     "Authors":"Jeanson, Francis",
     "Title":"Sartre par lui-m\u00eame",
     "Cities":"Paris",
@@ -14480,8 +14479,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1127",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1448.0,
+},{
+    "Id":1448,
     "Authors":"Jemolo, Carlo Arturo",
     "Title":"Chiesa e stato in Italia negli ultimi cento anni",
     "Cities":"Torino",
@@ -14489,9 +14488,9 @@ const jsonData = [
     "Years":1963,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1449.0,
+    "Category":"H"
+},{
+    "Id":1449,
     "Authors":"Jerome, Jerome Klapka",
     "Title":"Appunti di romanzo",
     "Cities":"Milano",
@@ -14499,9 +14498,9 @@ const jsonData = [
     "Years":1939,
     "Fund":"BTB Segn. 1271",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1450.0,
+    "Category":"AL"
+},{
+    "Id":1450,
     "Authors":"Jerome, Jerome Klapka",
     "Title":"Tre uomini a zonzo",
     "Cities":"Milano  ",
@@ -14509,9 +14508,9 @@ const jsonData = [
     "Years":1950,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1451.0,
+    "Category":"AL"
+},{
+    "Id":1451,
     "Authors":"Jespersen, Otto",
     "Title":"Growth and Structure of the English language",
     "Cities":"Oxford  ",
@@ -14520,8 +14519,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"GR"
-    },{
-    "Id":1452.0,
+},{
+    "Id":1452,
     "Authors":"Jona, Emanuela",
     "Title":"Cavi telegrafici sottomarini. Costruzione, immersione, riparazione",
     "Cities":"Milano",
@@ -14530,8 +14529,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2037",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1453.0,
+},{
+    "Id":1453,
     "Authors":"Jouhandeau, Marcel",
     "Title":"Monsieur Godeau intime",
     "Cities":"Paris  ",
@@ -14540,8 +14539,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1018",
     "Segni":"Parzialmente intonso.",
     "Category":"FL"
-    },{
-    "Id":1454.0,
+},{
+    "Id":1454,
     "Authors":"Joyce, James",
     "Title":"Dedalus. ",
     "Cities":"Torino  ",
@@ -14549,9 +14548,9 @@ const jsonData = [
     "Years":1933,
     "Fund":"BTB Segn. 1272",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":1455.0,
+    "Category":"AL"
+},{
+    "Id":1455,
     "Authors":"Joyce, James",
     "Title":"Dubliners",
     "Cities":"Hamburg-Paris-Milano",
@@ -14559,9 +14558,9 @@ const jsonData = [
     "Years":1932,
     "Fund":"BTB Segn. 1273",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":1456.0,
+    "Category":"AL"
+},{
+    "Id":1456,
     "Authors":"Joyce, James",
     "Title":"Gente di Dublino. ",
     "Cities":"Milano",
@@ -14569,9 +14568,9 @@ const jsonData = [
     "Years":1933,
     "Fund":"BTB Segn. 1274",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":1457.0,
+    "Category":"AL"
+},{
+    "Id":1457,
     "Authors":"Joyce, James",
     "Title":"Ulysse.",
     "Cities":"Paris  ",
@@ -14579,9 +14578,9 @@ const jsonData = [
     "Years":1948,
     "Fund":"BTB Segn. 1275",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":1458.0,
+    "Category":"AL"
+},{
+    "Id":1458,
     "Authors":"Jung, Carl Gustav",
     "Title":"  Il problema dell\u2019inconscio nella psicologia moderna, ",
     "Cities":"Torino",
@@ -14589,9 +14588,9 @@ const jsonData = [
     "Years":1942,
     "Fund":null,
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1459.0,
+    "Category":"P"
+},{
+    "Id":1459,
     "Authors":"Kafka, Franz",
     "Title":"La metamorfosi",
     "Cities":"Firenze",
@@ -14600,8 +14599,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1195",
     "Segni":"Intonso.",
     "Category":"GL"
-    },{
-    "Id":1460.0,
+},{
+    "Id":1460,
     "Authors":"Kafka, Franz",
     "Title":"Il processo",
     "Cities":"Torino",
@@ -14610,8 +14609,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1196",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":1461.0,
+},{
+    "Id":1461,
     "Authors":"Kant, Immanuel",
     "Title":"Antropologia prammatica",
     "Cities":"Torino",
@@ -14619,9 +14618,9 @@ const jsonData = [
     "Years":1925,
     "Fund":"BTB Segn. 1845",
     "Segni":"Nota di possesso autografa in data 05.1925 Milano.",
-    "Category":"F"
-    },{
-    "Id":1462.0,
+    "Category":"P"
+},{
+    "Id":1462,
     "Authors":"Kant, Immanuel",
     "Title":"Critica del giudizio",
     "Cities":"Bari",
@@ -14629,9 +14628,9 @@ const jsonData = [
     "Years":1907,
     "Fund":"BTB Segn. 1846",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1463.0,
+    "Category":"P"
+},{
+    "Id":1463,
     "Authors":"Kant, Immanuel",
     "Title":" Critica della ragion pratica. ",
     "Cities":"Bari",
@@ -14639,9 +14638,9 @@ const jsonData = [
     "Years":1909,
     "Fund":"BTB Segn. 1847",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1464.0,
+    "Category":"P"
+},{
+    "Id":1464,
     "Authors":"Kant, Immanuel",
     "Title":" Critique de la raison pure",
     "Cities":"Paris",
@@ -14649,9 +14648,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BTM",
     "Segni":"Nota di possesso, al primo tomo, di Clara Gadda in data 1914; nel secondo, C.E. Gadda in data 1925 Milano \u00ab(da Clara 1915)\u00bb. In entrambi i tomi sottolineature e postille. Alcuni, a penna, riconducibili a Clara; la maggior parte degli altri, a matita e a penna, a Carlo Emilio.",
-    "Category":"F"
-    },{
-    "Id":1465.0,
+    "Category":"P"
+},{
+    "Id":1465,
     "Authors":"Kant, Immanuel",
     "Title":"Fondazione della metafisica dei costumi",
     "Cities":"Pavia",
@@ -14659,9 +14658,9 @@ const jsonData = [
     "Years":1910,
     "Fund":"BTB Segn. 1848",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1466.0,
+    "Category":"P"
+},{
+    "Id":1466,
     "Authors":"Kant, Immanuel",
     "Title":"La pedagogia",
     "Cities":"Torino-Milano-FirenzeRoma-Napoli-Palermo",
@@ -14669,9 +14668,9 @@ const jsonData = [
     "Years":1923,
     "Fund":"BTB Segn. 1849",
     "Segni":"Nota di possesso autografa in data 18.05.1924. Sottolineature e postille.",
-    "Category":"F"
-    },{
-    "Id":1467.0,
+    "Category":"P"
+},{
+    "Id":1467,
     "Authors":"Kant, Immanuel",
     "Title":" Prolegomeni ad ogni futura metafisica.",
     "Cities":"Lanciano",
@@ -14679,9 +14678,9 @@ const jsonData = [
     "Years":1914,
     "Fund":"BTB Segn. 1850",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1468.0,
+    "Category":"P"
+},{
+    "Id":1468,
     "Authors":"Kant, Immanuel",
     "Title":"Prolegomeni ad ogni metafisica futura che vorr\u00e0 presentarsi come scienza",
     "Cities":"Milano-Torino-Roma ",
@@ -14689,9 +14688,9 @@ const jsonData = [
     "Years":1913,
     "Fund":"BTM",
     "Segni":"Sottolineature e postille.",
-    "Category":"F"
-    },{
-    "Id":1469.0,
+    "Category":"P"
+},{
+    "Id":1469,
     "Authors":"Kant, Immanuel",
     "Title":"La religion dans les limites de la raison",
     "Cities":"Paris",
@@ -14699,9 +14698,9 @@ const jsonData = [
     "Years":1913,
     "Fund":"BTB Segn. 1851",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1470.0,
+    "Category":"P"
+},{
+    "Id":1470,
     "Authors":"Kant, Immanuel",
     "Title":"Scritti politici. Lamanna",
     "Cities":"Lanciano  ",
@@ -14709,9 +14708,9 @@ const jsonData = [
     "Years":1917,
     "Fund":"BTB Segn. 1852",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1471.0,
+    "Category":"P"
+},{
+    "Id":1471,
     "Authors":"Kant, Immanuel",
     "Title":" Werke",
     "Cities":"Berlin",
@@ -14719,9 +14718,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BTB Segn. 1843-1844",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1472.0,
+    "Category":"P"
+},{
+    "Id":1472,
     "Authors":"Karman, Theodor von \u2013 Biot,",
     "Title":"Metodi matematici nell\u2019ingegneria",
     "Cities":"Torino  ",
@@ -14730,8 +14729,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2142",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1473.0,
+},{
+    "Id":1473,
     "Authors":"Kataev, Valentin",
     "Title":"Il direttore d\u2019orchestra",
     "Cities":"Firenze",
@@ -14739,9 +14738,9 @@ const jsonData = [
     "Years":1943,
     "Fund":"BTB Segn. 1381",
     "Segni":"Parzialmente intonso.",
-    "Category":"L"
-    },{
-    "Id":1474.0,
+    "Category":"RL"
+},{
+    "Id":1474,
     "Authors":"Kavafis, Constantinos",
     "Title":"Cinquantacinque poesie. Risi",
     "Cities":"Torino  ",
@@ -14749,9 +14748,9 @@ const jsonData = [
     "Years":1968,
     "Fund":"BTB Segn. 1406",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1475.0,
+    "Category":"V"
+},{
+    "Id":1475,
     "Authors":"Keith, Arthur",
     "Title":"Darwin",
     "Cities":"Milano",
@@ -14759,9 +14758,9 @@ const jsonData = [
     "Years":1959,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1476.0,
+    "Category":"V"
+},{
+    "Id":1476,
     "Authors":"Keller, Gottfried",
     "Title":"Keller",
     "Cities":"Milano",
@@ -14769,9 +14768,9 @@ const jsonData = [
     "Years":1942,
     "Fund":"BTB Segn. 1197",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1477.0,
+    "Category":"V"
+},{
+    "Id":1477,
     "Authors":"Kipling, Rudyard",
     "Title":"Il libro della giungla",
     "Cities":"Milano",
@@ -14779,9 +14778,9 @@ const jsonData = [
     "Years":1950,
     "Fund":"BTB Segn. 1276",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":1478.0,
+    "Category":"AL"
+},{
+    "Id":1478,
     "Authors":"Kipling, Rudyard",
     "Title":"Qualcosa di me. Per i miei amici noti e ignoti",
     "Cities":"Torino  ",
@@ -14789,9 +14788,9 @@ const jsonData = [
     "Years":1938,
     "Fund":"BTB Segn. 1277",
     "Segni":"Intonso.",
-    "Category":"EL"
-    },{
-    "Id":1479.0,
+    "Category":"AL"
+},{
+    "Id":1479,
     "Authors":"Klabund (Pseud. di Alfred Henschke)",
     "Title":" Moreau",
     "Cities":"Milano",
@@ -14800,8 +14799,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1198",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":1480.0,
+},{
+    "Id":1480,
     "Authors":"Kleist, Heinrich von",
     "Title":"Racconti. ",
     "Cities":"Milano",
@@ -14810,8 +14809,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1199",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":1481.0,
+},{
+    "Id":1481,
     "Authors":"Koenig, Edmund",
     "Title":"Guglielmo Wundt psicologo e filosofo.",
     "Cities":"Milano-Palermo-Napoli",
@@ -14820,8 +14819,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1952",
     "Segni":"Nota di possesso autografa in data 03.1925.",
     "Category":"GL"
-    },{
-    "Id":1482.0,
+},{
+    "Id":1482,
     "Authors":"Koenig, Klaus Giovanni",
     "Title":"Architettura in Toscana",
     "Cities":"Torino",
@@ -14829,19 +14828,19 @@ const jsonData = [
     "Years":1968,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1483.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":1483,
+    "Authors":"Not found",
     "Title":"Das K\u00f6nigsportal von Chartres",
     "Cities":"M\u00fcnchen",
     "Publisher":"Piper",
     "Years":1962,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1484.0,
+    "Category":"HA"
+},{
+    "Id":1484,
     "Authors":"Kristeller, Paul Oskar",
     "Title":"Il pensiero filosofico di Marsilio Ficino",
     "Cities":"Firenze",
@@ -14849,9 +14848,9 @@ const jsonData = [
     "Years":1953,
     "Fund":"BTB Segn. 1953",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1485.0,
+    "Category":"P"
+},{
+    "Id":1485,
     "Authors":"Kuby, Erich",
     "Title":"I russi a Berlino",
     "Cities":"Torino",
@@ -14859,9 +14858,9 @@ const jsonData = [
     "Years":1966,
     "Fund":"BTB Segn. 1739",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1486.0,
+    "Category":"GL"
+},{
+    "Id":1486,
     "Authors":"K\u00fchn, Alfred",
     "Title":"La teoria dell\u2019ereditariet\u00e0",
     "Cities":"Torino  ",
@@ -14870,8 +14869,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2123",
     "Segni":"Intonso.",
     "Category":"T"
-    },{
-    "Id":1487.0,
+},{
+    "Id":1487,
     "Authors":"Kunstler, Charles",
     "Title":"  La vie quotidienne sous Louis XV, ",
     "Cities":"Paris",
@@ -14879,9 +14878,9 @@ const jsonData = [
     "Years":1953,
     "Fund":null,
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1488.0,
+    "Category":"H"
+},{
+    "Id":1488,
     "Authors":"Kunstler, Charles",
     "Title":"La vie quotidienne sous Louis XVI",
     "Cities":"Paris",
@@ -14889,9 +14888,9 @@ const jsonData = [
     "Years":1950,
     "Fund":"BTB Segn. 1613",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1489.0,
+    "Category":"H"
+},{
+    "Id":1489,
     "Authors":"Kunstler, Charles",
     "Title":"La vita privata di Maria Antonietta",
     "Cities":"Milano",
@@ -14899,9 +14898,9 @@ const jsonData = [
     "Years":1939,
     "Fund":"BTB Segn. 1740",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1490.0,
+    "Category":"H"
+},{
+    "Id":1490,
     "Authors":"Laberthonni\u00e8re, Lucien",
     "Title":"Il realismo cristiano e l\u2019idealismo greco",
     "Cities":"Firenze",
@@ -14909,9 +14908,9 @@ const jsonData = [
     "Years":1931,
     "Fund":"BTB Segn. 1954",
     "Segni":"Piega.",
-    "Category":"L"
-    },{
-    "Id":1491.0,
+    "Category":"FL"
+},{
+    "Id":1491,
     "Authors":"Laclos, Pierre-Ambroise \u2013 Fran\u00e7ois Choderlos de",
     "Title":"Amicizie pericolose",
     "Cities":"Milano  ",
@@ -14920,8 +14919,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1020",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1492.0,
+},{
+    "Id":1492,
     "Authors":"Laclos, Pierre-Ambroise \u2013 Fran\u00e7ois Choderlos de",
     "Title":"Amicizie pericolose",
     "Cities":"Milano  ",
@@ -14930,8 +14929,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1019",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1493.0,
+},{
+    "Id":1493,
     "Authors":"Lacour-Gayet, Georges",
     "Title":"Talleyrand",
     "Cities":"Paris",
@@ -14940,8 +14939,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1614-1616",
     "Segni":"Postille su foglietti inseriti.",
     "Category":"FL"
-    },{
-    "Id":1494.0,
+},{
+    "Id":1494,
     "Authors":"Lafayette, Madame de",
     "Title":"La principessa di Cl\u00e8ves",
     "Cities":"Milano  ",
@@ -14950,8 +14949,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1026-1027",
     "Segni":"Due copie.",
     "Category":"FL"
-    },{
-    "Id":1495.0,
+},{
+    "Id":1495,
     "Authors":"La Fontaine, Jean de",
     "Title":"Fables",
     "Cities":"Torino",
@@ -14960,8 +14959,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1027 bis",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1496.0,
+},{
+    "Id":1496,
     "Authors":"Lafue, Pierre",
     "Title":"Louis XV. La victoire de l\u2019unit\u00e9 monarchique",
     "Cities":"Paris  ",
@@ -14969,9 +14968,9 @@ const jsonData = [
     "Years":1952,
     "Fund":"BTB Segn. 1617",
     "Segni":"Postille su foglietti inseriti.",
-    "Category":"S"
-    },{
-    "Id":1497.0,
+    "Category":"H"
+},{
+    "Id":1497,
     "Authors":"Lafue, Pierre",
     "Title":"La vie priv\u00e9e de Fr\u00e9d\u00e9ric II",
     "Cities":"Paris",
@@ -14979,9 +14978,9 @@ const jsonData = [
     "Years":1939,
     "Fund":"BTB Segn. 1741",
     "Segni":"Parzialmente intonso.",
-    "Category":"S"
-    },{
-    "Id":1498.0,
+    "Category":"H"
+},{
+    "Id":1498,
     "Authors":"Laing, Ronald David",
     "Title":"L\u2019io diviso. Studio di psichiatria esistenziale. ",
     "Cities":"Torino",
@@ -14989,9 +14988,9 @@ const jsonData = [
     "Years":1969,
     "Fund":"BTB Segn. 1996",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1499.0,
+    "Category":"P"
+},{
+    "Id":1499,
     "Authors":"Lamarche, Angel Rafael",
     "Title":"Los cuentosque N. York no sabe",
     "Cities":"Mexico",
@@ -15000,8 +14999,8 @@ const jsonData = [
     "Fund":"BTB Segn. 920",
     "Segni":null,
     "Category":"SL"
-    },{
-    "Id":1500.0,
+},{
+    "Id":1500,
     "Authors":"Lamartine, Alphonse de",
     "Title":"Histoire des Girondins.",
     "Cities":"BruxellesLivourne-Leipzig",
@@ -15009,9 +15008,9 @@ const jsonData = [
     "Years":1851,
     "Fund":"BTB Segn. 1618",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1501.0,
+    "Category":"H"
+},{
+    "Id":1501,
     "Authors":"Lamartine, Alphonse de",
     "Title":"\u0152uvres",
     "Cities":"Paris",
@@ -15019,9 +15018,9 @@ const jsonData = [
     "Years":1832,
     "Fund":"BTB Segn. 1022-1025",
     "Segni":"Nota di possesso autografa di Adele Gadda Lehr.",
-    "Category":"S"
-    },{
-    "Id":1502.0,
+    "Category":"H"
+},{
+    "Id":1502,
     "Authors":"L\u00e4mmel, Rodolfo",
     "Title":"I fondamenti della teoria della relativit\u00e0",
     "Cities":"Bologna",
@@ -15030,8 +15029,8 @@ const jsonData = [
     "Fund":"BTM",
     "Segni":"Nota di possesso e data 10.06.1925 Milano.",
     "Category":"T"
-    },{
-    "Id":1503.0,
+},{
+    "Id":1503,
     "Authors":"Landolfi, Tommaso",
     "Title":"Le due zittelle",
     "Cities":"Milano  ",
@@ -15040,8 +15039,8 @@ const jsonData = [
     "Fund":"BTB Segn. 450",
     "Segni":"Dedica dell\u2019autore in data 26.1.1947.",
     "Category":"IL"
-    },{
-    "Id":1504.0,
+},{
+    "Id":1504,
     "Authors":"Landolfi, Tommaso",
     "Title":"Il mar delle blatte",
     "Cities":"Roma  ",
@@ -15050,8 +15049,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1505.0,
+},{
+    "Id":1505,
     "Authors":"Lanson, Gustave",
     "Title":"Histoire Illustr\u00e9e de la Litt\u00e9rature Fran\u00e7aise",
     "Cities":"Paris",
@@ -15059,9 +15058,9 @@ const jsonData = [
     "Years":1922,
     "Fund":null,
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1506.0,
+    "Category":"H"
+},{
+    "Id":1506,
     "Authors":"Lanternari, Vittorio",
     "Title":"Movimenti religiosi di libert\u00e0 e di salvezza dei popoli oppressi",
     "Cities":"Milano",
@@ -15069,9 +15068,9 @@ const jsonData = [
     "Years":1960,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1507.0,
+    "Category":"H"
+},{
+    "Id":1507,
     "Authors":"Lardaas, Henri",
     "Title":"La vie priv\u00e9e de Mirabeau",
     "Cities":"Paris  ",
@@ -15079,9 +15078,9 @@ const jsonData = [
     "Years":1949,
     "Fund":"BTB Segn. 1619 Postille.",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1508.0,
+    "Category":"H"
+},{
+    "Id":1508,
     "Authors":"La Rocca, Gianni Nunzio",
     "Title":"Barbare sentenze, vol. III",
     "Cities":"Bergamo",
@@ -15089,9 +15088,9 @@ const jsonData = [
     "Years":1969,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1509.0,
+    "Category":"V"
+},{
+    "Id":1509,
     "Authors":"Larousse, Pierre-Athanase",
     "Title":" Exercises d\u2019ortographe",
     "Cities":"Paris  ",
@@ -15100,9 +15099,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2441",
     "Segni":null,
     "Category":"GR"
-    },{
-    "Id":1510.0,
-    "Authors":null,
+},{
+    "Id":1510,
+    "Authors":"Not found",
     "Title":"Grammaire sup\u00e9rieure",
     "Cities":"Paris  ",
     "Publisher":"La rousse",
@@ -15110,8 +15109,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2442",
     "Segni":"Nota di possesso autografa in data 20.05.1909.",
     "Category":"GR"
-    },{
-    "Id":1511.0,
+},{
+    "Id":1511,
     "Authors":"Lavagnino, Emilio",
     "Title":"Brunellesco.",
     "Cities":"Roma",
@@ -15119,19 +15118,19 @@ const jsonData = [
     "Years":1931,
     "Fund":"BTB Segn. 2184",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1512.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":1512,
+    "Authors":"Not found",
     "Title":"Lazarillo de Tormes",
     "Cities":"Madrid",
     "Publisher":"Espasa-Calpe",
     "Years":1960,
     "Fund":"BTB Segn. 921",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1513.0,
+    "Category":"V"
+},{
+    "Id":1513,
     "Authors":"Lazzeri, Giulio",
     "Title":"Manuale di trigonometria sferica",
     "Cities":"Livorno",
@@ -15140,8 +15139,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2045",
     "Segni":"Nota di possesso autografa in data 1920.",
     "Category":"T"
-    },{
-    "Id":1514.0,
+},{
+    "Id":1514,
     "Authors":"Le Bas, Philippe",
     "Title":"Svezia e Norvegia",
     "Cities":"Venezia",
@@ -15150,8 +15149,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":1515.0,
+},{
+    "Id":1515,
     "Authors":"Leclerc de Buffon, GeorgesLouis",
     "Title":"Naturgeschichte",
     "Cities":"Stuttgart",
@@ -15160,8 +15159,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1516.0,
+},{
+    "Id":1516,
     "Authors":"Le Dantec, F\u00e9lix",
     "Title":"L\u2019ateismo",
     "Cities":"Milano",
@@ -15169,9 +15168,9 @@ const jsonData = [
     "Years":1925,
     "Fund":"BTB Segn. 1787",
     "Segni":"Intonso.",
-    "Category":"F"
-    },{
-    "Id":1517.0,
+    "Category":"P"
+},{
+    "Id":1517,
     "Authors":"Lefebvre, Georges",
     "Title":"Il Direttorio",
     "Cities":"Torino",
@@ -15179,9 +15178,9 @@ const jsonData = [
     "Years":1952,
     "Fund":"BTB Segn. 1647",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1518.0,
+    "Category":"H"
+},{
+    "Id":1518,
     "Authors":"Lefebvre, Georges",
     "Title":"\u00c9tudes sur la r\u00e9volution fran\u00e7aise",
     "Cities":"Paris",
@@ -15189,9 +15188,9 @@ const jsonData = [
     "Years":1954,
     "Fund":"BTB Segn. 1648",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1519.0,
+    "Category":"H"
+},{
+    "Id":1519,
     "Authors":"Lefebvre, Georges",
     "Title":"La grande paura del 1789",
     "Cities":"Torino",
@@ -15199,9 +15198,9 @@ const jsonData = [
     "Years":1953,
     "Fund":"BTB Segn. 1651",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1520.0,
+    "Category":"H"
+},{
+    "Id":1520,
     "Authors":"Lefebvre, Georges",
     "Title":"L\u2019Ottantanove",
     "Cities":"Torino  ",
@@ -15209,9 +15208,9 @@ const jsonData = [
     "Years":1949,
     "Fund":"BTB Segn. 1652",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1521.0,
+    "Category":"H"
+},{
+    "Id":1521,
     "Authors":"Lefebvre, Georges",
     "Title":"I Termidoriani",
     "Cities":"Torino",
@@ -15219,9 +15218,9 @@ const jsonData = [
     "Years":1952,
     "Fund":"BTB Segn. 1653",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1522.0,
+    "Category":"H"
+},{
+    "Id":1522,
     "Authors":"Lehr, Adele",
     "Title":"Contributo alla storia romana dalla morte di Giulio Cesare alla morte di Cicerone",
     "Cities":"Grosseto",
@@ -15229,9 +15228,9 @@ const jsonData = [
     "Years":1890,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1523.0,
+    "Category":"H"
+},{
+    "Id":1523,
     "Authors":"Lehr, Adele",
     "Title":"Giuseppe Parini poeta civile",
     "Cities":"Milano",
@@ -15239,9 +15238,9 @@ const jsonData = [
     "Years":1887,
     "Fund":"BAL",
     "Segni":"Tre copie",
-    "Category":"L"
-    },{
-    "Id":1524.0,
+    "Category":"IL"
+},{
+    "Id":1524,
     "Authors":"Leibniz, Gottfried Wilhelm",
     "Title":"Choix de Textes. Paris, LouisMichaud, s.d",
     "Cities":"Paris",
@@ -15249,9 +15248,9 @@ const jsonData = [
     "Years":1911,
     "Fund":"BTB Segn. 1855",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1525.0,
+    "Category":"P"
+},{
+    "Id":1525,
     "Authors":"Leibniz, Gottfried Wilhelm",
     "Title":"La monadologia e altri scritti",
     "Cities":"Milano",
@@ -15259,9 +15258,9 @@ const jsonData = [
     "Years":1926,
     "Fund":"BTM",
     "Segni":"Sottolineature e postille.",
-    "Category":"F"
-    },{
-    "Id":1526.0,
+    "Category":"P"
+},{
+    "Id":1526,
     "Authors":"Leibniz, Gottfried Wilhelm",
     "Title":"Nouveaux essais sur l\u2019entendement humain",
     "Cities":"Paris",
@@ -15269,9 +15268,9 @@ const jsonData = [
     "Years":1886,
     "Fund":"BTB Segn. 1858",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1527.0,
+    "Category":"P"
+},{
+    "Id":1527,
     "Authors":"Leibniz, Gottfried Wilhelm",
     "Title":" Nuovi saggi sull\u2019intelletto umano. Parte I (Libri III). ",
     "Cities":"Bari",
@@ -15279,9 +15278,9 @@ const jsonData = [
     "Years":1911,
     "Fund":"BTM",
     "Segni":"Sottolineature e postille.",
-    "Category":"F"
-    },{
-    "Id":1528.0,
+    "Category":"P"
+},{
+    "Id":1528,
     "Authors":"Leibniz, Gottfried Wilhelm",
     "Title":"Nuovi saggi sull\u2019intelletto umano. Parte II (Libri IIIIV)",
     "Cities":"Bari  ",
@@ -15289,9 +15288,9 @@ const jsonData = [
     "Years":1844,
     "Fund":"BTM",
     "Segni":"Sottolineature e postille.",
-    "Category":"F"
-    },{
-    "Id":1529.0,
+    "Category":"P"
+},{
+    "Id":1529,
     "Authors":"Leibniz, Gottfried Wilhelm",
     "Title":"\u0152uvres. 1e s\u00e9rie.",
     "Cities":"Paris",
@@ -15299,9 +15298,9 @@ const jsonData = [
     "Years":1844,
     "Fund":"BTB Segn. 1853",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1530.0,
+    "Category":"P"
+},{
+    "Id":1530,
     "Authors":"Leibniz, Gottfried Wilhelm",
     "Title":"\u0152uvres. 2e s\u00e9rie. ",
     "Cities":"Paris",
@@ -15310,8 +15309,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1857",
     "Segni":null,
     "Category":null
-    },{
-    "Id":1531.0,
+},{
+    "Id":1531,
     "Authors":"Leibniz, Gottfried Wilhelm",
     "Title":"Opere varie",
     "Cities":"Bari",
@@ -15320,8 +15319,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1854",
     "Segni":null,
     "Category":null
-    },{
-    "Id":1532.0,
+},{
+    "Id":1532,
     "Authors":"Le Normand, Marie-Anne Adela\u00efde",
     "Title":"Memoires historiques et secrets de l\u2019Imp\u00e9ratrice Jos\u00e9phine",
     "Cities":"Paris  ",
@@ -15329,10 +15328,10 @@ const jsonData = [
     "Years":1820,
     "Fund":"BTB Segn. 1611",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1533.0,
-    "Authors":null,
+    "Category":"H"
+},{
+    "Id":1533,
+    "Authors":"Not found",
     "Title":"Leonardo. Pagine di scienza con introduzione, note e ritratti. I",
     "Cities":"Milano",
     "Publisher":"Mondadori",
@@ -15340,8 +15339,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2148",
     "Segni":"Dedica del curatore.",
     "Category":"T"
-    },{
-    "Id":1534.0,
+},{
+    "Id":1534,
     "Authors":"Leonardo da Vinci",
     "Title":"Del moto e misura dell\u2019acqua libri nove. ",
     "Cities":"Bologna",
@@ -15350,8 +15349,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2124",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1535.0,
+},{
+    "Id":1535,
     "Authors":"Leonardo da Vinci",
     "Title":"Frammenti letterari e filosofici",
     "Cities":"Firenze",
@@ -15360,8 +15359,8 @@ const jsonData = [
     "Fund":"BTB",
     "Segni":"Nota di possesso in data 11.1915.",
     "Category":null
-    },{
-    "Id":1536.0,
+},{
+    "Id":1536,
     "Authors":"Leonardo da Vinci",
     "Title":"Scritti letterari",
     "Cities":"Milano",
@@ -15370,8 +15369,8 @@ const jsonData = [
     "Fund":"BTB Segn. 451",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1537.0,
+},{
+    "Id":1537,
     "Authors":"Leonardo da Vinci",
     "Title":"L\u2019uomo e la natura",
     "Cities":"Milano",
@@ -15380,8 +15379,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1538.0,
+},{
+    "Id":1538,
     "Authors":"Lelj, Caterina",
     "Title":"William Blake",
     "Cities":"Milano ",
@@ -15389,9 +15388,9 @@ const jsonData = [
     "Years":1938,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1539.0,
+    "Category":"AL"
+},{
+    "Id":1539,
     "Authors":"Lelj, Massimo",
     "Title":"Ichnusa",
     "Cities":"Milano ",
@@ -15399,9 +15398,9 @@ const jsonData = [
     "Years":1937,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1540.0,
+    "Category":"IL"
+},{
+    "Id":1540,
     "Authors":"Leonetti, Francesco",
     "Title":"Fumo, fuoco, dispetto",
     "Cities":"Torino  ",
@@ -15409,9 +15408,9 @@ const jsonData = [
     "Years":1956,
     "Fund":"BTB Segn. 452",
     "Segni":"Intonso.",
-    "Category":"L"
-    },{
-    "Id":1541.0,
+    "Category":"IL"
+},{
+    "Id":1541,
     "Authors":"Leoni, Leonetto",
     "Title":"Il Garzella",
     "Cities":"Firenze",
@@ -15419,9 +15418,9 @@ const jsonData = [
     "Years":1967,
     "Fund":"BTB Segn. 453",
     "Segni":"Dedica dell\u2019autore in data 12.9.1967. Postille.",
-    "Category":"L"
-    },{
-    "Id":1542.0,
+    "Category":"IL"
+},{
+    "Id":1542,
     "Authors":"Leopardi, Giacomo",
     "Title":"Attraverso lo \u00abZibaldone\u00bb",
     "Cities":"Torino",
@@ -15430,8 +15429,8 @@ const jsonData = [
     "Fund":"BTB Segn. 462-463",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1543.0,
+},{
+    "Id":1543,
     "Authors":"Leopardi, Giacomo",
     "Title":"Canti",
     "Cities":"Roma",
@@ -15440,8 +15439,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Timbro di possesso di Enrico Gadda.",
     "Category":"IL"
-    },{
-    "Id":1544.0,
+},{
+    "Id":1544,
     "Authors":"Leopardi, Giacomo",
     "Title":"I canti",
     "Cities":"Milano",
@@ -15450,8 +15449,8 @@ const jsonData = [
     "Fund":"BTB Segn. 457",
     "Segni":"Nota di possesso autografa in data 1922 Milano.",
     "Category":"IL"
-    },{
-    "Id":1545.0,
+},{
+    "Id":1545,
     "Authors":"Leopardi, Giacomo",
     "Title":"Canti. ",
     "Cities":"Firenze",
@@ -15460,8 +15459,8 @@ const jsonData = [
     "Fund":"BTB Segn. 456",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1546.0,
+},{
+    "Id":1546,
     "Authors":"Leopardi, Giacomo",
     "Title":"Crestomazia italiana. La prosa",
     "Cities":"Torino  ",
@@ -15470,8 +15469,8 @@ const jsonData = [
     "Fund":"BTB Segn. 458",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1547.0,
+},{
+    "Id":1547,
     "Authors":"Leopardi, Giacomo",
     "Title":" Opere: Canti, Operette morali, Pensieri, Bruto minore e Teofrasto, Volgarizzamenti, Martirio de\u2019 santi padri, Paralipomeni della Batracomiomachia, Saggi giovanili ed altri scritti non compresi nelle opere, Carte na poletane con giunte inedite o poco note : testo riscontrato con le migliori stampe e con gli autografi",
     "Cities":"Milano  ",
@@ -15480,8 +15479,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1548.0,
+},{
+    "Id":1548,
     "Authors":"Leopardi, Giacomo",
     "Title":" Operette morali. ",
     "Cities":"Strasburgo",
@@ -15490,8 +15489,8 @@ const jsonData = [
     "Fund":"BTB Segn. 460",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1549.0,
+},{
+    "Id":1549,
     "Authors":"Leopardi, Giacomo",
     "Title":"Le prose morali di Giacomo Leopardi.",
     "Cities":"Firenze",
@@ -15500,8 +15499,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1550.0,
+},{
+    "Id":1550,
     "Authors":"Leopardi, Giacomo",
     "Title":"Studi filologici. ",
     "Cities":"Firenze ",
@@ -15510,8 +15509,8 @@ const jsonData = [
     "Fund":"BTB Segn. 461",
     "Segni":"Nota di possesso autografa di Adele Gadda Lehr.",
     "Category":"IL"
-    },{
-    "Id":1551.0,
+},{
+    "Id":1551,
     "Authors":"Leopardi, Giacomo",
     "Title":"Tutte le opere: Zibaldone",
     "Cities":"Milano",
@@ -15520,8 +15519,8 @@ const jsonData = [
     "Fund":"BTB Segn. 454-455",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1552.0,
+},{
+    "Id":1552,
     "Authors":"Le Roy, Edouard",
     "Title":"Scienza e filosofia",
     "Cities":"Lanciano  ",
@@ -15530,8 +15529,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1856",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1553.0,
+},{
+    "Id":1553,
     "Authors":"Lesage, Alain-Ren\u00e9",
     "Title":"Histoire de Gil Blas de Santillane",
     "Cities":"Paris  ",
@@ -15539,9 +15538,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BTB Segn. 1028",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1554.0,
+    "Category":"H"
+},{
+    "Id":1554,
     "Authors":"Leskov, Nikolaj Sem\u00ebnovic",
     "Title":"La donna bellicosa. Racconti",
     "Cities":"Torino",
@@ -15550,8 +15549,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1383",
     "Segni":"Intonso.",
     "Category":"RL"
-    },{
-    "Id":1555.0,
+},{
+    "Id":1555,
     "Authors":"Leskov, Nikolaj Sem\u00ebnovic",
     "Title":"Il viaggiatore incantato",
     "Cities":"Milano",
@@ -15560,38 +15559,38 @@ const jsonData = [
     "Fund":"BTB Segn. 1382",
     "Segni":"Piega.",
     "Category":"RL"
-    },{
-    "Id":1556.0,
-    "Authors":null,
+},{
+    "Id":1556,
+    "Authors":"Not found",
     "Title":"Letteratura, critica e societ\u00e0 del Novecento",
     "Cities":"Napoli  ",
     "Publisher":"Loffredo",
     "Years":1971,
     "Fund":"BTB Segn. 858",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1557.0,
-    "Authors":null,
+    "Category":"GR"
+},{
+    "Id":1557,
+    "Authors":"Not found",
     "Title":"La letteratura Europea degli anni Settanta",
     "Cities":"Milano",
     "Publisher":"Marzorati",
     "Years":1972,
     "Fund":"BTB Segn. Op. 113",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1558.0,
-    "Authors":null,
+    "Category":"GR"
+},{
+    "Id":1558,
+    "Authors":"Not found",
     "Title":"Letture per i giovani. Scelte dai migliori scrittori",
     "Cities":"Lanciano  ",
     "Publisher":"Carabba",
     "Years":1904,
     "Fund":"BTB Segn. 930",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1559.0,
+    "Category":"GR"
+},{
+    "Id":1559,
     "Authors":"Levi, Alis",
     "Title":"L\u2019instant quelconque.",
     "Cities":"s.l.",
@@ -15600,8 +15599,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1029",
     "Segni":"Postille.",
     "Category":"FL"
-    },{
-    "Id":1560.0,
+},{
+    "Id":1560,
     "Authors":"Levi, Carlo",
     "Title":"Cristo si \u00e8 fermato a Eboli",
     "Cities":"Torino  ",
@@ -15610,8 +15609,8 @@ const jsonData = [
     "Fund":"BTB Segn. 464",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1561.0,
+},{
+    "Id":1561,
     "Authors":"Levi, Ezio",
     "Title":"Poeti antichi lombardi",
     "Cities":"Milano  ",
@@ -15620,8 +15619,8 @@ const jsonData = [
     "Fund":"BTB Segn. 612",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":1562.0,
+},{
+    "Id":1562,
     "Authors":"Lilith, Maria",
     "Title":"Fate morgane",
     "Cities":"Milano",
@@ -15630,8 +15629,8 @@ const jsonData = [
     "Fund":"BTB Segn. 465",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1563.0,
+},{
+    "Id":1563,
     "Authors":"Limentani, Ludovico",
     "Title":"Il positivismo italiano 1870-1920.",
     "Cities":"Napoli  ",
@@ -15640,8 +15639,8 @@ const jsonData = [
     "Fund":"BTB Segn. 37",
     "Segni":"Dedica dell\u2019autore in data 9.1928.",
     "Category":"IL"
-    },{
-    "Id":1564.0,
+},{
+    "Id":1564,
     "Authors":"Linati, Carlo",
     "Title":"Memorie a zigzag",
     "Cities":"Torino  ",
@@ -15650,8 +15649,8 @@ const jsonData = [
     "Fund":"BTB Segn. 466",
     "Segni":"Dedica dell\u2019autore in data 6.11.1936. Postille.",
     "Category":"IL"
-    },{
-    "Id":1565.0,
+},{
+    "Id":1565,
     "Authors":"Linati, Carlo",
     "Title":"Passeggiate lariane",
     "Cities":"Milano  ",
@@ -15660,8 +15659,8 @@ const jsonData = [
     "Fund":"BTB Segn. 467",
     "Segni":"Parzialmente intonso. Pieghe.",
     "Category":"IL"
-    },{
-    "Id":1566.0,
+},{
+    "Id":1566,
     "Authors":"Linati, Carlo",
     "Title":"Scrittori angloamericani d\u2019oggi",
     "Cities":"Milano",
@@ -15670,9 +15669,9 @@ const jsonData = [
     "Fund":"BTB Segn. 1347",
     "Segni":"Dedica dell\u2019autore",
     "Category":"IL"
-    },{
-    "Id":1567.0,
-    "Authors":null,
+},{
+    "Id":1567,
+    "Authors":"Not found",
     "Title":"Lirica italiana",
     "Cities":"Milano",
     "Publisher":"Bompiani",
@@ -15680,9 +15679,9 @@ const jsonData = [
     "Fund":"BTB Segn. 468",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1568.0,
-    "Authors":null,
+},{
+    "Id":1568,
+    "Authors":"Not found",
     "Title":"Lirici greci. ",
     "Cities":"Milano  ",
     "Publisher":"Corrente",
@@ -15690,9 +15689,9 @@ const jsonData = [
     "Fund":"BTB Segn. 632",
     "Segni":"Dedica del traduttore.",
     "Category":"CL"
-    },{
-    "Id":1569.0,
-    "Authors":null,
+},{
+    "Id":1569,
+    "Authors":"Not found",
     "Title":"Lirici nuovi",
     "Cities":"Milano",
     "Publisher":"Hoepli",
@@ -15700,8 +15699,8 @@ const jsonData = [
     "Fund":"BTB Segn. 744",
     "Segni":"Dedica del curatore.",
     "Category":"CL"
-    },{
-    "Id":1570.0,
+},{
+    "Id":1570,
     "Authors":"Lissoni, Osvaldo",
     "Title":"La Certosa di Pavia",
     "Cities":"Milano  ",
@@ -15710,9 +15709,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2291",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1571.0,
-    "Authors":null,
+},{
+    "Id":1571,
+    "Authors":"Not found",
     "Title":"Listino generale primavera 1965",
     "Cities":"Milano",
     "Publisher":"Mursia",
@@ -15720,9 +15719,9 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 14",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":1572.0,
-    "Authors":null,
+},{
+    "Id":1572,
+    "Authors":"Not found",
     "Title":"Das literarische Profil von Rom",
     "Cities":"Berlin ",
     "Publisher":"Literarische Colloquium",
@@ -15730,8 +15729,8 @@ const jsonData = [
     "Fund":"BTB Segn. 761",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":1573.0,
+},{
+    "Id":1573,
     "Authors":"Liuzzi, Ferruccio",
     "Title":"Arturo Rimbaud",
     "Cities":"Roma  ",
@@ -15739,9 +15738,9 @@ const jsonData = [
     "Years":1926,
     "Fund":"BTB Segn. 1128",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1574.0,
+    "Category":"FL"
+},{
+    "Id":1574,
     "Authors":"Livi, Grazia",
     "Title":"Gli scapoli di Londra",
     "Cities":"Firenze  ",
@@ -15750,8 +15749,8 @@ const jsonData = [
     "Fund":"BTB Segn. 469",
     "Segni":"Dedica dell\u2019autrice.",
     "Category":"IL"
-    },{
-    "Id":1575.0,
+},{
+    "Id":1575,
     "Authors":"Livi, Francesco",
     "Title":"Albert Camus",
     "Cities":"Firenze",
@@ -15759,9 +15758,9 @@ const jsonData = [
     "Years":1971,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1576.0,
+    "Category":"FL"
+},{
+    "Id":1576,
     "Authors":"Livio, Tito",
     "Title":"Ab urbe condita liber VII",
     "Cities":"Roma-Milano  ",
@@ -15770,8 +15769,8 @@ const jsonData = [
     "Fund":"BTB Segn. 82",
     "Segni":"Parzialmente intonso. Postille.",
     "Category":"CL"
-    },{
-    "Id":1577.0,
+},{
+    "Id":1577,
     "Authors":"Livio, Tito",
     "Title":"Ab urbe condita liber XXII",
     "Cities":"Torino-Milano-FirenzeNapoli-Roma-Palermo",
@@ -15780,8 +15779,8 @@ const jsonData = [
     "Fund":"BTB Segn. 83",
     "Segni":" Sottolineature e postille.",
     "Category":"CL"
-    },{
-    "Id":1578.0,
+},{
+    "Id":1578,
     "Authors":"Livio, Tito",
     "Title":"Ab urbe condita libri pars I fasc. II lib. IV-VI. ",
     "Cities":"Leipzig  ",
@@ -15790,8 +15789,8 @@ const jsonData = [
     "Fund":"BTB Segn. 80 ",
     "Segni":"Sottolineature e postille.",
     "Category":"CL"
-    },{
-    "Id":1579.0,
+},{
+    "Id":1579,
     "Authors":"Livio, Tito",
     "Title":"Ab urbe condita libri pars IV fasc. I lib. XXXI-XXXV. ",
     "Cities":"Leipzig",
@@ -15800,8 +15799,8 @@ const jsonData = [
     "Fund":"BTB Segn. 81",
     "Segni":"Nota di possesso autografa. Postille.",
     "Category":"CL"
-    },{
-    "Id":1580.0,
+},{
+    "Id":1580,
     "Authors":"Livio, Tito",
     "Title":" Delle istorie dalla fondazione di Roma. Libri XXIII-XXIV.",
     "Cities":"Torino-Milano-Firenze-Napoli-RomaPalermo ",
@@ -15810,8 +15809,8 @@ const jsonData = [
     "Fund":"BTB Segn. 84",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":1581.0,
+},{
+    "Id":1581,
     "Authors":"Livio, Tito",
     "Title":" Patavinihistoriam. ",
     "Cities":"s.l.",
@@ -15820,8 +15819,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica",
     "Category":"CL"
-    },{
-    "Id":1582.0,
+},{
+    "Id":1582,
     "Authors":"Livio, Tito",
     "Title":"La storia di Roma dalle sue origini: libro XXII",
     "Cities":"Milano-Roma-Napoli  ",
@@ -15830,8 +15829,8 @@ const jsonData = [
     "Fund":"BTB Segn. 79",
     "Segni":"Sottolineature.",
     "Category":"CL"
-    },{
-    "Id":1583.0,
+},{
+    "Id":1583,
     "Authors":"Locatelli-Milesi, Sereno",
     "Title":"Bergamo vecchia e nuova",
     "Cities":"Bergamo",
@@ -15839,9 +15838,9 @@ const jsonData = [
     "Years":1941,
     "Fund":"BTB Segn. 2382",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1584.0,
+    "Category":"HA"
+},{
+    "Id":1584,
     "Authors":"Locke, John",
     "Title":"Essai philosophique concernant l\u2019entendement humain, o\u00f9 l\u2019on montre quelle est l\u2019entendue de non connossainces certaines, & la maniere dont nous y parvenons",
     "Cities":"Amsterdam ",
@@ -15850,8 +15849,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1859-1862",
     "Segni":null,
     "Category":"F "
-    },{
-    "Id":1585.0,
+},{
+    "Id":1585,
     "Authors":"Locke, John",
     "Title":"Saggio sull\u2019intelletto umano",
     "Cities":"Firenze",
@@ -15859,9 +15858,9 @@ const jsonData = [
     "Years":1924,
     "Fund":"BTB Segn. 1863",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1586.0,
+    "Category":"P"
+},{
+    "Id":1586,
     "Authors":"Lodispoto, Alberto",
     "Title":"Una malattia del maresciallo Radetzky",
     "Cities":"Roma",
@@ -15869,9 +15868,9 @@ const jsonData = [
     "Years":1962,
     "Fund":"BTB Segn. Op. 38",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1587.0,
+    "Category":"H"
+},{
+    "Id":1587,
     "Authors":"Loisy, Alfred",
     "Title":"Le origini del cristianesimo",
     "Cities":"Torino",
@@ -15879,10 +15878,10 @@ const jsonData = [
     "Years":1942,
     "Fund":"BTB Segn. 1742",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1588.0,
-    "Authors":null,
+    "Category":"V"
+},{
+    "Id":1588,
+    "Authors":"Not found",
     "Title":"Lombardia. Parte I",
     "Cities":"Milano",
     "Publisher":null,
@@ -15890,8 +15889,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2278-2279",
     "Segni":null,
     "Category":"G "
-    },{
-    "Id":1589.0,
+},{
+    "Id":1589,
     "Authors":"Lombrassa, Domenico \u2013 Vecchietti, Giorgio",
     "Title":"Davide. Antologia italiana per le scuole di avviamento professionale",
     "Cities":"Firenze",
@@ -15899,9 +15898,9 @@ const jsonData = [
     "Years":1958,
     "Fund":"BTB Segn. 821-823",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1590.0,
+    "Category":"IL"
+},{
+    "Id":1590,
     "Authors":"Lombroso, Giacomo \u2013 Besana,Davide",
     "Title":"Storia di dodici anni narrata al popolo italiano, ",
     "Cities":"Milano",
@@ -15909,9 +15908,9 @@ const jsonData = [
     "Years":1861,
     "Fund":null,
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1591.0,
+    "Category":"H"
+},{
+    "Id":1591,
     "Authors":"Longhi, Roberto",
     "Title":"Caravaggio.",
     "Cities":"s.l.",
@@ -15919,9 +15918,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BAL",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1592.0,
+    "Category":"HA"
+},{
+    "Id":1592,
     "Authors":"Longhi, Roberto",
     "Title":"Officina ferrarese",
     "Cities":"Roma  ",
@@ -15929,9 +15928,9 @@ const jsonData = [
     "Years":1934,
     "Fund":"BTB Segn. 2229",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1593.0,
+    "Category":"HA"
+},{
+    "Id":1593,
     "Authors":"Longhi, Roberto",
     "Title":"Piero della Francesca",
     "Cities":"Milano  ",
@@ -15939,9 +15938,9 @@ const jsonData = [
     "Years":1946,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1594.0,
+    "Category":"HA"
+},{
+    "Id":1594,
     "Authors":"Longo Sofista",
     "Title":"Gli amori pastorali di Dafni e Cloe",
     "Cities":"Milano  ",
@@ -15950,8 +15949,8 @@ const jsonData = [
     "Fund":"BTB Segn. 15",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":1595.0,
+},{
+    "Id":1595,
     "Authors":"Lorand, Sandor \u2013 Balint, Michael",
     "Title":"Perversioni sessuali. Psicodinamica e terapia",
     "Cities":"Milano",
@@ -15960,8 +15959,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"P "
-    },{
-    "Id":1596.0,
+},{
+    "Id":1596,
     "Authors":"Lorenz, Konrad",
     "Title":"L\u2019anello di re Salomone",
     "Cities":"Milano  ",
@@ -15969,9 +15968,9 @@ const jsonData = [
     "Years":1967,
     "Fund":"BTB Segn. 2152",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1597.0,
+    "Category":"T"
+},{
+    "Id":1597,
     "Authors":"Lorenzo Lotto",
     "Title":" Estratto da catalogo di mostra",
     "Cities":null,
@@ -15979,9 +15978,9 @@ const jsonData = [
     "Years":1953,
     "Fund":"BTB Segn. Op. 20",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1598.0,
+    "Category":"HA"
+},{
+    "Id":1598,
     "Authors":"Loria, Arturo",
     "Title":"Il cieco e la bellona",
     "Cities":"Firenze  ",
@@ -15990,8 +15989,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":1599.0,
+},{
+    "Id":1599,
     "Authors":"Loria, Arturo",
     "Title":"Davide Ricardo",
     "Cities":"Roma  ",
@@ -16000,8 +15999,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2011",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1600.0,
+},{
+    "Id":1600,
     "Authors":"Loria, Arturo",
     "Title":"La scuola di ballo",
     "Cities":"Firenze  ",
@@ -16010,8 +16009,8 @@ const jsonData = [
     "Fund":"BTB Segn. 470",
     "Segni":"Dedica dell\u2019autore in data 21.5.1932. Parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":1601.0,
+},{
+    "Id":1601,
     "Authors":"Losacco, Michele",
     "Title":"Schelling",
     "Cities":"Milano-Palermo-NapoliGenova",
@@ -16019,9 +16018,9 @@ const jsonData = [
     "Years":1914,
     "Fund":"BTB Segn. 1955",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1602.0,
+    "Category":"GL"
+},{
+    "Id":1602,
     "Authors":"Losini, Francesco",
     "Title":"Dostoievski",
     "Cities":"Milano",
@@ -16029,9 +16028,9 @@ const jsonData = [
     "Years":1941,
     "Fund":null,
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1603.0,
+    "Category":"RL"
+},{
+    "Id":1603,
     "Authors":"Loubet, Guillaume",
     "Title":"L\u2019Hydre",
     "Cities":"Paris",
@@ -16040,8 +16039,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1030",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1604.0,
+},{
+    "Id":1604,
     "Authors":"Lowe, Hudson",
     "Title":"Il contromemoriale di Sant\u2019Elena (1830)",
     "Cities":"Milano",
@@ -16049,9 +16048,9 @@ const jsonData = [
     "Years":1838,
     "Fund":"BTB Segn. 1718",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1605.0,
+    "Category":"V"
+},{
+    "Id":1605,
     "Authors":"Lucas-Dubreton, Jean",
     "Title":"Louis Philippe",
     "Cities":"Paris",
@@ -16060,8 +16059,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1654",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1606.0,
+},{
+    "Id":1606,
     "Authors":"Lucchese, Romeo",
     "Title":"Alcune precisazioni sulla \u201cScuola romana\u201d",
     "Cities":"Roma ",
@@ -16069,9 +16068,9 @@ const jsonData = [
     "Years":1964,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1607.0,
+    "Category":"V"
+},{
+    "Id":1607,
     "Authors":"Lucertini, Mario",
     "Title":"Etica della cibernetica",
     "Cities":null,
@@ -16080,8 +16079,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2125",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1608.0,
+},{
+    "Id":1608,
     "Authors":"Luciano di Samosata",
     "Title":"Dialogues satyriques, philosophiques et divers, petits trait\u00e9s",
     "Cities":"Paris  ",
@@ -16090,8 +16089,8 @@ const jsonData = [
     "Fund":"BTB Segn. 16",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":1609.0,
+},{
+    "Id":1609,
     "Authors":"Lucrezio Caro, Tito",
     "Title":"De rerum natura libri sex. ",
     "Cities":"Milano  ",
@@ -16100,8 +16099,8 @@ const jsonData = [
     "Fund":"BTB Segn. 54",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":1610.0,
+},{
+    "Id":1610,
     "Authors":"Lucrezio Caro, Tito",
     "Title":"De rerum natura libri sex. Vol. 1: Studi lucreziani",
     "Cities":"Torino",
@@ -16110,8 +16109,8 @@ const jsonData = [
     "Fund":"BTB Segn. 53",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":1611.0,
+},{
+    "Id":1611,
     "Authors":"Lucrezio Caro, Tito",
     "Title":"Ho vegliato le notti serene",
     "Cities":"Firenze  ",
@@ -16120,8 +16119,8 @@ const jsonData = [
     "Fund":"BTB Segn. 52",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":1612.0,
+},{
+    "Id":1612,
     "Authors":"Lugli, Vittorio",
     "Title":"Racine",
     "Cities":"Roma",
@@ -16130,8 +16129,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1129",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1613.0,
+},{
+    "Id":1613,
     "Authors":"Luisi, Luciano",
     "Title":"Piazza Grande. ",
     "Cities":"Bologna",
@@ -16140,18 +16139,18 @@ const jsonData = [
     "Fund":"BTB Segn. 471",
     "Segni":"Dedica dell\u2019autore in data 11.1953.",
     "Category":"IL"
-    },{
-    "Id":1614.0,
-    "Authors":null,
+},{
+    "Id":1614,
+    "Authors":"Not found",
     "Title":"La luna nel corso. Pagine milanesi. ",
     "Cities":"Milano",
     "Publisher":"Corrente",
     "Years":1941,
     "Fund":"BTB Segn. 472",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1615.0,
+    "Category":"V"
+},{
+    "Id":1615,
     "Authors":"Lupo, Ettore",
     "Title":"Nelson e la Hamilton: i loro delitti a Napoli nel 1799",
     "Cities":"Milano",
@@ -16159,9 +16158,9 @@ const jsonData = [
     "Years":1941,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1616.0,
+    "Category":"H"
+},{
+    "Id":1616,
     "Authors":"Luti, Giorgio",
     "Title":"Cronache letterarie tra le due guerre1920\/1940",
     "Cities":"Bari",
@@ -16169,9 +16168,9 @@ const jsonData = [
     "Years":1966,
     "Fund":"BTB Segn. 824",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1617.0,
+    "Category":"H"
+},{
+    "Id":1617,
     "Authors":"Luzi, Mario",
     "Title":"Avvento notturno",
     "Cities":"Firenze  ",
@@ -16180,8 +16179,8 @@ const jsonData = [
     "Fund":"BTB Segn. 473",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1618.0,
+},{
+    "Id":1618,
     "Authors":"Luzi, Mario",
     "Title":"Biografia a Ebe",
     "Cities":"Firenze",
@@ -16190,8 +16189,8 @@ const jsonData = [
     "Fund":"BTB Segn. 474",
     "Segni":"Dedica dell\u2019autore in data 12.1942.",
     "Category":"IL"
-    },{
-    "Id":1619.0,
+},{
+    "Id":1619,
     "Authors":"Luzi, Mario",
     "Title":"Il giusto della vita",
     "Cities":"Milano  ",
@@ -16200,8 +16199,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1620.0,
+},{
+    "Id":1620,
     "Authors":"Luzi, Mario",
     "Title":"Quaderno gotico",
     "Cities":"Firenze  ",
@@ -16210,8 +16209,8 @@ const jsonData = [
     "Fund":"BTB Segn. 476",
     "Segni":"Dedica dell\u2019autore in data 5.1947.",
     "Category":"IL"
-    },{
-    "Id":1621.0,
+},{
+    "Id":1621,
     "Authors":"Luzi, Mario",
     "Title":"Studio su Mallarm\u00e9",
     "Cities":"Firenze  ",
@@ -16220,8 +16219,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1130",
     "Segni":"Invio.",
     "Category":"IL"
-    },{
-    "Id":1622.0,
+},{
+    "Id":1622,
     "Authors":"Luzi, Mario",
     "Title":"Un\u2019illusione platonica e altri saggi",
     "Cities":"Firenze",
@@ -16230,8 +16229,8 @@ const jsonData = [
     "Fund":"BTB Segn. 475",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1623.0,
+},{
+    "Id":1623,
     "Authors":"Lycurgus",
     "Title":"L\u2019orazione contro Leocrate",
     "Cities":"Milano  ",
@@ -16240,8 +16239,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":1624.0,
+},{
+    "Id":1624,
     "Authors":"Macaulay Trevelyan, Giorgio",
     "Title":"Storia d\u2019Inghilterra",
     "Cities":"Milano  ",
@@ -16249,9 +16248,9 @@ const jsonData = [
     "Years":1938,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1625.0,
+    "Category":"H"
+},{
+    "Id":1625,
     "Authors":"Maccari, Mino",
     "Title":"Il trastullo di Strapaese: canzoncine e legni incisi",
     "Cities":"Firenze  ",
@@ -16259,9 +16258,9 @@ const jsonData = [
     "Years":1928,
     "Fund":null,
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1626.0,
+    "Category":"IL"
+},{
+    "Id":1626,
     "Authors":"Macchia, Giovanni",
     "Title":"Baudelaire e la poetica della malinconia",
     "Cities":"Napoli ",
@@ -16270,8 +16269,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1131",
     "Segni":"Dedica dell\u2019autore. Intonso.",
     "Category":"IL"
-    },{
-    "Id":1627.0,
+},{
+    "Id":1627,
     "Authors":"Macchia, Giovanni",
     "Title":"Il mito di Parigi",
     "Cities":"Torino",
@@ -16280,8 +16279,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1132",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":1628.0,
+},{
+    "Id":1628,
     "Authors":"Macchia, Giovanni",
     "Title":"I moralisti classici. Da Machiavelli a La Bruy\u00e8re",
     "Cities":"Milano  ",
@@ -16290,8 +16289,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1133",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1629.0,
+},{
+    "Id":1629,
     "Authors":"Macchia, Giovanni",
     "Title":" Vita, avventure e morte di Don Giovanni",
     "Cities":"Bari",
@@ -16300,8 +16299,8 @@ const jsonData = [
     "Fund":"BTB Segn. 825",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1630.0,
+},{
+    "Id":1630,
     "Authors":"Mac\u00e9, Jean (pseud. di Jean",
     "Title":"Histoire d\u2019une bouch\u00e9e de pain",
     "Cities":"Paris  ",
@@ -16310,8 +16309,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2079",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1631.0,
+},{
+    "Id":1631,
     "Authors":"Machiavelli, Niccol\u00f2",
     "Title":"La mandragola; Clizia; ",
     "Cities":"Roma",
@@ -16320,8 +16319,8 @@ const jsonData = [
     "Fund":"BTB Segn. 486",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1632.0,
+},{
+    "Id":1632,
     "Authors":"Machiavelli, Niccol\u00f2",
     "Title":"La Mandragola; Belfagor",
     "Cities":"Firenze",
@@ -16330,8 +16329,8 @@ const jsonData = [
     "Fund":"BTB Segn. 485",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1633.0,
+},{
+    "Id":1633,
     "Authors":"Machiavelli, Niccol\u00f2",
     "Title":"Opere complete",
     "Cities":"Firenze ",
@@ -16340,8 +16339,8 @@ const jsonData = [
     "Fund":"BTB Segn. 481-484",
     "Segni":"Postille.",
     "Category":"IL"
-    },{
-    "Id":1634.0,
+},{
+    "Id":1634,
     "Authors":"Machiavelli, Niccol\u00f2",
     "Title":"Opere istoriche e politiche. Tomi terzo e quarto",
     "Cities":"Filadelfia  ",
@@ -16350,8 +16349,8 @@ const jsonData = [
     "Fund":"BTB Segn. 479-480",
     "Segni":"Volume II parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":1635.0,
+},{
+    "Id":1635,
     "Authors":"Machiavelli, Niccol\u00f2",
     "Title":" Il Principe.",
     "Cities":"s.l.",
@@ -16360,8 +16359,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Sottolineature.",
     "Category":"IL"
-    },{
-    "Id":1636.0,
+},{
+    "Id":1636,
     "Authors":"Machiavelli, Niccol\u00f2",
     "Title":" Il Principe. ",
     "Cities":"Roma",
@@ -16370,8 +16369,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Timbro di possesso di Enrico Gadda.",
     "Category":"IL"
-    },{
-    "Id":1637.0,
+},{
+    "Id":1637,
     "Authors":"Machiavelli, Niccol\u00f2",
     "Title":"Il Principe.",
     "Cities":"Firenze ",
@@ -16380,8 +16379,8 @@ const jsonData = [
     "Fund":"BTB Segn. 487",
     "Segni":"Esemplare n. 275\/1000.",
     "Category":"IL"
-    },{
-    "Id":1638.0,
+},{
+    "Id":1638,
     "Authors":"Machiavelli, Niccol\u00f2",
     "Title":"Tutte le opere. ",
     "Cities":"Milano  ",
@@ -16390,8 +16389,8 @@ const jsonData = [
     "Fund":"BTB Segn. 477-478",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1639.0,
+},{
+    "Id":1639,
     "Authors":"Madelin, Louis",
     "Title":"Napol\u00e9on",
     "Cities":"Paris",
@@ -16400,8 +16399,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1655",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1640.0,
+},{
+    "Id":1640,
     "Authors":"Maeterlinck, Maurice",
     "Title":"Th\u00e9\u00e2tre",
     "Cities":"Paris",
@@ -16410,8 +16409,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1031-1033",
     "Segni":"Nota di possesso autografa in data 17.09.1919 Milano.",
     "Category":"FL"
-    },{
-    "Id":1641.0,
+},{
+    "Id":1641,
     "Authors":"Maffei, Scipione",
     "Title":"La Merope. Tragedia",
     "Cities":"Verona",
@@ -16419,9 +16418,9 @@ const jsonData = [
     "Years":1745,
     "Fund":"BTB Segn. 488",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1642.0,
+    "Category":"TH"
+},{
+    "Id":1642,
     "Authors":"Magalotti, Lorenzo",
     "Title":"Saggi di naturali esperienze fatte nell\u2019Accademia del Serenissimo Principe Leopoldo di Toscana e descritte dal segretario di essa Accademia.",
     "Cities":"Roma",
@@ -16430,8 +16429,8 @@ const jsonData = [
     "Fund":"BTB Segn. 489",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1643.0,
+},{
+    "Id":1643,
     "Authors":"Magalotti, Lorenzo",
     "Title":"Scritti di corte e di mondo",
     "Cities":"Roma",
@@ -16440,8 +16439,8 @@ const jsonData = [
     "Fund":"BTB Segn. 490",
     "Segni":"Dedica del curatore.",
     "Category":"T"
-    },{
-    "Id":1644.0,
+},{
+    "Id":1644,
     "Authors":"Maggi, Carlo Maria",
     "Title":"Il teatro milanese",
     "Cities":"Torino  ",
@@ -16450,8 +16449,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Postille.",
     "Category":"IL"
-    },{
-    "Id":1645.0,
+},{
+    "Id":1645,
     "Authors":"Magliocco, Vito",
     "Title":"India da zero all\u2019infinito",
     "Cities":"Milano",
@@ -16460,8 +16459,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1646.0,
+},{
+    "Id":1646,
     "Authors":"Magliocco, Vito",
     "Title":"Il monastero di Santa Caterina nel Sinai",
     "Cities":"Milano ",
@@ -16470,8 +16469,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1647.0,
+},{
+    "Id":1647,
     "Authors":"Magnaghi, Alberto",
     "Title":"Amerigo Vespucci",
     "Cities":"Milano",
@@ -16480,8 +16479,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1532",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1648.0,
+},{
+    "Id":1648,
     "Authors":"Magnani, Luigi",
     "Title":"Le frontiere della musica. Da Monteverdi a Sch\u00f6nberg",
     "Cities":"Milano-Napoli ",
@@ -16490,8 +16489,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":1649.0,
+},{
+    "Id":1649,
     "Authors":"Magnani, Luigi",
     "Title":"L\u2019idea della Chartreuse",
     "Cities":"Firenze  ",
@@ -16500,8 +16499,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 39",
     "Segni":"Dedica dell\u2019autore in data 26.1.1952. Pieghe e postille.",
     "Category":"IL"
-    },{
-    "Id":1650.0,
+},{
+    "Id":1650,
     "Authors":"Magne, Emile",
     "Title":"La vie quotidienne au temps de Louis XIII",
     "Cities":"Paris",
@@ -16509,9 +16508,9 @@ const jsonData = [
     "Years":1942,
     "Fund":"BTB Segn. 1656",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1651.0,
+    "Category":"H"
+},{
+    "Id":1651,
     "Authors":"Magnino, Bianca",
     "Title":"Federico Schiller",
     "Cities":"Roma  ",
@@ -16520,8 +16519,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1228",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1652.0,
+},{
+    "Id":1652,
     "Authors":"Mahnke, Dietrich",
     "Title":"Leibnizens Synthese von Universal mathematik und Individual metaphysik",
     "Cities":"Halle  ",
@@ -16530,8 +16529,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1956",
     "Segni":null,
     "Category":"F "
-    },{
-    "Id":1653.0,
+},{
+    "Id":1653,
     "Authors":"Maier, Bruno",
     "Title":"Introduzione a Italo Svevo",
     "Cities":"Milano",
@@ -16540,8 +16539,8 @@ const jsonData = [
     "Fund":"BTB Segn. 826",
     "Segni":"Dedica dell\u2019autore in data 1963.",
     "Category":"IL"
-    },{
-    "Id":1654.0,
+},{
+    "Id":1654,
     "Authors":"Maier, Bruno",
     "Title":"Il mito letterario d\u2019un nuovo Decamerone e la novellistica italiana del Cinquecento",
     "Cities":"Milano  ",
@@ -16550,8 +16549,8 @@ const jsonData = [
     "Fund":"BTB Segn. 827",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":1655.0,
+},{
+    "Id":1655,
     "Authors":"Maier, Bruno",
     "Title":"La personalit\u00e0 e l\u2019opera di Italo Svevo",
     "Cities":"Milano",
@@ -16560,8 +16559,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1656.0,
+},{
+    "Id":1656,
     "Authors":"Maironi, Carlo",
     "Title":"Il prete oggi",
     "Cities":"Modena",
@@ -16570,8 +16569,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2172",
     "Segni":"Intonso.",
     "Category":"V "
-    },{
-    "Id":1657.0,
+},{
+    "Id":1657,
     "Authors":"Maistre, Xavier de",
     "Title":"Viaggi in casa. Mussino",
     "Cities":"Roma",
@@ -16579,9 +16578,9 @@ const jsonData = [
     "Years":1922,
     "Fund":"BTB Segn. 1034",
     "Segni":"Intonso.",
-    "Category":"L"
-    },{
-    "Id":1658.0,
+    "Category":"FL"
+},{
+    "Id":1658,
     "Authors":"Malamud, Bernard",
     "Title":"L\u2019uomo di Kiev",
     "Cities":"Torino",
@@ -16589,9 +16588,9 @@ const jsonData = [
     "Years":1968,
     "Fund":"BTB Segn. 1278",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":1659.0,
+    "Category":"AL"
+},{
+    "Id":1659,
     "Authors":"Malaparte, Curzio",
     "Title":"Kaputt",
     "Cities":"Milano",
@@ -16600,8 +16599,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1660.0,
+},{
+    "Id":1660,
     "Authors":"Malaparte, Curzio",
     "Title":"Maledetti toscani",
     "Cities":"Firenze  ",
@@ -16610,8 +16609,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1661.0,
+},{
+    "Id":1661,
     "Authors":"Malaparte, Curzio",
     "Title":"La pelle",
     "Cities":"Milano",
@@ -16620,8 +16619,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1662.0,
+},{
+    "Id":1662,
     "Authors":"Malaparte, Curzio",
     "Title":"Tecnica del colpo di stato",
     "Cities":"Milano",
@@ -16630,8 +16629,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1663.0,
+},{
+    "Id":1663,
     "Authors":"Malato, Enrico",
     "Title":"La poesia dialettale napoletana. ",
     "Cities":"Napoli  ",
@@ -16640,8 +16639,8 @@ const jsonData = [
     "Fund":"BTB Segn. 828-829",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1664.0,
+},{
+    "Id":1664,
     "Authors":"Malebranche, Nicolas",
     "Title":"De la recherche de la v\u00e9rit\u00e9. ",
     "Cities":"Paris  ",
@@ -16650,8 +16649,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1865",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1665.0,
+},{
+    "Id":1665,
     "Authors":"Malebranche, Nicolas",
     "Title":"\u0152uvres. I\u00e8res\u00e9rie.",
     "Cities":"Paris",
@@ -16660,8 +16659,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1864",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1666.0,
+},{
+    "Id":1666,
     "Authors":"Malebranche, Nicolas",
     "Title":"Pensieri metafisici",
     "Cities":"Lanciano",
@@ -16670,8 +16669,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1866",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1667.0,
+},{
+    "Id":1667,
     "Authors":"Malerba, Luigi",
     "Title":"Salto mortale. ",
     "Cities":"Milano",
@@ -16680,8 +16679,8 @@ const jsonData = [
     "Fund":"BTB Segn. 491",
     "Segni":"Prima bozza impaginata. Postille.",
     "Category":"IL"
-    },{
-    "Id":1668.0,
+},{
+    "Id":1668,
     "Authors":"Malerba, Luigi",
     "Title":"Salto mortale",
     "Cities":"Milano",
@@ -16690,8 +16689,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1669.0,
+},{
+    "Id":1669,
     "Authors":"Malipiero, Gian Francesco",
     "Title":"Anton Francesco Doni musico",
     "Cities":"Venezia",
@@ -16700,8 +16699,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1429",
     "Segni":"Dedica dell\u2019autore in data 20.11.1946.",
     "Category":"IL"
-    },{
-    "Id":1670.0,
+},{
+    "Id":1670,
     "Authors":"Mallarm\u00e9, St\u00e9phane",
     "Title":"L\u2019apr\u00e8smidi d\u2019un faune. Preceduto dalla genesi dell\u2019\u00abApr\u00e8smidi d\u2019un faune\u00bb di C. Gujot",
     "Cities":"Firenze ",
@@ -16710,8 +16709,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1036",
     "Segni":"Dedica del traduttore in data 10.1945.         Postille del traduttore.",
     "Category":"FL"
-    },{
-    "Id":1671.0,
+},{
+    "Id":1671,
     "Authors":"Mallarm\u00e9, St\u00e9phane",
     "Title":"Monologo; Improvviso; Pomeriggio d\u2019un fauno",
     "Cities":"Firenze",
@@ -16720,8 +16719,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1037",
     "Segni":"Dedica del traduttore in data 11.1951. Postille.",
     "Category":"FL"
-    },{
-    "Id":1672.0,
+},{
+    "Id":1672,
     "Authors":"Mallarm\u00e9, St\u00e9phane",
     "Title":" Po\u00e9sies. ",
     "Cities":"Paris",
@@ -16730,8 +16729,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1035",
     "Segni":"Nota di possesso autografa in data 18.09.1919 Milano.",
     "Category":"FL"
-    },{
-    "Id":1673.0,
+},{
+    "Id":1673,
     "Authors":"Malraux, Andr\u00e9",
     "Title":"La condition humaine",
     "Cities":"Paris  ",
@@ -16740,8 +16739,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1038",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1674.0,
+},{
+    "Id":1674,
     "Authors":"Manchester, William",
     "Title":"Morte di un presidente",
     "Cities":"Milano",
@@ -16749,9 +16748,9 @@ const jsonData = [
     "Years":1967,
     "Fund":"BTB Segn. 1743",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":1675.0,
+    "Category":"AL"
+},{
+    "Id":1675,
     "Authors":"Manganelli, Giorgio",
     "Title":"Nuovo commento",
     "Cities":"Torino  ",
@@ -16760,8 +16759,8 @@ const jsonData = [
     "Fund":"BTB Segn. 492",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1676.0,
+},{
+    "Id":1676,
     "Authors":"Mann, Thomas",
     "Title":"Altezza reale",
     "Cities":"Milano  ",
@@ -16770,8 +16769,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1200",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":1677.0,
+},{
+    "Id":1677,
     "Authors":"Mann, Thomas",
     "Title":"I Buddenbrook. Decadenza di una famiglia",
     "Cities":"Milano  ",
@@ -16780,8 +16779,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1201",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":1678.0,
+},{
+    "Id":1678,
     "Authors":"Mann, Thomas",
     "Title":"Le confessioni di un cavaliere d\u2019industria",
     "Cities":"Milano  ",
@@ -16790,8 +16789,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1201",
     "Segni":"Dedica di Alberto Savini in data 28.10.1952.",
     "Category":"GL"
-    },{
-    "Id":1679.0,
+},{
+    "Id":1679,
     "Authors":"Mann, Thomas",
     "Title":"Doctor Faustus. La vita del compositore tedesco Adrian Leverk\u00fchn narrata da un amico.",
     "Cities":"Milano  ",
@@ -16800,8 +16799,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1204",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":1680.0,
+},{
+    "Id":1680,
     "Authors":"Mann, Thomas",
     "Title":" Mario e il mago. Una tragica esperienza di viaggio.  ",
     "Cities":"Firenze",
@@ -16810,8 +16809,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1203",
     "Segni":"Dedica del curatore in data 16.7.1945.",
     "Category":"GL"
-    },{
-    "Id":1681.0,
+},{
+    "Id":1681,
     "Authors":"Mann, Thomas",
     "Title":"La montagne magique",
     "Cities":"Paris",
@@ -16820,8 +16819,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1205-1206",
     "Segni":"Parzialmente intonsi.",
     "Category":"GL"
-    },{
-    "Id":1682.0,
+},{
+    "Id":1682,
     "Authors":"Mann, Thomas",
     "Title":"La morte a Venezia; Le confessioni di un cavaliere d\u2019industria. ",
     "Cities":"Milano",
@@ -16830,8 +16829,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1207",
     "Segni":"Pieghe.",
     "Category":"GL"
-    },{
-    "Id":1683.0,
+},{
+    "Id":1683,
     "Authors":"Mann, Thomas",
     "Title":"Fisiologia del dolore",
     "Cities":"Firenze  ",
@@ -16840,8 +16839,8 @@ const jsonData = [
     "Fund":"BTB Segn. 494",
     "Segni":"Intonso.",
     "Category":"GL"
-    },{
-    "Id":1684.0,
+},{
+    "Id":1684,
     "Authors":"Mantegazza, Paolo",
     "Title":"Fisiologia dell\u2019amore",
     "Cities":"Firenze  ",
@@ -16850,8 +16849,8 @@ const jsonData = [
     "Fund":"BTB Segn. 493",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":1685.0,
+},{
+    "Id":1685,
     "Authors":"Mantegazza, Paolo",
     "Title":"Fisiologia del piacere",
     "Cities":"Firenze  ",
@@ -16860,8 +16859,8 @@ const jsonData = [
     "Fund":"BTB Segn. 495",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":1686.0,
+},{
+    "Id":1686,
     "Authors":"Mantegazza, Paolo",
     "Title":"Igiene dell\u2019amore",
     "Cities":"Firenze  ",
@@ -16870,8 +16869,8 @@ const jsonData = [
     "Fund":"BTB Segn. 497",
     "Segni":"Parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":1687.0,
+},{
+    "Id":1687,
     "Authors":"Mantegazza, Paolo",
     "Title":"Un giorno a Madera",
     "Cities":"Firenze  ",
@@ -16880,8 +16879,8 @@ const jsonData = [
     "Fund":"BTB Segn. 496",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":1688.0,
+},{
+    "Id":1688,
     "Authors":"Mantegazza, Vico",
     "Title":"L\u2019assedio di Macall\u00e8",
     "Cities":"Firenze  ",
@@ -16890,8 +16889,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1533",
     "Segni":"Nota di possesso autografa di Adele Gadda Lehr.",
     "Category":"IL"
-    },{
-    "Id":1689.0,
+},{
+    "Id":1689,
     "Authors":"Mantovani, Tancredi",
     "Title":"Carlo Gozzi",
     "Cities":"Roma",
@@ -16900,9 +16899,9 @@ const jsonData = [
     "Fund":"BTB Segn. 831",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1690.0,
-    "Authors":null,
+},{
+    "Id":1690,
+    "Authors":"Not found",
     "Title":"Manuale dell\u2019ingegnere civile",
     "Cities":"Roma  ",
     "Publisher":"Perrella",
@@ -16910,8 +16909,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2058",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1691.0,
+},{
+    "Id":1691,
     "Authors":"Manuale introduttivo alla",
     "Title":"Manuale introduttivo alla storia del cristianesimo. Vol. 1: Il Cristianesimo antico. Parte 1: I primi tre secoli",
     "Cities":"Foligno  ",
@@ -16920,9 +16919,9 @@ const jsonData = [
     "Fund":"BTB Segn. 1788",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1692.0,
-    "Authors":null,
+},{
+    "Id":1692,
+    "Authors":"Not found",
     "Title":"Manuale tecnico per l\u2019applicazione di caldaie Lollar, radiatori Lollar, raccordi Lollar 1913-1914",
     "Cities":"Milano",
     "Publisher":"Societ\u00e0 Commerciale Buderus",
@@ -16930,8 +16929,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2050",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1693.0,
+},{
+    "Id":1693,
     "Authors":"Manucci, Aldo",
     "Title":"Le azioni di Castruccio Castracane degli Anteminelli signore di Lucca con la genealogia della famiglia",
     "Cities":"Lucca",
@@ -16940,9 +16939,9 @@ const jsonData = [
     "Fund":"BTB Segn. 1534",
     "Segni":"Nota di possesso autografa di Adele Gadda  Lehr.",
     "Category":"IL"
-    },{
-    "Id":1694.0,
-    "Authors":null,
+},{
+    "Id":1694,
+    "Authors":"Not found",
     "Title":"Manuel de l\u2019ing\u00e9nieur: Planches",
     "Cities":null,
     "Publisher":null,
@@ -16950,8 +16949,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2134",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1695.0,
+},{
+    "Id":1695,
     "Authors":"Manzini, Gianna",
     "Title":"Allegro con disperazione",
     "Cities":"Milano",
@@ -16960,8 +16959,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica autografa dell\u2019autrice in data 20.10.1965.",
     "Category":null
-    },{
-    "Id":1696.0,
+},{
+    "Id":1696,
     "Authors":"Manzini, Gianna",
     "Title":"Boscovivo",
     "Cities":"Milano-Roma  ",
@@ -16970,8 +16969,8 @@ const jsonData = [
     "Fund":"BTB Segn. 498",
     "Segni":"Postille.",
     "Category":null
-    },{
-    "Id":1697.0,
+},{
+    "Id":1697,
     "Authors":"Manzini, Gianna",
     "Title":"Forte come un leone",
     "Cities":"Milano  ",
@@ -16980,8 +16979,8 @@ const jsonData = [
     "Fund":"BTB Segn. 500",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1698.0,
+},{
+    "Id":1698,
     "Authors":"Manzini, Gianna",
     "Title":"Ho visto il tuo cuore",
     "Cities":"Milano  ",
@@ -16990,8 +16989,8 @@ const jsonData = [
     "Fund":"BTB Segn. 501",
     "Segni":"Dedica dell\u2019autrice in data 28.3.1950.",
     "Category":"IL"
-    },{
-    "Id":1699.0,
+},{
+    "Id":1699,
     "Authors":"Manzini, Gianna",
     "Title":"Rive remote. Racconti",
     "Cities":"Milano  ",
@@ -17000,8 +16999,8 @@ const jsonData = [
     "Fund":"BTB Segn. 50",
     "Segni":"Dedica dell\u2019autrice in data 5.3.1940.",
     "Category":"IL"
-    },{
-    "Id":1700.0,
+},{
+    "Id":1700,
     "Authors":"Manzini, Gianna",
     "Title":"Tempo innamorato",
     "Cities":"Milano  ",
@@ -17010,8 +17009,8 @@ const jsonData = [
     "Fund":"BTB Segn. 503",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1701.0,
+},{
+    "Id":1701,
     "Authors":"Manzini, Gianna",
     "Title":"Un filo di brezza",
     "Cities":"Milano  ",
@@ -17020,8 +17019,8 @@ const jsonData = [
     "Fund":"BTB Segn. 499",
     "Segni":"Dedica dell\u2019autrice in data 20.12.1936.  Postille.",
     "Category":"IL"
-    },{
-    "Id":1702.0,
+},{
+    "Id":1702,
     "Authors":"Manzini, Gianna",
     "Title":"Venti racconti. ",
     "Cities":"Milano  ",
@@ -17030,8 +17029,8 @@ const jsonData = [
     "Fund":"BTB Segn. 504",
     "Segni":"Dedica dell\u2019autrice in data 11.1941.",
     "Category":"IL"
-    },{
-    "Id":1703.0,
+},{
+    "Id":1703,
     "Authors":"Manzoni, Alessandro",
     "Title":"The Betrothed",
     "Cities":"London-New YorkCincinnati-Chicago",
@@ -17040,8 +17039,8 @@ const jsonData = [
     "Fund":"BTB Segn. 510",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1704.0,
+},{
+    "Id":1704,
     "Authors":"Manzoni, Alessandro",
     "Title":"Il cinque maggio. Ventisette traduzioni in varie lingue del Cinque Maggio di Alessandro Manzoni raccolte da C.A. Meschia. Col testo dell\u2019ode",
     "Cities":"Foligno  ",
@@ -17050,8 +17049,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1705.0,
+},{
+    "Id":1705,
     "Authors":"Manzoni, Alessandro",
     "Title":"Inni sacri e altre poesie",
     "Cities":"Roma  ",
@@ -17060,8 +17059,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Timbro di possesso di Enrico Gadda.",
     "Category":"IL"
-    },{
-    "Id":1706.0,
+},{
+    "Id":1706,
     "Authors":"Manzoni, Alessandro",
     "Title":"Le opere II: Gli sposi promessi",
     "Cities":"Milano  ",
@@ -17070,8 +17069,8 @@ const jsonData = [
     "Fund":"BTB Segn. 509",
     "Segni":"Postille.",
     "Category":"IL"
-    },{
-    "Id":1707.0,
+},{
+    "Id":1707,
     "Authors":"Manzoni, Alessandro",
     "Title":"Opere varie I.",
     "Cities":"Milano  ",
@@ -17080,8 +17079,8 @@ const jsonData = [
     "Fund":"BTB Segn. 505",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1708.0,
+},{
+    "Id":1708,
     "Authors":"Manzoni, Alessandro",
     "Title":"Opere varie II. Ghisalberti",
     "Cities":"Milano  ",
@@ -17090,8 +17089,8 @@ const jsonData = [
     "Fund":"BTB Segn. 506",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1709.0,
+},{
+    "Id":1709,
     "Authors":"Manzoni, Alessandro",
     "Title":"Postille al vocabolario della Crusca nell\u2019edizione veronese. A cura di D. Isella",
     "Cities":"Milano-Napoli  ",
@@ -17100,8 +17099,8 @@ const jsonData = [
     "Fund":"BTB Segn. 507",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":1710.0,
+},{
+    "Id":1710,
     "Authors":"Manzoni, Alessandro",
     "Title":"I Promessi Sposi",
     "Cities":"London ",
@@ -17110,8 +17109,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1711.0,
+},{
+    "Id":1711,
     "Authors":"Manzoni, Alessandro",
     "Title":"I Promessi Sposi",
     "Cities":"Milano",
@@ -17120,8 +17119,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1712.0,
+},{
+    "Id":1712,
     "Authors":"Manzoni, Alessandro",
     "Title":"I promessi sposi. Storia della colonna infame",
     "Cities":"Milano",
@@ -17130,8 +17129,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1713.0,
+},{
+    "Id":1713,
     "Authors":"Manzoni, Alessandro",
     "Title":"I promessi sposi. Storia milanese del secolo XVII scoperta e rifatta da Alessandro Manzoni. ",
     "Cities":"Torino",
@@ -17140,8 +17139,8 @@ const jsonData = [
     "Fund":"BTB Segn. 508",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1714.0,
+},{
+    "Id":1714,
     "Authors":"Manzoni, Alessandro",
     "Title":"La rivoluzione francese del 1789 e la rivoluzione italiana del 1859.",
     "Cities":"Firenze",
@@ -17150,8 +17149,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1715.0,
+},{
+    "Id":1715,
     "Authors":"Manzoni, Alessandro",
     "Title":"Scritti sulla lingua italiana",
     "Cities":"Firenze",
@@ -17160,8 +17159,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1716.0,
+},{
+    "Id":1716,
     "Authors":"Manzoni, Alessandro",
     "Title":" Storia della Colonna infame, e alcune lettere; con le Osservazioni sulla tortura di Pietro Verri",
     "Cities":"Firenze",
@@ -17170,8 +17169,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1717.0,
+},{
+    "Id":1717,
     "Authors":"Manzoni, Alessandro",
     "Title":"Storia della colonna infame",
     "Cities":"Milano",
@@ -17180,8 +17179,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1718.0,
+},{
+    "Id":1718,
     "Authors":"Manzoni, Alessandro",
     "Title":"Tragedie. In appendice le correzioni del 1845, gli appunti per \u00abSpartaco\u00bb, la \u00abLettre a M. Chauvet\u00bb e una scelta di lettere attinenti alle tragedie",
     "Cities":"Torino",
@@ -17190,8 +17189,8 @@ const jsonData = [
     "Fund":"BTB Segn. 514",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1719.0,
+},{
+    "Id":1719,
     "Authors":"Manzoni, Alessandro",
     "Title":"Tragedie e poesie",
     "Cities":"Milano  ",
@@ -17200,8 +17199,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dono di Adele Gadda Lehr a C.E. Gaddail 28.01.1905.",
     "Category":"IL"
-    },{
-    "Id":1720.0,
+},{
+    "Id":1720,
     "Authors":"Manzoni, Alessandro",
     "Title":"Die Verlobten",
     "Cities":"s.l.",
@@ -17210,8 +17209,8 @@ const jsonData = [
     "Fund":"BAC",
     "Segni":"Nota di C.E. Gadda \u00abPezzo di una copia dei \u201cPromessi Sposi, tradotti in tedesco, trovati nei posti nemici sull\u2019Altipiano dei Sette Comuni, estate 1916, da me C.E. Gadda nell\u2019avanzata da Magnaboschi verso la Val D\u2019Assa \u2013 Nota del riordino. 1933. Eguale edizione abbiamo in due esemplari (2x2voll.) nella biblioteca, da mia mamma.\u2013 C.E. Gadda\u00bb.",
     "Category":"IL"
-    },{
-    "Id":1721.0,
+},{
+    "Id":1721,
     "Authors":"Manzoni, Alessandro",
     "Title":"Die Verlobten",
     "Cities":"Leipzig",
@@ -17220,8 +17219,8 @@ const jsonData = [
     "Fund":"BTB Segn. 511-512",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1722.0,
+},{
+    "Id":1722,
     "Authors":"Maraini, Dacia",
     "Title":"Crudelt\u00e0 all\u2019aria aperta",
     "Cities":"Milano  ",
@@ -17230,8 +17229,8 @@ const jsonData = [
     "Fund":"BTB Segn. 515",
     "Segni":"Dedica dell\u2019autrice.",
     "Category":"IL"
-    },{
-    "Id":1723.0,
+},{
+    "Id":1723,
     "Authors":"Maranini, Lorenza",
     "Title":"Proust, arte e conoscenza",
     "Cities":"Firenze",
@@ -17240,8 +17239,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1134",
     "Segni":"Pieghe.",
     "Category":"IL"
-    },{
-    "Id":1724.0,
+},{
+    "Id":1724,
     "Authors":"Mara\u00f1on, Gregorio",
     "Title":"Amiel, o della timidezza",
     "Cities":"Torino  ",
@@ -17250,8 +17249,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1135",
     "Segni":"Intonso.",
     "Category":"SL"
-    },{
-    "Id":1725.0,
+},{
+    "Id":1725,
     "Authors":"Maraschini, Maria",
     "Title":"Alain Fournier. Ed altri saggi",
     "Cities":"Milano",
@@ -17259,9 +17258,9 @@ const jsonData = [
     "Years":1942,
     "Fund":"BTB Segn. 1137",
     "Segni":"Intonso.",
-    "Category":"L"
-    },{
-    "Id":1726.0,
+    "Category":"IL"
+},{
+    "Id":1726,
     "Authors":"Marchesi, Concetto",
     "Title":"Divagazioni",
     "Cities":"Venezia  ",
@@ -17270,8 +17269,8 @@ const jsonData = [
     "Fund":"BTB Segn. 516",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1727.0,
+},{
+    "Id":1727,
     "Authors":"Marchesi, Concetto",
     "Title":"Storia della letteratura latina",
     "Cities":"Messina-Milano",
@@ -17280,8 +17279,8 @@ const jsonData = [
     "Fund":"BTB Segn. 121-122",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1728.0,
+},{
+    "Id":1728,
     "Authors":"Marchi, Gian Paolo",
     "Title":"Un nuovo documento su Vittorino da Feltre",
     "Cities":null,
@@ -17290,8 +17289,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1729.0,
+},{
+    "Id":1729,
     "Authors":"Marcolongo, Roberto",
     "Title":"Leonardo Da Vinci \u2013 artista scienziato",
     "Cities":"Milano",
@@ -17300,8 +17299,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1730.0,
+},{
+    "Id":1730,
     "Authors":"Marcolongo, Roberto",
     "Title":"Meccanica razionale",
     "Cities":"Milano  ",
@@ -17310,18 +17309,18 @@ const jsonData = [
     "Fund":"BTB Segn. 2027-2028",
     "Segni":"Solo al volume I: nota di possesso autografa. Sottolineature e postille.",
     "Category":"T"
-    },{
-    "Id":1731.0,
-    "Authors":null,
+},{
+    "Id":1731,
+    "Authors":"Not found",
     "Title":"Marco Polo: celebrazione del settimo centenario della nascita, 1254-1954",
     "Cities":"Venezia",
     "Publisher":"Comune di Venezia",
     "Years":1954,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1732.0,
+    "Category":"H"
+},{
+    "Id":1732,
     "Authors":"Marcus Aurelius Antoninus",
     "Title":"Ricordi dell\u2019imperatore Marc\u2019Aurelio Antonino",
     "Cities":"Firenze",
@@ -17330,8 +17329,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":1733.0,
+},{
+    "Id":1733,
     "Authors":"Margueritte, Victor",
     "Title":"Le compagnon",
     "Cities":"Paris  ",
@@ -17340,8 +17339,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1039",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1734.0,
+},{
+    "Id":1734,
     "Authors":"Mariani, Gaetano",
     "Title":"La giovane narrativa italiana tra documento e poesia",
     "Cities":"Firenze ",
@@ -17350,8 +17349,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1735.0,
+},{
+    "Id":1735,
     "Authors":"Mariani, Valerio",
     "Title":"Bartolomeo Pinelli. ",
     "Cities":"Roma",
@@ -17359,9 +17358,9 @@ const jsonData = [
     "Years":1931,
     "Fund":"BTB Segn. 2186-2187",
     "Segni":"Due copie.",
-    "Category":"SA"
-    },{
-    "Id":1736.0,
+    "Category":"HA"
+},{
+    "Id":1736,
     "Authors":"Mariani, Valerio",
     "Title":" Il Caravaggio. ",
     "Cities":"Roma",
@@ -17369,10 +17368,10 @@ const jsonData = [
     "Years":1930,
     "Fund":"BTB Segn. 2185",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1737.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":1737,
+    "Authors":"Not found",
     "Title":"Marianische Gebetbuch.",
     "Cities":"s.l.",
     "Publisher":"s.e.",
@@ -17380,8 +17379,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Segnalibri.",
     "Category":"V"
-    },{
-    "Id":1738.0,
+},{
+    "Id":1738,
     "Authors":"Marin, Biagio",
     "Title":"I delfini di Scipio Slataper",
     "Cities":"Milano ",
@@ -17390,8 +17389,8 @@ const jsonData = [
     "Fund":"BTB Segn. 832",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1739.0,
+},{
+    "Id":1739,
     "Authors":"Marinelli, Giuseppe",
     "Title":"La terra. Trattato popolare di geografia universale. ",
     "Cities":"MilanoNapoli-Bologna-Firenze-RomaTorino",
@@ -17400,8 +17399,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2250-2262",
     "Segni":"Al volume II, pieghe. Al volume IV, nota di possesso autografa di Adele Gadda Lehr. Al volume VII, sottolineature e postille.",
     "Category":"V"
-    },{
-    "Id":1740.0,
+},{
+    "Id":1740,
     "Authors":"Marino, Antonio",
     "Title":"Il meccanico frigorista. Manuale teoricopratico",
     "Cities":"Milano",
@@ -17410,8 +17409,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2038",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1741.0,
+},{
+    "Id":1741,
     "Authors":"Marino, Giambattista",
     "Title":"La strage degli innocenti",
     "Cities":"Roma  ",
@@ -17420,8 +17419,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Nota di possesso di Enrico Gadda Chiantis ottobre 17.",
     "Category":"IL"
-    },{
-    "Id":1742.0,
+},{
+    "Id":1742,
     "Authors":"Martinetti, Piero",
     "Title":"Antologia kantiana",
     "Cities":"Torino-Milano-Firenze-Roma-NapoliPalermo",
@@ -17430,8 +17429,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1957",
     "Segni":"Dedica dell\u2019autore in data 14.11.1925. Nota di possesso autografa in data 14.11.1925 Milano.",
     "Category":"F "
-    },{
-    "Id":1743.0,
+},{
+    "Id":1743,
     "Authors":"Martinetti, Piero",
     "Title":"Antologia platonica",
     "Cities":"Torino-Milano-Firenze-Roma-NapoliPalermo",
@@ -17440,8 +17439,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1958",
     "Segni":null,
     "Category":"F "
-    },{
-    "Id":1744.0,
+},{
+    "Id":1744,
     "Authors":"Martinetti, Piero",
     "Title":"Il compito della filosofia nell\u2019ora presente",
     "Cities":"Milano ",
@@ -17450,8 +17449,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1869",
     "Segni":"Sottolineature.",
     "Category":"F "
-    },{
-    "Id":1745.0,
+},{
+    "Id":1745,
     "Authors":"Martinetti, Piero",
     "Title":"Discorso ufficiale pronunciato al 3\u00b0 convegno tenuto in Castellamonte il 19 settembre 1926 nella Casa della Musica \u00abF. Romana\u00bb.",
     "Cities":"s.l.",
@@ -17460,8 +17459,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 40",
     "Segni":"Dedica dell\u2019autore in data 16.3.1928.",
     "Category":"F "
-    },{
-    "Id":1746.0,
+},{
+    "Id":1746,
     "Authors":"Martinetti, Piero",
     "Title":"Ges\u00f9 Cristo e il cristianesimo",
     "Cities":"Milano ",
@@ -17470,8 +17469,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1873",
     "Segni":null,
     "Category":"F "
-    },{
-    "Id":1747.0,
+},{
+    "Id":1747,
     "Authors":"Martinetti, Piero",
     "Title":"Introduzione alla metafisica",
     "Cities":"Milano",
@@ -17480,8 +17479,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1870",
     "Segni":"Intonso.",
     "Category":"F "
-    },{
-    "Id":1748.0,
+},{
+    "Id":1748,
     "Authors":"Martinetti, Piero",
     "Title":"La libert\u00e0",
     "Cities":"Milano ",
@@ -17490,8 +17489,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1871",
     "Segni":"Intonso.",
     "Category":"F "
-    },{
-    "Id":1749.0,
+},{
+    "Id":1749,
     "Authors":"Martinetti, Piero",
     "Title":"Ragione e fede",
     "Cities":"Milano  ",
@@ -17500,8 +17499,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1875",
     "Segni":null,
     "Category":"F "
-    },{
-    "Id":1750.0,
+},{
+    "Id":1750,
     "Authors":"Martinetti, Piero",
     "Title":"Ragione e fede",
     "Cities":"Torino",
@@ -17510,8 +17509,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1874",
     "Segni":null,
     "Category":"F "
-    },{
-    "Id":1751.0,
+},{
+    "Id":1751,
     "Authors":"Martini, Arturo",
     "Title":"Lettere",
     "Cities":"Treviso  ",
@@ -17520,8 +17519,8 @@ const jsonData = [
     "Fund":"BTB Segn. 517",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":1752.0,
+},{
+    "Id":1752,
     "Authors":"Martini, Ferdinando",
     "Title":"Nell\u2019Africa italiana",
     "Cities":"Milano",
@@ -17530,8 +17529,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2272",
     "Segni":"Nota di possesso autografa in data 1.01.1905. Pieghe.",
     "Category":"G"
-    },{
-    "Id":1753.0,
+},{
+    "Id":1753,
     "Authors":"Martini, Quinto",
     "Title":"I giorni sono lunghi.",
     "Cities":"Milano-Roma  ",
@@ -17540,8 +17539,8 @@ const jsonData = [
     "Fund":"BTB Segn. 519",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":1754.0,
+},{
+    "Id":1754,
     "Authors":"Martini, Quinto",
     "Title":"La pioggia: bassorilievi e disegni di Quinto Martini.",
     "Cities":"Arezzo",
@@ -17550,8 +17549,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2212",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1755.0,
+},{
+    "Id":1755,
     "Authors":"Martini-Zuccagni, Aroldo",
     "Title":"Algebra complementare. ",
     "Cities":"Livorno",
@@ -17560,8 +17559,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2047",
     "Segni":"Nota di possesso autografa di Enrico Gadda in data 3.1917 Centocelle.",
     "Category":"T"
-    },{
-    "Id":1756.0,
+},{
+    "Id":1756,
     "Authors":"Martini-Zuccagni, Aroldo",
     "Title":"Guida pratica per la risoluzione degli esercizi di trigonometria.",
     "Cities":"Livorno",
@@ -17570,8 +17569,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2048",
     "Segni":"Nota di possesso autografa in data 12.1924                Milano. Postille.",
     "Category":"T"
-    },{
-    "Id":1757.0,
+},{
+    "Id":1757,
     "Authors":"Martini-Zuccagni, Aroldo",
     "Title":"Guida pratica per la risoluzione delle equazioni di 1 e 2 grado",
     "Cities":"Livorno",
@@ -17580,8 +17579,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2046",
     "Segni":"Postille.",
     "Category":"T"
-    },{
-    "Id":1758.0,
+},{
+    "Id":1758,
     "Authors":"Marx, Karl",
     "Title":"Il capitale. Critica dell\u2019economia politica. Libro primo, parte prima",
     "Cities":"Roma  ",
@@ -17589,9 +17588,9 @@ const jsonData = [
     "Years":1965,
     "Fund":"BTB Segn. 2012",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1759.0,
+    "Category":"P"
+},{
+    "Id":1759,
     "Authors":"Marziale, Marco Valerio",
     "Title":"Epigrammes. Izaac",
     "Cities":"Paris",
@@ -17600,8 +17599,8 @@ const jsonData = [
     "Fund":"BTB Segn. 103",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":1760.0,
+},{
+    "Id":1760,
     "Authors":"Mascheroni, Lorenzo",
     "Title":"Invito a Lesbia Cidonia ed altre poesie",
     "Cities":"Milano",
@@ -17610,8 +17609,8 @@ const jsonData = [
     "Fund":"BTB Segn. 518",
     "Segni":"Parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":1761.0,
+},{
+    "Id":1761,
     "Authors":"Masi, Ernesto",
     "Title":"Nell\u2019Ottocento. Idee e figure del XIX secolo",
     "Cities":"Milano",
@@ -17619,9 +17618,9 @@ const jsonData = [
     "Years":1941,
     "Fund":"BTB Segn. 1582",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1762.0,
+    "Category":"H"
+},{
+    "Id":1762,
     "Authors":"Masuccio Salernitano (Masuccio Guardati, detto)",
     "Title":"Novelle",
     "Cities":"Roma",
@@ -17630,8 +17629,8 @@ const jsonData = [
     "Fund":"BTB Segn. 520",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":1763.0,
+},{
+    "Id":1763,
     "Authors":"Mathiez, Albert",
     "Title":"Carovita e lotte sociali sotto il Terrore. ",
     "Cities":"Torino",
@@ -17639,9 +17638,9 @@ const jsonData = [
     "Years":1949,
     "Fund":"BTB Segn. 1657",
     "Segni":"Parzialmente intonso.",
-    "Category":"S"
-    },{
-    "Id":1764.0,
+    "Category":"H"
+},{
+    "Id":1764,
     "Authors":"Mathiez, Albert",
     "Title":"La r\u00e9volution fran\u00e7aise",
     "Cities":"Paris  ",
@@ -17649,19 +17648,19 @@ const jsonData = [
     "Years":1946,
     "Fund":"BTB Segn. 1658-1660",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1765.0,
-    "Authors":null,
+    "Category":"H"
+},{
+    "Id":1765,
+    "Authors":"Not found",
     "Title":"Il matrimonio nell\u2019antica Roma.",
     "Cities":"Roma  ",
     "Publisher":"Anonima Romana Editoriale",
     "Years":1935,
     "Fund":"BTB Segn. Op. 6",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1766.0,
+    "Category":"H"
+},{
+    "Id":1766,
     "Authors":"Mattioli, Pietro Antonio",
     "Title":"Compendium de plantis omnibus",
     "Cities":"Venezia",
@@ -17670,8 +17669,8 @@ const jsonData = [
     "Fund":"BTB Segn. Ed. Cinq. 242",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1767.0,
+},{
+    "Id":1767,
     "Authors":"Maupassant, Guy de",
     "Title":"Opere scelte",
     "Cities":"Milano",
@@ -17680,8 +17679,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1041",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1768.0,
+},{
+    "Id":1768,
     "Authors":"Maupassant, Guy de",
     "Title":"Il vagabondo",
     "Cities":"Milano  ",
@@ -17690,8 +17689,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1040",
     "Segni":"Parzialmente intonso.",
     "Category":"FL"
-    },{
-    "Id":1769.0,
+},{
+    "Id":1769,
     "Authors":"Mauriac, Claude",
     "Title":"Proust par lui-m\u00eame",
     "Cities":"Paris",
@@ -17700,8 +17699,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1138",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1770.0,
+},{
+    "Id":1770,
     "Authors":"Mauro, Walter",
     "Title":"Sciascia",
     "Cities":"Firenze  ",
@@ -17710,8 +17709,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1771.0,
+},{
+    "Id":1771,
     "Authors":"Maurois, Andr\u00e9",
     "Title":"A la recherche de Marcel Proust",
     "Cities":"Paris",
@@ -17720,8 +17719,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Due copie.",
     "Category":"FL"
-    },{
-    "Id":1772.0,
+},{
+    "Id":1772,
     "Authors":"Maurois, Andr\u00e9",
     "Title":"Histoire d\u2019Angleterre",
     "Cities":"Paris  ",
@@ -17729,9 +17728,9 @@ const jsonData = [
     "Years":1939,
     "Fund":"BTB Segn. 1719",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1773.0,
+    "Category":"H"
+},{
+    "Id":1773,
     "Authors":"Maurois, Andr\u00e9",
     "Title":"Histoire de la France",
     "Cities":"Paris  ",
@@ -17739,9 +17738,9 @@ const jsonData = [
     "Years":1947,
     "Fund":"BTB Segn. 1661",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1774.0,
+    "Category":"H"
+},{
+    "Id":1774,
     "Authors":"Maurois, Andr\u00e9",
     "Title":"Storia degli Stati Uniti (1492-1946).",
     "Cities":"Milano",
@@ -17749,9 +17748,9 @@ const jsonData = [
     "Years":1953,
     "Fund":"BTB Segn. 1744",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1775.0,
+    "Category":"H"
+},{
+    "Id":1775,
     "Authors":"Mautino, Aldo",
     "Title":"La formazione della filosofia politica di Benedetto Croce",
     "Cities":"Torino  ",
@@ -17759,9 +17758,9 @@ const jsonData = [
     "Years":1941,
     "Fund":"BTB Segn. 1960",
     "Segni":"Intonso.",
-    "Category":"F"
-    },{
-    "Id":1776.0,
+    "Category":"P"
+},{
+    "Id":1776,
     "Authors":"Mazzini, Giuseppe",
     "Title":"Note autobiografiche",
     "Cities":"Firenze  ",
@@ -17770,8 +17769,8 @@ const jsonData = [
     "Fund":"BTB Segn. 521",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":1777.0,
+},{
+    "Id":1777,
     "Authors":"Mazzini, Giuseppe",
     "Title":"Opere",
     "Cities":"Milano-Roma",
@@ -17780,8 +17779,8 @@ const jsonData = [
     "Fund":"BTB Segn. 522-523",
     "Segni":"Intonsi.",
     "Category":"IL"
-    },{
-    "Id":1778.0,
+},{
+    "Id":1778,
     "Authors":"Mazzini, Giuseppe",
     "Title":"Scritti",
     "Cities":"Bologna",
@@ -17790,8 +17789,8 @@ const jsonData = [
     "Fund":"BTB Segn. 524",
     "Segni":"Nota di possesso autografa in data 29.06.1921. Intonso.",
     "Category":"IL"
-    },{
-    "Id":1779.0,
+},{
+    "Id":1779,
     "Authors":"Mazzocchi, Manlio",
     "Title":"Avvolgimenti delle macchine elettriche a corrente continua ed alternata.      Costruzione \u2013 riparazione \u2013 anorma lit\u00e0 \u2013 localizzazione dei guasti",
     "Cities":"Milano",
@@ -17800,8 +17799,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2039",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1780.0,
+},{
+    "Id":1780,
     "Authors":"Mazzucchetti, Lavinia",
     "Title":"Goethe e il cenacolo di Leonardo",
     "Cities":"Milano",
@@ -17809,9 +17808,9 @@ const jsonData = [
     "Years":1939,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1781.0,
+    "Category":"HA"
+},{
+    "Id":1781,
     "Authors":"Mazzucchetti, Lavinia",
     "Title":"La vita di Goethe seguita nell\u2019epistolario",
     "Cities":"Milano  ",
@@ -17819,9 +17818,9 @@ const jsonData = [
     "Years":1942,
     "Fund":"BTB Segn. 1229",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1782.0,
+    "Category":"GL"
+},{
+    "Id":1782,
     "Authors":"Medici, Lorenzo de\u2019",
     "Title":"Le pi\u00f9 belle pagine",
     "Cities":"Milano-Roma  ",
@@ -17830,8 +17829,8 @@ const jsonData = [
     "Fund":"BTB Segn. 525",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1783.0,
+},{
+    "Id":1783,
     "Authors":"Medici, Lorenzo de\u2019",
     "Title":"Poesie",
     "Cities":"Firenze",
@@ -17840,18 +17839,18 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1784.0,
-    "Authors":null,
+},{
+    "Id":1784,
+    "Authors":"Not found",
     "Title":"Il Mediterraneo pittoresco. Descritto da celebri viaggiatori ed illustrato dai migliori artisti",
     "Cities":"Milano",
     "Publisher":"Sonzogno",
     "Years":1892,
     "Fund":"BTB Segn. 2273",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1785.0,
+    "Category":"HA"
+},{
+    "Id":1785,
     "Authors":"Medri, Gualtiero",
     "Title":"Ferrara brevemente illustrata nei suoi principali monumenti",
     "Cities":"Ferrara",
@@ -17859,9 +17858,9 @@ const jsonData = [
     "Years":1953,
     "Fund":"BTB Segn. 2307",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1786.0,
+    "Category":"HA"
+},{
+    "Id":1786,
     "Authors":"Melville, Herman",
     "Title":"Benito Cereno",
     "Cities":"Torino",
@@ -17869,9 +17868,9 @@ const jsonData = [
     "Years":1940,
     "Fund":"BTB Segn. 1280",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":1787.0,
+    "Category":"AL"
+},{
+    "Id":1787,
     "Authors":"Melville, Herman",
     "Title":"Moby Dick o la balena",
     "Cities":"Torino  ",
@@ -17879,9 +17878,9 @@ const jsonData = [
     "Years":1941,
     "Fund":"BTB Segn. 1281",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":1788.0,
+    "Category":"AL"
+},{
+    "Id":1788,
     "Authors":"Melville, Herman",
     "Title":"Pierre o delle ambiguit\u00e0",
     "Cities":"Torino",
@@ -17889,9 +17888,9 @@ const jsonData = [
     "Years":1942,
     "Fund":"BTB Segn. 1282",
     "Segni":"Intonso.",
-    "Category":"EL"
-    },{
-    "Id":1789.0,
+    "Category":"AL"
+},{
+    "Id":1789,
     "Authors":"Melville, Herman",
     "Title":"La storia di Billy Budd",
     "Cities":"Milano  ",
@@ -17899,9 +17898,9 @@ const jsonData = [
     "Years":1942,
     "Fund":"BTB Segn. 1279",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":1790.0,
+    "Category":"AL"
+},{
+    "Id":1790,
     "Authors":"Meneghello, Luigi",
     "Title":"Libera nos a malo",
     "Cities":"Milano  ",
@@ -17910,8 +17909,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1791.0,
+},{
+    "Id":1791,
     "Authors":"Men\u00e9ndez Pidal, Ram\u00f2n",
     "Title":"De Cervantes y Lope de Vega",
     "Cities":"Madrid  ",
@@ -17920,8 +17919,8 @@ const jsonData = [
     "Fund":"BTB Segn. 922",
     "Segni":null,
     "Category":"SL"
-    },{
-    "Id":1792.0,
+},{
+    "Id":1792,
     "Authors":"Meredith, George",
     "Title":"L\u2019egoista.",
     "Cities":"Torino  ",
@@ -17929,9 +17928,9 @@ const jsonData = [
     "Years":1942,
     "Fund":"BTB Segn. 1283",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":1793.0,
+    "Category":"AL"
+},{
+    "Id":1793,
     "Authors":"Merim\u00e9e, Prosper",
     "Title":"Chronique du r\u00e8gne de Charles IX",
     "Cities":"Paris  ",
@@ -17940,8 +17939,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1042",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1794.0,
+},{
+    "Id":1794,
     "Authors":"La Messa nella musica. Dalle",
     "Title":"La Messa nella musica. Dalle origini al nostro tempo. ",
     "Cities":"Torino",
@@ -17949,9 +17948,9 @@ const jsonData = [
     "Years":1950,
     "Fund":"BTB Segn. 1430",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1795.0,
+    "Category":"V"
+},{
+    "Id":1795,
     "Authors":"Messeri, Antonio",
     "Title":"Breve storia moderna",
     "Cities":"Firenze  ",
@@ -17960,8 +17959,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1755-1756",
     "Segni":"Sottolineature.",
     "Category":"IL"
-    },{
-    "Id":1796.0,
+},{
+    "Id":1796,
     "Authors":"Messina, Francesco",
     "Title":"Il Garofano",
     "Cities":"Milano  ",
@@ -17970,8 +17969,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1797.0,
+},{
+    "Id":1797,
     "Authors":"Mestica, Enrico",
     "Title":"Compendio storico della letteratura italiana",
     "Cities":"Livorno",
@@ -17980,8 +17979,8 @@ const jsonData = [
     "Fund":"BTB Segn. 834-836",
     "Segni":"Note di possesso autografe. Parzialmente intonsi.",
     "Category":"IL"
-    },{
-    "Id":1798.0,
+},{
+    "Id":1798,
     "Authors":"Metalious, Grace",
     "Title":"I peccati di Peyton Place",
     "Cities":"Milano  ",
@@ -17989,9 +17988,9 @@ const jsonData = [
     "Years":1958,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":1799.0,
+    "Category":"AL"
+},{
+    "Id":1799,
     "Authors":"Metternich-Winnenburg, Klemens Wenzel Lothar von",
     "Title":"Memorie",
     "Cities":"Torino",
@@ -18000,8 +17999,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1757",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":1800.0,
+},{
+    "Id":1800,
     "Authors":"Meucci, Carlo",
     "Title":"Casanova finanziere",
     "Cities":"Milano  ",
@@ -18010,9 +18009,9 @@ const jsonData = [
     "Fund":"BTB Segn. 837",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1801.0,
-    "Authors":null,
+},{
+    "Id":1801,
+    "Authors":"Not found",
     "Title":"Mezzo secolo (Il progresso scientifico)",
     "Cities":"Torino",
     "Publisher":"ERI",
@@ -18020,9 +18019,9 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 135-36",
     "Segni":"Due copie.",
     "Category":"T"
-    },{
-    "Id":1802.0,
-    "Authors":null,
+},{
+    "Id":1802,
+    "Authors":"Not found",
     "Title":"Mezzo secolo. (Vita pensiero ed arte). ",
     "Cities":"Torino",
     "Publisher":"ERI",
@@ -18030,8 +18029,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 137-39",
     "Segni":"Tre copie.",
     "Category":"T"
-    },{
-    "Id":1803.0,
+},{
+    "Id":1803,
     "Authors":"Michelet, Jules",
     "Title":"Histoire de France",
     "Cities":"Paris  ",
@@ -18039,9 +18038,9 @@ const jsonData = [
     "Years":1869,
     "Fund":"BTB Segn. 1662-1671",
     "Segni":"All\u2019ultimo tomo, postille su segnalibri inseriti.",
-    "Category":"S"
-    },{
-    "Id":1804.0,
+    "Category":"H"
+},{
+    "Id":1804,
     "Authors":"Michelet, Jules",
     "Title":"Histoire de la R\u00e9volution Fran\u00e7aise",
     "Cities":"Paris  ",
@@ -18049,9 +18048,9 @@ const jsonData = [
     "Years":1925,
     "Fund":"BTB Segn. 1672-1681",
     "Segni":"Intonsi i volumi I, II, III, IV, V, VII e X.",
-    "Category":"S"
-    },{
-    "Id":1805.0,
+    "Category":"H"
+},{
+    "Id":1805,
     "Authors":"Michelet, Jules",
     "Title":"Histoire de la R\u00e9volution Fran\u00e7aise",
     "Cities":"Paris",
@@ -18059,9 +18058,9 @@ const jsonData = [
     "Years":1952,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1806.0,
+    "Category":"H"
+},{
+    "Id":1806,
     "Authors":"Migliorini, Bruno",
     "Title":"Che cos\u2019\u00e8 un vocabolario? ",
     "Cities":"Firenze  ",
@@ -18070,8 +18069,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1807.0,
+},{
+    "Id":1807,
     "Authors":"Migliorini, Bruno",
     "Title":"Storia della lingua italiana",
     "Cities":"Firenze",
@@ -18080,8 +18079,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1808.0,
+},{
+    "Id":1808,
     "Authors":"Milani, Milena",
     "Title":"La ragazza di nome Giulio",
     "Cities":"Milano ",
@@ -18090,9 +18089,9 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica autografa dell\u2019autrice in data 9.6.1964. Disegni.",
     "Category":"IL"
-    },{
-    "Id":1809.0,
-    "Authors":null,
+},{
+    "Id":1809,
+    "Authors":"Not found",
     "Title":"Milano.",
     "Cities":"Milano  ",
     "Publisher":"Ripalta",
@@ -18100,9 +18099,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2377",
     "Segni":null,
     "Category":"G "
-    },{
-    "Id":1810.0,
-    "Authors":null,
+},{
+    "Id":1810,
+    "Authors":"Not found",
     "Title":"Milano",
     "Cities":"Milano",
     "Publisher":"Ottino",
@@ -18110,9 +18109,9 @@ const jsonData = [
     "Fund":"BTB Segn. 1535",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":1811.0,
-    "Authors":null,
+},{
+    "Id":1811,
+    "Authors":"Not found",
     "Title":"Milano en 1906",
     "Cities":"Milano",
     "Publisher":"Tip. U. Allegretti",
@@ -18120,9 +18119,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2384",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":1812.0,
-    "Authors":null,
+},{
+    "Id":1812,
+    "Authors":"Not found",
     "Title":"Milano nel 1906",
     "Cities":"Milano",
     "Publisher":"Tip. U. Allegretti",
@@ -18130,9 +18129,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2385",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":1813.0,
-    "Authors":null,
+},{
+    "Id":1813,
+    "Authors":"Not found",
     "Title":"Milano, i secoli e una nostalgia. Appunti iconografici, storici e letterari.",
     "Cities":"Milano",
     "Publisher":"Fiera di Milano",
@@ -18140,9 +18139,9 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 105",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":1814.0,
-    "Authors":null,
+},{
+    "Id":1814,
+    "Authors":"Not found",
     "Title":"Milano presente e avvenire.",
     "Cities":"Milano-Roma-Napoli",
     "Publisher":"Vallardi",
@@ -18150,8 +18149,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 69",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":1815.0,
+},{
+    "Id":1815,
     "Authors":"Milano, Paolo",
     "Title":"Il lettore di professione",
     "Cities":"Milano  ",
@@ -18160,18 +18159,18 @@ const jsonData = [
     "Fund":"BTB Segn. 838",
     "Segni":"Dedica dell\u2019autore in data 1962.",
     "Category":"IL"
-    },{
-    "Id":1816.0,
-    "Authors":null,
+},{
+    "Id":1816,
+    "Authors":"Not found",
     "Title":"Il Milione: enciclopedia di geografia, usi e costumi, belle arti, storia, cultura; volume nono Asia: Vietnam, Malesia, Singapore; Arcipelago Indonesiano, Indonesia, Borneo, Timor, Filippine; Arcipelago Giapponese, Giappone, Ryukyu, Bonin, Volcano; Asia",
     "Cities":"Novara  ",
     "Publisher":"Istituto geografico De Agostini",
     "Years":1962,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1817.0,
+    "Category":"G"
+},{
+    "Id":1817,
     "Authors":"Miller, Henry",
     "Title":"Tropico del Cancro. Tropico del Capricorno",
     "Cities":"Milano",
@@ -18179,9 +18178,9 @@ const jsonData = [
     "Years":1962,
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore in data 5.1962.",
-    "Category":"EL"
-    },{
-    "Id":1818.0,
+    "Category":"AL"
+},{
+    "Id":1818,
     "Authors":"Millhouse, John",
     "Title":"Corso graduato e completo di lingua inglese, parte II",
     "Cities":"Milano  ",
@@ -18190,8 +18189,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Postille.",
     "Category":"GR"
-    },{
-    "Id":1819.0,
+},{
+    "Id":1819,
     "Authors":"Milton, John",
     "Title":"Il paradiso perduto",
     "Cities":"Milano  ",
@@ -18199,9 +18198,9 @@ const jsonData = [
     "Years":1881,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":1820.0,
+    "Category":"AL"
+},{
+    "Id":1820,
     "Authors":"Miolati, Arturo",
     "Title":"L\u2019ammoniaca sintetica ed il processoCasale. Redazione ampliata di una conferenza tenuta il 17 febbraio 1927all\u2019Istituto di chimica della scuola Politecnica di Praga",
     "Cities":"Roma",
@@ -18210,8 +18209,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 41-42",
     "Segni":"Due copie.",
     "Category":"T"
-    },{
-    "Id":1821.0,
+},{
+    "Id":1821,
     "Authors":"Mirskij, Dmitrij Petrovi\u010d Svjatopolk",
     "Title":"Storia della letteratura russa",
     "Cities":"Milano  ",
@@ -18220,9 +18219,9 @@ const jsonData = [
     "Fund":"BTB Segn. 1401",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":1822.0,
-    "Authors":null,
+},{
+    "Id":1822,
+    "Authors":"Not found",
     "Title":"Miscellanea di studi in onore di Bonaventura Tecchi",
     "Cities":"Roma  ",
     "Publisher":"Edizioni dell\u2019Ateneo",
@@ -18230,9 +18229,9 @@ const jsonData = [
     "Fund":"BTB Segn. 1230-1231",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1823.0,
-    "Authors":null,
+},{
+    "Id":1823,
+    "Authors":"Not found",
     "Title":"Mistici del Duecento e Trecento.",
     "Cities":"Milano-Roma  ",
     "Publisher":"Rizzoli",
@@ -18240,8 +18239,8 @@ const jsonData = [
     "Fund":"BTB Segn. 526",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1824.0,
+},{
+    "Id":1824,
     "Authors":"Mitford, Nancy",
     "Title":"Madame de Pompadour (1721- 64).",
     "Cities":"Milano",
@@ -18249,9 +18248,9 @@ const jsonData = [
     "Years":1955,
     "Fund":"BTB Segn. 1682",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":1825.0,
+    "Category":"AL"
+},{
+    "Id":1825,
     "Authors":"Modorati, Luigi",
     "Title":"L\u2019Arengario. ",
     "Cities":"Monza",
@@ -18260,8 +18259,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2386",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1826.0,
+},{
+    "Id":1826,
     "Authors":"Modorati, Luigi",
     "Title":" Descrizione storica della basilica di S. Giovanni Battista in Monza. ",
     "Cities":"Monza",
@@ -18269,9 +18268,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BTB Segn. 2387",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1827.0,
+    "Category":"HA"
+},{
+    "Id":1827,
     "Authors":"Moli\u00e8re (Jean-Baptiste Poquelin, detto)",
     "Title":"\u0152uvres completes de Moli\u00e8re",
     "Cities":"Paris",
@@ -18280,8 +18279,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1828.0,
+},{
+    "Id":1828,
     "Authors":"Moli\u00e8re (Jean-Baptiste Poquelin, detto)",
     "Title":"Th\u00e9\u00e2tre",
     "Cities":"Paris",
@@ -18290,8 +18289,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1043-1047",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1829.0,
+},{
+    "Id":1829,
     "Authors":"Momigliano, Arnaldo",
     "Title":"L\u2019opera dell\u2019imperatore Claudio",
     "Cities":"Firenze",
@@ -18299,9 +18298,9 @@ const jsonData = [
     "Years":1932,
     "Fund":"BTB Segn. 1470",
     "Segni":"Pieghe.",
-    "Category":"S"
-    },{
-    "Id":1830.0,
+    "Category":"H"
+},{
+    "Id":1830,
     "Authors":"Momigliano, Attilio",
     "Title":"Carlo Porta",
     "Cities":"Roma",
@@ -18310,8 +18309,8 @@ const jsonData = [
     "Fund":"BTB Segn. 839",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1831.0,
+},{
+    "Id":1831,
     "Authors":"Momigliano, Attilio",
     "Title":"Storia della letteratura italiana",
     "Cities":"Messina-Milano",
@@ -18320,8 +18319,8 @@ const jsonData = [
     "Fund":"BTB Segn. 840",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1832.0,
+},{
+    "Id":1832,
     "Authors":"Mommsen, Theodor",
     "Title":"Storia di Roma. ",
     "Cities":"Roma",
@@ -18329,9 +18328,9 @@ const jsonData = [
     "Years":1936,
     "Fund":"BTB Segn. 1471-1478",
     "Segni":"Volumi II e IV, intonsi; volume III parzial mente intonso.",
-    "Category":"S"
-    },{
-    "Id":1833.0,
+    "Category":"H"
+},{
+    "Id":1833,
     "Authors":"Monaco, Domenico",
     "Title":"Guida alle antichit\u00e0 del Museo Nazionale di Napoli",
     "Cities":"Napoli  ",
@@ -18339,9 +18338,9 @@ const jsonData = [
     "Years":1915,
     "Fund":"BTB Segn. 2292",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1834.0,
+    "Category":"HA"
+},{
+    "Id":1834,
     "Authors":"Monchablon, E. J.",
     "Title":" Dizionario compendiato di antichit\u00e0 per maggiore intelligenza dell\u2019istoria antica, sacra e profana, e dei classici greci e latini",
     "Cities":"Firenze",
@@ -18350,8 +18349,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Nota di possesso di Adele Gadda Lehr.",
     "Category":"D"
-    },{
-    "Id":1835.0,
+},{
+    "Id":1835,
     "Authors":"Mondini, Maria",
     "Title":"Frammenti relativi ad una divisione ereditaria",
     "Cities":"Milano",
@@ -18359,9 +18358,9 @@ const jsonData = [
     "Years":1915,
     "Fund":"BTB Segn. Op. 27",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1836.0,
+    "Category":"IL"
+},{
+    "Id":1836,
     "Authors":"Mondini, Maria",
     "Title":"Lettere femminili nei papiri grecoegizi.",
     "Cities":"Milano",
@@ -18370,8 +18369,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 44",
     "Segni":"Parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":1837.0,
+},{
+    "Id":1837,
     "Authors":"Monelli, Paolo",
     "Title":"Mussolini piccolo borghese",
     "Cities":"Milano",
@@ -18379,9 +18378,9 @@ const jsonData = [
     "Years":1950,
     "Fund":"BTB Segn. 1536",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1838.0,
+    "Category":"H"
+},{
+    "Id":1838,
     "Authors":"Monelli, Paolo",
     "Title":"Mussolini piccolo borghese",
     "Cities":"Milano",
@@ -18389,9 +18388,9 @@ const jsonData = [
     "Years":1968,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1839.0,
+    "Category":"H"
+},{
+    "Id":1839,
     "Authors":"Monelli, Paolo",
     "Title":"Roma 1943",
     "Cities":"Roma",
@@ -18399,9 +18398,9 @@ const jsonData = [
     "Years":1945,
     "Fund":"BTB Segn. 1537",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1840.0,
+    "Category":"H"
+},{
+    "Id":1840,
     "Authors":"Mongr\u00e9dien, Georges",
     "Title":"La vie priv\u00e9e de Louis XIV",
     "Cities":"Paris",
@@ -18409,9 +18408,9 @@ const jsonData = [
     "Years":1958,
     "Fund":"BTB Segn. 1683",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1841.0,
+    "Category":"H"
+},{
+    "Id":1841,
     "Authors":"Mongr\u00e9dien, Georges",
     "Title":"La vie quotidienne sous Louis XIV",
     "Cities":"Paris",
@@ -18419,19 +18418,19 @@ const jsonData = [
     "Years":1938,
     "Fund":"BTB Segn. 1684",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1842.0,
-    "Authors":null,
+    "Category":"H"
+},{
+    "Id":1842,
+    "Authors":"Not found",
     "Title":"Monografia storica dei porti dell\u2019antichit\u00e0 nella penisola italiana. Introduzione di A.G. Barrili",
     "Cities":"Roma  ",
     "Publisher":"Ministero della Marina",
     "Years":1905,
     "Fund":"BTB Segn. 2270",
     "Segni":"Parzialmente intonso.",
-    "Category":"S"
-    },{
-    "Id":1843.0,
+    "Category":"H"
+},{
+    "Id":1843,
     "Authors":"Montaigne, Michel Eyquem de",
     "Title":"Essais",
     "Cities":"Paris",
@@ -18440,8 +18439,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1844.0,
+},{
+    "Id":1844,
     "Authors":"Montaigne, Michel Eyquem de",
     "Title":"Journal de voyage en Italie en 1580 et 1581 par la Suisse et l\u2019Allemagne.",
     "Cities":"Paris",
@@ -18450,8 +18449,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1845.0,
+},{
+    "Id":1845,
     "Authors":"Montaigne, Michel Eyquem",
     "Title":"Viaggio in Italia (1580-1581)",
     "Cities":"Milano",
@@ -18459,9 +18458,9 @@ const jsonData = [
     "Years":1942,
     "Fund":"BTB Segn. 1048",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1846.0,
+    "Category":"H"
+},{
+    "Id":1846,
     "Authors":"Montale, Eugenio",
     "Title":"Auto da f\u00e9",
     "Cities":"Milano",
@@ -18470,8 +18469,8 @@ const jsonData = [
     "Fund":"BTB Segn. 841",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1847.0,
+},{
+    "Id":1847,
     "Authors":"Montale, Eugenio",
     "Title":"La bufera e altro",
     "Cities":"Venezia  ",
@@ -18480,8 +18479,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1848.0,
+},{
+    "Id":1848,
     "Authors":"Montale, Eugenio",
     "Title":"La casa dei doganieri e altri versi",
     "Cities":"Firenze",
@@ -18490,8 +18489,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1849.0,
+},{
+    "Id":1849,
     "Authors":"Montale, Eugenio",
     "Title":"Choix de po\u00e8mes. Avalle e S. Hotelier",
     "Cities":"Gen\u00e8ve",
@@ -18500,8 +18499,8 @@ const jsonData = [
     "Fund":"BTB Segn. 527",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1850.0,
+},{
+    "Id":1850,
     "Authors":"Montale, Eugenio",
     "Title":"Farfalla di Dinard",
     "Cities":"Venezia  ",
@@ -18510,8 +18509,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1851.0,
+},{
+    "Id":1851,
     "Authors":"Montale, Eugenio",
     "Title":"Farfalla di Dinard. ",
     "Cities":"Milano",
@@ -18520,8 +18519,8 @@ const jsonData = [
     "Fund":"BTB Segn. 528",
     "Segni":"Dedica dell\u2019autore in data 10.1942.",
     "Category":"IL"
-    },{
-    "Id":1852.0,
+},{
+    "Id":1852,
     "Authors":"Montale, Eugenio",
     "Title":"Finisterre.",
     "Cities":"Firenze",
@@ -18530,8 +18529,8 @@ const jsonData = [
     "Fund":null,
     "Segni":"Dedica dell\u2019autore in data 25.06.1945",
     "Category":"IL"
-    },{
-    "Id":1853.0,
+},{
+    "Id":1853,
     "Authors":"Montale, Eugenio",
     "Title":"Le occasioni",
     "Cities":"Torino",
@@ -18540,8 +18539,8 @@ const jsonData = [
     "Fund":null,
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":1854.0,
+},{
+    "Id":1854,
     "Authors":"Montale, Eugenio",
     "Title":"Le occasioni",
     "Cities":"Torino",
@@ -18550,8 +18549,8 @@ const jsonData = [
     "Fund":"BTB Segn. 529",
     "Segni":"Dedica dell\u2019autore in data 10.1942",
     "Category":"IL"
-    },{
-    "Id":1855.0,
+},{
+    "Id":1855,
     "Authors":"Montale, Eugenio",
     "Title":"Ossi di seppia. ",
     "Cities":"Torino",
@@ -18560,8 +18559,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1856.0,
+},{
+    "Id":1856,
     "Authors":"Montale, Eugenio",
     "Title":"Xenia 1964-1968",
     "Cities":"s.l.",
@@ -18570,8 +18569,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1857.0,
+},{
+    "Id":1857,
     "Authors":"Montalenti, Giuseppe",
     "Title":"L\u2019evoluzione",
     "Cities":"Torino",
@@ -18580,8 +18579,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2080",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1858.0,
+},{
+    "Id":1858,
     "Authors":"Montesquieu, Charles-Louis de Secondat",
     "Title":"Consid\u00e9rations sur les causes de la grandeur romaine",
     "Cities":"Paris",
@@ -18590,8 +18589,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1049",
     "Segni":"Nota di possesso autografa di Adele Gadda           Lehr. Sottolineature.",
     "Category":"F "
-    },{
-    "Id":1859.0,
+},{
+    "Id":1859,
     "Authors":"Montesquieu, Charles-Louis de Secondat",
     "Title":"De l\u2019esprit des lois",
     "Cities":"Paris  ",
@@ -18600,8 +18599,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1051-1052",
     "Segni":"Pieghe, sottolineature e postille.",
     "Category":"F "
-    },{
-    "Id":1860.0,
+},{
+    "Id":1860,
     "Authors":"Montesquieu, Charles-Louis de Secondat",
     "Title":"Lettere persiane",
     "Cities":"Milano",
@@ -18610,8 +18609,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1050",
     "Segni":null,
     "Category":"F "
-    },{
-    "Id":1861.0,
+},{
+    "Id":1861,
     "Authors":"Montesquieu, Charles-Louis de Secondat",
     "Title":" Lettres persanes. ",
     "Cities":"Paris",
@@ -18620,8 +18619,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1053",
     "Segni":"Sottolineature e postille.",
     "Category":"F "
-    },{
-    "Id":1862.0,
+},{
+    "Id":1862,
     "Authors":"Montesquieu, Charles-Louis de Secondat",
     "Title":"\u0152uvres completes",
     "Cities":"Paris  ",
@@ -18630,8 +18629,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Foglietto inserito.",
     "Category":"FL"
-    },{
-    "Id":1863.0,
+},{
+    "Id":1863,
     "Authors":"Montesquieu, Charles-Louis de Secondat",
     "Title":"Riflessioni e pensieri inediti",
     "Cities":"Torino",
@@ -18639,9 +18638,9 @@ const jsonData = [
     "Years":1943,
     "Fund":"BTB Segn. 1876",
     "Segni":"Intonso.",
-    "Category":"F"
-    },{
-    "Id":1864.0,
+    "Category":"P"
+},{
+    "Id":1864,
     "Authors":"Monteverdi, Angelo",
     "Title":"Testi volgari italiani dei primi tempi. ",
     "Cities":"Modena",
@@ -18650,8 +18649,8 @@ const jsonData = [
     "Fund":"BTB Segn. 842",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1865.0,
+},{
+    "Id":1865,
     "Authors":"Montgomery, Florence",
     "Title":"Incompreso",
     "Cities":"Milano",
@@ -18659,9 +18658,9 @@ const jsonData = [
     "Years":1959,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":1866.0,
+    "Category":"AL"
+},{
+    "Id":1866,
     "Authors":"Monti, Vincenzo",
     "Title":"In morte di Lorenzo Mascheroni: aggiuntovi l\u2019invito a Lesbia",
     "Cities":"Roma",
@@ -18670,8 +18669,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Timbro di possesso di Enrico Gadda.",
     "Category":"IL"
-    },{
-    "Id":1867.0,
+},{
+    "Id":1867,
     "Authors":"Monti, Vincenzo",
     "Title":"Opere. ",
     "Cities":"Milano-Napoli  ",
@@ -18680,8 +18679,8 @@ const jsonData = [
     "Fund":"BTB Segn. 531",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1868.0,
+},{
+    "Id":1868,
     "Authors":"Mor, Nando",
     "Title":"Il balcone di pietra",
     "Cities":"Roma-Lanciano   ",
@@ -18690,8 +18689,8 @@ const jsonData = [
     "Fund":"BTB Segn. 530",
     "Segni":"Dedica dell\u2019autore in data 7.1953.",
     "Category":"IL"
-    },{
-    "Id":1869.0,
+},{
+    "Id":1869,
     "Authors":"Morand, Paul",
     "Title":1900,
     "Cities":"Parigi",
@@ -18700,8 +18699,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Sottolineature.",
     "Category":"FL"
-    },{
-    "Id":1870.0,
+},{
+    "Id":1870,
     "Authors":"Morandi, Carlo",
     "Title":"Come nacque e come fin\u00ec la seconda guerra europea",
     "Cities":"Firenze ",
@@ -18709,9 +18708,9 @@ const jsonData = [
     "Years":1945,
     "Fund":"BTB Segn. 1758",
     "Segni":"Dedica dell\u2019autore.",
-    "Category":"S"
-    },{
-    "Id":1871.0,
+    "Category":"H"
+},{
+    "Id":1871,
     "Authors":"Morandi, Carlo",
     "Title":"La sinistra al potere e altri saggi",
     "Cities":"Fi renze",
@@ -18719,9 +18718,9 @@ const jsonData = [
     "Years":1944,
     "Fund":"BTB Segn. 1538",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1872.0,
+    "Category":"H"
+},{
+    "Id":1872,
     "Authors":"Moravia, Alberto",
     "Title":"Il conformista",
     "Cities":"Milano",
@@ -18730,8 +18729,8 @@ const jsonData = [
     "Fund":"BTB Segn. 532",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1873.0,
+},{
+    "Id":1873,
     "Authors":"Moravia, Alberto",
     "Title":"L\u2019epidemia",
     "Cities":"Roma",
@@ -18740,8 +18739,8 @@ const jsonData = [
     "Fund":"BTB Segn. 533",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":1874.0,
+},{
+    "Id":1874,
     "Authors":"Moravia, Alberto",
     "Title":"La noia",
     "Cities":"Milano",
@@ -18750,8 +18749,8 @@ const jsonData = [
     "Fund":"BTB Segn. 534",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1875.0,
+},{
+    "Id":1875,
     "Authors":"Moravia, Alberto",
     "Title":"La speranza ossia cristianesimo e comunismo",
     "Cities":"Roma  ",
@@ -18760,8 +18759,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1876.0,
+},{
+    "Id":1876,
     "Authors":"More, Thomas",
     "Title":"L\u2019utopia",
     "Cities":"Bari",
@@ -18769,9 +18768,9 @@ const jsonData = [
     "Years":1942,
     "Fund":"BTB Segn. 1868",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":1877.0,
+    "Category":"AL"
+},{
+    "Id":1877,
     "Authors":"Morelli, Ettore",
     "Title":"Costruzioni elettromeccaniche",
     "Cities":"Torino",
@@ -18780,8 +18779,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Nota di possesso autografa Carlo Emilio Gadda Milano 25 maggio 1920.",
     "Category":"T"
-    },{
-    "Id":1878.0,
+},{
+    "Id":1878,
     "Authors":"Morgan, Thomas Hunt",
     "Title":"Embriologia e genetica",
     "Cities":"Torino",
@@ -18790,8 +18789,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2126",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1879.0,
+},{
+    "Id":1879,
     "Authors":"Morgana, Adalberto",
     "Title":"Storia della pedagogia. ",
     "Cities":"Milano",
@@ -18799,9 +18798,9 @@ const jsonData = [
     "Years":1912,
     "Fund":"BTB Segn. 2040",
     "Segni":"Nota di possesso autografa in data 18.05.1924 Milano.",
-    "Category":"F"
-    },{
-    "Id":1880.0,
+    "Category":"P"
+},{
+    "Id":1880,
     "Authors":"Morin, Arthur",
     "Title":"Lezioni di meccanica pratica (resistenza dei materiali)",
     "Cities":"Milano",
@@ -18810,8 +18809,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2138",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1881.0,
+},{
+    "Id":1881,
     "Authors":"Mornet, Daniel",
     "Title":"La pens\u00e9e fran\u00e7aise au XVIIIe si\u00e8cle",
     "Cities":"Paris",
@@ -18820,8 +18819,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1961",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":1882.0,
+},{
+    "Id":1882,
     "Authors":"Morra, Umberto",
     "Title":"Il messaggio di Piero Gobetti",
     "Cities":"Roma",
@@ -18830,8 +18829,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 45",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1883.0,
+},{
+    "Id":1883,
     "Authors":"Moscardelli, Nicola",
     "Title":"Vita di Dostojewski tratta dalle sue lettere e da ricordi di testimoni",
     "Cities":"Milano",
@@ -18839,9 +18838,9 @@ const jsonData = [
     "Years":1936,
     "Fund":"BTB Segn. 1402",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1884.0,
+    "Category":"RL"
+},{
+    "Id":1884,
     "Authors":"Mosso, Angelo",
     "Title":"La fatica",
     "Cities":"Milano",
@@ -18850,158 +18849,158 @@ const jsonData = [
     "Fund":null,
     "Segni":"Nota di possesso in data 1925.",
     "Category":"IL"
-    },{
-    "Id":1885.0,
-    "Authors":null,
+},{
+    "Id":1885,
+    "Authors":"Not found",
     "Title":"Mostra colombiana internazionale. Catalogo (1950-1951).",
     "Cities":"Genova",
     "Publisher":"Societ\u00e0 d\u2019Arte Poligrafica",
     "Years":1950,
     "Fund":"BTB Segn. 2344",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1886.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":1886,
+    "Authors":"Not found",
     "Title":"Mostra del Caravaggio e dei Caravaggeschi. Milano, Palazzo Reale aprile\/giugno 1951. Catalogo",
     "Cities":"Firenze",
     "Publisher":"Sansoni",
     "Years":1951,
     "Fund":"BTB Segn. 2231",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1887.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":1887,
+    "Authors":"Not found",
     "Title":"Mostra del giardino italiano. Comune di Firenze. Palazzo Vecchio",
     "Cities":"Firenze",
     "Publisher":"Comune di Firenze",
     "Years":"s.d.",
     "Fund":"BTB Segn. 2342",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1888.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":1888,
+    "Authors":"Not found",
     "Title":"La mostra del Tintoretto. Venezia Ca\u2019 Pesaro 1937 XV. Catalogo",
     "Cities":"Venezia",
     "Publisher":"Off. Grafiche Ferrar",
     "Years":1937,
     "Fund":"BTB Segn. 2233",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1889.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":1889,
+    "Authors":"Not found",
     "Title":"Mostra della biblioteca di Lorenzo nella Biblioteca MediceoLaurenziana:",
     "Cities":"Firenze  L\u2019Arte della Stampa",
     "Publisher":"L\u2019Arte della Stampa",
     "Years":1949,
     "Fund":"BTB Segn. 2388",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1890.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":1890,
+    "Authors":"Not found",
     "Title":"Mostra della pittura italiana del Sei e Settecento in Palazzo Pitti. Catalogo",
     "Cities":"Roma-Milano-Firenze",
     "Publisher":"Bestetti&Tumminelli",
     "Years":1922,
     "Fund":"BTB Segn. 2213",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1891.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":1891,
+    "Authors":"Not found",
     "Title":"Mostra di capolavori della pittura francese dell\u2019Ottocento. Febbraio-marzo 1955. Palazzo delle esposizioni",
     "Cities":"Roma",
     "Publisher":"De Luca",
     "Years":1955,
     "Fund":"BTB Segn. 2222",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1892.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":1892,
+    "Authors":"Not found",
     "Title":"Mostra di Giovanni Bellini. Catalogo illustrato della mostra. Palazzo Ducale Venezia 12 giugno-5 ottobre 1949",
     "Cities":"Venezia",
     "Publisher":"Alfieri",
     "Years":1949,
     "Fund":"BTB Segn. 2218",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1893.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":1893,
+    "Authors":"Not found",
     "Title":"Mostra di Leonardo da Vinci, Milano, Palazzo dell\u2019arte 9 maggio-1 ottobre XVII: guida ufficiale",
     "Cities":"Milano",
     "Publisher":"S.A.M.E.",
     "Years":1939,
     "Fund":"BAL",
     "Segni":"Due copie. Postille.",
-    "Category":"SA"
-    },{
-    "Id":1894.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":1894,
+    "Authors":"Not found",
     "Title":"Mostra di Lorenzo Lotto.",
     "Cities":"Venezia  ",
     "Publisher":"Casa editrice Arte Veneta",
     "Years":1953,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1895.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":1895,
+    "Authors":"Not found",
     "Title":"Mostra di Paolo Veronese. Catalogo delle opere",
     "Cities":"Venezia ",
     "Publisher":"Ca\u2019 Giustinian",
     "Years":1939,
     "Fund":"BTB Segn. 2247",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1896.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":1896,
+    "Authors":"Not found",
     "Title":"Mostra di pittura americana del XIX secolo. Galleria Nazionale d\u2019Arte Moderna Roma, 19 gennaio-7 gennaio 1954",
     "Cities":"Roma",
     "Publisher":"De Luca",
     "Years":1954,
     "Fund":"BTB Segn. 2239",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1897.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":1897,
+    "Authors":"Not found",
     "Title":"Mostra di Tiziano. Catalogo delleopere. Venezia XXV aprile-IV novembre MCMXXXVXIII",
     "Cities":"Venezia",
     "Publisher":"Off. Grafiche Ferrari",
     "Years":1935,
     "Fund":"BTB Segn. 2234",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1898.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":1898,
+    "Authors":"Not found",
     "Title":"Mostra personale del pittore Giu seppe Cesetti",
     "Cities":"Firenze  ",
     "Publisher":"Galleria Donatello",
     "Years":1950,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1899.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":1899,
+    "Authors":"Not found",
     "Title":"Mostra personale di Pio Semeghini Circolo artistico di Cortina d\u2019Ampezzo",
     "Cities":"Venezia",
     "Publisher":"Neri Pozza",
     "Years":1951,
     "Fund":null,
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1900.0,
+    "Category":"HA"
+},{
+    "Id":1900,
     "Authors":"Motta, Giacinto",
     "Title":"Acqua, carbone, elettricit\u00e0: discorso pronunciato alla XX riunione della Societ\u00e0 Italiana per il progresso delle scienze (Milano, 18 settembre",
     "Cities":"Milano",
@@ -19010,8 +19009,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 96",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1901.0,
+},{
+    "Id":1901,
     "Authors":"M\u00fcller, Otto",
     "Title":"Tavole di logaritmi con cinque decimali",
     "Cities":"Milano  ",
@@ -19020,8 +19019,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2020",
     "Segni":"Nota di possesso autografa in data 1.11.1924 Milano.",
     "Category":"T"
-    },{
-    "Id":1902.0,
+},{
+    "Id":1902,
     "Authors":"Muratori, Ludovico Antonio",
     "Title":"Annali d\u2019Italia ed altre opere varie",
     "Cities":"Milano",
@@ -19029,9 +19028,9 @@ const jsonData = [
     "Years":1837,
     "Fund":"BTB Segn. 535-539",
     "Segni":"Volume I parzialmente intonso; volume V             intonso.",
-    "Category":"S"
-    },{
-    "Id":1903.0,
+    "Category":"H"
+},{
+    "Id":1903,
     "Authors":"Murry, John Middleton",
     "Title":"Shakespeare",
     "Cities":"Torino",
@@ -19039,9 +19038,9 @@ const jsonData = [
     "Years":1963,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":1904.0,
+    "Category":"AL"
+},{
+    "Id":1904,
     "Authors":"Muscetta, Carlo",
     "Title":"Cultura e poesia di Giuseppe Gioa chino Belli",
     "Cities":"Milano  ",
@@ -19050,38 +19049,38 @@ const jsonData = [
     "Fund":"BTB Segn. 843",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1905.0,
-    "Authors":null,
+},{
+    "Id":1905,
+    "Authors":"Not found",
     "Title":"Museo del Prado: catalogo de los cuadros.",
     "Cities":"Madrid  ",
     "Publisher":"Publicaciones del Museo del  Prado",
     "Years":1952,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1906.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":1906,
+    "Authors":"Not found",
     "Title":"Il Museo di Mosca. ",
     "Cities":"Milano",
     "Publisher":"Garzanti",
     "Years":1963,
     "Fund":"BTB Segn. 2274",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1907.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":1907,
+    "Authors":"Not found",
     "Title":"La musica nel 20\u00b0 secolo: convegno internazionale di musica contemporanea. Roma, 4-14 aprile 1954",
     "Cities":"Torino",
     "Publisher":"ERI",
     "Years":1954,
     "Fund":"BTB Segn. 1432",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1908.0,
+    "Category":"HA"
+},{
+    "Id":1908,
     "Authors":"Musset, Alfred de",
     "Title":"La confession d\u2019un enfant du si\u00e8cle",
     "Cities":"Paris",
@@ -19090,8 +19089,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1054",
     "Segni":"Nota di possesso autografa di Enrico Gadda in data 9.1917. Sottolineature e postille.",
     "Category":"FL"
-    },{
-    "Id":1909.0,
+},{
+    "Id":1909,
     "Authors":"Mussolini, Benito",
     "Title":"Gli accordi del Laterano. Discorsi al Parlamento",
     "Cities":"Roma  ",
@@ -19100,8 +19099,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1539",
     "Segni":"Nota di possesso autografa in data 07.1929.  ",
     "Category":"IL"
-    },{
-    "Id":1910.0,
+},{
+    "Id":1910,
     "Authors":"Nabokov, Vladimir",
     "Title":"Lolita",
     "Cities":"Paris",
@@ -19109,10 +19108,10 @@ const jsonData = [
     "Years":1959,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":1911.0,
-    "Authors":null,
+    "Category":"AL"
+},{
+    "Id":1911,
+    "Authors":"Not found",
     "Title":"Narratori spagnoli. Raccolta di romanzi e racconti dalle origini ai nostri giorni",
     "Cities":"Milano",
     "Publisher":"Bompiani",
@@ -19120,9 +19119,9 @@ const jsonData = [
     "Fund":"BTM",
     "Segni":"Sottolineature e postille.",
     "Category":"SL"
-    },{
-    "Id":1912.0,
-    "Authors":null,
+},{
+    "Id":1912,
+    "Authors":"Not found",
     "Title":"Natura facit saltus",
     "Cities":"Torino",
     "Publisher":"ERI",
@@ -19130,9 +19129,9 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":1913.0,
-    "Authors":null,
+},{
+    "Id":1913,
+    "Authors":"Not found",
     "Title":"Neera.",
     "Cities":"Milano",
     "Publisher":"Garzanti",
@@ -19140,8 +19139,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":1914.0,
+},{
+    "Id":1914,
     "Authors":"Negri, Gaetano",
     "Title":"L\u2019imperatore Giuliano l\u2019Apostata",
     "Cities":"Milano",
@@ -19149,9 +19148,9 @@ const jsonData = [
     "Years":1902,
     "Fund":"BTB Segn. 1479",
     "Segni":"Nota di possesso autografa di Adele Gadda Lehr.",
-    "Category":"S"
-    },{
-    "Id":1915.0,
+    "Category":"H"
+},{
+    "Id":1915,
     "Authors":"Negri, Gaetano",
     "Title":" Segni dei tempi. Profili e bozzetti letterari. ",
     "Cities":"Milano",
@@ -19159,9 +19158,9 @@ const jsonData = [
     "Years":1909,
     "Fund":"BTB Segn. 844",
     "Segni":"Intonso.",
-    "Category":"L"
-    },{
-    "Id":1916.0,
+    "Category":"IL"
+},{
+    "Id":1916,
     "Authors":"Negro, Silvio",
     "Title":"Seconda Roma ",
     "Cities":"Milano",
@@ -19169,9 +19168,9 @@ const jsonData = [
     "Years":1943,
     "Fund":"BTB Segn. 540",
     "Segni":"Parzialmente intonso.",
-    "Category":"S"
-    },{
-    "Id":1917.0,
+    "Category":"H"
+},{
+    "Id":1917,
     "Authors":"Negro, Silvio",
     "Title":"Vaticano minore",
     "Cities":"Milano",
@@ -19179,9 +19178,9 @@ const jsonData = [
     "Years":1937,
     "Fund":"BTB Segn. 541",
     "Segni":"Dedica dell\u2019autore in data 28.5.1937. Postille.",
-    "Category":"S"
-    },{
-    "Id":1918.0,
+    "Category":"H"
+},{
+    "Id":1918,
     "Authors":"Negroni, Carlo",
     "Title":"Della vita e dei fatti di Quintino Sella. Discorso commemorativo",
     "Cities":"Novara",
@@ -19189,9 +19188,9 @@ const jsonData = [
     "Years":1883,
     "Fund":"BTB Segn. Op. 48",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1919.0,
+    "Category":"H"
+},{
+    "Id":1919,
     "Authors":"Nemi, Orsola",
     "Title":"I gioielli rubati",
     "Cities":"Milano  ",
@@ -19200,8 +19199,8 @@ const jsonData = [
     "Fund":"BTB Segn. 542",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1920.0,
+},{
+    "Id":1920,
     "Authors":"Neppi, Alberto",
     "Title":"Mantegna",
     "Cities":"Milano",
@@ -19209,9 +19208,9 @@ const jsonData = [
     "Years":1915,
     "Fund":"BTB Segn. 2192",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1921.0,
+    "Category":"HA"
+},{
+    "Id":1921,
     "Authors":"Nicassio, Francesco",
     "Title":"Facce di bronzo. Poesia e rivoluzione",
     "Cities":"Padova",
@@ -19220,8 +19219,8 @@ const jsonData = [
     "Fund":"BTB Segn. 543",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1922.0,
+},{
+    "Id":1922,
     "Authors":"Nieri, Idelfonso",
     "Title":"I caratteri",
     "Cities":"Venezia",
@@ -19230,8 +19229,8 @@ const jsonData = [
     "Fund":"BTB Segn. 544",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1923.0,
+},{
+    "Id":1923,
     "Authors":"Nieri, Idelfonso",
     "Title":"Cento racconti popolari lucchesi e altri racconti",
     "Cities":"Firenze  ",
@@ -19240,8 +19239,8 @@ const jsonData = [
     "Fund":"BTB Segn. 545",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1924.0,
+},{
+    "Id":1924,
     "Authors":"Nietzsche, Friedrich",
     "Title":"Cos\u00ec parl\u00f2 Zarathustra. Un libro per tutti e per nessuno",
     "Cities":"Piacenza  L\u2019arte bodoniana",
@@ -19249,9 +19248,9 @@ const jsonData = [
     "Years":1916,
     "Fund":"BTB Segn. 1877",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1925.0,
+    "Category":"P"
+},{
+    "Id":1925,
     "Authors":"Nietzsche, Friedrich",
     "Title":"La nascita della tragedia",
     "Cities":"Bari  ",
@@ -19259,9 +19258,9 @@ const jsonData = [
     "Years":1925,
     "Fund":"BTB Segn. 1878",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1926.0,
+    "Category":"P"
+},{
+    "Id":1926,
     "Authors":"Nietzsche, Friedrich",
     "Title":"Nietzsche",
     "Cities":"Milano",
@@ -19269,9 +19268,9 @@ const jsonData = [
     "Years":1940,
     "Fund":"BTB Segn. 1965",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":1927.0,
+    "Category":"P"
+},{
+    "Id":1927,
     "Authors":"Nievo, Ippolito",
     "Title":"Le confessioni di un italiano",
     "Cities":"Firenze  ",
@@ -19280,8 +19279,8 @@ const jsonData = [
     "Fund":"BTB Segn. 547",
     "Segni":"Dedica del curatore in data 29.5.1934.",
     "Category":"IL"
-    },{
-    "Id":1928.0,
+},{
+    "Id":1928,
     "Authors":"Nievo, Ippolito",
     "Title":"Le confessioni di un ottuagenario",
     "Cities":"Milano",
@@ -19290,8 +19289,8 @@ const jsonData = [
     "Fund":"BTB Segn. 546",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1929.0,
+},{
+    "Id":1929,
     "Authors":"Nievo, Ippolito",
     "Title":"Quaderno di traduzioni",
     "Cities":"Torino",
@@ -19300,8 +19299,8 @@ const jsonData = [
     "Fund":"BTB Segn. 548",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1930.0,
+},{
+    "Id":1930,
     "Authors":"Nispi-Landi, Ciro",
     "Title":"Bagni e toeletta presso i Romani",
     "Cities":"Roma  ",
@@ -19309,9 +19308,9 @@ const jsonData = [
     "Years":1934,
     "Fund":"BTB Segn. Op. 1-2",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1931.0,
+    "Category":"H"
+},{
+    "Id":1931,
     "Authors":"Nixon, Richard",
     "Title":"Testo del discorso radiotelevisivo del Presidente Nixon, in occasione della festa nazionale del 4-7-1972",
     "Cities":"Roma",
@@ -19320,8 +19319,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1424",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":1932.0,
+},{
+    "Id":1932,
     "Authors":"Nixon, Richard",
     "Title":"Testo integrale del discorso televisivo sul Vietnam del presidente Richard Nixon la sera di luned\u00ec 8 maggio 1972",
     "Cities":"Roma",
@@ -19330,8 +19329,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1423",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":1933.0,
+},{
+    "Id":1933,
     "Authors":"Nixon, Richard",
     "Title":"Traduzione letterale del discorso radiotelevisivo del presidente Nixon 28 maggio 1972 al popolo dell\u2019Unione Sovietica",
     "Cities":"Roma",
@@ -19340,8 +19339,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1425",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":1934.0,
+},{
+    "Id":1934,
     "Authors":"Nixon, Richard",
     "Title":"Traduzione letterale del discorsorapporto del presidente Nixon 1 giugno 1972 sul \u00abvertice di Mosca\u00bb alle camere del Congresso riunite",
     "Cities":"Roma",
@@ -19350,8 +19349,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1426",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":1935.0,
+},{
+    "Id":1935,
     "Authors":"No\u00ebl, Fran\u00e7ois-Joseph-Michel \u2013 Chapsal, Charles-Pierre",
     "Title":"Le\u00e7ons d\u2019analyse logique",
     "Cities":"Paris ",
@@ -19359,9 +19358,9 @@ const jsonData = [
     "Years":1856,
     "Fund":"BTB Segn. 2445",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1936.0,
+    "Category":"GR"
+},{
+    "Id":1936,
     "Authors":"Noferi Curioni, Adriana",
     "Title":"I segni e le cose",
     "Cities":"Padova",
@@ -19370,8 +19369,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1937.0,
+},{
+    "Id":1937,
     "Authors":"Nolhac, Pierre de",
     "Title":"Louis XV \u00e0 Versailles",
     "Cities":"Paris  ",
@@ -19379,9 +19378,9 @@ const jsonData = [
     "Years":1934,
     "Fund":"BTB Segn. 1686",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1938.0,
+    "Category":"H"
+},{
+    "Id":1938,
     "Authors":"Nolhac, Pierre de",
     "Title":"Louis XV et Madame Pompadour",
     "Cities":"Paris  ",
@@ -19389,9 +19388,9 @@ const jsonData = [
     "Years":1948,
     "Fund":"BTB Segn. 1686",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1939.0,
+    "Category":"H"
+},{
+    "Id":1939,
     "Authors":"Nordau, Max",
     "Title":"Il senso della storia",
     "Cities":"Sesto San Giovanni",
@@ -19399,9 +19398,9 @@ const jsonData = [
     "Years":1915,
     "Fund":"BTB Segn. 1759",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1940.0,
+    "Category":"H"
+},{
+    "Id":1940,
     "Authors":"Nottola, Umberto",
     "Title":"Disegno storico della letteratura romana",
     "Cities":"Firenze",
@@ -19410,9 +19409,9 @@ const jsonData = [
     "Fund":"BTB Segn. 124",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1941.0,
-    "Authors":null,
+},{
+    "Id":1941,
+    "Authors":"Not found",
     "Title":"Nouveau petit Larousse illustr\u00e9",
     "Cities":"Paris",
     "Publisher":"Larousse",
@@ -19420,8 +19419,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2472",
     "Segni":null,
     "Category":"F "
-    },{
-    "Id":1942.0,
+},{
+    "Id":1942,
     "Authors":"Novalis (Friedrich-Leopold von Hardenberg)",
     "Title":"Cristianit\u00e0 o Europa",
     "Cities":"Torino",
@@ -19430,8 +19429,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1209",
     "Segni":null,
     "Category":"F "
-    },{
-    "Id":1943.0,
+},{
+    "Id":1943,
     "Authors":"Novalis (Friedrich-Leopold von Hardenberg)",
     "Title":"Novalis.",
     "Cities":"Milano",
@@ -19440,9 +19439,9 @@ const jsonData = [
     "Fund":"BTB Segn. 1208",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":1944.0,
-    "Authors":null,
+},{
+    "Id":1944,
+    "Authors":"Not found",
     "Title":"Il Novecento. Antologia della critica letteraria e dei narratori e poeti italiani. ",
     "Cities":"Torino",
     "Publisher":"Petrini",
@@ -19450,28 +19449,28 @@ const jsonData = [
     "Fund":"BTB Segn. 748",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1945.0,
-    "Authors":null,
+},{
+    "Id":1945,
+    "Authors":"Not found",
     "Title":"Novelle americane moderne.",
     "Cities":"Milano  ",
     "Publisher":"Longanesi",
     "Years":1951,
     "Fund":"BTB Segn. 1284",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":1946.0,
-    "Authors":null,
+    "Category":"AL"
+},{
+    "Id":1946,
+    "Authors":"Not found",
     "Title":"Novellino",
     "Cities":"Torino",
     "Publisher":"UTET",
     "Years":1948,
     "Fund":"BTB Segn. 549",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1947.0,
+    "Category":"V"
+},{
+    "Id":1947,
     "Authors":"Noventa, Giacomo",
     "Title":"Il grande amore: in \u201cUomini e no\u201d di Elio Vittorini e in altri uomini e libri",
     "Cities":"Milano  ",
@@ -19480,9 +19479,9 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1948.0,
-    "Authors":null,
+},{
+    "Id":1948,
+    "Authors":"Not found",
     "Title":"Nozioni preliminari pratiche intorno all\u2019arte di edificare necessarie ai periti, capomastri e proprietarj",
     "Cities":"Milano  ",
     "Publisher":"Tamburini e Valdoni",
@@ -19490,8 +19489,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2060",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1949.0,
+},{
+    "Id":1949,
     "Authors":"Nulli, Sirio Attilio",
     "Title":"I processi delle streghe",
     "Cities":"Torino  ",
@@ -19500,19 +19499,19 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1950.0,
-    "Authors":null,
+},{
+    "Id":1950,
+    "Authors":"Not found",
     "Title":"La Nuova Pinacoteca Vaticana",
     "Cities":"Roma",
     "Publisher":"Tip. Pol.Vaticana",
     "Years":1932,
     "Fund":"BTB Segn. 2275",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":1951.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":1951,
+    "Authors":"Not found",
     "Title":"Nuovo dizionario geografico. ",
     "Cities":"Milano",
     "Publisher":"Bernardone",
@@ -19520,9 +19519,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2369-2372",
     "Segni":null,
     "Category":"G "
-    },{
-    "Id":1952.0,
-    "Authors":null,
+},{
+    "Id":1952,
+    "Authors":"Not found",
     "Title":"Nuovo dizionario geografico: supplemento",
     "Cities":"Milano  ",
     "Publisher":"Bernardone",
@@ -19530,9 +19529,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2373",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":1953.0,
-    "Authors":null,
+},{
+    "Id":1953,
+    "Authors":"Not found",
     "Title":"Nuovo vocabolario grecoitaliano italiano-greco",
     "Cities":"Milano  ",
     "Publisher":"Albertari",
@@ -19540,8 +19539,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2471",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":1954.0,
+},{
+    "Id":1954,
     "Authors":"Oberdorfer, Aldo",
     "Title":"Il re folle Luigi II di Baviera",
     "Cities":"Milano",
@@ -19549,9 +19548,9 @@ const jsonData = [
     "Years":1935,
     "Fund":"BTB Segn. 1760",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1955.0,
+    "Category":"H"
+},{
+    "Id":1955,
     "Authors":"O\u2019Brien, Flann",
     "Title":"Il terzo poliziotto",
     "Cities":"Torino  ",
@@ -19559,9 +19558,9 @@ const jsonData = [
     "Years":1971,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":1956.0,
+    "Category":"AL"
+},{
+    "Id":1956,
     "Authors":"O\u2019Brien, Flann",
     "Title":"Una pinta d\u2019inchiostro irlandese",
     "Cities":"Torino",
@@ -19569,9 +19568,9 @@ const jsonData = [
     "Years":1968,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":1957.0,
+    "Category":"AL"
+},{
+    "Id":1957,
     "Authors":"Occioni-Bonaffons, Giuseppe",
     "Title":"Ernesto Masi: La vita, i tempi, gli amici di Francesco Albergati, commediografo del secolo XVIII",
     "Cities":"Bologna",
@@ -19579,10 +19578,10 @@ const jsonData = [
     "Years":1878,
     "Fund":"BTB Segn. Op. 49",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1958.0,
-    "Authors":null,
+    "Category":"IL"
+},{
+    "Id":1958,
+    "Authors":"Not found",
     "Title":"Officine metallurgiche Togni: Specialit\u00e0 condotte forzate per impianti idroelettrici",
     "Cities":"Milano-Parigi  ",
     "Publisher":"Coen",
@@ -19590,8 +19589,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2103",
     "Segni":"Nota di possesso autografa in data 1920 Milano.",
     "Category":"T"
-    },{
-    "Id":1959.0,
+},{
+    "Id":1959,
     "Authors":"Offinger, H.",
     "Title":"English-French-Italian-German Technical Pocket Dictionary. Part II. The leading language being English",
     "Cities":"Stuttgart",
@@ -19600,8 +19599,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2049",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":1960.0,
+},{
+    "Id":1960,
     "Authors":"Ojetti, Ugo",
     "Title":"Alla scoperta dei letterati",
     "Cities":"Firenze  ",
@@ -19610,8 +19609,8 @@ const jsonData = [
     "Fund":"BTB Segn. 845",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1961.0,
+},{
+    "Id":1961,
     "Authors":"Ole\u0161a, Jurij Karlovic",
     "Title":"Invidia",
     "Cities":"Roma",
@@ -19620,8 +19619,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1384",
     "Segni":"Nota di possesso autografa in data 1944 Roma.",
     "Category":"RL"
-    },{
-    "Id":1962.0,
+},{
+    "Id":1962,
     "Authors":"Olobardi, Umberto",
     "Title":"Saggi su Tozzi e Pea",
     "Cities":"Pisa-Roma",
@@ -19630,38 +19629,38 @@ const jsonData = [
     "Fund":"BTB Segn. 846",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":1963.0,
-    "Authors":null,
+},{
+    "Id":1963,
+    "Authors":"Not found",
     "Title":"Omaggio a Corrado Alvaro",
     "Cities":"Roma  ",
     "Publisher":"Sindacato Nazionale Scrittori",
     "Years":1957,
     "Fund":"BTB Segn. 847",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1964.0,
-    "Authors":null,
+    "Category":"V"
+},{
+    "Id":1964,
+    "Authors":"Not found",
     "Title":"Omaggio a Milano di poeti italiani contemporanei",
     "Cities":"Milano  ",
     "Publisher":"All\u2019insegna del pesce d\u2019oro",
     "Years":1961,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1965.0,
-    "Authors":null,
+    "Category":"IL"
+},{
+    "Id":1965,
+    "Authors":"Not found",
     "Title":"Omaggio a Montale",
     "Cities":"Milano",
     "Publisher":"Mondadori",
     "Years":1966,
     "Fund":"BTB Segn. 848",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1966.0,
+    "Category":"IL"
+},{
+    "Id":1966,
     "Authors":"Omero",
     "Title":"Iliade. ",
     "Cities":"Leipzig",
@@ -19670,8 +19669,8 @@ const jsonData = [
     "Fund":"BTB Segn. 11-12",
     "Segni":"Solo al volume I, nota di possesso autografa in data 1914. Sottolineature.",
     "Category":"CL"
-    },{
-    "Id":1967.0,
+},{
+    "Id":1967,
     "Authors":"Omero",
     "Title":"Il libro primo dell\u2019Iliade",
     "Cities":"Milano",
@@ -19680,8 +19679,8 @@ const jsonData = [
     "Fund":"BTB Segn. 10",
     "Segni":"Nota di possesso autografa. Postille.",
     "Category":"CL"
-    },{
-    "Id":1968.0,
+},{
+    "Id":1968,
     "Authors":"Omero",
     "Title":" L\u2019Odissea.",
     "Cities":"Milano",
@@ -19690,8 +19689,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Sottolineature.",
     "Category":"CL"
-    },{
-    "Id":1969.0,
+},{
+    "Id":1969,
     "Authors":"Omero",
     "Title":"Odissea libro VII. ",
     "Cities":"Leipzig",
@@ -19700,8 +19699,8 @@ const jsonData = [
     "Fund":"BTB Segn. 13-14",
     "Segni":"Solo al volume I, nota di possesso autografa in data 1914. Intonso.",
     "Category":"CL"
-    },{
-    "Id":1970.0,
+},{
+    "Id":1970,
     "Authors":"Omero",
     "Title":" Odissea libro IX. ",
     "Cities":"Milano",
@@ -19710,8 +19709,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":1971.0,
+},{
+    "Id":1971,
     "Authors":"Omodeo, Adolfo",
     "Title":"Momenti della vita di guerra. Dai diari e dalle lettere dei caduti 1915-1918",
     "Cities":"Torino",
@@ -19720,8 +19719,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1540",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1972.0,
+},{
+    "Id":1972,
     "Authors":"Omodeo, Adolfo",
     "Title":"Il quarto evangelio",
     "Cities":"Bari",
@@ -19730,8 +19729,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1790",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1973.0,
+},{
+    "Id":1973,
     "Authors":"O\u2019Neill, Eugene",
     "Title":"Anna Christie",
     "Cities":"Firenze",
@@ -19739,9 +19738,9 @@ const jsonData = [
     "Years":1938,
     "Fund":"BTB Segn. 1285",
     "Segni":"Intonso.",
-    "Category":"EL"
-    },{
-    "Id":1974.0,
+    "Category":"AL"
+},{
+    "Id":1974,
     "Authors":"Onelli, Onello",
     "Title":"Estetica del Novecento. ",
     "Cities":"Roma",
@@ -19750,9 +19749,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2235",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1975.0,
-    "Authors":null,
+},{
+    "Id":1975,
+    "Authors":"Not found",
     "Title":"Opere di medicina e chirurgia",
     "Cities":"Firenze",
     "Publisher":"Sansoni",
@@ -19760,8 +19759,8 @@ const jsonData = [
     "Fund":"BAL ",
     "Segni":"Postille",
     "Category":"T"
-    },{
-    "Id":1976.0,
+},{
+    "Id":1976,
     "Authors":"Oppizzi, Pietro",
     "Title":"Trazione elettrica su ferrovie e tramvie. Costruzione ed esercizio delle elettrovie",
     "Cities":"Milano",
@@ -19770,8 +19769,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2041",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1977.0,
+},{
+    "Id":1977,
     "Authors":"Orengo, Renata",
     "Title":"Diario del Cegliolo",
     "Cities":"Milano  ",
@@ -19780,8 +19779,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1978.0,
+},{
+    "Id":1978,
     "Authors":"Orazio Flacco, Quinto",
     "Title":"Epistola terza del libro secondo ossia L\u2019arte poetica",
     "Cities":"Milano-Roma-Napoli",
@@ -19790,8 +19789,8 @@ const jsonData = [
     "Fund":"BTB Segn. 49",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":1979.0,
+},{
+    "Id":1979,
     "Authors":"Orazio Flacco, Quinto",
     "Title":"Il libro delle Odi",
     "Cities":"Roma",
@@ -19800,8 +19799,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":1980.0,
+},{
+    "Id":1980,
     "Authors":"Orazio Flacco, Quinto",
     "Title":"Odes et \u00e9podes",
     "Cities":"Paris",
@@ -19810,8 +19809,8 @@ const jsonData = [
     "Fund":"BTB Segn. 100",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":1981.0,
+},{
+    "Id":1981,
     "Authors":"Orazio Flacco, Quinto",
     "Title":"Odi scelte e il carme secolare",
     "Cities":"Milano",
@@ -19820,8 +19819,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Postille.",
     "Category":"CL"
-    },{
-    "Id":1982.0,
+},{
+    "Id":1982,
     "Authors":"Orazio Flacco, Quinto",
     "Title":"Opera omnia",
     "Cities":"Milano",
@@ -19830,8 +19829,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Nota di possesso di Carlo Emilio Gadda. Postille.",
     "Category":"CL"
-    },{
-    "Id":1983.0,
+},{
+    "Id":1983,
     "Authors":"Orazio Flacco, Quinto",
     "Title":"Le opere",
     "Cities":"Como",
@@ -19840,8 +19839,8 @@ const jsonData = [
     "Fund":"BTB Segn. 46-47",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":1984.0,
+},{
+    "Id":1984,
     "Authors":"Orazio Flacco, Quinto",
     "Title":"I quattro libri delle Odi espurgati e l\u2019Inno secolare",
     "Cities":"Milano-Roma-Napoli",
@@ -19850,8 +19849,8 @@ const jsonData = [
     "Fund":"BTB Segn. 44",
     "Segni":"Sottolineature e postille.",
     "Category":"CL"
-    },{
-    "Id":1985.0,
+},{
+    "Id":1985,
     "Authors":"Orazio Flacco, Quinto",
     "Title":"Le satire",
     "Cities":"Milano  ",
@@ -19860,8 +19859,8 @@ const jsonData = [
     "Fund":"BTB Segn. 50",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":1986.0,
+},{
+    "Id":1986,
     "Authors":"Orazio Flacco, Quinto",
     "Title":"Satire; Epistole; Arte poetica",
     "Cities":null,
@@ -19870,8 +19869,8 @@ const jsonData = [
     "Fund":"BTB Segn. 45",
     "Segni":"Pieghe e postille.",
     "Category":"CL"
-    },{
-    "Id":1987.0,
+},{
+    "Id":1987,
     "Authors":"Orazio Flacco, Quinto",
     "Title":"Le satire",
     "Cities":"Milano ",
@@ -19880,8 +19879,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":1988.0,
+},{
+    "Id":1988,
     "Authors":"Orazio Flacco, Quinto",
     "Title":"Satire",
     "Cities":"Paris",
@@ -19890,8 +19889,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":1989.0,
+},{
+    "Id":1989,
     "Authors":"Orazio Flacco, Quinto",
     "Title":"Satire, Epistole e Arte poetica",
     "Cities":"s.l.",
@@ -19900,8 +19899,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":1990.0,
+},{
+    "Id":1990,
     "Authors":"Orazio Flacco, Quinto",
     "Title":"Satires",
     "Cities":"Paris",
@@ -19910,8 +19909,8 @@ const jsonData = [
     "Fund":"BTB Segn. 101",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":1991.0,
+},{
+    "Id":1991,
     "Authors":"Orazio Flacco, Quinto \u2013 Martinez de la Rosa, FranciscoTorti, Giovanni",
     "Title":"Arte poetica esposta da Q. Orazio Flacco, Martinez de la Rosa, Giovanni Torti",
     "Cities":"Savona",
@@ -19920,9 +19919,9 @@ const jsonData = [
     "Fund":"BTB Segn. 48",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":1992.0,
-    "Authors":null,
+},{
+    "Id":1992,
+    "Authors":"Not found",
     "Title":"L\u2019origine della vita",
     "Cities":"Milano  ",
     "Publisher":"Feltrinelli",
@@ -19930,8 +19929,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2082",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":1993.0,
+},{
+    "Id":1993,
     "Authors":"Orlandi, Giuseppe",
     "Title":"Glimpses of England: prime letture inglesi",
     "Cities":"Milano",
@@ -19939,9 +19938,9 @@ const jsonData = [
     "Years":1943,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":1994.0,
+    "Category":"AL"
+},{
+    "Id":1994,
     "Authors":"Ortese, Anna Maria",
     "Title":"Il mare non bagna Napoli",
     "Cities":"Torino  ",
@@ -19950,8 +19949,8 @@ const jsonData = [
     "Fund":"BTB Segn. 550",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1995.0,
+},{
+    "Id":1995,
     "Authors":"Ortese, Anna Maria",
     "Title":". Poveri e semplici",
     "Cities":"Firenze  ",
@@ -19960,8 +19959,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":1996.0,
+},{
+    "Id":1996,
     "Authors":"Ortolani, Giuseppe",
     "Title":"Voci e visioni del Settecento vene ziano",
     "Cities":"Bologna",
@@ -19970,8 +19969,8 @@ const jsonData = [
     "Fund":"BTB Segn. 849",
     "Segni":"Invio a Clara Gadda.",
     "Category":"IL"
-    },{
-    "Id":1997.0,
+},{
+    "Id":1997,
     "Authors":"Ortolani, Sergio",
     "Title":"Controcanto",
     "Cities":"Genova  ",
@@ -19980,8 +19979,8 @@ const jsonData = [
     "Fund":"BTB Segn. 551",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":1998.0,
+},{
+    "Id":1998,
     "Authors":"Ostrogorsky, Georg",
     "Title":"Storia dell\u2019Impero bizantino",
     "Cities":"Torino  ",
@@ -19989,9 +19988,9 @@ const jsonData = [
     "Years":1968,
     "Fund":"BTB Segn. 1480",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":1999.0,
+    "Category":"H"
+},{
+    "Id":1999,
     "Authors":"Ostwald, Wilhelm",
     "Title":"L\u2019\u00e9nergie",
     "Cities":"Paris",
@@ -20000,8 +19999,8 @@ const jsonData = [
     "Fund":"BTM",
     "Segni":"Nota di possesso Milano, agosto 1925. Sottolineature e postille.",
     "Category":"T"
-    },{
-    "Id":2000.0,
+},{
+    "Id":2000,
     "Authors":"Otto, Walter Friedrich",
     "Title":"Gli dei della Grecia. L\u2019immagine del destino riflessa dallo spirito greco",
     "Cities":"Firenze",
@@ -20010,8 +20009,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1791",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":2001.0,
+},{
+    "Id":2001,
     "Authors":"Ovenden, Michael William",
     "Title":"La vita nell\u2019universo: discussione scientifica del problema",
     "Cities":"Bologna  ",
@@ -20020,8 +20019,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2083",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":2002.0,
+},{
+    "Id":2002,
     "Authors":"Ovidio Nasone, Publio",
     "Title":"L\u2019arte dell\u2019amore",
     "Cities":"Milano ",
@@ -20030,8 +20029,8 @@ const jsonData = [
     "Fund":"BTB Segn. 55",
     "Segni":"Parzialmente intonso.",
     "Category":"CL"
-    },{
-    "Id":2003.0,
+},{
+    "Id":2003,
     "Authors":"Ovidio Nasone, Publio",
     "Title":"Le Eroidi",
     "Cities":"Torino",
@@ -20040,8 +20039,8 @@ const jsonData = [
     "Fund":"BTB Segn. 59",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2004.0,
+},{
+    "Id":2004,
     "Authors":"Ovidio Nasone, Publio",
     "Title":"I fasti",
     "Cities":"Milano",
@@ -20050,8 +20049,8 @@ const jsonData = [
     "Fund":"BTB Segn. 56",
     "Segni":"Postille.",
     "Category":"CL"
-    },{
-    "Id":2005.0,
+},{
+    "Id":2005,
     "Authors":"Ovidio Nasone, Publio",
     "Title":"Le Metamorfosi",
     "Cities":"Bologna",
@@ -20060,8 +20059,8 @@ const jsonData = [
     "Fund":"BTB Segn. 57-58",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2006.0,
+},{
+    "Id":2006,
     "Authors":"Ovidio Nasone, Publio",
     "Title":"Metamorphoseon libri",
     "Cities":"Milano  ",
@@ -20070,8 +20069,8 @@ const jsonData = [
     "Fund":"BTB Segn. 61-62",
     "Segni":"Postille.",
     "Category":"CL"
-    },{
-    "Id":2007.0,
+},{
+    "Id":2007,
     "Authors":"Ovidio Nasone, Publio",
     "Title":" Metamorphoseon libri XV expurgati, et explanaticum Appendice de Diis, & Heroibus poeticis",
     "Cities":"Parma",
@@ -20080,8 +20079,8 @@ const jsonData = [
     "Fund":"BTB Segn. 60",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2008.0,
+},{
+    "Id":2008,
     "Authors":"Ovidio Nasone, Publio",
     "Title":"Les rem\u00e8des \u00e0 l\u2019amour; Les produits de beaut\u00e9 pour le visage de la femme",
     "Cities":"Paris",
@@ -20090,8 +20089,8 @@ const jsonData = [
     "Fund":"BTB Segn. 104",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2009.0,
+},{
+    "Id":2009,
     "Authors":"Ovidio Nasone, Publio \u2013 Tibullo, Albio",
     "Title":" Elegie.",
     "Cities":"Torino-Roma-Firenze-Napoli-Palermo",
@@ -20100,8 +20099,8 @@ const jsonData = [
     "Fund":"BTB Segn. 42",
     "Segni":"Nota di possesso autografa. Postille.",
     "Category":"CL"
-    },{
-    "Id":2010.0,
+},{
+    "Id":2010,
     "Authors":"Ozanam, Jacques",
     "Title":"R\u00e9cr\u00e9ations math\u00e9matiques physiques qui contiennent les Proet bl\u00eames & les Questions les plus remarquables, & les plus propres \u00e0 piquer la curiosit\u00e9, tant des Math\u00e9matiques que de la Physique; le tout trait\u00e9 d\u2019une maniere \u00e0 la port\u00e9e des Lecteurs qui ont seulement quelques connoissances l\u00e9geres de ces sciences",
     "Cities":"Paris  ",
@@ -20110,8 +20109,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2144-2147",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2011.0,
+},{
+    "Id":2011,
     "Authors":"Pacini, Renato",
     "Title":"G.B. Piranesi.",
     "Cities":"Roma",
@@ -20120,8 +20119,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2188",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2012.0,
+},{
+    "Id":2012,
     "Authors":"Padoa, Emanuele",
     "Title":"Storia della vita sulla terra. L\u2019evoluzione degli animali e delle piante",
     "Cities":"Milano",
@@ -20130,8 +20129,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2130",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2013.0,
+},{
+    "Id":2013,
     "Authors":"Padovani, Giuseppe",
     "Title":"Dizionario francese-italiano, ",
     "Cities":"Firenze",
@@ -20140,9 +20139,9 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":2014.0,
-    "Authors":null,
+},{
+    "Id":2014,
+    "Authors":"Not found",
     "Title":"\u00abPagine istriane\u00bb. Numero speciale dedicato a Giani Stuparich",
     "Cities":"Trieste",
     "Publisher":"Edizioni Trieste",
@@ -20150,8 +20149,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1541",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":2015.0,
+},{
+    "Id":2015,
     "Authors":"Painter, George D.",
     "Title":"Marcel Proust. Di Giuro",
     "Cities":"Milano",
@@ -20159,9 +20158,9 @@ const jsonData = [
     "Years":1965,
     "Fund":"BTB Segn. 1139",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2016.0,
+    "Category":"FL"
+},{
+    "Id":2016,
     "Authors":"Pais, Ettore",
     "Title":"Storia di Roma. Dalle origini all\u2019inizio delle guerre puniche",
     "Cities":"Roma",
@@ -20169,9 +20168,9 @@ const jsonData = [
     "Years":1926,
     "Fund":"BTB Segn. 1481-1485",
     "Segni":"Volumi III e V intonsi.",
-    "Category":"S"
-    },{
-    "Id":2017.0,
+    "Category":"H"
+},{
+    "Id":2017,
     "Authors":"Paladini, Carlo",
     "Title":"Impero e libert\u00e0 nelle colonie inglesi. ",
     "Cities":"Firenze",
@@ -20179,9 +20178,9 @@ const jsonData = [
     "Years":1916,
     "Fund":"BTB Segn. 1720",
     "Segni":"Postille.",
-    "Category":"S"
-    },{
-    "Id":2018.0,
+    "Category":"H"
+},{
+    "Id":2018,
     "Authors":"Palatini, Francesco",
     "Title":"Algebra ad uso delle scuole medie superiori. ",
     "Cities":"Torino",
@@ -20190,8 +20189,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2127-2128",
     "Segni":"Nota di possesso autografa in data 1925 Milano. Parzialmente intonsi.",
     "Category":"T"
-    },{
-    "Id":2019.0,
+},{
+    "Id":2019,
     "Authors":"Palazzeschi, Aldo",
     "Title":"Bestie del \u2019900",
     "Cities":"Firenze  ",
@@ -20200,8 +20199,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2020.0,
+},{
+    "Id":2020,
     "Authors":"Palazzeschi, Aldo",
     "Title":"Il palio dei buffi",
     "Cities":"Firenze  ",
@@ -20210,8 +20209,8 @@ const jsonData = [
     "Fund":"BTB Segn. 552",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2021.0,
+},{
+    "Id":2021,
     "Authors":"Palazzeschi, Aldo",
     "Title":"Tre imperi... mancati. Cronaca 1922-1945",
     "Cities":"Firenze",
@@ -20220,8 +20219,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2022.0,
+},{
+    "Id":2022,
     "Authors":"Palazzi, Fernando",
     "Title":"Novissimo dizionario della lingua italiana",
     "Cities":"Milano",
@@ -20230,8 +20229,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":2023.0,
+},{
+    "Id":2023,
     "Authors":"Pal\u00e9ologue, Maurice",
     "Title":"Alessandro I (1800-1825)",
     "Cities":"Milano",
@@ -20239,9 +20238,9 @@ const jsonData = [
     "Years":1938,
     "Fund":"BTB Segn. 1761",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2024.0,
+    "Category":"H"
+},{
+    "Id":2024,
     "Authors":"Pallavicino, Pietro Sforza",
     "Title":"Lettere scelte",
     "Cities":"Como",
@@ -20250,8 +20249,8 @@ const jsonData = [
     "Fund":"BTB Segn. 664",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2025.0,
+},{
+    "Id":2025,
     "Authors":"Palmarocchi, Roberto",
     "Title":"Letteratura francese contemporanea",
     "Cities":"Roma  ",
@@ -20259,9 +20258,9 @@ const jsonData = [
     "Years":1927,
     "Fund":"BTB Segn. 1140",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2026.0,
+    "Category":"FL"
+},{
+    "Id":2026,
     "Authors":"Pancrazi, Pietro",
     "Title":"Un amoroso incontro. Lettere e ricordi di G. Carducci e A. Vivanti",
     "Cities":"Firenze",
@@ -20270,8 +20269,8 @@ const jsonData = [
     "Fund":"BTB Segn. 850",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2027.0,
+},{
+    "Id":2027,
     "Authors":"Pane, Roberto",
     "Title":"Bernini architetto",
     "Cities":"Venezia  ",
@@ -20279,9 +20278,9 @@ const jsonData = [
     "Years":1953,
     "Fund":"BTB Segn. 2236",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":2028.0,
+    "Category":"HA"
+},{
+    "Id":2028,
     "Authors":"Panzini, Alfredo",
     "Title":"La madonna di mam\u00e0",
     "Cities":"Milano  ",
@@ -20290,8 +20289,8 @@ const jsonData = [
     "Fund":"BTB Segn. 553",
     "Segni":"Nota di possesso autografa di Enrico Gadda in data 10.08.1917 Campoformio.",
     "Category":"IL"
-    },{
-    "Id":2029.0,
+},{
+    "Id":2029,
     "Authors":"Panzini, Alfredo",
     "Title":"Il padrone sono me",
     "Cities":"Milano  ",
@@ -20300,8 +20299,8 @@ const jsonData = [
     "Fund":"BTB Segn. 554",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2030.0,
+},{
+    "Id":2030,
     "Authors":"Panzini, Alfredo",
     "Title":"Semplici nozioni di grammatica italiana",
     "Cities":"Firenze",
@@ -20310,8 +20309,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2446",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2031.0,
+},{
+    "Id":2031,
     "Authors":"Panzini, Alfredo",
     "Title":"La vera istoria dei tre colori",
     "Cities":"Milano",
@@ -20320,8 +20319,8 @@ const jsonData = [
     "Fund":"BTB Segn. 555",
     "Segni":"Nota di possesso autografa in data 10.06.1924 Milano.",
     "Category":"IL"
-    },{
-    "Id":2032.0,
+},{
+    "Id":2032,
     "Authors":"Paoli, Jacques",
     "Title":"Trois idoles",
     "Cities":"Firenze",
@@ -20330,8 +20329,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2276",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2033.0,
+},{
+    "Id":2033,
     "Authors":"Paoli, Ugo Enrico",
     "Title":"Uomini e cose del mondo antico",
     "Cities":"Firenze",
@@ -20340,8 +20339,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1486",
     "Segni":"Dedica dell\u2019autore ad Arturo Loria in data 22.4.1947.",
     "Category":"IL"
-    },{
-    "Id":2034.0,
+},{
+    "Id":2034,
     "Authors":"Paolo Diacono",
     "Title":"Dei fatti de\u2019 Longobardi libri sei",
     "Cities":"Milano",
@@ -20349,9 +20348,9 @@ const jsonData = [
     "Years":1937,
     "Fund":"BTB Segn. 63-64",
     "Segni":"Parzialmente intonsi.",
-    "Category":"S"
-    },{
-    "Id":2035.0,
+    "Category":"H"
+},{
+    "Id":2035,
     "Authors":"Papi, Roberto",
     "Title":"Piccolo giudizio universale",
     "Cities":"Venezia",
@@ -20360,8 +20359,8 @@ const jsonData = [
     "Fund":"BTB Segn. 556",
     "Segni":"Dedica dell\u2019autore in data 10.1950.",
     "Category":"IL"
-    },{
-    "Id":2036.0,
+},{
+    "Id":2036,
     "Authors":"Papini, Giovanni",
     "Title":"Il mio futurismo. Con l\u2019aggiunta del discorso contro Firenze passatista",
     "Cities":"Firenze",
@@ -20370,8 +20369,8 @@ const jsonData = [
     "Fund":"BTB Segn. 557",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2037.0,
+},{
+    "Id":2037,
     "Authors":"Papini, Giovanni",
     "Title":"Sant\u2019Agostino",
     "Cities":"Firenze",
@@ -20380,8 +20379,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1792",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2038.0,
+},{
+    "Id":2038,
     "Authors":"Paratore, Ettore",
     "Title":"Virgilio",
     "Cities":"Firenze",
@@ -20390,8 +20389,8 @@ const jsonData = [
     "Fund":"BTB Segn. 125",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2039.0,
+},{
+    "Id":2039,
     "Authors":"Parenti, Marino",
     "Title":"Giulio Cesare Sansoni",
     "Cities":"Firenze  ",
@@ -20400,8 +20399,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1542",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":2040.0,
+},{
+    "Id":2040,
     "Authors":"Parenti, Marino",
     "Title":"  Manzoni, Firenze e la \u201crisciacquatura\u201d",
     "Cities":"Sarzana",
@@ -20410,8 +20409,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2041.0,
+},{
+    "Id":2041,
     "Authors":"Pareto, Vilfredo",
     "Title":"Compendio di sociologia generale",
     "Cities":"Firenze  ",
@@ -20420,8 +20419,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2014",
     "Segni":"Nota di possesso autografa in data 1.01.1921.",
     "Category":"V"
-    },{
-    "Id":2042.0,
+},{
+    "Id":2042,
     "Authors":"Pareto, Vilfredo",
     "Title":"Fatti e teorie",
     "Cities":"Firenze",
@@ -20430,8 +20429,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2013",
     "Segni":"Timbro della libreria italiana Alfredo Mele di Buenos Aires.",
     "Category":"V"
-    },{
-    "Id":2043.0,
+},{
+    "Id":2043,
     "Authors":"Pareyson, Luigi",
     "Title":"La filosofia dell\u2019esistenza e C. Jaspers",
     "Cities":"Napoli  ",
@@ -20440,8 +20439,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1875",
     "Segni":null,
     "Category":"F "
-    },{
-    "Id":2044.0,
+},{
+    "Id":2044,
     "Authors":"Pariani, Carlo",
     "Title":"Vite non romanzate di Dino Campana scrittore e di Evaristo Boncinelli scultore",
     "Cities":"Firenze",
@@ -20450,8 +20449,8 @@ const jsonData = [
     "Fund":"BTB Segn. 852",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2045.0,
+},{
+    "Id":2045,
     "Authors":"Paribeni, Roberto",
     "Title":"Storia d\u2019Italia illustrata. II. L\u2019Italia imperiale",
     "Cities":"Milano  ",
@@ -20459,9 +20458,9 @@ const jsonData = [
     "Years":1938,
     "Fund":"BTB Segn. 1567",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2046.0,
+    "Category":"H"
+},{
+    "Id":2046,
     "Authors":"Parini, Giuseppe",
     "Title":"Il giorno.",
     "Cities":"s.l.",
@@ -20470,8 +20469,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Timbro e nota di possesso di Prosperini. Sottolineature.",
     "Category":"IL"
-    },{
-    "Id":2047.0,
+},{
+    "Id":2047,
     "Authors":"Parini, Giuseppe",
     "Title":"Il giorno",
     "Cities":"Milano",
@@ -20480,8 +20479,8 @@ const jsonData = [
     "Fund":"BTB Segn. 560",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2048.0,
+},{
+    "Id":2048,
     "Authors":"Parini, Giuseppe",
     "Title":"Il giorno e odi scelte",
     "Cities":"Torino-Milano-GenovaParma-Roma-Catania",
@@ -20490,8 +20489,8 @@ const jsonData = [
     "Fund":"BTB Segn. 561",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2049.0,
+},{
+    "Id":2049,
     "Authors":"Parini, Giuseppe",
     "Title":"Le odi",
     "Cities":"Roma",
@@ -20500,8 +20499,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Timbro di possesso di Enrico Gadda.",
     "Category":"IL"
-    },{
-    "Id":2050.0,
+},{
+    "Id":2050,
     "Authors":"Parini, Giuseppe",
     "Title":"Poesie e prose. Con appendice di poeti satirici e didascalici del Settecento",
     "Cities":"Milano-Napoli",
@@ -20510,8 +20509,8 @@ const jsonData = [
     "Fund":"BTB Segn. 558",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2051.0,
+},{
+    "Id":2051,
     "Authors":"Parini, Giuseppe",
     "Title":"Versi e prose. ",
     "Cities":"Firenze  ",
@@ -20520,8 +20519,8 @@ const jsonData = [
     "Fund":"BTB Segn. 559",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2052.0,
+},{
+    "Id":2052,
     "Authors":"Parini, Giuseppe",
     "Title":"Versi e prose di Giuseppe Parini",
     "Cities":"Napoli",
@@ -20530,9 +20529,9 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2053.0,
-    "Authors":null,
+},{
+    "Id":2053,
+    "Authors":"Not found",
     "Title":"Paris",
     "Cities":"Paris",
     "Publisher":"Hachette",
@@ -20540,8 +20539,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2317",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":2054.0,
+},{
+    "Id":2054,
     "Authors":"Paris, Jean",
     "Title":"James Joyce par lui-m\u00eame",
     "Cities":"Paris",
@@ -20550,8 +20549,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1349",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2055.0,
+},{
+    "Id":2055,
     "Authors":"Parise, Goffredo",
     "Title":"L\u2019assoluto naturale",
     "Cities":"Milano  ",
@@ -20560,8 +20559,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2056.0,
+},{
+    "Id":2056,
     "Authors":"Parise, Goffredo",
     "Title":"La grande vacanza",
     "Cities":"Venezia  ",
@@ -20570,8 +20569,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2057.0,
+},{
+    "Id":2057,
     "Authors":"Parise, Goffredo",
     "Title":"Il padrone",
     "Cities":"Milano",
@@ -20580,8 +20579,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2058.0,
+},{
+    "Id":2058,
     "Authors":"Parise, Goffredo",
     "Title":"Il ragazzo morto e le comete",
     "Cities":"Milano",
@@ -20590,8 +20589,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2059.0,
+},{
+    "Id":2059,
     "Authors":"Parise, Goffredo",
     "Title":"Sillabario N. 1",
     "Cities":"Torino",
@@ -20600,8 +20599,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":2060.0,
+},{
+    "Id":2060,
     "Authors":"Parrella, Michele",
     "Title":"Poesia e pietra di Lucania",
     "Cities":"Torino",
@@ -20610,8 +20609,8 @@ const jsonData = [
     "Fund":"BTB Segn. 562",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":2061.0,
+},{
+    "Id":2061,
     "Authors":"Parronchi, Alessandro",
     "Title":"Un\u2019attesa",
     "Cities":"Modena",
@@ -20620,8 +20619,8 @@ const jsonData = [
     "Fund":"BTB Segn. 563",
     "Segni":"Dedica dell\u2019autore in data 12.1941.",
     "Category":"IL"
-    },{
-    "Id":2062.0,
+},{
+    "Id":2062,
     "Authors":"Parronchi, Alessandro",
     "Title":"I giorni sensibili",
     "Cities":"Firenze  ",
@@ -20630,8 +20629,8 @@ const jsonData = [
     "Fund":"BTB Segn. 564",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":2063.0,
+},{
+    "Id":2063,
     "Authors":"Parronchi, Alessandro",
     "Title":"L\u2019incertezza amorosa",
     "Cities":"Milano  ",
@@ -20640,8 +20639,8 @@ const jsonData = [
     "Fund":"BTB Segn. 565",
     "Segni":"Dedica dell\u2019autore in data 11.1952.",
     "Category":"IL"
-    },{
-    "Id":2064.0,
+},{
+    "Id":2064,
     "Authors":"Parronchi, Alessandro",
     "Title":"Nomi della pittura italiana contemporanea",
     "Cities":"Firenze",
@@ -20649,9 +20648,9 @@ const jsonData = [
     "Years":1944,
     "Fund":"BTB Segn. 2237",
     "Segni":"Dedica dell\u2019autore in data 9.1945.",
-    "Category":"SA"
-    },{
-    "Id":2065.0,
+    "Category":"HA"
+},{
+    "Id":2065,
     "Authors":"Parronchi, Alessandro",
     "Title":"Per strade di boschi e citt\u00e0",
     "Cities":"Firenze",
@@ -20660,8 +20659,8 @@ const jsonData = [
     "Fund":"BTB Segn. 566",
     "Segni":"Dedica dell\u2019autore in data 5.1954.",
     "Category":"IL"
-    },{
-    "Id":2066.0,
+},{
+    "Id":2066,
     "Authors":"Parronchi, Alessandro",
     "Title":"I visi",
     "Cities":"Firenze",
@@ -20670,8 +20669,8 @@ const jsonData = [
     "Fund":"BTB Segn. 567",
     "Segni":"Dedica dell\u2019autore in data 7.1943.",
     "Category":"IL"
-    },{
-    "Id":2067.0,
+},{
+    "Id":2067,
     "Authors":"Pasanisi, Francesco Maria",
     "Title":"Testo di geografia per le scuole secondarie superiori",
     "Cities":"Milano-Roma",
@@ -20680,8 +20679,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2374",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":2068.0,
+},{
+    "Id":2068,
     "Authors":"Pascal, Blaise",
     "Title":"L\u2019\u0153uvre de Pascal",
     "Cities":"Paris  ",
@@ -20690,8 +20689,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"F "
-    },{
-    "Id":2069.0,
+},{
+    "Id":2069,
     "Authors":"Pascal, Blaise",
     "Title":"\u0152uvres compl\u00e8tes",
     "Cities":"Paris  ",
@@ -20700,8 +20699,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1880",
     "Segni":null,
     "Category":"F "
-    },{
-    "Id":2070.0,
+},{
+    "Id":2070,
     "Authors":"Pascal, Blaise",
     "Title":"Pens\u00e9es de M. Pascal sur la religion et quelques autres sujets",
     "Cities":"Amsterdam",
@@ -20710,8 +20709,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1882",
     "Segni":null,
     "Category":"F "
-    },{
-    "Id":2071.0,
+},{
+    "Id":2071,
     "Authors":"Pascal, Blaise",
     "Title":"Pensieri. I",
     "Cities":"Lanciano",
@@ -20720,8 +20719,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1881",
     "Segni":null,
     "Category":"F "
-    },{
-    "Id":2072.0,
+},{
+    "Id":2072,
     "Authors":"Pascal, Blaise",
     "Title":"Pensieri",
     "Cities":"Bari",
@@ -20730,8 +20729,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"F "
-    },{
-    "Id":2073.0,
+},{
+    "Id":2073,
     "Authors":"Pascal, Blaise",
     "Title":" Les provinciales. ",
     "Cities":"Paris",
@@ -20740,8 +20739,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1055",
     "Segni":"Sottolineature.",
     "Category":"F "
-    },{
-    "Id":2074.0,
+},{
+    "Id":2074,
     "Authors":"Pascal, Ernesto",
     "Title":"Calcolo delle variazioni e calcolo delle differenze finite (III parte del Calcolo infinitesimale)",
     "Cities":"Milano",
@@ -20750,8 +20749,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2026",
     "Segni":"Nota di possesso autografa in data 1919.",
     "Category":"T"
-    },{
-    "Id":2075.0,
+},{
+    "Id":2075,
     "Authors":"Pascal, Ernesto",
     "Title":"Lezioni di calcolo infinitesimale",
     "Cities":"Milano",
@@ -20760,8 +20759,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2022-2024",
     "Segni":"Nota di possesso autografa in data 1919.",
     "Category":"T"
-    },{
-    "Id":2076.0,
+},{
+    "Id":2076,
     "Authors":"Pascarella, Cesare",
     "Title":"La scoperta de l\u2019America. ",
     "Cities":"Spoleto",
@@ -20770,8 +20769,8 @@ const jsonData = [
     "Fund":"BTB Segn. 568",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":2077.0,
+},{
+    "Id":2077,
     "Authors":"Pascoli, Giovanni",
     "Title":"Lyra",
     "Cities":"Livorno",
@@ -20780,8 +20779,8 @@ const jsonData = [
     "Fund":"BTB Segn. 126",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2078.0,
+},{
+    "Id":2078,
     "Authors":"Pascoli, Giovanni",
     "Title":"Myricae",
     "Cities":"Livorno",
@@ -20790,8 +20789,8 @@ const jsonData = [
     "Fund":"BTB Segn. 569",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2079.0,
+},{
+    "Id":2079,
     "Authors":"Pascoli, Giovanni",
     "Title":"Poemetti",
     "Cities":"Torino",
@@ -20800,8 +20799,8 @@ const jsonData = [
     "Fund":"BTB Segn. 570",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2080.0,
+},{
+    "Id":2080,
     "Authors":"Pascoli, Giovanni",
     "Title":"Poesie",
     "Cities":"Milano",
@@ -20810,8 +20809,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2081.0,
+},{
+    "Id":2081,
     "Authors":"Pasolini, Pier Paolo",
     "Title":"Accattone",
     "Cities":"Roma",
@@ -20820,8 +20819,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2082.0,
+},{
+    "Id":2082,
     "Authors":"Pasolini, Pier Paolo",
     "Title":"Le ceneri di Gramsci (Poemetti)",
     "Cities":"Milano",
@@ -20830,8 +20829,8 @@ const jsonData = [
     "Fund":"BTB Segn. 571",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2083.0,
+},{
+    "Id":2083,
     "Authors":"Pasolini, Pier Paolo",
     "Title":"Diarii",
     "Cities":"Casarsa  ",
@@ -20840,8 +20839,8 @@ const jsonData = [
     "Fund":"BTB Segn. 572",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2084.0,
+},{
+    "Id":2084,
     "Authors":"Pasolini, Pier Paolo",
     "Title":"Dov\u2019\u00e8 la mia patria. ",
     "Cities":"Casarsa  ",
@@ -20850,8 +20849,8 @@ const jsonData = [
     "Fund":"BTB Segn. 573",
     "Segni":" Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":2085.0,
+},{
+    "Id":2085,
     "Authors":"Pasolini, Pier Paolo",
     "Title":"Empirismo eretico",
     "Cities":"Milano  ",
@@ -20860,8 +20859,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":2086.0,
+},{
+    "Id":2086,
     "Authors":"Pasolini, Pier Paolo",
     "Title":"La meglio giovent\u00f9",
     "Cities":"Firenze  ",
@@ -20870,8 +20869,8 @@ const jsonData = [
     "Fund":"BTB Segn. 574",
     "Segni":"Dedica dell\u2019autore in data 29.7.1954.",
     "Category":"IL"
-    },{
-    "Id":2087.0,
+},{
+    "Id":2087,
     "Authors":"Pasolini, Pier Paolo",
     "Title":"Poesie a Casarsa",
     "Cities":"Bologna  ",
@@ -20880,8 +20879,8 @@ const jsonData = [
     "Fund":"BTB Segn. 575",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2088.0,
+},{
+    "Id":2088,
     "Authors":"Pasolini, Pier Paolo",
     "Title":"Ragazzi di vita",
     "Cities":"Milano",
@@ -20890,8 +20889,8 @@ const jsonData = [
     "Fund":"BTB Segn. 576",
     "Segni":"Postille dell\u2019autore e di Gadda. Pieghe.",
     "Category":"IL"
-    },{
-    "Id":2089.0,
+},{
+    "Id":2089,
     "Authors":"Pasolini, Pier Paolo",
     "Title":"Ragazzi di vita",
     "Cities":"Milano",
@@ -20900,8 +20899,8 @@ const jsonData = [
     "Fund":"BTB Segn. 575",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2090.0,
+},{
+    "Id":2090,
     "Authors":"Pasolini, Pier Paolo",
     "Title":"Sonetto primaverile",
     "Cities":"Milano  ",
@@ -20910,8 +20909,8 @@ const jsonData = [
     "Fund":"BTB Segn. 578",
     "Segni":"Dedica dell\u2019autore in data 2.1960.",
     "Category":"IL"
-    },{
-    "Id":2091.0,
+},{
+    "Id":2091,
     "Authors":"Pasolini, Pier Paolo",
     "Title":" Tal cour di un frut. ",
     "Cities":"Tricesimo",
@@ -20920,8 +20919,8 @@ const jsonData = [
     "Fund":"BTB Segn. 579",
     "Segni":"Dedica dell\u2019autore in data 5.6.1953.",
     "Category":"IL"
-    },{
-    "Id":2092.0,
+},{
+    "Id":2092,
     "Authors":"Pasolini, Pier Paolo",
     "Title":"Teorema",
     "Cities":"Milano",
@@ -20930,8 +20929,8 @@ const jsonData = [
     "Fund":"BTB Segn. 580",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2093.0,
+},{
+    "Id":2093,
     "Authors":"Pasolini, Pier Paolo",
     "Title":"L\u2019usignolo della chiesa cattolica",
     "Cities":"Milano",
@@ -20940,8 +20939,8 @@ const jsonData = [
     "Fund":"BTB Segn. 581",
     "Segni":"Dedica dell\u2019autore in data 9.1958.",
     "Category":"IL"
-    },{
-    "Id":2094.0,
+},{
+    "Id":2094,
     "Authors":"Pasolini, Pier Paolo",
     "Title":"Una vita violenta",
     "Cities":"Milano  ",
@@ -20950,8 +20949,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Foglio con postille inserito.",
     "Category":"IL"
-    },{
-    "Id":2095.0,
+},{
+    "Id":2095,
     "Authors":"Pasquali, Giorgio",
     "Title":"Stravaganze quarte e supreme",
     "Cities":"Venezia",
@@ -20960,8 +20959,8 @@ const jsonData = [
     "Fund":"BTB Segn. 854",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2096.0,
+},{
+    "Id":2096,
     "Authors":"Paulsen, Friedrich",
     "Title":"Introduzione alla filosofia",
     "Cities":"Milano-Torino-Roma",
@@ -20970,8 +20969,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1967",
     "Segni":null,
     "Category":"F "
-    },{
-    "Id":2097.0,
+},{
+    "Id":2097,
     "Authors":"Paulsen, Friedrich",
     "Title":"Kant. ",
     "Cities":"a. Milano-Palermo-Napoli-Genova",
@@ -20980,8 +20979,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1966",
     "Segni":"Nota di possesso autografa in data 192425.",
     "Category":"F "
-    },{
-    "Id":2098.0,
+},{
+    "Id":2098,
     "Authors":"Pavese, Cesare",
     "Title":"Ciau Masino",
     "Cities":"Torino",
@@ -20990,8 +20989,8 @@ const jsonData = [
     "Fund":"BTB Segn. 582",
     "Segni":"Dedica dell\u2019editore. Intonso.",
     "Category":"IL"
-    },{
-    "Id":2099.0,
+},{
+    "Id":2099,
     "Authors":"Pea, Enrico",
     "Title":"Arie bifolchine",
     "Cities":"Firenze",
@@ -21000,8 +20999,8 @@ const jsonData = [
     "Fund":"BTB Segn. 583",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2100.0,
+},{
+    "Id":2100,
     "Authors":"Pea, Enrico",
     "Title":"Il forestiero",
     "Cities":"Firenze",
@@ -21010,8 +21009,8 @@ const jsonData = [
     "Fund":"BTB Segn. 584",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":2101.0,
+},{
+    "Id":2101,
     "Authors":"Pea, Enrico",
     "Title":" Il maggio in Versilia, in Lucchesia e in Lunigiana",
     "Cities":"Firenze  ",
@@ -21020,8 +21019,8 @@ const jsonData = [
     "Fund":"BTB Segn. 588",
     "Segni":"Dedica dell\u2019autore in data 6.1954.",
     "Category":"IL"
-    },{
-    "Id":2102.0,
+},{
+    "Id":2102,
     "Authors":"Pea, Enrico",
     "Title":"Moscardino",
     "Cities":"Milano",
@@ -21030,8 +21029,8 @@ const jsonData = [
     "Fund":"BTB Segn. 585",
     "Segni":"Dedica dell\u2019autore a Carlo Paccagnini. Piega.",
     "Category":"IL"
-    },{
-    "Id":2103.0,
+},{
+    "Id":2103,
     "Authors":"Pea, Enrico",
     "Title":" La passione di Cristo. L\u2019anello del parente folle.",
     "Cities":"Brescia",
@@ -21040,8 +21039,8 @@ const jsonData = [
     "Fund":"BTB Segn. 586",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":2104.0,
+},{
+    "Id":2104,
     "Authors":"Pea, Enrico",
     "Title":"Solaio (storie di noi viventi)",
     "Cities":"Firenze",
@@ -21050,8 +21049,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2105.0,
+},{
+    "Id":2105,
     "Authors":"Pea, Enrico",
     "Title":"Il trenino di sassi",
     "Cities":"Firenze  ",
@@ -21060,8 +21059,8 @@ const jsonData = [
     "Fund":"BTB Segn. 587",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2106.0,
+},{
+    "Id":2106,
     "Authors":"Pedini, Mario",
     "Title":"Taccuino di una missione (Biafraprimavera 1969)",
     "Cities":"Roma",
@@ -21070,8 +21069,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 50",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":2107.0,
+},{
+    "Id":2107,
     "Authors":"Pedretti, Garibaldi",
     "Title":"Il conducente d\u2019automobile (Chauffeur)",
     "Cities":"Milano",
@@ -21080,8 +21079,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2042",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2108.0,
+},{
+    "Id":2108,
     "Authors":"Pedrotti, Giovanni",
     "Title":"Una famiglia di patrioti trentini",
     "Cities":"Milano",
@@ -21089,9 +21088,9 @@ const jsonData = [
     "Years":1932,
     "Fund":"BTB Segn. Op. 51",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":2109.0,
+    "Category":"HA"
+},{
+    "Id":2109,
     "Authors":"P\u00e9guy, Charles",
     "Title":"La nostra ora",
     "Cities":"Roma",
@@ -21100,8 +21099,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1056",
     "Segni":"Dedica del curatore in data 1.9.1952.",
     "Category":"FL"
-    },{
-    "Id":2110.0,
+},{
+    "Id":2110,
     "Authors":"Peillex, Georges",
     "Title":"La pittura del XIX secolo",
     "Cities":"Milano",
@@ -21109,9 +21108,9 @@ const jsonData = [
     "Years":1964,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":2111.0,
+    "Category":"HA"
+},{
+    "Id":2111,
     "Authors":"Pellegrini, Alessandro",
     "Title":"Baudelaire",
     "Cities":"Milano",
@@ -21119,9 +21118,9 @@ const jsonData = [
     "Years":1938,
     "Fund":"BTB Segn. 1141",
     "Segni":"Dedica dell\u2019autore.",
-    "Category":"L"
-    },{
-    "Id":2112.0,
+    "Category":"FL"
+},{
+    "Id":2112,
     "Authors":"Pellegrini, Carlo",
     "Title":"La contessa d\u2019Albany e il salotto del Lungarno",
     "Cities":"Napoli  ",
@@ -21129,9 +21128,9 @@ const jsonData = [
     "Years":1951,
     "Fund":"BTB Segn. 856",
     "Segni":"Sottolineature.",
-    "Category":"L"
-    },{
-    "Id":2113.0,
+    "Category":"IL"
+},{
+    "Id":2113,
     "Authors":"Pellegrini, Rinaldo",
     "Title":"Il caso Montesi",
     "Cities":"Parma",
@@ -21140,8 +21139,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2114.0,
+},{
+    "Id":2114,
     "Authors":"Pellico Silvio",
     "Title":"Meine Gef\u00e4ngnisse. ",
     "Cities":"s.l.",
@@ -21150,8 +21149,8 @@ const jsonData = [
     "Fund":"BAC",
     "Segni":"Del volume si conservano le pp. 161208 pi\u00f9 1 non numerata.",
     "Category":"IL"
-    },{
-    "Id":2115.0,
+},{
+    "Id":2115,
     "Authors":"Pellico Silvio",
     "Title":"Le mie prigioni",
     "Cities":"Milano  ",
@@ -21160,8 +21159,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2116.0,
+},{
+    "Id":2116,
     "Authors":"Penna, Sandro",
     "Title":"Poesie",
     "Cities":"Firenze",
@@ -21170,8 +21169,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2117.0,
+},{
+    "Id":2117,
     "Authors":"Penna, Sandro",
     "Title":"Poesie",
     "Cities":"Milano",
@@ -21180,8 +21179,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2118.0,
+},{
+    "Id":2118,
     "Authors":"Penna, Sandro",
     "Title":"Tutte le poesie",
     "Cities":"Milano",
@@ -21190,8 +21189,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore in data 4.6.1970. Segnalibro inserito.",
     "Category":"IL"
-    },{
-    "Id":2119.0,
+},{
+    "Id":2119,
     "Authors":"Penna, Sandro",
     "Title":"Una strana gioia di vivere",
     "Cities":"Milano",
@@ -21200,8 +21199,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore in data 18.3.1956.",
     "Category":"IL"
-    },{
-    "Id":2120.0,
+},{
+    "Id":2120,
     "Authors":"Pennella, Giuseppe",
     "Title":"Il vademecum dell\u2019allievo ufficiale di complemento. ",
     "Cities":"Roma",
@@ -21210,8 +21209,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2166",
     "Segni":null,
     "Category":"M"
-    },{
-    "Id":2121.0,
+},{
+    "Id":2121,
     "Authors":"Pento, Bortolo",
     "Title":"Gli orti dei poveri",
     "Cities":"Roma",
@@ -21220,8 +21219,8 @@ const jsonData = [
     "Fund":"BTB Segn. 591",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2122.0,
+},{
+    "Id":2122,
     "Authors":"Pepe, Gabriele",
     "Title":"Il medioevo barbarico d\u2019Italia",
     "Cities":"Torino",
@@ -21230,8 +21229,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1543",
     "Segni":null,
     "Category":"S "
-    },{
-    "Id":2123.0,
+},{
+    "Id":2123,
     "Authors":"Perini, Osvaldo",
     "Title":"Storia delle societ\u00e0 secrete dalle prime origini agli ultimi tempi. I. Societ\u00e0 teofilosofiche",
     "Cities":"Milano  ",
@@ -21240,8 +21239,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1544",
     "Segni":null,
     "Category":"S "
-    },{
-    "Id":2124.0,
+},{
+    "Id":2124,
     "Authors":"Peroni, Giovanna",
     "Title":"Terra d\u2019uomini",
     "Cities":"Milano",
@@ -21250,8 +21249,8 @@ const jsonData = [
     "Fund":"BTB Segn. 592",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2125.0,
+},{
+    "Id":2125,
     "Authors":"Perosa, Sergio",
     "Title":"Introduzione alla poesia di Emily Dickinson",
     "Cities":"Milano  ",
@@ -21260,8 +21259,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1348",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2126.0,
+},{
+    "Id":2126,
     "Authors":"Perroux, Fran\u00e7ois",
     "Title":"Il capitalismo moderno",
     "Cities":"Milano",
@@ -21269,9 +21268,9 @@ const jsonData = [
     "Years":1960,
     "Fund":"BTB Segn. 2015",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":2127.0,
+    "Category":"P"
+},{
+    "Id":2127,
     "Authors":"Pesce, Emilio",
     "Title":"Bernari",
     "Cities":"Firenze  ",
@@ -21280,8 +21279,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2128.0,
+},{
+    "Id":2128,
     "Authors":"Pesch, Tilmann",
     "Title":"The catholic\u2019s manual",
     "Cities":"London  ",
@@ -21290,8 +21289,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":2129.0,
+},{
+    "Id":2129,
     "Authors":"Pesciotti, Pietro",
     "Title":"Parole e silenzio",
     "Cities":"Napoli  ",
@@ -21300,8 +21299,8 @@ const jsonData = [
     "Fund":"BTB Segn. 593",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2130.0,
+},{
+    "Id":2130,
     "Authors":"Pestelli, Leo",
     "Title":"Racconto grammaticale",
     "Cities":"Milano",
@@ -21310,8 +21309,8 @@ const jsonData = [
     "Fund":"BTB Segn. 594",
     "Segni":"Dedica dell\u2019autore in data 9.1967.",
     "Category":"IL"
-    },{
-    "Id":2131.0,
+},{
+    "Id":2131,
     "Authors":"Pestelli, Leo",
     "Title":"Trattatello di rettorica",
     "Cities":"Milano  ",
@@ -21320,8 +21319,8 @@ const jsonData = [
     "Fund":"BTB Segn. 595",
     "Segni":"Dedica dell\u2019autore in data 10.1969.",
     "Category":"IL"
-    },{
-    "Id":2132.0,
+},{
+    "Id":2132,
     "Authors":"Petit-Dutaillis, Charles",
     "Title":"Les Communes fran\u00e7aises",
     "Cities":"Paris",
@@ -21330,8 +21329,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1687",
     "Segni":"Parzialmente intonso.",
     "Category":"FL"
-    },{
-    "Id":2133.0,
+},{
+    "Id":2133,
     "Authors":"Petrarca, Francesco",
     "Title":"Il Canzoniere. ",
     "Cities":"Torino",
@@ -21340,8 +21339,8 @@ const jsonData = [
     "Fund":"BTB Segn. 596",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2134.0,
+},{
+    "Id":2134,
     "Authors":"Petrarca, Francesco",
     "Title":"Dal \u00abCanzoniere\u00bb",
     "Cities":"Milano",
@@ -21350,8 +21349,8 @@ const jsonData = [
     "Fund":"BTB Segn. 597",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":2135.0,
+},{
+    "Id":2135,
     "Authors":"Petrarca, Francesco",
     "Title":"Il mio segreto",
     "Cities":"Firenze",
@@ -21360,8 +21359,8 @@ const jsonData = [
     "Fund":"BTB Segn. 598",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":2136.0,
+},{
+    "Id":2136,
     "Authors":"Petrarca, Francesco",
     "Title":"Il Petrarca. Con l\u2019espositione di A. Velutello",
     "Cities":"Venezia",
@@ -21370,8 +21369,8 @@ const jsonData = [
     "Fund":"BTB Segn. Ed. Cinq.243",
     "Segni":"Omaggio di B. Fulgi",
     "Category":"IL"
-    },{
-    "Id":2137.0,
+},{
+    "Id":2137,
     "Authors":"Petrarca, Francesco",
     "Title":"Le rime",
     "Cities":"Firenze  ",
@@ -21380,8 +21379,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2138.0,
+},{
+    "Id":2138,
     "Authors":"Petrarca, Francesco",
     "Title":"Le rime",
     "Cities":"Firenze",
@@ -21390,8 +21389,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2139.0,
+},{
+    "Id":2139,
     "Authors":"Petrarca, Francesco",
     "Title":"Le rime",
     "Cities":"Firenze",
@@ -21400,8 +21399,8 @@ const jsonData = [
     "Fund":"BTB Segn. 600",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2140.0,
+},{
+    "Id":2140,
     "Authors":"Petrarca, Francesco",
     "Title":"Le Rime di Francesco Petrarca di su gli originali",
     "Cities":"Firenze",
@@ -21410,8 +21409,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2141.0,
+},{
+    "Id":2141,
     "Authors":"Petrarca, Francesco",
     "Title":"Le rime secondo l\u2019autografo",
     "Cities":"Firenze  ",
@@ -21420,8 +21419,8 @@ const jsonData = [
     "Fund":"BTB Segn. 599",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":2142.0,
+},{
+    "Id":2142,
     "Authors":"Petrocchi, Giorgio",
     "Title":"Scrittori piemontesi del secondo Ottocento",
     "Cities":"Torino",
@@ -21430,8 +21429,8 @@ const jsonData = [
     "Fund":"BTB Segn. 857",
     "Segni":"Dedica dell\u2019autore. Invio di Franco Antonicelli.",
     "Category":"IL"
-    },{
-    "Id":2143.0,
+},{
+    "Id":2143,
     "Authors":"Petroni, Guglielmo",
     "Title":"Personaggi d\u2019elezione",
     "Cities":"Firenze  ",
@@ -21440,8 +21439,8 @@ const jsonData = [
     "Fund":"BTB Segn. 601",
     "Segni":"Parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":2144.0,
+},{
+    "Id":2144,
     "Authors":"Petronio Arbitro",
     "Title":"Romanzo satirico di Petronio Arbitro. ",
     "Cities":"Firenze",
@@ -21450,8 +21449,8 @@ const jsonData = [
     "Fund":"BTB Segn. 66",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2145.0,
+},{
+    "Id":2145,
     "Authors":"Petronio Arbitro",
     "Title":"Satyricon. Romanzo d\u2019avventure e di costumi. ",
     "Cities":"Roma",
@@ -21460,8 +21459,8 @@ const jsonData = [
     "Fund":"BTB Segn. 67",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2146.0,
+},{
+    "Id":2146,
     "Authors":"Petronio Arbitro",
     "Title":"Satyricon. s.l",
     "Cities":"s.l.",
@@ -21470,8 +21469,8 @@ const jsonData = [
     "Fund":"BTB Segn. 65 Intonso.",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2147.0,
+},{
+    "Id":2147,
     "Authors":"Peyrefitte, Roger",
     "Title":"Les ambassades",
     "Cities":"Paris  ",
@@ -21480,8 +21479,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1057",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2148.0,
+},{
+    "Id":2148,
     "Authors":"Peyrefitte, Roger",
     "Title":"Les amiti\u00e9s particuli\u00e8res",
     "Cities":"Paris  ",
@@ -21490,8 +21489,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1058",
     "Segni":"Intonso.",
     "Category":"FL"
-    },{
-    "Id":2149.0,
+},{
+    "Id":2149,
     "Authors":"Peyrefitte, Roger",
     "Title":"Chevaliers de Malte",
     "Cities":"Paris  ",
@@ -21500,8 +21499,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1059",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2150.0,
+},{
+    "Id":2150,
     "Authors":"Peyrefitte, Roger",
     "Title":"Les cl\u00e9s de Saint Pierre",
     "Cities":"Paris  ",
@@ -21510,8 +21509,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1060",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2151.0,
+},{
+    "Id":2151,
     "Authors":"Peyrefitte, Roger",
     "Title":"La fin des ambassades",
     "Cities":"Paris  ",
@@ -21520,8 +21519,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1061",
     "Segni":"Intonso.",
     "Category":"FL"
-    },{
-    "Id":2152.0,
+},{
+    "Id":2152,
     "Authors":"Pia, Pascal",
     "Title":"Baudelaire par lui-m\u00eame",
     "Cities":"Paris  ",
@@ -21530,9 +21529,9 @@ const jsonData = [
     "Fund":"BTB Segn. 1142",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2153.0,
-    "Authors":null,
+},{
+    "Id":2153,
+    "Authors":"Not found",
     "Title":"Pianta di Milano.",
     "Cities":"Milano",
     "Publisher":"A. & G. Marco",
@@ -21540,8 +21539,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 68",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":2154.0,
+},{
+    "Id":2154,
     "Authors":"Piat, Clodius",
     "Title":"Aristote",
     "Cities":"Paris",
@@ -21549,9 +21548,9 @@ const jsonData = [
     "Years":1912,
     "Fund":"BTB Segn. 1968",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2155.0,
+    "Category":"CL"
+},{
+    "Id":2155,
     "Authors":"Piazzolla, Marino",
     "Title":"Gli occhi di Orfeo",
     "Cities":"Roma  ",
@@ -21560,8 +21559,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore in data 23.11.1964.",
     "Category":"IL"
-    },{
-    "Id":2156.0,
+},{
+    "Id":2156,
     "Authors":"Piccioni, Leone",
     "Title":"Due saggi sulla poesia di Ungaretti",
     "Cities":"Roma",
@@ -21570,8 +21569,8 @@ const jsonData = [
     "Fund":"BTB Segn. 602",
     "Segni":"Dedica dell\u2019autore in data 15.12.1950.",
     "Category":"IL"
-    },{
-    "Id":2157.0,
+},{
+    "Id":2157,
     "Authors":"Piccioni, Leone",
     "Title":"Lavagna bianca. Diario 1963, conagosto in URSS",
     "Cities":"Firenze",
@@ -21580,8 +21579,8 @@ const jsonData = [
     "Fund":"BTB Segn. 602 e BAL",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":2158.0,
+},{
+    "Id":2158,
     "Authors":"Piccioni, Leone",
     "Title":"Lettura leopardiana ed altri saggi",
     "Cities":"Firenze",
@@ -21590,8 +21589,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore in data 28.7.1952.",
     "Category":"IL"
-    },{
-    "Id":2159.0,
+},{
+    "Id":2159,
     "Authors":"Piccioni, Leone",
     "Title":"Maestri e amici",
     "Cities":"Milano",
@@ -21600,8 +21599,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore in data 23.9.1969.",
     "Category":"IL"
-    },{
-    "Id":2160.0,
+},{
+    "Id":2160,
     "Authors":"Piccioni, Leone",
     "Title":"La narrativa italiana tra romanzo e racconti",
     "Cities":"Milano",
@@ -21610,8 +21609,8 @@ const jsonData = [
     "Fund":"BTB Segn. 860",
     "Segni":"Dedica dell\u2019autore in data 10.11.1959.",
     "Category":"IL"
-    },{
-    "Id":2161.0,
+},{
+    "Id":2161,
     "Authors":"Piccioni, Leone",
     "Title":"Sui contemporanei",
     "Cities":"Milano",
@@ -21620,8 +21619,8 @@ const jsonData = [
     "Fund":"BTB Segn. 861",
     "Segni":"Dedica dell\u2019autore in data 1953.",
     "Category":"IL"
-    },{
-    "Id":2162.0,
+},{
+    "Id":2162,
     "Authors":"Piccioni, Leone",
     "Title":"Tradizione letteraria e idee correnti",
     "Cities":"Milano",
@@ -21630,8 +21629,8 @@ const jsonData = [
     "Fund":"BTB Segn. 862-863",
     "Segni":"Dedica dell\u2019autore in data 1956.",
     "Category":"IL"
-    },{
-    "Id":2163.0,
+},{
+    "Id":2163,
     "Authors":"Piccioni, Leone",
     "Title":" Troppa morte, troppa vita. Viaggi e pensieri intorno agli USA",
     "Cities":"Firenze",
@@ -21640,8 +21639,8 @@ const jsonData = [
     "Fund":"BTB Segn. 603",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":2164.0,
+},{
+    "Id":2164,
     "Authors":"Picchi, Mario",
     "Title":"Il muro torto",
     "Cities":"Torino",
@@ -21650,8 +21649,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2165.0,
+},{
+    "Id":2165,
     "Authors":"Picchi, Mario",
     "Title":"Roma di giorno",
     "Cities":"Milano",
@@ -21660,8 +21659,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2166.0,
+},{
+    "Id":2166,
     "Authors":"Picchi, Mario",
     "Title":"Storia di una notte",
     "Cities":"Milano  ",
@@ -21670,8 +21669,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore e foglietto con appunti  inserito.",
     "Category":"IL"
-    },{
-    "Id":2167.0,
+},{
+    "Id":2167,
     "Authors":"Piccoli Genovese, Alberto",
     "Title":"Giovenale",
     "Cities":"Firenze",
@@ -21680,9 +21679,9 @@ const jsonData = [
     "Fund":"BTB Segn. 127",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2168.0,
-    "Authors":null,
+},{
+    "Id":2168,
+    "Authors":"Not found",
     "Title":"Piccolo vocabolario metodico della lingua greca compilato per le scuole secondarie",
     "Cities":"Livorno",
     "Publisher":"Giusti",
@@ -21690,8 +21689,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2487",
     "Segni":null,
     "Category":"GR"
-    },{
-    "Id":2169.0,
+},{
+    "Id":2169,
     "Authors":"Pick, Felice",
     "Title":"Pensieri controcorrente. ",
     "Cities":"Roma",
@@ -21700,8 +21699,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1883",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2170.0,
+},{
+    "Id":2170,
     "Authors":"Picon, Ga\u00ebtan",
     "Title":"Panorama de la nouvelle litt\u00e9rature fran\u00e7aise.",
     "Cities":"Paris  ",
@@ -21710,8 +21709,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1144",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2171.0,
+},{
+    "Id":2171,
     "Authors":"Pieri, Piero",
     "Title":"L\u2019Italia nella prima guerra mondiale (1915-1918)",
     "Cities":"Torino",
@@ -21720,18 +21719,18 @@ const jsonData = [
     "Fund":"BTB Segn. 1545",
     "Segni":null,
     "Category":"S "
-    },{
-    "Id":2172.0,
-    "Authors":null,
+},{
+    "Id":2172,
+    "Authors":"Not found",
     "Title":"Piero della Francesca,",
     "Cities":"Ivrea",
     "Publisher":"Ing. Olivetti e C.",
     "Years":1959,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":2173.0,
+    "Category":"HA"
+},{
+    "Id":2173,
     "Authors":"Pignatti, Terisio",
     "Title":"Lorenzo Lotto",
     "Cities":"Milano",
@@ -21740,8 +21739,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2195",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2174.0,
+},{
+    "Id":2174,
     "Authors":"Pilon, Edmond",
     "Title":"La vie de famille au dixhuiti\u00e8me si\u00e8cle. ",
     "Cities":"Paris",
@@ -21749,19 +21748,19 @@ const jsonData = [
     "Years":1928,
     "Fund":"BTB Segn. 1688",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2175.0,
-    "Authors":null,
+    "Category":"H"
+},{
+    "Id":2175,
+    "Authors":"Not found",
     "Title":"Pinacoteca Querini-Stampalia: Catalogo",
     "Cities":"Verona",
     "Publisher":"Zanetti",
     "Years":1925,
     "Fund":"BTB Segn. 2293",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":2176.0,
+    "Category":"HA"
+},{
+    "Id":2176,
     "Authors":"Pincherle, Salvatore",
     "Title":"Esercizi sulla geometria elementare",
     "Cities":"Milano",
@@ -21770,8 +21769,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2025",
     "Segni":"Nota di possesso autografa in data 1.11.1924.",
     "Category":"T"
-    },{
-    "Id":2177.0,
+},{
+    "Id":2177,
     "Authors":"Pincherle, Salvatore",
     "Title":"Geometria metrica e trigonometria",
     "Cities":"Milano",
@@ -21780,8 +21779,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2019",
     "Segni":"Nota di possesso autografa in data 1919 Milano.",
     "Category":"T"
-    },{
-    "Id":2178.0,
+},{
+    "Id":2178,
     "Authors":"Pincherle, Salvatore",
     "Title":"Geometria pura elementare con le figure sferiche",
     "Cities":"Milano  ",
@@ -21790,8 +21789,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2018",
     "Segni":"Nota di possesso autografa in data 1.11.1924.",
     "Category":"T"
-    },{
-    "Id":2179.0,
+},{
+    "Id":2179,
     "Authors":"Pinelli, Tullio",
     "Title":"Re Hassan",
     "Cities":"Milano",
@@ -21799,9 +21798,9 @@ const jsonData = [
     "Years":1938,
     "Fund":"BTB Segn. Op. 086",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2180.0,
+    "Category":"H"
+},{
+    "Id":2180,
     "Authors":"Pini, Gian Domenico",
     "Title":"I santi martiri Sisinio, Martirio e Alessandro e il loro culto in Milano",
     "Cities":"Milano",
@@ -21810,8 +21809,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1793",
     "Segni":"Parzialmente intonso.",
     "Category":"V"
-    },{
-    "Id":2181.0,
+},{
+    "Id":2181,
     "Authors":"Piovene, Guido",
     "Title":"I falsi redentori",
     "Cities":"Milano  ",
@@ -21820,8 +21819,8 @@ const jsonData = [
     "Fund":"BTB Segn. 604",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2182.0,
+},{
+    "Id":2182,
     "Authors":"Pirandello, Luigi",
     "Title":"In silenzio (Novelle per un anno vol. 6)",
     "Cities":"Firenze",
@@ -21830,8 +21829,8 @@ const jsonData = [
     "Fund":"BTB Segn. 605",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2183.0,
+},{
+    "Id":2183,
     "Authors":"Pieri, Piero",
     "Title":"Storia militare del Rinascimento: guerre e insurrezioni",
     "Cities":"Torino  ",
@@ -21839,9 +21838,9 @@ const jsonData = [
     "Years":1962,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2184.0,
+    "Category":"H"
+},{
+    "Id":2184,
     "Authors":"Pirola, Floriano",
     "Title":"La rabbia morta",
     "Cities":"Milano  ",
@@ -21850,8 +21849,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore in data 1967.",
     "Category":"IL"
-    },{
-    "Id":2185.0,
+},{
+    "Id":2185,
     "Authors":"Pisani, Vittore",
     "Title":"Grammatica della lingua greca, fonetica e morfologia",
     "Cities":"Milano ",
@@ -21860,8 +21859,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"GR"
-    },{
-    "Id":2186.0,
+},{
+    "Id":2186,
     "Authors":"Pisani, Vittore",
     "Title":"Manuale storico della lingua greca",
     "Cities":"Firenze",
@@ -21870,8 +21869,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2447",
     "Segni":null,
     "Category":"GR"
-    },{
-    "Id":2187.0,
+},{
+    "Id":2187,
     "Authors":"Pisani, Vittore",
     "Title":" Sintassi della lingua greca antica: con appendici sulla metrica e sui dialetti.",
     "Cities":"Milano",
@@ -21880,8 +21879,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Sottolineature e appunti.",
     "Category":"GR"
-    },{
-    "Id":2188.0,
+},{
+    "Id":2188,
     "Authors":"Pitagora (pseudo)",
     "Title":"I versi aurei, i simboli, le lettere seguite da frammenti ed estratti di Porfirio, dell\u2019anonimo Foziano di Iamblico e di Ierocle relativi a Pitagora",
     "Cities":"Lanciano",
@@ -21890,8 +21889,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1884",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2189.0,
+},{
+    "Id":2189,
     "Authors":"Pittelli, Giuseppe",
     "Title":"Aforismi",
     "Cities":"Padova",
@@ -21900,18 +21899,18 @@ const jsonData = [
     "Fund":"BTB Segn. 606",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2190.0,
-    "Authors":null,
+},{
+    "Id":2190,
+    "Authors":"Not found",
     "Title":"La pittura bresciana del Rinascimento. Catalogo della mostra. Citt\u00e0 di Brescia. Maggiosettembre 1939-XVII",
     "Cities":"Bergamo",
     "Publisher":"Istituto Italiano d\u2019Arti Grafiche",
     "Years":1939,
     "Fund":"BTB Segn. 2241",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":2191.0,
+    "Category":"HA"
+},{
+    "Id":2191,
     "Authors":"Piva, Ugo Agide",
     "Title":"La catalisi e le sue applicazioni industriali",
     "Cities":"Milano",
@@ -21919,9 +21918,9 @@ const jsonData = [
     "Years":1924,
     "Fund":"BTB Segn. 2053",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2192.0,
+    "Category":"T"
+},{
+    "Id":2192,
     "Authors":"Pizzagalli, Angelo Mari",
     "Title":"Buddha e i dogmi del budddhismo",
     "Cities":null,
@@ -21930,8 +21929,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"F "
-    },{
-    "Id":2193.0,
+},{
+    "Id":2193,
     "Authors":"Pizzagalli, Angelo Mari",
     "Title":"La filosofia indiana",
     "Cities":"Pavia  ",
@@ -21939,9 +21938,9 @@ const jsonData = [
     "Years":1913,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":2194.0,
+    "Category":"P"
+},{
+    "Id":2194,
     "Authors":"Pizzetti, Ippolito, Cocker Henry",
     "Title":"Il libro dei fiori",
     "Cities":"Milano  ",
@@ -21950,9 +21949,9 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2195.0,
-    "Authors":null,
+},{
+    "Id":2195,
+    "Authors":"Not found",
     "Title":"Planimetria delle strade della citt\u00e0 di Milano al 31 dicembre 1901",
     "Cities":"Milano",
     "Publisher":"Vallardi",
@@ -21960,8 +21959,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 70",
     "Segni":null,
     "Category":"G "
-    },{
-    "Id":2196.0,
+},{
+    "Id":2196,
     "Authors":"Platone",
     "Title":"Apologia di Socrate. ",
     "Cities":"Milano",
@@ -21970,8 +21969,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1885",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2197.0,
+},{
+    "Id":2197,
     "Authors":"Platone",
     "Title":"Il Fedone. ",
     "Cities":"Milano",
@@ -21980,8 +21979,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Nota di possesso di Gadda in data 18.5.24 Milano.",
     "Category":"CL"
-    },{
-    "Id":2198.0,
+},{
+    "Id":2198,
     "Authors":"Platone",
     "Title":"Fedone",
     "Cities":"Bari",
@@ -21990,8 +21989,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1886",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2199.0,
+},{
+    "Id":2199,
     "Authors":"Platone",
     "Title":" \u0152uvres compl\u00e8tes.",
     "Cities":"Paris",
@@ -22000,8 +21999,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1888-1897",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2200.0,
+},{
+    "Id":2200,
     "Authors":"Platone",
     "Title":"\u0152uvres compl\u00e8tes",
     "Cities":"Paris  ",
@@ -22010,8 +22009,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2201.0,
+},{
+    "Id":2201,
     "Authors":"Platone",
     "Title":"Processo e morte di Socrate. Eutifrone. Apologia. Critone. Fedone",
     "Cities":"Milano",
@@ -22020,8 +22019,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1887",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2202.0,
+},{
+    "Id":2202,
     "Authors":"Platone",
     "Title":"Il Protagora",
     "Cities":"Milano  ",
@@ -22030,8 +22029,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Nota di possesso di Gadda in data 18.5.1924 Milano.",
     "Category":"CL"
-    },{
-    "Id":2203.0,
+},{
+    "Id":2203,
     "Authors":"Plauto, Tito Maccio",
     "Title":"La commedia del fantasma; Il soldato smargiasso.",
     "Cities":"Roma",
@@ -22040,8 +22039,8 @@ const jsonData = [
     "Fund":"BTB Segn. 70",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2204.0,
+},{
+    "Id":2204,
     "Authors":"Plinio Cecilio Secondo il Giovane",
     "Title":"Epistole scelte",
     "Cities":"Venezia",
@@ -22050,8 +22049,8 @@ const jsonData = [
     "Fund":"BTB Segn. 71",
     "Segni":"Postille.",
     "Category":"CL"
-    },{
-    "Id":2205.0,
+},{
+    "Id":2205,
     "Authors":"Plutarco",
     "Title":"Le vite parallele. Alessandro e Cesare",
     "Cities":"Torino-Milano-Firenze-Roma-NapoliPlermo",
@@ -22060,18 +22059,18 @@ const jsonData = [
     "Fund":"BTB Segn. 17",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2206.0,
-    "Authors":null,
+},{
+    "Id":2206,
+    "Authors":"Not found",
     "Title":"Plutarque",
     "Cities":"Paris",
     "Publisher":"Gallimard",
     "Years":1951,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2207.0,
+    "Category":"CL"
+},{
+    "Id":2207,
     "Authors":"Podadera, Luis Miranda",
     "Title":"Un viaje a Toledo",
     "Cities":"Madrid  ",
@@ -22080,8 +22079,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2311",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":2208.0,
+},{
+    "Id":2208,
     "Authors":"Poe, Edgar Allan",
     "Title":"Histoires extraordinaires. ",
     "Cities":"Paris",
@@ -22089,9 +22088,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BTB Segn. 1287",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2209.0,
+    "Category":"AL"
+},{
+    "Id":2209,
     "Authors":"Poe, Edgar Allan",
     "Title":"Nouvelles histoires extraordinaires",
     "Cities":"Paris  ",
@@ -22099,9 +22098,9 @@ const jsonData = [
     "Years":1920,
     "Fund":"BTB Segn. 956",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2210.0,
+    "Category":"AL"
+},{
+    "Id":2210,
     "Authors":"Poe, Edgar Allan",
     "Title":"Racconti del terrore",
     "Cities":"Milano",
@@ -22109,9 +22108,9 @@ const jsonData = [
     "Years":1950,
     "Fund":"BTB Segn. 1288",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2211.0,
+    "Category":"AL"
+},{
+    "Id":2211,
     "Authors":"Poe, Edgar Allan",
     "Title":" Racconti straordinari. ",
     "Cities":"Milano",
@@ -22119,9 +22118,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BTB Segn. 1289",
     "Segni":"Nota di possesso autografa in data 10.1924.",
-    "Category":"EL"
-    },{
-    "Id":2212.0,
+    "Category":"AL"
+},{
+    "Id":2212,
     "Authors":"Poe, Edgar Allan",
     "Title":"Suggestione",
     "Cities":"Roma",
@@ -22129,20 +22128,20 @@ const jsonData = [
     "Years":1942,
     "Fund":"BTB Segn. 1286",
     "Segni":"Parzialmente intonso.",
-    "Category":"EL"
-    },{
-    "Id":2213.0,
-    "Authors":null,
+    "Category":"AL"
+},{
+    "Id":2213,
+    "Authors":"Not found",
     "Title":"Poesia dialettale del Novecento.",
     "Cities":"Parma",
     "Publisher":"Guanda",
     "Years":1952,
     "Fund":"BTB Segn. 608",
     "Segni":"Dedica di P.P. Pasolini in data 10.1.1953.",
-    "Category":"EL"
-    },{
-    "Id":2214.0,
-    "Authors":null,
+    "Category":"AL"
+},{
+    "Id":2214,
+    "Authors":"Not found",
     "Title":"La poesia popolare italiana",
     "Cities":"Milano",
     "Publisher":"Garzanti",
@@ -22150,9 +22149,9 @@ const jsonData = [
     "Fund":"BTB Segn. 609",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2215.0,
-    "Authors":null,
+},{
+    "Id":2215,
+    "Authors":"Not found",
     "Title":"Poesia spagnola del Novecento.",
     "Cities":"Parma",
     "Publisher":"Guanda",
@@ -22160,29 +22159,29 @@ const jsonData = [
     "Fund":"BTB Segn. 938",
     "Segni":"Postille.",
     "Category":"SL"
-    },{
-    "Id":2216.0,
-    "Authors":null,
+},{
+    "Id":2216,
+    "Authors":"Not found",
     "Title":"Poesia straniera del Novecento",
     "Cities":"Milano",
     "Publisher":"Garzanti",
     "Years":1958,
     "Fund":"BTB Segn. 1410",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2217.0,
-    "Authors":null,
+    "Category":"GR"
+},{
+    "Id":2217,
+    "Authors":"Not found",
     "Title":"Poesia straniera del Novecento",
     "Cities":"Milano",
     "Publisher":"Garzanti",
     "Years":1960,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2218.0,
-    "Authors":null,
+    "Category":"GR"
+},{
+    "Id":2218,
+    "Authors":"Not found",
     "Title":"Poeti del Dolce Stil Novo (GuidoGuinizelli, Guido Cavalcanti,Lapo Gianni, Gianni Alfani, DinoFrescobaldi, Cino da Pistoia)",
     "Cities":"Roma  ",
     "Publisher":"Collana italiana",
@@ -22190,9 +22189,9 @@ const jsonData = [
     "Fund":"BTB Segn. 607",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2219.0,
-    "Authors":null,
+},{
+    "Id":2219,
+    "Authors":"Not found",
     "Title":"Poeti del Duecento. ",
     "Cities":"Milano-Napoli ",
     "Publisher":"Ricciardi",
@@ -22200,9 +22199,9 @@ const jsonData = [
     "Fund":"BTB Segn. 610-611",
     "Segni":"Dedica del curatore.",
     "Category":"IL"
-    },{
-    "Id":2220.0,
-    "Authors":null,
+},{
+    "Id":2220,
+    "Authors":"Not found",
     "Title":"Poeti del Novecento italiani e stranieri. Antologia",
     "Cities":"Torino",
     "Publisher":"Einaudi",
@@ -22210,18 +22209,18 @@ const jsonData = [
     "Fund":"BTB Segn. 1411",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2221.0,
-    "Authors":null,
+},{
+    "Id":2221,
+    "Authors":"Not found",
     "Title":"Poeti inglesi dell\u2019Ottocento.",
     "Cities":"Firenze",
     "Publisher":"Bemporad",
     "Years":1925,
     "Fund":"BTB Segn. 1290",
     "Segni":"Intonso.",
-    "Category":"EL"
-    },{
-    "Id":2222.0,
+    "Category":"AL"
+},{
+    "Id":2222,
     "Authors":"Pohl, Robert Wichard",
     "Title":"Elementi teoricopratici di elettrofisica moderna",
     "Cities":"Milano",
@@ -22230,8 +22229,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2131",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2223.0,
+},{
+    "Id":2223,
     "Authors":"Poliaghi, Nora",
     "Title":"Tempesta a Torcello",
     "Cities":"Parma",
@@ -22240,8 +22239,8 @@ const jsonData = [
     "Fund":"BTB Segn. 613",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":2224.0,
+},{
+    "Id":2224,
     "Authors":"Poliziano (Agnolo Ambrogini detto il)",
     "Title":"Rime. ",
     "Cities":"Firenze ",
@@ -22250,8 +22249,8 @@ const jsonData = [
     "Fund":"BTB Segn. 615",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2225.0,
+},{
+    "Id":2225,
     "Authors":"Poliziano (Agnolo Ambrogini detto il)",
     "Title":" Le stanze, L\u2019Orfeo e le Rime",
     "Cities":"Firenze  ",
@@ -22260,8 +22259,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica del curatore in data 4.2.1942.",
     "Category":"IL"
-    },{
-    "Id":2226.0,
+},{
+    "Id":2226,
     "Authors":"Poliziano (Agnolo Ambrogini detto il)",
     "Title":" Le stanze, L\u2019Orfeo e le Rime",
     "Cities":"Torino",
@@ -22270,8 +22269,8 @@ const jsonData = [
     "Fund":"BTB Segn. 614",
     "Segni":"Sottolineature e postille.",
     "Category":"IL"
-    },{
-    "Id":2227.0,
+},{
+    "Id":2227,
     "Authors":"Poliziano (Agnolo Ambrogini detto il)",
     "Title":"Stanze per la giostra \u2013 Oreste",
     "Cities":"Roma",
@@ -22280,8 +22279,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Nota di possesso di Enrico Gadda in data 10.1917 Chiarotti.",
     "Category":"IL"
-    },{
-    "Id":2228.0,
+},{
+    "Id":2228,
     "Authors":"Polo, Marco",
     "Title":"Il Milione",
     "Cities":"Roma ",
@@ -22290,8 +22289,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2229.0,
+},{
+    "Id":2229,
     "Authors":"Pomeau, Ren\u00e9",
     "Title":"Voltaire par lui-m\u00eame",
     "Cities":"Paris  ",
@@ -22300,8 +22299,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1143",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2230.0,
+},{
+    "Id":2230,
     "Authors":"Ponzini, Pier Carlo",
     "Title":"Alla ricerca della passione",
     "Cities":"Milano",
@@ -22310,8 +22309,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2231.0,
+},{
+    "Id":2231,
     "Authors":"Porena, Filippo",
     "Title":"Guida di Roma e i suoi dintorni ossia itinerario del Nibby",
     "Cities":"Torino",
@@ -22320,8 +22319,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":2232.0,
+},{
+    "Id":2232,
     "Authors":"Porta, Carlo",
     "Title":"El lava piatt del meneghin ch\u2019\u00e8 mort",
     "Cities":"Milano-Napoli",
@@ -22330,8 +22329,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2233.0,
+},{
+    "Id":2233,
     "Authors":"Porta, Carlo",
     "Title":"Poesie",
     "Cities":"Firenze  ",
@@ -22340,8 +22339,8 @@ const jsonData = [
     "Fund":"BTB Segn. 617-618",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2234.0,
+},{
+    "Id":2234,
     "Authors":"Porta, Carlo",
     "Title":"Poesie edite e inedite.",
     "Cities":"Milano  ",
@@ -22350,8 +22349,8 @@ const jsonData = [
     "Fund":"BTB Segn. 616",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2235.0,
+},{
+    "Id":2235,
     "Authors":"Porta, Carlo \u2013 Grossi, Tommaso",
     "Title":"Poesie milanesi",
     "Cities":"Milano  ",
@@ -22360,8 +22359,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2236.0,
+},{
+    "Id":2236,
     "Authors":"Portaluppi, Piero",
     "Title":"Aedilitia",
     "Cities":"Milano",
@@ -22370,8 +22369,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2391",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2237.0,
+},{
+    "Id":2237,
     "Authors":"Portaluppi, Piero",
     "Title":"L\u2019architettura del Rinascimento nell\u2019ex ducato di Milano 1450- 1500",
     "Cities":"Milano",
@@ -22380,8 +22379,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2215",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":2238.0,
+},{
+    "Id":2238,
     "Authors":"Portaluppi, Piero",
     "Title":"La Casa degli Atellani",
     "Cities":"Milano  ",
@@ -22390,8 +22389,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2390-2390 bis",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2239.0,
+},{
+    "Id":2239,
     "Authors":"Portaluppi, Piero  \u2013 Pica, Agnoldomenico",
     "Title":"La basilica porziana di S. Vittore al Corpo",
     "Cities":"Milano",
@@ -22400,8 +22399,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2389",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2240.0,
+},{
+    "Id":2240,
     "Authors":"Portaluppi, Piero  \u2013 Pica, Agnoldomenico",
     "Title":"Le Grazie",
     "Cities":"Roma ",
@@ -22410,8 +22409,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2393",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2241.0,
+},{
+    "Id":2241,
     "Authors":"Portaluppi, Piero  \u2013 Pica, Agnoldomenico \u2013 Semenza, Marco",
     "Title":"Milano come \u00e8 ora e come sar\u00e0. Progetto per il piano regolatore della citt\u00e0 di Milano",
     "Cities":"Milano  ",
@@ -22420,8 +22419,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2394",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2242.0,
+},{
+    "Id":2242,
     "Authors":"Portmann, Adolf",
     "Title":"Le forme degli animali",
     "Cities":"Milano",
@@ -22430,9 +22429,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2084",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2243.0,
-    "Authors":null,
+},{
+    "Id":2243,
+    "Authors":"Not found",
     "Title":"Possedimenti e colonie.",
     "Cities":"Milano",
     "Publisher":"TCI",
@@ -22440,8 +22439,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2312",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":2244.0,
+},{
+    "Id":2244,
     "Authors":"Pouqueville, Fran\u00e7ois Charles Hugues",
     "Title":"La Grecia",
     "Cities":"Venezia",
@@ -22450,8 +22449,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2358",
     "Segni":"Nota di possesso di Adele Gadda Lehr.",
     "Category":"G"
-    },{
-    "Id":2245.0,
+},{
+    "Id":2245,
     "Authors":"Power, Eileen",
     "Title":"Vita nel Medioevo",
     "Cities":"Torino",
@@ -22460,8 +22459,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"S "
-    },{
-    "Id":2246.0,
+},{
+    "Id":2246,
     "Authors":"Pozza, Neri",
     "Title":"Processo per eresia",
     "Cities":"Firenze  ",
@@ -22470,8 +22469,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore in data 3.4.1970.",
     "Category":"IL"
-    },{
-    "Id":2247.0,
+},{
+    "Id":2247,
     "Authors":"Pozzi, Gianni",
     "Title":"La poesia italiana del Novecento",
     "Cities":"Torino",
@@ -22480,8 +22479,8 @@ const jsonData = [
     "Fund":"BTB Segn. 864",
     "Segni":"Dedica dell\u2019autore in data 1965.",
     "Category":"IL"
-    },{
-    "Id":2248.0,
+},{
+    "Id":2248,
     "Authors":"Pra, Raul (Roberto Pozzi)",
     "Title":"Nel buio",
     "Cities":"Roma",
@@ -22490,8 +22489,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore in data 13.5.70.",
     "Category":"IL"
-    },{
-    "Id":2249.0,
+},{
+    "Id":2249,
     "Authors":"Praechter, Karl \u2013 Ueberweg, Friedrich",
     "Title":"Die Philosophie des Altertums",
     "Cities":"Berlin",
@@ -22499,9 +22498,9 @@ const jsonData = [
     "Years":1926,
     "Fund":null,
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":2250.0,
+    "Category":"P"
+},{
+    "Id":2250,
     "Authors":"Praga, Emilio",
     "Title":"Tavolozza",
     "Cities":"Roma",
@@ -22510,8 +22509,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Nota di possesso di Enrico Gadda Chantis  6 ottobre 17.",
     "Category":"IL"
-    },{
-    "Id":2251.0,
+},{
+    "Id":2251,
     "Authors":"Prati, Angelico",
     "Title":"Vocabolario etimologico italiano",
     "Cities":"Milano",
@@ -22520,8 +22519,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":2252.0,
+},{
+    "Id":2252,
     "Authors":"Pratolini, Vasco",
     "Title":"Le amiche",
     "Cities":"Firenze",
@@ -22530,8 +22529,8 @@ const jsonData = [
     "Fund":"BTB Segn. 619",
     "Segni":"Dedica dell\u2019autore in data 5.1943.",
     "Category":"IL"
-    },{
-    "Id":2253.0,
+},{
+    "Id":2253,
     "Authors":"Pratolini, Vasco",
     "Title":"Cronache di poveri amanti",
     "Cities":"Firenze",
@@ -22540,8 +22539,8 @@ const jsonData = [
     "Fund":"BTB Segn. 620",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2254.0,
+},{
+    "Id":2254,
     "Authors":"Pratolini, Vasco",
     "Title":"Il tappeto verde",
     "Cities":"Firenze  ",
@@ -22550,8 +22549,8 @@ const jsonData = [
     "Fund":"BTB Segn. 621",
     "Segni":"Dedica dell\u2019autore in data 5.1941.",
     "Category":"IL"
-    },{
-    "Id":2255.0,
+},{
+    "Id":2255,
     "Authors":"Pratolini, Vasco",
     "Title":"Via de\u2019 Magazzini",
     "Cities":"Firenze  ",
@@ -22560,8 +22559,8 @@ const jsonData = [
     "Fund":"BTB Segn. 622",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":2256.0,
+},{
+    "Id":2256,
     "Authors":"Praz, Mario",
     "Title":"La carne, la morte e il diavolo nella letteratura romantica",
     "Cities":"Torino",
@@ -22570,8 +22569,8 @@ const jsonData = [
     "Fund":"BTB Segn. 865",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2257.0,
+},{
+    "Id":2257,
     "Authors":"Praz, Mario",
     "Title":"Motivi e figure",
     "Cities":"Torino",
@@ -22580,8 +22579,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2258.0,
+},{
+    "Id":2258,
     "Authors":"Praz, Mario",
     "Title":"Storia della letteratura inglese",
     "Cities":"Firenze",
@@ -22589,10 +22588,10 @@ const jsonData = [
     "Years":1937,
     "Fund":"BTB Segn. 1350",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2259.0,
-    "Authors":null,
+    "Category":"AL"
+},{
+    "Id":2259,
+    "Authors":"Not found",
     "Title":"Premi assegnati dalla Reale Accademia d\u2019Italia nell\u2019Adunanza solenne in Campidoglio, 21 aprile 1942-XX",
     "Cities":"Roma",
     "Publisher":"Reale Accademia d\u2019Italia",
@@ -22600,9 +22599,9 @@ const jsonData = [
     "Fund":"BAL e BTB Segn. Op. 23-24",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":2260.0,
-    "Authors":null,
+},{
+    "Id":2260,
+    "Authors":"Not found",
     "Title":"Prima mostra del Cavallino. Campigli, Carr\u00e0, Cesetti, Marino, Romanelli, Rosai, Sironi, Tosi",
     "Cities":"Venezia ",
     "Publisher":"Edizioni del Cavallino",
@@ -22610,8 +22609,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2232",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":2261.0,
+},{
+    "Id":2261,
     "Authors":"Procacci, Ugo",
     "Title":"Mostra di opere d\u2019arte restaurate",
     "Cities":"Firenze",
@@ -22619,10 +22618,10 @@ const jsonData = [
     "Years":1946,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":2262.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":2262,
+    "Authors":"Not found",
     "Title":"Processo Winckelmann",
     "Cities":null,
     "Publisher":null,
@@ -22630,9 +22629,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2232",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":2263.0,
-    "Authors":null,
+},{
+    "Id":2263,
+    "Authors":"Not found",
     "Title":"Programmi e attivit\u00e0",
     "Cities":"Roma  ",
     "Publisher":"Comitato Nazionale per l\u2019Energia Nucleare",
@@ -22640,8 +22639,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":2264.0,
+},{
+    "Id":2264,
     "Authors":"Properzio, Sesto",
     "Title":"Le elegie",
     "Cities":"Milano ",
@@ -22650,8 +22649,8 @@ const jsonData = [
     "Fund":"BTB Segn. 73",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2265.0,
+},{
+    "Id":2265,
     "Authors":"Properzio, Sesto",
     "Title":"El\u00e9gies",
     "Cities":"Paris",
@@ -22660,9 +22659,9 @@ const jsonData = [
     "Fund":"BTB Segn. 105",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2266.0,
-    "Authors":null,
+},{
+    "Id":2266,
+    "Authors":"Not found",
     "Title":"Prosatori latini del Quattrocento",
     "Cities":"Milano-Napoli",
     "Publisher":"Ricciardi",
@@ -22670,9 +22669,9 @@ const jsonData = [
     "Fund":"BTB Segn. 623",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2267.0,
-    "Authors":null,
+},{
+    "Id":2267,
+    "Authors":"Not found",
     "Title":"Prose e poesie greche scelte e annotate ad uso dei licei",
     "Cities":"Roma-Milano",
     "Publisher":"Dante Alighieri",
@@ -22680,9 +22679,9 @@ const jsonData = [
     "Fund":"BTB Segn. 23",
     "Segni":"Nota di possesso autografa. Postille.",
     "Category":"CL"
-    },{
-    "Id":2268.0,
-    "Authors":null,
+},{
+    "Id":2268,
+    "Authors":"Not found",
     "Title":"Prospettive della letteratura francese da Corneille a Ch\u00e9nier",
     "Cities":"Milano",
     "Publisher":"Bompiani",
@@ -22690,8 +22689,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1145",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2269.0,
+},{
+    "Id":2269,
     "Authors":"Proust, Marcel",
     "Title":"\u00c0 la recherche du temps perdu. Tome I. Du c\u00f4t\u00e9 de chez Swann",
     "Cities":"Paris  ",
@@ -22700,8 +22699,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1062-1063",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2270.0,
+},{
+    "Id":2270,
     "Authors":"Proust, Marcel",
     "Title":" \u00c0 la recherche du temps perdu. Tome II \u00c0 l\u2019ombre des jeunes filles en fleur. ",
     "Cities":"Paris  ",
@@ -22710,8 +22709,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1064-1066",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2271.0,
+},{
+    "Id":2271,
     "Authors":"Proust, Marcel",
     "Title":"\u00c0 la recherche du temps perdu. Tome III. Le c\u00f4t\u00e9 de Guermantes",
     "Cities":"Paris  ",
@@ -22720,8 +22719,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1067",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2272.0,
+},{
+    "Id":2272,
     "Authors":"Proust, Marcel",
     "Title":"\u00c0 la recherche du temps perdu. Tome IV. Le c\u00f4t\u00e9 de Guermantes II. Sodome et Gomorrhe I",
     "Cities":"Paris  ",
@@ -22730,8 +22729,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1068",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2273.0,
+},{
+    "Id":2273,
     "Authors":"Proust, Marcel",
     "Title":"\u00c0 la recherche du temps perdu. Tome V. Sodome et Gomorrhe",
     "Cities":"Paris  ",
@@ -22740,8 +22739,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1068",
     "Segni":"Nota di possesso autografa.",
     "Category":"FL"
-    },{
-    "Id":2274.0,
+},{
+    "Id":2274,
     "Authors":"Proust, Marcel",
     "Title":"\u00c0 la recherche du temps perdu. Tome VI. La prisonni\u00e8re (Sodome et Gomorrhe III)",
     "Cities":"Paris  ",
@@ -22750,8 +22749,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1072-1073",
     "Segni":"Nota di possesso autografa.",
     "Category":"FL"
-    },{
-    "Id":2275.0,
+},{
+    "Id":2275,
     "Authors":"Proust, Marcel",
     "Title":"\u00c0 la recherche du temps perdu. Tome VII. Albertine disparue",
     "Cities":"Paris  ",
@@ -22760,8 +22759,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1074-1075",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2276.0,
+},{
+    "Id":2276,
     "Authors":"Proust, Marcel",
     "Title":"\u00c0 la recherche du temps perdu. Tome VIII. Le temps retrouv\u00e9",
     "Cities":"Paris  ",
@@ -22770,8 +22769,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1076-1077",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2277.0,
+},{
+    "Id":2277,
     "Authors":"Proust, Marcel",
     "Title":"\u00c0 la recherche du temps perdu",
     "Cities":"Paris",
@@ -22780,8 +22779,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Foglietto inserito.",
     "Category":"FL"
-    },{
-    "Id":2278.0,
+},{
+    "Id":2278,
     "Authors":"Proust, Marcel",
     "Title":"Alla ricerca del tempo perduto",
     "Cities":"Torino",
@@ -22790,8 +22789,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2279.0,
+},{
+    "Id":2279,
     "Authors":"Proust, Marcel",
     "Title":"Contre Sainte-Beuve",
     "Cities":"Paris ",
@@ -22800,8 +22799,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2280.0,
+},{
+    "Id":2280,
     "Authors":"Proust, Marcel",
     "Title":"Jean Santeuil",
     "Cities":"Paris",
@@ -22810,8 +22809,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2281.0,
+},{
+    "Id":2281,
     "Authors":"Pulci, Luigi",
     "Title":"Morgante",
     "Cities":"Firenze",
@@ -22820,8 +22819,8 @@ const jsonData = [
     "Fund":"BTB Segn. 628",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2282.0,
+},{
+    "Id":2282,
     "Authors":"Pulci, Luigi",
     "Title":"Il Morgante",
     "Cities":"Milano",
@@ -22830,8 +22829,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2283.0,
+},{
+    "Id":2283,
     "Authors":"Pulci, Luigi",
     "Title":" Il Morgante maggiore. Con un di scorso di U. Foscolo. ",
     "Cities":"Milano",
@@ -22840,8 +22839,8 @@ const jsonData = [
     "Fund":"BTB Segn. 626-627",
     "Segni":"Parzialmente intonsi.",
     "Category":"IL"
-    },{
-    "Id":2284.0,
+},{
+    "Id":2284,
     "Authors":"Punzo, Giorgio",
     "Title":"Prolegomeni erotologici",
     "Cities":"Napoli",
@@ -22849,9 +22848,9 @@ const jsonData = [
     "Years":1961,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2285.0,
+    "Category":"IL"
+},{
+    "Id":2285,
     "Authors":"Pusckin, Aleksandr Sergeevic",
     "Title":"La figlia del capitano; La donna di picche",
     "Cities":"Milano",
@@ -22860,8 +22859,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1385",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":2286.0,
+},{
+    "Id":2286,
     "Authors":"Putelli, Romolo",
     "Title":"Intorno al castello di Breno. Storia di Valle Camonica, lago d\u2019Iseo e vicinanze da Federico Barbarossa a S. Carlo Borromeo",
     "Cities":"Breno",
@@ -22869,9 +22868,9 @@ const jsonData = [
     "Years":1915,
     "Fund":"BTB Segn. 2395",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2287.0,
+    "Category":"H"
+},{
+    "Id":2287,
     "Authors":"Quadrelli, Rodolfo",
     "Title":"Apologhi e filastrocche",
     "Cities":"Firenze  ",
@@ -22880,8 +22879,8 @@ const jsonData = [
     "Fund":"BTB Segn. 629",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2288.0,
+},{
+    "Id":2288,
     "Authors":null,
     "Title":"Quaglia: villa borghese",
     "Cities":"Roma  ",
@@ -22889,9 +22888,9 @@ const jsonData = [
     "Years":1964,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2289.0,
+    "Category":"V"
+},{
+    "Id":2289,
     "Authors":"Quasimodo, Salvatore",
     "Title":"Acque e terre",
     "Cities":"Firenze  ",
@@ -22900,8 +22899,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2290.0,
+},{
+    "Id":2290,
     "Authors":"Quasimodo, Salvatore",
     "Title":"Ed \u00e8 subito sera. ",
     "Cities":"Milano",
@@ -22910,8 +22909,8 @@ const jsonData = [
     "Fund":"BTB Segn. 631",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2291.0,
+},{
+    "Id":2291,
     "Authors":"Quasimodo, Salvatore",
     "Title":"Erato e Apollion.",
     "Cities":"Milano",
@@ -22920,8 +22919,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2292.0,
+},{
+    "Id":2292,
     "Authors":"Quasimodo, Salvatore",
     "Title":"Poesie. ",
     "Cities":"Milano",
@@ -22930,18 +22929,18 @@ const jsonData = [
     "Fund":"BTB Segn. 630",
     "Segni":"Dedica dell\u2019autore in data 11.1938.",
     "Category":"IL"
-    },{
-    "Id":2293.0,
-    "Authors":null,
+},{
+    "Id":2293,
+    "Authors":"Not found",
     "Title":"Quattro artisti",
     "Cities":"Milano  ",
     "Publisher":"Edizioni della colomba",
     "Years":1938,
     "Fund":"BAL e BTM",
     "Segni":"Tre copie.",
-    "Category":"L"
-    },{
-    "Id":2294.0,
+    "Category":"V"
+},{
+    "Id":2294,
     "Authors":"Queiros, Jos\u00e9 Maria E\u00e7a de",
     "Title":"La colpa del prete Amaro",
     "Cities":"Milano",
@@ -22950,8 +22949,8 @@ const jsonData = [
     "Fund":"BTB Segn. 943",
     "Segni":null,
     "Category":"SL"
-    },{
-    "Id":2295.0,
+},{
+    "Id":2295,
     "Authors":"Quevedo y Villegas, Francisco G\u00f3mez de",
     "Title":"Los sue\u00f1os",
     "Cities":"Madrid  ",
@@ -22960,8 +22959,8 @@ const jsonData = [
     "Fund":"BTB Segn. 925",
     "Segni":null,
     "Category":"SL"
-    },{
-    "Id":2296.0,
+},{
+    "Id":2296,
     "Authors":"Quevedo y Villegas, Francisco G\u00f3mez de",
     "Title":"Los sue\u00f1os",
     "Cities":"Madrid  ",
@@ -22970,18 +22969,18 @@ const jsonData = [
     "Fund":"BTB Segn. 923-924",
     "Segni":"Nota di possesso autografa in data 9.06.1941. Volume I, sottolineature; volume II intonso.",
     "Category":"SL"
-    },{
-    "Id":2297.0,
-    "Authors":null,
+},{
+    "Id":2297,
+    "Authors":"Not found",
     "Title":"Vita del Pitocco. ",
     "Cities":"Roma",
     "Publisher":"Form\u00ecggini",
     "Years":1927,
     "Fund":"BTB Segn. 926",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2298.0,
+    "Category":"V"
+},{
+    "Id":2298,
     "Authors":"Quicherat, Louis-Marie",
     "Title":"Petit trait\u00e9 de versification",
     "Cities":"Paris  ",
@@ -22990,8 +22989,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2448",
     "Segni":"Nota di possesso autografa di Adele Gadda  Lehr.",
     "Category":"FL"
-    },{
-    "Id":2299.0,
+},{
+    "Id":2299,
     "Authors":"Quinet, Edgard",
     "Title":"La rivoluzione",
     "Cities":"Torino   ",
@@ -22999,9 +22998,9 @@ const jsonData = [
     "Years":1953,
     "Fund":"BTB Segn. 1689-1690",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2300.0,
+    "Category":"FL"
+},{
+    "Id":2300,
     "Authors":"Quintavalle, Armando Ottaviano",
     "Title":" La Regia galleria di Parma",
     "Cities":"Roma",
@@ -23009,9 +23008,9 @@ const jsonData = [
     "Years":1939,
     "Fund":"BTB Segn. 2396",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":2301.0,
+    "Category":"HA"
+},{
+    "Id":2301,
     "Authors":"Rabelais, Fran\u00e7ois",
     "Title":"Gargantua",
     "Cities":"Paris",
@@ -23020,8 +23019,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2302.0,
+},{
+    "Id":2302,
     "Authors":"Rabelais, Fran\u00e7ois",
     "Title":"\u0152uvres",
     "Cities":"Paris   ",
@@ -23030,8 +23029,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1079",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2303.0,
+},{
+    "Id":2303,
     "Authors":"Rabelais, Fran\u00e7ois",
     "Title":"\u0152uvres",
     "Cities":"Paris ",
@@ -23040,8 +23039,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1078",
     "Segni":"Pieghe.",
     "Category":"FL"
-    },{
-    "Id":2304.0,
+},{
+    "Id":2304,
     "Authors":"Rabelais, Fran\u00e7ois",
     "Title":"\u0152uvres compl\u00e8tes de Rabelais",
     "Cities":"Paris   ",
@@ -23050,8 +23049,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2305.0,
+},{
+    "Id":2305,
     "Authors":"Rabelais, Fran\u00e7ois",
     "Title":"Pantagruel",
     "Cities":"Paris",
@@ -23060,8 +23059,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2306.0,
+},{
+    "Id":2306,
     "Authors":"Rabier, Elie",
     "Title":"Le\u00e7ons de philosophie. I. Psychologie. Avec une appendice sur le r\u00f4le de la Philosophie dans l\u2019Education",
     "Cities":"Paris  ",
@@ -23070,8 +23069,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1898",
     "Segni":"Intonso.",
     "Category":"F "
-    },{
-    "Id":2307.0,
+},{
+    "Id":2307,
     "Authors":"Rabier, Elie",
     "Title":"Le\u00e7ons de philosophie. II. Logique",
     "Cities":"Paris",
@@ -23079,20 +23078,20 @@ const jsonData = [
     "Years":1917,
     "Fund":"BTB Segn. 1899",
     "Segni":"Intonso.",
-    "Category":"F"
-    },{
-    "Id":2308.0,
-    "Authors":null,
+    "Category":"P"
+},{
+    "Id":2308,
+    "Authors":"Not found",
     "Title":"Raccolta di voci e modi di dire inuso nella citt\u00e0 di Siena e nei suoi dintorni",
     "Cities":"Siena  ",
     "Publisher":"Accademia degli Intronati",
     "Years":1944,
     "Fund":"BTB Segn. Op. 25",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2309.0,
-    "Authors":null,
+    "Category":"V"
+},{
+    "Id":2309,
+    "Authors":"Not found",
     "Title":"Racconti della Scapigliatura (1860-1910)",
     "Cities":"Milanp",
     "Publisher":"Bompiani",
@@ -23100,9 +23099,9 @@ const jsonData = [
     "Fund":"BTB Segn. 633",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2310.0,
-    "Authors":null,
+},{
+    "Id":2310,
+    "Authors":"Not found",
     "Title":"Racconti e novelle dell\u2019Otto cento",
     "Cities":"Firenze",
     "Publisher":"Sansoni",
@@ -23110,9 +23109,9 @@ const jsonData = [
     "Fund":"BTB Segn. 851",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2311.0,
-    "Authors":null,
+},{
+    "Id":2311,
+    "Authors":"Not found",
     "Title":"Racconti italiani 1967.",
     "Cities":"Milano",
     "Publisher":"Selezione dal Reader\u2019s Digest",
@@ -23120,8 +23119,8 @@ const jsonData = [
     "Fund":"BTB Segn. 634",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2312.0,
+},{
+    "Id":2312,
     "Authors":"Racine, Jean",
     "Title":"Port Royal",
     "Cities":"Roma",
@@ -23130,8 +23129,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1080",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2313.0,
+},{
+    "Id":2313,
     "Authors":"Racine, Jean",
     "Title":"Th\u00e9\u00e2tre",
     "Cities":"Paris",
@@ -23140,8 +23139,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1081",
     "Segni":"Presente solo il II volume.",
     "Category":"FL"
-    },{
-    "Id":2314.0,
+},{
+    "Id":2314,
     "Authors":"Radet, Georges",
     "Title":"Alessandro il Grande",
     "Cities":"Torino",
@@ -23149,9 +23148,9 @@ const jsonData = [
     "Years":1942,
     "Fund":"BTB Segn. 1487",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2315.0,
+    "Category":"H"
+},{
+    "Id":2315,
     "Authors":"Ramat, Raffaello",
     "Title":"Morte dell\u2019adolescenza",
     "Cities":"Ancona  ",
@@ -23160,8 +23159,8 @@ const jsonData = [
     "Fund":"BAC",
     "Segni":"Dedica dell\u2019autore in data 24.6.1935.",
     "Category":"IL"
-    },{
-    "Id":2316.0,
+},{
+    "Id":2316,
     "Authors":"Ramat, Silvio",
     "Title":"Montale",
     "Cities":"Firenze",
@@ -23170,8 +23169,8 @@ const jsonData = [
     "Fund":"BTB Segn. 866",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2317.0,
+},{
+    "Id":2317,
     "Authors":"Ramat, Silvio",
     "Title":"I se",
     "Cities":"Roma",
@@ -23179,9 +23178,9 @@ const jsonData = [
     "Years":1966,
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore in data 1966.",
-    "Category":"L"
-    },{
-    "Id":2318.0,
+    "Category":"IL"
+},{
+    "Id":2318,
     "Authors":"Ramorino, Felice",
     "Title":"Mitologia classica illustrata ad uso delle scuole medie",
     "Cities":"Milano  ",
@@ -23189,9 +23188,9 @@ const jsonData = [
     "Years":1940,
     "Fund":"BTB Segn. 128",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2319.0,
+    "Category":"CL"
+},{
+    "Id":2319,
     "Authors":"Ranieri, Antonio",
     "Title":"Sette anni di sodalizio con Leopardi",
     "Cities":"Milano",
@@ -23199,9 +23198,9 @@ const jsonData = [
     "Years":1944,
     "Fund":"BTB Segn. 867",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2320.0,
+    "Category":"IL"
+},{
+    "Id":2320,
     "Authors":"Ranzoli, Cesare",
     "Title":"Dizionario di scienze filosofiche",
     "Cities":"Milano  ",
@@ -23210,8 +23209,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1970",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":2321.0,
+},{
+    "Id":2321,
     "Authors":"Rapisardi, Mario",
     "Title":"Lucifero",
     "Cities":"Sesto San Giovanni  ",
@@ -23220,8 +23219,8 @@ const jsonData = [
     "Fund":"BTB Segn. 635",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2322.0,
+},{
+    "Id":2322,
     "Authors":"Raspail, Fran\u00e7ois Vincent",
     "Title":"  Manuale della salute",
     "Cities":"Milano  ",
@@ -23229,9 +23228,9 @@ const jsonData = [
     "Years":1862,
     "Fund":null,
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2323.0,
+    "Category":"T"
+},{
+    "Id":2323,
     "Authors":"Ravizza, Alessandrina",
     "Title":"Sette anni di vita nella casa di lavoro. (Memorie inedite)",
     "Cities":"Milano",
@@ -23239,9 +23238,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BTB Segn. 636",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2324.0,
+    "Category":"IL"
+},{
+    "Id":2324,
     "Authors":"Ravizza, Filippo",
     "Title":"Nuovo corso di lingua tedesca",
     "Cities":"Milano  ",
@@ -23249,9 +23248,9 @@ const jsonData = [
     "Years":1926,
     "Fund":"BTB Segn. 2449",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2325.0,
+    "Category":"GR"
+},{
+    "Id":2325,
     "Authors":"Read, Herbert",
     "Title":"Arte e alienazione: il ruolo dell\u2019artista nella societ\u00e0",
     "Cities":"Milano",
@@ -23259,9 +23258,9 @@ const jsonData = [
     "Years":1968,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":2326.0,
+    "Category":"HA"
+},{
+    "Id":2326,
     "Authors":"Read, Herbert",
     "Title":"Scultura moderna",
     "Cities":"Milano",
@@ -23269,9 +23268,9 @@ const jsonData = [
     "Years":1968,
     "Fund":"BTB Segn. 2242",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":2327.0,
+    "Category":"HA"
+},{
+    "Id":2327,
     "Authors":"Real Academia espa\u00f1ola",
     "Title":"Diccionario manual e ilustrado de la lengua espanola",
     "Cities":"Madrid  ",
@@ -23280,8 +23279,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"GR"
-    },{
-    "Id":2328.0,
+},{
+    "Id":2328,
     "Authors":"Reggiori, Ferdinando",
     "Title":"La basilica di Sant\u2019Ambrogio a Milano",
     "Cities":"Milano",
@@ -23289,20 +23288,20 @@ const jsonData = [
     "Years":1945,
     "Fund":"BTB Segn. 2277",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":2329.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":2329,
+    "Authors":"Not found",
     "Title":"Regia Parnassi",
     "Cities":"Parma",
     "Publisher":"Borsi",
     "Years":1763,
     "Fund":"BTB Segn. 2470",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":2330.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":2330,
+    "Authors":"Not found",
     "Title":"Regolamento del servizio in terno per le varie armi (esclusa quella dei carabinieri reali).",
     "Cities":"Roma",
     "Publisher":"Voghera",
@@ -23310,9 +23309,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2162-2163",
     "Segni":null,
     "Category":"M"
-    },{
-    "Id":2331.0,
-    "Authors":null,
+},{
+    "Id":2331,
+    "Authors":"Not found",
     "Title":"Regolamento di disciplina militare.",
     "Cities":"Roma",
     "Publisher":"Voghera",
@@ -23320,9 +23319,9 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"M"
-    },{
-    "Id":2332.0,
-    "Authors":null,
+},{
+    "Id":2332,
+    "Authors":"Not found",
     "Title":"Regolamento di esercizi per la fanteria",
     "Cities":"Roma",
     "Publisher":"Voghera",
@@ -23330,8 +23329,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2165",
     "Segni":"Nota di possesso autografa: \u00abCarlo Emilio Gadda, Duca di Sant\u2019Aquila. Campagna Austriaca 1915. Ponte di Legno (Valcamonica) 8 dicembre 1915\u00bb.",
     "Category":"M"
-    },{
-    "Id":2333.0,
+},{
+    "Id":2333,
     "Authors":"Remarque, Erich Maria",
     "Title":"A l\u2019ouest rien de nouveau",
     "Cities":"Paris",
@@ -23340,8 +23339,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1210",
     "Segni":"Nota di possesso autografa in data 2.03.1931. Pieghe.",
     "Category":"FL"
-    },{
-    "Id":2334.0,
+},{
+    "Id":2334,
     "Authors":"R\u00e9musat, madame de (Claire Elisabeth Gravier de Vergennes detta)",
     "Title":"Memorie",
     "Cities":"Torino",
@@ -23350,8 +23349,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1082",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2335.0,
+},{
+    "Id":2335,
     "Authors":"Renan, Ernest",
     "Title":"Vita di Ges\u00f9",
     "Cities":"Milano",
@@ -23360,8 +23359,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1083",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2336.0,
+},{
+    "Id":2336,
     "Authors":"Retz, Jean Fran\u00e7ois Paul",
     "Title":"M\u00e8moires",
     "Cities":"Paris",
@@ -23370,8 +23369,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2337.0,
+},{
+    "Id":2337,
     "Authors":"Revelli, Paolo",
     "Title":"Colombo",
     "Cities":"Torino",
@@ -23380,8 +23379,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1547",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2338.0,
+},{
+    "Id":2338,
     "Authors":"Revelli, Paolo",
     "Title":"Il genovese",
     "Cities":"Genova  ",
@@ -23390,9 +23389,9 @@ const jsonData = [
     "Fund":"BTB Segn. 1548",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2339.0,
-    "Authors":null,
+},{
+    "Id":2339,
+    "Authors":"Not found",
     "Title":"Le Rhin de Cologne jusqu\u2019\u00e0 Francfort",
     "Cities":"Berlin",
     "Publisher":"Goldschmidt",
@@ -23400,8 +23399,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2288",
     "Segni":null,
     "Category":"G "
-    },{
-    "Id":2340.0,
+},{
+    "Id":2340,
     "Authors":"Ribot, Th\u00e9odule",
     "Title":"La psychologie allemande contemporaine. Ecole exp\u00e9rimentale",
     "Cities":"Paris",
@@ -23409,9 +23408,9 @@ const jsonData = [
     "Years":1879,
     "Fund":"BTB Segn. 2000",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":2341.0,
+    "Category":"P"
+},{
+    "Id":2341,
     "Authors":"Ribot, Th\u00e9odule",
     "Title":"La psychologie anglaise",
     "Cities":"Paris  ",
@@ -23419,9 +23418,9 @@ const jsonData = [
     "Years":1901,
     "Fund":"BTB Segn. 1999",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":2342.0,
+    "Category":"P"
+},{
+    "Id":2342,
     "Authors":"Richmond, Winifred V",
     "Title":"Enciclopedia sessuale",
     "Cities":"Milano",
@@ -23430,8 +23429,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2095",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":2343.0,
+},{
+    "Id":2343,
     "Authors":"Ridolfi, Roberto",
     "Title":"Memorie di uno studioso",
     "Cities":"Roma",
@@ -23439,9 +23438,9 @@ const jsonData = [
     "Years":1956,
     "Fund":"BTB Segn. 637",
     "Segni":"Intonso.",
-    "Category":"L"
-    },{
-    "Id":2344.0,
+    "Category":"IL"
+},{
+    "Id":2344,
     "Authors":"Ridolfi, Roberto",
     "Title":"Vita di Girolamo Savonarola",
     "Cities":"Roma   ",
@@ -23449,9 +23448,9 @@ const jsonData = [
     "Years":1952,
     "Fund":"BTB Segn. 1549-1550",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2345.0,
+    "Category":"V"
+},{
+    "Id":2345,
     "Authors":"Ridolfi, Roberto",
     "Title":"Vita di Niccol\u00f2 Machiavelli",
     "Cities":"Roma  ",
@@ -23459,9 +23458,9 @@ const jsonData = [
     "Years":1954,
     "Fund":"BTB Segn. 868",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2346.0,
+    "Category":"IL"
+},{
+    "Id":2346,
     "Authors":"Riggio Cinelli, Linda",
     "Title":"Lettere commerciali e familiari",
     "Cities":"Fi renze",
@@ -23469,19 +23468,19 @@ const jsonData = [
     "Years":1930,
     "Fund":"BTB Segn. 2450",
     "Segni":"Dedica dell\u2019autrice ad Adele Gadda Lehr.",
-    "Category":"L"
-    },{
-    "Id":2347.0,
+    "Category":"V"
+},{
+    "Id":2347,
     "Authors":"Riggio Cinelli, Linda",
-    "Title":". A Short History of English Civilization and Literature",
+    "Title":"A Short History of English Civilization and Literature",
     "Cities":"Firenze  ",
     "Publisher":"Carpigiani e Zipoli",
     "Years":1926,
     "Fund":"BTB Segn. 1343",
     "Segni":"Dedica dell\u2019autrice ad Adele Gadda Lehr in data 10.1926. Postille.",
-    "Category":"L"
-    },{
-    "Id":2348.0,
+    "Category":"AL"
+},{
+    "Id":2348,
     "Authors":"Rigoni Stern, Mario",
     "Title":"Il sergente nella neve",
     "Cities":"Torino  ",
@@ -23490,8 +23489,8 @@ const jsonData = [
     "Fund":"BTB Segn. 638",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2349.0,
+},{
+    "Id":2349,
     "Authors":"Rigutini, Giuseppe",
     "Title":"I neologismi buoni e cattivi",
     "Cities":"Firenze",
@@ -23500,8 +23499,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2451",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2350.0,
+},{
+    "Id":2350,
     "Authors":"Rilke, Rainer Maria",
     "Title":"Elegie duinesi",
     "Cities":"Firenze",
@@ -23510,8 +23509,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1212",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":2351.0,
+},{
+    "Id":2351,
     "Authors":"Rimbaud, Arthur",
     "Title":"\u0152uvres compl\u00e8tes",
     "Cities":"Paris  ",
@@ -23520,8 +23519,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2352.0,
+},{
+    "Id":2352,
     "Authors":"Rimbaud, Arthur",
     "Title":"Una stagione all\u2019inferno",
     "Cities":"Milano  ",
@@ -23530,18 +23529,18 @@ const jsonData = [
     "Fund":"BTB Segn. 1084",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2353.0,
-    "Authors":null,
+},{
+    "Id":2353,
+    "Authors":"Not found",
     "Title":"Il ritratto nella pittura lombarda dell\u2019Ottocento. ",
     "Cities":"Milano",
     "Publisher":"Ed. del Milione",
     "Years":1953,
     "Fund":"BTB Segn. 2243",
     "Segni":"Dedica del curatore.",
-    "Category":"SA"
-    },{
-    "Id":2354.0,
+    "Category":"HA"
+},{
+    "Id":2354,
     "Authors":"Rivi\u00e8re, Jacques",
     "Title":"Studi",
     "Cities":"Milano",
@@ -23550,18 +23549,18 @@ const jsonData = [
     "Fund":"BTB Segn. 1146",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2355.0,
-    "Authors":null,
+},{
+    "Id":2355,
+    "Authors":"Not found",
     "Title":"La rivoluzione russa.",
     "Cities":"Novara",
     "Publisher":"Istituto geografico De Agostini",
     "Years":1964,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2356.0,
+    "Category":"H"
+},{
+    "Id":2356,
     "Authors":"Robecchi, Alessandro",
     "Title":"Lomboartriti croniche",
     "Cities":"Firenze  ",
@@ -23569,9 +23568,9 @@ const jsonData = [
     "Years":1942,
     "Fund":"BTB Segn. 2086",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2357.0,
+    "Category":"T"
+},{
+    "Id":2357,
     "Authors":"Robin, L\u00e9on",
     "Title":"La th\u00e9orie platonicienne",
     "Cities":"Paris  ",
@@ -23579,9 +23578,9 @@ const jsonData = [
     "Years":1908,
     "Fund":"BTB Segn. 1971",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":2358.0,
+    "Category":"P"
+},{
+    "Id":2358,
     "Authors":"Robiquet, Jean",
     "Title":"La vie quotidienne au temps de la R\u00e9volution",
     "Cities":"Paris",
@@ -23589,9 +23588,9 @@ const jsonData = [
     "Years":1938,
     "Fund":"BTB Segn. 1691",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2359.0,
+    "Category":"H"
+},{
+    "Id":2359,
     "Authors":"Rodolico, Niccol\u00f2",
     "Title":"Carlo Alberto 1843-1849.",
     "Cities":"Firenze",
@@ -23599,9 +23598,9 @@ const jsonData = [
     "Years":1943,
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore.",
-    "Category":"S"
-    },{
-    "Id":2360.0,
+    "Category":"H"
+},{
+    "Id":2360,
     "Authors":"Rodolico, Niccol\u00f2",
     "Title":"Il medioevo barbarico e il Rinascimento italiano",
     "Cities":"Bologna  ",
@@ -23609,9 +23608,9 @@ const jsonData = [
     "Years":1917,
     "Fund":"BTB Segn. 1488",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2361.0,
+    "Category":"H"
+},{
+    "Id":2361,
     "Authors":"Rodolico, Niccol\u00f2",
     "Title":"Le societ\u00e0 antiche. Oriente Egitto Grecia Roma. Ad uso delle scuole normali",
     "Cities":"Bologna  ",
@@ -23619,9 +23618,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BTB Segn. 1551",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2362.0,
+    "Category":"H"
+},{
+    "Id":2362,
     "Authors":"Rohlfs, Gerhard",
     "Title":"Grammatica storica della lingua italiana e dei suoi dialetti",
     "Cities":"Torino",
@@ -23629,9 +23628,9 @@ const jsonData = [
     "Years":1966,
     "Fund":"BTB Segn. 2454",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2363.0,
+    "Category":"GR"
+},{
+    "Id":2363,
     "Authors":"Rolland, Romain",
     "Title":"Printemps Romains (1889-90).",
     "Cities":"Paris",
@@ -23639,9 +23638,9 @@ const jsonData = [
     "Years":1954,
     "Fund":"BTB Segn. 1085",
     "Segni":"Dedica di Marie R. Rolland.",
-    "Category":"S"
-    },{
-    "Id":2364.0,
+    "Category":"H"
+},{
+    "Id":2364,
     "Authors":"Rolland, Romain",
     "Title":"Vita di Beethoven",
     "Cities":"Milano  ",
@@ -23649,9 +23648,9 @@ const jsonData = [
     "Years":1949,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2365.0,
+    "Category":"V"
+},{
+    "Id":2365,
     "Authors":"Rolland, Romain",
     "Title":"Vita di Michelangelo",
     "Cities":"Milano  ",
@@ -23659,9 +23658,9 @@ const jsonData = [
     "Years":1949,
     "Fund":null,
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2366.0,
+    "Category":"HA"
+},{
+    "Id":2366,
     "Authors":"Rollone, Luigi",
     "Title":"La provincia di Milano",
     "Cities":"TorinoRoma-Milano-Firenze-Napoli",
@@ -23669,9 +23668,9 @@ const jsonData = [
     "Years":1905,
     "Fund":"BTB Segn. 2294",
     "Segni":"Intonso.",
-    "Category":"F"
-    },{
-    "Id":2367.0,
+    "Category":"P"
+},{
+    "Id":2367,
     "Authors":"Romagnosi, Gian Domenico",
     "Title":"Opuscoli filosofici",
     "Cities":"Lanciano",
@@ -23679,9 +23678,9 @@ const jsonData = [
     "Years":1919,
     "Fund":"BTB Segn. 1900",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":2368.0,
+    "Category":"P"
+},{
+    "Id":2368,
     "Authors":"Romani, Felice",
     "Title":"Norma",
     "Cities":"Sesto San Giovanni  ",
@@ -23690,8 +23689,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1438",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2369.0,
+},{
+    "Id":2369,
     "Authors":"Romani, Felice",
     "Title":"La sonnambula. ",
     "Cities":"Milano",
@@ -23700,18 +23699,18 @@ const jsonData = [
     "Fund":"BTB Segn. 1439",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2370.0,
-    "Authors":null,
+},{
+    "Id":2370,
+    "Authors":"Not found",
     "Title":"Romanzi e racconti dell\u2019Ottocento",
     "Cities":"Milano",
     "Publisher":"Garzanti",
     "Years":1942,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2371.0,
+    "Category":"V"
+},{
+    "Id":2371,
     "Authors":"Romeo, Nicol\u00f2",
     "Title":"Sui triangoli con due bisettrici diseguali",
     "Cities":"Bologna",
@@ -23720,8 +23719,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 52",
     "Segni":"Intonso.",
     "Category":"T"
-    },{
-    "Id":2372.0,
+},{
+    "Id":2372,
     "Authors":"Romussi, Carlo",
     "Title":"Milano che sfugge",
     "Cities":"Milano  ",
@@ -23729,9 +23728,9 @@ const jsonData = [
     "Years":1889,
     "Fund":"BTB Segn. 2338",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2373.0,
+    "Category":"IL"
+},{
+    "Id":2373,
     "Authors":"Roncaglia, Aurelio",
     "Title":"La Chanson de Roland. ",
     "Cities":"Modena",
@@ -23739,9 +23738,9 @@ const jsonData = [
     "Years":1940,
     "Fund":"BTB Segn. 974",
     "Segni":"Nota di possesso autografa in data 22.01.1941.",
-    "Category":"L"
-    },{
-    "Id":2374.0,
+    "Category":"FL"
+},{
+    "Id":2374,
     "Authors":"Ronchi, Mario",
     "Title":"Chi va al mulino s\u2019infarina.",
     "Cities":"Firenze",
@@ -23750,8 +23749,8 @@ const jsonData = [
     "Fund":"BTB Segn. 643",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2375.0,
+},{
+    "Id":2375,
     "Authors":"Rosai, Ottone",
     "Title":"Il libro di un teppista",
     "Cities":"Firenze  ",
@@ -23760,8 +23759,8 @@ const jsonData = [
     "Fund":"BTB Segn. 639",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2376.0,
+},{
+    "Id":2376,
     "Authors":"Rosai, Ottone",
     "Title":"Via Toscanella",
     "Cities":"Firenze  ",
@@ -23770,8 +23769,8 @@ const jsonData = [
     "Fund":"BTB Segn. 640",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2377.0,
+},{
+    "Id":2377,
     "Authors":"Rosati, Salvatore",
     "Title":"Storia della letteratura americana",
     "Cities":"Torino",
@@ -23779,9 +23778,9 @@ const jsonData = [
     "Years":1956,
     "Fund":"BTB Segn. 1351",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2378.0,
+    "Category":"AL"
+},{
+    "Id":2378,
     "Authors":"Rosato, Giuseppe",
     "Title":"L\u2019acqua felice",
     "Cities":"Milano  ",
@@ -23790,8 +23789,8 @@ const jsonData = [
     "Fund":"BTB Segn. 641",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2379.0,
+},{
+    "Id":2379,
     "Authors":"Roscioni, Gian Carlo",
     "Title":"La disarmonia prestabilita: studio su                    Gadda",
     "Cities":"Torino",
@@ -23800,8 +23799,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2380.0,
+},{
+    "Id":2380,
     "Authors":"Rosina, Tito",
     "Title":"Noterelle dannunziane",
     "Cities":"Genova  ",
@@ -23810,8 +23809,8 @@ const jsonData = [
     "Fund":"BTB Segn. 869",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":2381.0,
+},{
+    "Id":2381,
     "Authors":"Rosina, Tito",
     "Title":"Saggi dannunziani",
     "Cities":"Genova ",
@@ -23820,8 +23819,8 @@ const jsonData = [
     "Fund":"BTB Segn. 870",
     "Segni":"Dedica dell\u2019autrice.",
     "Category":"IL"
-    },{
-    "Id":2382.0,
+},{
+    "Id":2382,
     "Authors":"Rosselli, Aldo",
     "Title":"Professione: mitomane",
     "Cities":"Firenze  ",
@@ -23830,8 +23829,8 @@ const jsonData = [
     "Fund":"BTB Segn. 642",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2383.0,
+},{
+    "Id":2383,
     "Authors":"Rossi, Gilberto",
     "Title":"Mezzo contadino",
     "Cities":"Venezia  ",
@@ -23840,8 +23839,8 @@ const jsonData = [
     "Fund":"BTB Segn. 644",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":2384.0,
+},{
+    "Id":2384,
     "Authors":"Rossi, Vittorio",
     "Title":"Storia della letteratura italiana per uso dei licei",
     "Cities":"Milano  ",
@@ -23850,8 +23849,8 @@ const jsonData = [
     "Fund":"BTB Segn. 871-873",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2385.0,
+},{
+    "Id":2385,
     "Authors":"Rostand, Jean",
     "Title":"Lazzaro Spallanzani e le origini della biologia sperimentale",
     "Cities":"Torino  ",
@@ -23859,9 +23858,9 @@ const jsonData = [
     "Years":1963,
     "Fund":"BTB Segn. 2087-2088",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2386.0,
+    "Category":"T"
+},{
+    "Id":2386,
     "Authors":"Rotta, Paolo",
     "Title":"Spinoza",
     "Cities":"Milano",
@@ -23869,9 +23868,9 @@ const jsonData = [
     "Years":1923,
     "Fund":"BTB Segn. 1972",
     "Segni":"Sottolineature.",
-    "Category":"F"
-    },{
-    "Id":2387.0,
+    "Category":"P"
+},{
+    "Id":2387,
     "Authors":"Rouch\u00e9, Max",
     "Title":"Herder pr\u00e9curseur de Darwin? ",
     "Cities":"Paris",
@@ -23880,8 +23879,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1973",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2388.0,
+},{
+    "Id":2388,
     "Authors":"Rougemont, Denis de",
     "Title":"Vivre en Am\u00e9rique",
     "Cities":"Paris  ",
@@ -23890,8 +23889,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1086",
     "Segni":"Dedica dell\u2019autore in data 29.1.53.",
     "Category":"FL"
-    },{
-    "Id":2389.0,
+},{
+    "Id":2389,
     "Authors":"Roujon, Jacques",
     "Title":"Ce bon monsieur Danton",
     "Cities":"Paris",
@@ -23900,8 +23899,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1147",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2390.0,
+},{
+    "Id":2390,
     "Authors":"Rousseau, Jean-Jacques",
     "Title":"Les confessions",
     "Cities":"Paris",
@@ -23910,8 +23909,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"F "
-    },{
-    "Id":2391.0,
+},{
+    "Id":2391,
     "Authors":"Rousseau, Jean-Jacques",
     "Title":"Il contratto sociale",
     "Cities":"Torino",
@@ -23920,8 +23919,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1087",
     "Segni":null,
     "Category":"F "
-    },{
-    "Id":2392.0,
+},{
+    "Id":2392,
     "Authors":"Rousseau, Jean-Jacques",
     "Title":" Du contrat social ou principes de droit politique",
     "Cities":"Paris",
@@ -23930,8 +23929,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1088",
     "Segni":"Postille.",
     "Category":"F "
-    },{
-    "Id":2393.0,
+},{
+    "Id":2393,
     "Authors":"Rousseau, Jean-Jacques",
     "Title":" La nouvelle H\u00e9lo\u00efse.",
     "Cities":"Paris",
@@ -23940,8 +23939,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1089",
     "Segni":"Nota di possesso autografa in data 02.1905.",
     "Category":"F "
-    },{
-    "Id":2394.0,
+},{
+    "Id":2394,
     "Authors":"Rousseau, Jean-Jacques",
     "Title":"\u0152uvres compl\u00e8tes",
     "Cities":"Bruxelles  ",
@@ -23950,8 +23949,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1090",
     "Segni":"Presente solo il VI volume: Emile ou de l\u2019\u00e9ducation, libri III-IV: ivi, 1839.",
     "Category":"F "
-    },{
-    "Id":2395.0,
+},{
+    "Id":2395,
     "Authors":"Rousseau, Pierre",
     "Title":"Storia dell\u2019atomo. La fisica del l\u2019atomo nella guerra e nella pace",
     "Cities":"Roma",
@@ -23960,8 +23959,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2089",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2396.0,
+},{
+    "Id":2396,
     "Authors":"Roux, Onorato",
     "Title":"Per diventar caporale. Manuale teoricopratico per i soldati delle armi di fanteria (linea, granatieri, bersaglieri, alpini) del genio e del corpo arconautico. Con le recenti varianti emanate dal Ministero della Guerra",
     "Cities":"Milano",
@@ -23970,8 +23969,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2171",
     "Segni":"Nota di possesso autografa in data 08.1915                   Edolo.",
     "Category":"M"
-    },{
-    "Id":2397.0,
+},{
+    "Id":2397,
     "Authors":"Roversi, Roberto",
     "Title":"Ai tempi di re Gioachino",
     "Cities":"Bologna",
@@ -23979,9 +23978,9 @@ const jsonData = [
     "Years":1952,
     "Fund":"BTB Segn. 645",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2398.0,
+    "Category":"H"
+},{
+    "Id":2398,
     "Authors":"Rovetta, Gerolamo",
     "Title":"La signorina",
     "Cities":"Milano ",
@@ -23990,8 +23989,8 @@ const jsonData = [
     "Fund":"BTB Segn. 646",
     "Segni":"Nota di possesso autografa di Enrico Gadda in data 25.01.1918 Gallarate.",
     "Category":"IL"
-    },{
-    "Id":2399.0,
+},{
+    "Id":2399,
     "Authors":"Royer, Louis Charles",
     "Title":"L\u2019amour en Allemagne. Choses vues",
     "Cities":"Paris",
@@ -24000,8 +23999,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1091",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2400.0,
+},{
+    "Id":2400,
     "Authors":"Rubagotti, Angelo",
     "Title":"Giordano Bruno",
     "Cities":"Roma",
@@ -24009,19 +24008,19 @@ const jsonData = [
     "Years":1888,
     "Fund":"BTB Segn. 1974",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2401.0,
-    "Authors":null,
+    "Category":"V"
+},{
+    "Id":2401,
+    "Authors":"Not found",
     "Title":"Rudolf Levy",
     "Cities":"Firenze ",
     "Publisher":" L\u2019Indiano Galleria d\u2019Arte",
     "Years":1950,
     "Fund":"BTB Segn. Op. 118",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2402.0,
+    "Category":"V"
+},{
+    "Id":2402,
     "Authors":"Ruesch, Hans",
     "Title":"Il numero uno",
     "Cities":"Milano",
@@ -24030,8 +24029,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":2403.0,
+},{
+    "Id":2403,
     "Authors":"Ruesch, Hans",
     "Title":"Il paese delle ombre lunghe",
     "Cities":"Milano   ",
@@ -24040,8 +24039,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":2404.0,
+},{
+    "Id":2404,
     "Authors":"Ruiz de Alarc\u00f3n, Juan",
     "Title":"Teatro",
     "Cities":"Madrid  ",
@@ -24050,9 +24049,9 @@ const jsonData = [
     "Fund":"BTB Segn. 928",
     "Segni":null,
     "Category":"SL"
-    },{
-    "Id":2405.0,
-    "Authors":null,
+},{
+    "Id":2405,
+    "Authors":"Not found",
     "Title":"Rules and Data on Pressure Pipelines",
     "Cities":"Brescia",
     "Publisher":"Tubi Togni",
@@ -24060,8 +24059,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 104",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2406.0,
+},{
+    "Id":2406,
     "Authors":"Runge, Enrico",
     "Title":"La rinascita dell\u2019astrologia",
     "Cities":"Firenze",
@@ -24070,8 +24069,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2407.0,
+},{
+    "Id":2407,
     "Authors":"Rusconi, Antonio",
     "Title":"Gli Ictimoli ed i Bessi nel Vercellese e nel Novarese",
     "Cities":"Novara",
@@ -24080,8 +24079,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 53",
     "Segni":"Nota di possesso autografa di Carlo Lehr.",
     "Category":"GL"
-    },{
-    "Id":2408.0,
+},{
+    "Id":2408,
     "Authors":"Rusconi, Antonio",
     "Title":"Lodovico il Moro e sua cattura. Pagine di storia patria",
     "Cities":"Novara  ",
@@ -24089,9 +24088,9 @@ const jsonData = [
     "Years":1878,
     "Fund":"BTB Segn. 1552",
     "Segni":"Nota di possesso autografa di Carlo Lehr.",
-    "Category":"S"
-    },{
-    "Id":2409.0,
+    "Category":"H"
+},{
+    "Id":2409,
     "Authors":"Rusconi, Antonio",
     "Title":"Le origini novaresi. Parte I",
     "Cities":"Novara",
@@ -24099,9 +24098,9 @@ const jsonData = [
     "Years":1875,
     "Fund":"BTB Segn. Op. 54",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2410.0,
+    "Category":"H"
+},{
+    "Id":2410,
     "Authors":"R\u00fcssel, Herbert Werner",
     "Title":"Profilo d\u2019un umanesimo cristiano",
     "Cities":"Roma",
@@ -24109,9 +24108,9 @@ const jsonData = [
     "Years":1945,
     "Fund":"BTB Segn. 1794",
     "Segni":"Sottolineature e postille.",
-    "Category":"L"
-    },{
-    "Id":2411.0,
+    "Category":"V"
+},{
+    "Id":2411,
     "Authors":"Russell, Bertrand",
     "Title":"I principi della matematica",
     "Cities":"Milano  ",
@@ -24120,8 +24119,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2090",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2412.0,
+},{
+    "Id":2412,
     "Authors":"Russell, Bertrand",
     "Title":"I problemi della filosofia",
     "Cities":"Milano",
@@ -24130,8 +24129,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1901",
     "Segni":"Postille.",
     "Category":"T"
-    },{
-    "Id":2413.0,
+},{
+    "Id":2413,
     "Authors":"Russell, Henry Norris",
     "Title":"Il sistema solare",
     "Cities":"Milano",
@@ -24140,8 +24139,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2091",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2414.0,
+},{
+    "Id":2414,
     "Authors":"Russo, Carlo Ferdinand",
     "Title":"Aristofane autore di teatro",
     "Cities":"Firenze  ",
@@ -24149,9 +24148,9 @@ const jsonData = [
     "Years":1962,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2415.0,
+    "Category":"CL"
+},{
+    "Id":2415,
     "Authors":"Russo, Luigi",
     "Title":"La critica letteraria contemporanea",
     "Cities":"Firenze",
@@ -24160,8 +24159,8 @@ const jsonData = [
     "Fund":"BTB Segn. 874",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2416.0,
+},{
+    "Id":2416,
     "Authors":"Russo, Luigi",
     "Title":"Machiavelli",
     "Cities":"Bari  ",
@@ -24170,8 +24169,8 @@ const jsonData = [
     "Fund":"BTB Segn. 875",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2417.0,
+},{
+    "Id":2417,
     "Authors":"Russo, Luigi",
     "Title":"Personaggi dei Promessi Sposi",
     "Cities":"Bari ",
@@ -24180,8 +24179,8 @@ const jsonData = [
     "Fund":"BTB Segn. 876",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2418.0,
+},{
+    "Id":2418,
     "Authors":"Russo, Luigi",
     "Title":"L\u2019Universit\u00e0 di Pisa e la situazione italiana ed europea",
     "Cities":"Pisa-Roma",
@@ -24190,8 +24189,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 55",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2419.0,
+},{
+    "Id":2419,
     "Authors":"Ruzante (Angelo Beolco)",
     "Title":"L\u2019anconitana",
     "Cities":"Torino",
@@ -24200,8 +24199,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2420.0,
+},{
+    "Id":2420,
     "Authors":"Ruzante (Angelo Beolco)",
     "Title":"Due dialoghi",
     "Cities":"Torino",
@@ -24210,8 +24209,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2421.0,
+},{
+    "Id":2421,
     "Authors":"Ruzante (Angelo Beolco)",
     "Title":"La moscheta",
     "Cities":"Torino",
@@ -24220,8 +24219,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2422.0,
+},{
+    "Id":2422,
     "Authors":"Ryan, Cornelius",
     "Title":"L\u2019ultima battaglia",
     "Cities":"Milano",
@@ -24229,9 +24228,9 @@ const jsonData = [
     "Years":1966,
     "Fund":"BTB Segn. 1762",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2423.0,
+    "Category":"AL"
+},{
+    "Id":2423,
     "Authors":"Saba, Umberto",
     "Title":"Preludio e canzonette",
     "Cities":"Torino  ",
@@ -24240,8 +24239,8 @@ const jsonData = [
     "Fund":"BTB Segn. 647",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2424.0,
+},{
+    "Id":2424,
     "Authors":"Sabart\u00e9s, Jaime",
     "Title":"Picasso",
     "Cities":"Milano",
@@ -24249,19 +24248,19 @@ const jsonData = [
     "Years":1937,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":2425.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":2425,
+    "Authors":"Not found",
     "Title":"Un sabotatore: Giorgio Lab\u00f2",
     "Cities":"Milano",
     "Publisher":"La Stampa Moderna",
     "Years":1946,
     "Fund":"BTB Segn. 1518",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2426.0,
+    "Category":"V"
+},{
+    "Id":2426,
     "Authors":"Sacchetti, Francesco",
     "Title":"Il libro delle trecento novelle",
     "Cities":"Milano  ",
@@ -24270,8 +24269,8 @@ const jsonData = [
     "Fund":"BTB Segn. 650",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2427.0,
+},{
+    "Id":2427,
     "Authors":"Sacchetti, Francesco",
     "Title":"Le novelle. Vol. II",
     "Cities":"Firenze  ",
@@ -24280,8 +24279,8 @@ const jsonData = [
     "Fund":"BTB Segn. 649",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2428.0,
+},{
+    "Id":2428,
     "Authors":"Sacchetti, Francesco",
     "Title":"Il trecentonovelle",
     "Cities":"Firenze",
@@ -24290,8 +24289,8 @@ const jsonData = [
     "Fund":"BTB Segn. 648",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2429.0,
+},{
+    "Id":2429,
     "Authors":"Sachs, Maurice",
     "Title":"Le Sabbat. Souvenirs d\u2019une jeunesse orageuse",
     "Cities":"Nevers",
@@ -24299,59 +24298,59 @@ const jsonData = [
     "Years":1947,
     "Fund":"BTB Segn. 1092",
     "Segni":"Nota di possesso autografa in data 1949.",
-    "Category":"L"
-    },{
-    "Id":2430.0,
-    "Authors":null,
+    "Category":"FL"
+},{
+    "Id":2430,
+    "Authors":"Not found",
     "Title":"La Sacra Bibbia.",
     "Cities":"s.l.",
     "Publisher":"s.n.",
     "Years":1936,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2431.0,
-    "Authors":null,
+    "Category":"V"
+},{
+    "Id":2431,
+    "Authors":"Not found",
     "Title":"La Sacra Bibbia.",
     "Cities":"Firenze",
     "Publisher":"Salani",
     "Years":1943,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2432.0,
-    "Authors":null,
+    "Category":"V"
+},{
+    "Id":2432,
+    "Authors":"Not found",
     "Title":"La Sacra Bibbia.",
     "Cities":"Roma",
     "Publisher":"Edizioni Paoline",
     "Years":1964,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2433.0,
-    "Authors":null,
+    "Category":"V"
+},{
+    "Id":2433,
+    "Authors":"Not found",
     "Title":"La Sacra Bibbia, che contiene il Vecchio e il Nuovo Testamento",
     "Cities":"London",
     "Publisher":"Watts",
     "Years":1850,
     "Fund":null,
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2434.0,
-    "Authors":null,
+    "Category":"V"
+},{
+    "Id":2434,
+    "Authors":"Not found",
     "Title":"La Sacra Bibbia ossia l\u2019Antico e il Nuovo Testamento.",
     "Cities":"Roma",
     "Publisher":"Deposito sacre scritture",
     "Years":1936,
     "Fund":null,
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2435.0,
+    "Category":"V"
+},{
+    "Id":2435,
     "Authors":"Sadler, Percy",
     "Title":"Manuel de phrases fran\u00e7aises et anglaises \u00e0 l\u2019usage des classes \u00e9lementaires contenant de nombreux vocabulaires des mots les plus usit\u00e9s servis chacun de petites phrases servant d\u2019exercise. Accompagn\u00e9 de dialogues familiers",
     "Cities":"Paris",
@@ -24360,18 +24359,18 @@ const jsonData = [
     "Fund":"BTB Segn. 2455",
     "Segni":null,
     "Category":"GR"
-    },{
-    "Id":2436.0,
-    "Authors":null,
+},{
+    "Id":2436,
+    "Authors":"Not found",
     "Title":"Saffo poetessa di Lesbo.",
     "Cities":"Roma  ",
     "Publisher":"Anonima Romana Editoriale",
     "Years":1934,
     "Fund":"BTB Segn. Op. 5",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2437.0,
+    "Category":"CL"
+},{
+    "Id":2437,
     "Authors":"Saint-Exup\u00e9ry, Antoine de",
     "Title":"Vol de nuit.",
     "Cities":"Paris  ",
@@ -24380,8 +24379,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1095",
     "Segni":"Intonso.",
     "Category":"FL"
-    },{
-    "Id":2438.0,
+},{
+    "Id":2438,
     "Authors":"Saint-Just, Louis-Antoine-L\u00e9on",
     "Title":"Frammenti sulle istituzioni repubblicane. Seguito da testi inediti.",
     "Cities":"Torino",
@@ -24389,9 +24388,9 @@ const jsonData = [
     "Years":1952,
     "Fund":"BTB Segn. 1096",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2439.0,
+    "Category":"H"
+},{
+    "Id":2439,
     "Authors":"Saint-Simon, Claude-Henri de Rouvroy Comte de",
     "Title":"La cour de Louis XIV",
     "Cities":"Paris",
@@ -24399,9 +24398,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BTB Segn. 1097",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2440.0,
+    "Category":"H"
+},{
+    "Id":2440,
     "Authors":"Saint-Simon, Claude-Henri de Rouvroy Comte de",
     "Title":" La cour du R\u00e9gent. ",
     "Cities":"Paris",
@@ -24409,9 +24408,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BTB Segn. 1098",
     "Segni":"Postille.",
-    "Category":"S"
-    },{
-    "Id":2441.0,
+    "Category":"H"
+},{
+    "Id":2441,
     "Authors":"Sainte-Beuve, Charles Augustin de",
     "Title":"Ritratti",
     "Cities":"Milano  ",
@@ -24419,9 +24418,9 @@ const jsonData = [
     "Years":1943,
     "Fund":"BTB Segn. 1094",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2442.0,
+    "Category":"H"
+},{
+    "Id":2442,
     "Authors":"Sainte-Beuve, Charles Augustin de",
     "Title":"Studio su Virgilio",
     "Cities":"Bari",
@@ -24429,9 +24428,9 @@ const jsonData = [
     "Years":1939,
     "Fund":"BTB Segn. 1093",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2443.0,
+    "Category":"CL"
+},{
+    "Id":2443,
     "Authors":"Saitta, Armando",
     "Title":"Costituenti e costituzioni in Francia",
     "Cities":"Torino",
@@ -24439,9 +24438,9 @@ const jsonData = [
     "Years":1952,
     "Fund":"BTB Segn. 1692",
     "Segni":"Parzialmente intonso.",
-    "Category":"S"
-    },{
-    "Id":2444.0,
+    "Category":"H"
+},{
+    "Id":2444,
     "Authors":"Salas Barbadillo, Alonso Jeronimo de",
     "Title":"Novelas. La hija de Celestina. La ingeniosa Elena.",
     "Cities":"Strasbourg",
@@ -24450,8 +24449,8 @@ const jsonData = [
     "Fund":"BTB Segn. 929",
     "Segni":null,
     "Category":"SL"
-    },{
-    "Id":2445.0,
+},{
+    "Id":2445,
     "Authors":"Salimbene da Parma",
     "Title":"La cronaca",
     "Cities":"Milano",
@@ -24460,8 +24459,8 @@ const jsonData = [
     "Fund":"BTB Segn. 651",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2446.0,
+},{
+    "Id":2446,
     "Authors":"Sallustio, Gaio Crispo",
     "Title":"Sallustio",
     "Cities":"Padova",
@@ -24470,8 +24469,8 @@ const jsonData = [
     "Fund":"BTB Segn. 74",
     "Segni":"Nota di possesso Gadda 4.10.1921.",
     "Category":"CL"
-    },{
-    "Id":2447.0,
+},{
+    "Id":2447,
     "Authors":"Salmi, Mario",
     "Title":"L\u2019abbazia di Pomposa",
     "Cities":"Roma  ",
@@ -24480,8 +24479,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2295",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2448.0,
+},{
+    "Id":2448,
     "Authors":"Salvatorelli, Luigi",
     "Title":"Leggenda e realt\u00e0 di Napoleone",
     "Cities":"Roma",
@@ -24489,9 +24488,9 @@ const jsonData = [
     "Years":1944,
     "Fund":"BTB Segn. 1693",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2449.0,
+    "Category":"H"
+},{
+    "Id":2449,
     "Authors":"Salvatorelli, Luigi",
     "Title":"Lineamenti di storia moderna recentissima (1919-1955)",
     "Cities":"Firenze",
@@ -24499,9 +24498,9 @@ const jsonData = [
     "Years":1955,
     "Fund":"BTB Segn. 1764",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2450.0,
+    "Category":"H"
+},{
+    "Id":2450,
     "Authors":"Salvatorelli, Luigi",
     "Title":"Pensiero e azione del Risorgimento",
     "Cities":"Torino",
@@ -24509,9 +24508,9 @@ const jsonData = [
     "Years":1944,
     "Fund":"BTB Segn. 1553",
     "Segni":"Pieghe.",
-    "Category":"S"
-    },{
-    "Id":2451.0,
+    "Category":"H"
+},{
+    "Id":2451,
     "Authors":"Salvatorelli, Luigi",
     "Title":"Il pensiero politico italiano dal 1700 al 1870",
     "Cities":"Torino",
@@ -24519,9 +24518,9 @@ const jsonData = [
     "Years":1941,
     "Fund":"BTB Segn. 1554",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2452.0,
+    "Category":"H"
+},{
+    "Id":2452,
     "Authors":"Salvatorelli, Luigi",
     "Title":"Pio XI e la sua eredit\u00e0 pontificale",
     "Cities":"Torino",
@@ -24529,9 +24528,9 @@ const jsonData = [
     "Years":1939,
     "Fund":"BTB Segn. 1555",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2453.0,
+    "Category":"H"
+},{
+    "Id":2453,
     "Authors":"Salvatorelli, Luigi",
     "Title":"Profilo della storia d\u2019Europa",
     "Cities":"Torino",
@@ -24539,9 +24538,9 @@ const jsonData = [
     "Years":1942,
     "Fund":"BTB Segn. 1765",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2454.0,
+    "Category":"H"
+},{
+    "Id":2454,
     "Authors":"Salvatorelli, Luigi",
     "Title":"San Benedetto e l\u2019Italia del suo tempo",
     "Cities":"Bari",
@@ -24549,9 +24548,9 @@ const jsonData = [
     "Years":1929,
     "Fund":"BTB Segn. 1796",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2455.0,
+    "Category":"H"
+},{
+    "Id":2455,
     "Authors":"Salvatorelli, Luigi",
     "Title":"Storia d\u2019Italia illustrata. III. L\u2019Italia medievale",
     "Cities":"Milano  ",
@@ -24559,9 +24558,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BTB Segn. 1568",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2456.0,
+    "Category":"H"
+},{
+    "Id":2456,
     "Authors":"Salvatorelli, Luigi",
     "Title":"Storia d\u2019Italia illustrata. IV. L\u2019Italia comunale",
     "Cities":"Milano  ",
@@ -24569,9 +24568,9 @@ const jsonData = [
     "Years":1940,
     "Fund":"BTB Segn. 1569",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2457.0,
+    "Category":"H"
+},{
+    "Id":2457,
     "Authors":"Salvatorelli, Luigi  \u2013 H\u00fchn, Eugen",
     "Title":"La Bibbia",
     "Cities":"Milano-Palermo  ",
@@ -24579,9 +24578,9 @@ const jsonData = [
     "Years":1915,
     "Fund":"BTB Segn. 1770",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2458.0,
+    "Category":"V"
+},{
+    "Id":2458,
     "Authors":"Salvemini, Gaetano \u2013 La Piana, Giorgio",
     "Title":"La sorte dell\u2019Italia",
     "Cities":"Roma-Firenze-Milano",
@@ -24589,9 +24588,9 @@ const jsonData = [
     "Years":1945,
     "Fund":"BTB Segn. 1556",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2459.0,
+    "Category":"H"
+},{
+    "Id":2459,
     "Authors":"Sanchez Canton, Francisco Javier",
     "Title":"El Museo del Prado",
     "Cities":"Madrid  ",
@@ -24599,10 +24598,10 @@ const jsonData = [
     "Years":1951,
     "Fund":"BTB Segn. 2380",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":2460.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":2460,
+    "Authors":"Not found",
     "Title":"Sancti Francisci regula anni 1223",
     "Cities":"Roma",
     "Publisher":"Edizioni di Storia e Letteratura,",
@@ -24610,8 +24609,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 46",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":2461.0,
+},{
+    "Id":2461,
     "Authors":"Sandri, Giulio",
     "Title":"Dizionario etimologicoscientifico diviso in due parti",
     "Cities":"Verona  ",
@@ -24620,8 +24619,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":2462.0,
+},{
+    "Id":2462,
     "Authors":"Sandry, G\u00e8o \u2013 Carr\u00e8re, Marcel",
     "Title":"Dictionnaire de l\u2019Argot Moderne",
     "Cities":"Paris",
@@ -24630,8 +24629,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Foglio con appunti inserito.",
     "Category":"D"
-    },{
-    "Id":2463.0,
+},{
+    "Id":2463,
     "Authors":"Sanesi Tommaso",
     "Title":"Vocabolario greco-italiano compilato ad uso delle scuole",
     "Cities":"Pistoia",
@@ -24640,18 +24639,18 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":2464.0,
-    "Authors":null,
+},{
+    "Id":2464,
+    "Authors":"Not found",
     "Title":"San Giorgio: Progetto per la ricostruzione delle zone distrutte in torno al Ponte Vecchio",
     "Cities":"Firenze",
     "Publisher":"Tip. L\u2019Impronta",
     "Years":1946,
     "Fund":"BTB Segn. Op. 98",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":2465.0,
+    "Category":"HA"
+},{
+    "Id":2465,
     "Authors":"Santangelo, Paolo Ettore",
     "Title":"San Paolo",
     "Cities":"Bari",
@@ -24659,9 +24658,9 @@ const jsonData = [
     "Years":1933,
     "Fund":"BTB Segn. 1797",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2466.0,
+    "Category":"V"
+},{
+    "Id":2466,
     "Authors":"Santarosa, Pietro (di)",
     "Title":"Storia del tumulto dei Ciompi avvenuto in Firenze l\u2019anno 1378",
     "Cities":"Torino",
@@ -24669,9 +24668,9 @@ const jsonData = [
     "Years":1843,
     "Fund":"BAL",
     "Segni":"Nota di possesso di Adele Gadda Lehr.",
-    "Category":"S"
-    },{
-    "Id":2467.0,
+    "Category":"H"
+},{
+    "Id":2467,
     "Authors":"Santayana, George",
     "Title":"Il pensiero americano e altri saggi.",
     "Cities":"Milano  ",
@@ -24679,9 +24678,9 @@ const jsonData = [
     "Years":1939,
     "Fund":"BTB Segn. 1352",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2468.0,
+    "Category":"AL"
+},{
+    "Id":2468,
     "Authors":"Santi, Piero",
     "Title":"Diario (1943-1946)",
     "Cities":"Venezia",
@@ -24690,8 +24689,8 @@ const jsonData = [
     "Fund":"BTB Segn. 653",
     "Segni":"Dedica dell\u2019autore in data 9.10.1950.",
     "Category":"IL"
-    },{
-    "Id":2469.0,
+},{
+    "Id":2469,
     "Authors":"Santi, Piero",
     "Title":"Due di loro",
     "Cities":"Firenze",
@@ -24700,8 +24699,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":2470.0,
+},{
+    "Id":2470,
     "Authors":"Santi, Piero",
     "Title":"Libert\u00e0 condizionata",
     "Cities":"Firenze ",
@@ -24710,8 +24709,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore in data 9.5.1966.",
     "Category":"IL"
-    },{
-    "Id":2471.0,
+},{
+    "Id":2471,
     "Authors":"Santi, Piero",
     "Title":"Ombre rosse",
     "Cities":"Firenze",
@@ -24720,8 +24719,8 @@ const jsonData = [
     "Fund":"BTB Segn. 654",
     "Segni":"Dedica dell\u2019autore in data 13.7.1954.",
     "Category":"IL"
-    },{
-    "Id":2472.0,
+},{
+    "Id":2472,
     "Authors":"Santi, Piero",
     "Title":"Tre storie brevi.",
     "Cities":"Firenze",
@@ -24730,8 +24729,8 @@ const jsonData = [
     "Fund":"BTB Segn. 653",
     "Segni":"Dedica dell\u2019autore in data 6.11.1945.",
     "Category":"IL"
-    },{
-    "Id":2473.0,
+},{
+    "Id":2473,
     "Authors":"Santini, Aldo",
     "Title":"Breve curiosa storia del premio Viareggio",
     "Cities":"Viareggio ",
@@ -24740,18 +24739,18 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":2474.0,
-    "Authors":null,
+},{
+    "Id":2474,
+    "Authors":"Not found",
     "Title":"Il Santo Vangelo di nostro signore Ges\u00f9 Cristo e gli Atti degli Apostoli",
     "Cities":"Alba  ",
     "Publisher":"Pia societ\u00e0 San Paolo",
     "Years":1925,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2475.0,
+    "Category":"V"
+},{
+    "Id":2475,
     "Authors":"Sanvitale, Francesca",
     "Title":"Il cuore borghese",
     "Cities":"Firenze  ",
@@ -24760,8 +24759,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2476.0,
+},{
+    "Id":2476,
     "Authors":"Sapegno, Natalino",
     "Title":"Compendio di storia della letteratura italiana",
     "Cities":"Firenze ",
@@ -24770,8 +24769,8 @@ const jsonData = [
     "Fund":"BTB Segn. 877-879",
     "Segni":"Intonsi.",
     "Category":"IL"
-    },{
-    "Id":2477.0,
+},{
+    "Id":2477,
     "Authors":"Sapegno, Natalino",
     "Title":"Il sentimento umanistico e la poesia del Poliziano",
     "Cities":null,
@@ -24780,8 +24779,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2478.0,
+},{
+    "Id":2478,
     "Authors":"Sapienza, Goliarda",
     "Title":"Lettera aperta",
     "Cities":"Milano  ",
@@ -24790,8 +24789,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2479.0,
+},{
+    "Id":2479,
     "Authors":"Sapori, Armando",
     "Title":"Storia interna della compagnia dei Peruzzi",
     "Cities":"Firenze",
@@ -24799,10 +24798,10 @@ const jsonData = [
     "Years":1935,
     "Fund":"BTB Segn. Op. 57",
     "Segni":"Dedica dell\u2019autore.",
-    "Category":"L"
-    },{
-    "Id":2480.0,
-    "Authors":null,
+    "Category":"H"
+},{
+    "Id":2480,
+    "Authors":"Not found",
     "Title":"Sardegna.",
     "Cities":"Milano",
     "Publisher":"TCI",
@@ -24810,8 +24809,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2336",
     "Segni":null,
     "Category":"GR"
-    },{
-    "Id":2481.0,
+},{
+    "Id":2481,
     "Authors":"Sarpi, Paolo",
     "Title":"Storia degli Uscochi",
     "Cities":"Milano",
@@ -24819,9 +24818,9 @@ const jsonData = [
     "Years":1831,
     "Fund":"BTB Segn. 1763",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2482.0,
+    "Category":"H"
+},{
+    "Id":2482,
     "Authors":"Sassetti, Filippo",
     "Title":"Lettere indiane",
     "Cities":"Torino",
@@ -24829,9 +24828,9 @@ const jsonData = [
     "Years":1942,
     "Fund":"BTB Segn. 652",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2483.0,
+    "Category":"IL"
+},{
+    "Id":2483,
     "Authors":"Savinio, Alberto",
     "Title":" Dico a te, Clio",
     "Cities":"Roma ",
@@ -24840,8 +24839,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2484.0,
+},{
+    "Id":2484,
     "Authors":"Savj-Lopez, Paolo",
     "Title":"Le origini neolatine",
     "Cities":"Milano",
@@ -24849,9 +24848,9 @@ const jsonData = [
     "Years":1920,
     "Fund":"BTB Segn. 2054",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2485.0,
+    "Category":"GR"
+},{
+    "Id":2485,
     "Authors":"Sbarbaro, Camillo",
     "Title":"Fuochi fatui",
     "Cities":"Milano ",
@@ -24860,8 +24859,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2486.0,
+},{
+    "Id":2486,
     "Authors":"Sbarbaro, Camillo",
     "Title":"Pianissimo",
     "Cities":"Venezia",
@@ -24870,8 +24869,8 @@ const jsonData = [
     "Fund":"BTB Segn. 656",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2487.0,
+},{
+    "Id":2487,
     "Authors":"Sbodio, Gaetano",
     "Title":"Il duell del sur Panera.",
     "Cities":"s.l.",
@@ -24880,19 +24879,19 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2488.0,
-    "Authors":null,
+},{
+    "Id":2488,
+    "Authors":"Not found",
     "Title":"Scaffaletto III: Teatro e musica. ",
     "Cities":"Firenze",
     "Publisher":"Sansoni Antiquariato",
     "Years":"s.d.",
     "Fund":"BTB Segn. Op. 15",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2489.0,
-    "Authors":null,
+    "Category":"TH"
+},{
+    "Id":2489,
+    "Authors":"Not found",
     "Title":"Scelta di poemi giocosi.",
     "Cities":"Milano",
     "Publisher":"Bettoni",
@@ -24900,8 +24899,8 @@ const jsonData = [
     "Fund":"BTB Segn. 657",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":2490.0,
+},{
+    "Id":2490,
     "Authors":"Schelling, Friedrich Wilhelm",
     "Title":"Sistema dell\u2019idealismo trascendetale. Gentile",
     "Cities":"Bari",
@@ -24909,9 +24908,9 @@ const jsonData = [
     "Years":1908,
     "Fund":"BTB Segn. 1902",
     "Segni":"Parzialmente intonso.",
-    "Category":"F"
-    },{
-    "Id":2491.0,
+    "Category":"P"
+},{
+    "Id":2491,
     "Authors":"Schelsky, Helmut",
     "Title":"Il sesso e la societ\u00e0.",
     "Cities":"Milano  ",
@@ -24920,8 +24919,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2092",
     "Segni":null,
     "Category":"P"
-    },{
-    "Id":2492.0,
+},{
+    "Id":2492,
     "Authors":"Schiaffini, Alfredo",
     "Title":"I mille anni della lingua italiana",
     "Cities":"Milano",
@@ -24929,9 +24928,9 @@ const jsonData = [
     "Years":1961,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2493.0,
+    "Category":"GR"
+},{
+    "Id":2493,
     "Authors":"Schiarini, Pompilio",
     "Title":"L\u2019offensiva austriaca nel Trentino",
     "Cities":"Roma",
@@ -24939,9 +24938,9 @@ const jsonData = [
     "Years":1928,
     "Fund":"BTB Segn. 1557",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2494.0,
+    "Category":"H"
+},{
+    "Id":2494,
     "Authors":"Schiller, Friedrich",
     "Title":"Guglielmo Tell.",
     "Cities":"Treviglio",
@@ -24950,8 +24949,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1214",
     "Segni":"Parzialmente intonso.",
     "Category":"GL"
-    },{
-    "Id":2495.0,
+},{
+    "Id":2495,
     "Authors":"Schiller, Friedrich",
     "Title":"Maria Stuart",
     "Cities":"Milano",
@@ -24960,8 +24959,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":2496.0,
+},{
+    "Id":2496,
     "Authors":"Schiller, Friedrich",
     "Title":"Il visionario; Ossiano; Memorie del conte . ",
     "Cities":"Milano",
@@ -24970,8 +24969,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1316",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":2497.0,
+},{
+    "Id":2497,
     "Authors":"Schlegel, Friedrich von",
     "Title":"Storia della letteratura antica e moderna",
     "Cities":"Milano  ",
@@ -24979,9 +24978,9 @@ const jsonData = [
     "Years":1857,
     "Fund":"BTB Segn. 1215",
     "Segni":"Nota di possesso autografa di Adele Gadda Lehr. Sottolineature e postille di C.E. Gadda.",
-    "Category":"L"
-    },{
-    "Id":2498.0,
+    "Category":"GR"
+},{
+    "Id":2498,
     "Authors":"Schleiden, Matthias Jakob",
     "Title":"Gl\u2019israeliti in rapporto alla scienza nel Medioevo",
     "Cities":"Milano",
@@ -24989,9 +24988,9 @@ const jsonData = [
     "Years":1878,
     "Fund":"BTB Segn. 1798",
     "Segni":"Invio ad Adele Gadda Lehr.",
-    "Category":"L"
-    },{
-    "Id":2499.0,
+    "Category":"V"
+},{
+    "Id":2499,
     "Authors":"Schleiermacher, Friedrich Daniel Ernst",
     "Title":"Monologhi",
     "Cities":"Lanciano",
@@ -25000,8 +24999,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1904",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":2500.0,
+},{
+    "Id":2500,
     "Authors":"Schmitz, Edmond \u2013 Jullien, Charles Edouard \u2013 Lorentz, Eric",
     "Title":" Nouveau manuel complet de l\u2019ing\u00e9nieur civil ou Trait\u00e9 sur l\u2019application directe des sciences aux arts et manufactures",
     "Cities":"Paris  ",
@@ -25010,8 +25009,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2055-2056",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2501.0,
+},{
+    "Id":2501,
     "Authors":"Schopenhauer, Arthur",
     "Title":"Frammenti di storia della filosofia.",
     "Cities":"Milano",
@@ -25019,9 +25018,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BTB Segn. 1575",
     "Segni":"Parzialmente intonso.",
-    "Category":"F"
-    },{
-    "Id":2502.0,
+    "Category":"P"
+},{
+    "Id":2502,
     "Authors":"Schopenhauer, Arthur",
     "Title":"La quadruplice ragione del principio di ragion sufficiente.",
     "Cities":"Lanciano",
@@ -25029,9 +25028,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BTM",
     "Segni":"Sottolineature e postille.",
-    "Category":"F"
-    },{
-    "Id":2503.0,
+    "Category":"P"
+},{
+    "Id":2503,
     "Authors":"Schopenhauer, Arthur",
     "Title":"Schopenhauer",
     "Cities":"Milano",
@@ -25039,9 +25038,9 @@ const jsonData = [
     "Years":1941,
     "Fund":"BTB Segn. 1959",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":2504.0,
+    "Category":"P"
+},{
+    "Id":2504,
     "Authors":"Schuchert, Charles \u2013 Dunbar,\nCarl O.",
     "Title":"Outlines of Historical Geology",
     "Cities":"Madison  ",
@@ -25049,10 +25048,10 @@ const jsonData = [
     "Years":1944,
     "Fund":"BTB Segn. 2133",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":2505.0,
-    "Authors":null,
+    "Category":"P"
+},{
+    "Id":2505,
+    "Authors":"Not found",
     "Title":"Schul und ReiseTaschenW\u00f6rterbuch der italienischen und deutschen Sprache",
     "Cities":"Liepzig  ",
     "Publisher":"Tauchnitz",
@@ -25060,8 +25059,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2465",
     "Segni":"Nota di possesso autografa in data 14.07.1909.",
     "Category":"D"
-    },{
-    "Id":2506.0,
+},{
+    "Id":2506,
     "Authors":"Schultz, Ferdinand",
     "Title":"Piccola grammatica latina",
     "Cities":"Tornio",
@@ -25070,8 +25069,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"GR"
-    },{
-    "Id":2507.0,
+},{
+    "Id":2507,
     "Authors":"Schumann, Robert",
     "Title":"La musica romantica",
     "Cities":"Torino",
@@ -25080,8 +25079,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1434",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":2508.0,
+},{
+    "Id":2508,
     "Authors":"Sciaccaluga, Giuseppe",
     "Title":"Commemorazione di Camillo Corsanego tenuta in Genova il 14 giugno 1964",
     "Cities":"Bari  ",
@@ -25089,9 +25088,9 @@ const jsonData = [
     "Years":1964,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2509.0,
+    "Category":"V"
+},{
+    "Id":2509,
     "Authors":"Sciascia, Leonardo",
     "Title":"Le parrocchie di Regalpetra",
     "Cities":"Milano",
@@ -25099,9 +25098,9 @@ const jsonData = [
     "Years":1956,
     "Fund":"BTB Segn. 658",
     "Segni":"Dedica dell\u2019autore in data 6.12.1956.",
-    "Category":"L"
-    },{
-    "Id":2510.0,
+    "Category":"V"
+},{
+    "Id":2510,
     "Authors":"Scillacio, Nicol\u00f2",
     "Title":"L\u2019opuscolo De Insulis nuper inventis",
     "Cities":"Milano",
@@ -25109,9 +25108,9 @@ const jsonData = [
     "Years":1901,
     "Fund":"BTB Segn. Op. 97",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2511.0,
+    "Category":"V"
+},{
+    "Id":2511,
     "Authors":"Scimei, Futabatei",
     "Title":"Mediocrit\u00e0",
     "Cities":"Torino  ",
@@ -25120,8 +25119,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1405",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":2512.0,
+},{
+    "Id":2512,
     "Authors":"Scipione (Gino Bonichi)",
     "Title":"Le civette gridano",
     "Cities":"Milano  ",
@@ -25130,8 +25129,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Biglietto omaggio di Giovanni Scheiwiller.",
     "Category":"IL"
-    },{
-    "Id":2513.0,
+},{
+    "Id":2513,
     "Authors":"Scobel, Albert",
     "Title":"Andrees allgemeiner Handatlas. Jubil\u00e4umsausgabe",
     "Cities":"Leipzig  ",
@@ -25139,9 +25138,9 @@ const jsonData = [
     "Years":1907,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2514.0,
+    "Category":"GL"
+},{
+    "Id":2514,
     "Authors":"Scotti, Pietro",
     "Title":"Etnologia",
     "Cities":"Milano",
@@ -25150,9 +25149,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2093",
     "Segni":"Parzialmente intonso.",
     "Category":"V"
-    },{
-    "Id":2515.0,
-    "Authors":null,
+},{
+    "Id":2515,
+    "Authors":"Not found",
     "Title":"Scrittori latini cristiani. ",
     "Cities":"Firenze  ",
     "Publisher":"Vallecchi",
@@ -25160,29 +25159,29 @@ const jsonData = [
     "Fund":"BTB Segn. 118",
     "Segni":"Postille.",
     "Category":"CL"
-    },{
-    "Id":2516.0,
-    "Authors":null,
+},{
+    "Id":2516,
+    "Authors":"Not found",
     "Title":"Sculture di Alberto Sani. Disegni di Carlotta De Jurco",
     "Cities":"Firenze",
     "Publisher":"s.n.",
     "Years":1949,
     "Fund":"BTB Segn. Op. 117",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":2517.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":2517,
+    "Authors":"Not found",
     "Title":"Sculture italiane di tutti i tempi",
     "Cities":"Bergamo  ",
     "Publisher":"Istituto italiano di arti grafiche",
     "Years":1915,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":2518.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":2518,
+    "Authors":"Not found",
     "Title":"Scuola professionale macellai: lezioni del primo e del secondo corso. ",
     "Cities":"Milano",
     "Publisher":"C.M.M",
@@ -25190,18 +25189,18 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 58-59",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":2519.0,
-    "Authors":null,
+},{
+    "Id":2519,
+    "Authors":"Not found",
     "Title":"Un secolo di prosa. Panorama della prosa italiana dal 1850 ad oggi.",
     "Cities":"Torino",
     "Publisher":"Petrini",
     "Years":1959,
     "Fund":"BTB Segn. 855",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2520.0,
+    "Category":"IL"
+},{
+    "Id":2520,
     "Authors":"Segre, Cesare",
     "Title":"La bilancetta filologica",
     "Cities":"Genova  ",
@@ -25210,8 +25209,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":2521.0,
+},{
+    "Id":2521,
     "Authors":"S\u00e9gur, Philippe-Paul",
     "Title":"Storia di Napoleone e della Grande armata durante l\u2019anno 1812",
     "Cities":"Milano",
@@ -25219,9 +25218,9 @@ const jsonData = [
     "Years":1950,
     "Fund":"BTB Segn. 1694-1695",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2522.0,
+    "Category":"H"
+},{
+    "Id":2522,
     "Authors":"Sellitti, Gabriele",
     "Title":"Pecch\u00e8?  ",
     "Cities":null,
@@ -25230,8 +25229,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 99",
     "Segni":"Con lettera dell\u2019autore a Gadda in data 9.1963 Salerno.",
     "Category":"IL"
-    },{
-    "Id":2523.0,
+},{
+    "Id":2523,
     "Authors":"Sellitti, Gabriele",
     "Title":"Scrivere bene e scrivere male. Dattiloscritto",
     "Cities":null,
@@ -25240,8 +25239,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 101",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2524.0,
+},{
+    "Id":2524,
     "Authors":"Semenza, Carlo",
     "Title":"Un caso caratteristico nella costruzione di grandi dighe",
     "Cities":"Milano ",
@@ -25250,8 +25249,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 119",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"T"
-    },{
-    "Id":2525.0,
+},{
+    "Id":2525,
     "Authors":"Seneca, Lucio Anneo",
     "Title":"Opere morali.",
     "Cities":"Pascal",
@@ -25260,8 +25259,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1903",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2526.0,
+},{
+    "Id":2526,
     "Authors":"Senofonte",
     "Title":"Anabasi e Ciropedia",
     "Cities":"Torino",
@@ -25270,8 +25269,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2527.0,
+},{
+    "Id":2527,
     "Authors":"Serao, Matilde",
     "Title":"I capelli di Sansone. ",
     "Cities":"Firenze",
@@ -25280,8 +25279,8 @@ const jsonData = [
     "Fund":"BTB Segn. 659",
     "Segni":"Nota di possesso autografa di Enrico Gadda in data 18.08.1917.",
     "Category":"IL"
-    },{
-    "Id":2528.0,
+},{
+    "Id":2528,
     "Authors":"Sereni, Vittorio",
     "Title":"Diario d\u2019Algeria",
     "Cities":"Firenze  ",
@@ -25290,8 +25289,8 @@ const jsonData = [
     "Fund":"BTB Segn. 661",
     "Segni":"Dedica dell\u2019autore in data 5.1947.",
     "Category":"IL"
-    },{
-    "Id":2529.0,
+},{
+    "Id":2529,
     "Authors":"Sereni, Vittorio",
     "Title":"Poesie",
     "Cities":"Firenze",
@@ -25300,8 +25299,8 @@ const jsonData = [
     "Fund":"BTB Segn. 660",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2530.0,
+},{
+    "Id":2530,
     "Authors":"Serini, Paolo",
     "Title":"Pascal",
     "Cities":"Torino",
@@ -25309,9 +25308,9 @@ const jsonData = [
     "Years":1942,
     "Fund":"BTB Segn. 661",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":2531.0,
+    "Category":"P"
+},{
+    "Id":2531,
     "Authors":"Sermonti, Vittorio",
     "Title":"La bambina Europa",
     "Cities":"Firenze  ",
@@ -25320,8 +25319,8 @@ const jsonData = [
     "Fund":"BTB Segn. 662",
     "Segni":"Dedica dell\u2019autore in data 5.1954.",
     "Category":"IL"
-    },{
-    "Id":2532.0,
+},{
+    "Id":2532,
     "Authors":"Sermonti, Vittorio",
     "Title":"Novella storica",
     "Cities":"Milano",
@@ -25330,8 +25329,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore in data 19.5.1968.",
     "Category":"IL"
-    },{
-    "Id":2533.0,
+},{
+    "Id":2533,
     "Authors":"Seroni, Adriano",
     "Title":"Gadda",
     "Cities":"Firenze",
@@ -25340,8 +25339,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2534.0,
+},{
+    "Id":2534,
     "Authors":"Serra, Renato",
     "Title":"Scritti critici",
     "Cities":"Roma ",
@@ -25350,8 +25349,8 @@ const jsonData = [
     "Fund":"BTB Segn. 880",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2535.0,
+},{
+    "Id":2535,
     "Authors":"Serra, Renato",
     "Title":"Scritti inediti",
     "Cities":"Roma",
@@ -25360,8 +25359,8 @@ const jsonData = [
     "Fund":"BTB Segn. 881",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2536.0,
+},{
+    "Id":2536,
     "Authors":"Serravalli, Luigi",
     "Title":"42 poesie",
     "Cities":"Bolzano  ",
@@ -25370,8 +25369,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2537.0,
+},{
+    "Id":2537,
     "Authors":"Serret, Joseph Alfred",
     "Title":"Trattato di trigonometria",
     "Cities":"Firenze",
@@ -25380,9 +25379,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2132",
     "Segni":"Nota di possesso autografa in data 1924 Milano. Postille",
     "Category":"T"
-    },{
-    "Id":2538.0,
-    "Authors":null,
+},{
+    "Id":2538,
+    "Authors":"Not found",
     "Title":"Servizio in guerra. Parte I. Servizio delle truppe",
     "Cities":"Roma  ",
     "Publisher":"Voghera",
@@ -25390,8 +25389,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2164",
     "Segni":null,
     "Category":"M"
-    },{
-    "Id":2539.0,
+},{
+    "Id":2539,
     "Authors":"Sessa, Giuseppe",
     "Title":"  Dottrina popolare in quattro lingue (italiana, francese, Inglese, tedesca): espressioni famigliari e motti popolari; frasi commerciali; proverbi",
     "Cities":"Milano",
@@ -25400,18 +25399,18 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"GR"
-    },{
-    "Id":2540.0,
-    "Authors":null,
+},{
+    "Id":2540,
+    "Authors":"Not found",
     "Title":"Sette sculture dal sec. V a.C. al sec. XV d.C.: opere esposte nelle mostre organizzate dal Centro Studi Piero della Francesca dal 1956 al 1971",
     "Cities":"Milano",
     "Publisher":"Esperia",
     "Years":1971,
     "Fund":"BTB Segn. Op. 126",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":2541.0,
+    "Category":"HA"
+},{
+    "Id":2541,
     "Authors":"Settembrini, Luigi",
     "Title":"Ricordanze della mia vita.",
     "Cities":"Napoli",
@@ -25420,8 +25419,8 @@ const jsonData = [
     "Fund":"BTB Segn. 663",
     "Segni":"Sottolineature.",
     "Category":"IL"
-    },{
-    "Id":2542.0,
+},{
+    "Id":2542,
     "Authors":"Shakespeare, William",
     "Title":"Amleto",
     "Cities":"Firenze",
@@ -25429,9 +25428,9 @@ const jsonData = [
     "Years":1927,
     "Fund":"BTB Segn. 1300",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2543.0,
+    "Category":"AL"
+},{
+    "Id":2543,
     "Authors":"Shakespeare, William",
     "Title":"Amleto",
     "Cities":"Milano",
@@ -25439,9 +25438,9 @@ const jsonData = [
     "Years":1951,
     "Fund":"BTB Segn. 1307",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2544.0,
+    "Category":"AL"
+},{
+    "Id":2544,
     "Authors":"Shakespeare, William",
     "Title":"The Complete Works. ",
     "Cities":"Oxford  ",
@@ -25449,9 +25448,9 @@ const jsonData = [
     "Years":1935,
     "Fund":"BTB Segn. 1298",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2545.0,
+    "Category":"AL"
+},{
+    "Id":2545,
     "Authors":"Shakespeare, William",
     "Title":" Giulio Cesare.",
     "Cities":"s.l.",
@@ -25459,9 +25458,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BAL",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2546.0,
+    "Category":"AL"
+},{
+    "Id":2546,
     "Authors":"Shakespeare, William",
     "Title":"Giulio Cesare",
     "Cities":"Firenze",
@@ -25469,9 +25468,9 @@ const jsonData = [
     "Years":1924,
     "Fund":"BTB Segn. 1301",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2547.0,
+    "Category":"AL"
+},{
+    "Id":2547,
     "Authors":"Shakespeare, William",
     "Title":" Hamlet.",
     "Cities":"London",
@@ -25479,9 +25478,9 @@ const jsonData = [
     "Years":1919,
     "Fund":"BTM",
     "Segni":"Timbro in gomma al frontespizio: Mitchell\u2019s 580 Cangallo 578 Buenos Aires. Sotto lineature e postille.",
-    "Category":"EL"
-    },{
-    "Id":2548.0,
+    "Category":"AL"
+},{
+    "Id":2548,
     "Authors":"Shakespeare, William",
     "Title":"Macbeth",
     "Cities":"Firenze",
@@ -25489,9 +25488,9 @@ const jsonData = [
     "Years":1924,
     "Fund":"BTB Segn. 1302",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2549.0,
+    "Category":"AL"
+},{
+    "Id":2549,
     "Authors":"Shakespeare, William",
     "Title":"Macbeth",
     "Cities":"Torino",
@@ -25499,9 +25498,9 @@ const jsonData = [
     "Years":1952,
     "Fund":"BTB Segn. 1297",
     "Segni":"Intonso.",
-    "Category":"EL"
-    },{
-    "Id":2550.0,
+    "Category":"AL"
+},{
+    "Id":2550,
     "Authors":"Shakespeare, William",
     "Title":"La notte dell\u2019Epifania o Quel che volete",
     "Cities":"Firenze  ",
@@ -25509,9 +25508,9 @@ const jsonData = [
     "Years":1934,
     "Fund":"BTB Segn. 1306",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2551.0,
+    "Category":"AL"
+},{
+    "Id":2551,
     "Authors":"Shakespeare, William",
     "Title":"Re Enrico VI. Con tutt\u2019intera la contesa fra le due famiglie di Lancaster e York",
     "Cities":"Milano",
@@ -25519,9 +25518,9 @@ const jsonData = [
     "Years":1955,
     "Fund":"BTB Segn. 1308",
     "Segni":"Dedica del traduttore in data 5.1957.",
-    "Category":"EL"
-    },{
-    "Id":2552.0,
+    "Category":"AL"
+},{
+    "Id":2552,
     "Authors":"Shakespeare, William",
     "Title":"Sogno di una notte d\u2019estate",
     "Cities":"Firenze  ",
@@ -25529,9 +25528,9 @@ const jsonData = [
     "Years":1934,
     "Fund":"BTB Segn. 1303",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2553.0,
+    "Category":"AL"
+},{
+    "Id":2553,
     "Authors":"Shakespeare, William",
     "Title":"I sonetti",
     "Cities":"Firenze",
@@ -25539,9 +25538,9 @@ const jsonData = [
     "Years":1946,
     "Fund":"BTB Segn. 1294",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2554.0,
+    "Category":"AL"
+},{
+    "Id":2554,
     "Authors":"Shakespeare, William",
     "Title":"Sonetti",
     "Cities":"Torino  Einaudi",
@@ -25549,9 +25548,9 @@ const jsonData = [
     "Years":1952,
     "Fund":"BTB Segn. 1296",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2555.0,
+    "Category":"AL"
+},{
+    "Id":2555,
     "Authors":"Shakespeare, William",
     "Title":"Sonetti.",
     "Cities":"Torino  ",
@@ -25559,9 +25558,9 @@ const jsonData = [
     "Years":1966,
     "Fund":"BTB Segn. 1295",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2556.0,
+    "Category":"AL"
+},{
+    "Id":2556,
     "Authors":"Shakespeare, William",
     "Title":"Teatro",
     "Cities":"Firenze  ",
@@ -25569,9 +25568,9 @@ const jsonData = [
     "Years":1943,
     "Fund":"BTB Segn. 1291-1293",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2557.0,
+    "Category":"AL"
+},{
+    "Id":2557,
     "Authors":"Shakespeare, William",
     "Title":"Teatro. Introduzione di G. Melchiori",
     "Cities":"Torino",
@@ -25579,9 +25578,9 @@ const jsonData = [
     "Years":1964,
     "Fund":"BTB Segn. 1299",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2558.0,
+    "Category":"AL"
+},{
+    "Id":2558,
     "Authors":"Shakespeare, William",
     "Title":" La tempesta. ",
     "Cities":"Firenze",
@@ -25589,9 +25588,9 @@ const jsonData = [
     "Years":1933,
     "Fund":"BTB Segn. 1304",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2559.0,
+    "Category":"AL"
+},{
+    "Id":2559,
     "Authors":"Shakespeare, William",
     "Title":"Th\u00e9\u00e2tre complet",
     "Cities":"Paris  ",
@@ -25599,9 +25598,9 @@ const jsonData = [
     "Years":1950,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2560.0,
+    "Category":"AL"
+},{
+    "Id":2560,
     "Authors":"Shakespeare, William",
     "Title":"Troilo e Cressida",
     "Cities":"Firenze",
@@ -25609,9 +25608,9 @@ const jsonData = [
     "Years":1940,
     "Fund":"BTB Segn. 1305",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2561.0,
+    "Category":"AL"
+},{
+    "Id":2561,
     "Authors":"Shaw, George Bernard",
     "Title":"Santa Giovanna.",
     "Cities":"Milano",
@@ -25619,9 +25618,9 @@ const jsonData = [
     "Years":1949,
     "Fund":"BTB Segn. 1309",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2562.0,
+    "Category":"AL"
+},{
+    "Id":2562,
     "Authors":"Shelley, Percy Bysshe",
     "Title":"La difesa della poesia",
     "Cities":"Lanciano",
@@ -25629,9 +25628,9 @@ const jsonData = [
     "Years":1933,
     "Fund":"BTB Segn. 1310",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2563.0,
+    "Category":"AL"
+},{
+    "Id":2563,
     "Authors":"Shelley, Percy Bysshe",
     "Title":" Liriche e frammenti",
     "Cities":"Firenze",
@@ -25639,9 +25638,9 @@ const jsonData = [
     "Years":1939,
     "Fund":"BTB Segn. 1311",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2564.0,
+    "Category":"AL"
+},{
+    "Id":2564,
     "Authors":"Shelley, Percy Bysshe",
     "Title":"Prometheus Unbound",
     "Cities":"London  ",
@@ -25649,9 +25648,9 @@ const jsonData = [
     "Years":1898,
     "Fund":"BTB Segn. 1312",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2565.0,
+    "Category":"AL"
+},{
+    "Id":2565,
     "Authors":"Shikibu, Murasaki",
     "Title":"Storia di Genji il principe splendente",
     "Cities":"Torino",
@@ -25659,10 +25658,10 @@ const jsonData = [
     "Years":1957,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2566.0,
-    "Authors":null,
+    "Category":"V"
+},{
+    "Id":2566,
+    "Authors":"Not found",
     "Title":"SIAE 1882\/1972",
     "Cities":"Roma",
     "Publisher":"SIAE",
@@ -25670,8 +25669,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2399",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":2567.0,
+},{
+    "Id":2567,
     "Authors":"Sichirollo, Angelo",
     "Title":"Garibaldi e i Mille da Quarto al Volturno",
     "Cities":"Milano",
@@ -25679,10 +25678,10 @@ const jsonData = [
     "Years":1910,
     "Fund":"BTB Segn. Op. 60",
     "Segni":"Nota di possesso autografa di Enrico Gadda in data 11.05.1910.",
-    "Category":"S"
-    },{
-    "Id":2568.0,
-    "Authors":null,
+    "Category":"H"
+},{
+    "Id":2568,
+    "Authors":"Not found",
     "Title":"Sicilia",
     "Cities":"Milano",
     "Publisher":"TCI",
@@ -25690,8 +25689,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2337",
     "Segni":null,
     "Category":"G "
-    },{
-    "Id":2569.0,
+},{
+    "Id":2569,
     "Authors":"Siciliano, Enzo",
     "Title":"Autobiografia letteraria",
     "Cities":"Milano  ",
@@ -25700,8 +25699,8 @@ const jsonData = [
     "Fund":"BTB Segn. 665",
     "Segni":"Dedica dell\u2019autore in data 27.3.1970. Parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":2570.0,
+},{
+    "Id":2570,
     "Authors":"Siciliano, Enzo",
     "Title":"La coppia",
     "Cities":"Milano",
@@ -25710,8 +25709,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":2571.0,
+},{
+    "Id":2571,
     "Authors":"Siciliano, Enzo",
     "Title":"Dietro di me",
     "Cities":"Milano",
@@ -25720,8 +25719,8 @@ const jsonData = [
     "Fund":"BTB Segn. 666",
     "Segni":"Dedica dell\u2019autore in data 26.3.1971.",
     "Category":"IL"
-    },{
-    "Id":2572.0,
+},{
+    "Id":2572,
     "Authors":"Siciliano, Enzo",
     "Title":"Rosa (pazza e disperata)",
     "Cities":"Milano  ",
@@ -25730,8 +25729,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore in data 2.2.1973.",
     "Category":"IL"
-    },{
-    "Id":2573.0,
+},{
+    "Id":2573,
     "Authors":"Siciliano, Italo",
     "Title":"Racine. La vita e le opere",
     "Cities":"Padova",
@@ -25740,8 +25739,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1148",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2574.0,
+},{
+    "Id":2574,
     "Authors":"Siebeck, Hermann",
     "Title":"Aristotele",
     "Cities":"Milano-Palermo-Napoli",
@@ -25749,9 +25748,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BTB Segn. 1977",
     "Segni":"Sottolineature.",
-    "Category":"F"
-    },{
-    "Id":2575.0,
+    "Category":"P"
+},{
+    "Id":2575,
     "Authors":"Siebzehner Vivanti, Giorgio",
     "Title":"Dizionario della Divina Commedia",
     "Cities":"Milano",
@@ -25760,8 +25759,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Segnalibro.",
     "Category":"IL"
-    },{
-    "Id":2576.0,
+},{
+    "Id":2576,
     "Authors":"Sienkiewicz, Enrico",
     "Title":"Quo vadis",
     "Cities":"Milano  ",
@@ -25769,9 +25768,9 @@ const jsonData = [
     "Years":1903,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2577.0,
+    "Category":"V"
+},{
+    "Id":2577,
     "Authors":"Signorini, Telemaco",
     "Title":"Caricaturisti e caricaturati al caff\u00e8 Michelangiolo. ",
     "Cities":"Firenze ",
@@ -25779,9 +25778,9 @@ const jsonData = [
     "Years":1952,
     "Fund":"BTB Segn. 2193",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":2578.0,
+    "Category":"HA"
+},{
+    "Id":2578,
     "Authors":"Silva, Pietro",
     "Title":"Io difendo la monarchia",
     "Cities":"Roma  ",
@@ -25790,8 +25789,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1558",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":2579.0,
+},{
+    "Id":2579,
     "Authors":"Silvestri, Mario",
     "Title":"Isonzo 1917",
     "Cities":"Torino",
@@ -25800,8 +25799,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1559",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2580.0,
+},{
+    "Id":2580,
     "Authors":"Simenon, Georges",
     "Title":"L\u2019osteria dei due soldi",
     "Cities":"Milano  Mon dadori",
@@ -25810,8 +25809,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2581.0,
+},{
+    "Id":2581,
     "Authors":"Simeoni, Luigi",
     "Title":"Verona",
     "Cities":"Verona",
@@ -25820,8 +25819,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2296",
     "Segni":"Nota di possesso autografa.",
     "Category":"G"
-    },{
-    "Id":2582.0,
+},{
+    "Id":2582,
     "Authors":"Simonet, Francisco Javier",
     "Title":"Historia de los Moz\u00e1rabes de Espa\u00f1a deducida de los mejores y m\u00e1s aut\u00e9nticos testimonios de los escritores cristianos y arabes",
     "Cities":"Madrid",
@@ -25829,9 +25828,9 @@ const jsonData = [
     "Years":1897,
     "Fund":"BTB Segn. 1589",
     "Segni":"Parzialmente intonso.",
-    "Category":"S"
-    },{
-    "Id":2583.0,
+    "Category":"H"
+},{
+    "Id":2583,
     "Authors":"Sinigaglia, Sandro",
     "Title":"Il flauto e la bricolla",
     "Cities":"Firenze  ",
@@ -25840,8 +25839,8 @@ const jsonData = [
     "Fund":"BTB Segn. 667",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2584.0,
+},{
+    "Id":2584,
     "Authors":"Sinisgalli, Leonardo",
     "Title":"Campi Elisi",
     "Cities":"Milano",
@@ -25850,8 +25849,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2585.0,
+},{
+    "Id":2585,
     "Authors":"Sinisgalli, Leonardo",
     "Title":"Campi Elisi",
     "Cities":"Roma",
@@ -25860,8 +25859,8 @@ const jsonData = [
     "Fund":"BTB Segn. 668",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2586.0,
+},{
+    "Id":2586,
     "Authors":"Sirchio, Giuseppe",
     "Title":"Inno alla vita",
     "Cities":"Milano",
@@ -25870,8 +25869,8 @@ const jsonData = [
     "Fund":"BTB Segn. 669",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2587.0,
+},{
+    "Id":2587,
     "Authors":"Sirovich, C.",
     "Title":". Les conduites forc\u00e9es pour la plus haute chute du monde. ",
     "Cities":"s.l.",
@@ -25880,8 +25879,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 102",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2588.0,
+},{
+    "Id":2588,
     "Authors":"Smith, William",
     "Title":"Storia greca. ",
     "Cities":"s.l.",
@@ -25889,9 +25888,9 @@ const jsonData = [
     "Years":"s.n.",
     "Fund":"BTB Segn. 1489",
     "Segni":"Nota di possesso autografa di Adele Gadda Lehr.",
-    "Category":"S"
-    },{
-    "Id":2589.0,
+    "Category":"H"
+},{
+    "Id":2589,
     "Authors":"Soavi, Giorgio",
     "Title":"23 poesie",
     "Cities":"Milano ",
@@ -25899,9 +25898,9 @@ const jsonData = [
     "Years":1947,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2590.0,
+    "Category":"IL"
+},{
+    "Id":2590,
     "Authors":"Soavi, Giorgio",
     "Title":"Le spalle coperte",
     "Cities":"Venezia ",
@@ -25910,9 +25909,9 @@ const jsonData = [
     "Fund":"BTB Segn. 670",
     "Segni":"Dedica dell\u2019autore in data 11.1951.",
     "Category":"IL"
-    },{
-    "Id":2591.0,
-    "Authors":null,
+},{
+    "Id":2591,
+    "Authors":"Not found",
     "Title":"Societ\u00e0 Edison. Assemblea straordinaria del 18 settembre 1942",
     "Cities":"Milano",
     "Publisher":"Tip. Pizzi",
@@ -25920,9 +25919,9 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 72",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2592.0,
-    "Authors":null,
+},{
+    "Id":2592,
+    "Authors":"Not found",
     "Title":"Societ\u00e0 Geologica Italiana. Guida alle escursioni",
     "Cities":"Milano-Como-Bergamo ",
     "Publisher":"Societ\u00e0 Geologica Italiana",
@@ -25930,8 +25929,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2297",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2593.0,
+},{
+    "Id":2593,
     "Authors":"Soffici, Ardengo",
     "Title":"Giornale di bordo",
     "Cities":"Firenze  ",
@@ -25939,9 +25938,9 @@ const jsonData = [
     "Years":1948,
     "Fund":"BTB Segn. 671",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2594.0,
+    "Category":"IL"
+},{
+    "Id":2594,
     "Authors":"Soffici, Ardengo",
     "Title":"L\u2019uva e la croce",
     "Cities":"Firenze  ",
@@ -25950,18 +25949,18 @@ const jsonData = [
     "Fund":"BTB Segn. 672",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2595.0,
-    "Authors":null,
+},{
+    "Id":2595,
+    "Authors":"Not found",
     "Title":"I Sofisti: frammenti e testimonianze",
     "Cities":"Bari",
     "Publisher":"Laterza",
     "Years":1923,
     "Fund":"BTB Segn. 1905",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":2596.0,
+    "Category":"P"
+},{
+    "Id":2596,
     "Authors":"Sofocle",
     "Title":"Antigone.",
     "Cities":"Torino",
@@ -25970,8 +25969,8 @@ const jsonData = [
     "Fund":"BTB Segn. 18",
     "Segni":"Sottolineature e postille.",
     "Category":"CL"
-    },{
-    "Id":2597.0,
+},{
+    "Id":2597,
     "Authors":"Sofocle",
     "Title":"Antigone",
     "Cities":"Milano  ",
@@ -25980,8 +25979,8 @@ const jsonData = [
     "Fund":"BTB Segn. 20 ",
     "Segni":"Pieghe",
     "Category":"CL"
-    },{
-    "Id":2598.0,
+},{
+    "Id":2598,
     "Authors":"Sofocle",
     "Title":"Elettra",
     "Cities":"Torino",
@@ -25990,8 +25989,8 @@ const jsonData = [
     "Fund":"BTB Segn. 19 ",
     "Segni":"Postille",
     "Category":"CL"
-    },{
-    "Id":2599.0,
+},{
+    "Id":2599,
     "Authors":"Sofocle",
     "Title":"Elettra.",
     "Cities":"Milano",
@@ -26000,9 +25999,9 @@ const jsonData = [
     "Fund":"BTB Segn. 21",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2600.0,
-    "Authors":null,
+},{
+    "Id":2600,
+    "Authors":"Not found",
     "Title":"\u00abSolaria\u00bb (Antologia di)",
     "Cities":"Milano  ",
     "Publisher":"Lerici",
@@ -26010,8 +26009,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":2601.0,
+},{
+    "Id":2601,
     "Authors":"Solaroli, Libero",
     "Title":"Laclos",
     "Cities":"Roma",
@@ -26019,9 +26018,9 @@ const jsonData = [
     "Years":1952,
     "Fund":"BTB Segn. 1149",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2602.0,
+    "Category":"IL"
+},{
+    "Id":2602,
     "Authors":"Soldati, Mario",
     "Title":"Il vero Silvestri",
     "Cities":"Milano  ",
@@ -26030,8 +26029,8 @@ const jsonData = [
     "Fund":"BTB Segn. 673",
     "Segni":"Dedica dell\u2019autore in data 8.1957.",
     "Category":"IL"
-    },{
-    "Id":2603.0,
+},{
+    "Id":2603,
     "Authors":"Soldini, Adriano",
     "Title":"Le strade rosse",
     "Cities":"Lugano  ",
@@ -26040,8 +26039,8 @@ const jsonData = [
     "Fund":"BTB Segn. 674",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2604.0,
+},{
+    "Id":2604,
     "Authors":"Solgenitzyn, Aleksandr Isaevic",
     "Title":"Discorso per il conferimento del premio Nobel",
     "Cities":"Roma  ",
@@ -26050,8 +26049,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1386",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":2605.0,
+},{
+    "Id":2605,
     "Authors":"Solmi, Sergio",
     "Title":"  Gigiotti Zanini",
     "Cities":"Milano",
@@ -26060,8 +26059,8 @@ const jsonData = [
     "Fund":null,
     "Segni":"Dedica dell\u2019autore in data 1941 Milano.",
     "Category":"IL"
-    },{
-    "Id":2606.0,
+},{
+    "Id":2606,
     "Authors":"Solmi, Sergio",
     "Title":"Poesie",
     "Cities":"Milano",
@@ -26070,8 +26069,8 @@ const jsonData = [
     "Fund":"BTB Segn. 675",
     "Segni":"Dedica dell\u2019autore in data 31.10.1950.",
     "Category":"IL"
-    },{
-    "Id":2607.0,
+},{
+    "Id":2607,
     "Authors":"Solmi, Sergio",
     "Title":"La salute di Montaigne e altri scritti di letteratura francese",
     "Cities":"Firenze",
@@ -26080,8 +26079,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1151",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2608.0,
+},{
+    "Id":2608,
     "Authors":"Solmi, Sergio",
     "Title":"La salute di Montaigne e altri scritti di letteratura francese",
     "Cities":"Milano-Napoli",
@@ -26090,8 +26089,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1150",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":2609.0,
+},{
+    "Id":2609,
     "Authors":"Solmi, Sergio",
     "Title":"Scrittori negli anni. Saggi e note sulla letteratura italiana del Novecento",
     "Cities":"Milano",
@@ -26100,8 +26099,8 @@ const jsonData = [
     "Fund":"BTB Segn. 884",
     "Segni":"Sottolineature e postille.",
     "Category":"IL"
-    },{
-    "Id":2610.0,
+},{
+    "Id":2610,
     "Authors":"Spagnoletti, Giacinto",
     "Title":"Tre poeti italiani del Novecento: Saba, Ungaretti, Montale",
     "Cities":"Torino-Roma",
@@ -26110,8 +26109,8 @@ const jsonData = [
     "Fund":"BTB Segn. 888",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2611.0,
+},{
+    "Id":2611,
     "Authors":"Spallicci, Aldo",
     "Title":"I medici e la medicina in Marziale",
     "Cities":"Milano",
@@ -26120,8 +26119,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2094",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2612.0,
+},{
+    "Id":2612,
     "Authors":"Spallicci, Aldo",
     "Title":"La medicina in Lucano",
     "Cities":"Milano  ",
@@ -26130,8 +26129,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2096",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2613.0,
+},{
+    "Id":2613,
     "Authors":"Spallicci, Aldo",
     "Title":"La medicina in Plauto",
     "Cities":"Milano",
@@ -26140,8 +26139,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2097",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2614.0,
+},{
+    "Id":2614,
     "Authors":"Spallicci, Aldo",
     "Title":"La medicina in Plinio il naturalista",
     "Cities":"Milano",
@@ -26150,8 +26149,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2095",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2615.0,
+},{
+    "Id":2615,
     "Authors":"Spellanzon, Cesare",
     "Title":"Storia del Risorgimento e dell\u2019unit\u00e0 d\u2019Italia",
     "Cities":"Milano",
@@ -26159,9 +26158,9 @@ const jsonData = [
     "Years":1933,
     "Fund":"BTB Segn. 1560-1564",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2616.0,
+    "Category":"H"
+},{
+    "Id":2616,
     "Authors":"Spencer, Herbert",
     "Title":"Le basi della morale",
     "Cities":"Milano-Torino-Roma  ",
@@ -26169,9 +26168,9 @@ const jsonData = [
     "Years":1908,
     "Fund":"BTB Segn. 1907",
     "Segni":"Parzialmente intonso.",
-    "Category":"F"
-    },{
-    "Id":2617.0,
+    "Category":"P"
+},{
+    "Id":2617,
     "Authors":"Spencer, Herbert",
     "Title":" L\u2019evoluzione della morale",
     "Cities":"MilanoTorino-Roma",
@@ -26179,9 +26178,9 @@ const jsonData = [
     "Years":1909,
     "Fund":"BTB Segn. 1908",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":2618.0,
+    "Category":"P"
+},{
+    "Id":2618,
     "Authors":"Spencer, Herbert",
     "Title":"I primi principi. ",
     "Cities":"Milano",
@@ -26189,9 +26188,9 @@ const jsonData = [
     "Years":1915,
     "Fund":"BTB Segn. 1906",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":2619.0,
+    "Category":"P"
+},{
+    "Id":2619,
     "Authors":"Spinazzola, Vittorio",
     "Title":"Federico De Roberto e il Verismo",
     "Cities":"Milano",
@@ -26199,9 +26198,9 @@ const jsonData = [
     "Years":1961,
     "Fund":"BTB Segn. 889",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2620.0,
+    "Category":"H"
+},{
+    "Id":2620,
     "Authors":"Spinosa, Antonio",
     "Title":"L\u2019ABC dello snobismo",
     "Cities":"Milano  ",
@@ -26209,9 +26208,9 @@ const jsonData = [
     "Years":1968,
     "Fund":"BTB Segn. 676",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2621.0,
+    "Category":"IL"
+},{
+    "Id":2621,
     "Authors":"Spinoza, Baruch",
     "Title":"Breve trattato su Dio, l\u2019uomo e la sua felicit\u00e0",
     "Cities":"Firenze",
@@ -26219,9 +26218,9 @@ const jsonData = [
     "Years":1953,
     "Fund":"BTB Segn. 1916",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":2622.0,
+    "Category":"P"
+},{
+    "Id":2622,
     "Authors":"Spinoza, Baruch",
     "Title":" Dio.",
     "Cities":"Lanciano",
@@ -26229,9 +26228,9 @@ const jsonData = [
     "Years":1914,
     "Fund":"BTB Segn. 1917",
     "Segni":"Postille.",
-    "Category":"F"
-    },{
-    "Id":2623.0,
+    "Category":"P"
+},{
+    "Id":2623,
     "Authors":"Spinoza, Baruch",
     "Title":"\u00c9thique",
     "Cities":"Paris  ",
@@ -26239,9 +26238,9 @@ const jsonData = [
     "Years":1912,
     "Fund":"BAL",
     "Segni":"Nota di mano ignota \u00ab1er janvier 1920\u00bb.",
-    "Category":"F"
-    },{
-    "Id":2624.0,
+    "Category":"P"
+},{
+    "Id":2624,
     "Authors":"Spinoza, Baruch",
     "Title":"L\u2019etica",
     "Cities":"Milano  ",
@@ -26249,9 +26248,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BTM",
     "Segni":"Sottolineature e postille.",
-    "Category":"F"
-    },{
-    "Id":2625.0,
+    "Category":"P"
+},{
+    "Id":2625,
     "Authors":"Spinoza, Baruch",
     "Title":"L\u2019etica",
     "Cities":"Roma-Napoli-Palermo-TorinoMilano-Firenze",
@@ -26259,9 +26258,9 @@ const jsonData = [
     "Years":1928,
     "Fund":"BTB Segn. 1918",
     "Segni":"Pieghe.",
-    "Category":"F"
-    },{
-    "Id":2626.0,
+    "Category":"P"
+},{
+    "Id":2626,
     "Authors":"Spinoza, Baruch",
     "Title":" \u0152uvres. I, II, III",
     "Cities":"Paris",
@@ -26269,9 +26268,9 @@ const jsonData = [
     "Years":1928,
     "Fund":"BTB Segn. 1912-1914",
     "Segni":"Volumi II e III parzialmente intonsi.",
-    "Category":"F"
-    },{
-    "Id":2627.0,
+    "Category":"P"
+},{
+    "Id":2627,
     "Authors":"Spinoza, Baruch",
     "Title":" Opera quae supersunt omnia, I",
     "Cities":"Leipzig",
@@ -26279,9 +26278,9 @@ const jsonData = [
     "Years":1843,
     "Fund":"BTB Segn. 1915",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":2628.0,
+    "Category":"P"
+},{
+    "Id":2628,
     "Authors":"Spinoza, Baruch",
     "Title":" Opera. Quot-quot reperta sunt. I, II, III",
     "Cities":"L\u2019Aja",
@@ -26289,9 +26288,9 @@ const jsonData = [
     "Years":1895,
     "Fund":"BTB Segn. 1909-1911",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":2629.0,
+    "Category":"P"
+},{
+    "Id":2629,
     "Authors":"Spir, Africano",
     "Title":"Saggi di filosofia critica",
     "Cities":"Milano  ",
@@ -26299,9 +26298,9 @@ const jsonData = [
     "Years":1913,
     "Fund":"BTB Segn. 1919",
     "Segni":"Postille e pieghe.",
-    "Category":"F"
-    },{
-    "Id":2630.0,
+    "Category":"P"
+},{
+    "Id":2630,
     "Authors":"Spitzer, Leo",
     "Title":"Marcel Proust e altri saggi di letteratura francese moderna.",
     "Cities":"Torino",
@@ -26310,8 +26309,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1152",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2631.0,
+},{
+    "Id":2631,
     "Authors":"Squarcia, Francesco",
     "Title":"Scritti romantici",
     "Cities":"Parma  ",
@@ -26319,10 +26318,10 @@ const jsonData = [
     "Years":1952,
     "Fund":"BTB Segn. 890",
     "Segni":"Dedica dell\u2019autore.",
-    "Category":"L"
-    },{
-    "Id":2632.0,
-    "Authors":null,
+    "Category":"IL"
+},{
+    "Id":2632,
+    "Authors":"Not found",
     "Title":"Stagione sinfonica organizzata dalla radio italiana",
     "Cities":"Torino",
     "Publisher":"ERI",
@@ -26330,8 +26329,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":2633.0,
+},{
+    "Id":2633,
     "Authors":"Stecchetti, Lorenzo (Olindo Guerrini)",
     "Title":"Nova polemica",
     "Cities":"Sesto San Giovanni",
@@ -26339,9 +26338,9 @@ const jsonData = [
     "Years":1919,
     "Fund":"BTB Segn. 677",
     "Segni":"Parzialmente intonso.",
-    "Category":"L"
-    },{
-    "Id":2634.0,
+    "Category":"IL"
+},{
+    "Id":2634,
     "Authors":"Steele, Richard",
     "Title":"Il chiacchierone",
     "Cities":"Roma",
@@ -26349,9 +26348,9 @@ const jsonData = [
     "Years":1945,
     "Fund":"BTB Segn. 1313",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2635.0,
+    "Category":"AL"
+},{
+    "Id":2635,
     "Authors":"Stein, Gertrude",
     "Title":"Autobiografia di Alice Toklas",
     "Cities":"Torino  ",
@@ -26359,9 +26358,9 @@ const jsonData = [
     "Years":1938,
     "Fund":"BTB Segn. 1314",
     "Segni":"Intonso.",
-    "Category":"L"
-    },{
-    "Id":2636.0,
+    "Category":"AL"
+},{
+    "Id":2636,
     "Authors":"Steinbeck, John",
     "Title":"Piandella Tortilla",
     "Cities":"Milano",
@@ -26369,9 +26368,9 @@ const jsonData = [
     "Years":1939,
     "Fund":"BTB Segn. 1315",
     "Segni":"Pieghe.",
-    "Category":"EL"
-    },{
-    "Id":2637.0,
+    "Category":"AL"
+},{
+    "Id":2637,
     "Authors":"Stendhal (Henry Beyle)",
     "Title":"La Certosa di Parma.",
     "Cities":"Milano",
@@ -26380,8 +26379,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1099",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2638.0,
+},{
+    "Id":2638,
     "Authors":"Stendhal (Henry Beyle)",
     "Title":" Ricordi di egotismo. ",
     "Cities":"Roma",
@@ -26390,8 +26389,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1102",
     "Segni":"Dedica del curatore.",
     "Category":"FL"
-    },{
-    "Id":2639.0,
+},{
+    "Id":2639,
     "Authors":"Stendhal (Henry Beyle)",
     "Title":"Romans et nouvelles",
     "Cities":"Paris  ",
@@ -26400,8 +26399,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2640.0,
+},{
+    "Id":2640,
     "Authors":"Stendhal (Henry Beyle)",
     "Title":"Il rosso e il bianco (Luciano Leuwen)",
     "Cities":"Milano",
@@ -26410,8 +26409,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1100-1101",
     "Segni":"Intonsi.",
     "Category":"FL"
-    },{
-    "Id":2641.0,
+},{
+    "Id":2641,
     "Authors":"Stendhal (Henry Beyle)",
     "Title":"Les temps h\u00e9ro\u00efques de Napol\u00e9on",
     "Cities":"Paris  ",
@@ -26420,8 +26419,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1103",
     "Segni":"Sottolineature e postille.",
     "Category":"FL"
-    },{
-    "Id":2642.0,
+},{
+    "Id":2642,
     "Authors":"Sterne, Lawrence",
     "Title":"Il viaggio sentimentale di Yorik",
     "Cities":"Firenze",
@@ -26429,9 +26428,9 @@ const jsonData = [
     "Years":1922,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2643.0,
+    "Category":"AL"
+},{
+    "Id":2643,
     "Authors":"Stifter, Adalbert",
     "Title":"Cristallo di rocca",
     "Cities":"Milano",
@@ -26440,8 +26439,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1216",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2644.0,
+},{
+    "Id":2644,
     "Authors":"Stoker, Bram",
     "Title":"Dracula il vampiro",
     "Cities":"Milano  ",
@@ -26449,9 +26448,9 @@ const jsonData = [
     "Years":1966,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2645.0,
+    "Category":"AL"
+},{
+    "Id":2645,
     "Authors":"Stoppani, Antonio",
     "Title":"Il bel paese",
     "Cities":"Milano  ",
@@ -26460,28 +26459,28 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2646.0,
-    "Authors":null,
+},{
+    "Id":2646,
+    "Authors":"Not found",
     "Title":"Storia del mondo moderno. ",
     "Cities":"Milano  ",
     "Publisher":"Garzanti",
     "Years":1967,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2647.0,
-    "Authors":null,
+    "Category":"H"
+},{
+    "Id":2647,
+    "Authors":"Not found",
     "Title":"Storia della letteratura italiana. ",
     "Cities":"Milano",
     "Publisher":"Garzanti",
     "Years":1965,
     "Fund":"BTB Segn. 891-899",
     "Segni":"Al volume I, piega; nel volume VIII, segnalibro inserito.",
-    "Category":"L"
-    },{
-    "Id":2648.0,
+    "Category":"IL"
+},{
+    "Id":2648,
     "Authors":null,
     "Title":"Storia d\u2019Italia. I. I caratteri originali. ",
     "Cities":"Torino",
@@ -26489,39 +26488,39 @@ const jsonData = [
     "Years":1972,
     "Fund":"BTB Segn. 1565",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2649.0,
-    "Authors":null,
+    "Category":"H"
+},{
+    "Id":2649,
+    "Authors":"Not found",
     "Title":"Storia di Milano.",
     "Cities":"Milano ",
     "Publisher":"Fondazione Treccani degli Alfieri",
     "Years":1953,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2650.0,
-    "Authors":null,
+    "Category":"H"
+},{
+    "Id":2650,
+    "Authors":"Not found",
     "Title":"Storia e cultura della Locride",
     "Cities":"Messina  ",
     "Publisher":"La Sicilia",
     "Years":1964,
     "Fund":"BTB Segn. 2265",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2651.0,
-    "Authors":null,
+    "Category":"H"
+},{
+    "Id":2651,
+    "Authors":"Not found",
     "Title":"Storie di fantasmi. Antologia di racconti anglosassoni del sopran naturale. ",
     "Cities":"Torino",
     "Publisher":"Einaudi",
     "Years":1960,
     "Fund":"BTB Segn. 1317",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2652.0,
+    "Category":"AL"
+},{
+    "Id":2652,
     "Authors":"Strachey, Giles Lytton",
     "Title":"Elisabetta d\u2019Inghilterra",
     "Cities":"Milano  ",
@@ -26529,10 +26528,10 @@ const jsonData = [
     "Years":1949,
     "Fund":"BTB Segn. 1722",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2653.0,
-    "Authors":null,
+    "Category":"H"
+},{
+    "Id":2653,
+    "Authors":"Not found",
     "Title":"Stradario alfabetico di Napoli.",
     "Cities":"Napoli",
     "Publisher":"La Campania",
@@ -26540,8 +26539,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2310",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":2654.0,
+},{
+    "Id":2654,
     "Authors":"Straparola, Gianfrancesco",
     "Title":"Le piacevoli notti",
     "Cities":"Milano",
@@ -26550,38 +26549,38 @@ const jsonData = [
     "Fund":"BTB Segn. 678",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2655.0,
-    "Authors":null,
+},{
+    "Id":2655,
+    "Authors":"Not found",
     "Title":"Studi e materiali di storia delle religioni",
     "Cities":"Roma",
     "Publisher":"Optima",
     "Years":1929,
     "Fund":"BTB Segn. 1799-1802",
     "Segni":"Volumi I e III parzialmente intonsi; volumi II e IV intonsi.",
-    "Category":"S"
-    },{
-    "Id":2656.0,
-    "Authors":null,
+    "Category":"H"
+},{
+    "Id":2656,
+    "Authors":"Not found",
     "Title":"Studi in onore di Leone Traverso",
     "Cities":"Urbino",
     "Publisher":"Argalia",
     "Years":1971,
     "Fund":"BTB Segn. 1413-1415",
     "Segni":"[contiene, alle pp. 384-386, C.E. Gadda, Gli amici taciturni (ovvero \u00abritorno\u00bb)].",
-    "Category":"L"
-    },{
-    "Id":2657.0,
-    "Authors":null,
+    "Category":"V"
+},{
+    "Id":2657,
+    "Authors":"Not found",
     "Title":"Studi urbinati di storia, filosofia e letteratura",
     "Cities":"Urbino  ",
     "Publisher":"Argal\u00eca",
     "Years":1971,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":2658.0,
+    "Category":"P"
+},{
+    "Id":2658,
     "Authors":"Stuparich, Gianni",
     "Title":"Guerra del \u201915",
     "Cities":"Milano",
@@ -26589,9 +26588,9 @@ const jsonData = [
     "Years":1931,
     "Fund":"BAL",
     "Segni":"Nota di possesso di Gadda in data 01.1932 Milano. Postille.",
-    "Category":"F"
-    },{
-    "Id":2659.0,
+    "Category":"P"
+},{
+    "Id":2659,
     "Authors":"Stura, Francesco",
     "Title":"  Organi sessuali",
     "Cities":"Milano",
@@ -26599,40 +26598,40 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":null,
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2660.0,
-    "Authors":null,
+    "Category":"T"
+},{
+    "Id":2660,
+    "Authors":"Not found",
     "Title":"Le style Louis XIV.",
     "Cities":"Paris",
     "Publisher":"Flammarion",
     "Years":1948,
     "Fund":"BTB Segn. 2154",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2661.0,
-    "Authors":null,
+    "Category":"H"
+},{
+    "Id":2661,
+    "Authors":"Not found",
     "Title":"Le style Louis XV",
     "Cities":"Paris  ",
     "Publisher":"Flammarion",
     "Years":1951,
     "Fund":"BTB Segn. 2155",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2662.0,
-    "Authors":null,
+    "Category":"H"
+},{
+    "Id":2662,
+    "Authors":"Not found",
     "Title":"Le style Louis XVI",
     "Cities":"Paris  ",
     "Publisher":"Flammarion",
     "Years":1949,
     "Fund":"BTB Segn. 2156",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2663.0,
-    "Authors":null,
+    "Category":"H"
+},{
+    "Id":2663,
+    "Authors":"Not found",
     "Title":"Sui campi di battaglia. Il Trentino, il Pasubio e gli Altipiani.  Storico-turistica",
     "Cities":"Milano  ",
     "Publisher":"TCI",
@@ -26640,19 +26639,19 @@ const jsonData = [
     "Fund":"BTB Segn. 2343",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":2664.0,
-    "Authors":null,
+},{
+    "Id":2664,
+    "Authors":"Not found",
     "Title":"Sull\u2019arte: architettura, scultura, grafica. ",
     "Cities":"Ivrea",
     "Publisher":"Ufficio stampa Ing. C. Olivetti e S.p.A.",
     "Years":1952,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":2665.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":2665,
+    "Authors":"Not found",
     "Title":"Sulla via della pace. Trattato per la interdizione delle prove nucleari",
     "Cities":"Washington ",
     "Publisher":"US Information Service",
@@ -26660,9 +26659,9 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 66",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2666.0,
-    "Authors":null,
+},{
+    "Id":2666,
+    "Authors":"Not found",
     "Title":"Sull\u2019Etna.",
     "Cities":"Firenze  ",
     "Publisher":"Geografico Militare",
@@ -26670,9 +26669,9 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 35",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":2667.0,
-    "Authors":null,
+},{
+    "Id":2667,
+    "Authors":"Not found",
     "Title":"Sul limitare. Prose e poesie scelte per la scuola italiana.",
     "Cities":"Milano-Palermo- Napoli",
     "Publisher":"Sandron",
@@ -26680,9 +26679,9 @@ const jsonData = [
     "Fund":"BTB Segn. 853",
     "Segni":"Nota di possesso autografa. Postille.",
     "Category":"IL"
-    },{
-    "Id":2668.0,
-    "Authors":null,
+},{
+    "Id":2668,
+    "Authors":"Not found",
     "Title":"Surrey \u2013 the playground of London.",
     "Cities":"London  ",
     "Publisher":"The Homeland Association",
@@ -26690,8 +26689,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":2669.0,
+},{
+    "Id":2669,
     "Authors":"Svetonio Tranquillo, Gaio",
     "Title":"Les douze C\u00e9sars: livre 1er",
     "Cities":"Paris",
@@ -26700,8 +26699,8 @@ const jsonData = [
     "Fund":"BTB Segn. 75",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2670.0,
+},{
+    "Id":2670,
     "Authors":"Svetonio Tranquillo, Gaio",
     "Title":"Les douze C\u00e9sars",
     "Cities":"Paris",
@@ -26710,8 +26709,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2671.0,
+},{
+    "Id":2671,
     "Authors":"Svetonio Tranquillo, Gaio",
     "Title":" Le vite dei dodici Cesari",
     "Cities":"Roma",
@@ -26720,8 +26719,8 @@ const jsonData = [
     "Fund":"BTB Segn. 76",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2672.0,
+},{
+    "Id":2672,
     "Authors":"Svevo, Italo (Ettore Schmitz)",
     "Title":"La coscienza di Zeno",
     "Cities":"Milano",
@@ -26730,8 +26729,8 @@ const jsonData = [
     "Fund":"BTB Segn. 679",
     "Segni":"Parzialmente intonso.",
     "Category":"CL"
-    },{
-    "Id":2673.0,
+},{
+    "Id":2673,
     "Authors":"Svevo, Italo (Ettore Schmitz)",
     "Title":"La novella del buon vecchio e della bella fanciulla",
     "Cities":"Milano",
@@ -26740,8 +26739,8 @@ const jsonData = [
     "Fund":"BTB Segn. 680",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2674.0,
+},{
+    "Id":2674,
     "Authors":"Svevo, Italo (Ettore Schmitz)",
     "Title":"Senilit\u00e0",
     "Cities":"Milano",
@@ -26750,8 +26749,8 @@ const jsonData = [
     "Fund":"BTB Segn. 681",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2675.0,
+},{
+    "Id":2675,
     "Authors":"Svevo, Italo (Ettore Schmitz)",
     "Title":"Una vita",
     "Cities":"Milano",
@@ -26760,8 +26759,8 @@ const jsonData = [
     "Fund":"BTB Segn. 682",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2676.0,
+},{
+    "Id":2676,
     "Authors":"Swift, Jonathan",
     "Title":"Libelli.",
     "Cities":"Lanciano",
@@ -26769,9 +26768,9 @@ const jsonData = [
     "Years":1909,
     "Fund":"BTB Segn. 1319",
     "Segni":"Nota di possesso autografa: \u00abBibl. Blocco C\u00bb.",
-    "Category":"EL"
-    },{
-    "Id":2677.0,
+    "Category":"AL"
+},{
+    "Id":2677,
     "Authors":"Swift, Jonathan",
     "Title":"Swift. ",
     "Cities":"Milano",
@@ -26779,9 +26778,9 @@ const jsonData = [
     "Years":1942,
     "Fund":"BTB Segn. 1318",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2678.0,
+    "Category":"AL"
+},{
+    "Id":2678,
     "Authors":"Swift, Jonathan",
     "Title":"I viaggi di Gulliver.",
     "Cities":"Sesto San Giovanni",
@@ -26789,9 +26788,9 @@ const jsonData = [
     "Years":1919,
     "Fund":"BTB Segn. 1320",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2679.0,
+    "Category":"AL"
+},{
+    "Id":2679,
     "Authors":"Swift, Jonathan",
     "Title":"I viaggi di Gulliver",
     "Cities":"Sesto San Giovanni",
@@ -26799,9 +26798,9 @@ const jsonData = [
     "Years":1934,
     "Fund":null,
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2680.0,
+    "Category":"AL"
+},{
+    "Id":2680,
     "Authors":"Swift, Jonathan",
     "Title":"I viaggi di Gulliver.",
     "Cities":"Milano",
@@ -26809,9 +26808,9 @@ const jsonData = [
     "Years":1939,
     "Fund":"BTB Segn. 1321",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2681.0,
+    "Category":"AL"
+},{
+    "Id":2681,
     "Authors":"Swift, Jonathan",
     "Title":"I viaggi di Gulliver in vari paesi lontani del mondo",
     "Cities":"Milano",
@@ -26819,9 +26818,9 @@ const jsonData = [
     "Years":1952,
     "Fund":"BTB Segn. 1322",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2682.0,
+    "Category":"AL"
+},{
+    "Id":2682,
     "Authors":"Swift, Jonathan",
     "Title":"Viaggio di Gulliver a Lilliput.",
     "Cities":"Torino-Roma-Firenze-Napoli ",
@@ -26829,9 +26828,9 @@ const jsonData = [
     "Years":1902,
     "Fund":"BTB Segn. 1323",
     "Segni":"Piega.",
-    "Category":"EL"
-    },{
-    "Id":2683.0,
+    "Category":"AL"
+},{
+    "Id":2683,
     "Authors":"Swinton, William",
     "Title":"Elementary Course in Geography designed for primary and intermediate grades and as a complete shorter course",
     "Cities":"New York-Chicago",
@@ -26840,8 +26839,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2397",
     "Segni":"Nota di possesso autografa di Enrico Gadda in data 15.02.1905.",
     "Category":"G"
-    },{
-    "Id":2684.0,
+},{
+    "Id":2684,
     "Authors":"Synge, John Millington",
     "Title":"Deirdre l\u2019addolorata (1910)",
     "Cities":"Milano",
@@ -26849,9 +26848,9 @@ const jsonData = [
     "Years":1944,
     "Fund":"BTB Segn. 1325",
     "Segni":"Piega.",
-    "Category":"EL"
-    },{
-    "Id":2685.0,
+    "Category":"AL"
+},{
+    "Id":2685,
     "Authors":"Synge, John Millington",
     "Title":"Il furfantello dell\u2019ovest (1907)",
     "Cities":"Milano",
@@ -26859,9 +26858,9 @@ const jsonData = [
     "Years":1944,
     "Fund":"BTB Segn. 1324",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2686.0,
+    "Category":"AL"
+},{
+    "Id":2686,
     "Authors":"Tacito, Publio Cornelio",
     "Title":"Annales",
     "Cities":"Paris",
@@ -26870,8 +26869,8 @@ const jsonData = [
     "Fund":"BTB Segn. 108-110",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2687.0,
+},{
+    "Id":2687,
     "Authors":"Tacito, Publio Cornelio",
     "Title":"La Germania. ",
     "Cities":"Milano ",
@@ -26880,8 +26879,8 @@ const jsonData = [
     "Fund":"BTB Segn. 77",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2688.0,
+},{
+    "Id":2688,
     "Authors":"Tacito, Publio Cornelio",
     "Title":"Histoires",
     "Cities":"Paris  ",
@@ -26890,8 +26889,8 @@ const jsonData = [
     "Fund":"BTB Segn. 106-107",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2689.0,
+},{
+    "Id":2689,
     "Authors":"Taine, Hippolyte-Adolphe",
     "Title":"Les origines de la France contemporaine",
     "Cities":"Paris",
@@ -26899,9 +26898,9 @@ const jsonData = [
     "Years":1928,
     "Fund":"BTB Segn. 1696-1703",
     "Segni":"Volumi VI e VIII, parzialmente intonsi; volume VII intonso. Pieghe.",
-    "Category":"S"
-    },{
-    "Id":2690.0,
+    "Category":"H"
+},{
+    "Id":2690,
     "Authors":"Tana, Giambattista",
     "Title":"\u2019l Cont Piolet",
     "Cities":"Torino",
@@ -26909,9 +26908,9 @@ const jsonData = [
     "Years":1966,
     "Fund":"BTB Segn. 683",
     "Segni":"Dedica del curatore in data 10.1966.",
-    "Category":"L"
-    },{
-    "Id":2691.0,
+    "Category":"IL"
+},{
+    "Id":2691,
     "Authors":"Tanizaki, Junichiro",
     "Title":"Diario di un vecchio pazzo",
     "Cities":"Milano",
@@ -26919,9 +26918,9 @@ const jsonData = [
     "Years":1965,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2692.0,
+    "Category":"V"
+},{
+    "Id":2692,
     "Authors":"Tanzi, Carl\u2019Antonio",
     "Title":"Le poesie milanesi",
     "Cities":"Pistoia ",
@@ -26930,8 +26929,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":2693.0,
+},{
+    "Id":2693,
     "Authors":"Tarchetti, Iginio Ugo",
     "Title":"Storia di una gamba. ",
     "Cities":"Firenze",
@@ -26940,8 +26939,8 @@ const jsonData = [
     "Fund":"BTB Segn. 688",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2694.0,
+},{
+    "Id":2694,
     "Authors":"Tarle, Evgenij Viktorovic",
     "Title":"Talleyrand",
     "Cities":"Milano",
@@ -26950,8 +26949,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":2695.0,
+},{
+    "Id":2695,
     "Authors":"Tasca, Angelo",
     "Title":"Due anni di alleanza germanosovietica (1939-1941)",
     "Cities":"Firenze",
@@ -26959,9 +26958,9 @@ const jsonData = [
     "Years":1951,
     "Fund":"BTB Segn. 1766",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2696.0,
+    "Category":"H"
+},{
+    "Id":2696,
     "Authors":"Tasso, Torquato",
     "Title":"Aminta",
     "Cities":"Roma",
@@ -26970,8 +26969,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Timbro di possesso di Enrico Gadda.",
     "Category":"IL"
-    },{
-    "Id":2697.0,
+},{
+    "Id":2697,
     "Authors":"Tasso, Torquato",
     "Title":"La Gerusalemme liberata",
     "Cities":"Firenze",
@@ -26980,8 +26979,8 @@ const jsonData = [
     "Fund":"BTB Segn. 687",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2698.0,
+},{
+    "Id":2698,
     "Authors":"Tasso, Torquato",
     "Title":"Opere",
     "Cities":"Milano",
@@ -26990,8 +26989,8 @@ const jsonData = [
     "Fund":"BTB Segn. 686",
     "Segni":"Presente solo il I volume. Parzialmente in tonso.",
     "Category":"IL"
-    },{
-    "Id":2699.0,
+},{
+    "Id":2699,
     "Authors":"Tasso, Torquato",
     "Title":"Poesie. Flora",
     "Cities":"Milano-Roma  ",
@@ -27000,8 +26999,8 @@ const jsonData = [
     "Fund":"BTB Segn. 684",
     "Segni":"Parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":2700.0,
+},{
+    "Id":2700,
     "Authors":"Tasso, Torquato",
     "Title":"Prose",
     "Cities":"Milano-Roma",
@@ -27010,8 +27009,8 @@ const jsonData = [
     "Fund":"BTB Segn. 685",
     "Segni":"Parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":2701.0,
+},{
+    "Id":2701,
     "Authors":"Taylor, William Cook \u2013 Pinnock,William",
     "Title":"History of England, from the invasion of Julius Caesar to the death of George II, with a continuation to the present time. ",
     "Cities":"London",
@@ -27019,20 +27018,20 @@ const jsonData = [
     "Years":1858,
     "Fund":"BTB Segn. 1721",
     "Segni":"Sottolineature.",
-    "Category":"S"
-    },{
-    "Id":2702.0,
-    "Authors":null,
+    "Category":"H"
+},{
+    "Id":2702,
+    "Authors":"Not found",
     "Title":"Teatro elisabettiano.",
     "Cities":"Firenze  ",
     "Publisher":"Sansoni",
     "Years":1948,
     "Fund":"BTB Segn. 1326",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2703.0,
-    "Authors":null,
+    "Category":"AL"
+},{
+    "Id":2703,
+    "Authors":"Not found",
     "Title":"Teatro spagnolo del secolo d\u2019oro",
     "Cities":"Torino",
     "Publisher":"ERI",
@@ -27040,8 +27039,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1326",
     "Segni":null,
     "Category":"SL"
-    },{
-    "Id":2704.0,
+},{
+    "Id":2704,
     "Authors":"Tecchi, Bonaventura",
     "Title":"Azione della Brigata Arezzo nell\u2019offensiva carsica dal 23 al 31 maggio 1917 e nella controffensiva austriaca 4-5 giugno 1917",
     "Cities":"Bagnoregio",
@@ -27049,9 +27048,9 @@ const jsonData = [
     "Years":1920,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2705.0,
+    "Category":"M"
+},{
+    "Id":2705,
     "Authors":"Tecchi, Bonaventura",
     "Title":"Baracca 15 C",
     "Cities":"Milano",
@@ -27060,8 +27059,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica a stampa.",
     "Category":"IL"
-    },{
-    "Id":2706.0,
+},{
+    "Id":2706,
     "Authors":"Tecchi, Bonaventura",
     "Title":" Clemes Brentano, interprete degli animali",
     "Cities":"Estratto da \u00abQuaderni ACI\u00bb",
@@ -27070,8 +27069,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":2707.0,
+},{
+    "Id":2707,
     "Authors":"Tecchi, Bonaventura",
     "Title":"Un\u2019estate in campagna",
     "Cities":"Firenze  ",
@@ -27080,8 +27079,8 @@ const jsonData = [
     "Fund":"BTB Segn. 689",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":2708.0,
+},{
+    "Id":2708,
     "Authors":"Tecchi, Bonaventura",
     "Title":"Gianni Stuparich granatiere triestino",
     "Cities":"Roma",
@@ -27090,8 +27089,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 62",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2709.0,
+},{
+    "Id":2709,
     "Authors":"Tecchi, Bonaventura",
     "Title":"Goethe scrittore di fiabe",
     "Cities":"Torino  ",
@@ -27100,8 +27099,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1232",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2710.0,
+},{
+    "Id":2710,
     "Authors":"Tecchi, Bonaventura",
     "Title":"Idilli moravi",
     "Cities":"Milano",
@@ -27110,8 +27109,8 @@ const jsonData = [
     "Fund":"BTB Segn. 690",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":2711.0,
+},{
+    "Id":2711,
     "Authors":"Tecchi, Bonaventura",
     "Title":"La luna a ponente",
     "Cities":"Firenze  ",
@@ -27120,8 +27119,8 @@ const jsonData = [
     "Fund":"BTB Segn. 691",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":2712.0,
+},{
+    "Id":2712,
     "Authors":"Tecchi, Bonaventura",
     "Title":"Maestri e amici",
     "Cities":"Pescara ",
@@ -27130,8 +27129,8 @@ const jsonData = [
     "Fund":"BTB Segn. 900",
     "Segni":"Dedica dell\u2019autore. Postille e foglio inserito.",
     "Category":"IL"
-    },{
-    "Id":2713.0,
+},{
+    "Id":2713,
     "Authors":"Tecchi, Bonaventura",
     "Title":"Il nome sulla sabbia",
     "Cities":"Milano  ",
@@ -27140,8 +27139,8 @@ const jsonData = [
     "Fund":"BTB Segn. 692",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":2714.0,
+},{
+    "Id":2714,
     "Authors":"Tecchi, Bonaventura",
     "Title":"Per una presunta lettera di Cola di  Rienzo.",
     "Cities":"s.l.",
@@ -27150,8 +27149,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"A penna in copertina \u00abTesina di laurea\u00bb.",
     "Category":"IL"
-    },{
-    "Id":2715.0,
+},{
+    "Id":2715,
     "Authors":"Tecchi, Bonaventura",
     "Title":"Scrittori tedeschi del Novecento",
     "Cities":"Firenze",
@@ -27160,8 +27159,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1233",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":2716.0,
+},{
+    "Id":2716,
     "Authors":"Tecchi, Bonaventura",
     "Title":"Sette liriche di Goethe",
     "Cities":"Bari  ",
@@ -27170,8 +27169,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1234",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":2717.0,
+},{
+    "Id":2717,
     "Authors":"Tecchi, Bonaventura",
     "Title":"La vedova timida; Antica Terra",
     "Cities":"Roma",
@@ -27180,9 +27179,9 @@ const jsonData = [
     "Fund":"BTB Segn. 693",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":2718.0,
-    "Authors":null,
+},{
+    "Id":2718,
+    "Authors":"Not found",
     "Title":"Technologischen Taschenw\u00f6rterbuch.",
     "Cities":"Stuttgart",
     "Publisher":"Metzlerscher",
@@ -27190,18 +27189,18 @@ const jsonData = [
     "Fund":"BTB Segn. 2473",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2719.0,
-    "Authors":null,
+},{
+    "Id":2719,
+    "Authors":"Not found",
     "Title":"Teodora imperatrice di Bisanzio",
     "Cities":"Roma ",
     "Publisher":"Anonima Romana Editoriale",
     "Years":1934,
     "Fund":"BTB Segn. Op. 4",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2720.0,
+    "Category":"H"
+},{
+    "Id":2720,
     "Authors":"Terenzio Afro, Publio",
     "Title":"Tutte le commedie",
     "Cities":"Milano",
@@ -27210,8 +27209,8 @@ const jsonData = [
     "Fund":"BTB Segn. 78",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2721.0,
+},{
+    "Id":2721,
     "Authors":"Tessa, Delio",
     "Title":"L\u2019\u00e8 el d\u00ec di mort, alegher!",
     "Cities":"Milano",
@@ -27219,19 +27218,19 @@ const jsonData = [
     "Years":1960,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2722.0,
-    "Authors":null,
+    "Category":"IL"
+},{
+    "Id":2722,
+    "Authors":"Not found",
     "Title":"Testimonianze su Pierro.",
     "Cities":"Bari",
     "Publisher":"Laterza",
     "Years":1969,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2723.0,
+    "Category":"V"
+},{
+    "Id":2723,
     "Authors":"Testori, Giovanni",
     "Title":"I segreti di Milano (II). La Gilda del Mac Mahon",
     "Cities":"Milano  ",
@@ -27240,8 +27239,8 @@ const jsonData = [
     "Fund":"BTB Segn. 694",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":2724.0,
+},{
+    "Id":2724,
     "Authors":"Testori, Giovanni",
     "Title":"I segreti di Milano. Il ponte della Ghisolfa",
     "Cities":"Milano",
@@ -27250,8 +27249,8 @@ const jsonData = [
     "Fund":"BTB Segn. 695",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":2725.0,
+},{
+    "Id":2725,
     "Authors":"They, Giovanni",
     "Title":"La locomotiva a vapore. Storia, sviluppo e perfezionamento",
     "Cities":"Milano",
@@ -27260,8 +27259,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2098",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2726.0,
+},{
+    "Id":2726,
     "Authors":"Thibaud, Jean",
     "Title":"Vita e trasmutazioni degli atomi.",
     "Cities":"Milano",
@@ -27270,8 +27269,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2102",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2727.0,
+},{
+    "Id":2727,
     "Authors":"Thibaudet, Albert",
     "Title":"Histoire de la litt\u00e9rature fran\u00e7aise de1789 \u00e0 nos jours",
     "Cities":"Paris",
@@ -27280,8 +27279,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1153",
     "Segni":"Postille.",
     "Category":"FL"
-    },{
-    "Id":2728.0,
+},{
+    "Id":2728,
     "Authors":"Thorpe, Edward",
     "Title":"Storia della chimica",
     "Cities":"Torino",
@@ -27290,8 +27289,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2101",
     "Segni":"Nota di possesso autografa in data 26.02.1922.",
     "Category":"T"
-    },{
-    "Id":2729.0,
+},{
+    "Id":2729,
     "Authors":"Tieck, Johann Ludwig",
     "Title":"Il biondo Ecberto",
     "Cities":"Milano",
@@ -27300,8 +27299,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1217",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":2730.0,
+},{
+    "Id":2730,
     "Authors":"Tilgher, Adriano",
     "Title":"Critica dello storicismo",
     "Cities":"Modena  ",
@@ -27310,8 +27309,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1920",
     "Segni":"Parzialmente intonso.",
     "Category":"FL"
-    },{
-    "Id":2731.0,
+},{
+    "Id":2731,
     "Authors":"Tilgher, Adriano",
     "Title":"Estetica: teoria generale dell\u2019attivit\u00e0 artistica. Studi critici sulla estetica contemporanea",
     "Cities":"Roma  ",
@@ -27320,8 +27319,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1921",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2732.0,
+},{
+    "Id":2732,
     "Authors":"Tinto, Edoardo",
     "Title":"La Lemuria",
     "Cities":"Roma ",
@@ -27330,8 +27329,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 7",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2733.0,
+},{
+    "Id":2733,
     "Authors":"Tinto, Edoardo",
     "Title":"La medicina al tempo dei faraoni",
     "Cities":"Roma  ",
@@ -27340,8 +27339,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 8",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2734.0,
+},{
+    "Id":2734,
     "Authors":"Tinto, Edoardo",
     "Title":"I misteri di Eleusi",
     "Cities":"Roma  ",
@@ -27349,9 +27348,9 @@ const jsonData = [
     "Years":1934,
     "Fund":null,
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2735.0,
+    "Category":"CL"
+},{
+    "Id":2735,
     "Authors":"Tisserant, Eug\u00e8ne \u2013 Wesley Koch, Theodore",
     "Title":"The Vatican Library. Two papers",
     "Cities":"Jersey City",
@@ -27359,9 +27358,9 @@ const jsonData = [
     "Years":1929,
     "Fund":"BTB Segn. 2398",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2736.0,
+    "Category":"V"
+},{
+    "Id":2736,
     "Authors":"Tjutcev, F\u00ebdor Ivanovic",
     "Title":"Poesie",
     "Cities":"Torino",
@@ -27370,8 +27369,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1387",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":2737.0,
+},{
+    "Id":2737,
     "Authors":"Tobino, Mario",
     "Title":"Bandiera nera",
     "Cities":"Roma",
@@ -27380,8 +27379,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore in data 21.9.1950",
     "Category":"IL"
-    },{
-    "Id":2738.0,
+},{
+    "Id":2738,
     "Authors":"Tobino, Mario",
     "Title":"La gelosia del marinaio",
     "Cities":"Roma  ",
@@ -27390,8 +27389,8 @@ const jsonData = [
     "Fund":"BTB Segn. 696",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2739.0,
+},{
+    "Id":2739,
     "Authors":"Tobino, Mario",
     "Title":"Veleno e amore.",
     "Cities":"Firenze  ",
@@ -27400,8 +27399,8 @@ const jsonData = [
     "Fund":"BTB Segn. 697",
     "Segni":"Dedica dell\u2019autore in data 28.2.1942.",
     "Category":"IL"
-    },{
-    "Id":2740.0,
+},{
+    "Id":2740,
     "Authors":"Todeschini, Angelo Maria \u2013 Dupin, Louis",
     "Title":"Grammatica teorico-pratica della lingua francese compilata in conformit\u00e0 dei programmi ministeriali ad uso delle scuole secondarie inferiori e superiori",
     "Cities":"Milano  ",
@@ -27410,8 +27409,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2457",
     "Segni":"Nota di possesso autografa.",
     "Category":"GR"
-    },{
-    "Id":2741.0,
+},{
+    "Id":2741,
     "Authors":"Tolstoj, Lev Nikolaevi\u010d",
     "Title":"Anna Karenina",
     "Cities":"Sesto San Giovanni  ",
@@ -27420,8 +27419,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1390-1391",
     "Segni":"Volume I parzialmente intonso; volume II intonso.",
     "Category":"RL"
-    },{
-    "Id":2742.0,
+},{
+    "Id":2742,
     "Authors":"Tolstoj, Lev Nikolaevi\u010d",
     "Title":"Anna Karenina",
     "Cities":"Milano  ",
@@ -27430,8 +27429,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":2743.0,
+},{
+    "Id":2743,
     "Authors":"Tolstoj, Lev Nikolaevi\u010d",
     "Title":"Due usseri. Il taglio del bosco. Sebastopoli. Le memorie di un segnatore.",
     "Cities":"Torino",
@@ -27440,8 +27439,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1392",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":2744.0,
+},{
+    "Id":2744,
     "Authors":"Tolstoj, Lev Nikolaevi\u010d",
     "Title":"Guerra e pace",
     "Cities":"Milano  ",
@@ -27450,8 +27449,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":2745.0,
+},{
+    "Id":2745,
     "Authors":"Tolstoj, Lev Nikolaevi\u010d",
     "Title":"Guerra e pace",
     "Cities":"Torino",
@@ -27460,8 +27459,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1388-1389",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":2746.0,
+},{
+    "Id":2746,
     "Authors":"Tolstoj, Lev Nikolaevi\u010d",
     "Title":"Resurrezione (Voskresenie)",
     "Cities":"Milano",
@@ -27470,8 +27469,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1393-1394",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":2747.0,
+},{
+    "Id":2747,
     "Authors":"Tolstoj, Lev Nikolaevi\u010d",
     "Title":"Resurrezione",
     "Cities":"Milano",
@@ -27480,8 +27479,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1395",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":2748.0,
+},{
+    "Id":2748,
     "Authors":"Tolstoj, Lev Nikolaevi\u010d",
     "Title":"La sonata a Kreutzer.",
     "Cities":"Torino  ",
@@ -27490,8 +27489,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1396",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":2749.0,
+},{
+    "Id":2749,
     "Authors":"Tomasi di Lampedusa, Giuseppe",
     "Title":"Il Gattopardo",
     "Cities":"Milano  ",
@@ -27500,8 +27499,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2750.0,
+},{
+    "Id":2750,
     "Authors":"Tomasi di Lampedusa, Giuseppe",
     "Title":"Le professeur et la sirene",
     "Cities":"Paris  ",
@@ -27510,8 +27509,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2751.0,
+},{
+    "Id":2751,
     "Authors":"Tomizza, Fulvio",
     "Title":"L\u2019albero dei sogni.",
     "Cities":"Milano  ",
@@ -27520,8 +27519,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2752.0,
+},{
+    "Id":2752,
     "Authors":"Tommaseo, Niccol\u00f2",
     "Title":"Due baci e altri racconti",
     "Cities":"Milano",
@@ -27530,8 +27529,8 @@ const jsonData = [
     "Fund":"BTB Segn. 698",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2753.0,
+},{
+    "Id":2753,
     "Authors":"Tommaso d\u2019Aquino (Pseudo)",
     "Title":"Trattato della pietra filosofale. Preceduto da una introduzione e seguito da un Trattato del medesimo Autore su l\u2019Arte dell\u2019alchimia nelle quali operesono rilevati i segreti per arrivare alBene su questa Terra",
     "Cities":"Todi  ",
@@ -27540,8 +27539,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1922",
     "Segni":"Nota di possesso autografa in data 06.1918.",
     "Category":"F "
-    },{
-    "Id":2754.0,
+},{
+    "Id":2754,
     "Authors":"Tonelli, Luigi",
     "Title":"Manzoni",
     "Cities":"Milano  ",
@@ -27550,8 +27549,8 @@ const jsonData = [
     "Fund":"BTB Segn. 901",
     "Segni":"Dedica dell\u2019autore ad Alberto Carocci. \u00abNota per i posteri\u00bb di Gadda, 1956. Sottolineature e annotazioni.",
     "Category":"IL"
-    },{
-    "Id":2755.0,
+},{
+    "Id":2755,
     "Authors":"Toniazzo, Guglielmo",
     "Title":"Elementi di storia antica. II. La Grecia.",
     "Cities":"Milano",
@@ -27559,9 +27558,9 @@ const jsonData = [
     "Years":1891,
     "Fund":"BTB Segn. 1490",
     "Segni":"Nota di possesso autografa di Adele Gadda  Lehr.",
-    "Category":"S"
-    },{
-    "Id":2756.0,
+    "Category":"H"
+},{
+    "Id":2756,
     "Authors":"Tonna, Giuseppe",
     "Title":"Al di qua della siepe",
     "Cities":"Parma  ",
@@ -27570,8 +27569,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2757.0,
+},{
+    "Id":2757,
     "Authors":"Tonna, Giuseppe",
     "Title":"Le bestie parlano",
     "Cities":"Modena  ",
@@ -27580,8 +27579,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":2758.0,
+},{
+    "Id":2758,
     "Authors":"Torraca, Francesco",
     "Title":"Manuale della letteratura italiana: ad uso delle scuole secondarie",
     "Cities":"Firenze   ",
@@ -27590,8 +27589,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2759.0,
+},{
+    "Id":2759,
     "Authors":"Touchard-Lafosse, Georges",
     "Title":"Chroniques de l\u2019\u0152il-de-b\u0153uf. Des petits appartements de la cour et des salons de Paris sous Louis XIV, la R\u00e9gence, Louis XV et\nLouis XVI",
     "Cities":"Paris",
@@ -27599,9 +27598,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BTB Segn. 1704-1706",
     "Segni":"Note di possesso autografa di Leone Traverso nelle date 193435. Postille.",
-    "Category":"S"
-    },{
-    "Id":2760.0,
+    "Category":"H"
+},{
+    "Id":2760,
     "Authors":"Treccani, Ernesto",
     "Title":"Giornata nel tempo",
     "Cities":"Milano  ",
@@ -27610,18 +27609,18 @@ const jsonData = [
     "Fund":"BTB Segn. 699",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2761.0,
-    "Authors":null,
+},{
+    "Id":2761,
+    "Authors":"Not found",
     "Title":"Trent\u2019anni di storia italiana (1915-1945)",
     "Cities":"Torino  ",
     "Publisher":"Einaudi",
     "Years":1961,
     "Fund":"BTB Segn. 1571",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2762.0,
+    "Category":"H"
+},{
+    "Id":2762,
     "Authors":"Trevelyan, George Macaulay",
     "Title":"Storia d\u2019Inghilterra nel secolo XIX",
     "Cities":"Torino",
@@ -27629,9 +27628,9 @@ const jsonData = [
     "Years":1941,
     "Fund":"BTB Segn. 1723",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2763.0,
+    "Category":"H"
+},{
+    "Id":2763,
     "Authors":"Trilussa (Carlo Alberto Salustri)",
     "Title":"Libro muto",
     "Cities":"Milano",
@@ -27640,8 +27639,8 @@ const jsonData = [
     "Fund":"BTB Segn. 700",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2764.0,
+},{
+    "Id":2764,
     "Authors":"Trizzino, Antonino",
     "Title":"Settembre nero",
     "Cities":"Milano  ",
@@ -27650,8 +27649,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2765.0,
+},{
+    "Id":2765,
     "Authors":"Troilo, Erminio",
     "Title":"Giordano Bruno",
     "Cities":"Milano  ",
@@ -27660,8 +27659,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1978",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2766.0,
+},{
+    "Id":2766,
     "Authors":"Trombetti, Alfredo",
     "Title":"L\u2019unit\u00e0 di origine del linguaggio",
     "Cities":"Bologna",
@@ -27670,8 +27669,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2458",
     "Segni":"Nota di possesso autografa di Adele Gadda     Lehr.",
     "Category":"IL"
-    },{
-    "Id":2767.0,
+},{
+    "Id":2767,
     "Authors":"Truffi, Riccardo",
     "Title":"Cantori di giostre perugine nel Quattrocento",
     "Cities":"Perugia",
@@ -27680,8 +27679,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 63",
     "Segni":"Nota di possesso autografa.",
     "Category":"IL"
-    },{
-    "Id":2768.0,
+},{
+    "Id":2768,
     "Authors":"Truffi, Riccardo",
     "Title":"Carlo Tenca: conferenza tenuta nella scuola normale femminile C. Tenca",
     "Cities":"Milano  ",
@@ -27690,8 +27689,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Dedica dell\u2019autore ad Adele Gadda Lehr.",
     "Category":"IL"
-    },{
-    "Id":2769.0,
+},{
+    "Id":2769,
     "Authors":"Truffi, Riccardo",
     "Title":"D\u2019una probabile fonte del Margutte",
     "Cities":"Torino",
@@ -27700,8 +27699,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 64",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2770.0,
+},{
+    "Id":2770,
     "Authors":"Tschuppick, Kar",
     "Title":"Maria Teresa",
     "Cities":"Milano",
@@ -27709,10 +27708,10 @@ const jsonData = [
     "Years":1935,
     "Fund":"BTB Segn. 1767",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2771.0,
-    "Authors":null,
+    "Category":"V"
+},{
+    "Id":2771,
+    "Authors":"Not found",
     "Title":"Turbine idrauliche e macchinari accessori. Lubrificazione.",
     "Cities":"Genova  ",
     "Publisher":"Foltzer",
@@ -27720,8 +27719,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 95",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2772.0,
+},{
+    "Id":2772,
     "Authors":"Turchi, Nicola",
     "Title":"La civilt\u00e0 bizantina",
     "Cities":"Milano.Roma  ",
@@ -27729,9 +27728,9 @@ const jsonData = [
     "Years":1915,
     "Fund":"BTB Segn. 1491",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2773.0,
+    "Category":"H"
+},{
+    "Id":2773,
     "Authors":"Turgenev, Ivan Sergeevic",
     "Title":"Due amici ed altri romanzi",
     "Cities":"Milano  ",
@@ -27740,8 +27739,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1397",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":2774.0,
+},{
+    "Id":2774,
     "Authors":"Turgenev, Ivan Sergeevic",
     "Title":"Un nido di gentiluomini.",
     "Cities":"Milano-Roma  ",
@@ -27750,8 +27749,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1398",
     "Segni":null,
     "Category":"RL"
-    },{
-    "Id":2775.0,
+},{
+    "Id":2775,
     "Authors":"Turgenev, Ivan Sergeevic",
     "Title":"Nido di nobili",
     "Cities":"Sesto San Giovanni  ",
@@ -27760,8 +27759,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1399",
     "Segni":"Parzialmente intonso.",
     "Category":"RL"
-    },{
-    "Id":2776.0,
+},{
+    "Id":2776,
     "Authors":"Turolla, Enrico",
     "Title":"Virgilio",
     "Cities":"Milano",
@@ -27769,29 +27768,29 @@ const jsonData = [
     "Years":1940,
     "Fund":"BTB Segn. 129",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2777.0,
-    "Authors":null,
+    "Category":"CL"
+},{
+    "Id":2777,
+    "Authors":"Not found",
     "Title":"Tutta la pittura del Crivelli.",
     "Cities":"Milano",
     "Publisher":"Rizzoli",
     "Years":1961,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":2778.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":2778,
+    "Authors":"Not found",
     "Title":"Tutta la pittura di Leonardo.",
     "Cities":"Milano",
     "Publisher":"Rizzoli",
     "Years":1952,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":2779.0,
+    "Category":"HA"
+},{
+    "Id":2779,
     "Authors":"Tyrrell, George Walter",
     "Title":"La terra e i suoi misteri",
     "Cities":"Milano  ",
@@ -27799,9 +27798,9 @@ const jsonData = [
     "Years":1962,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2780.0,
+    "Category":"T"
+},{
+    "Id":2780,
     "Authors":"\u00dcberwegs, Friedrich",
     "Title":"Grundriss der Geschichte der Philosophie",
     "Cities":"Berlin  ",
@@ -27810,8 +27809,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1979",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":2781.0,
+},{
+    "Id":2781,
     "Authors":"Ulivi, Pasquale",
     "Title":"L\u2019industria frigorifera",
     "Cities":"Milano  ",
@@ -27819,29 +27818,29 @@ const jsonData = [
     "Years":1927,
     "Fund":"BTB Segn. 2043",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2782.0,
-    "Authors":null,
+    "Category":"V"
+},{
+    "Id":2782,
+    "Authors":"Not found",
     "Title":"L\u2019Umanitaria e la sua opera",
     "Cities":"Milano  ",
     "Publisher":"Cooperativa grafica degli operai",
     "Years":1922,
     "Fund":"BTB Segn. 2159",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2783.0,
-    "Authors":null,
+    "Category":"V"
+},{
+    "Id":2783,
+    "Authors":"Not found",
     "Title":"Umoristi del Novecento",
     "Cities":"Milano",
     "Publisher":"Garzanti",
     "Years":1964,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2784.0,
+    "Category":"V"
+},{
+    "Id":2784,
     "Authors":"Unamuno, Miguel de",
     "Title":"Le sentiment tragique de la vie.",
     "Cities":"Paris  ",
@@ -27850,9 +27849,9 @@ const jsonData = [
     "Fund":"BTB Segn. 1923",
     "Segni":"Intonso.",
     "Category":"FL"
-    },{
-    "Id":2785.0,
-    "Authors":null,
+},{
+    "Id":2785,
+    "Authors":"Not found",
     "Title":"Undicesimo concerto stagione sinfonica 1942 Teatro Comunale di Firenze",
     "Cities":"Firenze  ",
     "Publisher":"s.n.",
@@ -27860,8 +27859,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1437",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":2786.0,
+},{
+    "Id":2786,
     "Authors":"Ungaretti, Giuseppe",
     "Title":"Sentimento del tempo",
     "Cities":"Firenze",
@@ -27870,8 +27869,8 @@ const jsonData = [
     "Fund":"BTB Segn. 703",
     "Segni":"Segnalibri.",
     "Category":"IL"
-    },{
-    "Id":2787.0,
+},{
+    "Id":2787,
     "Authors":"Ungaretti, Giuseppe",
     "Title":"Il taccuino del vecchio",
     "Cities":"Milano",
@@ -27880,8 +27879,8 @@ const jsonData = [
     "Fund":"BTB Segn. 705",
     "Segni":"Dedica dell\u2019autore in data 7.11.1960.",
     "Category":"IL"
-    },{
-    "Id":2788.0,
+},{
+    "Id":2788,
     "Authors":"Ungaretti, Giuseppe",
     "Title":"Vie d\u2019un homme. La douleur. La terre promise",
     "Cities":"Lausanne",
@@ -27890,8 +27889,8 @@ const jsonData = [
     "Fund":"BTB Segn. 708",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2789.0,
+},{
+    "Id":2789,
     "Authors":"Ungaretti, Giuseppe",
     "Title":"Vita d\u2019un uomo. Poesie. I. L\u2019allegria 1914-1919",
     "Cities":"Milano",
@@ -27900,8 +27899,8 @@ const jsonData = [
     "Fund":"BTB Segn. 701",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2790.0,
+},{
+    "Id":2790,
     "Authors":"Ungaretti, Giuseppe",
     "Title":"Vita d\u2019un uomo. II. Sentimento del tempo 1919-1935.",
     "Cities":"Milano",
@@ -27910,8 +27909,8 @@ const jsonData = [
     "Fund":"BTB Segn. 704",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2791.0,
+},{
+    "Id":2791,
     "Authors":"Ungaretti, Giuseppe",
     "Title":"Vita d\u2019un uomo. IV. Traduzioni I. 40 sonetti di Shakespeare",
     "Cities":"Milano",
@@ -27920,8 +27919,8 @@ const jsonData = [
     "Fund":"BTB Segn. 707",
     "Segni":"Postille dell\u2019autore e dedica in data 19.9.1946.",
     "Category":"IL"
-    },{
-    "Id":2792.0,
+},{
+    "Id":2792,
     "Authors":"Ungaretti, Giuseppe",
     "Title":"Vita d\u2019un uomo. Poesie VI. Un Gridoe Paesaggi 1939-1952",
     "Cities":"Milano",
@@ -27930,8 +27929,8 @@ const jsonData = [
     "Fund":"BTB Segn. 706",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":2793.0,
+},{
+    "Id":2793,
     "Authors":"Ungaretti, Giuseppe",
     "Title":"Vita d\u2019un uomo. XI. Prose di viaggio e saggi. I. Il deserto e dopo",
     "Cities":"Milano",
@@ -27940,9 +27939,9 @@ const jsonData = [
     "Fund":"BTB Segn. 702",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":2794.0,
-    "Authors":null,
+},{
+    "Id":2794,
+    "Authors":"Not found",
     "Title":"Un inedito petrarchesco",
     "Cities":"Roma  ",
     "Publisher":"Edizioni di storia e letteratura",
@@ -27950,29 +27949,29 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2795.0,
-    "Authors":null,
+},{
+    "Id":2795,
+    "Authors":"Not found",
     "Title":"L\u2019uomo in fabbrica",
     "Cities":"Torino",
     "Publisher":"FIAT",
     "Years":1971,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2796.0,
-    "Authors":null,
+    "Category":"V"
+},{
+    "Id":2796,
+    "Authors":"Not found",
     "Title":"L\u2019univers: histoire et description de tous les peuples",
     "Cities":"Paris  ",
     "Publisher":"Didot",
     "Years":1839,
     "Fund":"BTB Segn. 2360-2368",
     "Segni":"Note di possesso autografe di Adele Gadda Lehr e Carlo Emilio Gadda.",
-    "Category":"S"
-    },{
-    "Id":2797.0,
-    "Authors":null,
+    "Category":"H"
+},{
+    "Id":2797,
+    "Authors":"Not found",
     "Title":"L\u2019universo e la vita",
     "Cities":"  Torino",
     "Publisher":"ERI",
@@ -27980,8 +27979,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 141",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2798.0,
+},{
+    "Id":2798,
     "Authors":"Vaccaj  Giulio",
     "Title":"Le feste di Roma antica",
     "Cities":"Milano-Roma",
@@ -27989,9 +27988,9 @@ const jsonData = [
     "Years":1927,
     "Fund":"BTB Segn. 1492",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2799.0,
+    "Category":"H"
+},{
+    "Id":2799,
     "Authors":"Vacchiano, Ermenegildo",
     "Title":"La bonifica integrale della Maremma",
     "Cities":"Grosseto  ",
@@ -28000,8 +27999,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 111",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2800.0,
+},{
+    "Id":2800,
     "Authors":"Valenti, Ghino",
     "Title":"Principi di scienza economica.",
     "Cities":"Firenze",
@@ -28010,8 +28009,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2051-2052",
     "Segni":"Nota di possesso autografa in data 9.06.1925 Milano.",
     "Category":"T"
-    },{
-    "Id":2801.0,
+},{
+    "Id":2801,
     "Authors":"Valeri, Diego",
     "Title":"Poesie vecchie e nuove",
     "Cities":"Milano  ",
@@ -28019,9 +28018,9 @@ const jsonData = [
     "Years":1932,
     "Fund":"BTB Segn. 710",
     "Segni":"Dedica dell\u2019autore in data 18.7.1932.",
-    "Category":"L"
-    },{
-    "Id":2802.0,
+    "Category":"IL"
+},{
+    "Id":2802,
     "Authors":"Valeri, Nino",
     "Title":"Storia d\u2019Italia illustrata. V. Signorie e principati.",
     "Cities":"Milano  ",
@@ -28029,9 +28028,9 @@ const jsonData = [
     "Years":1949,
     "Fund":"BTB Segn. 1570",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2803.0,
+    "Category":"H"
+},{
+    "Id":2803,
     "Authors":"Val\u00e9ry, Paul",
     "Title":"Instants",
     "Cities":"Milano",
@@ -28040,8 +28039,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2804.0,
+},{
+    "Id":2804,
     "Authors":"Val\u00e9ry, Paul",
     "Title":"Po\u00e9sies: Album de vers anciens; La jeune parque; Pi\u00e8ces diverses; Cantate du Narcisse; Amphion; S\u00e9miramis.",
     "Cities":"Paris  ",
@@ -28050,8 +28049,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1104",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2805.0,
+},{
+    "Id":2805,
     "Authors":"Valgimigli, Manara",
     "Title":"Poesia e poetica di Giovanni Pascol",
     "Cities":"Bologna",
@@ -28059,9 +28058,9 @@ const jsonData = [
     "Years":1934,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2806.0,
+    "Category":"IL"
+},{
+    "Id":2806,
     "Authors":"Valgimigli, Manara",
     "Title":"Poeti e filosofi di Grecia.",
     "Cities":"Bari  ",
@@ -28069,9 +28068,9 @@ const jsonData = [
     "Years":1940,
     "Fund":"BTB Segn. 28",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2807.0,
+    "Category":"CL"
+},{
+    "Id":2807,
     "Authors":"Valiani, Leo",
     "Title":"Storia del movimento socialista.",
     "Cities":"Firenze",
@@ -28079,9 +28078,9 @@ const jsonData = [
     "Years":1951,
     "Fund":"BTB Segn. 1768",
     "Segni":"Parzialmente intonso.",
-    "Category":"S"
-    },{
-    "Id":2808.0,
+    "Category":"H"
+},{
+    "Id":2808,
     "Authors":"Vallardi, Antonio",
     "Title":"Le macchine a vapore. Motrici a stan tuffo, turbine",
     "Cities":"Milano  ",
@@ -28090,8 +28089,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2100",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2809.0,
+},{
+    "Id":2809,
     "Authors":"Valle-Incl\u00e1n, Ramon del",
     "Title":"Memorias des Marqu\u00e9s de Bradomin",
     "Cities":"Madrid",
@@ -28100,8 +28099,8 @@ const jsonData = [
     "Fund":"BTB Segn. 927",
     "Segni":"Nota di possesso autografa di Emilio Cecchi in data 14.9.1939.",
     "Category":"FL"
-    },{
-    "Id":2810.0,
+},{
+    "Id":2810,
     "Authors":"Vallese, Tarquinio",
     "Title":"Britannia latina",
     "Cities":"Napoli",
@@ -28109,9 +28108,9 @@ const jsonData = [
     "Years":1926,
     "Fund":"BTB Segn. 2459",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2811.0,
+    "Category":"CL"
+},{
+    "Id":2811,
     "Authors":"Valsecchi, Marco",
     "Title":"Vincent Van Gogh",
     "Cities":"Milano",
@@ -28119,9 +28118,9 @@ const jsonData = [
     "Years":1952,
     "Fund":"BTB Segn. 2191",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2812.0,
+    "Category":"HA"
+},{
+    "Id":2812,
     "Authors":"Valverde, Jos\u00e9 Maria",
     "Title":"La Espera",
     "Cities":"Madrid",
@@ -28130,8 +28129,8 @@ const jsonData = [
     "Fund":"BTB Segn. 931",
     "Segni":"Dedica dell\u2019autore in data 1953.",
     "Category":"SL"
-    },{
-    "Id":2813.0,
+},{
+    "Id":2813,
     "Authors":"Valverde, Jos\u00e9 Maria",
     "Title":"Storia della letteratura spagnola",
     "Cities":"Torino",
@@ -28140,8 +28139,8 @@ const jsonData = [
     "Fund":"BTB Segn. 941",
     "Segni":null,
     "Category":"SL"
-    },{
-    "Id":2814.0,
+},{
+    "Id":2814,
     "Authors":"Valverde, Jos\u00e9 Maria",
     "Title":"Versos del domingo",
     "Cities":"Barcelona",
@@ -28150,68 +28149,68 @@ const jsonData = [
     "Fund":"BTB Segn. 932",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"SL"
-    },{
-    "Id":2815.0,
-    "Authors":null,
+},{
+    "Id":2815,
+    "Authors":"Not found",
     "Title":"I Vangeli.",
     "Cities":"Torino",
     "Publisher":"Einaudi",
     "Years":1949,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2816.0,
-    "Authors":null,
+    "Category":"V"
+},{
+    "Id":2816,
+    "Authors":"Not found",
     "Title":"Il Vangelo.",
     "Cities":"Venezia",
     "Publisher":"Neri Pozza",
     "Years":1950,
     "Fund":"BTB Segn. 1173",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2817.0,
-    "Authors":null,
+    "Category":"V"
+},{
+    "Id":2817,
+    "Authors":"Not found",
     "Title":"Il Vangelo",
     "Cities":"Modena",
     "Publisher":"Guanda",
     "Years":1936,
     "Fund":"BTB Segn. 1172",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2818.0,
-    "Authors":null,
+    "Category":"V"
+},{
+    "Id":2818,
+    "Authors":"Not found",
     "Title":"Van Gogh",
     "Cities":"Milano-Firenze",
     "Publisher":"Electa",
     "Years":1952,
     "Fund":"BTB Segn. 2202",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":2819.0,
-    "Authors":null,
-    "Title":"]Van Gogh. Dipinti e disegni. Milano, Palazzo Reale febbraioaprile 1952. Catalogo",
+    "Category":"HA"
+},{
+    "Id":2819,
+    "Authors":"Not found",
+    "Title":"Van Gogh. Dipinti e disegni. Milano, Palazzo Reale febbraioaprile 1952. Catalogo",
     "Cities":"Milano  ",
     "Publisher":"Ente manifestazioni milanesi",
     "Years":1952,
     "Fund":"BTB Segn. 2244",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":2820.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":2820,
+    "Authors":"Not found",
     "Title":"Van Gogh racont\u00e9 par luim\u00eame et par ses amis, ses contemporains, sa posterit\u00e9",
     "Cities":"Vesenaz-Gen\u00e8ve  ",
     "Publisher":"Cailler",
     "Years":1947,
     "Fund":"BTB Segn. 2199",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":2821.0,
+    "Category":"HA"
+},{
+    "Id":2821,
     "Authors":"Van Gogh, Vincent",
     "Title":"Lettres \u00e0 son fr\u00e8re Th\u00e9o",
     "Cities":"Paris",
@@ -28219,9 +28218,9 @@ const jsonData = [
     "Years":1937,
     "Fund":"BTB Segn. 2245",
     "Segni":"Intonso.",
-    "Category":"L"
-    },{
-    "Id":2822.0,
+    "Category":"V"
+},{
+    "Id":2822,
     "Authors":"Van Gogh, Vincent",
     "Title":"Lettres \u00e0 Van Rappard",
     "Cities":"Paris",
@@ -28229,9 +28228,9 @@ const jsonData = [
     "Years":1950,
     "Fund":"BTB Segn. 2246",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2823.0,
+    "Category":"V"
+},{
+    "Id":2823,
     "Authors":"Vanini, Giulio Cesare",
     "Title":"Saggi di opere",
     "Cities":"Lanciano  ",
@@ -28239,9 +28238,9 @@ const jsonData = [
     "Years":1938,
     "Fund":"BTB Segn. 1924",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2824.0,
+    "Category":"IL"
+},{
+    "Id":2824,
     "Authors":"Vanni, Manfredo",
     "Title":"Calliope: epos di Grecia e di Roma: letture omeriche e virgiliane nelle traduzioni del Monti, del Pindemonte e del Caro, scelte e commentate e ricongiunte col nesso dei poemi aggiuntivi i riepiloghi delle note di lingua, grammatica e stile",
     "Cities":"Milano",
@@ -28249,9 +28248,9 @@ const jsonData = [
     "Years":1943,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2825.0,
+    "Category":"CL"
+},{
+    "Id":2825,
     "Authors":"Vanzi Angioletti, Giannina",
     "Title":"I giorni del mio tempo",
     "Cities":"Milano",
@@ -28259,10 +28258,10 @@ const jsonData = [
     "Years":1951,
     "Fund":"BTB Segn. 709",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2826.0,
-    "Authors":null,
+    "Category":"IL"
+},{
+    "Id":2826,
+    "Authors":"Not found",
     "Title":"El vap\u00f3r: su producci\u00f3n y su em pleo",
     "Cities":"New York-London ",
     "Publisher":" Babcock & Wilcox",
@@ -28270,8 +28269,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2104",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2827.0,
+},{
+    "Id":2827,
     "Authors":"Vasari, Giorgio",
     "Title":"Capricci e aneddoti di artisti",
     "Cities":"Firenze",
@@ -28279,9 +28278,9 @@ const jsonData = [
     "Years":1907,
     "Fund":"BTB Segn. 718",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":2828.0,
+    "Category":"HA"
+},{
+    "Id":2828,
     "Authors":"Vasari, Giorgio",
     "Title":"Le vite",
     "Cities":"Milano",
@@ -28290,8 +28289,8 @@ const jsonData = [
     "Fund":"BTB Segn. 717",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":2829.0,
+},{
+    "Id":2829,
     "Authors":"Vasari, Giorgio",
     "Title":"Le vite",
     "Cities":"Firenze",
@@ -28300,8 +28299,8 @@ const jsonData = [
     "Fund":"BTB Segn. 711-716",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2830.0,
+},{
+    "Id":2830,
     "Authors":"Vassalli, Sebastiano",
     "Title":"Narcisso",
     "Cities":"Torino",
@@ -28310,8 +28309,8 @@ const jsonData = [
     "Fund":"BTB Segn. 719",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2831.0,
+},{
+    "Id":2831,
     "Authors":"Vaunois, Louis",
     "Title":"La vie de Louis XIII",
     "Cities":"Paris  ",
@@ -28319,9 +28318,9 @@ const jsonData = [
     "Years":1943,
     "Fund":"BTB Segn. 1709",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2832.0,
+    "Category":"H"
+},{
+    "Id":2832,
     "Authors":"Vavilov, Sergej Ivanovic",
     "Title":"Isaac Newton",
     "Cities":"Torino",
@@ -28330,9 +28329,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2099",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2833.0,
-    "Authors":null,
+},{
+    "Id":2833,
+    "Authors":"Not found",
     "Title":"Vent\u2019anni d\u2019impazienza: antologia della narrativa italiana dal \u201946 ad oggi",
     "Cities":"Milano  ",
     "Publisher":"Feltrinelli",
@@ -28340,9 +28339,9 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2834.0,
-    "Authors":null,
+},{
+    "Id":2834,
+    "Authors":"Not found",
     "Title":"Vent\u2019anni di narrativa italiana (1945-1965)",
     "Cities":"Roma  ",
     "Publisher":"Edindustria",
@@ -28350,18 +28349,18 @@ const jsonData = [
     "Fund":"BTB Segn. 882-883",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2835.0,
-    "Authors":null,
+},{
+    "Id":2835,
+    "Authors":"Not found",
     "Title":"Ventisei. Escluso il nero",
     "Cities":"Roma  ",
     "Publisher":"Edizioni dell\u2019Aldina",
     "Years":1970,
     "Fund":"BTB Segn. Op. 116",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2836.0,
+    "Category":"V"
+},{
+    "Id":2836,
     "Authors":"Ventura, Giovanni",
     "Title":"Poesie scelte",
     "Cities":"Milano",
@@ -28370,8 +28369,8 @@ const jsonData = [
     "Fund":"BTB Segn. 720",
     "Segni":"Intonso.",
     "Category":"IL"
-    },{
-    "Id":2837.0,
+},{
+    "Id":2837,
     "Authors":"Venturi, Franco",
     "Title":"Jean Jaur\u00e8s",
     "Cities":"Torino",
@@ -28379,9 +28378,9 @@ const jsonData = [
     "Years":1948,
     "Fund":"BTB Segn. 1707",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2838.0,
+    "Category":"V"
+},{
+    "Id":2838,
     "Authors":"Verdi, Giuseppe",
     "Title":"Autobiografia dalle lettere",
     "Cities":"Milano",
@@ -28390,8 +28389,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1435",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2839.0,
+},{
+    "Id":2839,
     "Authors":"Verga, Giovanni",
     "Title":"I Malavoglia",
     "Cities":"Sesto San Giovanni",
@@ -28400,8 +28399,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2840.0,
+},{
+    "Id":2840,
     "Authors":"Verga, Giovanni",
     "Title":"I Malavoglia",
     "Cities":"Milano-Verona",
@@ -28410,8 +28409,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2841.0,
+},{
+    "Id":2841,
     "Authors":"Verga, Giovanni",
     "Title":"Mastro Don Gesualdo",
     "Cities":"Milano",
@@ -28420,8 +28419,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2842.0,
+},{
+    "Id":2842,
     "Authors":"Verga, Giovanni",
     "Title":"Tutte le novelle",
     "Cities":"Milano",
@@ -28430,8 +28429,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2843.0,
+},{
+    "Id":2843,
     "Authors":"Verga, Giovanni",
     "Title":"Tutte le novelle. II.",
     "Cities":"Milano",
@@ -28440,8 +28439,8 @@ const jsonData = [
     "Fund":"BTB Segn. 721",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2844.0,
+},{
+    "Id":2844,
     "Authors":"Vergani, Orio",
     "Title":"Addio vecchia Milano!",
     "Cities":"Milano",
@@ -28450,8 +28449,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2282",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2845.0,
+},{
+    "Id":2845,
     "Authors":"Verginelli, Vinci",
     "Title":"Ceneri di paradiso",
     "Cities":"Parma  ",
@@ -28460,8 +28459,8 @@ const jsonData = [
     "Fund":"BTB Segn. 722",
     "Segni":"Dedica dell\u2019autore in data 21.12.1957. In tonso.",
     "Category":"IL"
-    },{
-    "Id":2846.0,
+},{
+    "Id":2846,
     "Authors":"Verlaine, Paul",
     "Title":"Les plus belles pages de PaulVerlaine. Po\u00e9sies",
     "Cities":"Paris",
@@ -28470,8 +28469,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2847.0,
+},{
+    "Id":2847,
     "Authors":"Veroi, Gomberto",
     "Title":"Condotta delle macchine elettriche e delle centrali",
     "Cities":"Torino",
@@ -28480,8 +28479,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2134",
     "Segni":"Nota di possesso in data 7.1920 Milano.",
     "Category":"T"
-    },{
-    "Id":2848.0,
+},{
+    "Id":2848,
     "Authors":"Veronelli, Luigi",
     "Title":"Guide Veronelli all\u2019Italia piacevole: Lazio",
     "Cities":"Milano",
@@ -28490,8 +28489,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":2849.0,
+},{
+    "Id":2849,
     "Authors":"Veronelli, Luigi",
     "Title":"Guide Veronelli all\u2019Italia piacevole: Liguria",
     "Cities":"Milano",
@@ -28500,8 +28499,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":2850.0,
+},{
+    "Id":2850,
     "Authors":"Veronelli, Luigi",
     "Title":"Guide Veronelli all\u2019Italia piacevole: Lombardia",
     "Cities":"Milano",
@@ -28510,8 +28509,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":2851.0,
+},{
+    "Id":2851,
     "Authors":"Veronelli, Luigi",
     "Title":"Guide Veronelli all\u2019Italia piacevole: Piemonte, Valle d\u2019Aosta",
     "Cities":"Milano",
@@ -28520,8 +28519,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":2852.0,
+},{
+    "Id":2852,
     "Authors":"Veronelli, Luigi",
     "Title":"Guide Veronelli all\u2019Italia piacevole: Umbria e Marche",
     "Cities":"Milano",
@@ -28530,8 +28529,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":2853.0,
+},{
+    "Id":2853,
     "Authors":"Verri, Pietro",
     "Title":" Storia di Milano, dai suoi pi\u00f9 remoti principii fino al 1525 e, continuata fino alla presente et\u00e0 da S. Ticozzi.",
     "Cities":"Milano",
@@ -28539,9 +28538,9 @@ const jsonData = [
     "Years":1835,
     "Fund":"BTB Segn. 1572-1575",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2854.0,
+    "Category":"H"
+},{
+    "Id":2854,
     "Authors":"Vespasiano da Bisticci",
     "Title":"Vite di uomini illustri del secolo XV",
     "Cities":"Firenze",
@@ -28549,9 +28548,9 @@ const jsonData = [
     "Years":1938,
     "Fund":"BTB Segn. 723",
     "Segni":"Parzialmente intonso.",
-    "Category":"S"
-    },{
-    "Id":2855.0,
+    "Category":"H"
+},{
+    "Id":2855,
     "Authors":"Vian, Boris",
     "Title":"Sterpacuore",
     "Cities":"Milano",
@@ -28559,9 +28558,9 @@ const jsonData = [
     "Years":1965,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2856.0,
+    "Category":"FL"
+},{
+    "Id":2856,
     "Authors":"Vian, Francesco",
     "Title":"Introduzione alla letteratura spagnola del \u00absiglo de oro\u00bb.",
     "Cities":"Milano",
@@ -28570,8 +28569,8 @@ const jsonData = [
     "Fund":"BTB Segn. 942",
     "Segni":null,
     "Category":"SL"
-    },{
-    "Id":2857.0,
+},{
+    "Id":2857,
     "Authors":"Viani, Lorenzo",
     "Title":"Angi\u00f2 uomo d\u2019acqua",
     "Cities":"Milano",
@@ -28580,8 +28579,8 @@ const jsonData = [
     "Fund":"BTB Segn. 724",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2858.0,
+},{
+    "Id":2858,
     "Authors":"Viani, Lorenzo",
     "Title":"Il Bava",
     "Cities":"Firenze",
@@ -28590,8 +28589,8 @@ const jsonData = [
     "Fund":"BTB Segn. 725",
     "Segni":"Pieghe, sottolineature e postille.",
     "Category":"IL"
-    },{
-    "Id":2859.0,
+},{
+    "Id":2859,
     "Authors":"Viani, Rolando",
     "Title":"I ragazzi della spiaggia",
     "Cities":"Torino",
@@ -28600,8 +28599,8 @@ const jsonData = [
     "Fund":"BTB Segn. 726",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2860.0,
+},{
+    "Id":2860,
     "Authors":"Vicari, Giambattista",
     "Title":"Indice ragionato de \u00abIl caff\u00e8\u00bb.",
     "Cities":"s.l.",
@@ -28610,8 +28609,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 112",
     "Segni":"Invio.",
     "Category":"IL"
-    },{
-    "Id":2861.0,
+},{
+    "Id":2861,
     "Authors":"Vicari, Giambattista",
     "Title":"La smorfia letteraria",
     "Cities":"Parma  ",
@@ -28620,8 +28619,8 @@ const jsonData = [
     "Fund":"BTB Segn. 727",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2862.0,
+},{
+    "Id":2862,
     "Authors":"Vico, Giambattista",
     "Title":"La scienza nuova.",
     "Cities":"Bari",
@@ -28630,8 +28629,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1925-1926",
     "Segni":"Nota di possesso autografa.",
     "Category":"F "
-    },{
-    "Id":2863.0,
+},{
+    "Id":2863,
     "Authors":"Vico, Giambattista",
     "Title":"La scienza nuova.",
     "Cities":null,
@@ -28639,9 +28638,9 @@ const jsonData = [
     "Years":1943,
     "Fund":null,
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":2864.0,
+    "Category":"P"
+},{
+    "Id":2864,
     "Authors":"Vighi, Alberto",
     "Title":"L\u2019addio",
     "Cities":"Milano",
@@ -28650,8 +28649,8 @@ const jsonData = [
     "Fund":"BTB Segn. 728",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2865.0,
+},{
+    "Id":2865,
     "Authors":"Vigny, Alfred de",
     "Title":"Po\u00e8mes antiques et modernes",
     "Cities":"Paris",
@@ -28660,8 +28659,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1107",
     "Segni":"Nota di possesso autografa in data 17.09.1919. Intonso.",
     "Category":"FL"
-    },{
-    "Id":2866.0,
+},{
+    "Id":2866,
     "Authors":"Vigny, Alfred de",
     "Title":"Po\u00e9sies",
     "Cities":"Paris",
@@ -28670,8 +28669,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1110",
     "Segni":"Nota di possesso autografa di Enrico Gadda in data 10.1917.",
     "Category":"FL"
-    },{
-    "Id":2867.0,
+},{
+    "Id":2867,
     "Authors":"Vigny, Alfred de",
     "Title":"Servitude et grandeur militaires.",
     "Cities":"Paris",
@@ -28680,8 +28679,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1109",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2868.0,
+},{
+    "Id":2868,
     "Authors":"Vigny, Alfred de",
     "Title":"Servitude et grandeur militaires",
     "Cities":"Paris",
@@ -28690,8 +28689,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1108",
     "Segni":"Nota di possesso autografa in data 17.09.1919.",
     "Category":"FL"
-    },{
-    "Id":2869.0,
+},{
+    "Id":2869,
     "Authors":"Vigo, Pietro",
     "Title":"Le definizioni geografiche della Divina Commedia",
     "Cities":"Livorno",
@@ -28699,9 +28698,9 @@ const jsonData = [
     "Years":1913,
     "Fund":"BTB Segn. 902",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2870.0,
+    "Category":"IL"
+},{
+    "Id":2870,
     "Authors":"Vigolo, Giorgio",
     "Title":"Canto fermo",
     "Cities":"Roma  ",
@@ -28709,9 +28708,9 @@ const jsonData = [
     "Years":1931,
     "Fund":"BTB Segn. 729",
     "Segni":"Dedica dell\u2019autore in data 1.6.1934.",
-    "Category":"L"
-    },{
-    "Id":2871.0,
+    "Category":"IL"
+},{
+    "Id":2871,
     "Authors":"Villa, Carlo",
     "Title":"Siamo esseri antichi",
     "Cities":"Torino",
@@ -28720,8 +28719,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2872.0,
+},{
+    "Id":2872,
     "Authors":"Villa, Guido",
     "Title":"La psicologia contemporanea",
     "Cities":"Torino",
@@ -28730,8 +28729,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2001",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2873.0,
+},{
+    "Id":2873,
     "Authors":"Villa, Vincenzo Maria",
     "Title":"La bougainvillea",
     "Cities":"Civitanova Alta",
@@ -28739,9 +28738,9 @@ const jsonData = [
     "Years":1945,
     "Fund":"BTB Segn. 730",
     "Segni":"Dedica dell\u2019autore.",
-    "Category":"L"
-    },{
-    "Id":2874.0,
+    "Category":"IL"
+},{
+    "Id":2874,
     "Authors":"Villanova, Rafael Lasso de la Vega, marqu\u00e8s de",
     "Title":"Constancias 1925-1938",
     "Cities":"Siena",
@@ -28750,8 +28749,8 @@ const jsonData = [
     "Fund":"BTB Segn. 933",
     "Segni":"Dedica dell\u2019autore in data 1941.",
     "Category":"SL"
-    },{
-    "Id":2875.0,
+},{
+    "Id":2875,
     "Authors":"Villanova, Rafael Lasso de la Vega, marqu\u00e8s de",
     "Title":"Prestigi (1911-1916)",
     "Cities":"Firenze",
@@ -28760,8 +28759,8 @@ const jsonData = [
     "Fund":"BTB Segn. 936",
     "Segni":"Dedica del traduttore in data 9.1945.",
     "Category":"SL"
-    },{
-    "Id":2876.0,
+},{
+    "Id":2876,
     "Authors":"Villanova, Rafael Lasso de la Vega, marqu\u00e8s de",
     "Title":"Prestigios 1911-1916",
     "Cities":"Ginevra-Parigi-Firenze",
@@ -28770,8 +28769,8 @@ const jsonData = [
     "Fund":"BTB Segn. 935",
     "Segni":"Dedica dell\u2019autore.",
     "Category":"SL"
-    },{
-    "Id":2877.0,
+},{
+    "Id":2877,
     "Authors":"Villanova, Rafael Lasso de la Vega, marqu\u00e8s de",
     "Title":"Prestigios 1911-1916",
     "Cities":"Firenze",
@@ -28780,8 +28779,8 @@ const jsonData = [
     "Fund":"BTB Segn. 934",
     "Segni":"Dedica dell\u2019autore. Parzialmente intonso.",
     "Category":"SL"
-    },{
-    "Id":2878.0,
+},{
+    "Id":2878,
     "Authors":"Villari, Pasquale",
     "Title":"Mezzogiorno tra riforme e rivoluzione",
     "Cities":"Bari",
@@ -28789,9 +28788,9 @@ const jsonData = [
     "Years":1962,
     "Fund":"BTB Segn. 1576",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2879.0,
+    "Category":"H"
+},{
+    "Id":2879,
     "Authors":"Villat, Louis",
     "Title":"La rivoluzione francese e l\u2019impero napoleonico",
     "Cities":"Torino",
@@ -28799,9 +28798,9 @@ const jsonData = [
     "Years":1940,
     "Fund":"BTB Segn. 1708",
     "Segni":"Pieghe.",
-    "Category":"S"
-    },{
-    "Id":2880.0,
+    "Category":"H"
+},{
+    "Id":2880,
     "Authors":"Villon, Fran\u00e7ois",
     "Title":"\u0152uvres compl\u00e8tes",
     "Cities":"Paris",
@@ -28810,8 +28809,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1111",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2881.0,
+},{
+    "Id":2881,
     "Authors":"Villon, Fran\u00e7ois",
     "Title":"Poesie",
     "Cities":"Torino",
@@ -28820,8 +28819,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1112",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2882.0,
+},{
+    "Id":2882,
     "Authors":"Villone, Leonardo",
     "Title":"La strada del pellegrino",
     "Cities":"Milano",
@@ -28830,9 +28829,9 @@ const jsonData = [
     "Fund":"BTB Segn. 731",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2883.0,
-    "Authors":null,
+},{
+    "Id":2883,
+    "Authors":"Not found",
     "Title":"Vini italiani",
     "Cities":"Torino",
     "Publisher":"ERI",
@@ -28840,8 +28839,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 142",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":2884.0,
+},{
+    "Id":2884,
     "Authors":"Vio, Marta",
     "Title":"Romanza per patrioti",
     "Cities":"Milano",
@@ -28850,8 +28849,8 @@ const jsonData = [
     "Fund":"BTB Segn. 732",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2885.0,
+},{
+    "Id":2885,
     "Authors":"Virgadamo, Giuseppe",
     "Title":"Processo alla scuola.",
     "Cities":"Palermo",
@@ -28860,8 +28859,8 @@ const jsonData = [
     "Fund":"BTB Segn. Op. 65",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2886.0,
+},{
+    "Id":2886,
     "Authors":"Virgilio Marone, Publio",
     "Title":"Bucolica, Georgica",
     "Cities":"Torino",
@@ -28870,8 +28869,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":"Nota di possesso e appunto: \u00abCarlo Emilio Gadda comperato il giorno 28 febbraio 1908. E ci\u00f2 \u00e8 assicuratissimo\u00bb.",
     "Category":"CL"
-    },{
-    "Id":2887.0,
+},{
+    "Id":2887,
     "Authors":"Virgilio Marone, Publio",
     "Title":"Bucoliques",
     "Cities":"Paris",
@@ -28880,8 +28879,8 @@ const jsonData = [
     "Fund":"BTB Segn. 114",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2888.0,
+},{
+    "Id":2888,
     "Authors":"Virgilio Marone, Publio",
     "Title":"L\u2019Eneade",
     "Cities":"Prato",
@@ -28890,8 +28889,8 @@ const jsonData = [
     "Fund":null,
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2889.0,
+},{
+    "Id":2889,
     "Authors":"Virgilio Marone, Publio",
     "Title":"En\u00e9ide",
     "Cities":"Paris",
@@ -28900,8 +28899,8 @@ const jsonData = [
     "Fund":"BTB Segn. 111-112",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2890.0,
+},{
+    "Id":2890,
     "Authors":"Virgilio Marone, Publio",
     "Title":"Eneide libro VIII",
     "Cities":"Firenze",
@@ -28910,8 +28909,8 @@ const jsonData = [
     "Fund":"BTB Segn. 123",
     "Segni":null,
     "Category":"CL"
-    },{
-    "Id":2891.0,
+},{
+    "Id":2891,
     "Authors":"Virgilio Marone, Publio",
     "Title":"Les G\u00e9orgiques",
     "Cities":"Paris",
@@ -28920,8 +28919,8 @@ const jsonData = [
     "Fund":"BTB Segn. 113",
     "Segni":"Postille",
     "Category":"CL"
-    },{
-    "Id":2892.0,
+},{
+    "Id":2892,
     "Authors":"Viscardi, Antonio",
     "Title":"Letteratura franco-italiana",
     "Cities":"Modena",
@@ -28929,9 +28928,9 @@ const jsonData = [
     "Years":1941,
     "Fund":"BTB Segn. 903",
     "Segni":"Intonso",
-    "Category":"L"
-    },{
-    "Id":2893.0,
+    "Category":"IL"
+},{
+    "Id":2893,
     "Authors":"Viscardini, Mario",
     "Title":"Hypersophia. La struttura dell\u2019universo",
     "Cities":"Milano",
@@ -28939,9 +28938,9 @@ const jsonData = [
     "Years":1953,
     "Fund":"BTB Segn. 2135",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2894.0,
+    "Category":"P"
+},{
+    "Id":2894,
     "Authors":"Visconti, Alessandro",
     "Title":"Storia di Milano",
     "Cities":"Milano",
@@ -28949,49 +28948,49 @@ const jsonData = [
     "Years":1937,
     "Fund":"BTB Segn. 1577",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2895.0,
-    "Authors":null,
+    "Category":"H"
+},{
+    "Id":2895,
+    "Authors":"Not found",
     "Title":"La vita italiana durante la Rivoluzione francese e l\u2019Impero",
     "Cities":"Milano",
     "Publisher":"Garzanti",
     "Years":1941,
     "Fund":"BTB Segn. 1581",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2896.0,
-    "Authors":null,
+    "Category":"H"
+},{
+    "Id":2896,
+    "Authors":"Not found",
     "Title":"La vita italiana nel Cinquecento",
     "Cities":"Milano",
     "Publisher":"Garzanti",
     "Years":1939,
     "Fund":"BTB Segn. 1580",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2897.0,
-    "Authors":null,
+    "Category":"H"
+},{
+    "Id":2897,
+    "Authors":"Not found",
     "Title":"La vita italiana nell\u2019Ottocento",
     "Cities":"Milano",
     "Publisher":"Garzanti",
     "Years":1941,
     "Fund":null,
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2898.0,
-    "Authors":null,
+    "Category":"H"
+},{
+    "Id":2898,
+    "Authors":"Not found",
     "Title":"La vita italiana nel Trecento",
     "Cities":"Milano",
     "Publisher":"Garzanti",
     "Years":1941,
     "Fund":"BTB Segn. 1579",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2899.0,
+    "Category":"H"
+},{
+    "Id":2899,
     "Authors":"Viti, Gorizio",
     "Title":"Il romanzo italiano del Novecento da Fogazzaro ai nostri giorni",
     "Cities":"Messina- Firenze",
@@ -28999,9 +28998,9 @@ const jsonData = [
     "Years":1973,
     "Fund":"BAL",
     "Segni":"Biglietto per omaggio dell\u2019autore.",
-    "Category":"L"
-    },{
-    "Id":2900.0,
+    "Category":"IL"
+},{
+    "Id":2900,
     "Authors":"Vittorini, Elio",
     "Title":"Le donne di Messina",
     "Cities":"Milano",
@@ -29010,8 +29009,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2901.0,
+},{
+    "Id":2901,
     "Authors":"Vittorini, Elio",
     "Title":"Le due tensioni. Appunti per una ideologia della letteratura.",
     "Cities":"Milano",
@@ -29020,8 +29019,8 @@ const jsonData = [
     "Fund":"BTB Segn. 904",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2902.0,
+},{
+    "Id":2902,
     "Authors":"Vittorini, Elio",
     "Title":"Nei Morlacchi, viaggio in Sardegna",
     "Cities":"Firenze ",
@@ -29030,8 +29029,8 @@ const jsonData = [
     "Fund":"BTB Segn. 735",
     "Segni":"Intonso",
     "Category":"IL"
-    },{
-    "Id":2903.0,
+},{
+    "Id":2903,
     "Authors":"Vittorini, Elio",
     "Title":"Nome e lagrime",
     "Cities":"Firenze ",
@@ -29040,8 +29039,8 @@ const jsonData = [
     "Fund":"BTB Segn. 733",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2904.0,
+},{
+    "Id":2904,
     "Authors":"Vittorini, Elio",
     "Title":"Piccola borghesia",
     "Cities":"Firenze ",
@@ -29050,8 +29049,8 @@ const jsonData = [
     "Fund":"BTB Segn. 734",
     "Segni":"Dedica dell\u2019autore in data 19.12.1931. Piega. Parzialmente intonso.",
     "Category":"IL"
-    },{
-    "Id":2905.0,
+},{
+    "Id":2905,
     "Authors":"Vittorini, Elio",
     "Title":"Uomini e no",
     "Cities":"Milano",
@@ -29060,8 +29059,8 @@ const jsonData = [
     "Fund":null,
     "Segni":"Dedica dell\u2019autore.",
     "Category":"IL"
-    },{
-    "Id":2906.0,
+},{
+    "Id":2906,
     "Authors":"Vivante, Arturo",
     "Title":"Un caso d\u2019amore",
     "Cities":"Milano",
@@ -29070,8 +29069,8 @@ const jsonData = [
     "Fund":"BTB Segn. 736",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2907.0,
+},{
+    "Id":2907,
     "Authors":"Vives, Jaime Vicens",
     "Title":"Profilo della storia di Spagna.",
     "Cities":"Torino",
@@ -29079,10 +29078,10 @@ const jsonData = [
     "Years":1966,
     "Fund":"BTB Segn. 1590",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2908.0,
-    "Authors":null,
+    "Category":"H"
+},{
+    "Id":2908,
+    "Authors":"Not found",
     "Title":"Vocabolario dell\u2019argot e del linguaggio popolare parigino.",
     "Cities":"Torino",
     "Publisher":"Petrini",
@@ -29090,9 +29089,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2486",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":2909.0,
-    "Authors":null,
+},{
+    "Id":2909,
+    "Authors":"Not found",
     "Title":"Vocabolario della lingua italiana",
     "Cities":"Milano",
     "Publisher":"Vallardi",
@@ -29100,9 +29099,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2462",
     "Segni":"Nota di possesso autografa di Adele\nGadda Lehr.",
     "Category":"D"
-    },{
-    "Id":2910.0,
-    "Authors":null,
+},{
+    "Id":2910,
+    "Authors":"Not found",
     "Title":"Vocabolario etimologico della lingua italiana",
     "Cities":"Milano",
     "Publisher":"Sonzogno",
@@ -29110,9 +29109,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2494-2495",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":2911.0,
-    "Authors":null,
+},{
+    "Id":2911,
+    "Authors":"Not found",
     "Title":"Vocabolario italiano della lingua parlata",
     "Cities":"Firenze",
     "Publisher":"Barbera",
@@ -29120,9 +29119,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2418",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":2912.0,
-    "Authors":null,
+},{
+    "Id":2912,
+    "Authors":"Not found",
     "Title":"Vocabolario italiano della lingua parlata",
     "Cities":"Firenze",
     "Publisher":"Barbera",
@@ -29130,9 +29129,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2490",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":2913.0,
-    "Authors":null,
+},{
+    "Id":2913,
+    "Authors":"Not found",
     "Title":"Vocabolario italiano-latino per uso degli studiosi di belle lettere nelle Regie Scuole di Torino",
     "Cities":"Venezia",
     "Publisher":"Bettinelli",
@@ -29140,9 +29139,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2505-2506",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":2914.0,
-    "Authors":null,
+},{
+    "Id":2914,
+    "Authors":"Not found",
     "Title":"Vocabolario milanese-italiano",
     "Cities":"Milano",
     "Publisher":"Stamperia Reale",
@@ -29150,8 +29149,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2484-2485",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":2915.0,
+},{
+    "Id":2915,
     "Authors":null,
     "Title":"Vocabolario nomenclatore illustrato",
     "Cities":"Milano",
@@ -29160,9 +29159,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2496-2497",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":2916.0,
-    "Authors":null,
+},{
+    "Id":2916,
+    "Authors":"Not found",
     "Title":"Vocabolario scolastico italiano-francese francese-italiano. Compendio del nuovo vocabolario comparativo delle lingue italianae francese",
     "Cities":"Torino",
     "Publisher":"Petrini",
@@ -29170,8 +29169,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2481",
     "Segni":"Nota di possesso autografa",
     "Category":"D"
-    },{
-    "Id":2917.0,
+},{
+    "Id":2917,
     "Authors":"Vogelmann, Daniel",
     "Title":"Fondamentale",
     "Cities":"Parma  ",
@@ -29179,9 +29178,9 @@ const jsonData = [
     "Years":1972,
     "Fund":"BTB Segn. 736 bis",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2918.0,
+    "Category":"V"
+},{
+    "Id":2918,
     "Authors":"Vogt, Henri",
     "Title":"El\u00e9ments de math\u00e9matique sup\u00e9rieure \u00e0 l\u2019usage des physiciens, chimistes et ing\u00e9nieurs et des \u00e9l\u00e8ves des facult\u00e9s des sciences",
     "Cities":"Paris",
@@ -29190,8 +29189,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2150",
     "Segni":"Postille",
     "Category":"T"
-    },{
-    "Id":2919.0,
+},{
+    "Id":2919,
     "Authors":"Volpi, Iacopo",
     "Title":"Le ligniti italiane e la loro utilizzazione",
     "Cities":null,
@@ -29200,8 +29199,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2920.0,
+},{
+    "Id":2920,
     "Authors":"Volponi, Paolo",
     "Title":"L\u2019antica moneta",
     "Cities":"Firenze",
@@ -29210,8 +29209,8 @@ const jsonData = [
     "Fund":"BTB Segn. 737",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2921.0,
+},{
+    "Id":2921,
     "Authors":"Voltaire (Fran\u00e7ois-Marie Arouet, detto)",
     "Title":"Dizionario filosofico",
     "Cities":"Milano",
@@ -29219,9 +29218,9 @@ const jsonData = [
     "Years":1950,
     "Fund":"BTB Segn. 1113-1114",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":2922.0,
+    "Category":"P"
+},{
+    "Id":2922,
     "Authors":"Voltaire (Fran\u00e7ois-Marie Arouet, detto)",
     "Title":"Romanzi e racconti",
     "Cities":"Milano",
@@ -29230,8 +29229,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1115",
     "Segni":"Dedica del traduttore in data 4.1941",
     "Category":"FL"
-    },{
-    "Id":2923.0,
+},{
+    "Id":2923,
     "Authors":"Voltaire (Fran\u00e7ois-Marie Arouet, detto)",
     "Title":"Il secolo di Luigi XIV",
     "Cities":"Torino",
@@ -29239,9 +29238,9 @@ const jsonData = [
     "Years":1951,
     "Fund":"BTB Segn. 1710",
     "Segni":"Postille",
-    "Category":"S"
-    },{
-    "Id":2924.0,
+    "Category":"H"
+},{
+    "Id":2924,
     "Authors":"Von Frieden, Lucius",
     "Title":"I funghi di tutti i paesi: atlante praticocon 186 tavole a colori",
     "Cities":"Milano",
@@ -29250,8 +29249,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2925.0,
+},{
+    "Id":2925,
     "Authors":"Von Goethe, Johann Wolfgang",
     "Title":"Enuft",
     "Cities":"s.l.",
@@ -29260,8 +29259,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":2926.0,
+},{
+    "Id":2926,
     "Authors":"Von Herzmanovsky-Orlando, Fritz",
     "Title":"Lo spaventacavalli nel roseto",
     "Cities":"Milano",
@@ -29270,18 +29269,18 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":2927.0,
-    "Authors":null,
+},{
+    "Id":2927,
+    "Authors":"Not found",
     "Title":"Die Vorsokratiker",
     "Cities":"Jena",
     "Publisher":"Diederich",
     "Years":1922,
     "Fund":"BTB Segn. 1964",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2928.0,
+    "Category":"P"
+},{
+    "Id":2928,
     "Authors":"Vossler, Karl",
     "Title":"Civilt\u00e0 e lingua di Francia. Storia del francese letterario dagli inizi fino ad oggi",
     "Cities":"Bari",
@@ -29290,8 +29289,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1154",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2929.0,
+},{
+    "Id":2929,
     "Authors":"Vota, Lorenzo",
     "Title":"Dopo il funerale",
     "Cities":"Roma",
@@ -29300,8 +29299,8 @@ const jsonData = [
     "Fund":"BTB Segn. 73",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2930.0,
+},{
+    "Id":2930,
     "Authors":"Wackenroder, Wilhelm Heinrich",
     "Title":"Scritti di poesia e di estetica",
     "Cities":"Firenze",
@@ -29309,9 +29308,9 @@ const jsonData = [
     "Years":1934,
     "Fund":"BTB Segn. 1928",
     "Segni":"Dedica del curatore. Parzialmente intonso.",
-    "Category":"F"
-    },{
-    "Id":2931.0,
+    "Category":"P"
+},{
+    "Id":2931,
     "Authors":"Wagner, Richard",
     "Title":"Tristano e Isotta",
     "Cities":"Milano",
@@ -29320,8 +29319,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1446",
     "Segni":null,
     "Category":"GL"
-    },{
-    "Id":2932.0,
+},{
+    "Id":2932,
     "Authors":"Wain, John",
     "Title":"Colpisci a morte il padre.",
     "Cities":"Milano",
@@ -29329,9 +29328,9 @@ const jsonData = [
     "Years":1965,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2933.0,
+    "Category":"AL"
+},{
+    "Id":2933,
     "Authors":"Waismann, Friedrich",
     "Title":"Introduzione al pensiero matematico",
     "Cities":"Torino",
@@ -29340,8 +29339,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2136",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2934.0,
+},{
+    "Id":2934,
     "Authors":"Waldberg, Patrick",
     "Title":"Harloff",
     "Cities":"Milano",
@@ -29349,9 +29348,9 @@ const jsonData = [
     "Years":1968,
     "Fund":"BAL",
     "Segni":"Foglietto inserito.",
-    "Category":"L"
-    },{
-    "Id":2935.0,
+    "Category":"GL"
+},{
+    "Id":2935,
     "Authors":"Wallace, Ferguson",
     "Title":"La Renaissance dans la pens\u00e9e historisque",
     "Cities":"Paris",
@@ -29360,8 +29359,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"FL"
-    },{
-    "Id":2936.0,
+},{
+    "Id":2936,
     "Authors":"Walker, R.O",
     "Title":"Introduction to Spanish",
     "Cities":"London-New York",
@@ -29370,8 +29369,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2460.",
     "Segni":null,
     "Category":"GR"
-    },{
-    "Id":2937.0,
+},{
+    "Id":2937,
     "Authors":"Watson Fowler, Henry",
     "Title":"The concise Oxford dictionary of current English",
     "Cities":"Oxford  ",
@@ -29380,8 +29379,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"D"
-    },{
-    "Id":2938.0,
+},{
+    "Id":2938,
     "Authors":"Watson, Francis",
     "Title":"La vita e i tempi di Caterina de\u2019 Medici.",
     "Cities":"Firenze",
@@ -29389,9 +29388,9 @@ const jsonData = [
     "Years":1949,
     "Fund":"BTB Segn. 1711",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2939.0,
+    "Category":"H"
+},{
+    "Id":2939,
     "Authors":"Watt, Alexander",
     "Title":"Manuel pratique du fabricant de papier",
     "Cities":"Paris",
@@ -29400,8 +29399,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2151",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2940.0,
+},{
+    "Id":2940,
     "Authors":"Weber, Alfred",
     "Title":"Histoire de la philosophie europ\u00e9enne",
     "Cities":"Paris",
@@ -29409,9 +29408,9 @@ const jsonData = [
     "Years":1914,
     "Fund":"BTB Segn. 1980",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2941.0,
+    "Category":"H"
+},{
+    "Id":2941,
     "Authors":"Wegener, Alfred",
     "Title":"La formazione dei continenti.",
     "Cities":"Torino",
@@ -29420,9 +29419,9 @@ const jsonData = [
     "Fund":"BTB Segn. 2137",
     "Segni":"Intonso",
     "Category":"T"
-    },{
-    "Id":2942.0,
-    "Authors":null,
+},{
+    "Id":2942,
+    "Authors":"Not found",
     "Title":"Die Welt erz\u00e4hlt.",
     "Cities":"Frankfurt",
     "Publisher":"Fischer",
@@ -29430,8 +29429,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1412",
     "Segni":null,
     "Category":"T"
-    },{
-    "Id":2943.0,
+},{
+    "Id":2943,
     "Authors":"Werfel, Franz",
     "Title":"La morte del piccolo borghese.",
     "Cities":"Milano",
@@ -29439,9 +29438,9 @@ const jsonData = [
     "Years":1937,
     "Fund":"BTB Segn. 1220",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2944.0,
+    "Category":"H"
+},{
+    "Id":2944,
     "Authors":"Werfel, Franz",
     "Title":"I quaranta giorni del Mussa Dagh",
     "Cities":"Milano",
@@ -29449,9 +29448,9 @@ const jsonData = [
     "Years":1935,
     "Fund":"BTB Segn. 1218-1219",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2945.0,
+    "Category":"H"
+},{
+    "Id":2945,
     "Authors":"Whitman, Walt",
     "Title":"Foglie di erba. Con le due aggiunte e gli \u00abEchi della vecchiaia\u00bb dell\u2019ed. del 1900",
     "Cities":"Milano-Palermo-Napoli",
@@ -29459,9 +29458,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BTB Segn. 1327",
     "Segni":"Invio in data 14.7.1908. Postille.",
-    "Category":"EL"
-    },{
-    "Id":2946.0,
+    "Category":"AL"
+},{
+    "Id":2946,
     "Authors":"Wilcock, J. Rodolfo",
     "Title":"Il caos",
     "Cities":"Milano",
@@ -29470,8 +29469,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2947.0,
+},{
+    "Id":2947,
     "Authors":"Wilde, Oscar",
     "Title":"Derniers essais de litt\u00e9rature",
     "Cities":"Paris",
@@ -29479,9 +29478,9 @@ const jsonData = [
     "Years":1913,
     "Fund":"BTB Segn. 1328",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2948.0,
+    "Category":"AL"
+},{
+    "Id":2948,
     "Authors":"Wilde, Oscar",
     "Title":"The Picture of Dorian Gray",
     "Cities":"London",
@@ -29489,9 +29488,9 @@ const jsonData = [
     "Years":1920,
     "Fund":"BTB Segn. 1330",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2949.0,
+    "Category":"AL"
+},{
+    "Id":2949,
     "Authors":"Wilde, Oscar",
     "Title":"Il ritratto di Dorian Gray",
     "Cities":"Milano",
@@ -29499,9 +29498,9 @@ const jsonData = [
     "Years":1951,
     "Fund":"BTB Segn. 1329",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2950.0,
+    "Category":"AL"
+},{
+    "Id":2950,
     "Authors":"Wilder, Thornton",
     "Title":"Il ponte di San Luis Rey.",
     "Cities":"Milano",
@@ -29509,9 +29508,9 @@ const jsonData = [
     "Years":1929,
     "Fund":"BTB Segn. 1331",
     "Segni":"Parzialmente intonso.",
-    "Category":"EL"
-    },{
-    "Id":2951.0,
+    "Category":"AL"
+},{
+    "Id":2951,
     "Authors":"Williams, Eric",
     "Title":"The Wooden Horse",
     "Cities":"London-New York-Toronto",
@@ -29519,9 +29518,9 @@ const jsonData = [
     "Years":1955,
     "Fund":"BTB Segn. 1332",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2952.0,
+    "Category":"AL"
+},{
+    "Id":2952,
     "Authors":"Williams, Tennessee",
     "Title":"I Blues.",
     "Cities":"Torino",
@@ -29529,9 +29528,9 @@ const jsonData = [
     "Years":1952,
     "Fund":"BTB Segn. 1333",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2953.0,
+    "Category":"AL"
+},{
+    "Id":2953,
     "Authors":"Wilson, Colin",
     "Title":"Riti notturni",
     "Cities":"Milano",
@@ -29539,9 +29538,9 @@ const jsonData = [
     "Years":1960,
     "Fund":"BAL ",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2954.0,
+    "Category":"AL"
+},{
+    "Id":2954,
     "Authors":"Wilson, Edmund",
     "Title":"Saggi letterari 1920-1950",
     "Cities":"Milano",
@@ -29549,9 +29548,9 @@ const jsonData = [
     "Years":1967,
     "Fund":"BTB Segn. 1354",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2955.0,
+    "Category":"AL"
+},{
+    "Id":2955,
     "Authors":"Windelband, Wilhelm",
     "Title":"Storia della filosofia.",
     "Cities":"s.l.",
@@ -29559,9 +29558,9 @@ const jsonData = [
     "Years":"s.d.",
     "Fund":"BTB Segn. 1981-1982",
     "Segni":"Nota di possesso autografa in data 11.06.1924 Milano.",
-    "Category":"F"
-    },{
-    "Id":2956.0,
+    "Category":"P"
+},{
+    "Id":2956,
     "Authors":"Windelband, Wilhelm",
     "Title":"Storia della Filosofia moderna. Volume primo. Dal Rinascimento all\u2019Illuminismo tedesco.",
     "Cities":"Firenze",
@@ -29569,9 +29568,9 @@ const jsonData = [
     "Years":1925,
     "Fund":"BTM   ",
     "Segni":"Sottolineature e postille.",
-    "Category":"F"
-    },{
-    "Id":2957.0,
+    "Category":"P"
+},{
+    "Id":2957,
     "Authors":"Windelband, Wilhelm",
     "Title":"Storia della Filosofia moderna. Volume secondo. L\u2019Illuminismo tedesco e la filosofia kantiana",
     "Cities":"Firenze",
@@ -29579,9 +29578,9 @@ const jsonData = [
     "Years":1925,
     "Fund":"BTM   ",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":2958.0,
+    "Category":"P"
+},{
+    "Id":2958,
     "Authors":"Windelband, Wilhelm",
     "Title":"Storia della Filosofia moderna. Volume terzo. La filosofia postkantiana.",
     "Cities":"Firenze",
@@ -29589,9 +29588,9 @@ const jsonData = [
     "Years":1925,
     "Fund":"BTM   ",
     "Segni":"Sottolineature e postille.",
-    "Category":"F"
-    },{
-    "Id":2959.0,
+    "Category":"P"
+},{
+    "Id":2959,
     "Authors":"Withers, Hartley",
     "Title":"In difesa del capitalismo.",
     "Cities":"Bari",
@@ -29599,9 +29598,9 @@ const jsonData = [
     "Years":1922,
     "Fund":"BTB Segn. 2016",
     "Segni":"Timbro della libreria italiana Alfredo Meledi Buenos Aires.",
-    "Category":"F"
-    },{
-    "Id":2960.0,
+    "Category":"P"
+},{
+    "Id":2960,
     "Authors":"W\u00f6llflin, Heinrich",
     "Title":"L\u2019arte classica del Rinascimento",
     "Cities":"Firenze",
@@ -29609,10 +29608,10 @@ const jsonData = [
     "Years":1941,
     "Fund":"BTB Segn. 2249",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":2961.0,
-    "Authors":null,
+    "Category":"HA"
+},{
+    "Id":2961,
+    "Authors":"Not found",
     "Title":"World atlas (Encyclopaedia Britannica)",
     "Cities":"London",
     "Publisher":"Benton",
@@ -29620,8 +29619,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":2962.0,
+},{
+    "Id":2962,
     "Authors":"Woolf, Virginia",
     "Title":"La casa degli spiriti",
     "Cities":"Milano",
@@ -29629,9 +29628,9 @@ const jsonData = [
     "Years":1950,
     "Fund":"BTB Segn. 1335",
     "Segni":"Postille",
-    "Category":"EL"
-    },{
-    "Id":2963.0,
+    "Category":"AL"
+},{
+    "Id":2963,
     "Authors":"Yeats, William Butler",
     "Title":"Lady Cathleen 1892. L\u2019oriolo a polvere 1903",
     "Cities":"Milano",
@@ -29639,19 +29638,19 @@ const jsonData = [
     "Years":1944,
     "Fund":"BTB Segn. 1336",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2964.0,
-    "Authors":null,
+    "Category":"AL"
+},{
+    "Id":2964,
+    "Authors":"Not found",
     "Title":"Yesterday and Today. A Comparative Anthology of Poetry",
     "Cities":"New York",
     "Publisher":"Harcourt, Brace & Co",
     "Years":1926,
     "Fund":"BTB Segn. 1353",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2965.0,
+    "Category":"V"
+},{
+    "Id":2965,
     "Authors":"Yorick (Laurence Sterne)",
     "Title":"Viaggio sentimentale lungo la Francia e l\u2019Italia.",
     "Cities":"Milano",
@@ -29660,8 +29659,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1316",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":2966.0,
+},{
+    "Id":2966,
     "Authors":"Young, George Frederick",
     "Title":"I Medici",
     "Cities":"Firenze",
@@ -29669,9 +29668,9 @@ const jsonData = [
     "Years":1949,
     "Fund":"BTB Segn. 1583-1584",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2967.0,
+    "Category":"V"
+},{
+    "Id":2967,
     "Authors":"Zamengo, Toni (Ta Nek)",
     "Title":"Cani randagi",
     "Cities":"s.l.",
@@ -29679,9 +29678,9 @@ const jsonData = [
     "Years":1966,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2968.0,
+    "Category":"IL"
+},{
+    "Id":2968,
     "Authors":"Zamengo, Toni (Ta Nek)",
     "Title":"Discorsi randagi",
     "Cities":"s.l.",
@@ -29689,9 +29688,9 @@ const jsonData = [
     "Years":1966,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2969.0,
+    "Category":"IL"
+},{
+    "Id":2969,
     "Authors":"Zanazzo, Giggi",
     "Title":"Poesie",
     "Cities":"Roma",
@@ -29700,8 +29699,8 @@ const jsonData = [
     "Fund":"BTB Segn. 739",
     "Segni":"Invio autografo di P.P. Pasolini in data 3.10.1953. Postille.",
     "Category":"IL"
-    },{
-    "Id":2970.0,
+},{
+    "Id":2970,
     "Authors":"Zanelli, Severino",
     "Title":"Il reggimento cavalleria Piemonte reale (1692-1892)",
     "Cities":"Citt\u00e0 di Castello",
@@ -29709,9 +29708,9 @@ const jsonData = [
     "Years":1892,
     "Fund":"BTB Segn. 2281",
     "Segni":null,
-    "Category":"S"
-    },{
-    "Id":2971.0,
+    "Category":"H"
+},{
+    "Id":2971,
     "Authors":"Zappelloni, Carlo",
     "Title":"Incanti di Stresa e del Golfo",
     "Cities":"Stresa ",
@@ -29720,8 +29719,8 @@ const jsonData = [
     "Fund":"BAL",
     "Segni":null,
     "Category":"G"
-    },{
-    "Id":2972.0,
+},{
+    "Id":2972,
     "Authors":"Zarco-Cuevas, F. Juli\u00e1n",
     "Title":"Monasterio de San Lorenzo el Real de El Escorial y Casita del Principe",
     "Cities":"s.l.",
@@ -29729,9 +29728,9 @@ const jsonData = [
     "Years":1949,
     "Fund":"BTB Segn. 2309",
     "Segni":null,
-    "Category":"SA"
-    },{
-    "Id":2973.0,
+    "Category":"HA"
+},{
+    "Id":2973,
     "Authors":"Zeller, Edward",
     "Title":"Compendio di storia della filosofia greca",
     "Cities":"Firenze",
@@ -29739,9 +29738,9 @@ const jsonData = [
     "Years":1921,
     "Fund":"BTM",
     "Segni":"Nota di possesso e data 18.05.1924, Milano. Sottolineature e postille.",
-    "Category":"F"
-    },{
-    "Id":2974.0,
+    "Category":"P"
+},{
+    "Id":2974,
     "Authors":"Zeller, Edward",
     "Title":"Die Philosophie der Griechen",
     "Cities":"Leipzig",
@@ -29749,9 +29748,9 @@ const jsonData = [
     "Years":1903,
     "Fund":"BTB Segn. 1984-1989",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":2975.0,
+    "Category":"P"
+},{
+    "Id":2975,
     "Authors":"Zenoni, Giovanni",
     "Title":"Manuale teorico-pratico di sintassi latina.",
     "Cities":"Venezia",
@@ -29760,8 +29759,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2461",
     "Segni":null,
     "Category":"GR"
-    },{
-    "Id":2976.0,
+},{
+    "Id":2976,
     "Authors":"Zerilli Marim\u00f2, Guido",
     "Title":"Crepuscolo e aurora della televisione",
     "Cities":"Roma",
@@ -29770,8 +29769,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1417",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":2977.0,
+},{
+    "Id":2977,
     "Authors":"Zerilli Marim\u00f2, Guido",
     "Title":"I problemi sociali dell\u2019informazione",
     "Cities":"Roma",
@@ -29780,8 +29779,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1418",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":2978.0,
+},{
+    "Id":2978,
     "Authors":"Zerilli Marim\u00f2, Guido",
     "Title":"Scuola e universit\u00e0 in Russia e in Cina",
     "Cities":"Roma",
@@ -29790,8 +29789,8 @@ const jsonData = [
     "Fund":"BTB Segn. 2005",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":2979.0,
+},{
+    "Id":2979,
     "Authors":"Zerilli Marim\u00f2, Guido",
     "Title":"Televisione: inutile parlare di dili genze in tempo di jets e di supersonici.Conferenza al Rotary Club di Roma, 28 marzo 1972.",
     "Cities":"Roma",
@@ -29800,8 +29799,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1419",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":2980.0,
+},{
+    "Id":2980,
     "Authors":"Zerilli Marim\u00f2, Guido",
     "Title":"Televisioni all\u2019europea",
     "Cities":"Roma",
@@ -29810,8 +29809,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1420",
     "Segni":"Postille dell\u2019autore.",
     "Category":"V"
-    },{
-    "Id":2981.0,
+},{
+    "Id":2981,
     "Authors":"Zerilli Marim\u00f2, Guido",
     "Title":"Trasmettere la verit\u00e0?",
     "Cities":"Roma",
@@ -29820,8 +29819,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1421",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":2982.0,
+},{
+    "Id":2982,
     "Authors":"Zerilli Marim\u00f2, Guido",
     "Title":"TV. Un monopolio non pi\u00f9 giustificato una soluzione utile.",
     "Cities":"Roma",
@@ -29830,8 +29829,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1427",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":2983.0,
+},{
+    "Id":2983,
     "Authors":"Zerilli Marim\u00f2, Guido",
     "Title":"TV: una \u00abriforma\u00bb non riformatrice",
     "Cities":"Roma",
@@ -29840,8 +29839,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1422",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":2984.0,
+},{
+    "Id":2984,
     "Authors":"Zerilli Marim\u00f2, Guido",
     "Title":"Uomo televisione libert\u00e0. Fascicolo primo. La televisione nei paesi liberi e democratici",
     "Cities":"Roma",
@@ -29850,8 +29849,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1416",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":2985.0,
+},{
+    "Id":2985,
     "Authors":"Zerilli Marim\u00f2, Guido",
     "Title":"La voce della Francia",
     "Cities":"Roma",
@@ -29860,8 +29859,8 @@ const jsonData = [
     "Fund":"BTB Segn. 1428",
     "Segni":null,
     "Category":"V"
-    },{
-    "Id":2986.0,
+},{
+    "Id":2986,
     "Authors":"Zolla, El\u00e9mire",
     "Title":"Eclissi dell\u2019intellettuale",
     "Cities":"Milano",
@@ -29869,9 +29868,9 @@ const jsonData = [
     "Years":1956,
     "Fund":"BTB Segn. 905",
     "Segni":null,
-    "Category":"F"
-    },{
-    "Id":2987.0,
+    "Category":"P"
+},{
+    "Id":2987,
     "Authors":"Zottoli, Angelandrea",
     "Title":"Umili e potenti del Manzoni",
     "Cities":"Roma",
@@ -29879,9 +29878,9 @@ const jsonData = [
     "Years":1942,
     "Fund":"BTB Segn. 906",
     "Segni":null,
-    "Category":"L"
-    },{
-    "Id":2988.0,
+    "Category":"IL"
+},{
+    "Id":2988,
     "Authors":"Zuccante, Giuseppe",
     "Title":"Giovanni Stuart Mill e l\u2019utilitarismo",
     "Cities":"Firenze",
@@ -29889,9 +29888,9 @@ const jsonData = [
     "Years":1922,
     "Fund":"BTB Segn. 2017",
     "Segni":"Timbro della libreria italiana A. Mele di Buenos Aires. Nota di possesso autografa.",
-    "Category":"F"
-    },{
-    "Id":2989.0,
+    "Category":"P"
+},{
+    "Id":2989,
     "Authors":"Zucchi, Giuseppe",
     "Title":"Un mondo materiale",
     "Cities":"Padova",
@@ -29900,8 +29899,8 @@ const jsonData = [
     "Fund":"BTB Segn. 740",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2990.0,
+},{
+    "Id":2990,
     "Authors":"Zuccoli, Luciano",
     "Title":"Per la sua bocca",
     "Cities":"Milano",
@@ -29910,8 +29909,8 @@ const jsonData = [
     "Fund":"BTB Segn. 741",
     "Segni":null,
     "Category":"IL"
-    },{
-    "Id":2991.0,
+},{
+    "Id":2991,
     "Authors":"Zuccoli, Luciano",
     "Title":"La volpe di Sparta",
     "Cities":"Milano",
@@ -29920,8 +29919,8 @@ const jsonData = [
     "Fund":"BTB Segn. 742",
     "Segni":"Nota di possesso autografa di Enrico Gadda in data 1.09.1917.",
     "Category":"IL"
-    },{
-    "Id":2992.0,
+},{
+    "Id":2992,
     "Authors":"Zweig, Stefan",
     "Title":"Fouch\u00e9",
     "Cities":"Roma",
@@ -29929,9 +29928,9 @@ const jsonData = [
     "Years":1945,
     "Fund":"BTB Segn. 1712",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2993.0,
+    "Category":"AL"
+},{
+    "Id":2993,
     "Authors":"Zweig, Stefan",
     "Title":"Maria Antonietta: una vita involontariamente eroica",
     "Cities":"Milano",
@@ -29939,9 +29938,9 @@ const jsonData = [
     "Years":1948,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"EL"
-    },{
-    "Id":2994.0,
+    "Category":"AL"
+},{
+    "Id":2994,
     "Authors":"Zweig, Stefan",
     "Title":"Maria Stuarda",
     "Cities":"Milano",
@@ -29949,9 +29948,8 @@ const jsonData = [
     "Years":1949,
     "Fund":"BAL",
     "Segni":null,
-    "Category":"EL"
-    }
-    ];
+    "Category":"AL"
+}];
     
     const file2Data =[{
         "Id":3.0,
