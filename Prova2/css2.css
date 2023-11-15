@@ -221,3 +221,11 @@ opacity:0;
 display:none;
 
 }
+
+
+
+.SchedeTematiche {
+  cursor: pointer;
+  color: blue; /* Optional: Change the color to indicate a link */
+  text-decoration: underline; /* Optional: Underline the text to indicate a link */
+}

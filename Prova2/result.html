@@ -1,0 +1,179 @@
+<!-- matchingItems.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matching Items</title>
+
+  <!-- Add DataTables CSS and JavaScript -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+</head>
+<body>
+  <h1>Matching Items</h1>
+
+  <!-- Add a table for DataTables -->
+  <table id="matching-items-table" class="display">
+    <thead>
+      <tr>
+        <th>N</th>
+        <th>unitàId</th>
+        <th>archivio</th>
+        <th>fondo</th>
+        <th>unità</th>
+        <th>serie</th>
+        <th>sottoserie</th>
+        <th>faldone</th>
+        <th>opera</th>
+        <th>schede tematiche</th>
+        <th>anno inizio</th>
+        <th>anno fine</th>
+        <th>mese</th>
+        <th>giorno</th>
+        <th>luogo</th>
+        <th>genere</th>
+        <th>forma</th>
+        <th>tipo</th>
+        <th>contenitore</th>
+        <th>sigla</th>
+        <th>descrizione</th>
+        <th>segnatura</th>
+        <th>provenienza</th>
+        <th>lingua</th>
+        <th>sommario</th>
+        <th>Stato di conservazione</th>
+        <th>collana</th>
+        <th>generelib</th>
+        
+      </tr>
+    </thead>
+    <tbody id="matching-items-list"></tbody>
+  </table>
+
+  <script>
+    const jsonDataArch = [{
+    "N":0,
+    "unit\u00e0Id":"unit\u00e0bonsanti-0",
+    "archivio":"Archivio Bonsanti",
+    "fondo":null,
+    "unit\u00e0":"\u00abPiccola antologia 1904\u00bb",
+    "serie":"II",
+    "sottoserie":"1 Quaderni 1",
+    "faldone":null,
+    "opera":"Appunti giovanili, scolastici e universitari (politecnico)",
+    "schede tematiche":"AppLetIt",
+    "anno inizio":1904.0,
+    "anno fine":null,
+    "mese":null,
+    "giorno":null,
+    "luogo":null,
+    "genere":"Appunti",
+    "forma":"Quaderni",
+    "tipo":"Documento",
+    "contenitore":"1 scatola",
+    "sigla":null,
+    "descrizione":null,
+    "segnatura":null,
+    "provenienza":null,
+    "lingua":null,
+    "sommario":null,
+    "Stato di conservazione":null,
+    "collana":null,
+    "generelib": "IL"
+},{
+    "N":0,
+    "unit\u00e0Id":"unit\u00e0bonsanti-0",
+    "archivio":"Archivio Bonsanti",
+    "fondo":null,
+    "unit\u00e0":"\u00abPiccola antologia 1904\u00bb",
+    "serie":"II",
+    "sottoserie":"1 Quaderni 1",
+    "faldone":null,
+    "opera":"Appunti giovanili, scolastici e universitari (politecnico)",
+    "schede tematiche":"AppBibIt",
+    "anno inizio":1904.0,
+    "anno fine":null,
+    "mese":null,
+    "giorno":null,
+    "luogo":null,
+    "genere":"Appunti",
+    "forma":"Quaderni",
+    "tipo":"Documento",
+    "contenitore":"1 scatola",
+    "sigla":null,
+    "descrizione":null,
+    "segnatura":null,
+    "provenienza":null,
+    "lingua":null,
+    "sommario":null,
+    "Stato di conservazione":null,
+    "collana":null,
+    "generelib": "IL"
+},{
+    "N":1,
+    "unit\u00e0Id":"unit\u00e0bonsanti-1",
+    "archivio":"Archivio Bonsanti",
+    "fondo":null,
+    "unit\u00e0":"\u00ab1913. \u2013 Gaddus\u00bb [appunti di analisi matematica]",
+    "serie":"II",
+    "sottoserie":"1 Quaderni 1",
+    "faldone":null,
+    "opera":"Appunti giovanili, scolastici e universitari (politecnico)",
+    "schede tematiche":"AppLetTed",
+    "anno inizio":1913.0,
+    "anno fine":null,
+    "mese":null,
+    "giorno":null,
+    "luogo":null,
+    "genere":"Appunti",
+    "forma":"Quaderni",
+    "tipo":"Documento",
+    "contenitore":"1 scatola",
+    "sigla":null,
+    "descrizione":null,
+    "segnatura":null,
+    "provenienza":null,
+    "lingua":null,
+    "sommario":null,
+    "Stato di conservazione":null,
+    "collana":null,
+    "generelib": "IL"
+}]
+
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+      const urlParams = new URLSearchParams(window.location.search);
+      const matchingItemsJson = urlParams.get('matchingItems');
+      const matchingItems = JSON.parse(matchingItemsJson);
+
+      // Initialize DataTables on the table
+      $('#matching-items-table').DataTable();
+
+      const matchingItemsList = document.getElementById('matching-items-list');
+
+      if (matchingItems && matchingItems.length > 0) {
+        matchingItems.forEach(item => {
+          // Extract relevant properties from jsonDataArch
+          const matchingArchItem = jsonDataArch.find(archItem => archItem["schede tematiche"] === item["schede tematiche"]);
+
+          if (matchingArchItem) {
+            // Add a new row to the DataTables table
+            const rowData = Object.values(matchingArchItem).map(value => value || ''); // Replace null values with empty string
+            const rowHTML = `<tr>${rowData.map(cell => `<td>${cell}</td>`).join('')}</tr>`;
+            matchingItemsList.innerHTML += rowHTML;
+          }
+        });
+      } else {
+        matchingItemsList.innerHTML = '<tr><td colspan="4">No matching items found.</td></tr>';
+      }
+    });
+
+    
+  </script>
+</body>
+</html>
