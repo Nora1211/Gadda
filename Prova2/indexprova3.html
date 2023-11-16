@@ -154,6 +154,17 @@ const jsonData = [{"Id":0,
 "Category":"GL",
 "schede tematiche": "AppLetTed"
 
+}, {
+    "Id":3,
+    "Authors":"Abraham, Pierre",
+    "Title":"Cr\u00e9atures chez Balzac. Recherches sur la r\u00e9alisation intellectuelle. Avec un texte in\u00e9dit de Balzac",
+    "Cities":"Paris",
+    "Publisher":"NRF-Gallimard",
+    "Years":1931,
+    "Fund":"BTB Segn. 1116.",
+    "Segni":"Nota di possesso autografa in data 10.1931. Pieghe, sottolineature, postille.",
+    "Category":"FL",
+    "schede tematiche": null
 }];
 
 
@@ -186,18 +197,18 @@ const jsonDataArch = [{
     "Stato di conservazione":null,
     "collana":null,
     "generelib": "IL"
-},{
-    "N":1,
-    "unit\u00e0Id":"unit\u00e0bonsanti-1",
+}, {
+    "N":0,
+    "unit\u00e0Id":"unit\u00e0bonsanti-0",
     "archivio":"Archivio Bonsanti",
     "fondo":null,
-    "unit\u00e0":"\u00ab1913. \u2013 Gaddus\u00bb [appunti di analisi matematica]",
+    "unit\u00e0":"\u00abPiccola antologia 1904\u00bb",
     "serie":"II",
     "sottoserie":"1 Quaderni 1",
     "faldone":null,
     "opera":"Appunti giovanili, scolastici e universitari (politecnico)",
-    "schede tematiche":"AppLetTed",
-    "anno inizio":1913.0,
+    "schede tematiche":"AppLetIt, AppLetTed",
+    "anno inizio":1904.0,
     "anno fine":null,
     "mese":null,
     "giorno":null,
@@ -244,7 +255,7 @@ const jsonDataArch = [{
     "Stato di conservazione":null,
     "collana":null,
     "generelib": "IL"
-}]
+}];
     
     const file2Data =[{
         "Id":3.0,
@@ -255,8 +266,8 @@ const jsonDataArch = [{
         "Postilla muta":"Sottolineature"
     }];
     
-   // Display the items in the UI
-  const matchingItemsContainer = document.querySelector('.list-matching-items');
+    /// Display the items in the UI
+    const matchingItemsContainer = document.querySelector('.list-matching-items');
 
 // Clear the existing content
 
@@ -264,10 +275,14 @@ const handleSchedeTematicheClick = (schedeTematiche) => {
   // Split the string into an array of values
   const schedeTematicheArray = schedeTematiche.split(',').map(value => value.trim());
 
-  // Filter items in jsonDataArch based on whether each value is included in the "schede tematiche" property
-  const matchingItems = jsonDataArch.filter(item => {
-    const itemValues = item["schede tematiche"].split(',').map(value => value.trim());
-    return schedeTematicheArray.some(value => itemValues.includes(value));
+  // Filter items in jsonDataArch based on partial match with each value
+  const matchingItems = [];
+
+  schedeTematicheArray.forEach(value => {
+    const filteredDataArch = jsonDataArch.filter(dataArchItem =>
+      dataArchItem["schede tematiche"] && dataArchItem["schede tematiche"].includes(value)
+    );
+    matchingItems.push(...filteredDataArch);
   });
 
   // Convert the filtered items to JSON
@@ -279,6 +294,7 @@ const handleSchedeTematicheClick = (schedeTematiche) => {
   // Navigate to the new page
   window.location.href = url;
 };
+
 
 
 // Rest of your List.js code
@@ -295,8 +311,9 @@ const options = {
       links = `<a href="Postille.html?id=${item.Id}">View annotations </a>`;
     }
 
+    // Check if schede tematiche is not null before including the span element
+    const schedeTematicheSpan = item["schede tematiche"] !== null ? `<span class="SchedeTematiche" onclick="handleSchedeTematicheClick('${item["schede tematiche"]}')">${item["schede tematiche"]}</span><br>` : '';
 
-    
     return `<li>
       <strong class="Authors">${item.Authors}</strong><br>
       <span class="Title">${item.Title}</span><br>
@@ -306,14 +323,17 @@ const options = {
       <span class="Fund">${item.Fund}</span><br>
       <span class="Segni">${item.Segni}</span><br>
       <span class="Category">${item.Category}</span><br>
-      <span class="SchedeTematiche" onclick="handleSchedeTematicheClick('${item["schede tematiche"]}')">${item["schede tematiche"]}</span><br>
+      ${schedeTematicheSpan}
       ${links}
     </li>`;
   }
 };
-  
-    const userList = new List('catalog', options, jsonData);
-    
+
+const userList = new List('catalog', options, jsonData);
+
+
+
+   
    
 </script>
 </body>
