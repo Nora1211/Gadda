@@ -98233,10 +98233,10 @@ const jsonDataArch =[ {
      const matchingItemsJson = JSON.stringify(matchingItems);
    
      // Build the URL for the matchingItems.html page with the matching items as a parameter
-     const url = `result.html?matchingItems=${encodeURIComponent(matchingItemsJson)}`;
+     const url = `Archive.html?matchingItems=${encodeURIComponent(matchingItemsJson)}`;
    
-     // Navigate to the new page
-     window.location.href = url;
+    // Open the URL in a new window
+    window.open(url, '_blank');     
    };
    
    
@@ -98252,8 +98252,13 @@ const jsonDataArch =[ {
        let links = '';
    
        if (matchingItems.length > 0) {
-         links = `<a href="Postille.html?id=${item.Id}">View annotations </a>`;
-       }
+        // Build the URL for the Postille.html page with the item Id as a parameter
+        const url = `Postille.html?id=${item.Id}`;
+    
+        // Create the link with an onclick event to open the URL in a new window
+        links = `<a href="${url}" onclick="window.open('${url}', '_blank'); return false;">View annotations</a>`;
+    }
+    
    
        // Check if schede tematiche is not null before including the span element
        const schedeTematicheSpan = item["schede tematiche"] !== null ? `<span class="SchedeTematiche" onclick="handleSchedeTematicheClick('${item["schede tematiche"]}')">${item["schede tematiche"]}</span><br>` : '';

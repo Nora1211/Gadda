@@ -1,18 +1,21 @@
-L Literature generic
-IL Italian literature
-FL French literature
-SL Spanish literature
-RL Russian literature
-EL English literature
-GL German literature
-FL Frdnch literature
-F Philosophy
-T Technology and science
-V Varia
+AL Anglo-american literature
+CL Classical literature
 D Vocabularies and dictionaries
-S History
-M Military
+FL French literature
 G Geography
-SA History of art
-GR Foreign languages grammars
+GB Gadda's bibliography
+(contains the books written by Gadda)
+GL German literature
+GR Languages, grammars and literatures
+(contains italian and foreign laanguages grammars, educational texts and essays on philology and/or literature)
+H History
+HA History of art
+IL Italian literature
+M Military
+P Philosophy
+RL Russian literature
+SL Spanish- American literature
+T Technology and science
+TH Theatre
+V Varia
 
