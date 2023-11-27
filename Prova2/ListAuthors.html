@@ -30020,16 +30020,25 @@
             var uniqueAuthors = new Set();
 
             // Populate the list with filtered authors, ensuring uniqueness
-            jsonData.forEach(function (entry) {
-                if (entry.Authors !== null && entry.Authors.trim().charAt(0).toLowerCase() === letter) {
-                    if (!uniqueAuthors.has(entry.Authors)) {
-                        var li = document.createElement("li");
-                        li.textContent = entry.Authors;
-                        ul.appendChild(li);
-                        uniqueAuthors.add(entry.Authors);
-                    }
-                }
-            });
+           // Populate the list with filtered authors, ensuring uniqueness
+    jsonData.forEach(function (entry) {
+        if (entry.Authors !== null && entry.Authors.trim().charAt(0).toLowerCase() === letter) {
+            if (!uniqueAuthors.has(entry.Authors)) {
+                var li = document.createElement("li");
+
+                // Create a link to index.html with the selected author as a query parameter
+                var link = document.createElement("a");
+                link.href = `Provola.html?author=${encodeURIComponent(entry.Authors)}`;
+                link.textContent = entry.Authors;
+
+                // Append the link to the list item
+                li.appendChild(link);
+
+                ul.appendChild(li);
+                uniqueAuthors.add(entry.Authors);
+            }
+        }
+    });
         }
 
         // Create buttons for each letter of the alphabet

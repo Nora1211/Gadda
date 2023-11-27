@@ -98259,7 +98259,10 @@ const jsonDataArch=
         const url = `Postille.html?id=${item.Id}`;
     
         // Create the link with an onclick event to open the URL in a new window
-        links = `<a href="${url}" onclick="window.open('${url}', '_blank'); return false;">View annotations</a>`;
+// ...
+
+links = `<a href="Postille.html?id=${item.Id}&title=${encodeURIComponent(item.Title)}" onclick="window.open('${url}', '_blank'); return false;">View annotations</a>`;
+
     }
     
    
@@ -98283,7 +98286,50 @@ const jsonDataArch=
    
    const userList = new List('catalog', options, jsonData);
   
- 
+ //LISTAUTHOR
+
+// Parse the query parameters from the URL
+function getQueryParams() {
+    var params = {};
+    var queryString = window.location.search.substring(1);
+    var queryParams = queryString.split('&');
+
+    for (var i = 0; i < queryParams.length; i++) {
+        var pair = queryParams[i].split('=');
+        params[pair[0]] = decodeURIComponent(pair[1]);
+    }
+
+    return params;
+}
+
+// Function to filter the list based on the author query parameter
+function filterListByAuthor() {
+    // Get the author parameter from the URL
+    var queryParams = getQueryParams();
+    var author = queryParams.author;
+
+    console.log('Author:', author); // Debugging statement
+
+    // If the author parameter is present, filter the list
+    if (author) {
+        userList.filter(function (item) {
+            // Check if Authors is not null or undefined before accessing and converting to lowercase
+            var itemAuthor = item.values().Authors;
+            return itemAuthor && itemAuthor.toLowerCase() === author.toLowerCase();
+        });
+    }
+}
+
+
+// Call the function to filter the list when the page loads
+filterListByAuthor();
+
+ //FINELISTAUTHOR
+
+
+
+
+
      
       function resetList(){
         userList.search();
@@ -98381,3 +98427,57 @@ $('.filter-button').on('click', function () {
     });
   }
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  function applyFilters() {
+    // Get the author parameter from the URL
+    var queryParams = getQueryParams();
+    var author = queryParams.author;
+
+    userList.filter(function (item) {
+        // Check if the Authors parameter from the URL matches the current item's author
+        if (author && item.values().Authors) {
+            var itemAuthor = item.values().Authors.toLowerCase();
+            if (itemAuthor !== author.toLowerCase()) {
+                return false;
+            }
+        } else if (author) {
+            // If author parameter is in the URL but the current item has no Authors, exclude it
+            return false;
+        }
+
+        const isSelectedAnnotations = $('#show-annotations').hasClass('selected');
+        const selectedFilters = $('.filter-button.selected').toArray().map(filterElement => $(filterElement).data('filter'));
+
+        const selectedCategory = $('#category-filter').val();
+
+        if (selectedCategory !== 'all' && item.values().Category !== selectedCategory) {
+            return false; // Skip items not matching the selected category
+        }
+
+        if (isSelectedAnnotations) {
+            return (
+                item.values().Segni !== null && item.values().Segni.trim() !== '' &&
+                (selectedFilters.length === 0 || selectedFilters.some(filter => new RegExp(filter, 'i').test(item.values().Fund)))
+            );
+        } else {
+            return selectedFilters.length === 0 || selectedFilters.some(filter => new RegExp(filter, 'i').test(item.values().Fund));
+        }
+    });
+}
