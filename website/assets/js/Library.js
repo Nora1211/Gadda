@@ -98320,75 +98320,64 @@ const jsonDataArch=
 
 
 
-    /// Define an array of filters
-    const filters = ['BTB', 'BAL', 'BAC', 'BTM'];
-    
-    // Attach a click event handler to each filter list item
-    $('.filter-button').on('click', function() {
-      const $li = $(this);
-      const filterValue = $li.data('filter');
-    
-      if ($li.hasClass('selected')) {
-        userList.filter(); // Clear the filter
-        $li.removeClass('selected');
-      } else {
-        // Remove the 'selected' class from all filter list items
-        $('.filter-button').removeClass('selected');
-    
-        // Add the 'selected' class to the clicked filter list item
-        $li.addClass('selected');
-    
-        // Filter the list based on the filter value
-        userList.filter(function(item) {
-          return new RegExp(filterValue, 'i').test(item.values().Fund);
-        });
-      }
-    });
-    
-    // Attach a click event handler to the "Show All Funds" button
-$('#show-all').on('click', function() {
-    // Remove the 'selected' class from all filter list items
-    $('.filter-button').removeClass('selected');
-    
-    // Clear the filter to show all "Fund" values
-    userList.filter();
+   // Define an array of filters
+const filters = ['BTB', 'BAL', 'BAC', 'BTM'];
+
+// Attach a click event handler to each filter list item
+$('.filter-button').on('click', function () {
+    const $li = $(this);
+    const filterValue = $li.data('filter');
+  
+    // Toggle the 'selected' class
+    $li.toggleClass('selected');
+  
+    applyFilters();
   });
   
+  // Attach a click event handler to the "Show All Funds" button
+  $('#show-all').on('click', function () {
+    // Remove the 'selected' class from all filter list items
+    $('.filter-button').removeClass('selected');
+    applyFilters();
+  });
   
   // show only items that contain annotations
-$('#show-annotations').on('click', function() {
-    // Remove the 'selected' class from all filter list items
-    $('.filter-button').removeClass('selected');
-
-    // Filter the list to show only items that have a non-null and non-empty value in the "Segni" column
+  $('#show-annotations').on('click', function () {
+    // Toggle the 'selected' class
+    $(this).toggleClass('selected');
+    applyFilters();
+  });
+  
+  // Reverse the previous function
+  $('#revert-show-annotations').on('click', function () {
+    // Toggle the 'selected' class
+    $(this).toggleClass('selected');
+    applyFilters();
+  });
+  
+  document.getElementById('category-filter').addEventListener('change', function () {
+    applyFilters();
+  });
+  
+  function applyFilters() {
     userList.filter(function (item) {
-        const segniValue = item.values().Segni;
-        return segniValue !== null && segniValue.trim() !== '';
+      const isSelectedAnnotations = $('#show-annotations').hasClass('selected');
+      const selectedFilters = $('.filter-button.selected').toArray().map(filterElement => $(filterElement).data('filter'));
+  
+      const selectedCategory = $('#category-filter').val();
+  
+      if (selectedCategory !== 'all' && item.values().Category !== selectedCategory) {
+        return false; // Skip items not matching the selected category
+      }
+  
+      if (isSelectedAnnotations) {
+        return (
+          item.values().Segni !== null && item.values().Segni.trim() !== '' &&
+          (selectedFilters.length === 0 || selectedFilters.some(filter => new RegExp(filter, 'i').test(item.values().Fund)))
+        );
+      } else {
+        return selectedFilters.length === 0 || selectedFilters.some(filter => new RegExp(filter, 'i').test(item.values().Fund));
+      }
     });
-});
-
-// Reverse the previous function
-$('#revert-show-annotations').on('click', function() {
-    // Remove the 'selected' class from all filter list items
-    $('.filter-button').removeClass('selected');
-    
-    // Clear the filter to show all items in the list
-    userList.filter();
-});
-
-
-
-document.getElementById('category-filter').addEventListener('change', function () {
-    var selectedCategory = this.value;
-
-    if (selectedCategory === 'all') {
-        userList.filter(); // Show all items
-    } else {
-        userList.filter(function (item) {
-            return item.values().Category === selectedCategory;
-        });
-    }
-});
-
-
-
+  }
+  

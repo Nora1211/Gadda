@@ -13,6 +13,8 @@
 </head>
 <body>
     <h1>Annotations</h1>
+    <h1 id="page-title">Annotations</h1>
+
         <!-- Display data from file2 here in a tabular format -->
         <table id="file2-table" class="display" style="width:100%">
             <thead>
@@ -29,16 +31,16 @@
         </table>
     <script>
 
- // Define the getParameterByName function to extract URL parameters
- function getParameterByName(name, url) {
-            if (!url) url = window.location.href;
-            name = name.replace(/[\[\]]/g, '\\$&');
-            var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-                results = regex.exec(url);
-            if (!results) return null;
-            if (!results[2]) return '';
-            return decodeURIComponent(results[2].replace(/\+/g, ' '));
-        }
+  // Define the getParameterByName function to extract URL parameters
+  function getParameterByName(name, url) {
+        if (!url) url = window.location.href;
+        name = name.replace(/[\[\]]/g, '\\$&');
+        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+            results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, ' '));
+    }
 
         // Define the JSON data for file2
         const file2Data = [{
@@ -18783,28 +18785,30 @@
 }];
 
         const selectedId = getParameterByName('id');
+        console.log('Selected ID:', selectedId);
 
-        const matchingItems = file2Data.filter(item => item.Id == selectedId);
+        const matchingItem = file2Data.find(item => item.Id == selectedId);
+console.log('Matching Item:', matchingItem);
 
-        const table = document.getElementById('file2-table'); // Note the ID
-        
-        
+    const table = document.getElementById('file2-table'); // Note the ID
 
+    // Set the title of the page based on the selected item's title
+    document.getElementById('page-title').innerText = matchingItem.Title;
 
-        // Initialize DataTables on the table
-        $(document).ready(function() {
-            $('#file2-table').DataTable({
-            data: matchingItems,
-        columns :[
-        { data: 'Id' },
-        { data: 'Nota di possesso' },
-      { data: 'Dedica' },
-      { data: 'Collocazione' },
-      { data: 'Postilla parlata' },
-      { data: 'Postilla muta' },
-
-        ]            });
+    // Initialize DataTables on the table
+    $(document).ready(function () {
+        $('#file2-table').DataTable({
+            data: [matchingItem], // Pass the selected item as an array
+            columns: [
+                { data: 'Id' },
+                { data: 'Nota di possesso' },
+                { data: 'Dedica' },
+                { data: 'Collocazione' },
+                { data: 'Postilla parlata' },
+                { data: 'Postilla muta' },
+            ]
         });
+    });
 
     </script>
 </html>
