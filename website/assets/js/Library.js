@@ -56,7 +56,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":5,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"L\u2019acquedotto del Flora in Maremma. Una grande opera voluta dal Duce",
     "Cities":"Grosseto",
     "Publisher":"Bollettino di Statistica",
@@ -100,7 +100,7 @@ const jsonData =[{
     "schede tematiche":"AppLetFr"
 },{
     "Id":9,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Addestramento della fanteria",
     "Cities":"Roma",
     "Publisher":"Regio esercito italiano",
@@ -122,7 +122,7 @@ const jsonData =[{
     "schede tematiche":"AppLetAm, AppLetIng"
 },{
     "Id":11,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"The Advanced Learner\u2019s Dictionary of Current English",
     "Cities":"London",
     "Publisher":"Oxford University Press",
@@ -155,7 +155,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":14,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Agenti segreti veneziani nel \u2019700",
     "Cities":"Milano",
     "Publisher":"Bompiani",
@@ -210,7 +210,7 @@ const jsonData =[{
     "schede tematiche":"AppFAi"
 },{
     "Id":19,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Ai vittoriosi di Castelfidardo XVIII settembre MDCCCLXXVIII settembre MDCCCCXII",
     "Cities":"Roma",
     "Publisher":"s.n.",
@@ -221,7 +221,7 @@ const jsonData =[{
     "schede tematiche":"AppGue"
 },{
     "Id":20,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Albert Paris G\u00fctersloh zum 75.Geburtstag",
     "Cities":"M\u00fcnchen",
     "Publisher":"Piper",
@@ -243,7 +243,7 @@ const jsonData =[{
     "schede tematiche":"AppSto"
 },{
     "Id":22,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Gli albori della vita italiana.",
     "Cities":"Milano",
     "Publisher":"Garzanti",
@@ -595,7 +595,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":54,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Alla santa memoria del Cav. Emilio Gadda",
     "Cities":null,
     "Publisher":"s.e.",
@@ -606,7 +606,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":55,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Alla santa memoria di Carlotta  Gadda Belloni",
     "Cities":null,
     "Publisher":"s.e.",
@@ -683,7 +683,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":62,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"America d\u2019altri tempi. Mostra di 138 incisioni americane dal 1722 al 1875",
     "Cities":"s.l.",
     "Publisher":"American Federation of Arts",
@@ -694,7 +694,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":63,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Americana. Raccolta di narratori dalle origini ai nostri giorni",
     "Cities":"Milano",
     "Publisher":"Bompiani",
@@ -947,7 +947,7 @@ const jsonData =[{
     "schede tematiche":"AppSto"
 },{
     "Id":86,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Anno bisestile 1932",
     "Cities":"Milano",
     "Publisher":"Hoepli",
@@ -958,7 +958,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":87,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Annuario del teatro italiano",
     "Cities":"Roma",
     "Publisher":"SIAE",
@@ -969,7 +969,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":88,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Annuario del teatro italiano",
     "Cities":"Roma",
     "Publisher":"SIAE",
@@ -980,7 +980,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":89,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Annuario del teatro italiano",
     "Cities":"Roma",
     "Publisher":"SIAE",
@@ -991,7 +991,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":90,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Annuario generale 1925-26",
     "Cities":"Milano",
     "Publisher":"Touring club italiano",
@@ -1046,7 +1046,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":95,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Antiche rime italiane tratte",
     "Cities":"Modena",
     "Publisher":"Societ\u00e0 Tipografica Modenese",
@@ -1068,7 +1068,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":97,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Antologia della poesia italiana contemporanea",
     "Cities":"Firenze",
     "Publisher":" Vallecchi",
@@ -1090,7 +1090,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":99,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Antologia della prosa scientifica italiana del \u2019600",
     "Cities":"Firenze",
     "Publisher":" Vallecchi",
@@ -1101,7 +1101,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":100,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Antologia di scrittori lombardi\ncontemporanei",
     "Cities":"Alpignano",
     "Publisher":"Tallone",
@@ -1134,7 +1134,7 @@ const jsonData =[{
     "schede tematiche":"AppLetFr"
 },{
     "Id":103,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Approbation du livre de piet\u00e8\nde lajeune fille",
     "Cities":"s.l.",
     "Publisher":"s.e.",
@@ -1453,7 +1453,7 @@ const jsonData =[{
     "schede tematiche":"AppMat"
 },{
     "Id":132,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Arsa \u2013 societ\u00e0 anonima carbonifera",
     "Cities":"Trieste",
     "Publisher":"Trieste Editoriale libraria",
@@ -1464,7 +1464,7 @@ const jsonData =[{
     "schede tematiche":"AppMat"
 },{
     "Id":133,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"L\u2019arte in Italia dai secoli pi\u00f9\nremoti ai tempi nostri. Sguardo d\u2019insieme al Piemonte, alla\nLombardia e al Canton Ticino;\nTorino, Milano",
     "Cities":"Milano",
     "Publisher":"TCI",
@@ -1541,7 +1541,7 @@ const jsonData =[{
     "schede tematiche":"AppMat"
 },{
     "Id":140,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Atlante Garzanti. Enciclopedia geografica",
     "Cities":"Milano",
     "Publisher":"Garzanti",
@@ -1552,7 +1552,7 @@ const jsonData =[{
     "schede tematiche":"AppVia"
 },{
     "Id":141,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Atlante geografico metodico.",
     "Cities":"Novara",
     "Publisher":"Istituto geografico DeAgostini",
@@ -1563,7 +1563,7 @@ const jsonData =[{
     "schede tematiche":"AppVia"
 },{
     "Id":142,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Attivit\u00e0 geografica del TCI nel triennio 1924-1926. Nota per il XCongresso Geografico Italiano, Milano",
     "Cities":"Milano",
     "Publisher":"TCI",
@@ -1574,7 +1574,7 @@ const jsonData =[{
     "schede tematiche":"AppVia"
 },{
     "Id":143,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"L\u2019attivit\u00e0 svolta dalla Terni durante l\u2019ultimo decennio nel campo delle costruzioni idroelettriche",
     "Cities":"Milano",
     "Publisher":"Societ\u00e0 Editrice Riviste Industrie Elettriche",
@@ -1629,7 +1629,7 @@ const jsonData =[{
     "schede tematiche":"AppLetTed"
 },{
     "Id":148,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Un augurio a Raffaele Mattioli",
     "Cities":"Firenze",
     "Publisher":"Sansoni",
@@ -2839,7 +2839,7 @@ const jsonData =[{
     "schede tematiche":"AppLetAm, AppLetIng"
 },{
     "Id":258,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Belleza de Espa\u00f1a. Gu\u00eda de arte y paisaje",
     "Cities":"Barcelona",
     "Publisher":"Aedos",
@@ -3169,7 +3169,7 @@ const jsonData =[{
     "schede tematiche":"AppFAi"
 },{
     "Id":288,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Berlino Ovest: accampamenti militari americani",
     "Cities":"Roma",
     "Publisher":"U.S. Information Service",
@@ -3785,7 +3785,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":344,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Biblia sacra juxta vulgatam clementinam",
     "Cities":"Roma-Paris",
     "Publisher":"Descl\u00e9e",
@@ -4874,7 +4874,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":443,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Le bustine si orlavano d\u2019unto\u2026",
     "Cities":null,
     "Publisher":null,
@@ -5127,7 +5127,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":466,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Calendario di letture",
     "Cities":"Torino",
     "Publisher":"ERI",
@@ -5292,7 +5292,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":481,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Campiello 1969. Antologia",
     "Cities":"Venezia",
     "Publisher":"Fondazione Cini",
@@ -5303,7 +5303,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":482,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Campiello 1970. Antologia",
     "Cities":"Venezia",
     "Publisher":"Fondazione Cini",
@@ -5369,7 +5369,7 @@ const jsonData =[{
     "schede tematiche":"AppMat"
 },{
     "Id":488,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Canti alpini",
     "Cities":"Milano",
     "Publisher":"Semenza",
@@ -5380,7 +5380,7 @@ const jsonData =[{
     "schede tematiche":"AppGue"
 },{
     "Id":489,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Cantico dei cantici",
     "Cities":"Venezia",
     "Publisher":"Neri Pozza",
@@ -5402,7 +5402,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":491,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"]Canzoniere italiano: antologia della poesia popolare",
     "Cities":"Parma",
     "Publisher":"Guanda",
@@ -5413,7 +5413,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":492,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Capolavori nei secoli",
     "Cities":"Milano",
     "Publisher":"Fabbri",
@@ -5842,7 +5842,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":531,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Carlo Dossi: mostra di documenti sulla vita e sull\u2019opera (Milano, Palazzo Sormani, 18 marzo 10 aprile 1965)",
     "Cities":"Milano",
     "Publisher":"Biblioteca Comunale di Milano",
@@ -5908,7 +5908,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":537,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Carpaccio",
     "Cities":"Firenze",
     "Publisher":"Electa",
@@ -6183,7 +6183,7 @@ const jsonData =[{
     "schede tematiche":"AppSto"
 },{
     "Id":562,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Catalogo Catalogo della esposizione\ndella pittura ferrarese del Rinascimento. Ferrara maggioottobre 1933 XI E.F.della esposizionedella pittura ferrarese del Rinascimento",
     "Cities":"Venezia",
     "Publisher":"Tipi di Carlo Ferrari",
@@ -6194,7 +6194,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":563,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Catalogo della R. Pinacoteca di Brera in Milano",
     "Cities":"Milano",
     "Publisher":"R. Pinacoteca di Brera",
@@ -6205,7 +6205,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":564,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Catalogo generale delle edizioni Einaudi dalla fondazione della Casa editrice al 1\u00b0 gennaio 1956.",
     "Cities":"Torino",
     "Publisher":"Einaudi",
@@ -6678,7 +6678,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":607,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Celebrazioni di Torquato Tasso, Ferrara, 26 giugno-4 luglio, 11 settembre-10 ottobre 1954",
     "Cities":"Ferrara",
     "Publisher":"Tip. Padana",
@@ -6920,7 +6920,7 @@ const jsonData =[{
     "schede tematiche":"AppFAi"
 },{
     "Id":629,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"La Chanson de Roland",
     "Cities":"Tours",
     "Publisher":"Maison Alfred Mame et fils",
@@ -6931,7 +6931,7 @@ const jsonData =[{
     "schede tematiche":"AppLetFr"
 },{
     "Id":630,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Charcot",
     "Cities":"Firenze",
     "Publisher":"Bemporad",
@@ -7481,7 +7481,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":680,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Club delle fattorie",
     "Cities":"s.l.",
     "Publisher":"s.e.",
@@ -7514,7 +7514,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":683,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"La cokeria di San Giuseppe di Cairo nell\u2019anno della sua inaugurazione 1936",
     "Cities":"Torino",
     "Publisher":"Cokitalia",
@@ -7613,7 +7613,7 @@ const jsonData =[{
     "schede tematiche":"AppMat"
 },{
     "Id":692,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"La colonizzazione del latifondo siciliano: documenti fotografici leggi e decreti",
     "Cities":"Roma",
     "Publisher":"Ministero dell\u2019Agricoltura e delle Foreste",
@@ -7668,7 +7668,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":697,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Commedia dell\u2019arte. Canovacci della gloriosa Commedia dell\u2019Arte italiana",
     "Cities":"Torino",
     "Publisher":"SET-Il Dramma",
@@ -7679,7 +7679,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":698,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Commemorazione di Gaetano Negri tenuta dai licenziandi del R. Liceo Beccaria il 30 maggio 1912",
     "Cities":"Milano",
     "Publisher":"Tipolitografia di Rebeschini",
@@ -7701,7 +7701,7 @@ const jsonData =[{
     "schede tematiche":"AppSto"
 },{
     "Id":700,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Compendiaria graecae grammatices institutio",
     "Cities":"Torino",
     "Publisher":"Marietti",
@@ -7712,7 +7712,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":701,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Compendio della storia della casa d\u2019Austria",
     "Cities":"Milano",
     "Publisher":"Gnocchi",
@@ -7723,7 +7723,7 @@ const jsonData =[{
     "schede tematiche":"AppSto"
 },{
     "Id":702,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"A Complete Dictionary of the English Language, both with regard to Sound and Meaning: One main Object of which is, to establish a plain and permanent standard of pronunciation. To which is prefixed a Prosodial Grammar. Vol. II: J-Z",
     "Cities":"London",
     "Publisher":"Dilly, Law and son, Richardson, Scatcherd and Longman",
@@ -7767,7 +7767,7 @@ const jsonData =[{
     "schede tematiche":"AppFAi"
 },{
     "Id":706,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Conosci Bergamo. Invito allascoperta della provincia orobica",
     "Cities":"Bergamo",
     "Publisher":"Pol. Bolis",
@@ -7998,7 +7998,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":727,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Contorni di Milano",
     "Cities":"Milano",
     "Publisher":"Vallardi",
@@ -8097,7 +8097,7 @@ const jsonData =[{
     "schede tematiche":"AppLetFr"
 },{
     "Id":736,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Cremona passato e presente.",
     "Cities":"Cremona",
     "Publisher":"Italia Nostra",
@@ -8119,7 +8119,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":738,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Crivelli e i Crivelleschi.",
     "Cities":"Venezia",
     "Publisher":"Edizioni Alfieri",
@@ -8284,7 +8284,7 @@ const jsonData =[{
     "schede tematiche":"AppLetAm, AppLetIng"
 },{
     "Id":753,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Cronica de las jornadas de lengua y literatura hispanoamericana",
     "Cities":"Salamanca",
     "Publisher":"Universidad de Salamanca",
@@ -8306,7 +8306,7 @@ const jsonData =[{
     "schede tematiche":"AppLetAm, AppLetIng"
 },{
     "Id":755,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Cronisti del Trecento",
     "Cities":"Milano-Roma",
     "Publisher":"Rizzoli",
@@ -8328,7 +8328,7 @@ const jsonData =[{
     "schede tematiche":"AppSto"
 },{
     "Id":757,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"La cucina degli stomachi deboli",
     "Cities":"Milano",
     "Publisher":"Longanesi",
@@ -8339,7 +8339,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":758,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Cultura e societ\u00e0",
     "Cities":"Roma",
     "Publisher":"Associazione italiana per la libert\u00e0 della cultura",
@@ -8350,7 +8350,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":759,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"La cultura figurativa e la stampa d\u2019arte ai nostri giorni.",
     "Cities":"Roma",
     "Publisher":"Associazione italiana per la libert\u00e0 dellacultura",
@@ -9395,7 +9395,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":854,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"La Deposizione. Beato Angelico",
     "Cities":"Firenze",
     "Publisher":"Electa",
@@ -9582,7 +9582,7 @@ const jsonData =[{
     "schede tematiche":"AppFAi"
 },{
     "Id":871,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Descrizione delle sale accademiche al Boe del Liviano",
     "Cities":"Padova",
     "Publisher":"Officine grafiche STEDIV",
@@ -9626,7 +9626,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":875,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Deutsch-Italienisches und Italienisch-Deutsches Handw\u00f6rterbuch. Nuovo dizionario portatile italiano-tedesco e tedesco-italiano",
     "Cities":"Milano",
     "Publisher":"Pirotta",
@@ -9714,7 +9714,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":883,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Diccionario de la literatura espa\u00f1ola",
     "Cities":"Madrid",
     "Publisher":"Revista de Occidente",
@@ -9725,7 +9725,7 @@ const jsonData =[{
     "schede tematiche":"AppBibFil"
 },{
     "Id":884,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Diciottesima Esposizione Biennale Internazionale d\u2019Arte 1932: Catalogo",
     "Cities":"s.l.",
     "Publisher":"s.n.",
@@ -9780,7 +9780,7 @@ const jsonData =[{
     "schede tematiche":"AppLetAm, AppLetIng"
 },{
     "Id":889,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Dictionnaire de la langue fran\u00e7aise",
     "Cities":"Paris",
     "Publisher":"Hachette",
@@ -9791,7 +9791,7 @@ const jsonData =[{
     "schede tematiche":"AppBibFil"
 },{
     "Id":890,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"]Dictionnaire fran\u00e7ais-grec, compos\u00e9 sur le plan des meilleurs dictionnaires fran\u00e7aislatins",
     "Cities":"Paris-Bruxelles  ",
     "Publisher":"Belin Mandar & Devaux",
@@ -9802,7 +9802,7 @@ const jsonData =[{
     "schede tematiche":"AppBibFil"
 },{
     "Id":891,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Dictionnaire fran\u00e7aise-italienne",
     "Cities":"Paris",
     "Publisher":"Librairie Larousse",
@@ -9901,7 +9901,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":900,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"La Direttissima Bologna-Firenze",
     "Cities":"Roma",
     "Publisher":"Ministero Lavori Pubblici",
@@ -9912,7 +9912,7 @@ const jsonData =[{
     "schede tematiche":"AppMat"
 },{
     "Id":901,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Discorsi celebrativi dell\u2019entrata dell\u2019Italia nelle Nazioni Unite (Roma 31 gennaio 1956)",
     "Cities":"Roma",
     "Publisher":"ITI",
@@ -9923,7 +9923,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":902,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Dizionario biografico universale",
     "Cities":"Milano",
     "Publisher":"Guigoni",
@@ -9934,7 +9934,7 @@ const jsonData =[{
     "schede tematiche":"AppBibFil"
 },{
     "Id":903,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Dizionario degli autori",
     "Cities":"Milano",
     "Publisher":"Fabbri",
@@ -9945,7 +9945,7 @@ const jsonData =[{
     "schede tematiche":"AppBibFil"
 },{
     "Id":904,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Dizionario della lingua italiana",
     "Cities":"Torino",
     "Publisher":"UTET",
@@ -9956,7 +9956,7 @@ const jsonData =[{
     "schede tematiche":"AppBibFil"
 },{
     "Id":905,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Dizionario delle battaglie.",
     "Cities":null,
     "Publisher":".",
@@ -9967,7 +9967,7 @@ const jsonData =[{
     "schede tematiche":"AppBibFil"
 },{
     "Id":906,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Dizionario Garzanti francese-italiano italiano-francese. Diretto da U. Salati per la redazione lessicografica Garzanti diretta da G. Cusatelli con la supervisione G",
     "Cities":"Milano",
     "Publisher":"Garzanti",
@@ -9978,7 +9978,7 @@ const jsonData =[{
     "schede tematiche":"AppBibFil"
 },{
     "Id":907,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Dizionario Garzanti franceseitaliano italiano-francese",
     "Cities":"Milano",
     "Publisher":"Garzanti",
@@ -9989,7 +9989,7 @@ const jsonData =[{
     "schede tematiche":"AppBibFil"
 },{
     "Id":908,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Dizionario inglese-italiano",
     "Cities":"Milano",
     "Publisher":"Bietti",
@@ -10000,7 +10000,7 @@ const jsonData =[{
     "schede tematiche":"AppBibFil"
 },{
     "Id":909,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Dizionario italiano-spagnolo spa gnolo-italiano",
     "Cities":"Firenze",
     "Publisher":"Barbera",
@@ -10011,7 +10011,7 @@ const jsonData =[{
     "schede tematiche":"AppBibFil"
 },{
     "Id":910,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Dizionario latino-italiano e italiano-latino",
     "Cities":"Torino",
     "Publisher":"Rosenberg e Sellier",
@@ -10022,7 +10022,7 @@ const jsonData =[{
     "schede tematiche":"AppBibFil"
 },{
     "Id":911,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Dizionario letterario delle opere e dei personaggi di tutti i tempi e di tutte le letterature",
     "Cities":"Milano",
     "Publisher":"Bompiani",
@@ -10033,7 +10033,7 @@ const jsonData =[{
     "schede tematiche":"AppBibFil"
 },{
     "Id":912,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Dizionario tascabile italianotedesco tedesco-italiano con indicazione della pronuncia secondo il sistema fonetico del metodo Toussaint-Langenschei dt",
     "Cities":"Milano",
     "Publisher":"Hoepli",
@@ -10066,7 +10066,7 @@ const jsonData =[{
     "schede tematiche":"AppMat"
 },{
     "Id":915,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Die Dolomiten",
     "Cities":"s.l.",
     "Publisher":"s.e.",
@@ -10594,7 +10594,7 @@ const jsonData =[{
     "schede tematiche":"AppMat"
 },{
     "Id":963,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Gli Eleati: Frammenti",
     "Cities":"Lanciano",
     "Publisher":"Carabba",
@@ -10605,7 +10605,7 @@ const jsonData =[{
     "schede tematiche":"AppFAi"
 },{
     "Id":964,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Electricity in Mining",
     "Cities":"Berlino",
     "Publisher":"SiemensSchuckertwerke",
@@ -10616,7 +10616,7 @@ const jsonData =[{
     "schede tematiche":"AppMat"
 },{
     "Id":965,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Elenco degli allievi morti in guerra ai quali \u00e8 stata conferita la laurea ad honorem",
     "Cities":"Milano",
     "Publisher":"Istituti superiori di Milano",
@@ -10627,7 +10627,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":966,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Elenco degli allievi morti in guerra ai quali \u00e8 stata conferita la laurea d\u2019onore 27 gennaio 1919",
     "Cities":"Milano",
     "Publisher":"Istituti superiori di Milano",
@@ -10638,7 +10638,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":967,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Elenco dei soci 1912-1913- 1914-1915",
     "Cities":"Milano",
     "Publisher":"Circolo filologico milanese",
@@ -10682,7 +10682,7 @@ const jsonData =[{
     "schede tematiche":"AppLetAm, AppLetIng"
 },{
     "Id":971,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Enciclopedia britannica",
     "Cities":"London",
     "Publisher":"s.n.",
@@ -10693,7 +10693,7 @@ const jsonData =[{
     "schede tematiche":"AppBibFil"
 },{
     "Id":972,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Enciclopedia Garzanti della letteratura",
     "Cities":"Milano",
     "Publisher":"Garzanti",
@@ -10704,7 +10704,7 @@ const jsonData =[{
     "schede tematiche":"AppBibFil"
 },{
     "Id":973,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Enciclopedia italiana",
     "Cities":"Roma",
     "Publisher":"Istituto dell\u2019Enciclopedia Italiana",
@@ -10715,7 +10715,7 @@ const jsonData =[{
     "schede tematiche":"AppBibFil"
 },{
     "Id":974,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Enciclopedia Treccani",
     "Cities":"Milano",
     "Publisher":"E. Bestetti",
@@ -10726,7 +10726,7 @@ const jsonData =[{
     "schede tematiche":"AppBibFil"
 },{
     "Id":975,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Energia atomica per la guerra?Per la pace? ",
     "Cities":"Roma",
     "Publisher":"U.S.I.S.",
@@ -10737,7 +10737,7 @@ const jsonData =[{
     "schede tematiche":"AppMat"
 },{
     "Id":976,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"English-Italian and ItalianEnglish",
     "Cities":"s.l.",
     "Publisher":"s.e.",
@@ -10748,7 +10748,7 @@ const jsonData =[{
     "schede tematiche":"AppBibFil"
 },{
     "Id":977,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"English literature",
     "Cities":"London",
     "Publisher":"Enciclopedia Britannica",
@@ -10770,7 +10770,7 @@ const jsonData =[{
     "schede tematiche":"AppMat"
 },{
     "Id":979,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Environs de Paris.",
     "Cities":"Paris",
     "Publisher":"Hachette",
@@ -10979,7 +10979,7 @@ const jsonData =[{
     "schede tematiche":"AppBibLat, AppLetLat"
 },{
     "Id":998,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Espagne",
     "Cities":"Paris",
     "Publisher":"Hachette",
@@ -10990,7 +10990,7 @@ const jsonData =[{
     "schede tematiche":"AppVia"
 },{
     "Id":999,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Espagne Michelin",
     "Cities":"Paris",
     "Publisher":"Pneu Michelin Services de tourisme",
@@ -11023,7 +11023,7 @@ const jsonData =[{
     "schede tematiche":"AppLetAm, AppLetIng"
 },{
     "Id":1002,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"] Exhibition of Masterpieces of\nEuropean Painting XV-XVII Century. Catalogue",
     "Cities":"Roma",
     "Publisher":"Division of Fine Arts \u2013 Region IV \u2013 Allied Military Government",
@@ -11474,7 +11474,7 @@ const jsonData =[{
     "schede tematiche":"AppBibFil"
 },{
     "Id":1043,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Fiabe africane",
     "Cities":"Torino",
     "Publisher":"Einaudi",
@@ -11485,7 +11485,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":1044,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"I fiamminghi e l\u2019Italia. Pittori italiani e fiamminghi dal XV al XVIII secolo",
     "Cities":"Venezia",
     "Publisher":"Ed. Arte Veneta",
@@ -11573,7 +11573,7 @@ const jsonData =[{
     "schede tematiche":"AppSto"
 },{
     "Id":1052,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Filosofi americani contemporanei",
     "Cities":"Milano",
     "Publisher":"Bompiani",
@@ -11584,7 +11584,7 @@ const jsonData =[{
     "schede tematiche":"AppFAi"
 },{
     "Id":1053,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Filosofi inglesi contemporanei",
     "Cities":"Milano",
     "Publisher":"Bompiani",
@@ -12046,7 +12046,7 @@ const jsonData =[{
     "schede tematiche":"AppFAi"
 },{
     "Id":1095,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Fragmente fr\u00fchgriechischerLyrik",
     "Cities":"Firenze",
     "Publisher":"Sansoni",
@@ -12145,7 +12145,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":1104,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Frankfurt a. M. und Umgebung",
     "Cities":"Berlin",
     "Publisher":"Goldschmidt",
@@ -12420,7 +12420,7 @@ const jsonData =[{
     "schede tematiche":"AppSto"
 },{
     "Id":1129,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Le funzioni dell\u2019ente nazionale per la cellulosa e per la carta",
     "Cities":"Roma",
     "Publisher":"Federazione Italiana Editori Giornali",
@@ -12431,7 +12431,7 @@ const jsonData =[{
     "schede tematiche":"AppMat"
 },{
     "Id":1130,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Il Futurismo, il Novecentismo",
     "Cities":"Torino",
     "Publisher":"ERI",
@@ -13212,7 +13212,7 @@ const jsonData =[{
     "schede tematiche":"AppMat"
 },{
     "Id":1201,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Galleria d\u2019Arte Cairola. Il 18 febbraio 1943-XXI alle ore 17 inaugurazione della mostra personale di Fabrizio Clerici",
     "Cities":"Milano",
     "Publisher":"Officina d\u2019Arte grafica A. Lucini & C",
@@ -13223,7 +13223,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":1202,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Galleria degli Uffizi. Elenco dei dipinti",
     "Cities":"Firenze",
     "Publisher":"Giannini",
@@ -13619,7 +13619,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":1238,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Germanica. Raccolta di narratori dalle origini ai nostri giorni",
     "Cities":"Milano",
     "Publisher":"Bompiani",
@@ -13938,7 +13938,7 @@ const jsonData =[{
     "schede tematiche":"AppBibLat, AppLetLat"
 },{
     "Id":1267,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Giovanni Fattori",
     "Cities":"Firenze",
     "Publisher":"Electa",
@@ -14015,7 +14015,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":1274,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":" Giuseppe Gioachino Belli e la Roma del suo tempo. Mostra nel centenario della morte del poeta\n(1863-1963). Palazzo Braschi, dicembre 1963-febbraio 1964",
     "Cities":"Roma",
     "Publisher":"De Luca",
@@ -14499,7 +14499,7 @@ const jsonData =[{
     "schede tematiche":"AppMat"
 },{
     "Id":1318,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Gramatica de la lengua espa\u00f1ola",
     "Cities":"Madrid",
     "Publisher":"Espasa-Calpe",
@@ -14510,7 +14510,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":1319,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Grammaire g\u00e9n\u00e9rale de Port Royal",
     "Cities":"Paris",
     "Publisher":"Hachette",
@@ -14521,7 +14521,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":1320,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Grand dictionnaire fran\u00e7aisitalien italienfran\u00e7ais compos\u00e9 sur les dictionnaires de l\u2019Acad\u00e9mie Fran\u00e7aise et de la Crusca",
     "Cities":"Milano",
     "Publisher":"Nervetti",
@@ -14532,7 +14532,7 @@ const jsonData =[{
     "schede tematiche":"AppBibFil"
 },{
     "Id":1321,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"La grande bonificazione ferrarese",
     "Cities":"s.l.",
     "Publisher":"Bonifica e Colonizzazione",
@@ -14675,7 +14675,7 @@ const jsonData =[{
     "schede tematiche":"AppVia"
 },{
     "Id":1334,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Gruppo 63: la nuova letteratura. 34 scrittori, Palermo ottobre 1963.",
     "Cities":"Milano",
     "Publisher":"Feltrinelli",
@@ -14686,7 +14686,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":1335,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Gruppo Societ\u00e0 Adriatica di elettricit\u00e0 e la sua attivit\u00e0 economica dalle origini al 1929",
     "Cities":"Roma",
     "Publisher":"L\u2019Universale",
@@ -14752,7 +14752,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":1341,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"La Guerra",
     "Cities":"Milano",
     "Publisher":"Fratelli Treves",
@@ -14862,7 +14862,7 @@ const jsonData =[{
     "schede tematiche":"AppSto"
 },{
     "Id":1351,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Guida artistica di Firenze e dintorni",
     "Cities":"Firenze",
     "Publisher":"Societ\u00e0 Editrice Fiorentina",
@@ -14873,7 +14873,7 @@ const jsonData =[{
     "schede tematiche":"AppFAi"
 },{
     "Id":1352,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Guida breve dell\u2019Italia Centrale",
     "Cities":"s.l.",
     "Publisher":"Consociazione Turistica Italiana",
@@ -14884,7 +14884,7 @@ const jsonData =[{
     "schede tematiche":"AppVia"
 },{
     "Id":1353,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Guida pratica e pianta della citt\u00e0di Torino",
     "Cities":"Torino",
     "Publisher":"Muletti",
@@ -14895,7 +14895,7 @@ const jsonData =[{
     "schede tematiche":"AppVia"
 },{
     "Id":1354,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Guida storico-artistica dell\u2019Ospedale maggiore di Milano.",
     "Cities":"Milano",
     "Publisher":"s.n.",
@@ -14928,7 +14928,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":1357,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Guide pratique de Lyon et de sa r\u00e9gion.",
     "Cities":"Lyon",
     "Publisher":"Guides Pol",
@@ -15203,7 +15203,7 @@ const jsonData =[{
     "schede tematiche":"AppFAi"
 },{
     "Id":1382,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Histoire de France depuis les origines jusqu\u2019\u00e0 la R\u00e9volution",
     "Cities":"Paris",
     "Publisher":"Hachette",
@@ -15214,7 +15214,7 @@ const jsonData =[{
     "schede tematiche":"AppSto"
 },{
     "Id":1383,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Histoire de la France pour tous les Fran\u00e7ais",
     "Cities":"Paris",
     "Publisher":"Hachette",
@@ -15313,7 +15313,7 @@ const jsonData =[{
     "schede tematiche":"AppLetTed"
 },{
     "Id":1392,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Hommage \u00e0 Marcel Proust 1871-1922. Souvenirs \u2013 L\u2019\u0152uvre \u2013 T\u00e9moignages \u00e9trangers \u2013 La Prisonni\u00e8re (fragments in\u00e9dits) \u2013 Bibliographie. Documents. Portraits",
     "Cities":"Paris",
     "Publisher":"NRF-Gallimard",
@@ -15456,7 +15456,7 @@ const jsonData =[{
     "schede tematiche":"AppFAi"
 },{
     "Id":1405,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Hume e l\u2019illuminismo inglese",
     "Cities":"Milano",
     "Publisher":"Garzanti",
@@ -15500,7 +15500,7 @@ const jsonData =[{
     "schede tematiche":"AppLetAm, AppLetIng"
 },{
     "Id":1409,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Hydroelectric and steam powerplants",
     "Cities":"New York",
     "Publisher":"Viel\u00e9",
@@ -15533,7 +15533,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":1412,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"L\u2019Illustrazione italiana. 90 anni di storia. ",
     "Cities":"Milano",
     "Publisher":"Garzanti",
@@ -15544,7 +15544,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":1413,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"L\u2019imitazione di Cristo. Tradu zione di C. Guasti",
     "Cities":"Firenze  ",
     "Publisher":"L\u2019Ape",
@@ -15555,7 +15555,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":1414,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Importante vendita all\u2019asta di libri rari e legature d\u2019amatore in parte provenienti dalla raccolta di Claudio Argentieri",
     "Cities":"Roma  ",
     "Publisher":"Selecta Libri e Oggetti d\u2019Arte",
@@ -15566,7 +15566,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":1415,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Importante vendita di libri antichi e moderni: catalogo",
     "Cities":"Roma",
     "Publisher":"Selecta Galleria d\u2019Arte",
@@ -15577,7 +15577,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":1416,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"In memoria dei soci del \u201cCircolo Filologico Milanese\u201d caduti in guerra 1915-1918",
     "Cities":"Milano",
     "Publisher":"Alfieri & Lacroix",
@@ -15588,7 +15588,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":1417,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"In memoria dei soci del \u201cCircolo Filologico Milanese\u201d caduti in guerra 1915-1918",
     "Cities":"Milano",
     "Publisher":"Alfieri & Lacroix",
@@ -15599,7 +15599,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":1418,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"In Memoria del Cav. Ing. Pietro Gadda.",
     "Cities":"s.l.",
     "Publisher":"s.e.",
@@ -15610,7 +15610,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":1419,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"In memoria di Giangiacomo Feltrinelli",
     "Cities":"Milano",
     "Publisher":"Feltrinelli",
@@ -15621,7 +15621,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":1420,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"In memoria di Giuseppe Gadda.",
     "Cities":"s.l.",
     "Publisher":"s.e.",
@@ -15643,7 +15643,7 @@ const jsonData =[{
     "schede tematiche":"AppBibFil"
 },{
     "Id":1422,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Inchiesta sul neorealismo.",
     "Cities":"s.l.",
     "Publisher":"Edizioni della Radio Italiana",
@@ -15654,7 +15654,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":1423,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Inchiesta sulla terza pagina.",
     "Cities":"Torino",
     "Publisher":"ERI",
@@ -15665,7 +15665,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":1424,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"L\u2019inglese imparato da s\u00e9 con la pronuncia fonetica",
     "Cities":"London",
     "Publisher":"Marlborough",
@@ -15676,7 +15676,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":1425,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"La Inquisizione co\u2019 suoi strumenti di martirio e tortura esposta in modelli di grandezza naturale e perfettamente uguali agli originali.",
     "Cities":"Torino  ",
     "Publisher":"Dessort",
@@ -15687,7 +15687,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":1426,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Io, Milano.",
     "Cities":"Bologna",
     "Publisher":"Alfa",
@@ -15720,7 +15720,7 @@ const jsonData =[{
     "schede tematiche":"AppLetFr"
 },{
     "Id":1429,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Istruzioni secrete della Compagnia di Ges\u00f9 con aggiunte importanti",
     "Cities":"Roma",
     "Publisher":"Tip. della Propaganda",
@@ -15731,7 +15731,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":1430,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"L\u2019Italia \u00e8 giovane.",
     "Cities":"Milano",
     "Publisher":"Mondadori",
@@ -15753,7 +15753,7 @@ const jsonData =[{
     "schede tematiche":"AppGue"
 },{
     "Id":1432,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Italienerz\u00e4hlt. Elf Erz\u00e4hlungen. ",
     "Cities":"Frankfurt",
     "Publisher":"Fischer",
@@ -15764,7 +15764,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":1433,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Italienische Erz\u00e4hlerder Gegenwart. Eine Anthologie. ",
     "Cities":"  Stuttgart",
     "Publisher":"Reclam",
@@ -16314,7 +16314,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":1483,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Das K\u00f6nigsportal von Chartres",
     "Cities":"M\u00fcnchen",
     "Publisher":"Piper",
@@ -16611,7 +16611,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":1510,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Grammaire sup\u00e9rieure",
     "Cities":"Paris  ",
     "Publisher":"La rousse",
@@ -16633,7 +16633,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":1512,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Lazarillo de Tormes",
     "Cities":"Madrid",
     "Publisher":"Espasa-Calpe",
@@ -16864,7 +16864,7 @@ const jsonData =[{
     "schede tematiche":"AppSto"
 },{
     "Id":1533,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Leonardo. Pagine di scienza con introduzione, note e ritratti. I",
     "Cities":"Milano",
     "Publisher":"Mondadori",
@@ -17117,7 +17117,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":1556,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Letteratura, critica e societ\u00e0 del Novecento",
     "Cities":"Napoli  ",
     "Publisher":"Loffredo",
@@ -17128,7 +17128,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":1557,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"La letteratura Europea degli anni Settanta",
     "Cities":"Milano",
     "Publisher":"Marzorati",
@@ -17139,7 +17139,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":1558,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Letture per i giovani. Scelte dai migliori scrittori",
     "Cities":"Lanciano  ",
     "Publisher":"Carabba",
@@ -17238,7 +17238,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":1567,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Lirica italiana",
     "Cities":"Milano",
     "Publisher":"Bompiani",
@@ -17249,7 +17249,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":1568,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Lirici greci. ",
     "Cities":"Milano  ",
     "Publisher":"Corrente",
@@ -17260,7 +17260,7 @@ const jsonData =[{
     "schede tematiche":"AppBibLat, AppLetLat"
 },{
     "Id":1569,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Lirici nuovi",
     "Cities":"Milano",
     "Publisher":"Hoepli",
@@ -17282,7 +17282,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":1571,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Listino generale primavera 1965",
     "Cities":"Milano",
     "Publisher":"Mursia",
@@ -17293,7 +17293,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":1572,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Das literarische Profil von Rom",
     "Cities":"Berlin ",
     "Publisher":"Literarische Colloquium",
@@ -17469,7 +17469,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":1588,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Lombardia. Parte I",
     "Cities":"Milano",
     "Publisher":null,
@@ -17755,7 +17755,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":1614,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"La luna nel corso. Pagine milanesi. ",
     "Cities":"Milano",
     "Publisher":"Corrente",
@@ -18591,7 +18591,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":1690,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Manuale dell\u2019ingegnere civile",
     "Cities":"Roma  ",
     "Publisher":"Perrella",
@@ -18613,7 +18613,7 @@ const jsonData =[{
     "schede tematiche":"AppMat"
 },{
     "Id":1692,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Manuale tecnico per l\u2019applicazione di caldaie Lollar, radiatori Lollar, raccordi Lollar 1913-1914",
     "Cities":"Milano",
     "Publisher":"Societ\u00e0 Commerciale Buderus",
@@ -18635,7 +18635,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":1694,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Manuel de l\u2019ing\u00e9nieur: Planches",
     "Cities":null,
     "Publisher":null,
@@ -19042,7 +19042,7 @@ const jsonData =[{
     "schede tematiche":"AppMat"
 },{
     "Id":1731,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Marco Polo: celebrazione del settimo centenario della nascita, 1254-1954",
     "Cities":"Venezia",
     "Publisher":"Comune di Venezia",
@@ -19108,7 +19108,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":1737,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Marianische Gebetbuch.",
     "Cities":"s.l.",
     "Publisher":"s.e.",
@@ -19416,7 +19416,7 @@ const jsonData =[{
     "schede tematiche":"AppSto"
 },{
     "Id":1765,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Il matrimonio nell\u2019antica Roma.",
     "Cities":"Roma  ",
     "Publisher":"Anonima Romana Editoriale",
@@ -19625,7 +19625,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":1784,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Il Mediterraneo pittoresco. Descritto da celebri viaggiatori ed illustrato dai migliori artisti",
     "Cities":"Milano",
     "Publisher":"Sonzogno",
@@ -19812,7 +19812,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":1801,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Mezzo secolo (Il progresso scientifico)",
     "Cities":"Torino",
     "Publisher":"ERI",
@@ -19823,7 +19823,7 @@ const jsonData =[{
     "schede tematiche":"AppMat"
 },{
     "Id":1802,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Mezzo secolo. (Vita pensiero ed arte). ",
     "Cities":"Torino",
     "Publisher":"ERI",
@@ -19900,7 +19900,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":1809,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Milano.",
     "Cities":"Milano  ",
     "Publisher":"Ripalta",
@@ -19911,7 +19911,7 @@ const jsonData =[{
     "schede tematiche":"AppVia"
 },{
     "Id":1810,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Milano",
     "Cities":"Milano",
     "Publisher":"Ottino",
@@ -19922,7 +19922,7 @@ const jsonData =[{
     "schede tematiche":"AppVia"
 },{
     "Id":1811,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Milano en 1906",
     "Cities":"Milano",
     "Publisher":"Tip. U. Allegretti",
@@ -19933,7 +19933,7 @@ const jsonData =[{
     "schede tematiche":"AppVia"
 },{
     "Id":1812,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Milano nel 1906",
     "Cities":"Milano",
     "Publisher":"Tip. U. Allegretti",
@@ -19944,7 +19944,7 @@ const jsonData =[{
     "schede tematiche":"AppVia"
 },{
     "Id":1813,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Milano, i secoli e una nostalgia. Appunti iconografici, storici e letterari.",
     "Cities":"Milano",
     "Publisher":"Fiera di Milano",
@@ -19955,7 +19955,7 @@ const jsonData =[{
     "schede tematiche":"AppVia"
 },{
     "Id":1814,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Milano presente e avvenire.",
     "Cities":"Milano-Roma-Napoli",
     "Publisher":"Vallardi",
@@ -19977,7 +19977,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":1816,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Il Milione: enciclopedia di geografia, usi e costumi, belle arti, storia, cultura; volume nono Asia: Vietnam, Malesia, Singapore; Arcipelago Indonesiano, Indonesia, Borneo, Timor, Filippine; Arcipelago Giapponese, Giappone, Ryukyu, Bonin, Volcano; Asia",
     "Cities":"Novara  ",
     "Publisher":"Istituto geografico De Agostini",
@@ -20043,7 +20043,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":1822,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Miscellanea di studi in onore di Bonaventura Tecchi",
     "Cities":"Roma  ",
     "Publisher":"Edizioni dell\u2019Ateneo",
@@ -20054,7 +20054,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":1823,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Mistici del Duecento e Trecento.",
     "Cities":"Milano-Roma  ",
     "Publisher":"Rizzoli",
@@ -20263,7 +20263,7 @@ const jsonData =[{
     "schede tematiche":"AppSto"
 },{
     "Id":1842,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Monografia storica dei porti dell\u2019antichit\u00e0 nella penisola italiana. Introduzione di A.G. Barrili",
     "Cities":"Roma  ",
     "Publisher":"Ministero della Marina",
@@ -20736,7 +20736,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":1885,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Mostra colombiana internazionale. Catalogo (1950-1951).",
     "Cities":"Genova",
     "Publisher":"Societ\u00e0 d\u2019Arte Poligrafica",
@@ -20747,7 +20747,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":1886,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Mostra del Caravaggio e dei Caravaggeschi. Milano, Palazzo Reale aprile\/giugno 1951. Catalogo",
     "Cities":"Firenze",
     "Publisher":"Sansoni",
@@ -20758,7 +20758,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":1887,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Mostra del giardino italiano. Comune di Firenze. Palazzo Vecchio",
     "Cities":"Firenze",
     "Publisher":"Comune di Firenze",
@@ -20769,7 +20769,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":1888,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"La mostra del Tintoretto. Venezia Ca\u2019 Pesaro 1937 XV. Catalogo",
     "Cities":"Venezia",
     "Publisher":"Off. Grafiche Ferrar",
@@ -20780,7 +20780,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":1889,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Mostra della biblioteca di Lorenzo nella Biblioteca MediceoLaurenziana:",
     "Cities":"Firenze  L\u2019Arte della Stampa",
     "Publisher":"L\u2019Arte della Stampa",
@@ -20791,7 +20791,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":1890,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Mostra della pittura italiana del Sei e Settecento in Palazzo Pitti. Catalogo",
     "Cities":"Roma-Milano-Firenze",
     "Publisher":"Bestetti&Tumminelli",
@@ -20802,7 +20802,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":1891,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Mostra di capolavori della pittura francese dell\u2019Ottocento. Febbraio-marzo 1955. Palazzo delle esposizioni",
     "Cities":"Roma",
     "Publisher":"De Luca",
@@ -20813,7 +20813,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":1892,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Mostra di Giovanni Bellini. Catalogo illustrato della mostra. Palazzo Ducale Venezia 12 giugno-5 ottobre 1949",
     "Cities":"Venezia",
     "Publisher":"Alfieri",
@@ -20824,7 +20824,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":1893,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Mostra di Leonardo da Vinci, Milano, Palazzo dell\u2019arte 9 maggio-1 ottobre XVII: guida ufficiale",
     "Cities":"Milano",
     "Publisher":"S.A.M.E.",
@@ -20835,7 +20835,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":1894,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Mostra di Lorenzo Lotto.",
     "Cities":"Venezia  ",
     "Publisher":"Casa editrice Arte Veneta",
@@ -20846,7 +20846,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":1895,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Mostra di Paolo Veronese. Catalogo delle opere",
     "Cities":"Venezia ",
     "Publisher":"Ca\u2019 Giustinian",
@@ -20857,7 +20857,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":1896,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Mostra di pittura americana del XIX secolo. Galleria Nazionale d\u2019Arte Moderna Roma, 19 gennaio-7 gennaio 1954",
     "Cities":"Roma",
     "Publisher":"De Luca",
@@ -20868,7 +20868,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":1897,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Mostra di Tiziano. Catalogo delleopere. Venezia XXV aprile-IV novembre MCMXXXVXIII",
     "Cities":"Venezia",
     "Publisher":"Off. Grafiche Ferrari",
@@ -20879,7 +20879,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":1898,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Mostra personale del pittore Giu seppe Cesetti",
     "Cities":"Firenze  ",
     "Publisher":"Galleria Donatello",
@@ -20890,7 +20890,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":1899,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Mostra personale di Pio Semeghini Circolo artistico di Cortina d\u2019Ampezzo",
     "Cities":"Venezia",
     "Publisher":"Neri Pozza",
@@ -20956,7 +20956,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":1905,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Museo del Prado: catalogo de los cuadros.",
     "Cities":"Madrid  ",
     "Publisher":"Publicaciones del Museo del  Prado",
@@ -20967,7 +20967,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":1906,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Il Museo di Mosca. ",
     "Cities":"Milano",
     "Publisher":"Garzanti",
@@ -20978,7 +20978,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":1907,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"La musica nel 20\u00b0 secolo: convegno internazionale di musica contemporanea. Roma, 4-14 aprile 1954",
     "Cities":"Torino",
     "Publisher":"ERI",
@@ -21022,7 +21022,7 @@ const jsonData =[{
     "schede tematiche":"AppLetAm, AppLetIng"
 },{
     "Id":1911,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Narratori spagnoli. Raccolta di romanzi e racconti dalle origini ai nostri giorni",
     "Cities":"Milano",
     "Publisher":"Bompiani",
@@ -21033,7 +21033,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":1912,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Natura facit saltus",
     "Cities":"Torino",
     "Publisher":"ERI",
@@ -21044,7 +21044,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":1913,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Neera.",
     "Cities":"Milano",
     "Publisher":"Garzanti",
@@ -21352,7 +21352,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":1941,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Nouveau petit Larousse illustr\u00e9",
     "Cities":"Paris",
     "Publisher":"Larousse",
@@ -21385,7 +21385,7 @@ const jsonData =[{
     "schede tematiche":"AppLetTed"
 },{
     "Id":1944,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Il Novecento. Antologia della critica letteraria e dei narratori e poeti italiani. ",
     "Cities":"Torino",
     "Publisher":"Petrini",
@@ -21396,7 +21396,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":1945,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Novelle americane moderne.",
     "Cities":"Milano  ",
     "Publisher":"Longanesi",
@@ -21407,7 +21407,7 @@ const jsonData =[{
     "schede tematiche":"AppLetAm, AppLetIng"
 },{
     "Id":1946,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Novellino",
     "Cities":"Torino",
     "Publisher":"UTET",
@@ -21429,7 +21429,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":1948,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Nozioni preliminari pratiche intorno all\u2019arte di edificare necessarie ai periti, capomastri e proprietarj",
     "Cities":"Milano  ",
     "Publisher":"Tamburini e Valdoni",
@@ -21451,7 +21451,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":1950,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"La Nuova Pinacoteca Vaticana",
     "Cities":"Roma",
     "Publisher":"Tip. Pol.Vaticana",
@@ -21462,7 +21462,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":1951,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Nuovo dizionario geografico. ",
     "Cities":"Milano",
     "Publisher":"Bernardone",
@@ -21473,7 +21473,7 @@ const jsonData =[{
     "schede tematiche":"AppVia"
 },{
     "Id":1952,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Nuovo dizionario geografico: supplemento",
     "Cities":"Milano  ",
     "Publisher":"Bernardone",
@@ -21484,7 +21484,7 @@ const jsonData =[{
     "schede tematiche":"AppVia"
 },{
     "Id":1953,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Nuovo vocabolario grecoitaliano italiano-greco",
     "Cities":"Milano  ",
     "Publisher":"Albertari",
@@ -21539,7 +21539,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":1958,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Officine metallurgiche Togni: Specialit\u00e0 condotte forzate per impianti idroelettrici",
     "Cities":"Milano-Parigi  ",
     "Publisher":"Coen",
@@ -21594,7 +21594,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":1963,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Omaggio a Corrado Alvaro",
     "Cities":"Roma  ",
     "Publisher":"Sindacato Nazionale Scrittori",
@@ -21605,7 +21605,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":1964,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Omaggio a Milano di poeti italiani contemporanei",
     "Cities":"Milano  ",
     "Publisher":"All\u2019insegna del pesce d\u2019oro",
@@ -21616,7 +21616,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":1965,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Omaggio a Montale",
     "Cities":"Milano",
     "Publisher":"Mondadori",
@@ -21726,7 +21726,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":1975,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Opere di medicina e chirurgia",
     "Cities":"Firenze",
     "Publisher":"Sansoni",
@@ -21913,7 +21913,7 @@ const jsonData =[{
     "schede tematiche":"AppBibLat, AppLetLat"
 },{
     "Id":1992,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"L\u2019origine della vita",
     "Cities":"Milano  ",
     "Publisher":"Feltrinelli",
@@ -22155,7 +22155,7 @@ const jsonData =[{
     "schede tematiche":"AppBibFil"
 },{
     "Id":2014,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"\u00abPagine istriane\u00bb. Numero speciale dedicato a Giani Stuparich",
     "Cities":"Trieste",
     "Publisher":"Edizioni Trieste",
@@ -22584,7 +22584,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":2053,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Paris",
     "Cities":"Paris",
     "Publisher":"Hachette",
@@ -23684,7 +23684,7 @@ const jsonData =[{
     "schede tematiche":"AppLetFr"
 },{
     "Id":2153,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Pianta di Milano.",
     "Cities":"Milano",
     "Publisher":"A. & G. Marco",
@@ -23849,7 +23849,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":2168,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Piccolo vocabolario metodico della lingua greca compilato per le scuole secondarie",
     "Cities":"Livorno",
     "Publisher":"Giusti",
@@ -23893,7 +23893,7 @@ const jsonData =[{
     "schede tematiche":"AppSto"
 },{
     "Id":2172,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Piero della Francesca,",
     "Cities":"Ivrea",
     "Publisher":"Ing. Olivetti e C.",
@@ -23926,7 +23926,7 @@ const jsonData =[{
     "schede tematiche":"AppSto"
 },{
     "Id":2175,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Pinacoteca Querini-Stampalia: Catalogo",
     "Cities":"Verona",
     "Publisher":"Zanetti",
@@ -24091,7 +24091,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":2190,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"La pittura bresciana del Rinascimento. Catalogo della mostra. Citt\u00e0 di Brescia. Maggiosettembre 1939-XVII",
     "Cities":"Bergamo",
     "Publisher":"Istituto Italiano d\u2019Arti Grafiche",
@@ -24146,7 +24146,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":2195,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Planimetria delle strade della citt\u00e0 di Milano al 31 dicembre 1901",
     "Cities":"Milano",
     "Publisher":"Vallardi",
@@ -24267,7 +24267,7 @@ const jsonData =[{
     "schede tematiche":"AppBibLat, AppLetLat"
 },{
     "Id":2206,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Plutarque",
     "Cities":"Paris",
     "Publisher":"Gallimard",
@@ -24344,7 +24344,7 @@ const jsonData =[{
     "schede tematiche":"AppLetAm, AppLetIng"
 },{
     "Id":2213,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Poesia dialettale del Novecento.",
     "Cities":"Parma",
     "Publisher":"Guanda",
@@ -24355,7 +24355,7 @@ const jsonData =[{
     "schede tematiche":"AppLetAm, AppLetIng"
 },{
     "Id":2214,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"La poesia popolare italiana",
     "Cities":"Milano",
     "Publisher":"Garzanti",
@@ -24366,7 +24366,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":2215,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Poesia spagnola del Novecento.",
     "Cities":"Parma",
     "Publisher":"Guanda",
@@ -24377,7 +24377,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":2216,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Poesia straniera del Novecento",
     "Cities":"Milano",
     "Publisher":"Garzanti",
@@ -24388,7 +24388,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":2217,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Poesia straniera del Novecento",
     "Cities":"Milano",
     "Publisher":"Garzanti",
@@ -24399,7 +24399,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":2218,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Poeti del Dolce Stil Novo (GuidoGuinizelli, Guido Cavalcanti,Lapo Gianni, Gianni Alfani, DinoFrescobaldi, Cino da Pistoia)",
     "Cities":"Roma  ",
     "Publisher":"Collana italiana",
@@ -24410,7 +24410,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":2219,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Poeti del Duecento. ",
     "Cities":"Milano-Napoli ",
     "Publisher":"Ricciardi",
@@ -24421,7 +24421,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":2220,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Poeti del Novecento italiani e stranieri. Antologia",
     "Cities":"Torino",
     "Publisher":"Einaudi",
@@ -24432,7 +24432,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":2221,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Poeti inglesi dell\u2019Ottocento.",
     "Cities":"Firenze",
     "Publisher":"Bemporad",
@@ -24674,7 +24674,7 @@ const jsonData =[{
     "schede tematiche":"AppMat"
 },{
     "Id":2243,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Possedimenti e colonie.",
     "Cities":"Milano",
     "Publisher":"TCI",
@@ -24850,7 +24850,7 @@ const jsonData =[{
     "schede tematiche":"AppLetAm, AppLetIng"
 },{
     "Id":2259,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Premi assegnati dalla Reale Accademia d\u2019Italia nell\u2019Adunanza solenne in Campidoglio, 21 aprile 1942-XX",
     "Cities":"Roma",
     "Publisher":"Reale Accademia d\u2019Italia",
@@ -24861,7 +24861,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":2260,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Prima mostra del Cavallino. Campigli, Carr\u00e0, Cesetti, Marino, Romanelli, Rosai, Sironi, Tosi",
     "Cities":"Venezia ",
     "Publisher":"Edizioni del Cavallino",
@@ -24883,7 +24883,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":2262,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Processo Winckelmann",
     "Cities":null,
     "Publisher":null,
@@ -24894,7 +24894,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":2263,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Programmi e attivit\u00e0",
     "Cities":"Roma  ",
     "Publisher":"Comitato Nazionale per l\u2019Energia Nucleare",
@@ -24927,7 +24927,7 @@ const jsonData =[{
     "schede tematiche":"AppBibLat, AppLetLat"
 },{
     "Id":2266,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Prosatori latini del Quattrocento",
     "Cities":"Milano-Napoli",
     "Publisher":"Ricciardi",
@@ -24938,7 +24938,7 @@ const jsonData =[{
     "schede tematiche":"AppBibLat, AppLetLat"
 },{
     "Id":2267,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Prose e poesie greche scelte e annotate ad uso dei licei",
     "Cities":"Roma-Milano",
     "Publisher":"Dante Alighieri",
@@ -24949,7 +24949,7 @@ const jsonData =[{
     "schede tematiche":"AppBibLat, AppLetLat"
 },{
     "Id":2268,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Prospettive della letteratura francese da Corneille a Ch\u00e9nier",
     "Cities":"Milano",
     "Publisher":"Bompiani",
@@ -25224,7 +25224,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":2293,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Quattro artisti",
     "Cities":"Milano  ",
     "Publisher":"Edizioni della colomba",
@@ -25268,7 +25268,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":2297,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Vita del Pitocco. ",
     "Cities":"Roma",
     "Publisher":"Form\u00ecggini",
@@ -25389,7 +25389,7 @@ const jsonData =[{
     "schede tematiche":"AppFAi"
 },{
     "Id":2308,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Raccolta di voci e modi di dire inuso nella citt\u00e0 di Siena e nei suoi dintorni",
     "Cities":"Siena  ",
     "Publisher":"Accademia degli Intronati",
@@ -25400,7 +25400,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":2309,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Racconti della Scapigliatura (1860-1910)",
     "Cities":"Milanp",
     "Publisher":"Bompiani",
@@ -25411,7 +25411,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":2310,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Racconti e novelle dell\u2019Otto cento",
     "Cities":"Firenze",
     "Publisher":"Sansoni",
@@ -25422,7 +25422,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":2311,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Racconti italiani 1967.",
     "Cities":"Milano",
     "Publisher":"Selezione dal Reader\u2019s Digest",
@@ -25620,7 +25620,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":2329,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Regia Parnassi",
     "Cities":"Parma",
     "Publisher":"Borsi",
@@ -25631,7 +25631,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":2330,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Regolamento del servizio in terno per le varie armi (esclusa quella dei carabinieri reali).",
     "Cities":"Roma",
     "Publisher":"Voghera",
@@ -25642,7 +25642,7 @@ const jsonData =[{
     "schede tematiche":"AppGue"
 },{
     "Id":2331,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Regolamento di disciplina militare.",
     "Cities":"Roma",
     "Publisher":"Voghera",
@@ -25653,7 +25653,7 @@ const jsonData =[{
     "schede tematiche":"AppGue"
 },{
     "Id":2332,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Regolamento di esercizi per la fanteria",
     "Cities":"Roma",
     "Publisher":"Voghera",
@@ -25730,7 +25730,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":2339,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Le Rhin de Cologne jusqu\u2019\u00e0 Francfort",
     "Cities":"Berlin",
     "Publisher":"Goldschmidt",
@@ -25884,7 +25884,7 @@ const jsonData =[{
     "schede tematiche":"AppLetFr"
 },{
     "Id":2353,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Il ritratto nella pittura lombarda dell\u2019Ottocento. ",
     "Cities":"Milano",
     "Publisher":"Ed. del Milione",
@@ -25906,7 +25906,7 @@ const jsonData =[{
     "schede tematiche":"AppLetFr"
 },{
     "Id":2355,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"La rivoluzione russa.",
     "Cities":"Novara",
     "Publisher":"Istituto geografico De Agostini",
@@ -26071,7 +26071,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":2370,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Romanzi e racconti dell\u2019Ottocento",
     "Cities":"Milano",
     "Publisher":"Garzanti",
@@ -26412,7 +26412,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":2401,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Rudolf Levy",
     "Cities":"Firenze ",
     "Publisher":" L\u2019Indiano Galleria d\u2019Arte",
@@ -26456,7 +26456,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":2405,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Rules and Data on Pressure Pipelines",
     "Cities":"Brescia",
     "Publisher":"Tubi Togni",
@@ -26676,7 +26676,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":2425,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Un sabotatore: Giorgio Lab\u00f2",
     "Cities":"Milano",
     "Publisher":"La Stampa Moderna",
@@ -26731,7 +26731,7 @@ const jsonData =[{
     "schede tematiche":"AppLetFr"
 },{
     "Id":2430,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"La Sacra Bibbia.",
     "Cities":"s.l.",
     "Publisher":"s.n.",
@@ -26742,7 +26742,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":2431,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"La Sacra Bibbia.",
     "Cities":"Firenze",
     "Publisher":"Salani",
@@ -26753,7 +26753,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":2432,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"La Sacra Bibbia.",
     "Cities":"Roma",
     "Publisher":"Edizioni Paoline",
@@ -26764,7 +26764,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":2433,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"La Sacra Bibbia, che contiene il Vecchio e il Nuovo Testamento",
     "Cities":"London",
     "Publisher":"Watts",
@@ -26775,7 +26775,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":2434,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"La Sacra Bibbia ossia l\u2019Antico e il Nuovo Testamento.",
     "Cities":"Roma",
     "Publisher":"Deposito sacre scritture",
@@ -26797,7 +26797,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":2436,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Saffo poetessa di Lesbo.",
     "Cities":"Roma  ",
     "Publisher":"Anonima Romana Editoriale",
@@ -27061,7 +27061,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":2460,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Sancti Francisci regula anni 1223",
     "Cities":"Roma",
     "Publisher":"Edizioni di Storia e Letteratura,",
@@ -27105,7 +27105,7 @@ const jsonData =[{
     "schede tematiche":"AppBibFil"
 },{
     "Id":2464,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"San Giorgio: Progetto per la ricostruzione delle zone distrutte in torno al Ponte Vecchio",
     "Cities":"Firenze",
     "Publisher":"Tip. L\u2019Impronta",
@@ -27215,7 +27215,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":2474,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Il Santo Vangelo di nostro signore Ges\u00f9 Cristo e gli Atti degli Apostoli",
     "Cities":"Alba  ",
     "Publisher":"Pia societ\u00e0 San Paolo",
@@ -27281,7 +27281,7 @@ const jsonData =[{
     "schede tematiche":"AppSto"
 },{
     "Id":2480,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Sardegna.",
     "Cities":"Milano",
     "Publisher":"TCI",
@@ -27369,7 +27369,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":2488,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Scaffaletto III: Teatro e musica. ",
     "Cities":"Firenze",
     "Publisher":"Sansoni Antiquariato",
@@ -27380,7 +27380,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":2489,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Scelta di poemi giocosi.",
     "Cities":"Milano",
     "Publisher":"Bettoni",
@@ -27556,7 +27556,7 @@ const jsonData =[{
     "schede tematiche":"AppFAi"
 },{
     "Id":2505,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Schul und ReiseTaschenW\u00f6rterbuch der italienischen und deutschen Sprache",
     "Cities":"Liepzig  ",
     "Publisher":"Tauchnitz",
@@ -27666,7 +27666,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":2515,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Scrittori latini cristiani. ",
     "Cities":"Firenze  ",
     "Publisher":"Vallecchi",
@@ -27677,7 +27677,7 @@ const jsonData =[{
     "schede tematiche":"AppBibLat, AppLetLat"
 },{
     "Id":2516,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Sculture di Alberto Sani. Disegni di Carlotta De Jurco",
     "Cities":"Firenze",
     "Publisher":"s.n.",
@@ -27688,7 +27688,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":2517,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Sculture italiane di tutti i tempi",
     "Cities":"Bergamo  ",
     "Publisher":"Istituto italiano di arti grafiche",
@@ -27699,7 +27699,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":2518,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Scuola professionale macellai: lezioni del primo e del secondo corso. ",
     "Cities":"Milano",
     "Publisher":"C.M.M",
@@ -27710,7 +27710,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":2519,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Un secolo di prosa. Panorama della prosa italiana dal 1850 ad oggi.",
     "Cities":"Torino",
     "Publisher":"Petrini",
@@ -27919,7 +27919,7 @@ const jsonData =[{
     "schede tematiche":"AppMat"
 },{
     "Id":2538,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Servizio in guerra. Parte I. Servizio delle truppe",
     "Cities":"Roma  ",
     "Publisher":"Voghera",
@@ -27941,7 +27941,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":2540,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Sette sculture dal sec. V a.C. al sec. XV d.C.: opere esposte nelle mostre organizzate dal Centro Studi Piero della Francesca dal 1956 al 1971",
     "Cities":"Milano",
     "Publisher":"Esperia",
@@ -28227,7 +28227,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":2566,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"SIAE 1882\/1972",
     "Cities":"Roma",
     "Publisher":"SIAE",
@@ -28249,7 +28249,7 @@ const jsonData =[{
     "schede tematiche":"AppSto"
 },{
     "Id":2568,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Sicilia",
     "Cities":"Milano",
     "Publisher":"TCI",
@@ -28502,7 +28502,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":2591,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Societ\u00e0 Edison. Assemblea straordinaria del 18 settembre 1942",
     "Cities":"Milano",
     "Publisher":"Tip. Pizzi",
@@ -28513,7 +28513,7 @@ const jsonData =[{
     "schede tematiche":"AppMat"
 },{
     "Id":2592,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Societ\u00e0 Geologica Italiana. Guida alle escursioni",
     "Cities":"Milano-Como-Bergamo ",
     "Publisher":"Societ\u00e0 Geologica Italiana",
@@ -28546,7 +28546,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":2595,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"I Sofisti: frammenti e testimonianze",
     "Cities":"Bari",
     "Publisher":"Laterza",
@@ -28601,7 +28601,7 @@ const jsonData =[{
     "schede tematiche":"AppBibLat, AppLetLat"
 },{
     "Id":2600,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"\u00abSolaria\u00bb (Antologia di)",
     "Cities":"Milano  ",
     "Publisher":"Lerici",
@@ -28953,7 +28953,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":2632,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Stagione sinfonica organizzata dalla radio italiana",
     "Cities":"Torino",
     "Publisher":"ERI",
@@ -29107,7 +29107,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":2646,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Storia del mondo moderno. ",
     "Cities":"Milano  ",
     "Publisher":"Garzanti",
@@ -29118,7 +29118,7 @@ const jsonData =[{
     "schede tematiche":"AppSto"
 },{
     "Id":2647,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Storia della letteratura italiana. ",
     "Cities":"Milano",
     "Publisher":"Garzanti",
@@ -29140,7 +29140,7 @@ const jsonData =[{
     "schede tematiche":"AppSto"
 },{
     "Id":2649,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Storia di Milano.",
     "Cities":"Milano ",
     "Publisher":"Fondazione Treccani degli Alfieri",
@@ -29151,7 +29151,7 @@ const jsonData =[{
     "schede tematiche":"AppSto"
 },{
     "Id":2650,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Storia e cultura della Locride",
     "Cities":"Messina  ",
     "Publisher":"La Sicilia",
@@ -29162,7 +29162,7 @@ const jsonData =[{
     "schede tematiche":"AppSto"
 },{
     "Id":2651,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Storie di fantasmi. Antologia di racconti anglosassoni del sopran naturale. ",
     "Cities":"Torino",
     "Publisher":"Einaudi",
@@ -29184,7 +29184,7 @@ const jsonData =[{
     "schede tematiche":"AppSto"
 },{
     "Id":2653,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Stradario alfabetico di Napoli.",
     "Cities":"Napoli",
     "Publisher":"La Campania",
@@ -29206,7 +29206,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":2655,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Studi e materiali di storia delle religioni",
     "Cities":"Roma",
     "Publisher":"Optima",
@@ -29217,7 +29217,7 @@ const jsonData =[{
     "schede tematiche":"AppSto"
 },{
     "Id":2656,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Studi in onore di Leone Traverso",
     "Cities":"Urbino",
     "Publisher":"Argalia",
@@ -29228,7 +29228,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":2657,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Studi urbinati di storia, filosofia e letteratura",
     "Cities":"Urbino  ",
     "Publisher":"Argal\u00eca",
@@ -29261,7 +29261,7 @@ const jsonData =[{
     "schede tematiche":"AppMat"
 },{
     "Id":2660,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Le style Louis XIV.",
     "Cities":"Paris",
     "Publisher":"Flammarion",
@@ -29272,7 +29272,7 @@ const jsonData =[{
     "schede tematiche":"AppSto"
 },{
     "Id":2661,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Le style Louis XV",
     "Cities":"Paris  ",
     "Publisher":"Flammarion",
@@ -29283,7 +29283,7 @@ const jsonData =[{
     "schede tematiche":"AppSto"
 },{
     "Id":2662,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Le style Louis XVI",
     "Cities":"Paris  ",
     "Publisher":"Flammarion",
@@ -29294,7 +29294,7 @@ const jsonData =[{
     "schede tematiche":"AppSto"
 },{
     "Id":2663,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Sui campi di battaglia. Il Trentino, il Pasubio e gli Altipiani.  Storico-turistica",
     "Cities":"Milano  ",
     "Publisher":"TCI",
@@ -29305,7 +29305,7 @@ const jsonData =[{
     "schede tematiche":"AppVia"
 },{
     "Id":2664,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Sull\u2019arte: architettura, scultura, grafica. ",
     "Cities":"Ivrea",
     "Publisher":"Ufficio stampa Ing. C. Olivetti e S.p.A.",
@@ -29316,7 +29316,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":2665,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Sulla via della pace. Trattato per la interdizione delle prove nucleari",
     "Cities":"Washington ",
     "Publisher":"US Information Service",
@@ -29327,7 +29327,7 @@ const jsonData =[{
     "schede tematiche":"AppMat"
 },{
     "Id":2666,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Sull\u2019Etna.",
     "Cities":"Firenze  ",
     "Publisher":"Geografico Militare",
@@ -29338,7 +29338,7 @@ const jsonData =[{
     "schede tematiche":"AppVia"
 },{
     "Id":2667,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Sul limitare. Prose e poesie scelte per la scuola italiana.",
     "Cities":"Milano-Palermo- Napoli",
     "Publisher":"Sandron",
@@ -29349,7 +29349,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":2668,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Surrey \u2013 the playground of London.",
     "Cities":"London  ",
     "Publisher":"The Homeland Association",
@@ -29723,7 +29723,7 @@ const jsonData =[{
     "schede tematiche":"AppSto"
 },{
     "Id":2702,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Teatro elisabettiano.",
     "Cities":"Firenze  ",
     "Publisher":"Sansoni",
@@ -29734,7 +29734,7 @@ const jsonData =[{
     "schede tematiche":"AppLetAm, AppLetIng"
 },{
     "Id":2703,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Teatro spagnolo del secolo d\u2019oro",
     "Cities":"Torino",
     "Publisher":"ERI",
@@ -29899,7 +29899,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":2718,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Technologischen Taschenw\u00f6rterbuch.",
     "Cities":"Stuttgart",
     "Publisher":"Metzlerscher",
@@ -29910,7 +29910,7 @@ const jsonData =[{
     "schede tematiche":"AppMat"
 },{
     "Id":2719,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Teodora imperatrice di Bisanzio",
     "Cities":"Roma ",
     "Publisher":"Anonima Romana Editoriale",
@@ -29943,7 +29943,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":2722,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Testimonianze su Pierro.",
     "Cities":"Bari",
     "Publisher":"Laterza",
@@ -30372,7 +30372,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":2761,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Trent\u2019anni di storia italiana (1915-1945)",
     "Cities":"Torino  ",
     "Publisher":"Einaudi",
@@ -30482,7 +30482,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":2771,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Turbine idrauliche e macchinari accessori. Lubrificazione.",
     "Cities":"Genova  ",
     "Publisher":"Foltzer",
@@ -30548,7 +30548,7 @@ const jsonData =[{
     "schede tematiche":"AppBibLat, AppLetLat"
 },{
     "Id":2777,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Tutta la pittura del Crivelli.",
     "Cities":"Milano",
     "Publisher":"Rizzoli",
@@ -30559,7 +30559,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":2778,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Tutta la pittura di Leonardo.",
     "Cities":"Milano",
     "Publisher":"Rizzoli",
@@ -30603,7 +30603,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":2782,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"L\u2019Umanitaria e la sua opera",
     "Cities":"Milano  ",
     "Publisher":"Cooperativa grafica degli operai",
@@ -30614,7 +30614,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":2783,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Umoristi del Novecento",
     "Cities":"Milano",
     "Publisher":"Garzanti",
@@ -30636,7 +30636,7 @@ const jsonData =[{
     "schede tematiche":"AppLetFr"
 },{
     "Id":2785,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Undicesimo concerto stagione sinfonica 1942 Teatro Comunale di Firenze",
     "Cities":"Firenze  ",
     "Publisher":"s.n.",
@@ -30735,7 +30735,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":2794,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Un inedito petrarchesco",
     "Cities":"Roma  ",
     "Publisher":"Edizioni di storia e letteratura",
@@ -30746,7 +30746,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":2795,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"L\u2019uomo in fabbrica",
     "Cities":"Torino",
     "Publisher":"FIAT",
@@ -30757,7 +30757,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":2796,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"L\u2019univers: histoire et description de tous les peuples",
     "Cities":"Paris  ",
     "Publisher":"Didot",
@@ -30768,7 +30768,7 @@ const jsonData =[{
     "schede tematiche":"AppSto"
 },{
     "Id":2797,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"L\u2019universo e la vita",
     "Cities":"  Torino",
     "Publisher":"ERI",
@@ -30966,7 +30966,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":2815,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"I Vangeli.",
     "Cities":"Torino",
     "Publisher":"Einaudi",
@@ -30977,7 +30977,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":2816,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Il Vangelo.",
     "Cities":"Venezia",
     "Publisher":"Neri Pozza",
@@ -30988,7 +30988,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":2817,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Il Vangelo",
     "Cities":"Modena",
     "Publisher":"Guanda",
@@ -30999,7 +30999,7 @@ const jsonData =[{
     "schede tematiche":null
 },{
     "Id":2818,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Van Gogh",
     "Cities":"Milano-Firenze",
     "Publisher":"Electa",
@@ -31010,7 +31010,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":2819,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"]Van Gogh. Dipinti e disegni. Milano, Palazzo Reale febbraioaprile 1952. Catalogo",
     "Cities":"Milano  ",
     "Publisher":"Ente manifestazioni milanesi",
@@ -31021,7 +31021,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":2820,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Van Gogh racont\u00e9 par luim\u00eame et par ses amis, ses contemporains, sa posterit\u00e9",
     "Cities":"Vesenaz-Gen\u00e8ve  ",
     "Publisher":"Cailler",
@@ -31087,7 +31087,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":2826,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"El vap\u00f3r: su producci\u00f3n y su em pleo",
     "Cities":"New York-London ",
     "Publisher":" Babcock & Wilcox",
@@ -31164,7 +31164,7 @@ const jsonData =[{
     "schede tematiche":"AppMat"
 },{
     "Id":2833,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Vent\u2019anni d\u2019impazienza: antologia della narrativa italiana dal \u201946 ad oggi",
     "Cities":"Milano  ",
     "Publisher":"Feltrinelli",
@@ -31175,7 +31175,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":2834,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Vent\u2019anni di narrativa italiana (1945-1965)",
     "Cities":"Roma  ",
     "Publisher":"Edindustria",
@@ -31186,7 +31186,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":2835,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Ventisei. Escluso il nero",
     "Cities":"Roma  ",
     "Publisher":"Edizioni dell\u2019Aldina",
@@ -31714,7 +31714,7 @@ const jsonData =[{
     "schede tematiche":"AppLetIt, AppBibIt"
 },{
     "Id":2883,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Vini italiani",
     "Cities":"Torino",
     "Publisher":"ERI",
@@ -31846,7 +31846,7 @@ const jsonData =[{
     "schede tematiche":"AppSto"
 },{
     "Id":2895,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"La vita italiana durante la Rivoluzione francese e l\u2019Impero",
     "Cities":"Milano",
     "Publisher":"Garzanti",
@@ -31857,7 +31857,7 @@ const jsonData =[{
     "schede tematiche":"AppSto"
 },{
     "Id":2896,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"La vita italiana nel Cinquecento",
     "Cities":"Milano",
     "Publisher":"Garzanti",
@@ -31868,7 +31868,7 @@ const jsonData =[{
     "schede tematiche":"AppSto"
 },{
     "Id":2897,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"La vita italiana nell\u2019Ottocento",
     "Cities":"Milano",
     "Publisher":"Garzanti",
@@ -31879,7 +31879,7 @@ const jsonData =[{
     "schede tematiche":"AppSto"
 },{
     "Id":2898,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"La vita italiana nel Trecento",
     "Cities":"Milano",
     "Publisher":"Garzanti",
@@ -31989,7 +31989,7 @@ const jsonData =[{
     "schede tematiche":"AppSto"
 },{
     "Id":2908,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Vocabolario dell\u2019argot e del linguaggio popolare parigino.",
     "Cities":"Torino",
     "Publisher":"Petrini",
@@ -32000,7 +32000,7 @@ const jsonData =[{
     "schede tematiche":"AppBibFil"
 },{
     "Id":2909,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Vocabolario della lingua italiana",
     "Cities":"Milano",
     "Publisher":"Vallardi",
@@ -32011,7 +32011,7 @@ const jsonData =[{
     "schede tematiche":"AppBibFil"
 },{
     "Id":2910,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Vocabolario etimologico della lingua italiana",
     "Cities":"Milano",
     "Publisher":"Sonzogno",
@@ -32022,7 +32022,7 @@ const jsonData =[{
     "schede tematiche":"AppBibFil"
 },{
     "Id":2911,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Vocabolario italiano della lingua parlata",
     "Cities":"Firenze",
     "Publisher":"Barbera",
@@ -32033,7 +32033,7 @@ const jsonData =[{
     "schede tematiche":"AppBibFil"
 },{
     "Id":2912,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Vocabolario italiano della lingua parlata",
     "Cities":"Firenze",
     "Publisher":"Barbera",
@@ -32044,7 +32044,7 @@ const jsonData =[{
     "schede tematiche":"AppBibFil"
 },{
     "Id":2913,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Vocabolario italiano-latino per uso degli studiosi di belle lettere nelle Regie Scuole di Torino",
     "Cities":"Venezia",
     "Publisher":"Bettinelli",
@@ -32055,7 +32055,7 @@ const jsonData =[{
     "schede tematiche":"AppBibFil"
 },{
     "Id":2914,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Vocabolario milanese-italiano",
     "Cities":"Milano",
     "Publisher":"Stamperia Reale",
@@ -32077,7 +32077,7 @@ const jsonData =[{
     "schede tematiche":"AppBibFil"
 },{
     "Id":2916,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Vocabolario scolastico italiano-francese francese-italiano. Compendio del nuovo vocabolario comparativo delle lingue italianae francese",
     "Cities":"Torino",
     "Publisher":"Petrini",
@@ -32198,7 +32198,7 @@ const jsonData =[{
     "schede tematiche":"AppLetTed"
 },{
     "Id":2927,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Die Vorsokratiker",
     "Cities":"Jena",
     "Publisher":"Diederich",
@@ -32363,7 +32363,7 @@ const jsonData =[{
     "schede tematiche":"AppMat"
 },{
     "Id":2942,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Die Welt erz\u00e4hlt.",
     "Cities":"Frankfurt",
     "Publisher":"Fischer",
@@ -32572,7 +32572,7 @@ const jsonData =[{
     "schede tematiche":"AppArt"
 },{
     "Id":2961,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"World atlas (Encyclopaedia Britannica)",
     "Cities":"London",
     "Publisher":"Benton",
@@ -32605,7 +32605,7 @@ const jsonData =[{
     "schede tematiche":"AppLetAm, AppLetIng"
 },{
     "Id":2964,
-    "Authors":"Not found",
+    "Authors":"No Author",
     "Title":"Yesterday and Today. A Comparative Anthology of Poetry",
     "Cities":"New York",
     "Publisher":"Harcourt, Brace & Co",
@@ -92898,26 +92898,29 @@ const jsonDataArch= [
         // Create the link with an onclick event to open the URL in a new window
 // ...
 
-links = `<a href="Postille.html?id=${item.Id}&title=${encodeURIComponent(item.Title)}" onclick="window.open('${url}', '_blank'); return false;">View annotations</a>`;
+links = `<a href="Postille.html?id=${item.Id}&title=${encodeURIComponent(item.Title)}" onclick="window.open('${url}', '_blank'); return false;">ANNOTATIONS</a>`;
 
     }
     
    
        // Check if schede tematiche is not null before including the span element
-       const schedeTematicheSpan = item["schede tematiche"] !== null ? `<span class="SchedeTematiche" onclick="handleSchedeTematicheClick('${item["schede tematiche"]}')">${item["schede tematiche"]}</span><br>` : '';
+       const schedeTematicheLink = item["schede tematiche"] !== null
+  ? `<a class="SchedeTematicheLink" href="#" onclick="handleSchedeTematicheClick('${item["schede tematiche"]}')">${item["schede tematiche"]}</a><br>`
+  : '';
    
        return `<li>
-         <strong class="Authors">${item.Authors}</strong><br>
-         <span class="Title">${item.Title}</span><br>
-         <span class="Cities">${item.Cities}</span>
-         <span class="Publisher">,</span>
-         <span class="Years">${item.Years}</span><br>
-         <span class="Fund">${item.Fund}</span><br>
-         <span class="Segni">${item.Segni}</span><br>
-         <span class="Category">${item.Category}</span><br>
-         ${schedeTematicheSpan}
-         ${links}
-       </li>`;
+       <strong class="Authors">${item.Authors}</strong><br>
+       <span class="Title">${item.Title}</span><br>
+       <span class="Cities">${item.Cities}</span>:
+       <span class="Publisher">,</span>,
+       <span class="Years">${item.Years}</span><br>
+       ${item.Fund ? `<span style="font-family: 'Nunito', sans-serif; font-size: 14px;color: #b7491d;font-weight: 800;">FUND:</span> ${item.Fund}<br>` : ''}   
+      ${item.Category ? `<span style="font-family: 'Nunito', sans-serif; font-size: 13px;color: #b7491d;font-weight: 800;">GENRE: </span> ${item.Category}` : ''}<br>
+      ${schedeTematicheLink ? `<span style="font-family: 'Nunito', sans-serif; font-size: 13px; color: #b7491d; font-weight: 800;"><a href="#" onclick="handleSchedeTematicheClick('${item["schede tematiche"]}')">ARCHIVE:</a></span> ${item["schede tematiche"]}` : ''}<br>
+      ${item.Segni ? `<span style="font-family: 'Nunito', sans-serif; font-size: 14px;color: #b7491d;font-weight: 800;"> ${links}</span>: ${item.Segni}<br>` : ''}
+       ${!item.Segni ? `${links}` : ''}
+     </li>`;
+
      }
    };
    
