@@ -162,7 +162,7 @@ position: relative;
     <div class=" mt-4" id="cardsAnnotations">
         <ul class="nav nav-tabs" id="myTabs">
             <li class="nav-item">
-                <a class="nav-link active" id="nota-di-possesso-tab" data-toggle="tab" href="#nota-di-possesso">Nota di Possesso</a>
+                <a class="nav-link " id="nota-di-possesso-tab" data-toggle="tab" href="#nota-di-possesso">Nota di Possesso</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" id="dedica-tab" data-toggle="tab" href="#dedica">Dedica</a>
@@ -176,7 +176,7 @@ position: relative;
         </ul>
     
         <div class="tab-content mt-2">
-            <div class="tab-pane fade show active" id="nota-di-possesso">
+            <div class="tab-pane fade " id="nota-di-possesso">
                 <div id="nota-di-possesso-card"></div>
             </div>
             <div class="tab-pane fade" id="dedica">
@@ -51978,7 +51978,33 @@ matchingItemsFile2.forEach(matchingItemFile2 => {
 
     const collocazione = matchingItemFile2['Collocazione'];
     const postillaParlata = matchingItemFile2['Postilla parlata'];
-    
+
+   // toglie l tabs se sono vuote
+    function updateTabVisibility(tabId, cardId, dataKey) {
+    const tab = document.getElementById(tabId);
+    const card = document.getElementById(cardId);
+
+    const hasData = matchingItemsFile2.some(matchingItemFile2 => matchingItemFile2[dataKey]);
+
+    if (hasData) {
+        tab.style.display = 'block';
+    } else {
+        tab.style.display = 'none';
+    }
+}
+
+// Usage for different tabs
+updateTabVisibility('nota-di-possesso-tab', 'nota-di-possesso-card', 'Nota di possesso');
+updateTabVisibility('dedica-tab', 'dedica-card', 'Dedica');
+updateTabVisibility('postilla-muta-tab', 'postilla-muta-card', 'Postilla muta');
+updateTabVisibility('collocazione-postilla-parlata-tab', 'collocazione-postilla-parlata-card', 'Collocazione');
+
+
+
+
+
+
+
     const container = document.createElement('div');
     // Add the class to the container
     container.id = 'containerPosParl';
@@ -52013,8 +52039,6 @@ document.body.appendChild(container);
         card.appendChild(listItem);
     }
 };
-
-    
 
 
 
