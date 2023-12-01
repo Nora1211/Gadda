@@ -37,34 +37,41 @@
     <style>
 
 .wrapper {
-    display: flex;
-    width: 100%;
-    align-items: stretch;
+  display: flex;
+  width: 100%;
+  align-items: stretch;
 }
 
-      #sidebar {
-    min-width: 250px;
-    max-width: 383px;
-    background: #f7f2df;
-    color: #b7491d;
-    transition: all 0.3s;
+#sidebar {
+  min-width: 250px;
+  max-width: 383px;
+  background: #f7f2df;
+  color: #b7491d;
+  transition: all 0.3s;
+  position: sticky;
+  top: 65px;
+  height: 100vh; /* Adjust the height as needed */
+  overflow-y: auto;
 }
 
-#sidebar.active {
-    margin-left: -383px;
-}
 
 #sidebar .sidebar-header {
     padding: 20px;
     background: #b7491d;
     color: #f7f2df;
 }
+
 #main {
-    width: 100%;
-    padding: 20px;
-    min-height: 100vh;
-    transition: all 0.3s;
+  width: calc(100% - 250px);
+  padding: 20px;
+  min-height: 100vh;
+  transition: all 0.3s;
+  overflow-y: auto;
 }
+#sidebar-content{
+  padding-left: 10px;
+}
+
     </style>
 
   <!-- =======================================================
@@ -118,8 +125,9 @@
   <div class="wrapper">
   <nav id="sidebar">
     <div class="sidebar-header">
-        <h3>Bootstrap Sidebar</h3>
+        <h3>Filter through the catalog</h3>
     </div>
+    <div id="sidebar-content">
     <p>Explore the four conservation fund that collect Gadda's library:</p>
     
   
@@ -166,6 +174,7 @@
     <button class="btn sort" data-sort="Authors">Sort by author</button>
     <button class="btn sort" data-sort="Years">Sort by year</button>
   </ul>
+</div>
 </nav>
   
   <main id="main" >
