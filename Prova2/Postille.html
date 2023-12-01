@@ -1,34 +1,242 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Annotations</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
     <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 
-    <title>Annotations</title>
-     <!-- Include jQuery -->
-     <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
-     <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
-     <!-- Include DataTables CSS -->
-     <link href="https://cdn.datatables.net/v/dt/dt-1.13.6/datatables.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/list.pagination.js/0.1.1/list.pagination.js" integrity="sha512-DgwxWpg8sBTL8c/Q3AB2agigdCpBRVWb3WRNlgaxHWqCNxzv/80XVYXCHSftOrigEF/h8wv+lPjngSAq3fHlGw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>   
  
-</head>
-<body>
-    <h1>Annotations</h1>
-    <h1 id="page-title">Annotations</h1>
 
-        <!-- Display data from file2 here in a tabular format -->
-        <table id="file2-table" class="display" style="width:100%">
-            <thead>
-                <tr>
-                    <th>Id</th>
-                    <th>Nota di possesso</th>
-                    <th>Dedica</th>
-                    <th>Collocazione</th>
-                    <th>Postilla parlata</th>
-                    <th>Postilla muta</th>
-                </tr>
-            </thead>
-            <!-- Table data rows will be added using JavaScript -->
-        </table>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+ 
+ <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Tempo
+  * Updated: Sep 18 2023 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/tempo-free-onepage-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  <style>
+
+#cardsAnnotations ul {
+position: relative;
+  list-style:none;
+  padding:0;
+  margin:0;
+}
+
+#cardsAnnotations li 
+{
+  float:left;
+  position: relative;
+  margin: 0 2px 0 0;
+  border-bottom: 0;
+  width:fit-content;
+  text-align:center;
+}
+
+
+#cardsAnnotations li a {
+  text-decoration:none;
+  display:block;
+  padding: 8px 15px;
+  color: #b7491d;
+  font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    transition: 0.3s;
+    animation-delay: 0.8s;
+  border-radius: 10px 10px 0 0;
+  border: 2px solid #b7491d;
+  cursor: pointer;
+}
+
+
+#cardsAnnotations li a:hover {
+    background: #b7491d;
+  color: #f7f2df;
+  text-decoration: none;
+}
+
+
+
+
+#myTabs .nav-link.active,
+#myTabs .nav-link:focus{
+  background: #b7491d !important;
+  color: #f7f2df !important;
+  text-decoration: none;
+}
+
+#containerPosParl{
+    display:block;
+  background-color: transparent;
+  padding:10px;
+  box-shadow: 0px 3px 5px #b7491d;
+  /*box-shadow: inset 0 1px 0 #fff;*/
+  border-radius: 5px;
+  margin: 10px;
+}
+
+
+   </style>
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-between">
+     <h1 class="logo"><a href="index.html">NdG</a></h1>
+        
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li class="dropdown"><a href="#"><span>Archive</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Database</a></li>
+              <li><a href="#">Data Visualization</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Library</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="library.html">Database</a></li>
+              <li><a href="#">Data Visualization</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero2" style="height: 50vh;">
+    
+  </section><!-- End Hero -->
+
+  <main id="main" style="margin: 50px;">
+
+    <h1>Annotations</h1>
+    <h1 id="page-title" style="font-style: italic;">Annotations</h1>
+    
+    <div class=" mt-4" id="cardsAnnotations">
+        <ul class="nav nav-tabs" id="myTabs">
+            <li class="nav-item">
+                <a class="nav-link " id="nota-di-possesso-tab" data-toggle="tab" href="#nota-di-possesso">Nota di Possesso</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="dedica-tab" data-toggle="tab" href="#dedica">Dedica</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="postilla-muta-tab" data-toggle="tab" href="#postilla-muta">Postilla Muta</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="collocazione-postilla-parlata-tab" data-toggle="tab" href="#collocazione-postilla-parlata">Collocazione & Postilla Parlata</a>
+            </li>
+        </ul>
+    
+        <div class="tab-content mt-2">
+            <div class="tab-pane fade " id="nota-di-possesso">
+                <div id="nota-di-possesso-card"></div>
+            </div>
+            <div class="tab-pane fade" id="dedica">
+                <div id="dedica-card"></div>
+            </div>
+            <div class="tab-pane fade" id="postilla-muta">
+                <div id="postilla-muta-card"></div>
+            </div>
+            <div class="tab-pane fade" id="collocazione-postilla-parlata">
+                <div id="collocazione-postilla-parlata-card"></div>
+            </div>
+        </div>
+    </div>
+   
+   
+    
+    </main><!-- End #main -->
+
+
+
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+  
+     
+  
+      <div class="container d-md-flex py-4">
+  
+        <div class="me-md-auto text-center text-md-start">
+          <div class="copyright">
+            &copy; Copyright <strong><span>I Numeri di Gadda</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/tempo-free-onepage-bootstrap-theme/ -->
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+          <a href="#" class="github"><i class="bx bxl-github"></i></a>
+         
+        </div>
+      </div>
+    </footer><!-- End Footer -->
+  
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+  
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  
     <script>  
     const file2Data = [{
     "Id":3.0,
@@ -51720,49 +51928,133 @@ const jsonData =[{
 }];
 // Define the getParameterByName function to extract URL parameters
 function getParameterByName(name, url) {
-        if (!url) url = window.location.href;
-        name = name.replace(/[\[\]]/g, '\\$&');
-        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-            results = regex.exec(url);
-        if (!results) return null;
-        if (!results[2]) return '';
-        return decodeURIComponent(results[2].replace(/\+/g, ' '));
-    }
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
 
-    const selectedId = parseInt(getParameterByName('id')); // Parse as a number
+const selectedId = parseInt(getParameterByName('id')); // Parse as a number
 
-console.log('Selected ID:', selectedId);
+// Function to find all matching items in an array based on Id
+function findMatchingItems(array, id) {
+    return array.filter(item => item.Id === id);
+}
 
-// Find the matching item in jsonData based on Id
-const matchingItem = jsonData.find(item => item.Id === selectedId);
-
-console.log('Matching Item:', matchingItem);
+// Find matching items in jsonData based on Id
+const matchingItems = findMatchingItems(jsonData, selectedId);
 
 // Set the title of the page based on the selected item's title
 const pageTitle = document.getElementById('page-title');
-if (matchingItem && matchingItem.Title) {
-    pageTitle.innerText = matchingItem.Title;
+if (matchingItems.length > 0 && matchingItems[0].Title) {
+    pageTitle.innerText = matchingItems[0].Title; // Assuming you want to use the title of the first matching item
 } else {
     pageTitle.innerText = 'Annotations';
     console.error('Title not found or undefined.');
 }
 
-// Initialize DataTables on the table
-$(document).ready(function () {
-    const matchingItemsForTable = file2Data.filter(item => item.Id === selectedId);
-    
-    $('#file2-table').DataTable({
-        data: matchingItemsForTable,
-        columns: [
-            { data: 'Id' },
-            { data: 'Nota di possesso' },
-            { data: 'Dedica' },
-            { data: 'Collocazione' },
-            { data: 'Postilla parlata' },
-            { data: 'Postilla muta' },
-        ],
-        paging: false, // Disable paging for a single item
-    });
+// Find matching items in file2Data based on Id
+const matchingItemsFile2 = findMatchingItems(file2Data, selectedId);
+
+// Display data for the matching items from file2Data in the tabs
+const notaDiPossessoCard = document.getElementById('nota-di-possesso-card');
+const dedicaCard = document.getElementById('dedica-card');
+const postillaMutaCard = document.getElementById('postilla-muta-card');
+const collocazionePostillaParlataCard = document.getElementById('collocazione-postilla-parlata-card');
+
+// Clear the existing content in the cards
+notaDiPossessoCard.innerHTML = '';
+dedicaCard.innerHTML = '';
+postillaMutaCard.innerHTML = '';
+collocazionePostillaParlataCard.innerHTML = '';
+
+matchingItemsFile2.forEach(matchingItemFile2 => {
+    appendToCard(notaDiPossessoCard, 'Nota di Possesso', matchingItemFile2['Nota di possesso']);
+    appendToCard(dedicaCard, 'Dedica', matchingItemFile2['Dedica']);
+    appendToCard(postillaMutaCard, 'Postilla Muta', matchingItemFile2['Postilla muta']);
+
+    const collocazione = matchingItemFile2['Collocazione'];
+    const postillaParlata = matchingItemFile2['Postilla parlata'];
+
+   // toglie le tabs se sono vuote
+    function updateTabVisibility(tabId, cardId, dataKey) {
+    const tab = document.getElementById(tabId);
+    const card = document.getElementById(cardId);
+
+    const hasData = matchingItemsFile2.some(matchingItemFile2 => matchingItemFile2[dataKey]);
+
+
+    // mostra le tab che anno contento come attie
+    if (hasData) {
+        tab.style.display = 'block';
+
+        // Activate the tab using Bootstrap's JavaScript methods
+        const tabInstance = new bootstrap.Tab(tab);
+        tabInstance.show();
+
+        // Also, activate the corresponding nav-link
+        const navLink = document.querySelector(`[href="#${tabId}"]`);
+        if (navLink) {
+            navLink.classList.add('active');
+        }
+    } else {
+        tab.style.display = 'none';
+    }
+}
+
+// Usage for different tabs
+updateTabVisibility('nota-di-possesso-tab', 'nota-di-possesso-card', 'Nota di possesso');
+updateTabVisibility('dedica-tab', 'dedica-card', 'Dedica');
+updateTabVisibility('postilla-muta-tab', 'postilla-muta-card', 'Postilla muta');
+updateTabVisibility('collocazione-postilla-parlata-tab', 'collocazione-postilla-parlata-card', 'Collocazione');
+
+
+
+
+
+
+
+    const container = document.createElement('div');
+    // Add the class to the container
+    container.id = 'containerPosParl';
+document.body.appendChild(container);
+
+
+    if (collocazione !== null) {
+        container.innerHTML += `<strong>Collocazione:</strong> ${collocazione}`;
+    }
+
+    if (collocazione !== null && postillaParlata !== null) {
+        container.innerHTML += ` |<br> `;
+    }
+
+    if (postillaParlata !== null && collocazione !== postillaParlata) {
+        container.innerHTML += `<strong>Postilla Parlata:</strong> ${postillaParlata}`;
+    }
+
+    // Append the container to the respective card
+    collocazionePostillaParlataCard.appendChild(container);
+     // Check if the card is empty and set the title in red
+     
 });
+    // Append the list item to a list container (if you have one)
+    // Or you can append it directly to the document body, for example
+
+    // Helper function to append content to a card
+    function appendToCard(card, label, value) {
+    const listItem = document.createElement('p');
+    if (value !== null) {
+        listItem.innerHTML = `${value}`;
+        card.appendChild(listItem);
+    }
+};
+
+
+
     </script>
+        </body>
+
 </html>

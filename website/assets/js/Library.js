@@ -92924,7 +92924,27 @@ links = `<a href="Postille.html?id=${item.Id}&title=${encodeURIComponent(item.Ti
      }
    };
    
+
+
+   function toggleDetails(itemId) {
+    const details = document.getElementById(`details-${itemId}`);
+    details.style.display = details.style.display === 'none' ? 'block' : 'none';
+  }
+
+
+
+
    const userList = new List('catalog', options, jsonData);
+   
+   
+   
+   // Initialize pagination
+const pagination = new ListPagination('your-pagination-container', {
+    list: userList,
+    innerWindow: 1,
+    outerWindow: 0
+}); 
+
   
  //LISTAUTHOR
 
@@ -92975,6 +92995,7 @@ filterListByAuthor();
         userList.search();
         userList.filter();
         $('.search', '.searchFil').val('');   
+        updateItemCount();
         //console.log('Reset Successfully!');
     };
     
@@ -92987,6 +93008,7 @@ filterListByAuthor();
             var authorValue = item.values().Authors;
             return authorValue && authorValue.toLowerCase().includes(authorsearchString);
         });
+        updateItemCount();
     });
     
 
@@ -93018,13 +93040,26 @@ $('.filter-button').on('click', function () {
     $li.toggleClass('selected');
   
     applyFilters();
+    updateItemCount();
   });
+  
+// Update item count function
+function updateItemCount() {
+    const filteredItemCount = userList.matchingItems.length;
+    const $count = $('.count');
+    $count.text(filteredItemCount);
+}
+
+
+
   
   // Attach a click event handler to the "Show All Funds" button
   $('#show-all').on('click', function () {
     // Remove the 'selected' class from all filter list items
     $('.filter-button').removeClass('selected');
     applyFilters();
+    updateItemCount();
+
   });
   
   // show only items that contain annotations
@@ -93032,6 +93067,8 @@ $('.filter-button').on('click', function () {
     // Toggle the 'selected' class
     $(this).toggleClass('selected');
     applyFilters();
+    updateItemCount();
+
   });
   
   // Reverse the previous function
@@ -93039,6 +93076,8 @@ $('.filter-button').on('click', function () {
     // Toggle the 'selected' class
     $(this).toggleClass('selected');
     applyFilters();
+    updateItemCount();
+
   });
   
   document.getElementById('category-filter').addEventListener('change', function () {
@@ -93067,17 +93106,6 @@ $('.filter-button').on('click', function () {
     });
   }
   
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -93121,3 +93149,6 @@ $('.filter-button').on('click', function () {
         }
     });
 }
+
+
+

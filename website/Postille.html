@@ -51979,15 +51979,27 @@ matchingItemsFile2.forEach(matchingItemFile2 => {
     const collocazione = matchingItemFile2['Collocazione'];
     const postillaParlata = matchingItemFile2['Postilla parlata'];
 
-   // toglie l tabs se sono vuote
+   // toglie le tabs se sono vuote
     function updateTabVisibility(tabId, cardId, dataKey) {
     const tab = document.getElementById(tabId);
     const card = document.getElementById(cardId);
 
     const hasData = matchingItemsFile2.some(matchingItemFile2 => matchingItemFile2[dataKey]);
 
+
+    // mostra le tab che anno contento come attie
     if (hasData) {
         tab.style.display = 'block';
+
+        // Activate the tab using Bootstrap's JavaScript methods
+        const tabInstance = new bootstrap.Tab(tab);
+        tabInstance.show();
+
+        // Also, activate the corresponding nav-link
+        const navLink = document.querySelector(`[href="#${tabId}"]`);
+        if (navLink) {
+            navLink.classList.add('active');
+        }
     } else {
         tab.style.display = 'none';
     }
