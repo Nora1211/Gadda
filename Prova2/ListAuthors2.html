@@ -45,32 +45,49 @@
   ======================================================== -->
   <style>
      .count-circle {
-            background-color: #b7491d;
-            color: #fff;
-            float: right;
-            padding: 5px 10px;
-            font-size: 10px;
-            border-radius: 50%;
-            margin-left: 5px;
+            
+            float: left;
+            font-style: italic;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #b7491d;
+    padding-right: 20px;
+    
         }
 
-        ul li{
-            border-bottom: 1px solid #cccccc;
-    padding: 10px;
-    list-style: none;
-        }
+        ul {
+  list-style-type: none;
+  padding: 0;
+}
+ul li {
+  padding: 8px 16px;
+  border-bottom: 1px solid #b7491d;
 
-        #authorsList
-        {border: 1px solid #cccccc;
-          border-radius: 7px;}
-/*#authorsList {
-    column-count: 2;  
-    column-gap: 20px;  
+  
+}
+
+ul li a{
+  padding: 8px;
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #2b240c;
+    border-left: 1px solid #999;
+}
+
+ul li:last-child {
+  border-bottom: none
+}
+
+/* #authorsList {
+    column-count: 2; Set the number of columns 
+    column-gap: 20px; /* Adjust the gap between columns 
 }
 
 #authorsList li {
     display: inline-block;
-    width: 100%; 
+    width: 100%; /* Ensure each item takes full width within the column 
 }*/
 
     </style>
@@ -30123,7 +30140,7 @@
 }
 ];
     // Get the <ul> element to display the authors
-        var ul = document.getElementById("authorsList");
+      var ul = document.getElementById("authorsList");
 
 // Get the <div> for alphabet buttons
 var alphabetButtonsDiv = document.getElementById("alphabetButtons");
