@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>ARch</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+
+  <link href="assets/css/cssLibrary.css" rel="stylesheet">
+
+  
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+
+  <link href="assets/css/style.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/list.pagination.js/0.1.1/list.pagination.js" integrity="sha512-DgwxWpg8sBTL8c/Q3AB2agigdCpBRVWb3WRNlgaxHWqCNxzv/80XVYXCHSftOrigEF/h8wv+lPjngSAq3fHlGw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>   
+   </head>
+
+
+<body>
+  <h1>Correspondences between Schede in jsonData and jsonDataArch</h1>
+
+  <div id="matchingItems2"><p>match</p></div>
+
+
+ 
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="Library2.js"></script>
+<script>
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    // Get the value of the "schedeValue" query parameter from the URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const schedeValue = urlParams.get('schedeValue');
+
+    if (schedeValue) {
+        // Split the comma-separated values into an array
+        const schedeArray = schedeValue.split(',').map(value => value.trim());
+
+        // Filter jsonDataArch to find items with any of the "Schede" values
+        const matchingArchItems = jsonDataArch.filter((archItem) => {
+            // Check if "Schede" is not null and is included in the schedeArray
+            return archItem.Schede !== null && schedeArray.includes(archItem.Schede);
+        });
+
+        // Display the matching items from jsonDataArch
+        showMatchingItems(matchingArchItems);
+    }
+});
+function showMatchingItems(matchingItems) {
+    // Get the existing "matchingItems" div from the HTML
+    const matchingItemsContainer = document.getElementById('matchingItems2');
+
+    // Clear the existing content
+    matchingItemsContainer.innerHTML = '';
+
+    // Append each matching item to the container
+    matchingItems.forEach((archItem) => {
+        const matchingItemDiv = document.createElement('div');
+        matchingItemDiv.innerHTML = `Matching item in jsonDataArch: ${JSON.stringify(archItem)}`;
+        matchingItemsContainer.appendChild(matchingItemDiv);
+    });
+
+    // You can also add styling or modify the display logic as needed
+}
+</script>
+
+</body>
+</html>
