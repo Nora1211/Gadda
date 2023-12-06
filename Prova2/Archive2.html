@@ -56,9 +56,6 @@
   <script src="assets/js/main.js"></script>
   <script src="Library2.js"></script>
 <script>
-
-
-
 document.addEventListener('DOMContentLoaded', function () {
     // Get the value of the "schedeValue" query parameter from the URL
     const urlParams = new URLSearchParams(window.location.search);
@@ -68,16 +65,29 @@ document.addEventListener('DOMContentLoaded', function () {
         // Split the comma-separated values into an array
         const schedeArray = schedeValue.split(',').map(value => value.trim());
 
-        // Filter jsonDataArch to find items with any of the "Schede" values
+        // Filter jsonDataArch to find items with "Schede" values in Internal Description
         const matchingArchItems = jsonDataArch.filter((archItem) => {
-            // Check if "Schede" is not null and is included in the schedeArray
-            return archItem.Schede !== null && schedeArray.includes(archItem.Schede);
+            // Check if "Internal Description" is defined and has the expected structure
+            const internalDescription = archItem["Internal Description"];
+
+            if (internalDescription) {
+                // Split the Schede values into an array
+                const schedeValues = internalDescription.split('\n').find(line => line.startsWith('Schede:'));
+                if (schedeValues) {
+                    const individualSchedes = schedeValues.split(':')[1].split(',').map(value => value.trim());
+                    // Check if any of the target values are present in the array
+                    return individualSchedes.some(schede => schedeArray.includes(schede));
+                }
+            }
+
+            return false;
         });
 
         // Display the matching items from jsonDataArch
         showMatchingItems(matchingArchItems);
     }
 });
+
 function showMatchingItems(matchingItems) {
     // Get the existing "matchingItems" div from the HTML
     const matchingItemsContainer = document.getElementById('matchingItems2');
@@ -94,6 +104,10 @@ function showMatchingItems(matchingItems) {
 
     // You can also add styling or modify the display logic as needed
 }
+
+
+    // You can also add styling or modify the display logic as needed
+
 </script>
 
 </body>
