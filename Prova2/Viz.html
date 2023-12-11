@@ -42,6 +42,134 @@
   width: 100%;
   height: 600px;
 }
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 9997;
+  transition: all 0.5s;
+  padding: 15px;
+  overflow-y: auto;
+}
+
+@media (max-width: 992px) {
+  #header2 {
+    width: 300px;
+    background: #fff;
+    border-right: 1px solid #e6e9ec;
+    left: -300px;
+  }
+}
+
+@media (min-width: 992px) {
+  #main {
+    margin-left: 100px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/* Desktop Navigation */
+.nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-menu > ul > li {
+  position: relative;
+  white-space: nowrap;
+}
+
+.nav-menu a {
+  display: flex;
+  align-items: center;
+  color: #45505b;
+  padding: 10px 18px;
+  margin-bottom: 8px;
+  transition: 0.3s;
+  font-size: 15px;
+  border-radius: 50px;
+  background: #f2f3f5;
+  height: 56px;
+  width: 100%;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.nav-menu a i {
+  font-size: 20px;
+}
+
+.nav-menu a span {
+  padding: 0 5px 0 7px;
+  color: #45505b;
+}
+
+@media (min-width: 992px) {
+  .nav-menu a {
+    width: 56px;
+  }
+  .nav-menu a span {
+    display: none;
+    color: #fff;
+  }
+}
+
+.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+  color: #fff;
+  background: #333333;
+}
+
+.nav-menu a:hover span, .nav-menu .active > a span, .nav-menu li:hover > a span {
+  color: #fff;
+}
+
+.nav-menu a:hover, .nav-menu li:hover > a {
+  width: 100%;
+  color: #fff;
+}
+
+.nav-menu a:hover span, .nav-menu li:hover > a span {
+  display: block;
+}
+
+/* Mobile Navigation */
+.mobile-nav-toggle {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  z-index: 9998;
+  border: 0;
+  background: none;
+  font-size: 24px;
+  transition: all 0.4s;
+  outline: none !important;
+  line-height: 1;
+  cursor: pointer;
+  text-align: right;
+}
+
+.mobile-nav-toggle i {
+  color: #45505b;
+}
+
+.mobile-nav-active {
+  overflow: hidden;
+}
+
+.mobile-nav-active #header {
+  left: 0;
+}
+
+.mobile-nav-active .mobile-nav-toggle i {
+  color: #333333;
+}
 </style>
 </head>
 <body>
@@ -82,8 +210,32 @@
     <section id="hero2" style="height: 50vh;">
       
     </section><!-- End Hero -->
+   
+   
+    <main id="main" >
+
+    <header id="header2" class="d-flex flex-column justify-content-center">
+
+      <nav class="nav-menu">
+        <ul>
+          <li class="active"><a href="../index.html"><i class="bx bx-home"></i> <span>mythlod <br> home</span></a></li>
+          <li><a href="#when"><i class="bx bx-hourglass"></i> <span>time</span></a></li>
+          <li><a href="#where"><i class="bx bx-map "></i> <span>places</span></a></li>
+          <li><a href="#what"><i class="bx bx-paint"></i><span>contents</span></a></li>
+          <li><a href="#who"><i class="bx bx-body"></i> <span>people</span></a></li>
+          <!-- <li><a href="#contact"><i class="bx bx-envelope"></i> <span>Contact</span></a></li> -->
+        </ul>
+      </nav><!-- .nav-menu -->
+  
+    </header><!-- End Header -->
+
+
+
+
   
 <div id="chartdiv"></div>
+<div class="flourish-embed flourish-bubble-chart" data-src="visualisation/16078984"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+</main>
 <footer id="footer">
 
    
