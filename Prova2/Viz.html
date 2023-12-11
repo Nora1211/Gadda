@@ -34,9 +34,11 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>  
     <script src="https://cdnjs.cloudflare.com/ajax/libs/list.pagination.js/0.1.1/list.pagination.js" integrity="sha512-DgwxWpg8sBTL8c/Q3AB2agigdCpBRVWb3WRNlgaxHWqCNxzv/80XVYXCHSftOrigEF/h8wv+lPjngSAq3fHlGw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>   
-    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+  <!-- Resources -->
+<script src="https://cdn.amcharts.com/lib/5/index.js"></script>
 <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
 <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+
 <style>
     #chartdiv {
   width: 100%;
@@ -234,7 +236,6 @@
 
   
 <div id="chartdiv"></div>
-<div class="flourish-embed flourish-bubble-chart" data-src="visualisation/16078984"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 </main>
 <footer id="footer">
 
@@ -275,263 +276,799 @@
   <script src="assets/js/main.js"></script>
   <script src="assets/js/library.js"></script>
 
-<script>
-    /**
- * ---------------------------------------
- * This demo was created using amCharts 5.
- * 
- * For more information visit:
- * https://www.amcharts.com/
- * 
- * Documentation is available at:
- * https://www.amcharts.com/docs/v5/
- * ---------------------------------------
- */
+  <script>  am5.ready(function () {
+    // Create root element
+    var root = am5.Root.new("chartdiv");
 
-// Create root element
-// https://www.amcharts.com/docs/v5/getting-started/#Root_element
-var root = am5.Root.new("chartdiv");
+    // Set themes
+    root.setThemes([
+      am5themes_Animated.new(root)
+    ]);
 
-// Set themes
-// https://www.amcharts.com/docs/v5/concepts/themes/
-root.setThemes([
-  am5themes_Animated.new(root)
-]);
+    // Create chart
+    var chart = root.container.children.push(am5xy.XYChart.new(root, {
+      panX: true,
+      panY: true,
+      wheelX: "panX",
+      wheelY: "zoomX",
+      pinchZoomX: true,
+      paddingLeft: 0
+    }));
 
-var data = [
-  {
-    name: "Gadda",
-    steps: 49,
-    pictureSettings: {
-      src: "https://www.amcharts.com/wp-content/uploads/2019/04/monica.jpg"
-    }
-  },
-  {
-    name: "Carducci",
-    steps: 21,
-    pictureSettings: {
-      src: "https://www.amcharts.com/wp-content/uploads/2019/04/joey.jpg"
-    }
-  },
-  {
-    name: "Alighieri",
-    steps: 20,
-    pictureSettings: {
-      src: "https://www.amcharts.com/wp-content/uploads/2019/04/ross.jpg"
-    }
-  },
-  {
-    name: "Manzoni",
-    steps: 19,
-    pictureSettings: {
-      src: "https://www.amcharts.com/wp-content/uploads/2019/04/phoebe.jpg"
-    }
-  },
-  {
-    name: "Shakespeare",
-    steps: 19,
-    pictureSettings: {
-      src: "https://www.amcharts.com/wp-content/uploads/2019/04/rachel.jpg"
-    }
-  },
-  {
-    name: "Cicerone",
-    steps: 17,
-    pictureSettings: {
-      src: "https://www.amcharts.com/wp-content/uploads/2019/04/chandler.jpg"
-    }
-  }
-];
+    // Add cursor
+    var cursor = chart.set("cursor", am5xy.XYCursor.new(root, {
+      behavior: "none"
+    }));
+    cursor.lineY.set("visible", false);
 
-// Create chart
-// https://www.amcharts.com/docs/v5/charts/xy-chart/
-var chart = root.container.children.push(
-  am5xy.XYChart.new(root, {
-    panX: false,
-    panY: false,
-    paddingLeft:0,
-    paddingRight:30,
-    wheelX: "none",
-    wheelY: "none"
-  })
-);
+    // Create axes
+    var xAxis = chart.xAxes.push(am5xy.DateAxis.new(root, {
+      baseInterval: { timeUnit: "day", count: 1 },
+      renderer: am5xy.AxisRendererX.new(root, {
+        minorGridEnabled: true
+      }),
+      tooltip: am5.Tooltip.new(root, {})
+    }));
 
-// Create axes
-// https://www.amcharts.com/docs/v5/charts/xy-chart/axes/
+    var yAxis = chart.yAxes.push(am5xy.ValueAxis.new(root, {
+      renderer: am5xy.AxisRendererY.new(root, {})
+    }));
 
-var yRenderer = am5xy.AxisRendererY.new(root, {
-  minorGridEnabled:true
-});
-yRenderer.grid.template.set("visible", false);
+    // Add series
+    var series = chart.series.push(am5xy.LineSeries.new(root, {
+      name: "Series",
+      xAxis: xAxis,
+      yAxis: yAxis,
+      valueYField: "value",
+      valueXField: "date",
+      tooltip: am5.Tooltip.new(root, {
+        labelText: "{valueY}"
+      })
+    }));
 
-var yAxis = chart.yAxes.push(
-  am5xy.CategoryAxis.new(root, {
-    categoryField: "name",
-    renderer: yRenderer,
-    paddingRight:40
-  })
-);
-
-var xRenderer = am5xy.AxisRendererX.new(root, {
-  minGridDistance:80,
-  minorGridEnabled:true
-});
-
-var xAxis = chart.xAxes.push(
-  am5xy.ValueAxis.new(root, {
-    min: 0,
-    renderer: xRenderer
-  })
-);
-
-// Add series
-// https://www.amcharts.com/docs/v5/charts/xy-chart/series/
-var series = chart.series.push(
-  am5xy.ColumnSeries.new(root, {
-    name: "Income",
-    xAxis: xAxis,
-    yAxis: yAxis,
-    valueXField: "steps",
-    categoryYField: "name",
-    sequencedInterpolation: true,
-    calculateAggregates: true,
-    maskBullets: false,
-    tooltip: am5.Tooltip.new(root, {
-      dy: -30,
-      pointerOrientation: "vertical",
-      labelText: "{valueX}"
-    })
-  })
-);
-
-series.columns.template.setAll({
-  strokeOpacity: 0,
-  cornerRadiusBR: 10,
-  cornerRadiusTR: 10,
-  cornerRadiusBL: 10,
-  cornerRadiusTL: 10,
-  maxHeight: 50,
-  fillOpacity: 0.8
-});
-
-var currentlyHovered;
-
-series.columns.template.events.on("pointerover", function(e) {
-  handleHover(e.target.dataItem);
-});
-
-series.columns.template.events.on("pointerout", function(e) {
-  handleOut();
-});
-
-function handleHover(dataItem) {
-  if (dataItem && currentlyHovered != dataItem) {
-    handleOut();
-    currentlyHovered = dataItem;
-    var bullet = dataItem.bullets[0];
-    bullet.animate({
-      key: "locationX",
-      to: 1,
-      duration: 600,
-      easing: am5.ease.out(am5.ease.cubic)
-    });
-  }
-}
-
-function handleOut() {
-  if (currentlyHovered) {
-    var bullet = currentlyHovered.bullets[0];
-    bullet.animate({
-      key: "locationX",
-      to: 0,
-      duration: 600,
-      easing: am5.ease.out(am5.ease.cubic)
-    });
-  }
-}
-
-
-var circleTemplate = am5.Template.new({});
-
-series.bullets.push(function(root, series, dataItem) {
-  var bulletContainer = am5.Container.new(root, {});
-  var circle = bulletContainer.children.push(
-    am5.Circle.new(
-      root,
-      {
-        radius: 34
-      },
-      circleTemplate
-    )
-  );
-
-  var maskCircle = bulletContainer.children.push(
-    am5.Circle.new(root, { radius: 27 })
-  );
-
-  // only containers can be masked, so we add image to another container
-  var imageContainer = bulletContainer.children.push(
-    am5.Container.new(root, {
-      mask: maskCircle
-    })
-  );
-
-  // not working
-  var image = imageContainer.children.push(
-    am5.Picture.new(root, {
-      templateField: "pictureSettings",
-      centerX: am5.p50,
-      centerY: am5.p50,
-      width: 60,
+    // Add scrollbar
+    var scrollbar = chart.set("scrollbarX", am5xy.XYChartScrollbar.new(root, {
+      orientation: "horizontal",
       height: 60
-    })
-  );
+    }));
 
-  return am5.Bullet.new(root, {
-    locationX: 0,
-    sprite: bulletContainer
-  });
-});
+    var sbDateAxis = scrollbar.chart.xAxes.push(am5xy.DateAxis.new(root, {
+      baseInterval: {
+        timeUnit: "day",
+        count: 1
+      },
+      renderer: am5xy.AxisRendererX.new(root, {
+        minorGridEnabled: true,
+        minGridDistance: 70
+      })
+    }));
 
-// heatrule
-series.set("heatRules", [
+    var sbValueAxis = scrollbar.chart.yAxes.push(
+      am5xy.ValueAxis.new(root, {
+        renderer: am5xy.AxisRendererY.new(root, {})
+      })
+    );
+
+    var sbSeries = scrollbar.chart.series.push(am5xy.LineSeries.new(root, {
+      valueYField: "value",
+      valueXField: "date",
+      xAxis: sbDateAxis,
+      yAxis: sbValueAxis
+    }));
+
+    // Your provided JSON data
+    var jsonData = {
+      "editions": [
   {
-    dataField: "valueX",
-    min: am5.color(0xe5dc36),
-    max: am5.color(0x5faa46),
-    target: series.columns.template,
-    key: "fill"
+    "Year": 1453,
+    "Number of Books": 1
   },
   {
-    dataField: "valueX",
-    min: am5.color(0xe5dc36),
-    max: am5.color(0x5faa46),
-    target: circleTemplate,
-    key: "fill"
+    "Year": 1571,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1573,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1581,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1600,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1618,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1637,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1700,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1731,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1745,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1752,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1758,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1763,
+    "Number of Books": 2
+  },
+  {
+    "Year": 1778,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1786,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1790,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1797,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1807,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1809,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1813,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1814,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1818,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1819,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1820,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1821,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1822,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1823,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1825,
+    "Number of Books": 3
+  },
+  {
+    "Year": 1826,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1828,
+    "Number of Books": 3
+  },
+  {
+    "Year": 1829,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1830,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1831,
+    "Number of Books": 5
+  },
+  {
+    "Year": 1832,
+    "Number of Books": 2
+  },
+  {
+    "Year": 1833,
+    "Number of Books": 3
+  },
+  {
+    "Year": 1835,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1836,
+    "Number of Books": 2
+  },
+  {
+    "Year": 1837,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1838,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1839,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1840,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1841,
+    "Number of Books": 2
+  },
+  {
+    "Year": 1842,
+    "Number of Books": 3
+  },
+  {
+    "Year": 1843,
+    "Number of Books": 4
+  },
+  {
+    "Year": 1844,
+    "Number of Books": 6
+  },
+  {
+    "Year": 1845,
+    "Number of Books": 3
+  },
+  {
+    "Year": 1846,
+    "Number of Books": 2
+  },
+  {
+    "Year": 1847,
+    "Number of Books": 2
+  },
+  {
+    "Year": 1850,
+    "Number of Books": 4
+  },
+  {
+    "Year": 1851,
+    "Number of Books": 2
+  },
+  {
+    "Year": 1853,
+    "Number of Books": 7
+  },
+  {
+    "Year": 1854,
+    "Number of Books": 4
+  },
+  {
+    "Year": 1855,
+    "Number of Books": 3
+  },
+  {
+    "Year": 1856,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1857,
+    "Number of Books": 3
+  },
+  {
+    "Year": 1858,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1859,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1860,
+    "Number of Books": 2
+  },
+  {
+    "Year": 1861,
+    "Number of Books": 2
+  },
+  {
+    "Year": 1862,
+    "Number of Books": 2
+  },
+  {
+    "Year": 1863,
+    "Number of Books": 2
+  },
+  {
+    "Year": 1864,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1865,
+    "Number of Books": 2
+  },
+  {
+    "Year": 1866,
+    "Number of Books": 3
+  },
+  {
+    "Year": 1867,
+    "Number of Books": 3
+  },
+  {
+    "Year": 1868,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1869,
+    "Number of Books": 2
+  },
+  {
+    "Year": 1870,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1871,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1872,
+    "Number of Books": 2
+  },
+  {
+    "Year": 1873,
+    "Number of Books": 2
+  },
+  {
+    "Year": 1874,
+    "Number of Books": 3
+  },
+  {
+    "Year": 1875,
+    "Number of Books": 4
+  },
+  {
+    "Year": 1876,
+    "Number of Books": 4
+  },
+  {
+    "Year": 1877,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1878,
+    "Number of Books": 6
+  },
+  {
+    "Year": 1879,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1880,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1881,
+    "Number of Books": 5
+  },
+  {
+    "Year": 1882,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1883,
+    "Number of Books": 7
+  },
+  {
+    "Year": 1884,
+    "Number of Books": 3
+  },
+  {
+    "Year": 1885,
+    "Number of Books": 5
+  },
+  {
+    "Year": 1886,
+    "Number of Books": 7
+  },
+  {
+    "Year": 1887,
+    "Number of Books": 4
+  },
+  {
+    "Year": 1888,
+    "Number of Books": 3
+  },
+  {
+    "Year": 1889,
+    "Number of Books": 3
+  },
+  {
+    "Year": 1890,
+    "Number of Books": 5
+  },
+  {
+    "Year": 1891,
+    "Number of Books": 4
+  },
+  {
+    "Year": 1892,
+    "Number of Books": 3
+  },
+  {
+    "Year": 1893,
+    "Number of Books": 7
+  },
+  {
+    "Year": 1894,
+    "Number of Books": 1
+  },
+  {
+    "Year": 1895,
+    "Number of Books": 6
+  },
+  {
+    "Year": 1896,
+    "Number of Books": 7
+  },
+  {
+    "Year": 1897,
+    "Number of Books": 5
+  },
+  {
+    "Year": 1898,
+    "Number of Books": 3
+  },
+  {
+    "Year": 1899,
+    "Number of Books": 4
+  },
+  {
+    "Year": 1900,
+    "Number of Books": 4
+  },
+  {
+    "Year": 1901,
+    "Number of Books": 11
+  },
+  {
+    "Year": 1902,
+    "Number of Books": 7
+  },
+  {
+    "Year": 1903,
+    "Number of Books": 10
+  },
+  {
+    "Year": 1904,
+    "Number of Books": 4
+  },
+  {
+    "Year": 1905,
+    "Number of Books": 15
+  },
+  {
+    "Year": 1906,
+    "Number of Books": 7
+  },
+  {
+    "Year": 1907,
+    "Number of Books": 12
+  },
+  {
+    "Year": 1908,
+    "Number of Books": 19
+  },
+  {
+    "Year": 1909,
+    "Number of Books": 11
+  },
+  {
+    "Year": 1910,
+    "Number of Books": 18
+  },
+  {
+    "Year": 1911,
+    "Number of Books": 14
+  },
+  {
+    "Year": 1912,
+    "Number of Books": 28
+  },
+  {
+    "Year": 1913,
+    "Number of Books": 30
+  },
+  {
+    "Year": 1914,
+    "Number of Books": 27
+  },
+  {
+    "Year": 1915,
+    "Number of Books": 32
+  },
+  {
+    "Year": 1916,
+    "Number of Books": 23
+  },
+  {
+    "Year": 1917,
+    "Number of Books": 15
+  },
+  {
+    "Year": 1918,
+    "Number of Books": 9
+  },
+  {
+    "Year": 1919,
+    "Number of Books": 30
+  },
+  {
+    "Year": 1920,
+    "Number of Books": 37
+  },
+  {
+    "Year": 1921,
+    "Number of Books": 18
+  },
+  {
+    "Year": 1922,
+    "Number of Books": 27
+  },
+  {
+    "Year": 1923,
+    "Number of Books": 28
+  },
+  {
+    "Year": 1924,
+    "Number of Books": 31
+  },
+  {
+    "Year": 1925,
+    "Number of Books": 31
+  },
+  {
+    "Year": 1926,
+    "Number of Books": 29
+  },
+  {
+    "Year": 1927,
+    "Number of Books": 29
+  },
+  {
+    "Year": 1928,
+    "Number of Books": 31
+  },
+  {
+    "Year": 1929,
+    "Number of Books": 42
+  },
+  {
+    "Year": 1930,
+    "Number of Books": 47
+  },
+  {
+    "Year": 1931,
+    "Number of Books": 41
+  },
+  {
+    "Year": 1932,
+    "Number of Books": 42
+  },
+  {
+    "Year": 1933,
+    "Number of Books": 39
+  },
+  {
+    "Year": 1934,
+    "Number of Books": 44
+  },
+  {
+    "Year": 1935,
+    "Number of Books": 29
+  },
+  {
+    "Year": 1936,
+    "Number of Books": 26
+  },
+  {
+    "Year": 1937,
+    "Number of Books": 32
+  },
+  {
+    "Year": 1938,
+    "Number of Books": 63
+  },
+  {
+    "Year": 1939,
+    "Number of Books": 65
+  },
+  {
+    "Year": 1940,
+    "Number of Books": 54
+  },
+  {
+    "Year": 1941,
+    "Number of Books": 84
+  },
+  {
+    "Year": 1942,
+    "Number of Books": 115
+  },
+  {
+    "Year": 1943,
+    "Number of Books": 63
+  },
+  {
+    "Year": 1944,
+    "Number of Books": 40
+  },
+  {
+    "Year": 1945,
+    "Number of Books": 53
+  },
+  {
+    "Year": 1946,
+    "Number of Books": 52
+  },
+  {
+    "Year": 1947,
+    "Number of Books": 28
+  },
+  {
+    "Year": 1948,
+    "Number of Books": 34
+  },
+  {
+    "Year": 1949,
+    "Number of Books": 50
+  },
+  {
+    "Year": 1950,
+    "Number of Books": 66
+  },
+  {
+    "Year": 1951,
+    "Number of Books": 69
+  },
+  {
+    "Year": 1952,
+    "Number of Books": 78
+  },
+  {
+    "Year": 1953,
+    "Number of Books": 58
+  },
+  {
+    "Year": 1954,
+    "Number of Books": 51
+  },
+  {
+    "Year": 1955,
+    "Number of Books": 43
+  },
+  {
+    "Year": 1956,
+    "Number of Books": 30
+  },
+  {
+    "Year": 1957,
+    "Number of Books": 29
+  },
+  {
+    "Year": 1958,
+    "Number of Books": 27
+  },
+  {
+    "Year": 1959,
+    "Number of Books": 30
+  },
+  {
+    "Year": 1960,
+    "Number of Books": 50
+  },
+  {
+    "Year": 1961,
+    "Number of Books": 35
+  },
+  {
+    "Year": 1962,
+    "Number of Books": 35
+  },
+  {
+    "Year": 1963,
+    "Number of Books": 25
+  },
+  {
+    "Year": 1964,
+    "Number of Books": 44
+  },
+  {
+    "Year": 1965,
+    "Number of Books": 51
+  },
+  {
+    "Year": 1966,
+    "Number of Books": 48
+  },
+  {
+    "Year": 1967,
+    "Number of Books": 30
+  },
+  {
+    "Year": 1968,
+    "Number of Books": 51
+  },
+  {
+    "Year": 1969,
+    "Number of Books": 27
+  },
+  {
+    "Year": 1970,
+    "Number of Books": 34
+  },
+  {
+    "Year": 1971,
+    "Number of Books": 27
+  },
+  {
+    "Year": 1972,
+    "Number of Books": 24
+  },
+  {
+    "Year": 1973,
+    "Number of Books": 13
+  },
+  {
+    "Year": "s.d",
+    "Number of Books": 3
+  },
+  {
+    "Year": "s.d.",
+    "Number of Books": 147
   }
-]);
+]
+    };
 
-series.data.setAll(data);
-yAxis.data.setAll(data);
+    // Convert JSON data to the required format
+    var data = jsonData.editions.map(entry => ({
+      date: new Date(entry.Year, 0, 1).getTime(),
+      value: entry["Number of Books"]
+    }));
 
-var cursor = chart.set("cursor", am5xy.XYCursor.new(root, {}));
-cursor.lineX.set("visible", false);
-cursor.lineY.set("visible", false);
+    // Set data for both main series and scrollbar series
+    series.data.setAll(data);
+    sbSeries.data.setAll(data);
 
-cursor.events.on("cursormoved", function() {
-  var dataItem = series.get("tooltip").dataItem;
-  if (dataItem) {
-    handleHover(dataItem)
-  }
-  else {
-    handleOut();
-  }
-})
-
-// Make stuff animate on load
-// https://www.amcharts.com/docs/v5/concepts/animations/
-series.appear();
-chart.appear(1000, 100);
+    // Make stuff animate on load
+    series.appear(1000);
+    chart.appear(1000, 100);
+  });
+</script>
 </script>
 </body>
 

@@ -1,20 +1,13 @@
 import pandas as pd
 
-# Read the Excel file into a DataFrame
-df = pd.read_excel('CorrispondenzeVero.xlsx')
+# Assuming your Excel file is named 'your_file.xlsx'
+file_path = 'OutputBooks.xlsx'
 
-# Combine all cells into a single column
-df['Combined'] = df.apply(lambda row: ''.join(map(str, row)), axis=1)
+# Read the Excel file into a pandas DataFrame
+df = pd.read_excel(file_path)
 
-# Count occurrences of each digit from 0 to 9
-digit_columns = [str(i) for i in range(10)]
-for digit in digit_columns:
-    df[digit] = df['Combined'].apply(lambda x: x.count(digit))
+# Group the data by 'Years' and count the number of books for each year
+books_per_year = df.groupby('Years').size().reset_index(name='Number of Books')
 
-# Find the maximum occurrences
-max_occurrences = df[digit_columns].sum().max()
-
-# Identify the author with the highest occurrences
-author_highest_occurrences = df.loc[df[digit_columns].sum(axis=1) == max_occurrences, 'author']
-
-print(f"Author with the highest occurrences of numbers: {author_highest_occurrences.values[0]}")
+# Print the result
+print(books_per_year)
