@@ -1791,9 +1791,7 @@
             </label>
           </div>
           <div class="dropdown-container">
-            <select id="signalDropdown" class="dropdowna">
-              <option value="">Browse through the schede tematiche</option>
-            </select>
+           
           </div>
           <div id="buttonsContainer"></div>
         </div>
@@ -1861,7 +1859,10 @@
   <script src="Library2.js"></script>
 <script>
 
-
+function redirectToAnotherPage() {
+    // Replace 'destination.html' with the URL of the page you want to redirect to
+    window.location.href = 'library.html';
+  }
 //ROBA PER CERCARE I MATCH
 document.addEventListener('DOMContentLoaded', function () {
     // Get the value of the "schedeValue" query parameter from the URL
@@ -1890,14 +1891,32 @@ document.addEventListener('DOMContentLoaded', function () {
             return false;
         });
         showMatchingItems(matchingArchItems);
+        // Initialize DataTable with matching items
+
+        // Check if DataTable is already initialized
+        if ($.fn.DataTable.isDataTable('#jsonTable')) {
+            // If initialized, destroy the existing instance
+            $('#jsonTable').DataTable().destroy();
+        }
+        const table = showMatchingItems(matchingArchItems);
+
+        // Create filter buttons
+        createFilterButtons(table);
+
+
+         // Initialize DataTable with matching items
+
+
     }
-});
 
 
 // FINE ROBE PER CERCARE I MATCH
 
 
+
+
 //CREAZIONE TABLE
+
 function showMatchingItems(matchingItems) {
     // DataTable initialization
     const table = $('#jsonTable').DataTable({
@@ -1963,6 +1982,8 @@ return `<div>${boldFormattedData}</div>`;
 
     ]
 })
+return table; 
+// Return DataTable instance
 };
 //FINE CREAZIONE TABLE
 
@@ -1993,24 +2014,14 @@ accordion.addEventListener('click', function() {
 });
 
 
-
-
-function createFilterButtons(matchingItems) {
-    function createFilterButtons(matchingItems) {
-  console.log('createFilterButtons called with matchingItems:', matchingItems);
-
-  // Rest of the function code...
-}
-
+function createFilterButtons(table) {
   const valuesCount = {};
-
-  matchingItems.forEach(function (item) {
-    const archDesc = item["Archival Description"];
+  table.rows().every(function () {
+    const data = this.data();
+    const archDesc = data["Archival Description"];
     const match = archDesc.match(/archivio:\s*(.*?)\//i);
-
     if (match && match[1]) {
       const value = match[1].trim();
-
       if (!valuesCount[value]) {
         valuesCount[value] = 1;
       } else {
@@ -2043,18 +2054,41 @@ function createFilterButtons(matchingItems) {
 
   $('.filter-button').on('click', function () {
     const value = $(this).data('value');
-    const filteredItems = matchingItems.filter(item => {
-      const archDesc = item["Archival Description"];
-      return archDesc.includes(`archivio: ${value}`);
-    });
-
-    // Display the filtered items
-    showMatchingItems(filteredItems);
+    table.search(`archivio: ${value}`).draw();
   });
 
-  handleCheckboxChanges();
-}
 
+
+  function handleCheckboxChanges() {
+        const inediteItems = ['AbLau', 'AppNarr', 'AppRad', 'AppRecArt', 'AppPers', 'AppBag', 'AppScol', 'AppUni', 'AppBibFil', 'AppBibIt', 'AppBibLat', 'AppFi', 'AppLetAm', 'AppLetIng', 'AppLetFr', 'AppLetIt', 'AppLetLat', 'AppLetTed', 'AppMat', 'AppSto', 'AppVia', 'AppGue', 'AppTec', 'ArtLet', 'ArtTec', 'Cont', 'DiQuaScol', 'DiRes', 'DisTec', 'Epi', 'Ind', 'NoID', 'ProPrCri', 'ProNarr', 'ProArt', 'ProSta', 'QuaScol', 'RacIn', 'Recstra', 'RecIn', 'RecIta', 'RecStra', 'ScheBio', 'ScheEd', 'TestIn', 'TesParEd', 'Trad', 'TradIn', 'TradNoid']; // Replace with your list of opere inedite items
+        const editeItems = ["AG", "AS", "AZ","DM", "DG", "EP67", "EP", "GGP", "A", "GB", "HJ", "LDF", "MdS", "SF", "VM", "CdU", "GASP", "PdO", "PLF", "TO", "TE", "L'A", "CR", "CdD", "GG", "MdF", "M", "MM", "VS", "Biz", "MdI", "NS", "NDF", "DT", "P", "QP", "RD", "RAI", "RI", "Opere I", "Opere II", "Opere III", "Opere IV", "SA", "TR", "UI", "FU", "VLC", "VB", "Conf", "LaP", "SD - VERSILIA"]; // Replace with your list of opere edite items
+        
+        const inediteFilter = inediteItems.map(item => `Schede: ${item}`).join('|');
+        const editeFilter = editeItems.map(item => `Schede: ${item}`).join('|');
+        
+        const inediteChecked = $('#opereInediteCheckbox').is(':checked');
+        const editeChecked = $('#opereEditeCheckbox').is(':checked');
+        
+        if (inediteChecked && editeChecked) {
+            table.column(1).search(`${inediteFilter}|${editeFilter}`, true, false).draw();
+        } else if (inediteChecked) {
+            table.column(1).search(inediteFilter, true, false).draw();
+        } else if (editeChecked) {
+            table.column(1).search(editeFilter, true, false).draw();
+        } else {
+            table.column(1).search('').draw();
+        }
+
+
+// Create filter buttons
+      }}
+
+
+
+     
+
+
+});
 
     
 </script>

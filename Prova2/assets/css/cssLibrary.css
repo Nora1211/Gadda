@@ -297,12 +297,17 @@ display:none;
 
 
 
-.SchedeTematiche {
+.schede-link {
   cursor: pointer;
   color: #b7491d; /* Optional: Change the color to indicate a link */
+  text-decoration: underline;
 }
 
-.SchedeTematiche:hover {
+
+
+
+
+.schede-link:hover {
   cursor: pointer;
   color: #cd8061; /* Optional: Change the color to indicate a link */
 }
