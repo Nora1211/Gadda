@@ -36,7 +36,34 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/list.pagination.js/0.1.1/list.pagination.js" integrity="sha512-DgwxWpg8sBTL8c/Q3AB2agigdCpBRVWb3WRNlgaxHWqCNxzv/80XVYXCHSftOrigEF/h8wv+lPjngSAq3fHlGw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>   
     <style>
 
+#arrow_box {
+	position: relative;
+	background: #b7491d;
+	border: 4px solid #b7491d;
+}
+ #arrow_box:after, .arrow_box:before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: "";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
 
+#arrow_box:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-top-color: #b7491d;
+	border-width: 30px;
+	margin-left: -30px;
+}
+#arrow_box:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-top-color: #c2e1f5;
+	border-width: 36px;
+	margin-left: -36px;
+}
 
 #matchingItems2{
   display: none;
@@ -275,7 +302,7 @@
   </p>
 
   <div style="display: flex; ">
-<div class="count-container">
+<div class="count-container" id="arrow_box">
     <img width="50" height="50" src="https://img.icons8.com/ios/50/literature--v1.png" alt="literature--v1"/>
     <span class="count">0</span>
   </div>

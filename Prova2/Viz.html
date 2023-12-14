@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Library Catalog</title>
+  <title>Viz</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -222,9 +222,9 @@
       <nav class="nav-menu">
         <ul>
           <li class="active"><a href="../index.html"><i class="bx bx-home"></i> <span>  home</span></a></li>
-          <li><a href="#time"><i class="bx bx-book"></i> <span>books</span></a></li>
-          <li><a href="#author"><i class="bx bx-user "></i> <span>authors</span></a></li>
-          <li><a href="#annotation"><i class="bx bx-edit-alt"></i><span>annotation</span></a></li>
+          <li><a href="#authors"><i class="bx bx-user "></i> <span>authors</span></a></li>
+          <li><a href="#books"><i class="bx bx-book"></i> <span>books</span></a></li>
+          <li><a href="#annotations"><i class="bx bx-edit-alt"></i><span>annotation</span></a></li>
           <!-- <li><a href="#contact"><i class="bx bx-envelope"></i> <span>Contact</span></a></li> -->
         </ul>
       </nav><!-- .nav-menu -->
@@ -232,11 +232,22 @@
     </header><!-- End Header -->
 
 
-    <div class="flourish-embed flourish-hierarchy" data-src="visualisation/16078823"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-    <div class="flourish-embed flourish-bubble-chart" data-src="visualisation/16078984"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+    <section id="authors" class="authors">
+      <div class="flourish-embed flourish-bubble-chart" data-src="visualisation/16078984"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+</section>
+
+    <section id="books" class="books">
+    <div class="flourish-embed flourish-hierarchy" data-src="visualisation/16078823" style="
+    width: 50%; float: right;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
   
-<div id="chartdiv"></div>
-<div class="flourish-embed flourish-chart" data-src="visualisation/16084011"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div id="chartdiv" style="display: inline-block;"></div>
+</section>
+
+<section id="annotations" class="annotations">
+  <div class="flourish-embed flourish-chart" data-src="visualisation/16084011" style="
+width: 50%;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+</section>
+   
 </main>
 <footer id="footer">
 
