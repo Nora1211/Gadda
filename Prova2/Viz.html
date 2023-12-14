@@ -91,13 +91,14 @@
 .nav-menu a {
   display: flex;
   align-items: center;
-  color: #45505b;
-  padding: 10px 18px;
+  color: #b7491d;
+  border: 2px solid #b7491d;
+    padding: 10px 18px;
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
-  background: #f2f3f5;
+  background: #f7f2df;
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -110,7 +111,7 @@
 
 .nav-menu a span {
   padding: 0 5px 0 7px;
-  color: #45505b;
+  color: #b7491d;
 }
 
 @media (min-width: 992px) {
@@ -124,17 +125,17 @@
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #fff;
-  background: #333333;
+  color: #f7f2df;
+  background: #b7491d;
 }
 
 .nav-menu a:hover span, .nav-menu .active > a span, .nav-menu li:hover > a span {
-  color: #fff;
+  color: #f7f2df;
 }
 
 .nav-menu a:hover, .nav-menu li:hover > a {
   width: 100%;
-  color: #fff;
+  color: #f7f2df;
 }
 
 .nav-menu a:hover span, .nav-menu li:hover > a span {
@@ -170,7 +171,7 @@
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #333333;
+  color: #b7491d;
 }
 </style>
 </head>
@@ -220,11 +221,10 @@
 
       <nav class="nav-menu">
         <ul>
-          <li class="active"><a href="../index.html"><i class="bx bx-home"></i> <span>mythlod <br> home</span></a></li>
-          <li><a href="#when"><i class="bx bx-hourglass"></i> <span>time</span></a></li>
-          <li><a href="#where"><i class="bx bx-map "></i> <span>places</span></a></li>
-          <li><a href="#what"><i class="bx bx-paint"></i><span>contents</span></a></li>
-          <li><a href="#who"><i class="bx bx-body"></i> <span>people</span></a></li>
+          <li class="active"><a href="../index.html"><i class="bx bx-home"></i> <span>  home</span></a></li>
+          <li><a href="#time"><i class="bx bx-book"></i> <span>books</span></a></li>
+          <li><a href="#author"><i class="bx bx-user "></i> <span>authors</span></a></li>
+          <li><a href="#annotation"><i class="bx bx-edit-alt"></i><span>annotation</span></a></li>
           <!-- <li><a href="#contact"><i class="bx bx-envelope"></i> <span>Contact</span></a></li> -->
         </ul>
       </nav><!-- .nav-menu -->
@@ -232,10 +232,11 @@
     </header><!-- End Header -->
 
 
-
-
+    <div class="flourish-embed flourish-hierarchy" data-src="visualisation/16078823"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+    <div class="flourish-embed flourish-bubble-chart" data-src="visualisation/16078984"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
   
 <div id="chartdiv"></div>
+<div class="flourish-embed flourish-chart" data-src="visualisation/16084011"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 </main>
 <footer id="footer">
 
@@ -276,9 +277,13 @@
   <script src="assets/js/main.js"></script>
   <script src="assets/js/library.js"></script>
 
-  <script>  am5.ready(function () {
+  <script> 
+  
+  am5.ready(function () {
     // Create root element
     var root = am5.Root.new("chartdiv");
+
+    
 
     // Set themes
     root.setThemes([
@@ -301,32 +306,71 @@
     }));
     cursor.lineY.set("visible", false);
 
+
+
+
+    
     // Create axes
     var xAxis = chart.xAxes.push(am5xy.DateAxis.new(root, {
-      baseInterval: { timeUnit: "day", count: 1 },
-      renderer: am5xy.AxisRendererX.new(root, {
-        minorGridEnabled: true
-      }),
-      tooltip: am5.Tooltip.new(root, {})
-    }));
+  maxDeviation: 0.5,
+  baseInterval: {
+    timeUnit: "day",
+    count: 1
+  },
+  renderer: am5xy.AxisRendererX.new(root, {
+    minGridDistance: 80,
+    minorGridEnabled: true,
+    pan: "zoom"
+  }),
+  tooltip: am5.Tooltip.new(root, {})
+}));
 
-    var yAxis = chart.yAxes.push(am5xy.ValueAxis.new(root, {
-      renderer: am5xy.AxisRendererY.new(root, {})
-    }));
-
+var yAxis = chart.yAxes.push(am5xy.ValueAxis.new(root, {
+  maxDeviation: 1,
+  renderer: am5xy.AxisRendererY.new(root, {
+    pan: "zoom"
+  })
+}));
     // Add series
-    var series = chart.series.push(am5xy.LineSeries.new(root, {
-      name: "Series",
-      xAxis: xAxis,
-      yAxis: yAxis,
-      valueYField: "value",
-      valueXField: "date",
-      tooltip: am5.Tooltip.new(root, {
-        labelText: "{valueY}"
-      })
-    }));
+    var series = chart.series.push(am5xy.SmoothedXLineSeries.new(root, {
+  name: "Series",
+  xAxis: xAxis,
+  yAxis: yAxis,
+  valueYField: "value",
+  valueXField: "date",
+  tooltip: am5.Tooltip.new(root, {
+    labelText: "{valueY}"
+  })
+}));
 
-    // Add scrollbar
+series.fills.template.setAll({
+  visible: true,
+  fillOpacity: 0.2,
+});
+
+series.bullets.push(function () {
+  return am5.Bullet.new(root, {
+    locationY: 0,
+    sprite: am5.Circle.new(root, {
+      radius: 4,
+      stroke: root.interfaceColors.get("background"),
+      fill: series.get("fill")
+    })
+  });
+});
+
+
+
+//COLORI
+series.set("fill", am5.color("#b7491d")); // set Series color to red
+series.set("stroke", am5.color("#b5291d")); // set Series color to red
+series.set("labelText", am5.color("#b5291d")); // set Series color to red
+
+
+
+
+
+// Add scrollbar
     var scrollbar = chart.set("scrollbarX", am5xy.XYChartScrollbar.new(root, {
       orientation: "horizontal",
       height: 60
