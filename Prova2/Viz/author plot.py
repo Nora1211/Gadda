@@ -1,4 +1,8 @@
+
+import pandas as pd
 from collections import Counter
+
+
 
 jsonData =[{
     "Id":0,
@@ -32952,8 +32956,23 @@ jsonData =[{
 author_counts = Counter(item["Authors"] for item in jsonData)
 
 # Get the top N most frequent authors (in this case, top 5)
-top_n_authors = author_counts.most_common(10)
+top_n_authors = author_counts.most_common(21)
 
-# Display the results
+# Create a DataFrame from the top authors
+df = pd.DataFrame(top_n_authors, columns=['Author', 'Count'])
+
+# Export to Excel file
+excel_file_path = 'top_authors.xlsx'
+df.to_excel(excel_file_path, index=False)
+
+# Display the results with swapped first and last names
 for author, count in top_n_authors:
-    print(f"{author}: {count} occurrences")
+    # Split the author's name based on spaces
+    names = author.split()
+    
+    # Swap the first and last names if there are at least two names
+    swapped_name = ' '.join(names[::-1]) if len(names) >= 2 else author
+    
+    print(f"{swapped_name}: {count} occurrences")
+
+print(f"\nResults exported to {excel_file_path}")
