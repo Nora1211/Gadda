@@ -244,7 +244,7 @@ section {
 
       <nav class="nav-menu">
         <ul>
-          <li class="active"><a href="../index.html"><i class="bx bx-home"></i> <span>  home</span></a></li>
+          <li class="active"><a href="index.html"><i class="bx bx-home"></i> <span>  home</span></a></li>
           <li><a href="#authors"><i class="bx bx-user "></i> <span>authors</span></a></li>
           <li><a href="#books"><i class="bx bx-book"></i> <span>books</span></a></li>
           <li><a href="#annotations"><i class="bx bx-edit-alt"></i><span>annotation</span></a></li>
@@ -344,6 +344,21 @@ section {
       </div>
     </div>
     
+
+    <div class="row">
+      <div class="col-sm-12 col-md-9">
+        <div class="flourish-embed flourish-word-cloud" data-src="visualisation/16204689">
+          <script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+        </div>
+  
+  
+        <div class="col-sm-12 col-md-3">  
+         <p>suca</p>
+      </div>
+
+
+
 </section>
    
 
@@ -391,6 +406,14 @@ section {
   <script src="assets/js/library.js"></script>
 
   <script> 
+   $(document).on('click', '.nav-menu a, .scrollto', function(e) {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      if (target.length) {
+        e.preventDefault();
+      }}});
+
+
   
   am5.ready(function () {
     // Create root element
