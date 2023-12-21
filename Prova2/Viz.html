@@ -33,7 +33,7 @@
 
   <link href="assets/css/style.css" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>  
     <script src="https://cdnjs.cloudflare.com/ajax/libs/list.pagination.js/0.1.1/list.pagination.js" integrity="sha512-DgwxWpg8sBTL8c/Q3AB2agigdCpBRVWb3WRNlgaxHWqCNxzv/80XVYXCHSftOrigEF/h8wv+lPjngSAq3fHlGw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>   
   <!-- Resources -->
 <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
@@ -42,10 +42,7 @@
 
 <style>
 
-  canvas {
-    width: 800px;
-
-  }
+  
     #chartdiv {
   width: 100%;
   height: 600px;
@@ -185,7 +182,7 @@
 }
 
 
-.containerHome{
+#containerHome{
   border: 2px solid #b7491d;
     border-radius: 50px;
     margin-right: -39px;
@@ -196,15 +193,32 @@
   margin-top: 100px;
 }
 
+section{
+  padding: 0 0;
+}
 section {
-  margin-bottom: 1.3rem;
-    margin-top: 1.3rem
+    margin-bottom: 1.3rem;
+    margin-top: 1.3rem;
 }
 
-#genre {
-  margin-top: -169px;
-  margin-bottom: -396px 
+.row{
+  margin: 50px
 }
+
+#nbr{font-weight: bold;
+    font-size: 27px;
+    color: #b7491d;
+}
+
+.highlight{
+  color: #b7491d;
+}
+
+.bold-style{
+font-weight: bold;
+}
+
+
 </style>
 </head>
 <body>
@@ -250,11 +264,11 @@ section {
 
       <nav class="nav-menu">
         <ul>
-          <li class="active"><a href="index.html"><i class="bx bx-home"></i> <span>  home</span></a></li>
+          <li class="active"><a href="#home"><i class="bx bx-home"></i> <span>  home</span></a></li>
           <li><a href="#authors"><i class="bx bx-user "></i> <span>authors</span></a></li>
           <li><a href="#books"><i class="bx bx-book"></i> <span>books</span></a></li>
           <li><a href="#annotations"><i class="bx bx-edit-alt"></i><span>annotation</span></a></li>
-          <!-- <li><a href="#contact"><i class="bx bx-envelope"></i> <span>Contact</span></a></li> -->
+        
         </ul>
       </nav><!-- .nav-menu -->
   
@@ -262,17 +276,24 @@ section {
 
 
     <section id="home" class="home">
-      <div class="containerHome" data-aos="zoom-in" data-aos-delay="100">
-        <h1>Meet Gadda through his library</h1>
+      <div id="containerHome" class="container" data-aos="fade-up" >
+        <h1>Explore Gadda's literary world by browsing through his bookshelves.</h1>
         
       </div>
       <div class="row">
-        <div class="col-sm-12 col-md-9">
+        <div class="col-sm-12 col-md-7">
                  
-      <div id="observablehq-image-73bb894e" width="800px"></div>
+      <div id="observablehq-image-73bb894e" ></div>
         </div>
-        <div class="col-sm-12 col-md-3">
-          spiegone
+        <div class="col-sm-12 col-md-5">
+         <p>Delving into <span class="highlight">Gadda's personal library </span>offers a unique insight into the preferences and habits that shaped him as an author. The data extracted from his library allows us to explore the mind of the engineer through a careful analysis. This page presents the data with the goal of providing a straightforward <span class="highlight">visualization </span>of key aspects:
+         
+          <ul>
+            <li><span class="bold-style">Authors</span>. Representation of the writers present in Gadda's library.</li>
+          <li><span class="bold-style">Books</span>. Information about the volumes, including genre and edition year, to offer a comprehensive view of Gadda's literary collection.</li>
+          <li><span class="bold-style">Annotation</span>.Focusing exclusively on the text annotated by Gadda, shedding light on his thoughts and interactions with the content.</li>
+        </ul>
+            </p>
           </div>
       </div>
         </section>
@@ -283,7 +304,18 @@ section {
                 <div class="col-sm-12 col-md-3">
                  
                     <div class="box arrow-right">
-                      The timeline answers to the question: <br><br> <span style="font-family: 'Trebuchet MS', sans-serif;">&#8220;Which are the museal objects which shares some theme in common with Aeneis and when have they been created? &#8221;
+                      
+                     
+Out of 
+<p id="nbr" style="display: inline;"> 2158 </p> authors in his library, here are the <span class="bold-style">top 20</span> personalities who are most prominently represented. The data are shown in a bubble chart format, through scaled circles containing images and text. Each bubble is sized by its value.
+<br>
+<br>
+<span style="font-size: smaller; font-weight: 900; color: #b7491d;">
+<i class="bx bx-chevron-right-circle" style="
+color: #b7491d;;font-weight: 900;font-size: large;"></i> Hover on each bubble to find the number of books of each author
+</span>
+
+ 
                     </div>
                   </div>
                   <div class="col-sm-12 col-md-9">
@@ -298,7 +330,13 @@ section {
       <div class="col-sm-12 col-md-3">
                  
         <div class="box arrow-right">
-          The timeline answers to the question: <br><br> <span style="font-family: 'Trebuchet MS', sans-serif;">&#8220;Which are the museal objects which shares some theme in common with Aeneis and when have they been created? &#8221;
+          Among the <span class="bold-style">top six authors</span>, Gadda emerges as the most prevalent, demonstrating both the prominence of his own literary production and a diverse selection of classic authors.
+          <br>
+          <br>
+<span style="font-size: smaller; font-weight: 900; color: #b7491d;">
+<i class="bx bx-chevron-right-circle" style="color: #b7491d;;font-weight: 900;font-size: large;"></i> 
+Interact with the moving bullets of the bar chart to find the number of books
+</span>
         </div>
       </div>
       </div>
@@ -312,15 +350,26 @@ section {
         </div>
     </section>
 
-    <section id="books" class="books">
+    <section id="books"  class="books">
       <div class="row">
-        <div class="col-sm-12 col-md-9">
+        <div id="genrechart" class="col-sm-12 col-md-9">
           <div class="flourish-embed flourish-hierarchy" id="genre" data-src="visualisation/16078823" >
-          <script src="https://public.flourish.studio/resources/embed.js"></script></div>        </div>
+          <script src="https://public.flourish.studio/resources/embed.js"></script></div>    
+            </div>
         <div class="col-sm-12 col-md-3">
                    
           <div class="box arrow-right">
-            The timeline answers to the question: <br><br> <span style="font-family: 'Trebuchet MS', sans-serif;">&#8220;Which are the museal objects which shares some theme in common with Aeneis and when have they been created? &#8221;
+            As a <span class="highlight">multifaceted reader</span>, Gadda collected books by all genre
+            <br>
+            Gadda's library reflects a rich tapestry of intellectual interests. With a <span class="bold-style">core in Italian literature</span>, it extends globally to encompass history, philosophy, technology, and languages. Beyond traditional genres, the collection spans arts, geography, and military topics, showcasing a multifaceted exploration of human expression and the world.
+            <br>
+The data is organized and presented <span class="bold-style">hierarchically </span>in a radial bar chart. The primary layer represents the genre, while the secondary layer delineates subgenres, ensuring a comprehensive insight.
+<br>
+<br>
+<span style="font-size: smaller; font-weight: 900; color: #b7491d;">
+<i class="bx bx-chevron-right-circle" style="color: #b7491d;;font-weight: 900;font-size: large;"></i> 
+Click on each genre to gain a focused perspective."
+</span>
           </div>
         </div>
         </div>
@@ -333,7 +382,14 @@ section {
           <div class="col-sm-12 col-md-3">
                      
             <div class="box arrow-right">
-              The timeline answers to the question: <br><br> <span style="font-family: 'Trebuchet MS', sans-serif;">&#8220;Which are the museal objects which shares some theme in common with Aeneis and when have they been created? &#8221;
+              The chart provides a comprehensive view of the volumes in Gadda's library based on <span class="bold-style">their publication years</span>. The x-axis represents the date-based data, specifically the publication year of the books, while the y-axis depicts the corresponding number of books for each year. This visual representation illuminates the temporal distribution of Gadda's literary collection, offering a clear insight into the ebb and flow of his reading preferences over the years.
+              <br>
+              <br>
+              <span style="font-size: smaller; font-weight: 900; color: #b7491d;">
+              <i class="bx bx-chevron-right-circle" style="color: #b7491d;;font-weight: 900;font-size: large;"></i> 
+              Hover inside the chart to visulize the number of books for each year and use the scrollbar to zoom in 
+              </span>
+
             </div>
           </div>
           </div>
@@ -348,6 +404,40 @@ section {
 <section id="annotations" class="annotations">
 
   <div class="row">
+    <div class="col-sm-12 col-md-12">
+      <span class="bold-style" style=" font-size: large;">The books he most <span class="highlight">loved</span> and <span class="highlight">studied</span>.</span>
+<br>
+The data underscores the author's engagement with scholastic volumes. This emphasis on annotated study materials suggests a dedicated scholarly pursuit, where the act of annotating serves as a means of active learning and critical exploration <br>
+<br>
+</div>
+
+
+  <div class="row" style="margin: 0%;">
+    <div class="col-sm-12 col-md-6">
+     The bar chart shows the <span class="bold-style">10 most annotated books </span>
+     <br>
+     <br>
+     <span style="font-size: smaller; font-weight: 900; color: #b7491d;">
+     <i class="bx bx-chevron-right-circle" style="color: #b7491d;;font-weight: 900;font-size: large;"></i> 
+     Hover on each column to find how many annotation each book contains
+     </span>
+      </div>
+
+
+      <div class="col-sm-12 col-md-6">  
+        The bar chart shows the <span class="bold-style">10 most annotated authors </span>
+        <br>
+        <br>
+        <span style="font-size: smaller; font-weight: 900; color: #b7491d;">
+        <i class="bx bx-chevron-right-circle" style="color: #b7491d;;font-weight: 900;font-size: large;"></i> 
+        Hover on each column to find how many times each author has been annotated 
+        </span>
+      </div>
+    </div>
+
+
+
+  <div class="row" style="margin: 0%;">
     <div class="col-sm-12 col-md-6">
       <div class="flourish-embed flourish-chart" data-src="visualisation/16084011" >
         <script src="https://public.flourish.studio/resources/embed.js"></script>
@@ -361,7 +451,7 @@ section {
     </div>
     
 
-    <div class="row">
+    <div class="row" style="margin: 0%;">
       <div class="col-sm-12 col-md-9">
         <div class="flourish-embed flourish-word-cloud" data-src="visualisation/16204689">
           <script src="https://public.flourish.studio/resources/embed.js"></script></div>
@@ -370,7 +460,15 @@ section {
   
   
         <div class="col-sm-12 col-md-3">  
-         <p>suca</p>
+         <p><span class="highlight">The word cloud </span>visually presents the <span class="bold-style">most frequently used words</span> in Gadda's annotations, extracted from Excel spreadsheets of word frequencies. This graphical representation offers an immediate and intuitive glimpse into the recurring themes, concepts, and emphases that characterize Gadda's annotations
+          <br>
+          <br>
+          <span style="font-size: smaller; font-weight: 900; color: #b7491d;">
+          <i class="bx bx-chevron-right-circle" style="color: #b7491d;;font-weight: 900;font-size: large;"></i> 
+         
+          Hover on the chart to see the number of occurances
+          </span>
+         </p>
       </div>
 
 
@@ -424,29 +522,111 @@ section {
 
    <!-- Template Observable  -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+  
   <script type="module">
+
   import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
   import define from "https://api.observablehq.com/d/a5f0ff8f114c2929@413.js?v=4";
-  new Runtime().module(define, name => {
-    if (name === "image") return new Inspector(document.querySelector("#observablehq-image-73bb894e"));
-  });
+
+  const runtime = new Runtime();
+const main = runtime.module(define, name => {
+  if (name === "image") {
+    return new Inspector(document.querySelector("#observablehq-image-73bb894e"));
+  }
+});
+
+
+
+// Redefine the cell “width” to have a fixed value of 640; this masks the value
+// provided by the Observable standard library.
+main.redefine("width", 700);
+
+  
   </script>
 
 
 
   <script> 
+var speed = 20;
+
+// Create an Intersection Observer instance
+var observer = new IntersectionObserver(function(entries, observer) {
+    entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+            // Start the count animation when the element is in the viewport
+            incEltNbr("nbr");
+            observer.unobserve(entry.target); // Stop observing once triggered
+        }
+    });
+}, { threshold: 0.5 }); // Adjust threshold as needed
+
+// Observe the target element
+observer.observe(document.getElementById("nbr"));
+
+function incEltNbr(id) {
+  elt = document.getElementById(id);
+  endNbr = Number(elt.innerHTML);
+  incNbrRec(0, endNbr, elt);
+}
+
+function incNbrRec(i, endNbr, elt) {
+  if (i <= endNbr) {
+    elt.innerHTML = i;
+    setTimeout(function() {
+      incNbrRec(i + 26, endNbr, elt);
+    }, speed);
+  }
+}
+
+$(document).on('click', '.nav-menu a, .scrollto', function(e) {
+    // Your existing smooth scrolling code
+});
+
+$(document).ready(function() {
+    // Your existing smooth scrolling on page load with hash links in the URL
+    // ...
+
+    // Highlight the appropriate navigation item on page load
+    highlightNavOnScroll();
+});
+
+$(document).on('click', '.mobile-nav-toggle', function(e) {
+    // Your existing mobile navigation toggle code
+});
+
+$(document).click(function(e) {
+    // Your existing click outside mobile navigation code
+});
+
+$(window).on('scroll', function() {
+    // Your existing navigation active state on scroll code
+    highlightNavOnScroll();
+});
+
+// Function to highlight the navigation item based on scroll position
+function highlightNavOnScroll() {
+    var cur_pos = $(this).scrollTop() + 300;
+    var nav_sections = $('section');
+    var main_nav = $('.nav-menu, #mobile-nav');
+
+    nav_sections.each(function() {
+        var top = $(this).offset().top,
+            bottom = top + $(this).outerHeight();
+
+        if (cur_pos >= top && cur_pos <= bottom) {
+            if (cur_pos <= bottom) {
+                main_nav.find('li').removeClass('active');
+            }
+            main_nav.find('a[href="#' + $(this).attr('id') + '"]').parent('li').addClass('active');
+        }
+        if (cur_pos < 200) {
+            $(".nav-menu ul:first li:first").addClass('active');
+        }
+    });
+}
 
 
-
-   $(document).on('click', '.nav-menu a, .scrollto', function(e) {
-    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      if (target.length) {
-        e.preventDefault();
-      }}});
-
-
-  
+  //Scroll data
   am5.ready(function () {
     // Create root element
     var root = am5.Root.new("chartdiv");
@@ -474,7 +654,10 @@ section {
     }));
     cursor.lineY.set("visible", false);
 
-
+// add scrollbar
+chart.set("scrollbarX", am5.Scrollbar.new(root, {
+  orientation: "horizontal"
+}));
 
 
     
@@ -482,7 +665,7 @@ section {
     var xAxis = chart.xAxes.push(am5xy.DateAxis.new(root, {
   maxDeviation: 0.5,
   baseInterval: {
-    timeUnit: "day",
+    timeUnit: "year",
     count: 1
   },
   renderer: am5xy.AxisRendererX.new(root, {
@@ -537,36 +720,6 @@ series.set("labelText", am5.color("#b5291d")); // set Series color to red
 
 
 
-
-// Add scrollbar
-    var scrollbar = chart.set("scrollbarX", am5xy.XYChartScrollbar.new(root, {
-      orientation: "horizontal",
-      height: 60
-    }));
-
-    var sbDateAxis = scrollbar.chart.xAxes.push(am5xy.DateAxis.new(root, {
-      baseInterval: {
-        timeUnit: "day",
-        count: 1
-      },
-      renderer: am5xy.AxisRendererX.new(root, {
-        minorGridEnabled: true,
-        minGridDistance: 70
-      })
-    }));
-
-    var sbValueAxis = scrollbar.chart.yAxes.push(
-      am5xy.ValueAxis.new(root, {
-        renderer: am5xy.AxisRendererY.new(root, {})
-      })
-    );
-
-    var sbSeries = scrollbar.chart.series.push(am5xy.LineSeries.new(root, {
-      valueYField: "value",
-      valueXField: "date",
-      xAxis: sbDateAxis,
-      yAxis: sbValueAxis
-    }));
 
     // Your provided JSON data
     var jsonDataYear = {
@@ -1277,14 +1430,10 @@ series.set("labelText", am5.color("#b5291d")); // set Series color to red
     sbSeries.data.setAll(data);
 
     // Make stuff animate on load
-    series.appear(1000);
-    chart.appear(1000, 100);
   });
 
 
-
-
-
+//Bullet barchart
   am5.ready(function() {
 
 // Create root element
@@ -1500,15 +1649,15 @@ series.bullets.push(function(root, series, dataItem) {
 series.set("heatRules", [
   {
     dataField: "valueX",
-    min: am5.color(0xe5dc36),
-    max: am5.color(0x5faa46),
+    min: am5.color(0xb7491d),
+    max: am5.color(0x6d2b11),
     target: series.columns.template,
     key: "fill"
   },
   {
     dataField: "valueX",
-    min: am5.color(0xe5dc36),
-    max: am5.color(0x5faa46),
+    min: am5.color(0xb7491d),
+    max: am5.color(0x6d2b11),
     target: circleTemplate,
     key: "fill"
   }
@@ -1531,13 +1680,14 @@ cursor.events.on("cursormoved", function() {
   }
 })
 
-// Make stuff animate on load
-// https://www.amcharts.com/docs/v5/concepts/animations/
-series.appear();
-chart.appear(1000, 100);
+
 
 }); // end am5.ready()
-</script>
+
+
+
+
+ </script>
 
 
 
