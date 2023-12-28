@@ -59715,7 +59715,7 @@ document.addEventListener('click', function (event) {
       });
 
       // Open the archive.html file in a new window with schedeValue as a query parameter
-      window.open(`Archive2.html?schedeValue=${encodeURIComponent(schedeValue)}`, '_blank');
+      window.open(`Archive.html?schedeValue=${encodeURIComponent(schedeValue)}`, '_blank');
 
       // Display the matching items from jsondataarch on archive.html
       showMatchingItems(matchingArchItems);

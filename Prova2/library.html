@@ -36,6 +36,38 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/list.pagination.js/0.1.1/list.pagination.js" integrity="sha512-DgwxWpg8sBTL8c/Q3AB2agigdCpBRVWb3WRNlgaxHWqCNxzv/80XVYXCHSftOrigEF/h8wv+lPjngSAq3fHlGw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>   
     <style>
 
+#arrow_box {
+	position: relative;
+	background: #b7491d;
+	border: 4px solid #b7491d;
+}
+ #arrow_box:after, .arrow_box:before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: "";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+#arrow_box:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-top-color: #b7491d;
+	border-width: 30px;
+	margin-left: -30px;
+}
+#arrow_box:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-top-color: #c2e1f5;
+	border-width: 36px;
+	margin-left: -36px;
+}
+
+#matchingItems2{
+  display: none;
+}
 .wrapper {
   display: flex;
   width: 100%;
@@ -99,14 +131,14 @@
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li class="dropdown"><a href="#"><span>Archive</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Database</a></li>
-              <li><a href="#">Data Visualization</a></li>
+              <li><a href="library.html">Database</a></li>
+              <li><a href="">Data Visualization</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Library</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="library.html">Database</a></li>
-              <li><a href="#">Data Visualization</a></li>
+              <li><a href="Viz.html">Data Visualization</a></li>
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
@@ -122,60 +154,80 @@
     
   </section><!-- End Hero -->
 
+
+
   <div class="wrapper">
-  <nav id="sidebar">
-    <div class="sidebar-header">
-        <h3>Filter through the catalog</h3>
+      <nav id="sidebar">
+        <div class="sidebar-header">
+            <h3>Filter through the catalog</h3>
+        </div>
+        <div id="sidebar-content">
+        <p>Explore the four conservation fund that collect Gadda's library:</p>
+        
+      
+      
+    
+      <ul class="filter-by" id="filter-by">
+      <button class="btn" id="show-all">Show All </button>
+    
+    <li><button class="btn filter-button" data-filter="BTB" title="Biblioteca Teatrale del Burcardo">BTB</button>
+    </li>
+    <li>
+    <button class="btn filter-button" data-filter="BAL" title="Biblioteca dell’archivio liberati">BAL</button>
+    
+    </li>
+    <li>
+    <button class="btn filter-button" data-filter="BAC" title="Biblioteca dell’archivio contemporaneo “alessandro Bonsanti” del Gabinetto G.P. Vieusseux di Firenze">BAC</button>
+    </li>
+    
+    <li>
+    <button class="btn filter-button" data-filter="BTM" title="Biblioteca Trivulziana Milano">BTM</button>
+    
+    </li>
+    
+    </ul>
+    
+    
+    
+    
+    <p>Visualize only the Text annotated by Gadda:</p>
+    
+    <ul class="filter-annotation">
+    <button class="btn" id="show-annotations">Show annotated texts</button>
+    <!--<button class="btn" id="revert-show-annotations">Show All</button>-->
+    </ul>
+    
+    
+    
+    
+    
+        <ul class="sort-by">
+    
+    
+        <button class="btn sort" data-sort="Title">Sort by title</button>
+        <button class="btn sort" data-sort="Authors">Sort by author</button>
+        <button class="btn sort" data-sort="Years">Sort by year</button>
+      </ul>
+<br>
+<br>
+<p>
+      <a href="OutputBook.xlsx" download="OutputBook.xlsx">
+        <img width="30" height="30" src="https://img.icons8.com/ios/50/export-excel.png" alt="export-excel"/>
+    </a>
+    Download The Excel File of the Library 
+  </p>
+<p>
+    <a href="Postille.xlsx" download="Postille.xlsx">
+      <img width="30" height="30" src="https://img.icons8.com/ios/50/export-excel.png" alt="export-excel"/>
+  </a>
+  Download The Excel File of the Annotatioons
+</p>
     </div>
-    <div id="sidebar-content">
-    <p>Explore the four conservation fund that collect Gadda's library:</p>
+
+
+    </nav>
     
   
-  
-
-  <ul class="filter-by" id="filter-by">
-  <button class="btn" id="show-all">Show All </button>
-
-<li><button class="btn filter-button" data-filter="BTB" title="Biblioteca Teatrale del Burcardo">BTB</button>
-</li>
-<li>
-<button class="btn filter-button" data-filter="BAL" title="Biblioteca dell’archivio liberati">BAL</button>
-
-</li>
-<li>
-<button class="btn filter-button" data-filter="BAC" title="Biblioteca dell’archivio contemporaneo “alessandro Bonsanti” del Gabinetto G.P. Vieusseux di Firenze">BAC</button>
-</li>
-
-<li>
-<button class="btn filter-button" data-filter="BTM" title="Biblioteca Trivulziana Milano">BTM</button>
-
-</li>
-
-</ul>
-
-
-
-
-<p>Visualize only the Text annotated by Gadda:</p>
-
-<ul class="filter-annotation">
-<button class="btn" id="show-annotations">Show annotated texts</button>
-<!--<button class="btn" id="revert-show-annotations">Show All</button>-->
-</ul>
-
-
-
-
-
-    <ul class="sort-by">
-
-
-    <button class="btn sort" data-sort="Title">Sort by title</button>
-    <button class="btn sort" data-sort="Authors">Sort by author</button>
-    <button class="btn sort" data-sort="Years">Sort by year</button>
-  </ul>
-</div>
-</nav>
   
   <main id="main" >
 
@@ -184,12 +236,10 @@
       <span>Toggle Sidebar</span>
   </button>-->
     <h1><a href="library.html">Library Catalog</a></h1>
+    <div id="matchingItems2"><p>match</p></div>
 
     <div id="catalog">
-    
-
-    
-
+      
       <div class="search-container">
         <div>
           <h4 class="search-heading">Keyword search</h4>
@@ -254,30 +304,35 @@
         </div>
       </div>
 
+    
+
       
+      <div class="searchFil">
+        <input type="text" id="search-author" placeholder="Search by Author">
+        <input class="searchFil" type="text" id="search-title" placeholder="Search by Title">
+
+    </div>
+ 
+
+  <p><a id="AutList" href="ListAuthors.html" target="_blank">Click here to have an overview list of all the authors</a>
+  </p>
+
+  <div style="display: flex; ">
+<div class="count-container" id="arrow_box">
+    <img width="50" height="50" src="https://img.icons8.com/ios/50/literature--v1.png" alt="literature--v1"/>
+    <span class="count">0</span>
+  </div>
+  </div>
     
         
       
-          <div class="searchFil">
-              <input type="text" id="search-author" placeholder="Search by Author">
-              <input class="searchFil" type="text" id="search-title" placeholder="Search by Title">
-
-          </div>
-       
-
-        <p><a id="AutList" href="ListAuthors.html" target="_blank">Click here to have an overview list of all the authors</a>
-        </p>
-
-        <div style="display: flex; ">
-    <div class="count-container">
-          <img width="50" height="50" src="https://img.icons8.com/ios/50/literature--v1.png" alt="literature--v1"/>
-          <span class="count">0</span>
-        </div>
-        </div>
 
         <ul class="list">
           
         </ul>
+
+
+        
         <ul class="pagination"></ul>
         
 
@@ -321,6 +376,7 @@
     </div>
   </footer><!-- End Footer -->
 
+
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
@@ -333,7 +389,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  <script src="assets/js/library.js"></script>
+  <script src="Library.js"></script>
 
   <script>
     // funzione per renderla collapsible
